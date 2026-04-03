@@ -14,7 +14,7 @@ function StatCard({ value, label, color = 'var(--blue)' }: { value: string; labe
     }}>
       <span style={{
         fontFamily: 'var(--font-mono)',
-        fontSize: '22px',
+        fontSize: '20px',
         fontWeight: 700,
         color,
         letterSpacing: '-0.02em',
@@ -49,7 +49,7 @@ const content = {
     vice1: <>Faça um exercício mental. Pergunte a dez pessoas na rua quem é o <strong>Presidente da República</strong>. Provavelmente todos os dez sabem. Quem é o <strong>Governador do estado</strong>? Talvez quatro ou cinco. Quem é o <strong>Vice-Governador</strong>? Sorte se um responder.</>,
     vice2: <>E o Senado? Provavelmente menos de 1% das pessoas sabem que cada estado elege <strong>3 Senadores</strong>, com mandatos de 8 anos. E talvez <strong>0,02%</strong> consiga nomear os três que representam seu estado — mesmo sendo os parlamentares de mandato mais longo e, proporcionalmente, mais caros do sistema.</>,
     vice3: <>O problema não é a ignorância das pessoas. É que o sistema foi desenhado para ser opaco. <strong>Quanto mais invisível o cargo, mais fácil é abusar dele.</strong> E é exatamente aí que mora o perigo — porque é esse cargo invisível que vota nas leis que definem quanto você vai pagar de imposto amanhã.</>,
-    vice4: <>A carga tributária brasileira beira os <strong>33% do PIB</strong> e pune, acima de tudo, o consumo. O <strong>ICMS</strong> — Imposto sobre Circulação de Mercadorias e Serviços — é o principal vilão. Existe uma regra chamada de <em>"essencialidade"</em>: produtos considerados não essenciais, como eletrônicos e perfumes, podem ter alíquotas que ultrapassam facilmente os <strong>100%</strong>. Você compra um produto para você e entrega o valor de mais de um produto inteiro ao governo. É esse dinheiro — o dinheiro do seu celular, do seu perfume, da sua cerveja — que banca os salários da galera que a gente nem lembra que existe.</>,
+    vice4: <>A carga tributária brasileira beira os <strong>33% do PIB</strong> e pune, acima de tudo, o consumo. O <strong>ICMS</strong> — Imposto sobre Circulação de Mercadorias e Serviços — é o principal vilão. Existe uma regra chamada de <em>"essencialidade"</em>: produtos considerados não essenciais, como eletrônicos e perfumes, podem ter alíquotas que ultrapassam facilmente os <strong>100%</strong>. Você compra um produto para você e entrega o valor de mais de um produto inteiro ao governo. É esse dinheiro — do seu celular, do seu perfume, da sua cerveja — que banca os salários da galera que a gente nem lembra que existe.</>,
 
     // Choque
     shockTitle: 'O choque de realidade: R$ 6,15 bilhões em 45 dias',
@@ -64,8 +64,10 @@ const content = {
     // Semideus
     semigodTitle: 'A vida de semideus',
     semigod1: <>Quando se fala em salário de parlamentar, a maioria pensa no <strong>subsídio base</strong> — que gira em torno de R$ 33 a 46 mil mensais, dependendo do cargo. Mas esse valor representa, em geral, menos de <strong>20% do custo real</strong> de um político ao erário.</>,
-    semigod2: <>Existem as <strong>"indenizações"</strong>: auxílio-moradia, cota para escritório de apoio, verba de gabinete, passagens aéreas ilimitadas, servidores cedidos, carro oficial, plano de saúde, assessoria jurídica e mais. O detalhe crucial: <strong>nenhum desses benefícios é tributado como renda.</strong> Somados, o custo real mensal de um parlamentar ao Estado brasileiro gira em torno de <strong>R$ 210 mil por mês</strong>.</>,
+    semigod2: <>Existem as <strong>"indenizações"</strong>: auxílio-moradia, cota para escritório de apoio, verba de gabinete, passagens aéreas ilimitadas, servidores cedidos, carro oficial, plano de saúde, assessoria jurídica e mais. O detalhe crucial: <strong>nenhum desses benefícios é tributado como renda.</strong> Somados, o custo real mensal de um parlamentar ao Estado brasileiro gira em torno de <strong>R$ 210 mil por mês</strong> — cerca de US$ 42 mil.</>,
     semigod3: <>Eles voam em classe executiva quando a viagem é longa. Têm moradia custeada na capital federal. Transporte, alimentação e comunicação são reembolsados. Em democracias europeias, um parlamentar pega o metrô para ir trabalhar — e isso não é figura de linguagem. Aqui, <strong>a lógica é outra</strong>: quem decide as regras decide os próprios privilégios.</>,
+    semigod4: <>Existe algum país no mundo onde um parlamentar ganhe <strong>US$ 42 mil líquidos por mês</strong>? A resposta é <strong>não</strong>. Para se ter noção, o Presidente dos EUA ganha cerca de <strong>US$ 400 mil por ano</strong>. O parlamentar brasileiro, somando as verbas indiretas e indenizações isentas de imposto, custa ao erário mais de <strong>US$ 500 mil ao ano</strong>. Somente monarcas absolutistas ou chefes de Estado específicos — como o Primeiro-Ministro de Singapura — chegam perto desses valores brutos.</>,
+    semigod5: <>Nessas eleições, o Brasil preencheu <strong>1.654 vagas</strong>. Se cada uma custar em média R$ 210 mil mensais, estamos falando de <strong>R$ 347,3 milhões por mês</strong>. Multiplicando por 13 (incluindo o décimo-terceiro), o custo ultrapassa <strong>R$ 4,51 bilhões por ano</strong> — só para manter a estrutura dos eleitos. Com o salário mínimo atual de R$ 1.500, esses R$ 4,51 bilhões seriam suficientes para pagar um salário mínimo a mais de <strong>3 milhões de pessoas</strong> num único mês, ou sustentar <strong>231 mil trabalhadores</strong> pelo ano inteiro.</>,
 
     // Fundo
     fundTitle: 'Fundo Partidário e Fundão Eleitoral: a cereja do bolo',
@@ -75,21 +77,33 @@ const content = {
 
     // Tabela
     tableTitle: 'O Brasil no espelho do mundo',
-    tableIntro: <>Para entender o nível do absurdo, é preciso comparar. A tabela abaixo cruza o <strong>salário mínimo</strong> de cada país com o custo mensal de um político (incluindo benefícios e indenizações):</>,
-    tableHeaders: ['País', 'Sal. Mínimo (Mensal/US$)', 'Custo Político (Mensal/US$)', 'Disparidade'],
+    tableIntro: <>Para entender o nível do absurdo, é preciso comparar. A tabela abaixo ranqueia países da maior para a menor disparidade entre o <strong>salário mínimo</strong> e o custo mensal de um político (incluindo benefícios e indenizações):</>,
+    tableHeaders: ['País', 'Sal. Mínimo (US$/mês)', 'Custo Político (US$/mês)', 'Disparidade'],
     tableRows: [
-      ['🇧🇷 Brasil', '~$280', '~$42.000 (Base + Indenizações)', '~150x maior'],
-      ['🇨🇴 Colômbia', '~$330', '~$11.000', '~33x maior'],
-      ['🇨🇱 Chile', '~$520', '~$7.300', '~14x maior'],
-      ['🇺🇸 EUA', '~$1.160', '~$14.500', '~12.5x maior'],
-      ['🇦🇷 Argentina', '~$200', '~$2.000', '~10x maior'],
-      ['🇮🇹 Itália', '~$1.300', '~$11.200', '~8.6x maior'],
-      ['🇩🇪 Alemanha', '~$2.150', '~$11.300', '~5.2x maior'],
-      ['🇵🇹 Portugal', '~$880', '~$4.100', '~4.6x maior'],
-      ['🇫🇷 França', '~$1.900', '~$8.100', '~4.3x maior'],
-      ['🇪🇸 Espanha', '~$1.220', '~$4.500', '~3.7x maior'],
+      ['🇳🇬 Nigéria',       '~$40',    '~$14.000',                      '~350x maior'],
+      ['🇧🇷 Brasil',        '~$280',   '~$42.000 (Base + Indenizações)', '~150x maior'],
+      ['🇲🇽 México',        '~$350',   '~$15.750',                      '~45x maior'],
+      ['🇨🇴 Colômbia',      '~$330',   '~$11.000',                      '~33x maior'],
+      ['🇷🇺 Rússia',        '~$200',   '~$6.000',                       '~30x maior'],
+      ['🇿🇦 África do Sul', '~$250',   '~$6.000',                       '~24x maior'],
+      ['🇨🇱 Chile',         '~$520',   '~$7.300',                       '~14x maior'],
+      ['🇺🇸 EUA',           '~$1.160', '~$14.500',                      '~12.5x maior'],
+      ['🇦🇷 Argentina',     '~$200',   '~$2.000',                       '~10x maior'],
+      ['🇪🇬 Egito',         '~$150',   '~$1.500',                       '~10x maior'],
+      ['🇮🇹 Itália',        '~$1.300', '~$11.200',                      '~8.6x maior'],
+      ['🇩🇪 Alemanha',      '~$2.150', '~$11.300',                      '~5.2x maior'],
+      ['🇮🇪 Irlanda',       '~$2.000', '~$9.500',                       '~4.7x maior'],
+      ['🇵🇹 Portugal',      '~$880',   '~$4.100',                       '~4.6x maior'],
+      ['🇫🇷 França',        '~$1.900', '~$8.100',                       '~4.3x maior'],
+      ['🇧🇪 Bélgica',       '~$2.000', '~$8.500',                       '~4.2x maior'],
+      ['🇬🇧 Reino Unido',   '~$2.000', '~$8.000',                       '~4x maior'],
+      ['🇪🇸 Espanha',       '~$1.220', '~$4.500',                       '~3.7x maior'],
+      ['🇨🇭 Suíça',         '~$4.000', '~$14.000',                      '~3.5x maior'],
+      ['🇳🇴 Noruega',       '~$3.000', '~$10.000',                      '~3.3x maior'],
+      ['🇸🇪 Suécia',        '~$2.500', '~$7.500',                       '~3x maior'],
     ],
-    tableNote: <>Em democracias consolidadas da Europa Ocidental, a disparidade entre o salário mínimo e o custo de um político fica entre <strong>3x e 5x</strong>. Nesses países, parlamentares usam transporte público, prestam contas detalhadas de cada real gasto e vivem dentro de uma realidade que não é radicalmente diferente da dos seus eleitores. No Brasil, essa disparidade <strong>beira 150 vezes</strong>. Isso não é atraso econômico — é uma escolha política deliberada, reiterada a cada legislatura.</>,
+    tableNote1: <><strong>Nota:</strong> Países como China, Arábia Saudita, Etiópia e Eritreia ficaram de fora desta tabela pois não operam como democracias tradicionais; não possuem salário mínimo nacional unificado ou suas legislaturas são compostas por membros não-assalariados do partido ou da realeza.</>,
+    tableNote2: <>Observe os extremos. Na Europa, onde o parlamento é encarado como um serviço público real, a diferença fica entre <strong>3 a 5 vezes</strong> — e os políticos andam de trem com a população. No topo do ranking, temos a <strong>Nigéria</strong>: um parlamento com poder legal de criar suas próprias <em>allowances</em> num país com recursos abundantes (petróleo), mas com uma população na miséria. O Brasil copiou exatamente essa fórmula: uma elite intocável que aprova os próprios privilégios, sustentada por um povo que paga impostos punitivos sobre tudo o que consome.</>,
 
     // Próximos passos
     nextTitle: 'Próximos passos',
@@ -131,8 +145,10 @@ const content = {
     // Semideus
     semigodTitle: 'The demigod lifestyle',
     semigod1: <>When people think of a politician's salary, they think of the <strong>base subsidy</strong> — around R$33,000 to R$46,000 per month depending on the office. But that figure generally represents less than <strong>20% of the real cost</strong> of a politician to the public treasury.</>,
-    semigod2: <>There are the <strong>"indemnities"</strong>: housing allowance, office support quota, cabinet funds, unlimited airline tickets, loaned civil servants, official vehicle, health plan, legal consultancy, and more. The crucial detail: <strong>none of these benefits are taxed as income.</strong> Combined, the real monthly cost of a Brazilian legislator to the state is around <strong>R$210,000 per month</strong>.</>,
+    semigod2: <>There are the <strong>"indemnities"</strong>: housing allowance, office support quota, cabinet funds, unlimited airline tickets, loaned civil servants, official vehicle, health plan, legal consultancy, and more. The crucial detail: <strong>none of these benefits are taxed as income.</strong> Combined, the real monthly cost of a Brazilian legislator to the state is around <strong>R$210,000 per month</strong> — roughly US$42,000.</>,
     semigod3: <>They fly business class on long trips. Housing in the federal capital is covered. Transport, meals, and communications are reimbursed. In European democracies, a legislator takes the subway to work — and that's not a figure of speech. Here, <strong>the logic is different</strong>: whoever sets the rules sets their own privileges.</>,
+    semigod4: <>Does any country in the world pay a legislator <strong>US$42,000 net per month</strong>? The answer is <strong>no</strong>. For reference, the President of the United States earns around <strong>US$400,000 per year</strong>. The Brazilian legislator, adding up indirect allowances and tax-exempt indemnities, costs the public treasury over <strong>US$500,000 per year</strong>. Only absolute monarchs or specific heads of state — like the Prime Minister of Singapore — come close to those gross figures.</>,
+    semigod5: <>In these elections, Brazil filled <strong>1,654 seats</strong>. If each costs an average of R$210,000 per month, that's <strong>R$347.3 million per month</strong>. Multiplied by 13 (including the year-end bonus), the cost exceeds <strong>R$4.51 billion per year</strong> — just to maintain the structure of those elected. At the current minimum wage of R$1,500, those R$4.51 billion would be enough to pay a minimum wage to more than <strong>3 million people</strong> in a single month, or sustain <strong>231,000 workers</strong> for an entire year.</>,
 
     // Fundo
     fundTitle: 'Party Fund and Electoral Fund: the cherry on top',
@@ -142,21 +158,33 @@ const content = {
 
     // Tabela
     tableTitle: 'Brazil in the world mirror',
-    tableIntro: <>To understand the scale of the absurdity, comparison is necessary. The table below crosses the <strong>minimum wage</strong> of each country against the monthly cost of a politician (including benefits and indemnities):</>,
-    tableHeaders: ['Country', 'Min. Wage (Monthly/US$)', 'Politician Cost (Monthly/US$)', 'Disparity'],
+    tableIntro: <>To understand the scale of the absurdity, comparison is necessary. The table below ranks countries from the highest to the lowest disparity between the <strong>minimum wage</strong> and the monthly cost of a politician (including benefits and indemnities):</>,
+    tableHeaders: ['Country', 'Min. Wage (US$/mo)', 'Politician Cost (US$/mo)', 'Disparity'],
     tableRows: [
-      ['🇧🇷 Brazil', '~$280', '~$42,000 (Base + Indemnities)', '~150x higher'],
-      ['🇨🇴 Colombia', '~$330', '~$11,000', '~33x higher'],
-      ['🇨🇱 Chile', '~$520', '~$7,300', '~14x higher'],
-      ['🇺🇸 USA', '~$1,160', '~$14,500', '~12.5x higher'],
-      ['🇦🇷 Argentina', '~$200', '~$2,000', '~10x higher'],
-      ['🇮🇹 Italy', '~$1,300', '~$11,200', '~8.6x higher'],
-      ['🇩🇪 Germany', '~$2,150', '~$11,300', '~5.2x higher'],
-      ['🇵🇹 Portugal', '~$880', '~$4,100', '~4.6x higher'],
-      ['🇫🇷 France', '~$1,900', '~$8,100', '~4.3x higher'],
-      ['🇪🇸 Spain', '~$1,220', '~$4,500', '~3.7x higher'],
+      ['🇳🇬 Nigeria',       '~$40',    '~$14,000',                      '~350x higher'],
+      ['🇧🇷 Brazil',        '~$280',   '~$42,000 (Base + Indemnities)', '~150x higher'],
+      ['🇲🇽 Mexico',        '~$350',   '~$15,750',                      '~45x higher'],
+      ['🇨🇴 Colombia',      '~$330',   '~$11,000',                      '~33x higher'],
+      ['🇷🇺 Russia',        '~$200',   '~$6,000',                       '~30x higher'],
+      ['🇿🇦 South Africa',  '~$250',   '~$6,000',                       '~24x higher'],
+      ['🇨🇱 Chile',         '~$520',   '~$7,300',                       '~14x higher'],
+      ['🇺🇸 USA',           '~$1,160', '~$14,500',                      '~12.5x higher'],
+      ['🇦🇷 Argentina',     '~$200',   '~$2,000',                       '~10x higher'],
+      ['🇪🇬 Egypt',         '~$150',   '~$1,500',                       '~10x higher'],
+      ['🇮🇹 Italy',         '~$1,300', '~$11,200',                      '~8.6x higher'],
+      ['🇩🇪 Germany',       '~$2,150', '~$11,300',                      '~5.2x higher'],
+      ['🇮🇪 Ireland',       '~$2,000', '~$9,500',                       '~4.7x higher'],
+      ['🇵🇹 Portugal',      '~$880',   '~$4,100',                       '~4.6x higher'],
+      ['🇫🇷 France',        '~$1,900', '~$8,100',                       '~4.3x higher'],
+      ['🇧🇪 Belgium',       '~$2,000', '~$8,500',                       '~4.2x higher'],
+      ['🇬🇧 United Kingdom','~$2,000', '~$8,000',                       '~4x higher'],
+      ['🇪🇸 Spain',         '~$1,220', '~$4,500',                       '~3.7x higher'],
+      ['🇨🇭 Switzerland',   '~$4,000', '~$14,000',                      '~3.5x higher'],
+      ['🇳🇴 Norway',        '~$3,000', '~$10,000',                      '~3.3x higher'],
+      ['🇸🇪 Sweden',        '~$2,500', '~$7,500',                       '~3x higher'],
     ],
-    tableNote: <>In consolidated Western European democracies, the disparity between minimum wage and a politician's cost is between <strong>3x and 5x</strong>. In those countries, legislators use public transit, file detailed expense reports, and live within a reality not radically different from their voters'. In Brazil, that disparity <strong>approaches 150 times</strong>. This is not a matter of economic development — it's a matter of deliberate political choice, renewed every legislature.</>,
+    tableNote1: <><strong>Note:</strong> Countries such as China, Saudi Arabia, Ethiopia and Eritrea were excluded from this table as they do not operate as traditional democracies; they lack a unified national minimum wage, or their legislatures are composed of non-salaried party members or royalty.</>,
+    tableNote2: <>Look at the extremes. In Europe, where parliament is treated as genuine public service, the gap is between <strong>3 and 5 times</strong> — and politicians commute by train alongside the population. At the top of the ranking sits <strong>Nigeria</strong>: a parliament with the legal power to create its own <em>allowances</em> in a country with abundant resources (oil) but a population living in poverty. Brazil copied exactly that formula: an untouchable elite that approves its own privileges, sustained by a people paying punitive taxes on everything they consume.</>,
 
     // Próximos passos
     nextTitle: 'Next steps',
@@ -174,8 +202,8 @@ export default function EleicoesCampanhas2022() {
     textAlign: i === 3 ? 'right' : 'left',
     padding: '10px 14px',
     color: i === 3 ? 'var(--red)' : i === 0 ? 'var(--text)' : 'var(--text2)',
-    fontFamily: i === 3 ? 'var(--font-mono)' : 'inherit',
-    fontSize: i === 3 ? '12px' : '13px',
+    fontFamily: 'var(--font-mono)',
+    fontSize: '13px',
     fontWeight: i === 3 ? 600 : 400,
     borderBottom: '0.5px solid var(--border)',
     whiteSpace: 'nowrap',
@@ -185,6 +213,7 @@ export default function EleicoesCampanhas2022() {
     textAlign: i === 3 ? 'right' : 'left',
     padding: '10px 14px',
     color: 'var(--text3)',
+    fontFamily: 'var(--font-mono)',
     fontWeight: 500,
     fontSize: '11px',
     textTransform: 'uppercase',
@@ -256,6 +285,8 @@ export default function EleicoesCampanhas2022() {
       <p>{tx.semigod1}</p>
       <p>{tx.semigod2}</p>
       <p>{tx.semigod3}</p>
+      <p>{tx.semigod4}</p>
+      <p>{tx.semigod5}</p>
       <hr />
 
       {/* ── Fundo ── */}
@@ -268,7 +299,7 @@ export default function EleicoesCampanhas2022() {
       {/* ── Tabela Internacional ── */}
       <h2>{tx.tableTitle}</h2>
       <p>{tx.tableIntro}</p>
-      <div style={{ overflowX: 'auto', marginBottom: '1.5rem' }}>
+      <div style={{ overflowX: 'auto', marginBottom: '1rem' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '13px' }}>
           <thead>
             <tr>
@@ -279,7 +310,13 @@ export default function EleicoesCampanhas2022() {
           </thead>
           <tbody>
             {tx.tableRows.map((row, ri) => (
-              <tr key={ri} style={{ background: ri === 0 ? 'rgba(255,45,85,0.04)' : 'transparent' }}>
+              <tr key={ri} style={{
+                background: ri === 0
+                  ? 'rgba(255,45,85,0.06)'
+                  : ri === 1
+                  ? 'rgba(255,45,85,0.03)'
+                  : 'transparent',
+              }}>
                 {row.map((cell, ci) => (
                   <td key={ci} style={colStyle(ci)}>{cell}</td>
                 ))}
@@ -288,7 +325,10 @@ export default function EleicoesCampanhas2022() {
           </tbody>
         </table>
       </div>
-      <p>{tx.tableNote}</p>
+      <p style={{ fontSize: '12px', color: 'var(--text3)', fontFamily: 'var(--font-mono)', marginBottom: '1rem' }}>
+        {tx.tableNote1}
+      </p>
+      <p>{tx.tableNote2}</p>
       <hr />
 
       {/* ── Próximos passos ── */}

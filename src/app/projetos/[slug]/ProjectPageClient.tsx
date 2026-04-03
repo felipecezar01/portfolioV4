@@ -59,8 +59,8 @@ export default function ProjectPageClient({
             {p.year}
           </div>
           <h1 style={{
-            fontFamily: 'var(--font-display)', fontSize: '40px', fontWeight: 800,
-            color: 'var(--text)', letterSpacing: '-0.03em', lineHeight: 1.1, marginBottom: '16px',
+            fontFamily: 'var(--font-mono)', fontSize: '32px', fontWeight: 700,
+            color: 'var(--text)', letterSpacing: '-0.02em', lineHeight: 1.2, marginBottom: '16px',
           }}>
             {p.namePt}
           </h1>
