@@ -36,16 +36,4 @@ export const projects: Project[] = [
     linkedin: 'https://www.linkedin.com/in/felipecezarcruz/',
     year: '2026',
   },
-  {
-    slug: 'em-breve',
-    namePt: 'Em breve',
-    nameEn: 'Coming soon',
-    descPt: 'Novo projeto em construção. Volte em breve.',
-    descEn: 'New project under construction. Check back soon.',
-    tags: ['...'],
-    image: '/projects/coming-soon.png',
-    github: 'https://github.com/felipecezar01',
-    linkedin: 'https://www.linkedin.com/in/felipecezarcruz/',
-    year: '2026',
-  },
 ]
