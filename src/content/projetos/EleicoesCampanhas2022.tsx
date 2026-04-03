@@ -63,11 +63,31 @@ const content = {
 
     // Semideus
     semigodTitle: 'A vida de semideus',
-    semigod1: <>Quando se fala em salário de parlamentar, a maioria pensa no <strong>subsídio base</strong> — que gira em torno de R$ 33 a 46 mil mensais, dependendo do cargo. Mas esse valor representa, em geral, menos de <strong>20% do custo real</strong> de um político ao erário.</>,
-    semigod2: <>Existem as <strong>"indenizações"</strong>: auxílio-moradia, cota para escritório de apoio, verba de gabinete, passagens aéreas ilimitadas, servidores cedidos, carro oficial, plano de saúde, assessoria jurídica e mais. O detalhe crucial: <strong>nenhum desses benefícios é tributado como renda.</strong> Somados, o custo real mensal de um parlamentar ao Estado brasileiro gira em torno de <strong>R$ 210 mil por mês</strong> — cerca de US$ 42 mil.</>,
-    semigod3: <>Eles voam em classe executiva quando a viagem é longa. Têm moradia custeada na capital federal. Transporte, alimentação e comunicação são reembolsados. Em democracias europeias, um parlamentar pega o metrô para ir trabalhar — e isso não é figura de linguagem. Aqui, <strong>a lógica é outra</strong>: quem decide as regras decide os próprios privilégios.</>,
-    semigod4: <>Existe algum país no mundo onde um parlamentar ganhe <strong>US$ 42 mil líquidos por mês</strong>? A resposta é <strong>não</strong>. Para se ter noção, o Presidente dos EUA ganha cerca de <strong>US$ 400 mil por ano</strong>. O parlamentar brasileiro, somando as verbas indiretas e indenizações isentas de imposto, custa ao erário mais de <strong>US$ 500 mil ao ano</strong>. Somente monarcas absolutistas ou chefes de Estado específicos — como o Primeiro-Ministro de Singapura — chegam perto desses valores brutos.</>,
-    semigod5: <>Nessas eleições, o Brasil preencheu <strong>1.654 vagas</strong>. Se cada uma custar em média R$ 210 mil mensais, estamos falando de <strong>R$ 347,3 milhões por mês</strong>. Multiplicando por 13 (incluindo o décimo-terceiro), o custo ultrapassa <strong>R$ 4,51 bilhões por ano</strong> — só para manter a estrutura dos eleitos. Com o salário mínimo atual de R$ 1.500, esses R$ 4,51 bilhões seriam suficientes para pagar um salário mínimo a mais de <strong>3 milhões de pessoas</strong> num único mês, ou sustentar <strong>231 mil trabalhadores</strong> pelo ano inteiro.</>,
+    semigod1: <>A maioria das pessoas, quando ouve "salário de deputado", pensa nos R$ 33 a 46 mil do subsídio base e acha que já sabe o número. Não sabe. Esse valor é a ponta do iceberg — e nem é a parte que mais dói. Veja o raio-X real, com base nos dados públicos da própria Câmara dos Deputados:</>,
+    semigod2: (
+      <div style={{ background: 'var(--bg3)', border: '0.5px solid var(--border)', borderRadius: '8px', padding: '20px 24px', margin: '0.5rem 0 1.2rem', fontFamily: 'var(--font-mono)', fontSize: '13px' }}>
+        {[
+          ['Subsídio (salário base, com desconto de IR e previdência)', '~R$ 44.000'],
+          ['Verba de Gabinete (para contratar até 25 assessores)', '~R$ 125.000'],
+          ['Cota Parlamentar / "Cotão" (passagens, combustível, marketing, alimentação)', '~R$ 40.000'],
+          ['Auxílio-Moradia', '~R$ 8.400'],
+        ].map(([item, val], i) => (
+          <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '16px', padding: '8px 0', borderBottom: '0.5px solid var(--border)' }}>
+            <span style={{ color: 'var(--text2)' }}>{item}</span>
+            <span style={{ color: 'var(--blue)', whiteSpace: 'nowrap', fontWeight: 600 }}>{val}</span>
+          </div>
+        ))}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '16px', padding: '12px 0 0' }}>
+          <span style={{ color: 'var(--text)', fontWeight: 600 }}>Total estimado por mês</span>
+          <span style={{ color: 'var(--red)', whiteSpace: 'nowrap', fontWeight: 700, fontSize: '15px' }}>~R$ 217.400</span>
+        </div>
+      </div>
+    ),
+    semigod3: <>Falar em R$ 210 mil é até ser conservador. A conta acima ainda <strong>não inclui</strong> o incalculável: plano de saúde ilimitado que cobre cirurgias milionárias, passagens da FAB quando conveniente, e uma aposentadoria especial que nenhum trabalhador comum conseguirá na vida. Nessas eleições, o Brasil preencheu <strong>1.654 vagas</strong>. Se cada uma custar R$ 210 mil mensais, estamos falando de <strong>R$ 347,3 milhões por mês</strong>. Multiplicando por 13 (incluindo o décimo-terceiro), o custo ultrapassa <strong>R$ 4,51 bilhões por ano</strong> — só para manter a estrutura dos eleitos. Com o salário mínimo atual de R$ 1.500, esses R$ 4,51 bilhões seriam suficientes para pagar um salário mínimo a mais de <strong>3 milhões de pessoas</strong> num único mês, ou sustentar <strong>231 mil trabalhadores</strong> pelo ano inteiro.</>,
+    semigod4: <>Faça um exercício de lógica. Quais outras pessoas no mundo têm um estilo de vida com tanto acesso livre a capital e recursos? Você pode pensar em grandes empresários ou CEOs de Big Techs — Apple, Microsoft, Google. Mas esses executivos vivem sob <strong>pressão esmagadora</strong>: metas trimestrais, risco de demissão por acionistas, concorrência global e inovação constante. Se falharem, caem.</>,
+    semigod5: <>O político brasileiro vive o <strong>luxo do CEO sem nenhuma das responsabilidades</strong>. Tem estabilidade garantida, pode faltar a dezenas de sessões, trabalha presencialmente poucos dias na semana e não sofre nenhuma avaliação de desempenho real. O povo — que seria o acionista — é obrigado a continuar pagando impostos, sob pena de prisão, para financiar um sistema onde o funcionário é <strong>impossível de ser demitido</strong> antes do fim do mandato.</>,
+    semigod6: <>Além de todos esses benefícios custeados pelo Estado — da roupa que vestem, disfarçada em auxílios, até os carros que andam e os voos que pegam — muitos possuem suas próprias empresas, fazendas e holdings. Com uma vida legalmente tão luxuosa e sem estresse real, a pergunta que fica é: <strong>como ainda existe tanta corrupção e desvio de verbas?</strong> A resposta é o projeto de poder. O luxo vira o padrão, e o dinheiro ilícito financia a perpetuação no cargo.</>,
+    semigod7: <>Ao olharmos para o mundo, a anomalia brasileira choca não apenas na disparidade relativa, mas no <strong>valor absoluto</strong>. Na Nigéria — que lidera o ranking de desigualdade por ter um salário mínimo de apenas US$ 40 —, o custo de um político ronda os US$ 14 mil mensais. No Brasil, estamos falando de quase <strong>US$ 42 mil por mês</strong>. O parlamentar brasileiro ganha, em valores absolutos, <strong>mais do que parlamentares das nações mais ricas do planeta Terra</strong>.</>,
 
     // Fundo
     fundTitle: 'Fundo Partidário e Fundão Eleitoral: a cereja do bolo',
@@ -144,11 +164,31 @@ const content = {
 
     // Semideus
     semigodTitle: 'The demigod lifestyle',
-    semigod1: <>When people think of a politician's salary, they think of the <strong>base subsidy</strong> — around R$33,000 to R$46,000 per month depending on the office. But that figure generally represents less than <strong>20% of the real cost</strong> of a politician to the public treasury.</>,
-    semigod2: <>There are the <strong>"indemnities"</strong>: housing allowance, office support quota, cabinet funds, unlimited airline tickets, loaned civil servants, official vehicle, health plan, legal consultancy, and more. The crucial detail: <strong>none of these benefits are taxed as income.</strong> Combined, the real monthly cost of a Brazilian legislator to the state is around <strong>R$210,000 per month</strong> — roughly US$42,000.</>,
-    semigod3: <>They fly business class on long trips. Housing in the federal capital is covered. Transport, meals, and communications are reimbursed. In European democracies, a legislator takes the subway to work — and that's not a figure of speech. Here, <strong>the logic is different</strong>: whoever sets the rules sets their own privileges.</>,
-    semigod4: <>Does any country in the world pay a legislator <strong>US$42,000 net per month</strong>? The answer is <strong>no</strong>. For reference, the President of the United States earns around <strong>US$400,000 per year</strong>. The Brazilian legislator, adding up indirect allowances and tax-exempt indemnities, costs the public treasury over <strong>US$500,000 per year</strong>. Only absolute monarchs or specific heads of state — like the Prime Minister of Singapore — come close to those gross figures.</>,
-    semigod5: <>In these elections, Brazil filled <strong>1,654 seats</strong>. If each costs an average of R$210,000 per month, that's <strong>R$347.3 million per month</strong>. Multiplied by 13 (including the year-end bonus), the cost exceeds <strong>R$4.51 billion per year</strong> — just to maintain the structure of those elected. At the current minimum wage of R$1,500, those R$4.51 billion would be enough to pay a minimum wage to more than <strong>3 million people</strong> in a single month, or sustain <strong>231,000 workers</strong> for an entire year.</>,
+    semigod1: <>Most people, when they hear "legislator's salary," think of the R$33,000–46,000 base subsidy and assume they know the number. They don't. That figure is the tip of the iceberg — and not even the most painful part. Here's the real breakdown, based on public data from Brazil's own Chamber of Deputies:</>,
+    semigod2: (
+      <div style={{ background: 'var(--bg3)', border: '0.5px solid var(--border)', borderRadius: '8px', padding: '20px 24px', margin: '0.5rem 0 1.2rem', fontFamily: 'var(--font-mono)', fontSize: '13px' }}>
+        {[
+          ['Base subsidy (subject to income tax and social security)', '~R$44,000'],
+          ['Cabinet fund (to hire up to 25 aides)', '~R$125,000'],
+          ['Parliamentary quota / "Cotão" (flights, fuel, marketing, meals)', '~R$40,000'],
+          ['Housing allowance', '~R$8,400'],
+        ].map(([item, val], i) => (
+          <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '16px', padding: '8px 0', borderBottom: '0.5px solid var(--border)' }}>
+            <span style={{ color: 'var(--text2)' }}>{item}</span>
+            <span style={{ color: 'var(--blue)', whiteSpace: 'nowrap', fontWeight: 600 }}>{val}</span>
+          </div>
+        ))}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: '16px', padding: '12px 0 0' }}>
+          <span style={{ color: 'var(--text)', fontWeight: 600 }}>Estimated total per month</span>
+          <span style={{ color: 'var(--red)', whiteSpace: 'nowrap', fontWeight: 700, fontSize: '15px' }}>~R$217,400</span>
+        </div>
+      </div>
+    ),
+    semigod3: <>Putting it at R$210,000 is actually conservative. The breakdown above still <strong>excludes</strong> the incalculable: an unlimited health plan covering million-dollar surgeries, Brazilian Air Force flights when convenient, and a special pension no ordinary worker will ever access. In these elections, Brazil filled <strong>1,654 seats</strong>. At R$210,000 per seat per month, that's <strong>R$347.3 million per month</strong>. Multiplied by 13 (including the year-end bonus), the cost exceeds <strong>R$4.51 billion per year</strong> — just to maintain the structure of those elected. At the current minimum wage of R$1,500, those R$4.51 billion would be enough to pay a minimum wage to more than <strong>3 million people</strong> in a single month, or sustain <strong>231,000 workers</strong> for an entire year.</>,
+    semigod4: <>Do a logic exercise. Who else in the world has a lifestyle with this level of unrestricted access to capital and resources? You might think of major entrepreneurs or Big Tech CEOs — Apple, Microsoft, Google. But those executives live under <strong>crushing pressure</strong>: quarterly targets, shareholder accountability, global competition, and relentless pressure to innovate. If they fail, they fall.</>,
+    semigod5: <>The Brazilian politician gets the <strong>CEO lifestyle with none of the accountability</strong>. They have guaranteed tenure, can miss dozens of sessions, work on-site only a few days a week, and face no real performance review. The people — who are effectively the shareholders — are legally compelled to keep paying taxes, under threat of criminal prosecution, to fund a system where the employee <strong>cannot be fired</strong> before the end of their term.</>,
+    semigod6: <>On top of all the state-funded benefits — from the clothes they wear, disguised as allowances, to the cars they drive and the flights they take — many also own private companies, farms, and holding companies. With a legal lifestyle this luxurious and this free of real stress, the question becomes: <strong>how is there still so much corruption and embezzlement?</strong> The answer is the power project. The luxury becomes the baseline, and illicit money funds the perpetuation of power.</>,
+    semigod7: <>Looking at the world, the Brazilian anomaly shocks not just in relative disparity, but in <strong>absolute value</strong>. In Nigeria — which leads the inequality ranking with a minimum wage of just US$40 — a politician costs around US$14,000 per month. In Brazil, we're talking about nearly <strong>US$42,000 per month</strong>. The Brazilian legislator earns, in absolute terms, <strong>more than parliamentarians in the wealthiest nations on Earth</strong>.</>,
 
     // Fundo
     fundTitle: 'Party Fund and Electoral Fund: the cherry on top',
@@ -283,10 +323,12 @@ export default function EleicoesCampanhas2022() {
       {/* ── Semideus ── */}
       <h2>{tx.semigodTitle}</h2>
       <p>{tx.semigod1}</p>
-      <p>{tx.semigod2}</p>
+      {tx.semigod2}
       <p>{tx.semigod3}</p>
       <p>{tx.semigod4}</p>
       <p>{tx.semigod5}</p>
+      <p>{tx.semigod6}</p>
+      <p>{tx.semigod7}</p>
       <hr />
 
       {/* ── Fundo ── */}
