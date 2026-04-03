@@ -1,0 +1,204 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #080808;
+  --bg2: #0f0f0f;
+  --bg3: #141414;
+  --border: #2a2a2a;
+  --border2: #3a3a3a;
+  --text: #e8e8e8;
+  --text2: #aaaaaa;
+  --text3: #666666;
+  --blue: #00eaff;
+  --blue-dim: rgba(0, 234, 255, 0.07);
+  --red: #ff2d55;
+  --red-dim: rgba(255, 45, 85, 0.07);
+  --green: #39ff14;
+  --green-dim: rgba(57, 255, 20, 0.07);
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+[data-theme="light"] {
+  --bg: #f0f0ee;
+  --bg2: #e8e8e6;
+  --bg3: #ddddd8;
+  --border: #c8c8c4;
+  --border2: #b8b8b4;
+  --text: #0a0a0a;
+  --text2: #2a2a2a;
+  --text3: #555550;
+  --blue: #0077aa;
+  --blue-dim: rgba(0, 119, 170, 0.08);
+  --red: #bb0022;
+  --red-dim: rgba(187, 0, 34, 0.07);
+  --green: #116600;
+  --green-dim: rgba(17, 102, 0, 0.07);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── MDX content ── */
+.mdx-content h1,
+.mdx-content h2,
+.mdx-content h3 {
+  font-family: var(--font-display);
+  color: var(--text);
+  letter-spacing: -0.02em;
+  margin: 2rem 0 1rem;
+}
+.mdx-content h1 { font-size: 28px; font-weight: 800; }
+.mdx-content h2 { font-size: 22px; font-weight: 700; border-bottom: 0.5px solid var(--border); padding-bottom: 8px; }
+.mdx-content h3 { font-size: 17px; font-weight: 600; color: var(--blue); }
+.mdx-content p  { font-size: 14px; color: var(--text2); line-height: 1.9; margin-bottom: 1.2rem; }
+.mdx-content strong { color: var(--text); font-weight: 600; }
+.mdx-content em { color: var(--text2); font-style: italic; }
+.mdx-content code {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  background: var(--bg3);
+  border: 0.5px solid var(--border);
+  padding: 2px 7px;
+  border-radius: 4px;
+  color: var(--blue);
+}
+.mdx-content pre {
+  background: var(--bg3);
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+.mdx-content pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--text2);
+  font-size: 13px;
+}
+.mdx-content img {
+  width: 100%;
+  border-radius: 8px;
+  border: 0.5px solid var(--border);
+  margin: 1.5rem 0;
+}
+.mdx-content ul, .mdx-content ol {
+  color: var(--text2);
+  font-size: 14px;
+  line-height: 1.9;
+  padding-left: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+.mdx-content blockquote {
+  border-left: 2px solid var(--blue);
+  padding-left: 16px;
+  color: var(--text2);
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+.mdx-content hr {
+  border: none;
+  border-top: 0.5px solid var(--border);
+  margin: 2.5rem 0;
+}
+
+/* ── RESPONSIVIDADE ── */
+
+/* Navbar mobile */
+@media (max-width: 768px) {
+  .nav-links-desktop { display: none !important; }
+  .nav-mobile-menu {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+/* Container global */
+@media (max-width: 768px) {
+  .container-main {
+    padding: 0 20px !important;
+    max-width: 100% !important;
+  }
+  .section-main {
+    padding: 64px 0 !important;
+  }
+}
+
+/* Hero mobile */
+@media (max-width: 768px) {
+  .hero-name { font-size: 52px !important; }
+  .hero-roles { flex-direction: column !important; align-items: flex-start !important; }
+}
+
+/* Grid 2 colunas → 1 coluna */
+@media (max-width: 768px) {
+  .grid-2col { grid-template-columns: 1fr !important; }
+  .sobre-grid { grid-template-columns: 1fr !important; }
+  .skills-grid { grid-template-columns: 1fr !important; }
+}
+
+/* Projetos — caixinhas de profundidade */
+@media (max-width: 768px) {
+  .depth-grid {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+  }
+  .depth-arrow { display: none !important; }
+}
+
+/* Timeline mobile */
+@media (max-width: 768px) {
+  .timeline-grid {
+    grid-template-columns: 40px 16px 1fr !important;
+    gap: 0 12px !important;
+  }
+}
+
+/* Footer mobile */
+@media (max-width: 768px) {
+  .footer-main {
+    flex-direction: column !important;
+    gap: 16px !important;
+    text-align: center !important;
+    padding: 24px 20px !important;
+  }
+}
+
+/* Breadcrumb mobile */
+@media (max-width: 768px) {
+  .breadcrumb-main { padding: 14px 20px !important; }
+  .project-content { padding: 32px 20px 80px !important; }
+}

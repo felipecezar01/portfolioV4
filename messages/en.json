@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "sobre": "about",
+    "educacao": "education",
+    "jornada": "journey",
+    "projetos": "projects"
+  },
+  "hero": {
+    "available": "available for projects",
+    "role_sw": "Software Engineer",
+    "role_ds": "Data Scientist",
+    "desc": "Building robust systems and data-driven solutions.",
+    "cv": "download CV",
+    "projects": "see projects"
+  },
+  "sections": {
+    "sobre": "about",
+    "educacao": "education",
+    "jornada": "journey",
+    "projetos": "projects"
+  }
+}

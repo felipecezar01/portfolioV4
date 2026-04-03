@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "sobre": "sobre",
+    "educacao": "educação",
+    "jornada": "jornada",
+    "projetos": "projetos"
+  },
+  "hero": {
+    "available": "disponível para projetos",
+    "role_sw": "Engenheiro de Software",
+    "role_ds": "Cientista de Dados",
+    "desc": "Construindo sistemas robustos e soluções orientadas a dados.",
+    "cv": "download CV",
+    "projects": "ver projetos"
+  },
+  "sections": {
+    "sobre": "sobre",
+    "educacao": "educação",
+    "jornada": "jornada",
+    "projetos": "projetos"
+  }
+}
