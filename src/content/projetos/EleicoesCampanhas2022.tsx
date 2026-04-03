@@ -328,7 +328,6 @@ export default function EleicoesCampanhas2022() {
       <p>{tx.semigod4}</p>
       <p>{tx.semigod5}</p>
       <p>{tx.semigod6}</p>
-      <p>{tx.semigod7}</p>
       <hr />
 
       {/* ── Fundo ── */}
@@ -371,6 +370,7 @@ export default function EleicoesCampanhas2022() {
         {tx.tableNote1}
       </p>
       <p>{tx.tableNote2}</p>
+      <p>{tx.semigod7}</p>
       <hr />
 
       {/* ── Próximos passos ── */}
