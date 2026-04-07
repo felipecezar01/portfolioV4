@@ -64,7 +64,7 @@ export default function Hero({ lang }: { lang: Lang }) {
         </p>
 
         <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', alignItems: 'center', marginBottom: '24px' }}>
-          <a href={lang === 'pt' ? '/cv-pt.pdf' : '/cv-en.pdf'} download
+          <a href="/curriculo-felipe.pdf" download
             style={{ fontFamily: 'var(--font-mono)', fontSize: '12px', padding: '11px 24px', borderRadius: '6px', background: 'var(--blue)', color: '#080808', fontWeight: 600, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
             {tx.cv}
           </a>
