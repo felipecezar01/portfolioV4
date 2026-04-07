@@ -3,10 +3,14 @@ import { projects } from '@/data/projects'
 import ProjectPageClient from './ProjectPageClient'
 import SinistrosFortaleza from '@/content/projetos/SinistrosFortaleza'
 import EleicoesCampanhas2022 from '@/content/projetos/EleicoesCampanhas2022'
+import AgentOlist from '@/content/projetos/AgentOlist'
+import AnaliseChurn from '@/content/projetos/AnaliseChurn'
 
 const contentMap: Record<string, React.ComponentType> = {
   'sinistros-fortaleza': SinistrosFortaleza,
   'eleicoes-gerais-2022': EleicoesCampanhas2022,
+  'agent-olist': AgentOlist,
+  'analise-churn': AnaliseChurn,
 }
 
 export async function generateStaticParams() {

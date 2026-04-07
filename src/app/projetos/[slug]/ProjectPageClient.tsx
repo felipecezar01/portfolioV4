@@ -26,10 +26,10 @@ export default function ProjectPageClient({
           felipecezar.dev
         </Link>
         <span style={{ color: 'var(--border2)' }}>/</span>
-        <Link href="/#projetos" style={{ color: 'var(--text3)', textDecoration: 'none', transition: 'color 0.2s' }}
+        <Link href="/arquivo" style={{ color: 'var(--text3)', textDecoration: 'none', transition: 'color 0.2s' }}
           onMouseEnter={e => (e.currentTarget.style.color = 'var(--blue)')}
           onMouseLeave={e => (e.currentTarget.style.color = 'var(--text3)')}>
-          projetos
+          arquivo
         </Link>
         <span style={{ color: 'var(--border2)' }}>/</span>
         <span style={{ color: 'var(--blue)' }}>{p.slug}</span>

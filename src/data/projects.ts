@@ -13,6 +13,30 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: 'agent-olist',
+    namePt: 'Agente Conversacional para Análise de Negócios (Olist)',
+    nameEn: 'Conversational Agent for Business Analysis (Olist)',
+    descPt: 'Agente de IA autônomo com Tabular RAG para análise instantânea de 10.000 registros de vendas e logística.',
+    descEn: 'Autonomous AI agent with Tabular RAG for instant analysis of 10,000 sales and logistics records.',
+    tags: ['Python', 'FastAPI', 'LangChain', 'Pandas', 'Gemini API'],
+    image: '/projects/agent_olist/capa-olist.png',
+    github: 'https://github.com/felipecezar01/brazilian_ecomerce_agent',
+    linkedin: 'https://www.linkedin.com/in/felipecezarcruz/',
+    year: '2026',
+  },
+  {
+    slug: 'analise-churn',
+    namePt: 'Análise Bancária da Taxa de Churn',
+    nameEn: 'Banking Churn Rate Analysis',
+    descPt: 'Sistema preditivo de retenção integrando Machine Learning (Random Forest) com IA Generativa.',
+    descEn: 'Predictive retention system integrating Machine Learning (Random Forest) with Generative AI.',
+    tags: ['Python', 'Scikit-Learn', 'Pandas', 'Gemini API', 'ML'],
+    image: '/projects/analise_churn/capa-churn.jpg',
+    github: 'https://github.com/felipecezar01/analise_churn',
+    linkedin: 'https://www.linkedin.com/in/felipecezarcruz/',
+    year: '2026',
+  },
+  {
     slug: 'eleicoes-gerais-2022',
     namePt: 'Eleições Gerais de 2022',
     nameEn: 'General Elections of 2022',
