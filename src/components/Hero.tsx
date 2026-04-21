@@ -5,19 +5,19 @@ import { Lang } from '@/types'
 const t = {
   pt: {
     available: 'disponível para projetos',
-    role_sw: 'Engenheiro de Software',
-    role_ds: 'Cientista de Dados',
+    role_sw: 'Desenvolvedor Fullstack',
+    role_ds: 'Especialista em Dados',
     desc: 'Construindo sistemas robustos e soluções orientadas a dados. Apaixonado por código limpo, arquitetura escalável e análise que gera valor real.',
-    cv: '↓ download CV',
-    projects: 'ver projetos',
+    cv: '↓ Download CV',
+    projects: 'Ver Projetos',
   },
   en: {
     available: 'available for projects',
-    role_sw: 'Software Engineer',
-    role_ds: 'Data Scientist',
+    role_sw: 'Fullstack Developer',
+    role_ds: 'Data Specialist',
     desc: 'Building robust systems and data-driven solutions. Passionate about clean code, scalable architecture and analysis that generates real value.',
-    cv: '↓ download CV',
-    projects: 'see projects',
+    cv: '↓ Download CV',
+    projects: 'See Projects',
   },
 }
 

@@ -50,6 +50,7 @@ export default function ProjectCard({ project: p, lang }: { project: Project; la
         {!isComingSoon && (
           <Image
             src={p.image} alt={lang === 'pt' ? p.namePt : p.nameEn} fill
+            sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 1200px) calc((100vw - 136px) / 2), 482px"
             style={{ objectFit: 'cover', opacity: 0.9 }}
           />
         )}

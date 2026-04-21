@@ -1,7 +1,8 @@
 'use client'
 
 import { useTheme } from 'next-themes'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, type MouseEvent } from 'react'
+import Link from 'next/link'
 import { useLang } from '@/context/LangContext'
 
 export type Lang = 'pt' | 'en'
@@ -17,12 +18,31 @@ export default function Navbar() {
   const isDark = !mounted || resolvedTheme === 'dark'
 
   const navLinks = {
-    pt: ['sobre', 'educação', 'jornada', 'projetos', 'skills'],
-    en: ['about', 'education', 'journey', 'projects', 'skills'],
+    pt: ['Sobre', 'Educação', 'Jornada', 'Projetos', 'Skills'],
+    en: ['About', 'Education', 'Journey', 'Projects', 'Skills'],
   }
-  const anchors = ['#sobre', '#educacao', '#jornada', '#projetos', '#skills']
+  const anchors = ['/#sobre', '/#educacao', '/#jornada', '/#projetos', '/#skills']
 
   const bgColor = isDark ? 'rgba(8,8,8,0.96)' : 'rgba(248,248,246,0.98)'
+
+  const handleAnchorClick = (event: MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) {
+      return
+    }
+
+    const targetId = href.split('#')[1]
+    if (!targetId || window.location.pathname !== '/') return
+
+    const target = document.getElementById(targetId)
+    if (!target) return
+
+    event.preventDefault()
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+
+    if (window.location.hash !== `#${targetId}`) {
+      window.history.pushState(null, '', `/#${targetId}`)
+    }
+  }
 
   return (
     <>
@@ -36,18 +56,19 @@ export default function Navbar() {
         fontFamily: 'var(--font-mono)',
       }}>
         {/* logo */}
-        <a href="/" style={{ fontFamily: 'var(--font-display)', fontSize: '15px', fontWeight: 700, color: 'var(--text)', textDecoration: 'none', letterSpacing: '-0.02em', flexShrink: 0 }}>
+        <Link href="/" style={{ fontFamily: 'var(--font-display)', fontSize: '15px', fontWeight: 700, color: 'var(--text)', textDecoration: 'none', letterSpacing: '-0.02em', flexShrink: 0 }}>
           felipecezar<span style={{ color: 'var(--blue)' }}>.</span><span style={{ color: 'var(--text2)' }}>dev</span>
-        </a>
+        </Link>
 
         {/* desktop links */}
         <div className="nav-links-desktop" style={{ display: 'flex', gap: '32px' }}>
           {navLinks[lang].map((label, i) => (
-            <a key={i} href={anchors[i]} style={{ fontSize: '12px', color: 'var(--text2)', textDecoration: 'none', letterSpacing: '0.04em', transition: 'color 0.2s' }}
+            <Link key={i} href={anchors[i]} style={{ fontSize: '12px', color: 'var(--text2)', textDecoration: 'none', letterSpacing: '0.04em', transition: 'color 0.2s' }}
+              onClick={e => handleAnchorClick(e, anchors[i])}
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--blue)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--text2)')}>
               {label}
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -115,8 +136,11 @@ export default function Navbar() {
           display: 'flex', flexDirection: 'column', gap: '4px',
         }}>
           {navLinks[lang].map((label, i) => (
-            <a key={i} href={anchors[i]}
-              onClick={() => setMenuOpen(false)}
+            <Link key={i} href={anchors[i]}
+              onClick={e => {
+                setMenuOpen(false)
+                handleAnchorClick(e, anchors[i])
+              }}
               style={{
                 fontSize: '13px', color: 'var(--text2)',
                 textDecoration: 'none', padding: '10px 0',
@@ -126,7 +150,7 @@ export default function Navbar() {
               onMouseEnter={e => (e.currentTarget.style.color = 'var(--blue)')}
               onMouseLeave={e => (e.currentTarget.style.color = 'var(--text2)')}>
               {label}
-            </a>
+            </Link>
           ))}
         </div>
       )}

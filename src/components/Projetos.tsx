@@ -9,13 +9,13 @@ const featuredProjects = projects.slice(0, 2)
 
 const t = {
   pt: {
-    title: 'projetos',
+    title: 'Projetos',
     intro: 'Aqui estão os meus projetos em destaque — os que melhor representam meu trabalho atual em IA e dados.',
     detail: <>Clicando em <span style={{ color: 'var(--blue)' }}>"Ver projeto"</span> você vê toda a linha de raciocínio e como o projeto foi feito. Clicando em <span style={{ color: 'var(--blue)' }}>"GitHub"</span> você vai direto ao repositório para ver o código-fonte.</>,
     seeAll: 'Ver todos os projetos →',
   },
   en: {
-    title: 'projects',
+    title: 'Projects',
     intro: 'Here are my featured projects — the ones that best represent my current work in AI and data.',
     detail: <>Clicking <span style={{ color: 'var(--blue)' }}>"See project"</span> shows the full reasoning and how the project was built. Clicking <span style={{ color: 'var(--blue)' }}>"GitHub"</span> takes you directly to the repository to see the source code.</>,
     seeAll: 'See all projects →',

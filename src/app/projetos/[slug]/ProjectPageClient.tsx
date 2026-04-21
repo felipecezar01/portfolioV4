@@ -49,6 +49,7 @@ export default function ProjectPageClient({
             src={p.image}
             alt={p.namePt}
             fill
+            sizes="(max-width: 768px) calc(100vw - 40px), (max-width: 860px) calc(100vw - 80px), 700px"
             style={{ objectFit: 'cover' }}
           />
         </div>

@@ -7,8 +7,8 @@
   },
   "hero": {
     "available": "available for projects",
-    "role_sw": "Software Engineer",
-    "role_ds": "Data Scientist",
+    "role_sw": "Fullstack Developer",
+    "role_ds": "Data Specialist",
     "desc": "Building robust systems and data-driven solutions.",
     "cv": "download CV",
     "projects": "see projects"

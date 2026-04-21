@@ -4,7 +4,7 @@ import { Lang } from '@/types'
 
 const t = {
   pt: {
-    title: 'skills',
+    title: 'Skills',
     intro: 'Eu poderia simplesmente listar ferramentas aqui — mas prefiro dizer o que sei fazer e quais ferramentas uso pra isso. Acredito mais no impacto do que na ferramenta em si.',
     blocks: [
       {
@@ -72,11 +72,11 @@ const t = {
     ],
   },
   en: {
-    title: 'skills',
+    title: 'Skills',
     intro: 'I could simply list tools here — but I prefer to say what I can do and which tools I use for it. I believe in impact more than in the tool itself.',
     blocks: [
       {
-        area: 'Software Engineering',
+        area: 'Fullstack Development',
         color: 'var(--red)',
         items: [
           {

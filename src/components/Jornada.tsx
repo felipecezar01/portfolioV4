@@ -3,8 +3,8 @@
 import { Lang } from '@/types'
 
 const t = {
-  pt: { title: 'jornada' },
-  en: { title: 'journey' },
+  pt: { title: 'Jornada' },
+  en: { title: 'Journey' },
 }
 
 const timeline = [

@@ -15,7 +15,13 @@ export default function Home() {
 
   useEffect(() => {
     if ('scrollRestoration' in history) history.scrollRestoration = 'manual'
-    window.scrollTo(0, 0)
+    const hash = window.location.hash
+    if (hash) {
+      const el = document.getElementById(hash.slice(1))
+      if (el) el.scrollIntoView({ behavior: 'smooth' })
+    } else {
+      window.scrollTo(0, 0)
+    }
   }, [])
 
   return (

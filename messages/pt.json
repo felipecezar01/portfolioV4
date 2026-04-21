@@ -7,8 +7,8 @@
   },
   "hero": {
     "available": "disponível para projetos",
-    "role_sw": "Engenheiro de Software",
-    "role_ds": "Cientista de Dados",
+    "role_sw": "Desenvolvedor Fullstack",
+    "role_ds": "Especialista em Dados",
     "desc": "Construindo sistemas robustos e soluções orientadas a dados.",
     "cv": "download CV",
     "projects": "ver projetos"

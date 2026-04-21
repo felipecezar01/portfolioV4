@@ -3,8 +3,8 @@
 import { Lang } from '@/types'
 
 const t = {
-  pt: { title: 'educação', pos: 'mba', grad: 'tecnólogo', grad2: 'bacharel' },
-  en: { title: 'education', pos: 'mba', grad: 'technologist', grad2: 'bachelor' },
+  pt: { title: 'Educação', pos: 'mba', grad: 'tecnólogo', grad2: 'bacharel' },
+  en: { title: 'Education', pos: 'mba', grad: 'technologist', grad2: 'bachelor' },
 }
 
 const edu = [

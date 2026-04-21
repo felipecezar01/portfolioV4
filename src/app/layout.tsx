@@ -19,12 +19,12 @@ const jetbrains = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: 'Felipe Cezar | Portfolio',
-  description: 'Engenheiro de Software & Cientista de Dados',
+  description: 'Desenvolvedor Fullstack & Especialista em Dados',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" suppressHydrationWarning>
+    <html lang="pt-BR" data-scroll-behavior="smooth" suppressHydrationWarning>
       <body className={`${syne.variable} ${jetbrains.variable}`}>
         <ThemeProvider attribute="data-theme" defaultTheme="dark" enableSystem={false}>
           <LangProvider>
