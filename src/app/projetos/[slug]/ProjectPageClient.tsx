@@ -18,7 +18,7 @@ export default function ProjectPageClient({
         borderBottom: '0.5px solid var(--border)',
         padding: '14px 60px',
         display: 'flex', alignItems: 'center', gap: '8px',
-        fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--text3)',
+        fontFamily: 'var(--font-mono)', fontSize: '12px', color: 'var(--text3)',
       }}>
         <Link href="/" style={{ color: 'var(--text3)', textDecoration: 'none', transition: 'color 0.2s' }}
           onMouseEnter={e => (e.currentTarget.style.color = 'var(--blue)')}
@@ -56,7 +56,7 @@ export default function ProjectPageClient({
 
         {/* header */}
         <div style={{ marginBottom: '40px' }}>
-          <div style={{ fontSize: '11px', color: 'var(--text3)', fontFamily: 'var(--font-mono)', marginBottom: '10px' }}>
+          <div style={{ fontSize: '12px', color: 'var(--text3)', fontFamily: 'var(--font-mono)', marginBottom: '10px' }}>
             {p.year}
           </div>
           <h1 style={{
@@ -73,7 +73,7 @@ export default function ProjectPageClient({
           <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '20px' }}>
             {p.tags.map(tag => (
               <span key={tag} style={{
-                fontSize: '11px', padding: '4px 12px', borderRadius: '4px',
+                fontSize: '12px', padding: '4px 12px', borderRadius: '4px',
                 background: 'rgba(0,234,255,0.06)',
                 border: '0.5px solid rgba(0,234,255,0.25)',
                 color: 'var(--blue)', fontFamily: 'var(--font-mono)',
@@ -86,7 +86,7 @@ export default function ProjectPageClient({
           {/* links */}
           <div style={{ display: 'flex', gap: '12px' }}>
             <a href={p.github} target="_blank" rel="noreferrer" style={{
-              fontFamily: 'var(--font-mono)', fontSize: '11px',
+              fontFamily: 'var(--font-mono)', fontSize: '12px',
               padding: '7px 16px', borderRadius: '6px',
               border: '0.5px solid var(--border2)',
               color: 'var(--text2)', textDecoration: 'none',

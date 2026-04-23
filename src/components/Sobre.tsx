@@ -20,7 +20,7 @@ export default function Sobre({ lang }: { lang: Lang }) {
     <section className="section-main" id="sobre" style={{ padding: '100px 0', borderTop: '0.5px solid var(--border)' }}>
       <div className="container-main" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 60px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '52px' }}>
-          <span style={{ fontSize: '10px', color: 'var(--text3)', letterSpacing: '0.1em' }}>01</span>
+          <span style={{ fontSize: '12px', color: 'var(--text3)', letterSpacing: '0.1em' }}>01</span>
           <span style={{ fontFamily: 'var(--font-display)', fontSize: '26px', fontWeight: 700, color: 'var(--text)' }}>{tx.title}</span>
           <div style={{ flex: 1, height: '0.5px', background: 'var(--border)' }} />
         </div>
@@ -40,7 +40,7 @@ export default function Sobre({ lang }: { lang: Lang }) {
               style={{ objectFit: 'cover' }}
             />
           </div>
-          <p style={{ fontSize: '14px', color: 'var(--text2)', lineHeight: 1.9 }}>{tx.text}</p>
+          <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.9 }}>{tx.text}</p>
         </div>
       </div>
     </section>

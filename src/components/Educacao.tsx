@@ -37,7 +37,7 @@ export default function Educacao({ lang }: { lang: Lang }) {
     <section className="section-main" id="educacao" style={{ padding: '100px 0', borderTop: '0.5px solid var(--border)' }}>
       <div className="container-main" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 60px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '52px' }}>
-          <span style={{ fontSize: '10px', color: 'var(--text3)', letterSpacing: '0.1em' }}>02</span>
+          <span style={{ fontSize: '12px', color: 'var(--text3)', letterSpacing: '0.1em' }}>02</span>
           <span style={{ fontFamily: 'var(--font-display)', fontSize: '26px', fontWeight: 700, color: 'var(--text)' }}>{tx.title}</span>
           <div style={{ flex: 1, height: '0.5px', background: 'var(--border)' }} />
         </div>
@@ -48,12 +48,12 @@ export default function Educacao({ lang }: { lang: Lang }) {
               onMouseEnter={e => { const el = e.currentTarget as HTMLDivElement; el.style.borderColor = 'var(--blue)'; el.style.background = 'var(--blue-dim)' }}
               onMouseLeave={e => { const el = e.currentTarget as HTMLDivElement; el.style.borderColor = 'var(--border)'; el.style.background = 'var(--bg2)' }}>
               <div>
-                <div style={{ fontSize: '14px', color: 'var(--text)', fontFamily: 'var(--font-display)', fontWeight: 600, marginBottom: '4px' }}>
+                <div style={{ fontSize: '15px', color: 'var(--text)', fontFamily: 'var(--font-display)', fontWeight: 600, marginBottom: '4px' }}>
                   {item.title[lang]}
                 </div>
-                <div style={{ fontSize: '12px', color: 'var(--text3)' }}>{item.sub}</div>
+                <div style={{ fontSize: '13px', color: 'var(--text3)' }}>{item.sub}</div>
               </div>
-              <div style={{ fontSize: '9px', padding: '3px 10px', borderRadius: '3px', background: 'var(--bg3)', border: `0.5px solid ${badgeStyle[item.type].border}`, color: badgeStyle[item.type].color, whiteSpace: 'nowrap', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+              <div style={{ fontSize: '11px', padding: '3px 10px', borderRadius: '3px', background: 'var(--bg3)', border: `0.5px solid ${badgeStyle[item.type].border}`, color: badgeStyle[item.type].color, whiteSpace: 'nowrap', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
                 {item.type}
               </div>
             </div>

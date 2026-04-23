@@ -8,7 +8,6 @@ import Educacao from '@/components/Educacao'
 import Jornada from '@/components/Jornada'
 import Projetos from '@/components/Projetos'
 import Skills from '@/components/Skills'
-import Footer from '@/components/Footer'
 
 export default function Home() {
   const { lang } = useLang()
@@ -32,7 +31,6 @@ export default function Home() {
       <Jornada lang={lang} />
       <Projetos lang={lang} />
       <Skills lang={lang} />
-      <Footer />
     </main>
   )
 }

@@ -30,15 +30,15 @@ export default function Projetos({ lang }: { lang: Lang }) {
       <div className="container-main" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 60px' }}>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '32px' }}>
-          <span style={{ fontSize: '10px', color: 'var(--text3)', letterSpacing: '0.1em' }}>04</span>
+          <span style={{ fontSize: '12px', color: 'var(--text3)', letterSpacing: '0.1em' }}>04</span>
           <span style={{ fontFamily: 'var(--font-display)', fontSize: '26px', fontWeight: 700, color: 'var(--text)' }}>{tx.title}</span>
           <div style={{ flex: 1, height: '0.5px', background: 'var(--border)' }} />
         </div>
 
-        <p style={{ fontSize: '14px', color: 'var(--text2)', lineHeight: 1.85, maxWidth: '680px', marginBottom: '16px' }}>
+        <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85, maxWidth: '680px', marginBottom: '16px' }}>
           {tx.intro}
         </p>
-        <p style={{ fontSize: '13px', color: 'var(--text3)', lineHeight: 1.8, maxWidth: '680px', marginBottom: '52px' }}>
+        <p style={{ fontSize: '14px', color: 'var(--text3)', lineHeight: 1.8, maxWidth: '680px', marginBottom: '52px' }}>
           {tx.detail}
         </p>
 

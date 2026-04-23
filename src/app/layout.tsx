@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Syne, JetBrains_Mono } from 'next/font/google'
+import { Syne, JetBrains_Mono, Oxanium } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
 import { LangProvider } from '@/context/LangContext'
 import Navbar from '@/components/Navbar'
@@ -8,6 +8,12 @@ import './globals.css'
 const syne = Syne({
   subsets: ['latin'],
   variable: '--font-display',
+  weight: ['400', '500', '600', '700', '800'],
+})
+
+const oxanium = Oxanium({
+  subsets: ['latin'],
+  variable: '--font-cyber',
   weight: ['400', '500', '600', '700', '800'],
 })
 
@@ -25,7 +31,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR" data-scroll-behavior="smooth" suppressHydrationWarning>
-      <body className={`${syne.variable} ${jetbrains.variable}`}>
+      <body className={`${syne.variable} ${jetbrains.variable} ${oxanium.variable}`}>
         <ThemeProvider attribute="data-theme" defaultTheme="dark" enableSystem={false}>
           <LangProvider>
             <Navbar />

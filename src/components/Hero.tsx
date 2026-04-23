@@ -32,7 +32,7 @@ export default function Hero({ lang }: { lang: Lang }) {
       }} />
       <div className="container-main" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 60px', position: 'relative', zIndex: 1, width: '100%' }}>
 
-        <div style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', fontSize: '11px', color: 'var(--blue)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '24px' }}>
+        <div style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', fontSize: '12px', color: 'var(--blue)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '24px' }}>
           <span style={{ width: '28px', height: '1px', background: 'var(--blue)', display: 'inline-block' }} />
           <span style={{ width: '7px', height: '7px', borderRadius: '50%', background: 'var(--green)', display: 'inline-block', animation: 'pulse 2s infinite' }} />
           {tx.available}
@@ -51,15 +51,15 @@ export default function Hero({ lang }: { lang: Lang }) {
         </h1>
 
         <div className="hero-roles" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '28px', flexWrap: 'wrap' }}>
-          <span style={{ fontSize: '12px', fontFamily: 'var(--font-mono)', padding: '6px 16px', borderRadius: '4px', border: '0.5px solid var(--red)', color: 'var(--red)', background: 'var(--red-dim)' }}>
+          <span style={{ fontSize: '14px', fontFamily: 'var(--font-mono)', padding: '7px 18px', borderRadius: '4px', border: '0.5px solid var(--red)', color: 'var(--red)', background: 'var(--red-dim)' }}>
             {tx.role_sw}
           </span>
-          <span style={{ fontSize: '12px', fontFamily: 'var(--font-mono)', padding: '6px 16px', borderRadius: '4px', border: '0.5px solid var(--green)', color: 'var(--green)', background: 'var(--green-dim)' }}>
+          <span style={{ fontSize: '14px', fontFamily: 'var(--font-mono)', padding: '7px 18px', borderRadius: '4px', border: '0.5px solid var(--green)', color: 'var(--green)', background: 'var(--green-dim)' }}>
             {tx.role_ds}
           </span>
         </div>
 
-        <p style={{ fontSize: '14px', color: 'var(--text2)', maxWidth: '520px', lineHeight: 1.8, marginBottom: '36px' }}>
+        <p style={{ fontSize: '15px', color: 'var(--text2)', maxWidth: '520px', lineHeight: 1.8, marginBottom: '36px' }}>
           {tx.desc}
         </p>
 

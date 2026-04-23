@@ -3,7 +3,6 @@
 import Link from 'next/link'
 import { useLang } from '@/context/LangContext'
 import ProjectCard from '@/components/ProjectCard'
-import Footer from '@/components/Footer'
 import { projects } from '@/data/projects'
 
 const t = {
@@ -33,7 +32,7 @@ export default function ArquivoPage() {
         borderBottom: '0.5px solid var(--border)',
         padding: '14px 60px',
         display: 'flex', alignItems: 'center', gap: '8px',
-        fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--text3)',
+        fontFamily: 'var(--font-mono)', fontSize: '12px', color: 'var(--text3)',
       }}>
         <Link href="/" style={{ color: 'var(--text3)', textDecoration: 'none', transition: 'color 0.2s' }}
           onMouseEnter={e => (e.currentTarget.style.color = 'var(--blue)')}
@@ -49,7 +48,7 @@ export default function ArquivoPage() {
         {/* header */}
         <div style={{ marginBottom: '52px' }}>
           <div style={{
-            fontFamily: 'var(--font-mono)', fontSize: '11px',
+            fontFamily: 'var(--font-mono)', fontSize: '12px',
             color: 'var(--text3)', letterSpacing: '0.08em',
             textTransform: 'uppercase', marginBottom: '12px',
           }}>
@@ -62,7 +61,7 @@ export default function ArquivoPage() {
           }}>
             {tx.title}
           </h1>
-          <p style={{ fontSize: '14px', color: 'var(--text2)', lineHeight: 1.85, maxWidth: '580px' }}>
+          <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85, maxWidth: '580px' }}>
             {tx.subtitle}
           </p>
         </div>
@@ -74,7 +73,6 @@ export default function ArquivoPage() {
 
       </div>
 
-      <Footer />
     </main>
   )
 }

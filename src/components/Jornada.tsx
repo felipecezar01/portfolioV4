@@ -44,7 +44,7 @@ export default function Jornada({ lang }: { lang: Lang }) {
     <section className="section-main" id="jornada" style={{ padding: '100px 0', borderTop: '0.5px solid var(--border)' }}>
       <div className="container-main" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 60px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '52px' }}>
-          <span style={{ fontSize: '10px', color: 'var(--text3)', letterSpacing: '0.1em' }}>03</span>
+          <span style={{ fontSize: '12px', color: 'var(--text3)', letterSpacing: '0.1em' }}>03</span>
           <span style={{ fontFamily: 'var(--font-display)', fontSize: '26px', fontWeight: 700, color: 'var(--text)' }}>{tx.title}</span>
           <div style={{ flex: 1, height: '0.5px', background: 'var(--border)' }} />
         </div>
@@ -57,13 +57,13 @@ export default function Jornada({ lang }: { lang: Lang }) {
                 {i < timeline.length - 1 && <div style={{ width: '0.5px', flex: 1, background: 'var(--border)', marginTop: '6px' }} />}
               </div>
               <div>
-                <div style={{ fontSize: '14px', color: 'var(--text)', fontWeight: 500, marginBottom: '3px' }}>{item.title[lang]}</div>
-                <div style={{ fontSize: '11px', color: 'var(--text3)', marginBottom: '8px' }}>{item.org}</div>
-                <div style={{ fontSize: '13px', color: 'var(--text2)', lineHeight: 1.75, marginBottom: '12px' }}>{item.desc[lang]}</div>
+                <div style={{ fontSize: '15px', color: 'var(--text)', fontWeight: 500, marginBottom: '3px' }}>{item.title[lang]}</div>
+                <div style={{ fontSize: '12px', color: 'var(--text3)', marginBottom: '8px' }}>{item.org}</div>
+                <div style={{ fontSize: '14px', color: 'var(--text2)', lineHeight: 1.75, marginBottom: '12px' }}>{item.desc[lang]}</div>
                 <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
                   {item.tags.map(tag => (
                     <span key={tag} style={{
-                      fontSize: '11px', padding: '4px 12px', borderRadius: '4px',
+                      fontSize: '12px', padding: '4px 12px', borderRadius: '4px',
                       background: 'rgba(0,234,255,0.06)',
                       border: '0.5px solid rgba(0,234,255,0.25)',
                       color: 'var(--blue)',

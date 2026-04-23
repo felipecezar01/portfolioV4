@@ -73,13 +73,13 @@ export default function ProjectCard({ project: p, lang }: { project: Project; la
 
         {/* content — grows to push footer down */}
         <div style={{ flex: 1 }}>
-          <div style={{ fontSize: '11px', color: 'var(--text3)', marginBottom: '6px', letterSpacing: '0.06em' }}>
+          <div style={{ fontSize: '12px', color: 'var(--text3)', marginBottom: '6px', letterSpacing: '0.06em' }}>
             {p.year}
           </div>
-          <div style={{ fontFamily: 'var(--font-display)', fontSize: '16px', fontWeight: 700, color: 'var(--text)', marginBottom: '8px' }}>
+          <div style={{ fontFamily: 'var(--font-display)', fontSize: '17px', fontWeight: 700, color: 'var(--text)', marginBottom: '8px' }}>
             {lang === 'pt' ? p.namePt : p.nameEn}
           </div>
-          <div style={{ fontSize: '13px', color: 'var(--text2)', lineHeight: 1.75, marginBottom: '16px' }}>
+          <div style={{ fontSize: '14px', color: 'var(--text2)', lineHeight: 1.75, marginBottom: '16px' }}>
             {lang === 'pt' ? p.descPt : p.descEn}
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function ProjectCard({ project: p, lang }: { project: Project; la
         <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', marginBottom: '16px' }}>
           {p.tags.map(tag => (
             <span key={tag} style={{
-              fontSize: '11px', padding: '4px 10px', borderRadius: '4px',
+              fontSize: '12px', padding: '4px 10px', borderRadius: '4px',
               background: 'rgba(0,234,255,0.06)',
               border: '0.5px solid rgba(0,234,255,0.25)',
               color: 'var(--blue)',
@@ -107,13 +107,13 @@ export default function ProjectCard({ project: p, lang }: { project: Project; la
               target="_blank"
               rel="noreferrer"
               onClick={e => e.stopPropagation()}
-              style={{ fontSize: '11px', color: 'var(--blue)', textDecoration: 'none', transition: 'opacity 0.2s' }}
+              style={{ fontSize: '12px', color: 'var(--blue)', textDecoration: 'none', transition: 'opacity 0.2s' }}
               onMouseEnter={e => (e.currentTarget.style.opacity = '0.7')}
               onMouseLeave={e => (e.currentTarget.style.opacity = '1')}
             >
               GitHub ↗
             </a>
-            <span style={{ marginLeft: 'auto', fontSize: '11px', color: 'var(--blue)', fontWeight: 600 }}>
+            <span style={{ marginLeft: 'auto', fontSize: '12px', color: 'var(--blue)', fontWeight: 600 }}>
               {lang === 'pt' ? 'Ver projeto →' : 'See project →'}
             </span>
           </div>

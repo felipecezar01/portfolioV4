@@ -146,7 +146,7 @@ function TagCloud({ tags, color }: { tags: string[]; color: string }) {
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '10px' }}>
       {tags.map(tag => (
         <span key={tag} style={{
-          fontSize: '10px', padding: '3px 10px', borderRadius: '4px',
+          fontSize: '11px', padding: '3px 10px', borderRadius: '4px',
           background: 'var(--bg)',
           border: `0.5px solid ${color}33`,
           color: 'var(--text2)',
@@ -177,12 +177,12 @@ export default function Skills({ lang }: { lang: Lang }) {
       <div className="container-main" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 60px' }}>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '32px' }}>
-          <span style={{ fontSize: '10px', color: 'var(--text3)', letterSpacing: '0.1em' }}>05</span>
+          <span style={{ fontSize: '12px', color: 'var(--text3)', letterSpacing: '0.1em' }}>05</span>
           <span style={{ fontFamily: 'var(--font-display)', fontSize: '26px', fontWeight: 700, color: 'var(--text)' }}>{tx.title}</span>
           <div style={{ flex: 1, height: '0.5px', background: 'var(--border)' }} />
         </div>
 
-        <p style={{ fontSize: '14px', color: 'var(--text2)', lineHeight: 1.85, maxWidth: '680px', marginBottom: '52px' }}>
+        <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85, maxWidth: '680px', marginBottom: '52px' }}>
           {tx.intro}
         </p>
 
@@ -192,7 +192,7 @@ export default function Skills({ lang }: { lang: Lang }) {
               {/* área title */}
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '24px' }}>
                 <span style={{ width: '16px', height: '1px', background: block.color, display: 'inline-block' }} />
-                <span style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.1em', color: block.color, fontWeight: 600 }}>
+                <span style={{ fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.1em', color: block.color, fontWeight: 600 }}>
                   {block.area}
                 </span>
               </div>
@@ -210,10 +210,10 @@ export default function Skills({ lang }: { lang: Lang }) {
                     onMouseEnter={e => (e.currentTarget as HTMLDivElement).style.borderColor = block.color}
                     onMouseLeave={e => (e.currentTarget as HTMLDivElement).style.borderColor = 'var(--border)'}
                   >
-                    <div style={{ fontSize: '13px', fontWeight: 600, color: 'var(--text)', marginBottom: '4px', fontFamily: 'var(--font-display)' }}>
+                    <div style={{ fontSize: '14px', fontWeight: 600, color: 'var(--text)', marginBottom: '4px', fontFamily: 'var(--font-display)' }}>
                       {item.title}
                     </div>
-                    <div style={{ fontSize: '12px', color: 'var(--text2)', lineHeight: 1.7, marginBottom: '2px' }}>
+                    <div style={{ fontSize: '13px', color: 'var(--text2)', lineHeight: 1.7, marginBottom: '2px' }}>
                       {item.desc}
                     </div>
                     <TagCloud tags={item.tags} color={block.color} />
