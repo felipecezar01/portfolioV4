@@ -8,6 +8,10 @@ export type HallPerson = {
   role: { pt: string; en: string }
   contribution: { pt: string; en: string }
   detail: { pt: string; en: string }
+  additionalImage?: {
+    src: string
+    caption: { pt: string; en: string }
+  }
 }
 
 export type HallYear = {
@@ -48,6 +52,178 @@ const data: HallYear[] = [
         detail: {
           pt: 'Ada foi além de simples traduções dos trabalhos de Babbage: ela adicionou suas próprias notas, que eram três vezes mais longas que o texto original. Nessas notas, descreveu como a máquina poderia ser programada para calcular os Números de Bernoulli — o que hoje é considerado o primeiro programa de computador da história. Ela também foi a primeira a enxergar que uma máquina de calcular poderia ir além dos números, manipulando símbolos e composições musicais.',
           en: 'Ada went far beyond simple translations of Babbage\'s work: she added her own notes, which were three times longer than the original text. In these notes, she described how the machine could be programmed to calculate Bernoulli Numbers — what is now considered the first computer program in history. She was also the first to envision that a calculating machine could go beyond numbers, manipulating symbols and musical compositions.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1844,
+    era: { pt: 'O Primeiro Ping da História', en: 'History\'s First Ping' },
+    context: {
+      pt: 'Em 24 de maio de 1844, uma mensagem de 35 letras percorreu 60 km de fio de cobre entre Washington e Baltimore — e mudou para sempre a relação da humanidade com a distância, o tempo e a informação.',
+      en: 'On May 24, 1844, a 35-letter message traveled 60 km of copper wire between Washington and Baltimore — forever changing humanity\'s relationship with distance, time and information.',
+    },
+    people: [
+      {
+        name: 'Samuel Morse',
+        image: '/hall/samuel-morse',
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Arte Liberal, Yale College (1810) · Belas Artes, Royal Academy of Arts, Londres',
+          en: 'Liberal Arts, Yale College (1810) · Fine Arts, Royal Academy of Arts, London',
+        },
+        summary: {
+          pt: 'Enviou o primeiro "ping" da história — fundando a primeira rede de comunicação binária de longa distância do mundo',
+          en: 'Sent history\'s first "ping" — founding the world\'s first long-distance binary communication network',
+        },
+        role: {
+          pt: 'Inventor, pintor e pai das telecomunicações',
+          en: 'Inventor, painter and father of telecommunications',
+        },
+        contribution: {
+          pt: 'Em 24 de maio de 1844, enviou a primeira mensagem oficial de telégrafo da história: "What hath God wrought?" — de Washington D.C. ao B&O Pratt Street Station em Baltimore, 60 km de distância. Com o Código Morse, criou a primeira linguagem binária de comunicação de dados de longa distância da humanidade.',
+          en: 'On May 24, 1844, he sent the first official telegraph message in history: "What hath God wrought?" — from Washington D.C. to the B&O Pratt Street Station in Baltimore, 60 km away. With Morse Code, he created humanity\'s first long-distance binary data communication language.',
+        },
+        detail: {
+          pt: 'Samuel Morse não era engenheiro — era um pintor consagrado, premiado pela Royal Academy of Arts de Londres e autor de retratos célebres de Lafayette. A ideia do telégrafo elétrico surgiu em 1832 durante uma travessia de navio, quando ouviu conversas sobre experimentos de eletromagnetismo e percebeu que impulsos elétricos poderiam transportar informação a qualquer distância. Ele passou doze anos desenvolvendo o sistema, com contribuição fundamental do seu assistente Alfred Vail, que aperfeiçoou o hardware e simplificou o código — trocando o sistema numérico original de Morse pela elegante lógica de pontos e traços que conhecemos hoje.\n\nO texto da mensagem histórica foi sugerido por Annie Ellsworth, filha do comissário de patentes, e retirado do livro de Números (23:23) da Bíblia. Morse enviou do Capitólio em Washington; Vail recebeu e confirmou em Baltimore. A fita original da mensagem está preservada na Library of Congress.\n\nO Código Morse é, na essência, um sistema binário: ponto (sinal curto) e traço (sinal longo), combinados para representar letras e números — a mesma lógica fundamental de 0s e 1s que governa todo processador moderno. Em menos de vinte anos após aquela primeira mensagem, o telégrafo havia conectado os EUA de costa a costa. Em 1866, um cabo transatlântico ligou a América à Europa, reduzindo a comunicação entre continentes de duas semanas para dois minutos. Sem essa fundação, a internet não existiria.',
+          en: 'Samuel Morse was not an engineer — he was an accomplished painter, awarded by the Royal Academy of Arts in London and the author of celebrated portraits of Lafayette. The idea of the electric telegraph arose in 1832 during an ocean crossing, when he overheard conversations about electromagnetism experiments and realized that electrical pulses could carry information over any distance. He spent twelve years developing the system, with crucial contributions from his assistant Alfred Vail, who improved the hardware and simplified the code — replacing Morse\'s original numerical system with the elegant dot-and-dash logic we know today.\n\nThe text of the historic message was suggested by Annie Ellsworth, daughter of the patent commissioner, taken from the book of Numbers (23:23) in the Bible. Morse transmitted from the Capitol in Washington; Vail received and confirmed in Baltimore. The original message tape is preserved at the Library of Congress.\n\nMorse Code is, in essence, a binary system: dot (short signal) and dash (long signal), combined to represent letters and numbers — the same fundamental logic of 0s and 1s that governs every modern processor. Within twenty years of that first message, the telegraph had connected the US coast to coast. In 1866, a transatlantic cable linked America to Europe, reducing cross-continental communication from two weeks to two minutes. Without this foundation, the internet would not exist.',
+        },
+        additionalImage: {
+          src: '/hall/first-ping',
+          caption: {
+            pt: 'A fita original de papel do receptor de telégrafo, registrando em pontos e traços do Código Morse a chegada da mensagem "What hath God wrought?" em Baltimore — o primeiro "ping" da história da humanidade, impresso fisicamente pelo próprio mecanismo da máquina.',
+            en: 'The original paper tape from the telegraph receiver, recording in Morse Code dots and dashes the arrival of "What hath God wrought?" in Baltimore — history\'s first "ping", physically printed by the machine\'s own mechanism.',
+          },
+        },
+      },
+    ],
+  },
+  {
+    year: 1845,
+    era: { pt: 'A Primeira Empresa de Telecomunicações', en: 'The First Telecommunications Company' },
+    context: {
+      pt: 'Um ano após o primeiro ping da história, Morse transformou o experimento em negócio — fundando a primeira empresa comercial de telecomunicações do mundo e iniciando a corrida para conectar as cidades americanas por fio.',
+      en: 'One year after history\'s first ping, Morse turned the experiment into a business — founding the world\'s first commercial telecommunications company and starting the race to connect American cities by wire.',
+    },
+    people: [
+      {
+        name: 'Samuel Morse',
+        image: '/hall/samuel-morse',
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Arte Liberal, Yale College (1810) · Belas Artes, Royal Academy of Arts, Londres',
+          en: 'Liberal Arts, Yale College (1810) · Fine Arts, Royal Academy of Arts, London',
+        },
+        summary: {
+          pt: 'Fundou a Magnetic Telegraph Company — a primeira empresa comercial de telecomunicações da história',
+          en: 'Founded the Magnetic Telegraph Company — the first commercial telecommunications company in history',
+        },
+        role: {
+          pt: 'Inventor, pintor e pai das telecomunicações',
+          en: 'Inventor, painter and father of telecommunications',
+        },
+        contribution: {
+          pt: 'Em 26 de março de 1845, Morse e seus sócios incorporaram a Magnetic Telegraph Company, a primeira empresa comercial de telecomunicações da história. A empresa começou a construir linhas de telégrafo para uso público, conectando Nova York, Filadélfia, Baltimore e Washington — criando o modelo de negócio que toda a indústria de comunicações seguiria.',
+          en: 'On March 26, 1845, Morse and his partners incorporated the Magnetic Telegraph Company, the first commercial telecommunications company in history. The company began building telegraph lines for public use, connecting New York, Philadelphia, Baltimore and Washington — creating the business model that the entire communications industry would follow.',
+        },
+        detail: {
+          pt: 'O salto de 1844 para 1845 foi o salto do laboratório para o mercado. Morse sabia que a tecnologia funcionava — o problema era escalar. Com Amos Kendall como gestor de negócios, a Magnetic Telegraph Company foi a primeira a provar que comunicação instantânea podia ser vendida como serviço. A notícia da fundação correu os jornais americanos: a ideia de que qualquer pessoa poderia enviar uma mensagem de Nova York para Washington em minutos era simplesmente inacreditável para a época.\n\nO modelo funcionou. Em poucos anos, dezenas de empresas imitaram o formato. Em 1851, havia mais de cinquenta companhias de telégrafo operando só nos EUA. A concorrência acelerou a expansão das linhas: em 1861, um cabo conectou a costa leste à costa oeste americana, tornando o Pony Express obsoleto da noite para o dia.\n\nA Western Union, fundada em 1851, consolidou todo esse mercado fragmentado em 1866 — tornando-se a primeira grande corporação de telecomunicações do mundo. Tudo isso nasceu do modelo que Morse inaugurou em 1845: infraestrutura de comunicação como serviço pago, disponível ao público. É exatamente esse modelo que ainda governa operadoras, provedores de internet e plataformas digitais hoje.',
+          en: 'The leap from 1844 to 1845 was the leap from the laboratory to the market. Morse knew the technology worked — the problem was scaling it. With Amos Kendall as business manager, the Magnetic Telegraph Company was the first to prove that instant communication could be sold as a service. News of the founding spread across American newspapers: the idea that anyone could send a message from New York to Washington in minutes was simply unbelievable at the time.\n\nThe model worked. Within a few years, dozens of companies copied the format. By 1851, there were over fifty telegraph companies operating in the US alone. Competition accelerated line expansion: by 1861, a cable connected the American east coast to the west coast, making the Pony Express obsolete overnight.\n\nWestern Union, founded in 1851, consolidated this fragmented market in 1866 — becoming the world\'s first major telecommunications corporation. All of this was born from the model Morse inaugurated in 1845: communication infrastructure as a paid service, available to the public. That is exactly the model that still governs carriers, internet providers and digital platforms today.',
+        },
+        additionalImage: {
+          src: '/hall/first-company-telegraph',
+          caption: {
+            pt: 'Notícia de jornal da época cobrindo a fundação da Magnetic Telegraph Company em 1845 — o anúncio público da primeira empresa comercial de telecomunicações da história, que transformou uma invenção de laboratório em serviço acessível ao cidadão comum.',
+            en: 'Period newspaper coverage of the founding of the Magnetic Telegraph Company in 1845 — the public announcement of the first commercial telecommunications company in history, which transformed a laboratory invention into a service accessible to the ordinary citizen.',
+          },
+        },
+      },
+    ],
+  },
+  {
+    year: 1846,
+    era: { pt: 'O Primeiro Salto de Largura de Banda', en: 'The First Bandwidth Leap' },
+    context: {
+      pt: 'Dois anos após o primeiro ping da história, um relojoeiro escocês autodidata patenteou um sistema que multiplicou por vinte e cinco a velocidade de transmissão de dados — e introduziu sem saber o conceito de processamento em lote que os computadores usariam 100 anos depois.',
+      en: 'Two years after history\'s first ping, a self-taught Scottish clockmaker patented a system that multiplied data transmission speed by twenty-five — and unknowingly introduced the concept of batch processing that computers would use 100 years later.',
+    },
+    people: [
+      {
+        name: 'Alexander Bain',
+        image: '/hall/alexander-bain',
+        flag: '🇬🇧',
+        nationality: { pt: 'Escocês', en: 'Scottish' },
+        formation: {
+          pt: 'Aprendiz de relojoeiro em Wick, Escócia · Autodidata em Elétrica e Mecânica, Londres',
+          en: 'Clockmaker apprentice in Wick, Scotland · Self-taught in Electricity and Mechanics, London',
+        },
+        summary: {
+          pt: 'Inventou o telégrafo químico: saltou de 40 para mais de 1.000 palavras por minuto e criou a fita perfurada — mídia que os primeiros computadores usariam um século depois',
+          en: 'Invented the chemical telegraph: jumped from 40 to over 1,000 words per minute and created the punched tape — the medium early computers would use a century later',
+        },
+        role: {
+          pt: 'Inventor, relojoeiro e pioneiro do processamento automatizado de dados',
+          en: 'Inventor, clockmaker and pioneer of automated data processing',
+        },
+        contribution: {
+          pt: 'Patenteou o telégrafo químico em 12 de dezembro de 1846, introduzindo dois conceitos revolucionários: a fita de papel perfurada para pré-gravar e transmitir dados automaticamente, e o papel tratado quimicamente para registrar a mensagem no receptor — atingindo 325 palavras por minuto de imediato e mais de 1.000 wpm nas versões refinadas. O telégrafo de Morse transmitia 40.',
+          en: 'Patented the chemical telegraph on December 12, 1846, introducing two revolutionary concepts: the punched paper tape to pre-record and automatically transmit data, and chemically treated paper to register the message at the receiver — achieving 325 words per minute immediately and over 1,000 wpm in refined versions. Morse\'s telegraph transmitted 40.',
+        },
+        detail: {
+          pt: 'Alexander Bain nasceu em 1810 em Watten, na remota Caithness escocesa, filho de um pequeno agricultor. Aprendiz de relojoeiro por sete anos em Wick, mudou-se para Londres em 1837 sem dinheiro e sem conexões — apenas com a obsessão por mecânica e eletricidade. Em 1841, patenteou o primeiro relógio elétrico da história. Em 1843, inventou o fax: dois pêndulos sincronizados que escaneavam e reproduziam imagens à distância, décadas antes de qualquer concorrente.\n\nMas foi em 1846 que Bain mudou o jogo das comunicações. O telégrafo de Morse dependia de um operador humano batendo manualmente no manipulador para enviar cada sinal. Bain eliminou o operador do processo: os dados eram pré-gravados perfurando furos em uma fita de papel, que depois passava por um mecanismo automático. Do outro lado, em vez de um mecanismo mecânico, havia papel embebido em nitrato de amônio e ferrocianeto de potássio — a eletricidade deixava marcas coloridas instantaneamente. Era mais rápido, mais barato e mais confiável.\n\nO conceito da fita perfurada como meio de armazenar e transmitir dados foi a sua herança mais profunda. O Colossus britânico de 1944 lia 5.000 caracteres por segundo em fita de papel. O ENIAC e quase todos os computadores das décadas de 1940 a 1970 usaram fita perfurada como entrada e saída padrão de dados. Bain inventou a ideia um século antes.\n\nA história de Bain tem um final amargo. Em 1848, viajou à América para patentear suas invenções e foi destruído juridicamente pela máquina de Morse, que controlava o mercado e os políticos. A Suprema Corte dos EUA decidiu contra ele em 1853. Voltou a Londres com uma dívida de $58.000. Morreu quase na pobreza em 1877 — ignorado pela história enquanto Morse era celebrado. Ironicamente, a limitação que a Corte impôs ao monopólio de Morse para derrotá-lo foi a mesma que abriu caminho para o telefone, a televisão e o computador.',
+          en: 'Alexander Bain was born in 1810 in Watten, in the remote Scottish Caithness, the son of a small farmer. A clockmaker\'s apprentice for seven years in Wick, he moved to London in 1837 with no money and no connections — only an obsession with mechanics and electricity. In 1841, he patented the first electric clock in history. In 1843, he invented the fax: two synchronized pendulums that scanned and reproduced images at a distance, decades ahead of any competitor.\n\nBut it was in 1846 that Bain changed the communications game. Morse\'s telegraph relied on a human operator manually tapping the key to send each signal. Bain removed the operator from the process: data was pre-recorded by punching holes in a paper tape, which then passed through an automatic mechanism. On the receiving end, instead of a mechanical device, there was paper soaked in ammonium nitrate and potassium ferrocyanide — electricity left colored marks instantly. It was faster, cheaper and more reliable.\n\nThe concept of the punched tape as a medium for storing and transmitting data was his deepest legacy. Britain\'s Colossus of 1944 read 5,000 characters per second from paper tape. The ENIAC and virtually all computers of the 1940s through 1970s used punched tape as standard data input and output. Bain invented the idea a century earlier.\n\nBain\'s story has a bitter ending. In 1848, he traveled to America to patent his inventions and was legally destroyed by the Morse machine, which controlled both the market and the politicians. The US Supreme Court decided against him in 1853. He returned to London with a $58,000 debt. He died nearly in poverty in 1877 — ignored by history while Morse was celebrated. Ironically, the limitation the Court imposed on Morse\'s monopoly to defeat him was the same one that opened the path for the telephone, television and the computer.',
+        },
+        additionalImage: {
+          src: '/hall/chemical-telegraph',
+          caption: {
+            pt: 'O telégrafo químico de Bain: à esquerda, o mecanismo transmissor que puxava automaticamente a fita de papel perfurada; à direita, o receptor com o papel tratado quimicamente que registrava a mensagem através de reação eletroquímica. A velocidade desse sistema foi o equivalente a passar de um modem dial-up para banda larga — em 1846.',
+            en: 'Bain\'s chemical telegraph: on the left, the transmitter mechanism that automatically pulled the punched paper tape; on the right, the receiver with chemically treated paper that recorded the message through an electrochemical reaction. The speed of this system was the equivalent of going from a dial-up modem to broadband — in 1846.',
+          },
+        },
+      },
+    ],
+  },
+  {
+    year: 1847,
+    era: { pt: 'A Matemática que Virou Código', en: 'The Mathematics That Became Code' },
+    context: {
+      pt: 'Um professor autodidata de Lincoln publicou um livro que a maioria dos matemáticos ignorou por décadas. Noventa anos depois, um estudante de 21 anos do MIT leu aquelas páginas e percebeu que elas descreviam exatamente como construir um computador.',
+      en: 'A self-taught professor from Lincoln published a book that most mathematicians ignored for decades. Ninety years later, a 21-year-old MIT student read those pages and realized they described exactly how to build a computer.',
+    },
+    people: [
+      {
+        name: 'George Boole',
+        image: '/hall/george-boole',
+        flag: '🇬🇧',
+        nationality: { pt: 'Inglês', en: 'English' },
+        formation: {
+          pt: 'Autodidata em Matemática e Lógica · Primeiro Catedrático de Matemática, Queen\'s College Cork (sem graduação prévia)',
+          en: 'Self-taught in Mathematics and Logic · First Professor of Mathematics, Queen\'s College Cork (no prior university degree)',
+        },
+        summary: {
+          pt: 'Criou a álgebra booleana — o sistema Verdadeiro/Falso que está dentro de todo processador e de todo if/else já escrito',
+          en: 'Created Boolean algebra — the True/False system inside every processor and every if/else ever written',
+        },
+        role: {
+          pt: 'Matemático e criador da lógica booleana',
+          en: 'Mathematician and creator of Boolean logic',
+        },
+        contribution: {
+          pt: 'Publicou "The Mathematical Analysis of Logic" em 1847, criando um sistema matemático baseado em apenas dois estados — Verdadeiro e Falso — e os operadores AND, OR e NOT. Era a primeira vez na história que lógica e matemática eram unificadas numa álgebra formal. Todo if/else já escrito e toda porta lógica de todo processador moderno rodam sobre essa fundação.',
+          en: 'Published "The Mathematical Analysis of Logic" in 1847, creating a mathematical system based on only two states — True and False — and the AND, OR and NOT operators. It was the first time in history that logic and mathematics were unified in a formal algebra. Every if/else ever written and every logic gate in every modern processor runs on this foundation.',
+        },
+        detail: {
+          pt: 'George Boole nasceu em 1815 em Lincoln, Inglaterra, filho de um sapateiro. Sem dinheiro para a universidade, aprendeu latim, grego, francês, alemão e italiano sozinho, e dominou a matemática por conta própria. Em 1849, foi nomeado o primeiro professor de matemática do Queen\'s College Cork, na Irlanda — sem nunca ter tido um diploma universitário. Seu mentor intelectual era Augustus De Morgan, o mesmo que tutoriou Ada Lovelace.\n\nO livro de 1847 foi apenas o início. Em 1854, publicou "An Investigation of the Laws of Thought", a versão completa e corrigida do sistema — hoje chamado de álgebra de Boole. A ideia central era elegante e radical: qualquer raciocínio lógico pode ser reduzido a operações matemáticas sobre dois valores. AND, OR e NOT eram as peças. Com essas três operações, qualquer condição, qualquer decisão, qualquer circuito pode ser representado.\n\nO problema foi que ninguém ligou por noventa anos. A matemática do século XIX era dominada por quem achava que lógica era filosofia, não cálculo. Boole morreu em 1864, aos 49 anos, de pneumonia — ele havia caminhado sob chuva para não faltar a uma aula, e sua esposa, seguindo crenças homeopáticas, o tratou jogando baldes de água fria nele. A filha do casal documentou o episódio.\n\nA virada veio em 1937. Claude Shannon, com 21 anos, escreveu sua dissertação de mestrado no MIT mostrando que a álgebra booleana descrevia perfeitamente o comportamento de circuitos elétricos com relés — ligado/desligado, 1/0, Verdadeiro/Falso. A dissertação é considerada a mais importante da história da engenharia. Naquele momento, o trabalho de Boole deixou de ser abstração matemática e se tornou a planta baixa do hardware moderno. Cada AND, OR e NOT que você escreve no código é executado literalmente como uma porta lógica no silício.',
+          en: 'George Boole was born in 1815 in Lincoln, England, the son of a shoemaker. With no money for university, he taught himself Latin, Greek, French, German and Italian, and mastered mathematics on his own. In 1849, he was appointed the first professor of mathematics at Queen\'s College Cork, Ireland — without ever having held a university degree. His intellectual mentor was Augustus De Morgan, the same person who tutored Ada Lovelace.\n\nThe 1847 book was only the beginning. In 1854, he published "An Investigation of the Laws of Thought," the complete and corrected version of the system — now called Boolean algebra. The central idea was elegant and radical: any logical reasoning can be reduced to mathematical operations on two values. AND, OR and NOT were the pieces. With these three operations, any condition, any decision, any circuit can be represented.\n\nThe problem was that nobody cared for ninety years. 19th-century mathematics was dominated by those who thought logic was philosophy, not calculus. Boole died in 1864, aged 49, from pneumonia — he had walked in the rain to avoid missing a lecture, and his wife, following homeopathic beliefs, treated him by pouring buckets of cold water over him. The couple\'s daughter documented the episode.\n\nThe turning point came in 1937. Claude Shannon, aged 21, wrote his MIT master\'s dissertation showing that Boolean algebra perfectly described the behavior of electrical circuits with relays — on/off, 1/0, True/False. The dissertation is considered the most important in the history of engineering. At that moment, Boole\'s work ceased to be mathematical abstraction and became the blueprint for modern hardware. Every AND, OR and NOT you write in code is executed literally as a logic gate in silicon.',
+        },
+        additionalImage: {
+          src: '/hall/the-mathematical-analysis-of-logic',
+          caption: {
+            pt: 'A capa original de "The Mathematical Analysis of Logic" (1847) — o panfleto de 82 páginas que George Boole publicou por conta própria e que contém, em linguagem matemática do século XIX, a fundação lógica de todo computador que já existiu ou existirá.',
+            en: 'The original cover of "The Mathematical Analysis of Logic" (1847) — the 82-page pamphlet that George Boole self-published, containing, in 19th-century mathematical language, the logical foundation of every computer that has ever existed or will exist.',
+          },
         },
       },
     ],

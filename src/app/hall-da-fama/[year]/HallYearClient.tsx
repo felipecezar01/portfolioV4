@@ -20,6 +20,7 @@ function PersonPhoto({ base, name }: { base: string; name: string }) {
       alt={name}
       onError={() => {
         if (src.endsWith('.jpg')) setSrc(`${base}.png`)
+        else if (src.endsWith('.png')) setSrc(`${base}.webp`)
         else setFailed(true)
       }}
       style={{
@@ -302,18 +303,53 @@ export default function HallYearClient({ year, entry }: { year: number; entry: H
                             fontSize: '14px',
                             color: 'var(--blue)',
                             lineHeight: 1.85,
-                            marginBottom: '16px',
+                            marginBottom: '20px',
                           }}>
                             {lang === 'pt' ? person.contribution.pt : person.contribution.en}
                           </p>
-                          <p style={{
-                            fontSize: '14px',
-                            color: 'var(--text2)',
-                            lineHeight: 1.95,
-                            margin: 0,
-                          }}>
-                            {lang === 'pt' ? person.detail.pt : person.detail.en}
-                          </p>
+
+                          {person.additionalImage && (
+                            <div style={{ marginBottom: '20px' }}>
+                              <div style={{
+                                border: '0.5px solid var(--border)',
+                                borderRadius: '8px',
+                                overflow: 'hidden',
+                                background: 'var(--bg)',
+                                padding: '12px',
+                                boxSizing: 'border-box' as const,
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                minHeight: '100px',
+                              }}>
+                                <PersonPhoto base={person.additionalImage.src} name="additional" />
+                              </div>
+                              <p style={{
+                                fontFamily: 'var(--font-mono)',
+                                fontSize: '11px',
+                                color: 'var(--text3)',
+                                lineHeight: 1.7,
+                                marginTop: '8px',
+                                fontStyle: 'italic',
+                              }}>
+                                {lang === 'pt' ? person.additionalImage.caption.pt : person.additionalImage.caption.en}
+                              </p>
+                            </div>
+                          )}
+
+                          {(lang === 'pt' ? person.detail.pt : person.detail.en)
+                            .split('\n\n')
+                            .map((paragraph, pIdx) => (
+                              <p key={pIdx} style={{
+                                fontSize: '14px',
+                                color: 'var(--text2)',
+                                lineHeight: 1.95,
+                                marginBottom: '16px',
+                              }}>
+                                {paragraph}
+                              </p>
+                            ))
+                          }
                         </div>
                       )}
                     </div>

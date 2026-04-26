@@ -38,6 +38,7 @@ function PersonPhoto({ base, name }: { base: string; name: string }) {
       alt={name}
       onError={() => {
         if (src.endsWith('.jpg')) setSrc(`${base}.png`)
+        else if (src.endsWith('.png')) setSrc(`${base}.webp`)
         else setFailed(true)
       }}
       style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', display: 'block' }}
