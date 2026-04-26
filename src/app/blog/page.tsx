@@ -347,6 +347,103 @@ function HallSideCard({ lang }: { lang: 'pt' | 'en' }) {
   )
 }
 
+function AIArenaSideCard({ lang }: { lang: 'pt' | 'en' }) {
+  return (
+    <Link href="/ai-arena" className="hall-side-card" style={{
+      textDecoration: 'none',
+      border: '0.5px solid color-mix(in srgb, var(--green) 35%, transparent)',
+      borderRadius: '8px',
+      background: 'var(--bg2)',
+      width: '100%',
+      minWidth: 0,
+      padding: '28px 24px',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      gap: '22px',
+      cursor: 'pointer',
+      transition: 'all 0.25s',
+      overflow: 'hidden',
+      position: 'relative',
+    }}
+      onMouseEnter={e => {
+        const el = e.currentTarget as HTMLAnchorElement
+        el.style.borderColor = 'color-mix(in srgb, var(--green) 70%, transparent)'
+        el.style.background = 'var(--bg3)'
+        el.style.boxShadow = '0 8px 24px color-mix(in srgb, var(--green) 8%, transparent), 0 2px 8px rgba(0,0,0,0.12)'
+        el.style.transform = 'translateY(-2px)'
+      }}
+      onMouseLeave={e => {
+        const el = e.currentTarget as HTMLAnchorElement
+        el.style.borderColor = 'color-mix(in srgb, var(--green) 35%, transparent)'
+        el.style.background = 'var(--bg2)'
+        el.style.boxShadow = 'none'
+        el.style.transform = 'translateY(0)'
+      }}
+    >
+      <div style={{
+        position: 'absolute', inset: 0,
+        backgroundImage: 'linear-gradient(color-mix(in srgb, var(--green) 6%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, var(--green) 5%, transparent) 1px, transparent 1px)',
+        backgroundSize: '28px 28px',
+        maskImage: 'linear-gradient(180deg, rgba(0,0,0,0.45), transparent 60%)',
+        pointerEvents: 'none',
+      }} />
+
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <div style={{
+          width: '42px', height: '42px', borderRadius: '8px',
+          border: '0.5px solid color-mix(in srgb, var(--green) 35%, transparent)',
+          background: 'var(--green-dim)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          color: 'var(--green)', fontSize: '20px', lineHeight: 1,
+          marginBottom: '22px',
+        }}>
+          ⚡
+        </div>
+
+        <div style={{
+          fontFamily: 'var(--font-mono)', fontSize: '12px',
+          color: 'var(--green)', opacity: 0.72,
+          letterSpacing: '0.08em', textTransform: 'uppercase',
+          marginBottom: '10px',
+        }}>
+          {lang === 'pt' ? '5 modelos analisados' : '5 models reviewed'}
+        </div>
+
+        <div style={{
+          fontFamily: 'var(--font-cyber)', fontSize: '23px', fontWeight: 800,
+          color: 'var(--green)', letterSpacing: '0.01em', lineHeight: 1.12,
+          marginBottom: '12px',
+        }}>
+          AI Arena
+        </div>
+
+        <p style={{
+          fontSize: '13px', color: 'var(--text2)',
+          lineHeight: 1.75, margin: 0, overflowWrap: 'break-word',
+        }}>
+          {lang === 'pt'
+            ? 'Claude, ChatGPT, Gemini, DeepSeek e Grok — analisados com uso real.'
+            : 'Claude, ChatGPT, Gemini, DeepSeek and Grok — reviewed with real use.'}
+        </p>
+      </div>
+
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <div style={{
+          fontFamily: 'var(--font-mono)', fontSize: '12px',
+          color: 'var(--green)', letterSpacing: '0.06em',
+          borderTop: '0.5px solid color-mix(in srgb, var(--green) 25%, transparent)',
+          paddingTop: '14px',
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px',
+        }}>
+          <span>{lang === 'pt' ? 'Ver ranking' : 'See ranking'}</span>
+          <span aria-hidden="true" style={{ fontSize: '15px', lineHeight: 1 }}>→</span>
+        </div>
+      </div>
+    </Link>
+  )
+}
+
 export default function BlogPage() {
   const { lang } = useLang()
   const tx = t[lang]
@@ -430,6 +527,7 @@ export default function BlogPage() {
           </div>
         </div>
 
+        {/* right aside — Hall da Fama */}
         <aside className="blog-aside" style={{
           position: 'absolute',
           top: '92px',
@@ -437,6 +535,16 @@ export default function BlogPage() {
           width: '280px',
         }}>
           <HallSideCard lang={lang} />
+        </aside>
+
+        {/* left aside — AI Arena */}
+        <aside style={{
+          position: 'absolute',
+          top: '92px',
+          right: 'calc(100% + 52px)',
+          width: '280px',
+        }}>
+          <AIArenaSideCard lang={lang} />
         </aside>
 
         {/* posts list */}
