@@ -134,7 +134,7 @@ export default function HallPageClient({ initialPage }: { initialPage: number })
         }}>
           {pageYears.map(year => {
             const entry = hallByYear.get(year)
-            const peopleCount = entry?.people.length ?? 0
+            const peopleCount = entry?.peopleCount ?? entry?.people.length ?? 0
             const hasEntries = peopleCount > 0
             return (
               <Link key={year} href={getDetailHref(year, page)} style={{ textDecoration: 'none' }}>

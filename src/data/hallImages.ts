@@ -27,4 +27,25 @@ export const HALL_IMAGES = {
     georgeBoole: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777248576/george-boole_v51xyl.jpg',
     calculusOfLogic: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777248578/the-calculus-of-logic_tijfec.jpg',
   },
+  year1849: {
+    charlesBabbage: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777250302/charles-babbage_rivzmk.jpg',
+    differenceEngine2: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777250302/difference-engine2_l2qqx5.jpg',
+  },
+  year1850: {
+    johnBrett: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777251705/john-brett_qs04pb.jpg',
+    jacobBrett: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777251705/jacob-brett_ej3y54.jpg',
+    channelCable: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777251705/atlantic-cable_t8nqe5.jpg',
+    doverCalaisMap: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777251706/map-dover-calais_p9yc9d.png',
+    paulJuliusReuter: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777251706/Paul_Julius_Reuter_zczr85.jpg',
+  },
+  year1851: {
+    thomasRussellCrampton: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777253887/Thomas_Russell_Crampton_y9jhgh.jpg',
+    channelCable: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777253883/cable-canal-damancha_hk4xez.jpg',
+    williamFrancisChanning: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777253883/William_Francis_Channing_jrhm9z.jpg',
+    mosesGerrishFarmer: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777253886/Moses_Gerrish_Farmer_onfgqx.png',
+    fireAlarm: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777253886/fire-alarm_zo1kdn.jpg',
+    hiramSibley: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777253883/HiramSibley_vuumyn.jpg',
+    ezraCornell: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777253884/Ezra_Cornell_avitry.jpg',
+    westernUnion: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777253885/western-union_ukdozz.webp',
+  },
 } as const

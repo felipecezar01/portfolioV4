@@ -42,6 +42,77 @@ function PersonPhoto({ base, name }: { base: string; name: string }) {
   )
 }
 
+function PersonPhotoGroup({ images }: { images: Array<{ src: string; alt: string }> }) {
+  return (
+    <div style={{
+      width: '100%',
+      height: '100%',
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(min(180px, 100%), 1fr))',
+      alignItems: 'center',
+      justifyItems: 'center',
+      gap: '16px',
+    }}>
+      {images.map(image => (
+        <div key={image.src} style={{
+          width: '100%',
+          height: '100%',
+          minHeight: 0,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>
+          <PersonPhoto base={image.src} name={image.alt} />
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function PersonPhotoPlaceholder({ text }: { text: string }) {
+  const [title, subtitle] = text.split('\n')
+
+  return (
+    <div style={{
+      width: '100%',
+      height: '100%',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      gap: '10px',
+      textAlign: 'center',
+      padding: '24px',
+      border: '0.5px dashed var(--gold-border)',
+      borderRadius: '8px',
+      background: 'var(--gold-dim)',
+      boxSizing: 'border-box',
+    }}>
+      <div style={{
+        fontFamily: 'var(--font-mono)',
+        fontSize: '11px',
+        lineHeight: 1.6,
+        letterSpacing: '0.12em',
+        textTransform: 'uppercase',
+        color: GOLD,
+      }}>
+        {title}
+      </div>
+      {subtitle && (
+        <div style={{
+          fontFamily: 'var(--font-cyber)',
+          fontSize: '36px',
+          fontWeight: 800,
+          color: 'var(--text)',
+          lineHeight: 1,
+        }}>
+          {subtitle}
+        </div>
+      )}
+    </div>
+  )
+}
+
 const GOLD = 'var(--gold)'
 const GOLD_DIM = 'var(--gold-dim)'
 
@@ -116,7 +187,11 @@ export default function HallYearClient({
   const toggle = (i: number) => {
     setOpenItems(prev => {
       const next = new Set(prev)
-      next.has(i) ? next.delete(i) : next.add(i)
+      if (next.has(i)) {
+        next.delete(i)
+      } else {
+        next.add(i)
+      }
       return next
     })
   }
@@ -215,6 +290,10 @@ export default function HallYearClient({
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
               {entry.people.map((person, i) => {
                 const isOpen = openItems.has(i)
+                const extraImages = [
+                  ...(person.additionalImage ? [person.additionalImage] : []),
+                  ...(person.additionalImages ?? []),
+                ]
                 return (
                   <div key={i} style={{
                     border: `0.5px solid ${isOpen ? 'var(--gold-border)' : 'var(--border)'}`,
@@ -236,8 +315,12 @@ export default function HallYearClient({
                       padding: '16px',
                       boxSizing: 'border-box',
                     }}>
-                      {person.image
+                      {person.images
+                        ? <PersonPhotoGroup images={person.images} />
+                        : person.image
                         ? <PersonPhoto base={person.image} name={person.name} />
+                        : person.imagePlaceholder
+                        ? <PersonPhotoPlaceholder text={lang === 'pt' ? person.imagePlaceholder.pt : person.imagePlaceholder.en} />
                         : <span style={{ fontSize: '48px', color: GOLD, opacity: 0.25 }}>✦</span>
                       }
                     </div>
@@ -325,8 +408,8 @@ export default function HallYearClient({
                             {lang === 'pt' ? person.contribution.pt : person.contribution.en}
                           </p>
 
-                          {person.additionalImage && (
-                            <div style={{ marginBottom: '20px' }}>
+                          {extraImages.map((image, imageIdx) => (
+                            <div key={image.src} style={{ marginBottom: '20px' }}>
                               <div style={{
                                 border: '0.5px solid var(--border)',
                                 borderRadius: '8px',
@@ -339,7 +422,7 @@ export default function HallYearClient({
                                 justifyContent: 'center',
                                 minHeight: '100px',
                               }}>
-                                <PersonPhoto base={person.additionalImage.src} name="additional" />
+                                <PersonPhoto base={image.src} name={`additional-${imageIdx}`} />
                               </div>
                               <p style={{
                                 fontFamily: 'var(--font-mono)',
@@ -349,10 +432,10 @@ export default function HallYearClient({
                                 marginTop: '8px',
                                 fontStyle: 'italic',
                               }}>
-                                {lang === 'pt' ? person.additionalImage.caption.pt : person.additionalImage.caption.en}
+                                {lang === 'pt' ? image.caption.pt : image.caption.en}
                               </p>
                             </div>
-                          )}
+                          ))}
 
                           {(lang === 'pt' ? person.detail.pt : person.detail.en)
                             .split('\n\n')
