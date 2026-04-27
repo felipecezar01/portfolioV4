@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { useLang } from '@/context/LangContext'
+import { BLOG_IMAGES } from '@/data/blogImages'
 
 const imgStyle: React.CSSProperties = {
   width: '100%',
@@ -63,7 +64,7 @@ const content = {
 
       <p>Vamos imaginar que a minha aplicação cresceu. Eu não posso ter um único contêiner rodando meu site, senão ele cai. Eu preciso de clones. Imagina que eu tenho réplicas rodando a minha API. Como o usuário acessa isso? É aqui que a arquitetura se divide em vários papéis. Dá uma olhada nesse fluxograma que preparei para ilustrar exatamente o ciclo de vida dessa requisição:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/flux_request.png" alt="Fluxo de uma requisição web passando por Nginx, Proxy Reverso e App Servers" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.fluxRequest} alt="Fluxo de uma requisição web passando por Nginx, Proxy Reverso e App Servers" />
 
       <p><strong>O Server Físico (A VPS):</strong> O computador real que alugamos.</p>
 
@@ -99,7 +100,7 @@ const content = {
 
       <p>Descobri que contêineres não têm limite próprio por padrão; o limite deles é o gargalo da sua máquina física. Dá uma olhada no painel que eu montei. Nele dá pra ver que a minha API de teste tem um consumo baixíssimo (uns 40MB de RAM por contêiner), mesmo consumindo parte dos 12 núcleos da máquina. Ter essa visão no Grafana é sensacional:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/grafana.png" alt="Dashboard do Grafana com cAdvisor mostrando CPU e RAM dos contêineres" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.grafana} alt="Dashboard do Grafana com cAdvisor mostrando CPU e RAM dos contêineres" />
 
       <h3>Estressando com o Locust (O conceito de Ramp Up)</h3>
 
@@ -107,7 +108,7 @@ const content = {
 
       <p>Para os testes, configurei uma carga bacana com uma subida controlada:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/locust.png" alt="Interface do Locust configurando o teste de carga com Ramp Up" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.locust} alt="Interface do Locust configurando o teste de carga com Ramp Up" />
 
       <p>Escolher um Ramp Up menor (subir de forma gradual) é ótimo para criar uma linha de estresse longa, dando tempo para você ver no Grafana o segundo exato em que o servidor começa a "pedir água" e gargalar.</p>
 
@@ -117,7 +118,7 @@ const content = {
 
       <p>Nesse meu dashboard focado no Load Balancer, as requisições estão perfeitamente divididas entre as 3 APIs, e a latência P95 se mantém super saudável:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/grafana_basic.png" alt="Dashboard do Grafana mostrando requisições divididas entre 3 APIs e latência P95" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.grafanaBasic} alt="Dashboard do Grafana mostrando requisições divididas entre 3 APIs e latência P95" />
 
       <h2>E o Kubernetes?</h2>
 
@@ -127,11 +128,11 @@ const content = {
 
       <p>Para provar que o Nginx não é um bicho de sete cabeças, olha como a configuração real do Load Balance e do Proxy Reverso fica enxuta no código:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/config_nginx.png" alt="Arquivo nginx.conf com configuração de upstream, load balance e proxy reverso" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.configNginx} alt="Arquivo nginx.conf com configuração de upstream, load balance e proxy reverso" />
 
       <p>Aqui está a tradução visual exata do que esse bloco de código está fazendo:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/LB_RP.png" alt="Diagrama visual explicando como o nginx.conf mapeia o Load Balancer e o Proxy Reverso" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.loadBalancerReverseProxy} alt="Diagrama visual explicando como o nginx.conf mapeia o Load Balancer e o Proxy Reverso" />
 
       <p>O <code>upstream</code> cria um grupo com as nossas APIs. O <code>least_conn</code> é o algoritmo de distribuição inteligente: ele joga a próxima requisição para a API que estiver mais desocupada — melhor que o <code>round_robin</code> que só distribui em círculo, ou o <code>ip_hash</code> que prende o usuário na mesma máquina. Os nomes <code>api-1</code>, etc., são resolvidos pelo próprio DNS interno do Docker.</p>
 
@@ -190,7 +191,7 @@ const content = {
 
       <p>Let's imagine my application has grown. I can't have a single container running my site, or it will crash. I need clones — replicas running my API. How does the user access this? This is where the architecture splits into several roles. Check out this flowchart I put together to illustrate exactly the lifecycle of a request:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/flux_request.png" alt="Web request flow going through Nginx, Reverse Proxy and App Servers" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.fluxRequest} alt="Web request flow going through Nginx, Reverse Proxy and App Servers" />
 
       <p><strong>The Physical Server (The VPS):</strong> The actual computer we rented.</p>
 
@@ -226,7 +227,7 @@ const content = {
 
       <p>I discovered that containers don't have their own limits by default; their limit is the bottleneck of your physical machine. Check out the dashboard I built. You can see that my test API has very low consumption (around 40MB of RAM per container), even consuming part of the 12 cores of the machine. Having this view in Grafana is amazing:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/grafana.png" alt="Grafana dashboard with cAdvisor showing CPU and RAM per container" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.grafana} alt="Grafana dashboard with cAdvisor showing CPU and RAM per container" />
 
       <h3>Stress Testing with Locust (The Ramp Up Concept)</h3>
 
@@ -234,7 +235,7 @@ const content = {
 
       <p>For the tests, I set up a solid load with a controlled ramp:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/locust.png" alt="Locust interface configuring the load test with Ramp Up" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.locust} alt="Locust interface configuring the load test with Ramp Up" />
 
       <p>Choosing a lower Ramp Up (ramping up gradually) is great for creating a long stress curve, giving you time to see in Grafana the exact second when the server starts to struggle and bottleneck.</p>
 
@@ -244,7 +245,7 @@ const content = {
 
       <p>In my Load Balancer-focused dashboard, requests are perfectly split across the 3 APIs, and P95 latency stays super healthy:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/grafana_basic.png" alt="Grafana dashboard showing requests split across 3 APIs and P95 latency" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.grafanaBasic} alt="Grafana dashboard showing requests split across 3 APIs and P95 latency" />
 
       <h2>What About Kubernetes?</h2>
 
@@ -254,11 +255,11 @@ const content = {
 
       <p>To prove that Nginx isn't a seven-headed monster, look at how clean the actual Load Balance and Reverse Proxy configuration is:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/config_nginx.png" alt="nginx.conf file with upstream, load balance and reverse proxy configuration" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.configNginx} alt="nginx.conf file with upstream, load balance and reverse proxy configuration" />
 
       <p>Here's the exact visual translation of what that block of code is doing:</p>
 
-      <PostImage src="/blog/nginx-load-balancer/LB_RP.png" alt="Visual diagram explaining how nginx.conf maps to the Load Balancer and Reverse Proxy" />
+      <PostImage src={BLOG_IMAGES.nginxLoadBalancer.loadBalancerReverseProxy} alt="Visual diagram explaining how nginx.conf maps to the Load Balancer and Reverse Proxy" />
 
       <p>The <code>upstream</code> block creates a group with our APIs. <code>least_conn</code> is the smart distribution algorithm: it sends the next request to whichever API is least busy — better than <code>round_robin</code> which just distributes in circles, or <code>ip_hash</code> which locks users to the same machine. The names <code>api-1</code>, etc., are resolved by Docker's own internal DNS.</p>
 

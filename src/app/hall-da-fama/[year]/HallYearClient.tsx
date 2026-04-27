@@ -5,8 +5,13 @@ import Link from 'next/link'
 import { HallYear } from '@/data/hallOfFame'
 import { useLang } from '@/context/LangContext'
 
+function hasImageExtension(src: string) {
+  return /\.(jpe?g|png|webp|avif)(\?.*)?$/i.test(src)
+}
+
 function PersonPhoto({ base, name }: { base: string; name: string }) {
-  const [src, setSrc] = useState(`${base}.jpg`)
+  const usesExactSrc = hasImageExtension(base)
+  const [src, setSrc] = useState(usesExactSrc ? base : `${base}.jpg`)
   const [failed, setFailed] = useState(false)
 
   if (failed) {
@@ -19,6 +24,10 @@ function PersonPhoto({ base, name }: { base: string; name: string }) {
       src={src}
       alt={name}
       onError={() => {
+        if (usesExactSrc) {
+          setFailed(true)
+          return
+        }
         if (src.endsWith('.jpg')) setSrc(`${base}.png`)
         else if (src.endsWith('.png')) setSrc(`${base}.webp`)
         else setFailed(true)
@@ -80,7 +89,15 @@ const valueStyle: React.CSSProperties = {
   lineHeight: 1.5,
 }
 
-export default function HallYearClient({ year, entry }: { year: number; entry: HallYear | null }) {
+export default function HallYearClient({
+  year,
+  entry,
+  returnHref,
+}: {
+  year: number
+  entry: HallYear | null
+  returnHref: string
+}) {
   const { lang } = useLang()
   const tx = t[lang]
   const [openItems, setOpenItems] = useState<Set<number>>(new Set())
@@ -119,7 +136,7 @@ export default function HallYearClient({ year, entry }: { year: number; entry: H
           felipecezar.dev
         </Link>
         <span style={{ color: 'var(--border2)' }}>/</span>
-        <Link href="/hall-da-fama" style={{ color: 'var(--text3)', textDecoration: 'none', transition: 'color 0.2s' }}
+        <Link href={returnHref} style={{ color: 'var(--text3)', textDecoration: 'none', transition: 'color 0.2s' }}
           onMouseEnter={e => (e.currentTarget.style.color = GOLD)}
           onMouseLeave={e => (e.currentTarget.style.color = 'var(--text3)')}>
           {tx.back}

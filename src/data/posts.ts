@@ -1,3 +1,5 @@
+import { BLOG_IMAGES } from './blogImages'
+
 export type Post = {
   slug: string
   titlePt: string
@@ -21,7 +23,7 @@ export const posts: Post[] = [
     date: '2026-04-23',
     tags: ['Nginx', 'DevOps', 'Infraestrutura', 'Docker', 'System Design'],
     readTime: 12,
-    image: '/blog/nginx-load-balancer/capa_nginx.png',
+    image: BLOG_IMAGES.nginxLoadBalancer.cover,
     accent: 'linear-gradient(135deg, #0a1628 0%, #0d1f3c 40%, #061020 100%)',
   },
   {
@@ -33,7 +35,7 @@ export const posts: Post[] = [
     date: '2026-04-21',
     tags: ['Python', 'Pandas', 'Polars', 'DuckDB', 'Benchmark'],
     readTime: 9,
-    image: '/blog/pandas-polars-duckdb/pandas-polars-duckdb-ram-benchmark-cover.png',
+    image: BLOG_IMAGES.pandasPolarsDuckdb.cover,
     accent: 'linear-gradient(135deg, #0a2a1a 0%, #0d3320 40%, #061a10 100%)',
   },
 ]

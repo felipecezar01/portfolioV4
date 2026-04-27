@@ -1,3 +1,5 @@
+import { HALL_IMAGES } from './hallImages'
+
 export type HallPerson = {
   name: string
   image?: string
@@ -36,7 +38,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Ada Lovelace',
-        image: '/hall/ada-lovelace',
+        image: HALL_IMAGES.year1843.adaLovelace,
         flag: '🇬🇧',
         nationality: { pt: 'Britânica', en: 'British' },
         formation: {
@@ -66,7 +68,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Samuel Morse',
-        image: '/hall/samuel-morse',
+        image: HALL_IMAGES.year1844.samuelMorse,
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -90,7 +92,7 @@ const data: HallYear[] = [
           en: 'Samuel Morse was not an engineer — he was an accomplished painter, awarded by the Royal Academy of Arts in London and the author of celebrated portraits of Lafayette. The idea of the electric telegraph arose in 1832 during an ocean crossing, when he overheard conversations about electromagnetism experiments and realized that electrical pulses could carry information over any distance. He spent twelve years developing the system, with crucial contributions from his assistant Alfred Vail, who improved the hardware and simplified the code — replacing Morse\'s original numerical system with the elegant dot-and-dash logic we know today.\n\nThe text of the historic message was suggested by Annie Ellsworth, daughter of the patent commissioner, taken from the book of Numbers (23:23) in the Bible. Morse transmitted from the Capitol in Washington; Vail received and confirmed in Baltimore. The original message tape is preserved at the Library of Congress.\n\nMorse Code is, in essence, a binary system: dot (short signal) and dash (long signal), combined to represent letters and numbers — the same fundamental logic of 0s and 1s that governs every modern processor. Within twenty years of that first message, the telegraph had connected the US coast to coast. In 1866, a transatlantic cable linked America to Europe, reducing cross-continental communication from two weeks to two minutes. Without this foundation, the internet would not exist.',
         },
         additionalImage: {
-          src: '/hall/first-ping',
+          src: HALL_IMAGES.year1844.firstPing,
           caption: {
             pt: 'A fita original de papel do receptor de telégrafo, registrando em pontos e traços do Código Morse a chegada da mensagem "What hath God wrought?" em Baltimore — o primeiro "ping" da história da humanidade, impresso fisicamente pelo próprio mecanismo da máquina.',
             en: 'The original paper tape from the telegraph receiver, recording in Morse Code dots and dashes the arrival of "What hath God wrought?" in Baltimore — history\'s first "ping", physically printed by the machine\'s own mechanism.',
@@ -109,7 +111,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Samuel Morse',
-        image: '/hall/samuel-morse',
+        image: HALL_IMAGES.year1845.samuelMorse,
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -133,7 +135,7 @@ const data: HallYear[] = [
           en: 'The leap from 1844 to 1845 was the leap from the laboratory to the market. Morse knew the technology worked — the problem was scaling it. With Amos Kendall as business manager, the Magnetic Telegraph Company was the first to prove that instant communication could be sold as a service. News of the founding spread across American newspapers: the idea that anyone could send a message from New York to Washington in minutes was simply unbelievable at the time.\n\nThe model worked. Within a few years, dozens of companies copied the format. By 1851, there were over fifty telegraph companies operating in the US alone. Competition accelerated line expansion: by 1861, a cable connected the American east coast to the west coast, making the Pony Express obsolete overnight.\n\nWestern Union, founded in 1851, consolidated this fragmented market in 1866 — becoming the world\'s first major telecommunications corporation. All of this was born from the model Morse inaugurated in 1845: communication infrastructure as a paid service, available to the public. That is exactly the model that still governs carriers, internet providers and digital platforms today.',
         },
         additionalImage: {
-          src: '/hall/first-company-telegraph',
+          src: HALL_IMAGES.year1845.firstCompanyTelegraph,
           caption: {
             pt: 'Notícia de jornal da época cobrindo a fundação da Magnetic Telegraph Company em 1845 — o anúncio público da primeira empresa comercial de telecomunicações da história, que transformou uma invenção de laboratório em serviço acessível ao cidadão comum.',
             en: 'Period newspaper coverage of the founding of the Magnetic Telegraph Company in 1845 — the public announcement of the first commercial telecommunications company in history, which transformed a laboratory invention into a service accessible to the ordinary citizen.',
@@ -152,7 +154,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Alexander Bain',
-        image: '/hall/alexander-bain',
+        image: HALL_IMAGES.year1846.alexanderBain,
         flag: '🇬🇧',
         nationality: { pt: 'Escocês', en: 'Scottish' },
         formation: {
@@ -176,7 +178,7 @@ const data: HallYear[] = [
           en: 'Alexander Bain was born in 1810 in Watten, in the remote Scottish Caithness, the son of a small farmer. A clockmaker\'s apprentice for seven years in Wick, he moved to London in 1837 with no money and no connections — only an obsession with mechanics and electricity. In 1841, he patented the first electric clock in history. In 1843, he invented the fax: two synchronized pendulums that scanned and reproduced images at a distance, decades ahead of any competitor.\n\nBut it was in 1846 that Bain changed the communications game. Morse\'s telegraph relied on a human operator manually tapping the key to send each signal. Bain removed the operator from the process: data was pre-recorded by punching holes in a paper tape, which then passed through an automatic mechanism. On the receiving end, instead of a mechanical device, there was paper soaked in ammonium nitrate and potassium ferrocyanide — electricity left colored marks instantly. It was faster, cheaper and more reliable.\n\nThe concept of the punched tape as a medium for storing and transmitting data was his deepest legacy. Britain\'s Colossus of 1944 read 5,000 characters per second from paper tape. The ENIAC and virtually all computers of the 1940s through 1970s used punched tape as standard data input and output. Bain invented the idea a century earlier.\n\nBain\'s story has a bitter ending. In 1848, he traveled to America to patent his inventions and was legally destroyed by the Morse machine, which controlled both the market and the politicians. The US Supreme Court decided against him in 1853. He returned to London with a $58,000 debt. He died nearly in poverty in 1877 — ignored by history while Morse was celebrated. Ironically, the limitation the Court imposed on Morse\'s monopoly to defeat him was the same one that opened the path for the telephone, television and the computer.',
         },
         additionalImage: {
-          src: '/hall/chemical-telegraph',
+          src: HALL_IMAGES.year1846.chemicalTelegraph,
           caption: {
             pt: 'O telégrafo químico de Bain: à esquerda, o mecanismo transmissor que puxava automaticamente a fita de papel perfurada; à direita, o receptor com o papel tratado quimicamente que registrava a mensagem através de reação eletroquímica. A velocidade desse sistema foi o equivalente a passar de um modem dial-up para banda larga — em 1846.',
             en: 'Bain\'s chemical telegraph: on the left, the transmitter mechanism that automatically pulled the punched paper tape; on the right, the receiver with chemically treated paper that recorded the message through an electrochemical reaction. The speed of this system was the equivalent of going from a dial-up modem to broadband — in 1846.',
@@ -195,7 +197,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'George Boole',
-        image: '/hall/george-boole',
+        image: HALL_IMAGES.year1847.georgeBoole,
         flag: '🇬🇧',
         nationality: { pt: 'Inglês', en: 'English' },
         formation: {
@@ -219,10 +221,53 @@ const data: HallYear[] = [
           en: 'George Boole was born in 1815 in Lincoln, England, the son of a shoemaker. With no money for university, he taught himself Latin, Greek, French, German and Italian, and mastered mathematics on his own. In 1849, he was appointed the first professor of mathematics at Queen\'s College Cork, Ireland — without ever having held a university degree. His intellectual mentor was Augustus De Morgan, the same person who tutored Ada Lovelace.\n\nThe 1847 book was only the beginning. In 1854, he published "An Investigation of the Laws of Thought," the complete and corrected version of the system — now called Boolean algebra. The central idea was elegant and radical: any logical reasoning can be reduced to mathematical operations on two values. AND, OR and NOT were the pieces. With these three operations, any condition, any decision, any circuit can be represented.\n\nThe problem was that nobody cared for ninety years. 19th-century mathematics was dominated by those who thought logic was philosophy, not calculus. Boole died in 1864, aged 49, from pneumonia — he had walked in the rain to avoid missing a lecture, and his wife, following homeopathic beliefs, treated him by pouring buckets of cold water over him. The couple\'s daughter documented the episode.\n\nThe turning point came in 1937. Claude Shannon, aged 21, wrote his MIT master\'s dissertation showing that Boolean algebra perfectly described the behavior of electrical circuits with relays — on/off, 1/0, True/False. The dissertation is considered the most important in the history of engineering. At that moment, Boole\'s work ceased to be mathematical abstraction and became the blueprint for modern hardware. Every AND, OR and NOT you write in code is executed literally as a logic gate in silicon.',
         },
         additionalImage: {
-          src: '/hall/the-mathematical-analysis-of-logic',
+          src: HALL_IMAGES.year1847.mathematicalAnalysisOfLogic,
           caption: {
             pt: 'A capa original de "The Mathematical Analysis of Logic" (1847) — o panfleto de 82 páginas que George Boole publicou por conta própria e que contém, em linguagem matemática do século XIX, a fundação lógica de todo computador que já existiu ou existirá.',
             en: 'The original cover of "The Mathematical Analysis of Logic" (1847) — the 82-page pamphlet that George Boole self-published, containing, in 19th-century mathematical language, the logical foundation of every computer that has ever existed or will exist.',
+          },
+        },
+      },
+    ],
+  },
+  {
+    year: 1848,
+    era: { pt: 'O Cálculo da Lógica', en: 'The Calculus of Logic' },
+    context: {
+      pt: 'Depois de lançar a base em 1847, George Boole publicou um ensaio curto e decisivo em 1848: "The Calculus of Logic". Ali, ele deixou mais claro que a lógica podia ser operada como cálculo — uma ideia que, décadas depois, encontraria seu corpo físico nos circuitos digitais.',
+      en: 'After laying the foundation in 1847, George Boole published a short and decisive essay in 1848: "The Calculus of Logic." There, he made clearer that logic could be operated as calculus — an idea that, decades later, would find its physical body in digital circuits.',
+    },
+    people: [
+      {
+        name: 'George Boole',
+        image: HALL_IMAGES.year1848.georgeBoole,
+        flag: '🇬🇧',
+        nationality: { pt: 'Inglês', en: 'English' },
+        formation: {
+          pt: 'Autodidata em Matemática e Lógica · Primeiro Catedrático de Matemática, Queen\'s College Cork (sem graduação prévia)',
+          en: 'Self-taught in Mathematics and Logic · First Professor of Mathematics, Queen\'s College Cork (no prior university degree)',
+        },
+        summary: {
+          pt: 'Publicou "The Calculus of Logic", consolidando a ideia de tratar Verdadeiro/Falso, AND, OR e NOT como operações matemáticas',
+          en: 'Published "The Calculus of Logic," consolidating the idea of treating True/False, AND, OR and NOT as mathematical operations',
+        },
+        role: {
+          pt: 'Matemático e criador da lógica booleana',
+          en: 'Mathematician and creator of Boolean logic',
+        },
+        contribution: {
+          pt: 'Em 1847, George Boole lançou "The Mathematical Analysis of Logic" e, logo em seguida, em 1848, publicou o ensaio "The Calculus of Logic" no Cambridge and Dublin Mathematical Journal. Nesse texto, ele reforçou a ideia de uma lógica calculável: classes, proposições e relações podiam ser manipuladas por símbolos e regras algébricas. É o chão matemático por trás de True e False, IF, AND, OR e NOT, filtros de dados e circuitos binários de 0 e 1.',
+          en: 'In 1847, George Boole released "The Mathematical Analysis of Logic" and, soon after, in 1848, published the essay "The Calculus of Logic" in the Cambridge and Dublin Mathematical Journal. In that text, he reinforced the idea of calculable logic: classes, propositions and relations could be manipulated through symbols and algebraic rules. It is the mathematical ground behind True and False, IF, AND, OR and NOT, data filters and binary 0/1 circuits.',
+        },
+        detail: {
+          pt: '"The Calculus of Logic" não era uma troca de assunto: era Boole voltando ao próprio livro de 1847 para explicar melhor o núcleo da invenção. Logo na abertura, ele diz que havia apresentado uma nova forma de matemática aplicada às operações da mente no raciocínio; agora queria dar uma visão mais direta da natureza daquele sistema. O alvo era transformar lógica, que por séculos tinha sido tratada como território da filosofia, em uma linguagem formal que pudesse ser calculada.\n\nA peça central era pensar em classes e proposições como objetos manipuláveis. Em vez de depender apenas de frases como "todo A é B" ou "nenhum A é C", Boole usava símbolos e operações. A interseção de classes se comportava como multiplicação; a união, em certas condições, como soma; a negação entrava como complemento. Hoje isso aparece para a gente como AND, OR e NOT. Para Boole, era uma tentativa de mostrar que o pensamento lógico tinha leis matemáticas.\n\nPor que isso importa hoje? Porque quase tudo em programação e computação digital descansa sobre essa redução brutalmente poderosa: decisões complexas podem ser quebradas em valores lógicos. Um IF em Python, um filtro em SQL, uma busca com operadores booleanos, uma porta AND dentro de um processador e o fluxo elétrico que alterna entre 0 e 1 estão todos falando, com sotaque moderno, a língua que Boole começou a formalizar.\n\nA ironia é bonita: Boole não estava tentando inventar computadores. Ele estava tentando entender o raciocínio. Mas quando Claude Shannon mostrou, em 1937, que a álgebra de Boole descrevia circuitos elétricos com relés, o ensaio filosófico-matemático virou engenharia. Sem essa ponte entre lógica e álgebra, a arquitetura de computadores como conhecemos não teria o mesmo alicerce.',
+          en: '"The Calculus of Logic" was not a change of subject: it was Boole returning to his own 1847 book to explain the core of the invention more clearly. At the opening, he says he had presented a new form of mathematics applied to the operations of the mind in reasoning; now he wanted to give a more direct account of the nature of that system. The target was to turn logic, which for centuries had been treated as philosophical territory, into a formal language that could be calculated.\n\nThe central move was to think of classes and propositions as manipulable objects. Instead of relying only on sentences such as "all A is B" or "no A is C," Boole used symbols and operations. The intersection of classes behaved like multiplication; union, under certain conditions, like addition; negation entered as complement. Today, we see that as AND, OR and NOT. For Boole, it was an attempt to show that logical thought had mathematical laws.\n\nWhy does this matter today? Because almost everything in programming and digital computing rests on this brutally powerful reduction: complex decisions can be broken into logical values. An IF in Python, a SQL filter, a search with Boolean operators, an AND gate inside a processor and the electric flow alternating between 0 and 1 are all speaking, in a modern accent, the language Boole began to formalize.\n\nThe irony is beautiful: Boole was not trying to invent computers. He was trying to understand reasoning. But when Claude Shannon showed in 1937 that Boole\'s algebra described electrical circuits with relays, the philosophical-mathematical essay became engineering. Without that bridge between logic and algebra, computer architecture as we know it would not have the same foundation.',
+        },
+        additionalImage: {
+          src: HALL_IMAGES.year1848.calculusOfLogic,
+          caption: {
+            pt: 'A página de "The Calculus of Logic" (1848), ensaio publicado por George Boole no Cambridge and Dublin Mathematical Journal, vol. III, pp. 183-198. É uma versão mais direta e concentrada da ideia que ele havia lançado no ano anterior: transformar lógica em cálculo.',
+            en: 'The page from "The Calculus of Logic" (1848), an essay published by George Boole in the Cambridge and Dublin Mathematical Journal, vol. III, pp. 183-198. It is a more direct and concentrated version of the idea he had launched the year before: turning logic into calculus.',
           },
         },
       },
@@ -238,7 +283,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Alan Turing',
-        image: '/hall/alan-turing',
+        image: '/hall/1936/alan-turing',
         flag: '🇬🇧',
         nationality: { pt: 'Britânico', en: 'British' },
         formation: {
@@ -268,7 +313,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'John Bardeen',
-        image: '/hall/john-bardeen',
+        image: '/hall/1947/john-bardeen',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -288,7 +333,7 @@ const data: HallYear[] = [
       },
       {
         name: 'Walter Brattain',
-        image: '/hall/walter-brattain',
+        image: '/hall/1947/walter-brattain',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -308,7 +353,7 @@ const data: HallYear[] = [
       },
       {
         name: 'William Shockley',
-        image: '/hall/william-shockley',
+        image: '/hall/1947/william-shockley',
         flag: '🇺🇸',
         nationality: { pt: 'Britânico-Americano', en: 'British-American' },
         formation: {
@@ -338,7 +383,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Grace Hopper',
-        image: '/hall/grace-hopper',
+        image: '/hall/1951/grace-hopper',
         flag: '🇺🇸',
         nationality: { pt: 'Americana', en: 'American' },
         formation: {
@@ -368,7 +413,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'John Backus',
-        image: '/hall/john-backus',
+        image: '/hall/1957/john-backus',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -398,7 +443,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Jack Kilby',
-        image: '/hall/jack-kilby',
+        image: '/hall/1958/jack-kilby',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -428,7 +473,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Ken Thompson',
-        image: '/hall/ken-thompson',
+        image: '/hall/1969/ken-thompson',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -448,7 +493,7 @@ const data: HallYear[] = [
       },
       {
         name: 'Dennis Ritchie',
-        image: '/hall/dennis-ritchie',
+        image: '/hall/1969/dennis-ritchie',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -468,7 +513,7 @@ const data: HallYear[] = [
       },
       {
         name: 'Vint Cerf',
-        image: '/hall/vint-cerf',
+        image: '/hall/1969/vint-cerf',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -498,7 +543,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Dennis Ritchie',
-        image: '/hall/dennis-ritchie',
+        image: '/hall/1972/dennis-ritchie',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -528,7 +573,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Bill Gates',
-        image: '/hall/bill-gates',
+        image: '/hall/1975/bill-gates',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -548,7 +593,7 @@ const data: HallYear[] = [
       },
       {
         name: 'Paul Allen',
-        image: '/hall/paul-allen',
+        image: '/hall/1975/paul-allen',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -578,7 +623,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Steve Jobs',
-        image: '/hall/steve-jobs',
+        image: '/hall/1976/steve-jobs',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -598,7 +643,7 @@ const data: HallYear[] = [
       },
       {
         name: 'Steve Wozniak',
-        image: '/hall/steve-wozniak',
+        image: '/hall/1976/steve-wozniak',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -628,7 +673,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Richard Stallman',
-        image: '/hall/richard-stallman',
+        image: '/hall/1983/richard-stallman',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -658,7 +703,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Tim Berners-Lee',
-        image: '/hall/tim-berners-lee',
+        image: '/hall/1989/tim-berners-lee',
         flag: '🇬🇧',
         nationality: { pt: 'Britânico', en: 'British' },
         formation: {
@@ -688,7 +733,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Linus Torvalds',
-        image: '/hall/linus-torvalds',
+        image: '/hall/1991/linus-torvalds',
         flag: '🇫🇮',
         nationality: { pt: 'Finlandês-Americano', en: 'Finnish-American' },
         formation: {
@@ -718,7 +763,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Brendan Eich',
-        image: '/hall/brendan-eich',
+        image: '/hall/1995/brendan-eich',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -738,7 +783,7 @@ const data: HallYear[] = [
       },
       {
         name: 'James Gosling',
-        image: '/hall/james-gosling',
+        image: '/hall/1995/james-gosling',
         flag: '🇨🇦',
         nationality: { pt: 'Canadense', en: 'Canadian' },
         formation: {
@@ -768,7 +813,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Larry Page',
-        image: '/hall/larry-page',
+        image: '/hall/1998/larry-page',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -788,7 +833,7 @@ const data: HallYear[] = [
       },
       {
         name: 'Sergey Brin',
-        image: '/hall/sergey-brin',
+        image: '/hall/1998/sergey-brin',
         flag: '🇷🇺',
         nationality: { pt: 'Russo-Americano', en: 'Russian-American' },
         formation: {
@@ -818,7 +863,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Mark Zuckerberg',
-        image: '/hall/mark-zuckerberg',
+        image: '/hall/2004/mark-zuckerberg',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -848,7 +893,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Steve Jobs',
-        image: '/hall/steve-jobs',
+        image: '/hall/2007/steve-jobs',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -868,7 +913,7 @@ const data: HallYear[] = [
       },
       {
         name: 'Scott Forstall',
-        image: '/hall/scott-forstall',
+        image: '/hall/2007/scott-forstall',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -898,7 +943,7 @@ const data: HallYear[] = [
     people: [
       {
         name: 'Sam Altman',
-        image: '/hall/sam-altman',
+        image: '/hall/2022/sam-altman',
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
@@ -918,7 +963,7 @@ const data: HallYear[] = [
       },
       {
         name: 'Ilya Sutskever',
-        image: '/hall/ilya-sutskever',
+        image: '/hall/2022/ilya-sutskever',
         flag: '🇮🇱',
         nationality: { pt: 'Israelense-Canadense', en: 'Israeli-Canadian' },
         formation: {

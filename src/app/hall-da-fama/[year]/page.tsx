@@ -8,8 +8,24 @@ export function generateStaticParams() {
 
 export const dynamicParams = true
 
-export default async function HallYearPage({ params }: { params: Promise<{ year: string }> }) {
+function getReturnHref(value?: string | string[]) {
+  const raw = Array.isArray(value) ? value[0] : value
+  const pageNumber = Number(raw)
+
+  if (!Number.isInteger(pageNumber) || pageNumber <= 1) return '/hall-da-fama'
+
+  return `/hall-da-fama?page=${pageNumber}`
+}
+
+export default async function HallYearPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ year: string }>
+  searchParams?: Promise<{ from?: string | string[] }>
+}) {
   const { year: yearStr } = await params
+  const query = await searchParams
   const year = parseInt(yearStr, 10)
 
   if (isNaN(year) || year < HALL_START || year > HALL_END) notFound()
@@ -18,7 +34,7 @@ export default async function HallYearPage({ params }: { params: Promise<{ year:
 
   return (
     <main style={{ minHeight: '100vh', background: 'var(--bg)', paddingTop: '56px' }}>
-      <HallYearClient year={year} entry={entry} />
+      <HallYearClient year={year} entry={entry} returnHref={getReturnHref(query?.from)} />
     </main>
   )
 }

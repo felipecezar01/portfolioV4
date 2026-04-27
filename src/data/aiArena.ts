@@ -78,6 +78,14 @@ export type ArenaCategory = {
   entries: CategoryEntry[]
 }
 
+const AI_ARENA_LOGOS = {
+  chatgpt: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777246475/chatgpt_pwiqqu.png',
+  claude: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777246475/claude_vholpv.png',
+  deepseek: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777246476/deepseek_wadpjo.png',
+  gemini: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777246476/gemini_h8cdkn.png',
+  grok: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777246478/grok_b5rg4w.png',
+} as const
+
 // ─── Main LLM models ───────────────────────────────────────────────────────────
 
 export const models: AIModel[] = [
@@ -86,7 +94,7 @@ export const models: AIModel[] = [
     name: 'Claude',
     company: 'Anthropic',
     color: '#D97757',
-    logo: '/ai-arena/claude.png',
+    logo: AI_ARENA_LOGOS.claude,
     currentModel: { pt: 'Sonnet 4.6 (analisado) · Opus 4.7 / 4.6 (inacessíveis)', en: 'Sonnet 4.6 (reviewed) · Opus 4.7 / 4.6 (inaccessible)' },
     rank: 1,
     tier: 'S',
@@ -143,7 +151,7 @@ export const models: AIModel[] = [
     name: 'ChatGPT',
     company: 'OpenAI',
     color: '#e8e8e8',
-    logo: '/ai-arena/chatgpt.png',
+    logo: AI_ARENA_LOGOS.chatgpt,
     currentModel: { pt: 'Thinking 5.5 Extended', en: 'Thinking 5.5 Extended' },
     rank: 2,
     tier: 'S',
@@ -281,7 +289,7 @@ export const models: AIModel[] = [
     name: 'Gemini',
     company: 'Google',
     color: '#4ade80',
-    logo: '/ai-arena/gemini.png',
+    logo: AI_ARENA_LOGOS.gemini,
     currentModel: { pt: 'Gemini 2.5 Pro / Flash', en: 'Gemini 2.5 Pro / Flash' },
     rank: 3,
     tier: 'A',
@@ -419,7 +427,7 @@ export const models: AIModel[] = [
     name: 'DeepSeek',
     company: 'DeepSeek AI',
     color: '#38bdf8',
-    logo: '/ai-arena/deepseek.png',
+    logo: AI_ARENA_LOGOS.deepseek,
     currentModel: { pt: 'DeepSeek-V3 / R1', en: 'DeepSeek-V3 / R1' },
     rank: 4,
     tier: 'A',
@@ -475,7 +483,7 @@ export const models: AIModel[] = [
     name: 'Grok',
     company: 'xAI',
     color: '#a1a1aa',
-    logo: '/ai-arena/grok.png',
+    logo: AI_ARENA_LOGOS.grok,
     currentModel: { pt: 'Grok 3', en: 'Grok 3' },
     rank: 5,
     tier: 'B',
@@ -537,11 +545,11 @@ export const categories: ArenaCategory[] = [
       { pt: 'Segurança e privacidade (como lida com permissões amplas)', en: 'Security and privacy (how it handles broad permissions)' },
     ],
     entries: [
-      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: '/ai-arena/chatgpt.png', rank: 1, score: 9.0, verdict: { pt: 'Ecossistema mais completo dentro de um único app', en: 'Most complete ecosystem within a single app' }, hasDetail: true },
-      { id: 'gemini', name: 'Gemini', company: 'Google', color: '#4ade80', logo: '/ai-arena/gemini.png', rank: 2, score: 8.6, verdict: { pt: 'Integração nativa com Google Workspace é o grande diferencial', en: 'Native Google Workspace integration is the big differentiator' }, hasDetail: true },
-      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: '/ai-arena/claude.png', rank: 3, score: 7.8, verdict: { pt: 'Poderoso no raciocínio, mais limitado em integrações nativas', en: 'Powerful in reasoning, more limited in native integrations' }, hasDetail: true },
-      { id: 'grok', name: 'Grok', company: 'xAI', color: '#a1a1aa', logo: '/ai-arena/grok.png', rank: 4, score: 7.2, verdict: { pt: 'X como hub de integração, ainda em expansão', en: 'X as integration hub, still expanding' }, hasDetail: true },
-      { id: 'deepseek', name: 'DeepSeek', company: 'DeepSeek AI', color: '#38bdf8', logo: '/ai-arena/deepseek.png', rank: 5, score: 6.1, verdict: { pt: 'Capacidades autônomas dentro do app ainda muito limitadas', en: 'Autonomous capabilities within the app still very limited' }, hasDetail: true },
+      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: AI_ARENA_LOGOS.chatgpt, rank: 1, score: 9.0, verdict: { pt: 'Ecossistema mais completo dentro de um único app', en: 'Most complete ecosystem within a single app' }, hasDetail: true },
+      { id: 'gemini', name: 'Gemini', company: 'Google', color: '#4ade80', logo: AI_ARENA_LOGOS.gemini, rank: 2, score: 8.6, verdict: { pt: 'Integração nativa com Google Workspace é o grande diferencial', en: 'Native Google Workspace integration is the big differentiator' }, hasDetail: true },
+      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: AI_ARENA_LOGOS.claude, rank: 3, score: 7.8, verdict: { pt: 'Poderoso no raciocínio, mais limitado em integrações nativas', en: 'Powerful in reasoning, more limited in native integrations' }, hasDetail: true },
+      { id: 'grok', name: 'Grok', company: 'xAI', color: '#a1a1aa', logo: AI_ARENA_LOGOS.grok, rank: 4, score: 7.2, verdict: { pt: 'X como hub de integração, ainda em expansão', en: 'X as integration hub, still expanding' }, hasDetail: true },
+      { id: 'deepseek', name: 'DeepSeek', company: 'DeepSeek AI', color: '#38bdf8', logo: AI_ARENA_LOGOS.deepseek, rank: 5, score: 6.1, verdict: { pt: 'Capacidades autônomas dentro do app ainda muito limitadas', en: 'Autonomous capabilities within the app still very limited' }, hasDetail: true },
     ],
   },
   {
@@ -572,11 +580,11 @@ export const categories: ArenaCategory[] = [
       { pt: 'Alucinação de memória', en: 'Memory hallucination' },
     ],
     entries: [
-      { id: 'gemini', name: 'Gemini', company: 'Google', color: '#4ade80', logo: '/ai-arena/gemini.png', rank: 1, score: 0.70, verdict: { pt: 'Contexto longo, respostas ricas e integração com Search em tempo real', en: 'Long context, rich responses and real-time Search integration' }, hasDetail: true },
-      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: '/ai-arena/chatgpt.png', rank: 2, score: 0.46, verdict: { pt: 'Sólido, mas concordância excessiva e alucinação interna no nível médio', en: 'Solid, but excessive sycophancy and medium-level internal hallucination' }, hasDetail: true },
-      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: '/ai-arena/claude.png', rank: 3, score: 8.6, verdict: { pt: 'Escrita mais natural e raciocínio profundo sem perder o contexto', en: 'Most natural writing and deep reasoning without losing context' }, hasDetail: true },
-      { id: 'grok', name: 'Grok', company: 'xAI', color: '#a1a1aa', logo: '/ai-arena/grok.png', rank: 4, score: 7.6, verdict: { pt: 'Acesso ao X em tempo real, raciocínio ainda amadurecendo', en: 'Real-time X access, reasoning still maturing' }, hasDetail: true },
-      { id: 'deepseek', name: 'DeepSeek', company: 'DeepSeek AI', color: '#38bdf8', logo: '/ai-arena/deepseek.png', rank: 5, score: 7.2, verdict: { pt: 'R1 forte em lógica, mas fraco em escrita e tende a alucinar em PT', en: 'R1 strong in logic, but weak in writing and tends to hallucinate in PT' }, hasDetail: true },
+      { id: 'gemini', name: 'Gemini', company: 'Google', color: '#4ade80', logo: AI_ARENA_LOGOS.gemini, rank: 1, score: 0.70, verdict: { pt: 'Contexto longo, respostas ricas e integração com Search em tempo real', en: 'Long context, rich responses and real-time Search integration' }, hasDetail: true },
+      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: AI_ARENA_LOGOS.chatgpt, rank: 2, score: 0.46, verdict: { pt: 'Sólido, mas concordância excessiva e alucinação interna no nível médio', en: 'Solid, but excessive sycophancy and medium-level internal hallucination' }, hasDetail: true },
+      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: AI_ARENA_LOGOS.claude, rank: 3, score: 8.6, verdict: { pt: 'Escrita mais natural e raciocínio profundo sem perder o contexto', en: 'Most natural writing and deep reasoning without losing context' }, hasDetail: true },
+      { id: 'grok', name: 'Grok', company: 'xAI', color: '#a1a1aa', logo: AI_ARENA_LOGOS.grok, rank: 4, score: 7.6, verdict: { pt: 'Acesso ao X em tempo real, raciocínio ainda amadurecendo', en: 'Real-time X access, reasoning still maturing' }, hasDetail: true },
+      { id: 'deepseek', name: 'DeepSeek', company: 'DeepSeek AI', color: '#38bdf8', logo: AI_ARENA_LOGOS.deepseek, rank: 5, score: 7.2, verdict: { pt: 'R1 forte em lógica, mas fraco em escrita e tende a alucinar em PT', en: 'R1 strong in logic, but weak in writing and tends to hallucinate in PT' }, hasDetail: true },
     ],
   },
   {
@@ -601,9 +609,9 @@ export const categories: ArenaCategory[] = [
       { pt: 'Precisão', en: 'Precision' },
     ],
     entries: [
-      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: '/ai-arena/claude.png', rank: 1, score: 9.5, verdict: { pt: 'Referência em código no VS Code', en: 'Code reference in VS Code' }, hasDetail: true },
-      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: '/ai-arena/chatgpt.png', rank: 2, score: 9.0, verdict: { pt: 'Sólido e capaz em tarefas complexas', en: 'Solid and capable on complex tasks' }, hasDetail: true },
-      { id: 'gemini', name: 'Gemini', company: 'Google', color: '#4ade80', logo: '/ai-arena/gemini.png', rank: 3, score: 8.2, verdict: { pt: 'Forte via Antigravity, inconsistente entre sessões', en: 'Strong via Antigravity, inconsistent across sessions' }, hasDetail: true },
+      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: AI_ARENA_LOGOS.claude, rank: 1, score: 9.5, verdict: { pt: 'Referência em código no VS Code', en: 'Code reference in VS Code' }, hasDetail: true },
+      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: AI_ARENA_LOGOS.chatgpt, rank: 2, score: 9.0, verdict: { pt: 'Sólido e capaz em tarefas complexas', en: 'Solid and capable on complex tasks' }, hasDetail: true },
+      { id: 'gemini', name: 'Gemini', company: 'Google', color: '#4ade80', logo: AI_ARENA_LOGOS.gemini, rank: 3, score: 8.2, verdict: { pt: 'Forte via Antigravity, inconsistente entre sessões', en: 'Strong via Antigravity, inconsistent across sessions' }, hasDetail: true },
     ],
   },
   {
@@ -629,11 +637,11 @@ export const categories: ArenaCategory[] = [
       { pt: 'Atualidade das informações', en: 'Information freshness' },
     ],
     entries: [
-      { id: 'gemini', name: 'Gemini', company: 'Google', color: '#4ade80', logo: '/ai-arena/gemini.png', rank: 1, score: 9.2, verdict: { pt: 'Google Search nativo + YouTube + links em tempo real', en: 'Native Google Search + YouTube + real-time links' }, hasDetail: true },
-      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: '/ai-arena/chatgpt.png', rank: 2, score: 8.5, verdict: { pt: 'Browsing sólido com boa leitura de links e vídeos', en: 'Solid browsing with good link and video reading' }, hasDetail: true },
-      { id: 'grok', name: 'Grok', company: 'xAI', color: '#a1a1aa', logo: '/ai-arena/grok.png', rank: 3, score: 8.1, verdict: { pt: 'X em tempo real + web search — forte em tendências', en: 'Real-time X + web search — strong on trends' }, hasDetail: true },
-      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: '/ai-arena/claude.png', rank: 4, score: 7.4, verdict: { pt: 'Busca disponível, mas acionada de forma mais conservadora', en: 'Search available, but triggered more conservatively' }, hasDetail: true },
-      { id: 'deepseek', name: 'DeepSeek', company: 'DeepSeek AI', color: '#38bdf8', logo: '/ai-arena/deepseek.png', rank: 5, score: 6.8, verdict: { pt: 'Capacidade de busca limitada e menos integrada', en: 'Limited and less integrated search capability' }, hasDetail: true },
+      { id: 'gemini', name: 'Gemini', company: 'Google', color: '#4ade80', logo: AI_ARENA_LOGOS.gemini, rank: 1, score: 9.2, verdict: { pt: 'Google Search nativo + YouTube + links em tempo real', en: 'Native Google Search + YouTube + real-time links' }, hasDetail: true },
+      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: AI_ARENA_LOGOS.chatgpt, rank: 2, score: 8.5, verdict: { pt: 'Browsing sólido com boa leitura de links e vídeos', en: 'Solid browsing with good link and video reading' }, hasDetail: true },
+      { id: 'grok', name: 'Grok', company: 'xAI', color: '#a1a1aa', logo: AI_ARENA_LOGOS.grok, rank: 3, score: 8.1, verdict: { pt: 'X em tempo real + web search — forte em tendências', en: 'Real-time X + web search — strong on trends' }, hasDetail: true },
+      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: AI_ARENA_LOGOS.claude, rank: 4, score: 7.4, verdict: { pt: 'Busca disponível, mas acionada de forma mais conservadora', en: 'Search available, but triggered more conservatively' }, hasDetail: true },
+      { id: 'deepseek', name: 'DeepSeek', company: 'DeepSeek AI', color: '#38bdf8', logo: AI_ARENA_LOGOS.deepseek, rank: 5, score: 6.8, verdict: { pt: 'Capacidade de busca limitada e menos integrada', en: 'Limited and less integrated search capability' }, hasDetail: true },
     ],
   },
   {
@@ -647,8 +655,8 @@ export const categories: ArenaCategory[] = [
       en: 'Models evaluated in the terminal — via Claude Code, Gemini CLI, ChatGPT CLI and similar. The focus is on autonomous task execution via command line: creating files, running scripts, navigating the system, chaining operations and solving problems without leaving the terminal.',
     },
     entries: [
-      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: '/ai-arena/claude.png', rank: 1, score: 9.2, verdict: { pt: 'Claude Code é referência em execução autônoma via CLI', en: 'Claude Code is the reference for autonomous CLI execution' }, hasDetail: true },
-      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: '/ai-arena/chatgpt.png', rank: 2, score: 8.5, verdict: { pt: 'CLI maduro com boa integração de ferramentas', en: 'Mature CLI with good tool integration' }, hasDetail: true },
+      { id: 'claude', name: 'Claude', company: 'Anthropic', color: '#D97757', logo: AI_ARENA_LOGOS.claude, rank: 1, score: 9.2, verdict: { pt: 'Claude Code é referência em execução autônoma via CLI', en: 'Claude Code is the reference for autonomous CLI execution' }, hasDetail: true },
+      { id: 'chatgpt', name: 'ChatGPT', company: 'OpenAI', color: '#e8e8e8', logo: AI_ARENA_LOGOS.chatgpt, rank: 2, score: 8.5, verdict: { pt: 'CLI maduro com boa integração de ferramentas', en: 'Mature CLI with good tool integration' }, hasDetail: true },
     ],
   },
   {
