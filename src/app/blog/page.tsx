@@ -347,6 +347,104 @@ function HallSideCard({ lang }: { lang: 'pt' | 'en' }) {
   )
 }
 
+function StackMapSideCard({ lang }: { lang: 'pt' | 'en' }) {
+  return (
+    <Link href="/stack" className="hall-side-card" style={{
+      textDecoration: 'none',
+      border: '0.5px solid rgba(0,234,255,0.28)',
+      borderRadius: '8px',
+      background: 'var(--bg2)',
+      width: '100%',
+      minWidth: 0,
+      padding: '28px 24px',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      gap: '22px',
+      cursor: 'pointer',
+      transition: 'all 0.25s',
+      overflow: 'hidden',
+      position: 'relative',
+    }}
+      onMouseEnter={e => {
+        const el = e.currentTarget as HTMLAnchorElement
+        el.style.borderColor = 'rgba(0,234,255,0.65)'
+        el.style.background = 'var(--bg3)'
+        el.style.boxShadow = '0 8px 24px rgba(0,234,255,0.08), 0 2px 8px rgba(0,0,0,0.12)'
+        el.style.transform = 'translateY(-2px)'
+      }}
+      onMouseLeave={e => {
+        const el = e.currentTarget as HTMLAnchorElement
+        el.style.borderColor = 'rgba(0,234,255,0.28)'
+        el.style.background = 'var(--bg2)'
+        el.style.boxShadow = 'none'
+        el.style.transform = 'translateY(0)'
+      }}
+    >
+      <div style={{
+        position: 'absolute', inset: 0,
+        backgroundImage: 'linear-gradient(rgba(0,234,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,234,255,0.04) 1px, transparent 1px)',
+        backgroundSize: '28px 28px',
+        maskImage: 'linear-gradient(180deg, rgba(0,0,0,0.4), transparent 58%)',
+        pointerEvents: 'none',
+      }} />
+
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <div style={{
+          width: '42px', height: '42px', borderRadius: '8px',
+          border: '0.5px solid rgba(0,234,255,0.28)',
+          background: 'var(--blue-dim)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          color: 'var(--blue)', fontSize: '18px', lineHeight: 1,
+          fontFamily: 'var(--font-mono)',
+          marginBottom: '22px',
+        }}>
+          ◈
+        </div>
+
+        <div style={{
+          fontFamily: 'var(--font-mono)', fontSize: '12px',
+          color: 'var(--blue)', opacity: 0.72,
+          letterSpacing: '0.08em', textTransform: 'uppercase',
+          marginBottom: '10px',
+        }}>
+          {lang === 'pt' ? 'índice de tecnologias' : 'technology index'}
+        </div>
+
+        <div style={{
+          fontFamily: 'var(--font-cyber)', fontSize: '23px', fontWeight: 800,
+          color: 'var(--blue)', letterSpacing: '0.01em', lineHeight: 1.12,
+          marginBottom: '12px',
+        }}>
+          Stack Map
+        </div>
+
+        <p style={{
+          fontSize: '13px', color: 'var(--text2)',
+          lineHeight: 1.75, margin: 0, overflowWrap: 'break-word',
+        }}>
+          {lang === 'pt'
+            ? 'Linguagens, bancos de dados, libs, frameworks, SOs e formatos de arquivos — tudo catalogado e em expansão.'
+            : 'Languages, databases, libraries, frameworks, OSes and file formats — all catalogued and expanding.'}
+        </p>
+      </div>
+
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <div style={{
+          fontFamily: 'var(--font-mono)', fontSize: '12px',
+          color: 'var(--blue)', letterSpacing: '0.06em',
+          borderTop: '0.5px solid rgba(0,234,255,0.2)',
+          paddingTop: '14px',
+          display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px',
+        }}>
+          <span>{lang === 'pt' ? 'Explorar' : 'Explore'}</span>
+          <span aria-hidden="true" style={{ fontSize: '15px', lineHeight: 1 }}>→</span>
+        </div>
+      </div>
+    </Link>
+  )
+}
+
 function AIArenaSideCard({ lang }: { lang: 'pt' | 'en' }) {
   return (
     <Link href="/ai-arena" className="hall-side-card" style={{
@@ -537,14 +635,18 @@ export default function BlogPage() {
           <HallSideCard lang={lang} />
         </aside>
 
-        {/* left aside — AI Arena */}
+        {/* left aside — AI Arena + Stack Map */}
         <aside style={{
           position: 'absolute',
           top: '92px',
           right: 'calc(100% + 52px)',
           width: '280px',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '16px',
         }}>
           <AIArenaSideCard lang={lang} />
+          <StackMapSideCard lang={lang} />
         </aside>
 
         {/* posts list */}

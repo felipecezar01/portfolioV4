@@ -87,6 +87,36 @@ const YEAR_1861_PLACEHOLDER = {
   en: 'Voice, Color and the Continent Enter the Network\n1861',
 }
 
+const YEAR_1862_PLACEHOLDER = {
+  pt: 'Ondas, Máquinas Comerciais e a Acústica da Informação\n1862',
+  en: 'Waves, Commercial Machines and the Acoustics of Information\n1862',
+}
+
+const YEAR_1863_PLACEHOLDER = {
+  pt: 'Redes Comerciais, Controle de Tráfego e a Busca pelo Padrão\n1863',
+  en: 'Commercial Networks, Traffic Control and the Search for Standards\n1863',
+}
+
+const YEAR_1864_PLACEHOLDER = {
+  pt: 'A Teoria Suprema, o Hardware de Input e o Backbone Global\n1864',
+  en: 'The Supreme Theory, Input Hardware and the Global Backbone\n1864',
+}
+
+const YEAR_1865_PLACEHOLDER = {
+  pt: 'A Governança Global, a UX Primitiva e a Rede de Notícias\n1865',
+  en: 'Global Governance, Primitive UX and the News Network\n1865',
+}
+
+const YEAR_1866_PLACEHOLDER = {
+  pt: 'O Backbone Definitivo, a Energia Autônoma e o Primeiro "Ping" Intercontinental\n1866',
+  en: 'The Definitive Backbone, Autonomous Energy and the First Intercontinental "Ping"\n1866',
+}
+
+const YEAR_1867_PLACEHOLDER = {
+  pt: 'O Input Moderno, o Data Logger e a Energia em Escala\n1867',
+  en: 'Modern Input, the Data Logger and Energy at Scale\n1867',
+}
+
 const data: HallYear[] = [
   {
     year: 1843,
@@ -1780,6 +1810,592 @@ const data: HallYear[] = [
         detail: {
           pt: 'Washington precisava manter comunicação rápida com tropas, ferrovias, oficiais e departamentos do governo. Thomas A. Scott, ligado à Pennsylvania Railroad, foi chamado para ajudar a organizar ferrovias e comunicações. Andrew Carnegie, que já tinha experiência com telégrafo e ferrovias, também foi enviado a Washington para auxiliar na operação. Anson Stager, vindo da Western Union, tornou-se uma figura central na organização do sistema telegráfico militar da União. Fontes históricas sobre o U.S. Military Telegraph Corps registram que o corpo foi formado em 1861 e que Stager foi nomeado chefe em outubro daquele ano.\n\nEsse bloco é importante porque mostra o telégrafo deixando de ser apenas comunicação comercial e virando sistema de comando.\n\nDurante a guerra, mensagens, ordens, relatórios e atualizações estratégicas passaram a circular por uma rede elétrica. Isso mudou a forma como governo e exército acompanhavam eventos em tempo real.\n\nPara a história da TI, esse é um ancestral claro de sistemas de comunicação militar, redes de comando e controle, infraestrutura crítica, cibersegurança estatal e operações baseadas em informação.\n\nEm 1861, a guerra mostrou uma coisa que o século XX e XXI confirmariam com força:\n\nquem transmite informação mais rápido decide mais rápido.',
           en: 'Washington needed to maintain fast communication with troops, railroads, officers and government departments. Thomas A. Scott, connected to the Pennsylvania Railroad, was called to help organize railroads and communications. Andrew Carnegie, who already had experience with telegraphy and railroads, was also sent to Washington to assist in the operation. Anson Stager, coming from Western Union, became a central figure in organizing the Union’s military telegraph system. Historical sources on the U.S. Military Telegraph Corps record that the corps was formed in 1861 and that Stager was appointed chief in October of that year.\n\nThis block matters because it shows the telegraph ceasing to be only commercial communication and becoming a command system.\n\nDuring the war, messages, orders, reports and strategic updates circulated through an electrical network. This changed the way government and army followed events in real time.\n\nFor IT history, this is a clear ancestor of military communication systems, command-and-control networks, critical infrastructure, state cybersecurity and information-based operations.\n\nIn 1861, the war showed something that the twentieth and twenty-first centuries would strongly confirm:\n\nwhoever transmits information faster decides faster.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1862,
+    era: { pt: 'Ondas, Máquinas Comerciais e a Acústica da Informação', en: 'Waves, Commercial Machines and the Acoustics of Information' },
+    context: {
+      pt: 'Em 1862, a TI vive um ano de fundamentos físicos e testes de mercado. Enquanto a Guerra Civil Americana continua acelerando o uso prático do telégrafo, os laboratórios europeus dão à luz conceitos definitivos: a matemática prova que luz e eletromagnetismo são a mesma coisa, a acústica moderna é decifrada, e os computadores mecânicos encaram seu primeiro grande teste com o público geral em uma feira internacional. É o ano em que a teoria da comunicação sem fio ganha sua base e o hardware de cálculo tenta se provar comercialmente viável.',
+      en: 'In 1862, IT history lives through a year of physical foundations and market tests. While the American Civil War keeps accelerating the practical use of the telegraph, European laboratories produce decisive concepts: mathematics shows that light and electromagnetism are the same phenomenon, modern acoustics is decoded, and mechanical computers face an early public-market test at an international exhibition. It is the year when wireless communication gains its theoretical base and calculating hardware tries to prove commercial viability.',
+    },
+    peopleCount: 4,
+    people: [
+      {
+        name: 'James Clerk Maxwell',
+        imagePlaceholder: YEAR_1862_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Escocês)', en: 'British (Scottish)' },
+        formation: {
+          pt: 'Físico e matemático, com estudos nas Universidades de Edimburgo e Cambridge. Um dos maiores teóricos da história da física, conhecido por sua profunda habilidade matemática e pensamento abstrato.',
+          en: 'Physicist and mathematician, educated at the Universities of Edinburgh and Cambridge. One of the greatest theorists in the history of physics, known for deep mathematical skill and abstract thinking.',
+        },
+        summary: {
+          pt: 'Publicou, no início de 1862, a parte crucial de "On Physical Lines of Force", calculando a velocidade das ondas eletromagnéticas e deduzindo que a luz era uma forma de radiação eletromagnética.',
+          en: 'Published, in early 1862, the crucial part of "On Physical Lines of Force", calculating the speed of electromagnetic waves and deducing that light was a form of electromagnetic radiation.',
+        },
+        role: {
+          pt: 'Fundador teórico da comunicação eletromagnética',
+          en: 'Theoretical founder of electromagnetic communication',
+        },
+        contribution: {
+          pt: 'Em 1862, James Clerk Maxwell publicou uma dedução teórica que desenhou o futuro das telecomunicações: luz, eletricidade e magnetismo pertenciam ao mesmo fenômeno físico.',
+          en: 'In 1862, James Clerk Maxwell published a theoretical deduction that shaped the future of telecommunications: light, electricity and magnetism belonged to the same physical phenomenon.',
+        },
+        detail: {
+          pt: 'Em 1862, James Clerk Maxwell publicou uma dedução teórica que, literalmente, desenhou o futuro de todas as telecomunicações do planeta.\n\nAo analisar a velocidade em que as forças elétricas e magnéticas se propagavam, Maxwell percebeu que o número resultante era quase idêntico à velocidade da luz. Em 1862, ele escreveu a frase histórica: "dificilmente podemos evitar a inferência de que a luz consiste nas ondulações transversais do mesmo meio que é a causa dos fenômenos elétricos e magnéticos".\n\nPor que isso é um marco absoluto para a TI? Porque é a base do wireless.\n\nHoje, Wi-Fi, Bluetooth, 5G, transmissões de rádio, satélites, micro-ondas e até mesmo os cabos de fibra óptica, que transmitem luz, operam baseados nas leis e equações que Maxwell começou a amarrar aqui. Ele provou que a informação não precisaria depender exclusivamente de um fio condutor físico; ela poderia viajar pelo espaço livre em forma de ondas invisíveis.\n\nAinda levaria décadas para Heinrich Hertz provar isso na prática, mas em 1862, o "código-fonte" das redes sem fio foi escrito na matemática.',
+          en: 'In 1862, James Clerk Maxwell published a theoretical deduction that quite literally drew the future of global telecommunications.\n\nBy analyzing the speed at which electric and magnetic forces propagated, Maxwell noticed that the resulting number was almost identical to the speed of light. In 1862, he wrote the historic inference that light consisted of transverse undulations in the same medium that caused electrical and magnetic phenomena.\n\nWhy is this an absolute milestone for IT? Because it is the foundation of wireless.\n\nToday, Wi-Fi, Bluetooth, 5G, radio transmission, satellites, microwaves and even fiber-optic cables, which transmit light, operate from the laws and equations Maxwell began tying together here. He showed that information would not have to depend exclusively on a physical conducting wire; it could travel through free space as invisible waves.\n\nIt would still take decades for Heinrich Hertz to prove this experimentally, but in 1862, the "source code" of wireless networks was written in mathematics.',
+        },
+      },
+      {
+        name: 'Charles Babbage',
+        imagePlaceholder: YEAR_1862_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Matemático, filósofo, inventor e engenheiro mecânico, formado pela Universidade de Cambridge. Um visionário com obsessão por eliminar o erro humano através da automação.',
+          en: 'Mathematician, philosopher, inventor and mechanical engineer, educated at the University of Cambridge. A visionary obsessed with eliminating human error through automation.',
+        },
+        summary: {
+          pt: 'Apresentou uma porção montada da Máquina Diferencial na Exposição Internacional de Londres de 1862, uma rara aparição pública de um computador mecânico.',
+          en: 'Displayed an assembled portion of the Difference Engine at the 1862 London International Exhibition, a rare public appearance of a mechanical computer.',
+        },
+        role: {
+          pt: 'Pioneiro do computador mecânico diante do público',
+          en: 'Pioneer of the mechanical computer before the public',
+        },
+        contribution: {
+          pt: 'Em 1862, Babbage colocou sua Máquina Diferencial diante do público geral e encontrou uma das primeiras grandes lacunas entre inovação de hardware e adoção de mercado.',
+          en: 'In 1862, Babbage placed his Difference Engine before the general public and met one of the earliest gaps between hardware innovation and market adoption.',
+        },
+        detail: {
+          pt: 'Em 1862, a Exposição Internacional de Londres foi o palco de um dos primeiros "choques de realidade" entre o criador de hardware e o consumidor final.\n\nCharles Babbage conseguiu espaço para exibir uma parte montada de sua famosa Máquina Diferencial, construída anos antes com seu engenheiro Joseph Clement. Ele esperava impressionar o mundo com uma máquina capaz de calcular tabelas matemáticas automaticamente e sem erros.\n\nNo entanto, a história da TI registra aqui uma lição dura sobre adoção de tecnologia: a máquina foi colocada num canto escuro, os visitantes passaram direto por ela, preferindo exibições mais espalhafatosas ou brinquedos, e poucos entenderam o que aquele amontoado de engrenagens de latão significava. Babbage ficou furioso.\n\nIsso é essencial para a trilha porque mostra a lacuna clássica da computação:\n\nnão basta ter o hardware revolucionário; é preciso que o mundo esteja pronto para usá-lo e entendê-lo. A Máquina de Babbage em 1862 é o ancestral dos protótipos brilhantes que chegam cedo demais ao mercado.',
+          en: 'In 1862, the London International Exhibition became one of the earliest reality checks between a hardware creator and the end user.\n\nCharles Babbage managed to display an assembled portion of his famous Difference Engine, built years earlier with his engineer Joseph Clement. He hoped to impress the world with a machine capable of calculating mathematical tables automatically and without errors.\n\nYet IT history records a hard lesson here about technology adoption: the machine was placed in a dark corner, visitors passed by it, preferring flashier exhibits or amusements, and few understood what that mass of brass gears meant. Babbage was furious.\n\nThis matters for the timeline because it shows the classic gap in computing:\n\nrevolutionary hardware is not enough; the world must be ready to use it and understand it. Babbage’s machine in 1862 is an ancestor of brilliant prototypes that arrive too early for the market.',
+        },
+      },
+      {
+        name: 'Charles Xavier Thomas de Colmar',
+        imagePlaceholder: YEAR_1862_PLACEHOLDER,
+        flag: '🇫🇷',
+        nationality: { pt: 'Francês', en: 'French' },
+        formation: {
+          pt: 'Empreendedor, inventor e pioneiro da indústria de seguros na França, com forte viés para produtos comerciais e práticos.',
+          en: 'Entrepreneur, inventor and pioneer of the insurance industry in France, with a strong bias toward practical commercial products.',
+        },
+        summary: {
+          pt: 'Seu Aritmômetro ganhou destaque e medalha na Exposição Internacional de Londres de 1862, impulsionando a adoção global da calculadora mecânica.',
+          en: 'His Arithmometer gained attention and a medal at the 1862 London International Exhibition, accelerating global adoption of the mechanical calculator.',
+        },
+        role: {
+          pt: 'Pioneiro da calculadora mecânica comercial',
+          en: 'Pioneer of the commercial mechanical calculator',
+        },
+        contribution: {
+          pt: 'Em 1862, o Aritmômetro mostrou que máquinas de cálculo podiam sair do laboratório e entrar no escritório como produto de negócio.',
+          en: 'In 1862, the Arithmometer showed that calculating machines could leave the laboratory and enter the office as business products.',
+        },
+        detail: {
+          pt: 'Enquanto o computador de Babbage era genial, mas incompleto e ignorado pelo público na Exposição de 1862, outra máquina brilhava no mesmo evento: o Aritmômetro de Thomas de Colmar.\n\nInventado décadas antes, em 1820, foi por volta de 1862, impulsionado pelo sucesso e reconhecimento nesta feira internacional, onde ganhou uma medalha de reconhecimento, que o Aritmômetro finalmente rompeu a barreira comercial. Ele se tornou a primeira calculadora mecânica comercialmente bem-sucedida e confiável o suficiente para ser usada no dia a dia.\n\nPor que isso importa na linha do tempo da TI?\n\nPorque representa a transição do laboratório para o escritório. O Aritmômetro provou que existia um mercado corporativo pagante para máquinas de processamento de dados, no caso, números. Bancos, companhias de seguros e governos começaram a comprar essas calculadoras.\n\nEm 1862, vemos nascer a semente da indústria de Business Machines — o mercado B2B de tecnologia que, quase um século depois, coroaria empresas como a IBM.',
+          en: 'While Babbage’s computer was brilliant but incomplete and largely ignored by the public at the 1862 exhibition, another machine shone at the same event: Thomas de Colmar’s Arithmometer.\n\nInvented decades earlier, in 1820, the Arithmometer broke through commercially around 1862, helped by its success and recognition at this international fair, where it received a medal. It became the first commercially successful mechanical calculator, reliable enough for everyday use.\n\nWhy does this matter in the IT timeline?\n\nBecause it represents the transition from laboratory to office. The Arithmometer proved that there was a paying corporate market for machines that processed data, in this case numbers. Banks, insurance companies and governments began buying these calculators.\n\nIn 1862, we see the seed of the Business Machines industry — the B2B technology market that, almost a century later, would crown companies such as IBM.',
+        },
+      },
+      {
+        name: 'Hermann von Helmholtz',
+        imagePlaceholder: YEAR_1862_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Físico e médico. Sua formação multidisciplinar permitiu que ele ligasse a anatomia do corpo humano com a física rigorosa e a matemática.',
+          en: 'Physicist and physician. His multidisciplinary formation allowed him to connect human anatomy with rigorous physics and mathematics.',
+        },
+        summary: {
+          pt: 'Publicou em 1862 "Die Lehre von den Tonempfindungen", fundando a acústica moderna e a compreensão científica de como processamos o som.',
+          en: 'Published "Die Lehre von den Tonempfindungen" in 1862, founding modern acoustics and the scientific understanding of how we process sound.',
+        },
+        role: {
+          pt: 'Fundador da acústica moderna e da psicoacústica',
+          en: 'Founder of modern acoustics and psychoacoustics',
+        },
+        contribution: {
+          pt: 'Em 1862, Helmholtz transformou o som em problema de engenharia, matemática e processamento perceptivo.',
+          en: 'In 1862, Helmholtz turned sound into a problem of engineering, mathematics and perceptual processing.',
+        },
+        detail: {
+          pt: 'Em 1862, a informação em áudio ganhou seu primeiro "manual de instruções" científico. Hermann von Helmholtz lançou sua obra-prima sobre acústica, detalhando matematicamente o que é o som, como os harmônicos funcionam e, principalmente, como o ouvido humano capta e traduz essas frequências.\n\nAntes de Helmholtz, o som era algo empírico ou artístico. Depois dele, o som virou um problema de engenharia e matemática. Ele construiu os Ressoadores de Helmholtz para isolar frequências específicas, decupando o áudio complexo em pedaços simples, uma ideia muito parecida com o que Maxwell e Sutton fizeram com a cor em 1861.\n\nA importância para a TI é gigantesca.\n\nTodo o processamento de áudio digital atual — como a compressão de MP3, o cancelamento de ruído no fone de ouvido, o reconhecimento de voz da Alexa ou da Siri, e a própria evolução do telefone — depende da psicoacústica e da matemática do som que Helmholtz ajudou a codificar em 1862. Alexander Graham Bell, anos depois, estudaria fervorosamente o trabalho de Helmholtz para tentar construir seu próprio telefone.\n\nA TI não apenas processa números; ela processa sentidos. Em 1862, o som virou dado decifrável.',
+          en: 'In 1862, audio information received its first scientific instruction manual. Hermann von Helmholtz published his masterpiece on acoustics, explaining mathematically what sound is, how harmonics work and, above all, how the human ear captures and translates those frequencies.\n\nBefore Helmholtz, sound was largely empirical or artistic. After him, sound became an engineering and mathematical problem. He built Helmholtz resonators to isolate specific frequencies, breaking complex audio into simpler pieces, an idea very close to what Maxwell and Sutton had done with color in 1861.\n\nThe importance for IT is enormous.\n\nModern digital audio processing — MP3 compression, noise cancellation in headphones, voice recognition by Alexa or Siri, and the evolution of the telephone itself — depends on psychoacoustics and the mathematics of sound that Helmholtz helped codify in 1862. Years later, Alexander Graham Bell would study Helmholtz’s work intensely while trying to build his own telephone.\n\nIT does not only process numbers; it processes senses. In 1862, sound became decipherable data.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1863,
+    era: { pt: 'Redes Comerciais, Controle de Tráfego e a Busca pelo Padrão', en: 'Commercial Networks, Traffic Control and the Search for Standards' },
+    context: {
+      pt: 'Em 1863, a tecnologia da informação começa a se comportar como uma indústria de serviços. É o ano em que a transmissão de imagens ganha sua primeira linha de clientes pagantes na Europa, a primeira rede de metrô do mundo usa o telégrafo para evitar desastres em tempo real, e a comunidade científica percebe que, sem padronizar as métricas elétricas em nível global, seria impossível construir as redes do futuro. A TI mostra que não serve apenas para mandar recados, mas para gerenciar cidades, fechar negócios e exigir interoperabilidade.',
+      en: 'In 1863, information technology begins to behave like a service industry. It is the year when image transmission gains its first line of paying customers in Europe, the world’s first underground railway uses the telegraph to prevent disasters in real time, and the scientific community realizes that, without global electrical standards, building the networks of the future would be impossible. IT shows that it is not only for sending messages, but also for managing cities, closing business and demanding interoperability.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Giovanni Caselli',
+        imagePlaceholder: YEAR_1863_PLACEHOLDER,
+        flag: '🇮🇹',
+        nationality: { pt: 'Italiano', en: 'Italian' },
+        formation: {
+          pt: 'Sacerdote, físico e inventor. Trabalhou anos para aperfeiçoar a sincronização eletromecânica de aparelhos de precisão.',
+          en: 'Priest, physicist and inventor. He spent years perfecting the electromechanical synchronization of precision devices.',
+        },
+        summary: {
+          pt: 'Lançou oficialmente, em 1863, a operação comercial do Pantelegraph entre Paris e Lyon, criando o primeiro serviço público de fax da história.',
+          en: 'Officially launched, in 1863, the commercial operation of the Pantelegraph between Paris and Lyon, creating the first public fax service in history.',
+        },
+        role: {
+          pt: 'Criador do primeiro serviço comercial de transmissão de imagens',
+          en: 'Creator of the first commercial image-transmission service',
+        },
+        contribution: {
+          pt: 'Em 1863, Caselli transformou o Pantelegraph de invenção técnica em serviço público pago de transmissão visual.',
+          en: 'In 1863, Caselli turned the Pantelegraph from a technical invention into a paid public service for visual transmission.',
+        },
+        detail: {
+          pt: 'Nós vimos Caselli patentear o Pantelegraph em 1861. Mas é em 1863 que a mágica corporativa acontece: após a aprovação de Napoleão III, a linha comercial entre Paris e Lyon é ativada para o uso público.\n\nPela primeira vez na história da humanidade, um cliente pagante podia ir a uma agência, entregar um documento escrito à mão, um desenho ou uma assinatura, e fazer com que a imagem exata desse documento aparecesse em outra cidade a centenas de quilômetros de distância, mediante o pagamento de uma tarifa. Bancos, advogados e comerciantes começaram a usar o sistema para verificar assinaturas remotamente e acelerar transações comerciais.\n\nPor que isso é um marco da TI?\n\nPorque representa a criação do primeiro serviço "B2B" baseado em transmissão de imagem. O Pantelegraph de 1863 é a prova de conceito de que existia demanda real e lucrativa para o tráfego de dados visuais. É a passagem da invenção técnica para a validação de mercado, pavimentando a ideia do fax, da transferência de arquivos e da verificação remota de autenticidade.',
+          en: 'We saw Caselli patent the Pantelegraph in 1861. But 1863 is when the corporate magic happens: after approval from Napoleon III, the commercial line between Paris and Lyon is activated for public use.\n\nFor the first time in human history, a paying customer could go to an office, hand over a handwritten document, a drawing or a signature, and have the exact image of that document appear in another city hundreds of kilometers away, for a fee. Banks, lawyers and merchants began using the system to verify signatures remotely and accelerate commercial transactions.\n\nWhy is this an IT milestone?\n\nBecause it represents the creation of the first "B2B" service based on image transmission. The Pantelegraph of 1863 is proof of concept that real and profitable demand existed for visual data traffic. It is the passage from technical invention to market validation, paving the way for fax, file transfer and remote authenticity verification.',
+        },
+      },
+      {
+        name: 'Charles Spagnoletti & Metropolitan Railway',
+        imagePlaceholder: YEAR_1863_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico', en: 'British' },
+        formation: {
+          pt: 'Engenheiro elétrico e inventor, contratado como Superintendente de Telégrafos da Great Western Railway aos 23 anos.',
+          en: 'Electrical engineer and inventor, hired as Superintendent of Telegraphs at the Great Western Railway at age 23.',
+        },
+        summary: {
+          pt: 'Implementou seu sistema de bloqueio telegráfico na inauguração da Metropolitan Railway em Londres, em 1863, o primeiro sistema de metrô do mundo.',
+          en: 'Implemented his telegraphic block system at the opening of London’s Metropolitan Railway in 1863, the world’s first underground railway system.',
+        },
+        role: {
+          pt: 'Pioneiro do controle informacional de tráfego urbano',
+          en: 'Pioneer of informational control for urban traffic',
+        },
+        contribution: {
+          pt: 'Em 1863, o telégrafo passou a controlar em tempo real uma infraestrutura física crítica: trens subterrâneos cheios de pessoas.',
+          en: 'In 1863, the telegraph began controlling critical physical infrastructure in real time: underground trains full of people.',
+        },
+        detail: {
+          pt: 'Em janeiro de 1863, Londres abriu a primeira ferrovia subterrânea do mundo. Transportar trens a vapor cheios de pessoas por túneis escuros trazia um risco óbvio: como evitar que um trem colidisse na traseira do outro? A resposta foi a tecnologia da informação.\n\nCharles Spagnoletti desenvolveu instrumentos de telégrafo específicos para as estações. O sistema funcionava como uma rede de estado lógico em tempo real: uma estação enviava um sinal elétrico para a próxima, alterando um disco visual no aparelho para mostrar "Linha Livre" ou "Trem na Linha". Um trem só podia avançar para o próximo bloco de trilhos se a rede de informações confirmasse que o espaço estava vazio.\n\nPara a história da TI, isso é colossal.\n\nÉ um dos primeiros exemplos de sistemas de informação controlando infraestrutura física crítica em tempo real. Hoje chamamos isso de SCADA, IoT industrial, ou sistemas ciberfísicos. O metrô de Londres em 1863 provou que a rede de comunicação deveria ser mais rápida e confiável que o sistema de transporte em si, operando como o "cérebro" invisível da cidade.',
+          en: 'In January 1863, London opened the world’s first underground railway. Moving steam trains full of people through dark tunnels created an obvious risk: how could one prevent a train from colliding with the one ahead? The answer was information technology.\n\nCharles Spagnoletti developed telegraph instruments specifically for stations. The system worked like a real-time logical-state network: one station sent an electrical signal to the next, changing a visual disc in the instrument to show "Line Clear" or "Train on Line". A train could only proceed to the next block of track if the information network confirmed that the space was empty.\n\nFor IT history, this is colossal.\n\nIt is one of the earliest examples of information systems controlling critical physical infrastructure in real time. Today we call this SCADA, industrial IoT or cyber-physical systems. The London Underground in 1863 proved that the communication network had to be faster and more reliable than the transport system itself, operating as the invisible "brain" of the city.',
+        },
+      },
+      {
+        name: 'William Thomson (Lord Kelvin) & Fleeming Jenkin',
+        imagePlaceholder: YEAR_1863_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos (Escoceses/Ingleses)', en: 'British (Scottish/English)' },
+        formation: {
+          pt: 'Thomson: físico, matemático e engenheiro, formado pela Universidade de Cambridge. Jenkin: engenheiro civil e elétrico. Ambos foram fundamentais na engenharia de cabos submarinos.',
+          en: 'Thomson: physicist, mathematician and engineer, educated at the University of Cambridge. Jenkin: civil and electrical engineer. Both were fundamental to submarine cable engineering.',
+        },
+        summary: {
+          pt: 'Lideraram o comitê da BAAS que, a partir de relatórios decisivos em 1863, começou a estabelecer o sistema internacional absoluto de unidades elétricas.',
+          en: 'Led the BAAS committee that, through decisive reports in 1863, began establishing the absolute international system of electrical units.',
+        },
+        role: {
+          pt: 'Arquitetos da padronização elétrica global',
+          en: 'Architects of global electrical standardization',
+        },
+        contribution: {
+          pt: 'Em 1863, a padronização elétrica começou a virar infraestrutura essencial para redes globais interoperáveis.',
+          en: 'In 1863, electrical standardization began becoming essential infrastructure for interoperable global networks.',
+        },
+        detail: {
+          pt: 'À medida que as redes telegráficas cruzavam países e oceanos, a engenharia esbarrou em um problema de "software/hardware": a falta de padrão. O que era "uma unidade de resistência" na Alemanha era diferente da unidade usada na França ou nos EUA. Fabricar cabos para conectar o mundo era um caos de incompatibilidade.\n\nEm 1863, o comitê da BAAS, liderado por Thomson, com a ajuda de James Clerk Maxwell e Fleeming Jenkin, publicou os primeiros resultados práticos de um esforço monumental para criar um padrão universal baseado no sistema métrico absoluto. Isso pavimentaria o caminho para as unidades padronizadas que hoje chamamos de Ohm, Volt e Ampere. Jenkin, em particular, foi responsável por fabricar os primeiros resistores físicos que serviam como o "padrão ouro" para calibrar instrumentos pelo mundo.\n\nIsso é um marco absoluto na infraestrutura de TI.\n\nFoi o ancestral da interoperabilidade e da ISO. Assim como a internet moderna precisa de protocolos padrão, como TCP/IP e HTTP, para que computadores diferentes se comuniquem, as redes elétricas de 1863 precisavam de "APIs de hardware" padronizadas. O comitê de Thomson mostrou que a escala global de comunicação só seria possível se todos concordassem em falar a mesma língua matemática na hora de construir a rede.',
+          en: 'As telegraph networks crossed countries and oceans, engineering hit a "software/hardware" problem: the lack of standards. What counted as "one unit of resistance" in Germany differed from the unit used in France or the United States. Manufacturing cables to connect the world became a chaos of incompatibility.\n\nIn 1863, the BAAS committee, led by Thomson with help from James Clerk Maxwell and Fleeming Jenkin, published the first practical results of a monumental effort to create a universal standard based on the absolute metric system. This would pave the way for the standardized units we now call Ohm, Volt and Ampere. Jenkin, in particular, was responsible for producing the first physical resistors that served as the "gold standard" for calibrating instruments around the world.\n\nThis is an absolute milestone in IT infrastructure.\n\nIt was an ancestor of interoperability and ISO. Just as the modern internet needs standard protocols such as TCP/IP and HTTP so different computers can communicate, the electrical networks of 1863 needed standardized "hardware APIs". Thomson’s committee showed that global communication would only be possible if everyone agreed to speak the same mathematical language when building the network.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1864,
+    era: { pt: 'A Teoria Suprema, o Hardware de Input e o Backbone Global', en: 'The Supreme Theory, Input Hardware and the Global Backbone' },
+    context: {
+      pt: 'Em 1864, a tecnologia da informação vê o nascimento da sua "linguagem" física definitiva e os primeiros passos para resolver o problema da entrada manual de dados. Enquanto a teoria matemática unifica luz, eletricidade e magnetismo num pacote de equações que regem o mundo sem fio de hoje, inventores começam a criar máquinas para processar texto mecanicamente, e megaempresários preparam a maior máquina de engenharia naval da época para conectar continentes de forma permanente. É o ano em que o hardware de interface, a física teórica e a infraestrutura pesada se alinham para o futuro.',
+      en: 'In 1864, information technology sees the birth of its definitive physical "language" and the first steps toward solving manual data entry. While mathematical theory unifies light, electricity and magnetism into the equations that govern today’s wireless world, inventors begin creating machines to process text mechanically, and mega-entrepreneurs prepare the largest naval engineering machine of the age to connect continents permanently. It is the year when interface hardware, theoretical physics and heavy infrastructure align for the future.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'James Clerk Maxwell',
+        imagePlaceholder: YEAR_1864_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Escocês)', en: 'British (Scottish)' },
+        formation: {
+          pt: 'Físico e matemático, com estudos nas Universidades de Edimburgo e Cambridge. Sua capacidade de traduzir fenômenos físicos invisíveis em arquitetura matemática rigorosa mudou a ciência.',
+          en: 'Physicist and mathematician, educated at the Universities of Edinburgh and Cambridge. His ability to translate invisible physical phenomena into rigorous mathematical architecture changed science.',
+        },
+        summary: {
+          pt: 'Apresentou à Royal Society, no final de 1864, o artigo "A Dynamical Theory of the Electromagnetic Field", estabelecendo as fundações matemáticas do eletromagnetismo.',
+          en: 'Presented to the Royal Society, in late 1864, the paper "A Dynamical Theory of the Electromagnetic Field", establishing the mathematical foundations of electromagnetism.',
+        },
+        role: {
+          pt: 'Autor da teoria matemática do campo eletromagnético',
+          en: 'Author of the mathematical theory of the electromagnetic field',
+        },
+        contribution: {
+          pt: 'Em 1864, Maxwell consolidou a teoria que permitiria a engenharia do rádio, Wi-Fi, Bluetooth, 5G e de toda comunicação sem fio moderna.',
+          en: 'In 1864, Maxwell consolidated the theory that would enable radio, Wi-Fi, Bluetooth, 5G and all modern wireless communication.',
+        },
+        detail: {
+          pt: 'Nós vimos Maxwell em 1861 deduzindo que as cores podiam ser separadas e, em 1862, sugerindo que a luz era uma onda eletromagnética. Mas foi em 1864 que ele entregou a "obra completa".\n\nEle apresentou um conjunto de 20 equações, mais tarde simplificadas para 4 por Oliver Heaviside, que descreviam exatamente como os campos elétricos e magnéticos interagem, se propagam e se transformam. Maxwell provou matematicamente que eletricidade e magnetismo não eram forças separadas, mas duas faces da mesma moeda.\n\nIsso é o "código-fonte" do universo sem fio.\n\nSe hoje você envia uma mensagem de WhatsApp pelo 5G, conecta seu fone via Bluetooth ou acessa a internet via Wi-Fi, toda essa informação viaja pelo ar obedecendo estritamente às leis que Maxwell codificou em 1864. Ele criou o modelo matemático que permitiu aos engenheiros, décadas depois, manipular o espectro eletromagnético para transmitir dados invisíveis pelo espaço.',
+          en: 'We saw Maxwell in 1861 deducing that colors could be separated and, in 1862, suggesting that light was an electromagnetic wave. But in 1864 he delivered the "complete work".\n\nHe presented a set of 20 equations, later simplified to 4 by Oliver Heaviside, describing exactly how electric and magnetic fields interact, propagate and transform. Maxwell mathematically proved that electricity and magnetism were not separate forces, but two faces of the same coin.\n\nThis is the "source code" of the wireless universe.\n\nIf today you send a WhatsApp message over 5G, connect headphones through Bluetooth or access the internet through Wi-Fi, all of that information travels through the air in strict obedience to the laws Maxwell codified in 1864. He created the mathematical model that allowed engineers, decades later, to manipulate the electromagnetic spectrum to transmit invisible data through space.',
+        },
+      },
+      {
+        name: 'Peter Mitterhofer',
+        imagePlaceholder: YEAR_1864_PLACEHOLDER,
+        flag: '🇦🇹',
+        nationality: { pt: 'Austríaco', en: 'Austrian' },
+        formation: {
+          pt: 'Carpinteiro, marceneiro e inventor autodidata. Um exemplo clássico do inovador brilhante, mas isolado dos grandes centros industriais.',
+          en: 'Carpenter, cabinetmaker and self-taught inventor. A classic example of a brilliant innovator isolated from major industrial centers.',
+        },
+        summary: {
+          pt: 'Concluiu, em 1864, seu primeiro protótipo funcional de máquina de escrever mecânica, o Modelo de Viena de 1864, construído principalmente com madeira e arame.',
+          en: 'Completed, in 1864, his first functional prototype of a mechanical typewriter, the 1864 Vienna Model, built primarily from wood and wire.',
+        },
+        role: {
+          pt: 'Pioneiro do hardware mecânico de entrada de texto',
+          en: 'Pioneer of mechanical text-input hardware',
+        },
+        contribution: {
+          pt: 'Em 1864, Mitterhofer materializou uma interface tátil para registrar texto mecanicamente, antecipando o teclado como hardware de input.',
+          en: 'In 1864, Mitterhofer materialized a tactile interface for recording text mechanically, anticipating the keyboard as input hardware.',
+        },
+        detail: {
+          pt: 'Até 1864, se você quisesse transmitir texto, precisava usar uma caneta, no manuscrito, ou um manipulador de telégrafo, no código Morse. O processamento de palavras não tinha uma interface dedicada para o usuário comum.\n\nPeter Mitterhofer, trabalhando isoladamente nos Alpes, construiu uma máquina com um teclado em formato de piano que usava alavancas para perfurar letras em um papel. Embora seu modelo inicial não usasse tinta, fazendo furos agulhados como braile, o conceito de uma interface tátil para "digitar" ideias estava materializado.\n\nPara a história da TI, isso é o marco zero do hardware de input de usuário.\n\nAntes dos teclados QWERTY, dos terminais de computador e das telas sensíveis ao toque, Mitterhofer tentou resolver o problema da lentidão da escrita manual através da mecânica. É a engenharia focada na ergonomia e na padronização da entrada de dados — o ancestral direto do teclado em que os códigos de software do mundo inteiro são digitados hoje.',
+          en: 'Until 1864, if you wanted to transmit text, you needed a pen for handwriting or a telegraph key for Morse code. Word processing had no dedicated interface for the ordinary user.\n\nPeter Mitterhofer, working in isolation in the Alps, built a machine with a piano-like keyboard that used levers to punch letters into paper. Although his early model did not use ink, making needle-like perforations similar to Braille, the idea of a tactile interface for "typing" ideas had become physical.\n\nFor IT history, this is ground zero for user input hardware.\n\nBefore QWERTY keyboards, computer terminals and touchscreens, Mitterhofer tried to solve the slowness of handwriting through mechanics. It is engineering focused on ergonomics and the standardization of data entry — a direct ancestor of the keyboard on which the world’s software code is typed today.',
+        },
+      },
+      {
+        name: 'Cyrus West Field',
+        imagePlaceholder: YEAR_1864_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Empresário e financista. Especialista em levantar capital de risco, negociar contratos internacionais e coordenar megaprojetos de infraestrutura.',
+          en: 'Entrepreneur and financier. A specialist in raising risk capital, negotiating international contracts and coordinating megaprojects in infrastructure.',
+        },
+        summary: {
+          pt: 'Em 1864, levantou capital maciço, reformulou a Atlantic Telegraph Company e começou a adaptar o SS Great Eastern para lançar o cabo transatlântico definitivo.',
+          en: 'In 1864, raised massive capital, reorganized the Atlantic Telegraph Company and began adapting the SS Great Eastern to lay the definitive transatlantic cable.',
+        },
+        role: {
+          pt: 'Organizador empresarial do backbone telegráfico transatlântico',
+          en: 'Business organizer of the transatlantic telegraph backbone',
+        },
+        contribution: {
+          pt: 'Em 1864, Field preparou a infraestrutura financeira, técnica e naval para a conexão telegráfica transatlântica permanente.',
+          en: 'In 1864, Field prepared the financial, technical and naval infrastructure for a permanent transatlantic telegraph connection.',
+        },
+        detail: {
+          pt: 'Uma rede só é global se conseguir cruzar oceanos. Uma tentativa anterior de lançar um cabo entre a Europa e a América do Norte, em 1858, havia falhado semanas após a inauguração porque o cabo derreteu por erro de voltagem.\n\nEm 1864, no meio da Guerra Civil Americana, Cyrus West Field provou que a TI já era uma infraestrutura vital "too big to fail". Ele conseguiu convencer investidores a financiar um cabo novo, muito mais espesso, blindado e cientificamente testado, graças aos padrões criados por Lord Kelvin em 1863. Mais importante: ele contratou o navio SS Great Eastern, a única embarcação no planeta grande o suficiente para carregar milhares de toneladas de cabos contínuos. O navio passou 1864 inteiro sendo convertido em uma "máquina de lançar redes".\n\nO significado disso para a trilha é óbvio: é a consolidação do "Backbone" global.\n\nO esforço gigantesco de Field em 1864 é o equivalente no século XIX à instalação dos cabos submarinos de fibra óptica de empresas como Google e Meta hoje. Sem a infraestrutura física massiva que Field começou a organizar em 1864, a "nuvem" moderna e a internet global simplesmente não existiriam.',
+          en: 'A network is only global if it can cross oceans. An earlier attempt to lay a cable between Europe and North America, in 1858, had failed weeks after inauguration because the cable was damaged by voltage errors.\n\nIn 1864, in the middle of the American Civil War, Cyrus West Field proved that IT was already vital infrastructure, "too big to fail". He convinced investors to finance a new cable, much thicker, armored and scientifically tested, thanks to the standards created by Lord Kelvin in 1863. More importantly, he hired the SS Great Eastern, the only ship on the planet large enough to carry thousands of tons of continuous cable. The ship spent 1864 being converted into a "network-laying machine".\n\nThe meaning for the timeline is obvious: it is the consolidation of the global "Backbone".\n\nField’s enormous effort in 1864 is the nineteenth-century equivalent of today’s submarine fiber-optic cable projects by companies such as Google and Meta. Without the massive physical infrastructure that Field began organizing in 1864, the modern cloud and global internet simply would not exist.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1865,
+    era: { pt: 'A Governança Global, a UX Primitiva e a Rede de Notícias', en: 'Global Governance, Primitive UX and the News Network' },
+    context: {
+      pt: 'Em 1865, a infraestrutura da informação percebe que a tecnologia pura não basta: é preciso diplomacia, usabilidade e integração. Com as redes telegráficas cruzando fronteiras a uma velocidade alarmante, as nações são forçadas a criar o primeiro órgão regulador de tecnologia do mundo para que os dados fluam sem travar nas alfândegas. Ao mesmo tempo, a "experiência do usuário" avança com a invenção da primeira máquina de escrever comercial focada em ergonomia, e o poder midiático da rede elétrica se consolida de forma trágica com a transmissão instantânea do assassinato de um presidente. É o ano em que a TI descobre a burocracia global, a acessibilidade e a "timeline" em tempo real.',
+      en: 'In 1865, information infrastructure realizes that pure technology is not enough: diplomacy, usability and integration are also required. As telegraph networks cross borders at alarming speed, nations are forced to create the world’s first technology regulator so data can flow without getting stuck at the border. At the same time, "user experience" advances with the invention of the first commercial typewriter focused on ergonomics, and the media power of the electrical network is tragically consolidated with the instant transmission of a president’s assassination. It is the year when IT discovers global bureaucracy, accessibility and the real-time timeline.',
+    },
+    peopleCount: 4,
+    people: [
+      {
+        name: 'Representantes de 20 Países (Fundação da UIT)',
+        imagePlaceholder: YEAR_1865_PLACEHOLDER,
+        flag: '🌍',
+        nationality: { pt: 'Internacional (Assinado em Paris, França)', en: 'International (Signed in Paris, France)' },
+        formation: {
+          pt: 'Diplomatas, ministros e diretores gerais de infraestrutura e redes telegráficas europeias.',
+          en: 'Diplomats, ministers and directors-general of European telegraph infrastructure and networks.',
+        },
+        summary: {
+          pt: 'Assinaram, em 17 de maio de 1865, a primeira Convenção Telegráfica Internacional, fundando a União Internacional de Telégrafos, atual União Internacional de Telecomunicações.',
+          en: 'Signed, on May 17, 1865, the first International Telegraph Convention, founding the International Telegraph Union, today the International Telecommunication Union.',
+        },
+        role: {
+          pt: 'Fundadores da governança internacional de telecomunicações',
+          en: 'Founders of international telecommunications governance',
+        },
+        contribution: {
+          pt: 'Em 1865, a comunicação elétrica ganhou sua primeira camada formal de governança, padronização e interoperabilidade internacional.',
+          en: 'In 1865, electrical communication gained its first formal layer of international governance, standardization and interoperability.',
+        },
+        detail: {
+          pt: 'Em 1865, o envio de uma mensagem pela Europa era um pesadelo logístico. Um telegrama saía de um país, chegava à fronteira, precisava ser impresso, traduzido, re-digitado por outro operador do país vizinho e sujeito a tarifas totalmente diferentes. Os "pacotes de dados" não conversavam entre si.\n\nPara resolver isso, 20 países se reuniram em Paris e fundaram a União Internacional de Telégrafos. Eles criaram regras universais para equipamentos, padronizaram o Código Morse internacional e unificaram tarifas.\n\nPor que isso é um pilar da história da TI?\n\nPorque é o nascimento da Governança de Redes e Padronização Global. A UIT é o ancestral direto de órgãos como o IEEE, que padroniza o Wi-Fi, a ICANN, que gerencia domínios de internet, e os protocolos TCP/IP. A ideia de que um celular comprado na Ásia consiga se conectar a uma antena no Brasil sem problemas de compatibilidade nasceu nessa sala em Paris em 1865. Hoje, a ITU é a agência mais antiga da ONU, ainda ativa e responsável por gerenciar o espectro global de radiofrequências e satélites.',
+          en: 'In 1865, sending a message across Europe was a logistical nightmare. A telegram left one country, reached the border, had to be printed, translated, retyped by another operator in the neighboring country and charged under entirely different tariffs. The "data packets" did not speak to one another.\n\nTo solve this, 20 countries met in Paris and founded the International Telegraph Union. They created universal rules for equipment, standardized international Morse code and unified tariffs.\n\nWhy is this a pillar of IT history?\n\nBecause it is the birth of network governance and global standardization. The ITU is a direct ancestor of bodies such as IEEE, which standardizes Wi-Fi, ICANN, which manages internet domains, and the TCP/IP protocol ecosystem. The idea that a phone bought in Asia can connect to an antenna in Brazil without compatibility problems was born in that room in Paris in 1865. Today, the ITU is the oldest UN agency, still active and responsible for managing the global radio-frequency spectrum and satellites.',
+        },
+      },
+      {
+        name: 'Rasmus Malling-Hansen',
+        imagePlaceholder: YEAR_1865_PLACEHOLDER,
+        flag: '🇩🇰',
+        nationality: { pt: 'Dinamarquês', en: 'Danish' },
+        formation: {
+          pt: 'Teólogo, educador, inventor e diretor do Instituto Real para Surdos-Mudos em Copenhague. Tinha profunda compreensão das necessidades motoras humanas.',
+          en: 'Theologian, educator, inventor and director of the Royal Institute for Deaf-Mutes in Copenhagen. He had a deep understanding of human motor needs.',
+        },
+        summary: {
+          pt: 'Inventou em 1865, e patenteou logo depois, a Skrivekugle, a Bola de Escrever de Hansen, primeira máquina de escrever comercializada no mundo.',
+          en: 'Invented in 1865, and patented soon after, the Skrivekugle, Hansen’s Writing Ball, the first typewriter commercialized in the world.',
+        },
+        role: {
+          pt: 'Pioneiro da interface humano-máquina para escrita',
+          en: 'Pioneer of the human-machine interface for writing',
+        },
+        contribution: {
+          pt: 'Em 1865, Malling-Hansen transformou a máquina de escrever em produto comercial pensado para velocidade, ergonomia e acessibilidade.',
+          en: 'In 1865, Malling-Hansen turned the typewriter into a commercial product designed for speed, ergonomics and accessibility.',
+        },
+        detail: {
+          pt: 'No ano anterior, vimos Mitterhofer construir um protótipo de madeira de uma máquina de escrever. Mas em 1865, Rasmus Malling-Hansen elevou a barra, criando não apenas uma máquina, mas um produto comercial focado na Experiência do Usuário e em Acessibilidade.\n\nMalling-Hansen queria uma ferramenta que ajudasse os surdos a se comunicarem mais rapidamente e que permitisse às pessoas "escreverem tão rápido quanto falam". Ele projetou a máquina em formato de semiesfera, uma bola de pistões, estudando cuidadosamente quais dedos eram os mais rápidos e distribuindo as vogais e consoantes de acordo com a frequência de uso na linguagem.\n\nIsso é TI na veia: é o estudo da interface humano-máquina.\n\nMalling-Hansen não estava apenas construindo mecânica; ele estava otimizando o input de dados através de princípios de ergonomia. A "Bola de Escrever" foi tão genial que, anos depois, o filósofo Friedrich Nietzsche comprou uma para continuar escrevendo quando começou a perder a visão. Em 1865, o hardware de entrada ganha seu primeiro grande case de sucesso focado no usuário.',
+          en: 'The previous year, we saw Mitterhofer build a wooden prototype of a typewriter. But in 1865, Rasmus Malling-Hansen raised the bar, creating not only a machine, but a commercial product focused on user experience and accessibility.\n\nMalling-Hansen wanted a tool that would help deaf people communicate faster and allow people to "write as fast as they speak". He designed the machine as a hemisphere, a ball of pistons, carefully studying which fingers were fastest and distributing vowels and consonants according to their frequency of use in language.\n\nThis is pure IT: the study of the human-machine interface.\n\nMalling-Hansen was not just building mechanics; he was optimizing data input through ergonomic principles. The "Writing Ball" was so ingenious that, years later, the philosopher Friedrich Nietzsche bought one to keep writing as he began losing his sight. In 1865, input hardware gains its first major user-centered success case.',
+        },
+      },
+      {
+        name: 'Mahlon Loomis',
+        imagePlaceholder: YEAR_1865_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Dentista de profissão e inventor visionário autodidata.',
+          en: 'Dentist by profession and self-taught visionary inventor.',
+        },
+        summary: {
+          pt: 'Realizou em 1865 experimentos nas montanhas da Virgínia usando pipas revestidas de cobre para tentar estabelecer um telégrafo atmosférico sem fio.',
+          en: 'Carried out experiments in the Virginia mountains in 1865 using copper-coated kites to attempt an atmospheric wireless telegraph.',
+        },
+        role: {
+          pt: 'Pioneiro experimental da comunicação sem fio',
+          en: 'Experimental pioneer of wireless communication',
+        },
+        contribution: {
+          pt: 'Em 1865, Loomis tentou criar um link de dados sem fio de longa distância usando antenas primitivas e eletricidade atmosférica.',
+          en: 'In 1865, Loomis attempted to create a long-distance wireless data link using primitive antennas and atmospheric electricity.',
+        },
+        detail: {
+          pt: 'Enquanto Maxwell, em 1864, provou a existência das ondas eletromagnéticas no quadro negro através de equações precisas, Mahlon Loomis foi para a rua tentar hackear a natureza na força bruta.\n\nEm 1865, Loomis subiu montanhas distantes, soltou pipas amarradas com fios de cobre que funcionavam como antenas primitivas e tentou usar a eletricidade estática da atmosfera para enviar pulsos elétricos de uma montanha a outra, sem nenhum cabo interligando as duas. Ele conseguia fazer com que um galvanômetro na pipa B se movesse quando descarregava a pipa A.\n\nAinda não era rádio de verdade, porque ele estava usando indução atmosférica em vez de ondas de rádio Hertzianas, mas a ambição aqui é o que conta para a nossa linha do tempo: é a primeira tentativa documentada de criar um link de dados sem fio de longa distância. Loomis antecipou em décadas a visão de Nikola Tesla e Marconi de um mundo conectado sem fios, provando que, no submundo dos inventores, a ideia do wireless já começava a ganhar protótipos físicos.',
+          en: 'While Maxwell, in 1864, proved the existence of electromagnetic waves on the blackboard through precise equations, Mahlon Loomis went outside and tried to hack nature by brute force.\n\nIn 1865, Loomis climbed distant mountains, released kites tied with copper wires that worked as primitive antennas and tried to use atmospheric static electricity to send electrical pulses from one mountain to another, with no cable connecting the two. He could make a galvanometer at kite B move when he discharged kite A.\n\nIt was not true radio yet, because he was using atmospheric induction rather than Hertzian radio waves, but the ambition is what matters for this timeline: it is one of the first documented attempts to create a long-distance wireless data link. Loomis anticipated by decades the vision of Nikola Tesla and Marconi of a wirelessly connected world, proving that, in the inventor underground, the idea of wireless was already taking physical prototype form.',
+        },
+      },
+      {
+        name: 'Operadores de Telégrafo & Agências de Notícias (AP)',
+        imagePlaceholder: YEAR_1865_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Operadores de rede, jornalistas investigativos e estrategistas de mídia que moldaram a comunicação moderna.',
+          en: 'Network operators, investigative journalists and media strategists who shaped modern communication.',
+        },
+        summary: {
+          pt: 'Em abril de 1865, usaram a rede telegráfica americana para transmitir a notícia do assassinato de Abraham Lincoln em tempo quase real.',
+          en: 'In April 1865, used the American telegraph network to transmit news of Abraham Lincoln’s assassination in near real time.',
+        },
+        role: {
+          pt: 'Pioneiros do breaking news em rede elétrica',
+          en: 'Pioneers of breaking news over electrical networks',
+        },
+        contribution: {
+          pt: 'Em 1865, a rede telegráfica se consolidou como sistema nervoso midiático capaz de sincronizar uma nação em torno de um evento.',
+          en: 'In 1865, the telegraph network became a media nervous system capable of synchronizing a nation around an event.',
+        },
+        detail: {
+          pt: 'Até 1865, as notícias ainda dependiam muito da geografia. Mas no dia 14 de abril de 1865, o assassinato do presidente Abraham Lincoln mudou para sempre a relação da sociedade com os dados.\n\nAssim que o evento ocorreu, o U.S. Military Telegraph Corps e repórteres associados dispararam a informação pelos fios elétricos de costa a costa. Na manhã seguinte, o país inteiro leu a mesma manchete trágica nos jornais simultaneamente.\n\nNa história da TI, isso é o nascimento do "Breaking News" impulsionado pela rede.\n\nA infraestrutura elétrica deixou de ser apenas uma ferramenta corporativa ou militar e assumiu o papel de sincronizador social. É a validação da informação como o recurso mais valioso da sociedade. O que ocorreu em abril de 1865 é o princípio fundamental por trás dos Trending Topics do X, das notificações push do celular e da conectividade em tempo real. A rede se tornou o sistema nervoso central de um país.',
+          en: 'Until 1865, news still depended heavily on geography. But on April 14, 1865, the assassination of President Abraham Lincoln changed society’s relationship with data forever.\n\nAs soon as the event happened, the U.S. Military Telegraph Corps and associated reporters pushed the information through electrical wires from coast to coast. The next morning, the entire country read the same tragic headline in newspapers almost simultaneously.\n\nIn IT history, this is the birth of network-driven breaking news.\n\nElectrical infrastructure stopped being only a corporate or military tool and took on the role of social synchronizer. It validated information as society’s most valuable resource. What happened in April 1865 is the same fundamental principle behind X trending topics, mobile push notifications and real-time connectivity. The network became the central nervous system of a country.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1866,
+    era: { pt: 'O Backbone Definitivo, a Energia Autônoma e o Primeiro "Ping" Intercontinental', en: 'The Definitive Backbone, Autonomous Energy and the First Intercontinental "Ping"' },
+    context: {
+      pt: 'Em 1866, a tecnologia da informação vence a geografia de forma definitiva. Após anos de fracassos, cabos rompidos e fortunas perdidas, a engenharia finalmente consegue domar o fundo do oceano, estabelecendo o primeiro link de dados permanente entre a Europa e as Américas. Ao mesmo tempo, a TI resolve um de seus maiores gargalos físicos: como fornecer energia confiável, barata e descentralizada para essas redes. É o ano em que a "aldeia global" se conecta permanentemente e o hardware ganha uma de suas fontes de energia mais duradouras.',
+      en: 'In 1866, information technology definitively defeats geography. After years of failures, broken cables and lost fortunes, engineering finally tames the ocean floor, establishing the first permanent data link between Europe and the Americas. At the same time, IT solves one of its greatest physical bottlenecks: how to provide reliable, cheap and decentralized power for these networks. It is the year when the "global village" becomes permanently connected and hardware gains one of its most durable energy sources.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Cyrus West Field & Equipe do SS Great Eastern',
+        imagePlaceholder: YEAR_1866_PLACEHOLDER,
+        flag: '🇺🇸 🇬🇧',
+        nationality: { pt: 'Americano (Field) / Britânicos (Engenheiros e Tripulação)', en: 'American (Field) / British (Engineers and Crew)' },
+        formation: {
+          pt: 'Field: empresário e articulador implacável. A equipe técnica contava com gigantes como William Thomson (Lord Kelvin), responsável pela integridade elétrica do cabo, e o legado naval de Isambard Kingdom Brunel, projetista do navio.',
+          en: 'Field: entrepreneur and relentless organizer. The technical team included giants such as William Thomson (Lord Kelvin), responsible for the cable’s electrical integrity, and the naval legacy of Isambard Kingdom Brunel, designer of the ship.',
+        },
+        summary: {
+          pt: 'Em 27 de julho de 1866, concluíram a instalação do cabo telegráfico transatlântico definitivo entre Irlanda e Terra Nova, e ainda recuperaram e consertaram o cabo perdido de 1865.',
+          en: 'On July 27, 1866, completed the definitive transatlantic telegraph cable between Ireland and Newfoundland, and also recovered and repaired the cable lost in 1865.',
+        },
+        role: {
+          pt: 'Construtores do primeiro backbone transatlântico permanente',
+          en: 'Builders of the first permanent transatlantic backbone',
+        },
+        contribution: {
+          pt: 'Em 1866, a comunicação entre Europa e América caiu de dias para minutos, inaugurando a infraestrutura global permanente de dados.',
+          en: 'In 1866, communication between Europe and America fell from days to minutes, inaugurating permanent global data infrastructure.',
+        },
+        detail: {
+          pt: 'Vimos o épico esforço de preparação de Cyrus Field em 1864. Em 1866, o projeto finalmente tem sucesso absoluto.\n\nO navio SS Great Eastern conseguiu deitar milhares de quilômetros de cabo perfeitamente no leito do Oceano Atlântico. Quando a última emenda foi feita, a Rainha Vitória e o Presidente Andrew Johnson trocaram mensagens de forma rotineira. Mais impressionante ainda: a equipe conseguiu pescar o cabo que havia arrebentado no ano anterior no meio do oceano, emendá-lo e criar uma segunda via de comunicação. Subitamente, o mundo tinha banda dupla transatlântica.\n\nPor que isso é um marco histórico da TI?\n\nPorque é a redução radical da latência global. O "ping" entre Londres e Nova York caiu de 10 dias, o tempo de viagem do navio mais rápido, para apenas alguns minutos. É o ancestral direto do backbone da internet. Até hoje, cerca de 99% do tráfego de dados intercontinentais, da Netflix ao sistema bancário SWIFT, passa por cabos submarinos deitados com lógicas muito parecidas com as que Field e Kelvin validaram com sucesso em 1866. A TI provou que o oceano não era mais um obstáculo para a informação.',
+          en: 'We saw Cyrus Field’s epic preparation effort in 1864. In 1866, the project finally achieved complete success.\n\nThe SS Great Eastern laid thousands of kilometers of cable cleanly across the Atlantic seabed. When the final splice was made, Queen Victoria and President Andrew Johnson exchanged messages routinely. Even more impressively, the team managed to fish up the cable that had snapped the previous year in the middle of the ocean, splice it and create a second communication route. Suddenly, the world had transatlantic dual bandwidth.\n\nWhy is this a historic IT milestone?\n\nBecause it radically reduced global latency. The "ping" between London and New York fell from 10 days, the travel time of the fastest ship, to only a few minutes. It is a direct ancestor of the internet backbone. Even today, around 99% of intercontinental data traffic, from Netflix to the SWIFT banking system, passes through submarine cables laid with logic very similar to what Field and Kelvin successfully validated in 1866. IT proved that the ocean was no longer an obstacle to information.',
+        },
+      },
+      {
+        name: 'Georges Leclanché',
+        imagePlaceholder: YEAR_1866_PLACEHOLDER,
+        flag: '🇫🇷',
+        nationality: { pt: 'Francês', en: 'French' },
+        formation: {
+          pt: 'Engenheiro eletricista formado pela École Centrale des Arts et Manufactures, em Paris. Trabalhou no setor ferroviário e focou intensamente no estudo de eletroquímica.',
+          en: 'Electrical engineer trained at the École Centrale des Arts et Manufactures in Paris. He worked in the railway sector and focused intensely on electrochemistry.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou, em 1866, a Pilha de Leclanché, uma bateria primária baseada em cloreto de amônio, zinco e dióxido de manganês.',
+          en: 'Invented and patented, in 1866, the Leclanché cell, a primary battery based on ammonium chloride, zinc and manganese dioxide.',
+        },
+        role: {
+          pt: 'Criador da bateria prática para redes telegráficas',
+          en: 'Creator of the practical battery for telegraph networks',
+        },
+        contribution: {
+          pt: 'Em 1866, Leclanché deu às bordas da rede uma fonte de energia confiável, barata e de baixa manutenção.',
+          en: 'In 1866, Leclanché gave the network edge a reliable, cheap and low-maintenance energy source.',
+        },
+        detail: {
+          pt: 'Toda aquela rede mundial de telégrafos que estava sendo construída tinha um problema prático sério: precisava de energia constante. As baterias químicas usadas na época vazavam líquidos perigosos, exalavam gases tóxicos, descarregavam rápido demais ou eram difíceis de manter nas milhares de estações isoladas.\n\nEm 1866, Georges Leclanché cria uma solução brilhante. A pilha que ele inventou era mais barata, não exigia tanta manutenção e, principalmente, só consumia seus componentes quando a corrente estava ativamente sendo solicitada, ou seja, quando o telegrafista apertava a tecla.\n\nIsso é fundamental para a infraestrutura de TI.\n\nA pilha de Leclanché tornou-se o padrão imediato da indústria telegráfica e, posteriormente, a fonte de energia preferida para os primeiros sistemas de telefonia do mundo. Sem o fornecimento de energia confiável nas bordas da rede, a expansão da comunicação seria impossível. A tecnologia de Leclanché é a precursora direta da pilha seca que você usa hoje no controle remoto ou no mouse sem fio. Em 1866, a TI encontrou a sua bateria perfeita.',
+          en: 'The global telegraph network being built had a serious practical problem: it needed constant power. Chemical batteries of the time leaked dangerous liquids, emitted toxic gases, discharged too quickly or were difficult to maintain across thousands of isolated stations.\n\nIn 1866, Georges Leclanché created a brilliant solution. The cell he invented was cheaper, required less maintenance and, most importantly, consumed its components only when current was actively requested, that is, when the telegraph operator pressed the key.\n\nThis is fundamental to IT infrastructure.\n\nThe Leclanché cell immediately became the standard of the telegraph industry and later the preferred power source for the world’s first telephone systems. Without reliable power at the network edge, communication expansion would have been impossible. Leclanché’s technology is the direct precursor of the dry cell you use today in a remote control or wireless mouse. In 1866, IT found its perfect battery.',
+        },
+      },
+      {
+        name: 'Mahlon Loomis',
+        imagePlaceholder: YEAR_1866_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Dentista de profissão e inventor guiado por pura experimentação prática, sem o rigor matemático dos físicos teóricos da Europa.',
+          en: 'Dentist by profession and inventor guided by practical experimentation, without the mathematical rigor of Europe’s theoretical physicists.',
+        },
+        summary: {
+          pt: 'Em outubro de 1866, realizou uma demonstração documentada de comunicação sem fio, ativando um galvanômetro a 22 km de distância nas montanhas Blue Ridge.',
+          en: 'In October 1866, carried out a documented wireless communication demonstration, activating a galvanometer 22 km away in the Blue Ridge Mountains.',
+        },
+        role: {
+          pt: 'Pioneiro de campo dos links sem fio de longa distância',
+          en: 'Field pioneer of long-distance wireless links',
+        },
+        contribution: {
+          pt: 'Em 1866, Loomis mostrou em campo aberto que sinais podiam atravessar longas distâncias sem fio físico entre os pontos.',
+          en: 'In 1866, Loomis showed in open terrain that signals could cross long distances without a physical wire between endpoints.',
+        },
+        detail: {
+          pt: 'Vimos Loomis iniciar seus testes com pipas em 1865. Porém, é no outono de 1866 que ele convoca testemunhas públicas, incluindo senadores e cientistas, para validar seu sistema em escala real.\n\nEle soltou uma pipa revestida de tela de cobre no topo de uma montanha, conectada ao solo por um fio. A mais de 22 quilômetros de distância, em outra montanha, ele soltou uma pipa idêntica ligada a um medidor de eletricidade, o galvanômetro. Quando Loomis encostava o fio da montanha A no chão, alterando a carga elétrica da atmosfera local, o medidor na montanha B se mexia instantaneamente. Ele transmitiu sinais intermitentes perfeitamente legíveis sem nenhum cabo interligando as montanhas.\n\nPara a história da rede, isso é fascinante.\n\nEmbora Loomis não estivesse usando frequências de rádio puras, mas eletricidade atmosférica estática, ele foi o primeiro humano a criar um link de transmissão de dados em campo aberto usando a atmosfera como "cabo". Em 1866, a mesma sociedade que comemorava os pesados cabos submarinos no Atlântico presenciou o teste beta da ideia que substituiria muito daquela fiação no século XX: o wireless de longa distância.',
+          en: 'We saw Loomis begin his kite experiments in 1865. But in the autumn of 1866 he called public witnesses, including senators and scientists, to validate his system at real scale.\n\nHe released a kite covered with copper mesh at the top of one mountain, connected to the ground by a wire. More than 22 kilometers away, on another mountain, he released an identical kite connected to an electrical meter, a galvanometer. When Loomis touched the wire on mountain A to the ground, changing the electrical charge of the local atmosphere, the meter on mountain B moved instantly. He transmitted intermittent, legible signals without any cable connecting the mountains.\n\nFor network history, this is fascinating.\n\nAlthough Loomis was not using pure radio frequencies, but atmospheric static electricity, he was the first human to create an open-field data transmission link using the atmosphere as a "cable". In 1866, the same society celebrating heavy submarine cables in the Atlantic also witnessed the beta test of the idea that would replace much of that wiring in the twentieth century: long-distance wireless.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1867,
+    era: { pt: 'O Input Moderno, o Data Logger e a Energia em Escala', en: 'Modern Input, the Data Logger and Energy at Scale' },
+    context: {
+      pt: 'Em 1867, a tecnologia da informação começa a resolver seus gargalos de interface e infraestrutura de longo prazo. Após a vitória do cabo transatlântico no ano anterior, o volume de dados circulando pelo mundo aumenta drasticamente. O ouvido humano já não dá conta de registrar os sinais fracos do fundo do mar, forçando a invenção do primeiro gravador automático de dados. Paralelamente, o hardware de digitação ganha o design mecânico que dominará o mundo por mais de um século, e a geração de energia elétrica deixa de depender exclusivamente da química para abraçar a força mecânica em escala industrial. É o ano em que a TI automatiza a leitura, padroniza a escrita e garante seu suprimento de força.',
+      en: 'In 1867, information technology begins solving its long-term interface and infrastructure bottlenecks. After the victory of the transatlantic cable the previous year, the volume of data moving around the world increases dramatically. The human ear can no longer reliably register weak signals from the ocean floor, forcing the invention of the first automatic data recorder. At the same time, typing hardware gains the mechanical design that will dominate the world for more than a century, and electrical generation moves beyond chemistry to embrace mechanical force at industrial scale. It is the year when IT automates reading, standardizes writing and secures its power supply.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Christopher Latham Sholes, Carlos Glidden & Samuel W. Soule',
+        imagePlaceholder: YEAR_1867_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Sholes: editor de jornal, impressor e político. Glidden: advogado e inventor aficionado por mecânica. Soule: maquinista desenhista e engenheiro prático.',
+          en: 'Sholes: newspaper editor, printer and politician. Glidden: lawyer and mechanically minded inventor. Soule: draftsman-machinist and practical engineer.',
+        },
+        summary: {
+          pt: 'Construíram em 1867 a primeira máquina de escrever prática e com viabilidade comercial, criando a arquitetura mecânica que levaria ao teclado QWERTY.',
+          en: 'Built in 1867 the first practical and commercially viable typewriter, creating the mechanical architecture that would lead to the QWERTY keyboard.',
+        },
+        role: {
+          pt: 'Arquitetos do input moderno de texto',
+          en: 'Architects of modern text input',
+        },
+        contribution: {
+          pt: 'Em 1867, o trio consolidou a arquitetura mecânica da máquina de escrever que tornaria a digitação um padrão industrial.',
+          en: 'In 1867, the trio consolidated the mechanical architecture of the typewriter that would make typing an industrial standard.',
+        },
+        detail: {
+          pt: 'Vimos Mitterhofer fazer um protótipo de madeira em 1864 e Hansen lançar a "bola de escrever" ergonômica em 1865. Mas é no outono de 1867 que o trio Sholes, Glidden e Soule finaliza o protótipo que venceria a guerra dos formatos.\n\nEles desenvolveram uma máquina baseada no movimento de hastes de metal batendo contra uma fita entintada sobre um rolo de papel cilíndrico. A máquina original de 1867 tinha um teclado parecido com o de um piano e as teclas travavam frequentemente se digitadas muito rápido, o que forçaria Sholes, nos anos seguintes, a espalhar as letras mais usadas — nascendo assim o layout QWERTY.\n\nPara a história da TI, 1867 marca o design definitivo da Interface Humano-Máquina para texto.\n\nEles não inventaram a ideia de digitar, mas inventaram a arquitetura de hardware que sobreviveu. O teclado físico do seu notebook e o teclado virtual do seu smartphone são descendentes diretos das decisões de engenharia mecânica tomadas por esse trio em Milwaukee no ano de 1867. A partir daqui, a entrada de dados deixa de ser um experimento e vira um padrão industrial.',
+          en: 'We saw Mitterhofer build a wooden prototype in 1864 and Hansen launch the ergonomic "writing ball" in 1865. But in the autumn of 1867, Sholes, Glidden and Soule completed the prototype that would win the format war.\n\nThey developed a machine based on metal typebars striking an inked ribbon against a cylindrical paper platen. The original 1867 machine had a piano-like keyboard, and the keys jammed frequently if typed too quickly, which would push Sholes in the following years to spread out commonly used letters — giving birth to the QWERTY layout.\n\nFor IT history, 1867 marks the definitive design of the human-machine interface for text.\n\nThey did not invent the idea of typing, but they invented the hardware architecture that survived. The physical keyboard on your laptop and the virtual keyboard on your smartphone are direct descendants of the mechanical engineering decisions made by this trio in Milwaukee in 1867. From this point on, data entry stops being an experiment and becomes an industrial standard.',
+        },
+      },
+      {
+        name: 'William Thomson (Lord Kelvin)',
+        imagePlaceholder: YEAR_1867_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Escocês)', en: 'British (Scottish)' },
+        formation: {
+          pt: 'Físico, matemático e engenheiro, formado pela Universidade de Cambridge. A maior autoridade em termodinâmica e eletricidade do século XIX.',
+          en: 'Physicist, mathematician and engineer, educated at the University of Cambridge. The nineteenth century’s leading authority on thermodynamics and electricity.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou, em 1867, o Siphon Recorder, dispositivo eletromecânico sensível que registrava automaticamente mensagens telegráficas em fita de papel contínua.',
+          en: 'Invented and patented, in 1867, the Siphon Recorder, a sensitive electromechanical device that automatically recorded telegraph messages on continuous paper tape.',
+        },
+        role: {
+          pt: 'Criador do registro automático de dados de rede',
+          en: 'Creator of automatic network data recording',
+        },
+        contribution: {
+          pt: 'Em 1867, Thomson permitiu que sinais de rede fracos fossem registrados automaticamente para leitura posterior.',
+          en: 'In 1867, Thomson made it possible for weak network signals to be automatically recorded for later reading.',
+        },
+        detail: {
+          pt: 'Com o cabo transatlântico de 1866 funcionando, surgiu um problema grave: o sinal que chegava do outro lado do oceano era incrivelmente fraco e distorcido. Um operador humano mal conseguia "ouvir" ou ver os pulsos em tempo real para traduzir o código.\n\nEm 1867, William Thomson resolve isso criando uma máquina. O Siphon Recorder usava uma agulha minúscula ligada a um tubo de vidro, um sifão, que borrifava tinta sobre uma fita de papel em movimento. Quando o sinal elétrico do cabo chegava, ele movia a agulha, desenhando um gráfico contínuo de picos e vales no papel, que representava os pontos e traços do código Morse.\n\nIsso é um marco absoluto: é o nascimento do Data Logging automatizado.\n\nPela primeira vez, a informação não precisava ser processada por um humano no momento em que chegava. O sistema recebia o stream de dados da rede, escrevia isso em uma mídia de armazenamento físico, a fita de papel, e permitia que a leitura fosse feita depois. É o ancestral conceitual do disco rígido, da fita magnética e dos arquivos de log de servidores. A máquina passou a registrar a rede.',
+          en: 'With the transatlantic cable of 1866 working, a serious problem appeared: the signal arriving from the other side of the ocean was incredibly weak and distorted. A human operator could barely "hear" or see the pulses in real time to translate the code.\n\nIn 1867, William Thomson solved this by creating a machine. The Siphon Recorder used a tiny needle connected to a glass tube, a siphon, that sprayed ink onto a moving paper tape. When the cable’s electrical signal arrived, it moved the needle, drawing a continuous graph of peaks and valleys on paper, representing the dots and dashes of Morse code.\n\nThis is an absolute milestone: the birth of automated data logging.\n\nFor the first time, information did not have to be processed by a human at the moment it arrived. The system received the network data stream, wrote it onto a physical storage medium, the paper tape, and allowed reading to happen later. It is a conceptual ancestor of the hard disk, magnetic tape and server log files. The machine began recording the network.',
+        },
+      },
+      {
+        name: 'Werner von Siemens & Charles Wheatstone',
+        imagePlaceholder: YEAR_1867_PLACEHOLDER,
+        flag: '🇩🇪 🇬🇧',
+        nationality: { pt: 'Alemão (Siemens) / Britânico (Wheatstone)', en: 'German (Siemens) / British (Wheatstone)' },
+        formation: {
+          pt: 'Siemens: oficial de artilharia, engenheiro elétrico e megaempresário industrial. Wheatstone: cientista pioneiro e inventor de redes telegráficas.',
+          en: 'Siemens: artillery officer, electrical engineer and industrial mega-entrepreneur. Wheatstone: pioneering scientist and inventor of telegraph networks.',
+        },
+        summary: {
+          pt: 'Apresentaram de forma independente, em 1867, o princípio do dínamo autoexcitável, permitindo a geração de energia elétrica em altíssima escala.',
+          en: 'Independently presented, in 1867, the principle of the self-excited dynamo, enabling electrical generation at very large scale.',
+        },
+        role: {
+          pt: 'Pioneiros da geração elétrica escalável',
+          en: 'Pioneers of scalable electrical generation',
+        },
+        contribution: {
+          pt: 'Em 1867, o dínamo autoexcitável abriu caminho para eletrificação industrial, cidades elétricas e infraestrutura tecnológica moderna.',
+          en: 'In 1867, the self-excited dynamo opened the way for industrial electrification, electric cities and modern technological infrastructure.',
+        },
+        detail: {
+          pt: 'A TI de meados do século XIX, como vimos no caso das pilhas de Leclanché em 1866, era alimentada por reações químicas. Baterias são ótimas para dispositivos locais, mas redes massivas exigem energia pesada.\n\nEm 1867, Siemens e Wheatstone descobriram e anunciaram a solução quase simultaneamente. Eles criaram o gerador elétrico de autoexcitação, o dínamo moderno. Em vez de usar ímãs permanentes pesados e ineficientes, a máquina usava uma parte de sua própria energia gerada para alimentar seus eletroímãs internos, criando um ciclo de feedback positivo que gerava correntes elétricas massivas apenas girando uma manivela ou turbina.\n\nPor que isso entra no Hall da Fama da TI?\n\nPorque a tecnologia da informação é indissociável da matriz energética. Sem o princípio do dínamo de 1867, a revolução da corrente alternada, as usinas elétricas e a eletrificação das cidades não ocorreriam. Toda a infraestrutura moderna de tecnologia — de um provedor de internet a um data center gigantesco treinando inteligência artificial — depende da conversão de força mecânica em eletricidade abundante, um princípio que foi dominado comercialmente a partir deste exato momento.',
+          en: 'Mid-nineteenth-century IT, as we saw with Leclanché cells in 1866, was powered by chemical reactions. Batteries are excellent for local devices, but massive networks require heavy power.\n\nIn 1867, Siemens and Wheatstone discovered and announced the solution almost simultaneously. They created the self-excited electrical generator, the modern dynamo. Instead of using heavy, inefficient permanent magnets, the machine used part of its own generated energy to feed its internal electromagnets, creating a positive feedback loop that generated massive electrical currents simply by turning a crank or turbine.\n\nWhy does this belong in the IT Hall of Fame?\n\nBecause information technology is inseparable from the energy matrix. Without the dynamo principle of 1867, the alternating-current revolution, power plants and the electrification of cities would not have happened. All modern technological infrastructure — from an internet provider to a giant data center training artificial intelligence — depends on converting mechanical force into abundant electricity, a principle commercially mastered from this exact moment.',
         },
       },
     ],
