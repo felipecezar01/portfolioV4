@@ -322,6 +322,76 @@ const YEAR_1908_PLACEHOLDER = {
   en: 'The 100% Electronic Architecture, Asynchronous Transmission and the Continental Antenna\n1908',
 }
 
+const YEAR_1909_PLACEHOLDER = {
+  pt: 'O Nobel da Rede Sem Fio, o Chassi de Plástico e o Streaming com Horário Marcado\n1909',
+  en: 'The Nobel of the Wireless Network, the Plastic Chassis and Scheduled Streaming\n1909',
+}
+
+const YEAR_1910_PLACEHOLDER = {
+  pt: 'O Live Streaming, o Link de Dados Aeronáutico e a Rede de Terminais de Texto\n1910',
+  en: 'Live Streaming, the Aeronautical Data Link and the Text Terminal Network\n1910',
+}
+
+const YEAR_1911_PLACEHOLDER = {
+  pt: 'O Nascimento da "Big Tech" Original, a Física da Supercondutividade e o Ancestral da Banda Larga\n1911',
+  en: 'The Birth of the Original "Big Tech", the Physics of Superconductivity and the Ancestor of Broadband\n1911',
+}
+
+const YEAR_1912_PLACEHOLDER = {
+  pt: 'O Circuito de Feedback Eletrônico, a Fundação do IEEE e a Legislação de Espectro Pós-Titanic\n1912',
+  en: 'The Electronic Feedback Circuit, the Foundation of the IEEE and Post-Titanic Spectrum Law\n1912',
+}
+
+const YEAR_1913_PLACEHOLDER = {
+  pt: 'O Vácuo Perfeito, a Geração Eletrônica de Ondas e o Deploy Transcontinental\n1913',
+  en: 'The Perfect Vacuum, Electronic Wave Generation and Transcontinental Deployment\n1913',
+}
+
+const YEAR_1914_PLACEHOLDER = {
+  pt: 'O Processamento Autônomo, o Fio Transcontinental e o Nascimento do SIGINT\n1914',
+  en: 'Autonomous Processing, the Transcontinental Wire and the Birth of SIGINT\n1914',
+}
+
+const YEAR_1915_PLACEHOLDER = {
+  pt: 'O "Go-Live" Continental, a Compressão de Espectro e o Link Transatlântico de Voz\n1915',
+  en: 'The Continental "Go-Live", Spectrum Compression and the Transatlantic Voice Link\n1915',
+}
+
+const YEAR_1916_PLACEHOLDER = {
+  pt: 'A Alta Fidelidade de Input, a Criptografia de Rotores e o Escaneamento Subaquático\n1916',
+  en: 'High-Fidelity Input, Rotor Cryptography and Underwater Scanning\n1916',
+}
+
+const YEAR_1917_PLACEHOLDER = {
+  pt: 'A Criptografia Inquebrável, a Arquitetura do Wi-Fi e a Teoria do Laser\n1917',
+  en: 'Unbreakable Cryptography, Wi-Fi Architecture and Laser Theory\n1917',
+}
+
+const YEAR_1918_PLACEHOLDER = {
+  pt: 'A Memória Eletrônica, o Hardware de Criptografia Definitivo e o Padrão do Rádio Moderno\n1918',
+  en: 'Electronic Memory, Definitive Cryptographic Hardware and the Modern Radio Standard\n1918',
+}
+
+const YEAR_1919_PLACEHOLDER = {
+  pt: 'O Nascimento da "Big Tech" de Mídia, o Roteamento Autônomo e a Descoberta das Micro-ondas\n1919',
+  en: 'The Birth of Media "Big Tech", Autonomous Routing and the Discovery of Microwaves\n1919',
+}
+
+const YEAR_1920_PLACEHOLDER = {
+  pt: 'A Estação de Rádio Comercial, o Nascimento da Palavra "Robô" e a Primeira Rede de Tráfego Aéreo\n1920',
+  en: 'The Commercial Radio Station, the Birth of the Word "Robot" and the First Air Traffic Network\n1920',
+}
+
+const YEAR_1921_PLACEHOLDER = {
+  pt: 'O "Clock" de Quartzo, a Rede Veicular Móvel e o Motor de Micro-ondas\n1921',
+  en: 'The Quartz "Clock", the Mobile Vehicle Network and the Microwave Engine\n1921',
+}
+
+const YEAR_1922_PLACEHOLDER = {
+  pt: 'A Monetização da Rede, o Roteamento Óptico de Dados e o Fax Sem Fio Transatlântico\n1922',
+  en: 'Network Monetization, Optical Data Routing and the Transatlantic Wireless Fax\n1922',
+}
+
 const data: HallYear[] = [
   {
     year: 1843,
@@ -6373,6 +6443,1294 @@ const data: HallYear[] = [
         detail: {
           pt: 'Lee de Forest queria convencer os governos e militares europeus de que o áudio sem fio era o futuro tático e comercial indiscutível. Ele percebeu que as antenas eram o maior gargalo físico da propagação: quanto mais alta, mais longe o campo eletromagnético viaja. Ele obteve permissão para pendurar os fios de seu transmissor a partir do topo dos mais de 300 metros da Torre Eiffel. Durante a transmissão, usando um fonógrafo e sua própria voz, de Forest banhou a França com mídia analógica ininterrupta. Operadores navais em Marselha (a mais de 800 quilômetros de distância) captaram a música de forma clara em seus fones de ouvido.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste evento marcou o primeiro deploy bem-sucedido de mídia rica em uma escala geográfica quase continental, usando superestruturas verticais. De Forest provou fisicamente que a topologia de rede perfeita para broadcasting e roteamento wireless era a elevação extrema da antena. Este é o exato princípio de topologia física que fundamenta a engenharia moderna de celular: a razão pela qual as corporações de telecomunicações instalam as antenas de 5G nos topos dos prédios mais altos, ou torres em picos de montanhas (as chamadas Estações Rádio Base - ERBs), para garantir a linha de visão máxima e cobrir as células de dados da cidade com precisão.',
           en: 'Lee de Forest wanted to convince European governments and militaries that wireless audio was the undisputed tactical and commercial future. He realized that antennas were the greatest physical bottleneck in propagation: the higher the antenna, the farther the electromagnetic field travels. He obtained permission to hang the wires of his transmitter from the top of the more than 300-meter Eiffel Tower. During the transmission, using a phonograph and his own voice, de Forest bathed France in uninterrupted analog media. Naval operators in Marseille, more than 800 kilometers away, captured the music clearly in their headphones.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis event marked the first successful deployment of rich media at an almost continental geographic scale using vertical superstructures. De Forest physically proved that the perfect network topology for broadcasting and wireless routing was extreme antenna elevation. This is the exact principle of physical topology behind modern cellular engineering: the reason telecommunications corporations install 5G antennas on the tops of the tallest buildings, or towers on mountain peaks (Base Transceiver Stations), to guarantee maximum line of sight and cover the city’s data cells precisely.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1909,
+    era: {
+      pt: 'O Nobel da Rede Sem Fio, o Chassi de Plástico e o Streaming com Horário Marcado',
+      en: 'The Nobel of the Wireless Network, the Plastic Chassis and Scheduled Streaming',
+    },
+    context: {
+      pt: 'Em 1909, a tecnologia da informação ganha seu reconhecimento científico máximo, encontra a matéria-prima física que sustentaria todo o seu hardware e inaugura o modelo de consumo de mídia programada. Na Suécia, a infraestrutura de rede sem fio recebe o cobiçado Prêmio Nobel, validando o roteamento invisível de dados como um dos maiores feitos intelectuais da humanidade, não apenas uma ferramenta comercial. Nos Estados Unidos, a química entrega à eletrônica o isolante perfeito: o primeiro plástico sintético, permitindo a miniaturização e a produção em massa segura de fios, telefones e circuitos. E na Califórnia, o envio de mídia deixa de ser um "teste" esporádico para se tornar o primeiro serviço de streaming com horário marcado da história. É o ano do Nobel do Wi-Fi primitivo, da Baquelite e da grade de programação.',
+      en: 'In 1909, information technology earns its highest scientific recognition, finds the physical raw material that would support all of its hardware and inaugurates the model of scheduled media consumption. In Sweden, wireless network infrastructure receives the coveted Nobel Prize, validating invisible data routing as one of humanity’s greatest intellectual achievements, not merely a commercial tool. In the United States, chemistry gives electronics the perfect insulator: the first synthetic plastic, enabling miniaturization and safe mass production of wires, telephones and circuits. And in California, media delivery stops being an occasional "test" and becomes the first scheduled streaming service in history. It is the year of the Nobel for primitive Wi-Fi, Bakelite and the programming schedule.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Guglielmo Marconi & Karl Ferdinand Braun',
+        imagePlaceholder: YEAR_1909_PLACEHOLDER,
+        flag: '🇮🇹 🇩🇪',
+        nationality: { pt: 'Italiano / Alemão', en: 'Italian / German' },
+        formation: {
+          pt: 'Marconi: O gênio da logística, do deploy corporativo e da escala de redes. Braun: O físico teórico rigoroso que inventou o monitor CRT (1897) e o circuito sintonizado avançado para transmissores.',
+          en: 'Marconi: the genius of logistics, corporate deployment and network scale. Braun: the rigorous theoretical physicist who invented the CRT monitor (1897) and the advanced tuned circuit for transmitters.',
+        },
+        summary: {
+          pt: 'Foram laureados conjuntamente com o Prêmio Nobel de Física em dezembro de 1909 "em reconhecimento às suas contribuições para o desenvolvimento da telegrafia sem fio".',
+          en: 'Were jointly awarded the Nobel Prize in Physics in December 1909 "in recognition of their contributions to the development of wireless telegraphy".',
+        },
+        role: {
+          pt: 'Laureados do Nobel pela telegrafia sem fio',
+          en: 'Nobel laureates for wireless telegraphy',
+        },
+        contribution: {
+          pt: 'Em 1909, o roteamento invisível de dados foi coroado como ciência de base, colocando a "TI" no mesmo patamar da física quântica e dos raios-X.',
+          en: 'In 1909, invisible data routing was crowned as foundational science, placing "IT" on the same level as quantum physics and X-rays.',
+        },
+        detail: {
+          pt: 'Até este momento, os físicos puristas frequentemente olhavam para o rádio como uma "engenharia de encanadores elétricos". O Nobel de 1909 quebrou esse preconceito. A academia reconheceu que a capacidade de Marconi de fazer o sinal cruzar o oceano não seria possível sem a genialidade matemática de Braun, que havia inventado um acoplamento indutivo para as antenas que impedia a energia de ser desperdiçada, focando o sinal de forma estável. Foi a premiação perfeita: a união entre o algoritmo físico (Braun) e a execução de infraestrutura (Marconi).\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o momento de legitimação global da Engenharia de Telecomunicações. Quando o Comitê do Nobel deu o maior prêmio da ciência para a tecnologia "Wireless", eles validaram a transferência abstrata de dados como uma infraestrutura crítica para a evolução humana. Isso garantiu que governos, universidades e investidores despejassem recursos incalculáveis nas próximas décadas para refinar as redes de rádio, pavimentando o caminho econômico e acadêmico seguro para o surgimento dos radares, da televisão e dos links de dados de alta velocidade.',
+          en: 'Until this moment, purist physicists often looked at radio as a kind of "electrical plumber engineering". The 1909 Nobel broke that prejudice. Academia recognized that Marconi’s ability to make a signal cross the ocean would not have been possible without Braun’s mathematical genius: he had invented inductive coupling for antennas that prevented energy from being wasted, focusing the signal in a stable way. It was the perfect award: the union between the physical algorithm (Braun) and infrastructure execution (Marconi).\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the moment of global legitimation for Telecommunications Engineering. When the Nobel Committee gave science’s highest prize to "Wireless" technology, it validated the abstract transfer of data as critical infrastructure for human evolution. This ensured that governments, universities and investors would pour incalculable resources into the following decades to refine radio networks, paving the secure economic and academic path for radar, television and high-speed data links.',
+        },
+      },
+      {
+        name: 'Leo Baekeland',
+        imagePlaceholder: YEAR_1909_PLACEHOLDER,
+        flag: '🇧🇪 🇺🇸',
+        nationality: { pt: 'Belga-Americano', en: 'Belgian-American' },
+        formation: {
+          pt: 'Químico brilhante e empreendedor. Doutor pela Universidade de Ghent aos 21 anos, ele emigrou para os EUA onde usou o dinheiro da invenção de um papel fotográfico (vendido para a Kodak) para financiar sua pesquisa autônoma em polímeros.',
+          en: 'Brilliant chemist and entrepreneur. A PhD from Ghent University at age 21, he emigrated to the United States, where he used the money from inventing a photographic paper, later sold to Kodak, to finance his independent research into polymers.',
+        },
+        summary: {
+          pt: 'Apresentou publicamente em fevereiro de 1909 (após registrar as patentes) a Baquelite (Bakelite), a primeira resina plástica 100% sintética do mundo, que não derretia com o calor e era um isolante elétrico perfeito.',
+          en: 'Publicly presented Bakelite in February 1909, after filing the patents: the world’s first 100% synthetic plastic resin, which did not melt under heat and was a perfect electrical insulator.',
+        },
+        role: {
+          pt: 'Inventor da Baquelite',
+          en: 'Inventor of Bakelite',
+        },
+        contribution: {
+          pt: 'Em 1909, Baekeland inventou o "Chassi" da eletrônica, fornecendo o material de hardware essencial para a computação física prosperar.',
+          en: 'In 1909, Baekeland invented the "chassis" of electronics, providing the essential hardware material that allowed physical computing to thrive.',
+        },
+        detail: {
+          pt: 'Até 1909, a infraestrutura de rede e processamento usava materiais terríveis. Os interruptores, as bases das lâmpadas e as manivelas de telégrafo eram feitos de madeira (que absorve água e apodrece), porcelana (que quebra se cair) ou borracha e celuloide (que derretem ou pegam fogo com o calor dos fios). Baekeland combinou fenol e formaldeído sob altíssima pressão e calor, criando uma molécula que, uma vez endurecida, jamais voltava a derreter e bloqueava correntes elétricas mortais.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem isolamento barato e moldável, a eletrônica nunca seria um produto de consumo de massa. A Baquelite é a ancestral direta de todas as Placas de Circuito Impresso (PCBs) modernas. Foi esse exato material escuro e resistente que abrigou os pinos das milhões de válvulas de vácuo, as carcaças dos primeiros telefones pretos de disco rotativo e os painéis de conectores dos computadores colossais da Segunda Guerra Mundial. Baekeland não inventou um circuito, ele inventou o chão resistente ao fogo onde todo o ecossistema de hardware da TI global iria se apoiar pelas próximas cinco décadas.',
+          en: 'Until 1909, network and processing infrastructure used terrible materials. Switches, lamp bases and telegraph handles were made of wood, which absorbs water and rots; porcelain, which breaks if dropped; or rubber and celluloid, which melt or catch fire with wire heat. Baekeland combined phenol and formaldehyde under extremely high pressure and heat, creating a molecule that, once hardened, never melted again and blocked deadly electrical currents.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout cheap, moldable insulation, electronics would never become a mass-consumer product. Bakelite is the direct ancestor of every modern Printed Circuit Board (PCB). This exact dark and resistant material held the pins of millions of vacuum tubes, the cases of the first black rotary telephones and the connector panels of the colossal computers of World War II. Baekeland did not invent a circuit; he invented the fire-resistant ground on which the entire global IT hardware ecosystem would stand for the next five decades.',
+        },
+      },
+      {
+        name: 'Charles Herrold',
+        imagePlaceholder: YEAR_1909_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro elétrico, educador e visionário. Fundador do Herrold College of Wireless and Engineering em San Jose, Califórnia.',
+          en: 'Electrical engineer, educator and visionary. Founder of the Herrold College of Wireless and Engineering in San Jose, California.',
+        },
+        summary: {
+          pt: 'Fundou em 1909 a estação de rádio "San Jose Calling" (que mais tarde se tornaria a atual rádio KCBS), a primeira estação do mundo a operar sob o conceito de Broadcasting com uma grade de programação regular e anunciada previamente para um público ouvinte fixo.',
+          en: 'Founded in 1909 the radio station "San Jose Calling", which would later become today’s KCBS, the first station in the world to operate under the concept of broadcasting with a regular, previously announced schedule for a fixed listening audience.',
+        },
+        role: {
+          pt: 'Criador do serviço de mídia programada por rádio',
+          en: 'Creator of scheduled radio media service',
+        },
+        contribution: {
+          pt: 'Em 1909, Herrold inventou o "Serviço de Mídia Programada", transformando a rede de uma ferramenta de resgate naval em um terminal de entretenimento previsível.',
+          en: 'In 1909, Herrold invented the "Scheduled Media Service", turning the network from a naval rescue tool into a predictable entertainment terminal.',
+        },
+        detail: {
+          pt: 'Vimos que Fessenden fez uma transmissão de voz e música no Natal de 1906, mas foi um evento único, um "teste de estresse". Charles Herrold mudou o protocolo comportamental da rede. Ele e seus alunos montaram antenas cruzando os telhados de San Jose, tocaram discos fonográficos e leram notícias de jornal. A grande revolução não foi o hardware, mas o modelo: ele informava ao público local que "toda quarta-feira à noite" haveria música. Ele cunhou o termo "Broadcasting" (tirado da agricultura, sobre espalhar sementes em um campo amplo) para descrever dados jogados no ar para quem quisesse pegar.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o marco zero da Grade de Conteúdo de Mídia e da "Assinatura de Atenção". A estação de Herrold de 1909 é a semente de todos os canais de TV, estações de Rádio FM, Podcasts semanais e Streams da Twitch. Ao estabelecer um "horário marcado" para o tráfego de dados (música e voz), ele treinou a humanidade a usar o hardware receptor (o rádio) não apenas para mandar telegramas de negócios, mas para sincronizar sua rotina de vida com a recepção de uma mídia virtual de lazer, criando a base comportamental do consumo multimídia que domina a Internet hoje.',
+          en: 'We saw that Fessenden made a voice and music transmission at Christmas 1906, but it was a single event, a "stress test". Charles Herrold changed the behavioral protocol of the network. He and his students mounted antennas across the rooftops of San Jose, played phonograph records and read newspaper news. The great revolution was not the hardware, but the model: he informed the local public that "every Wednesday night" there would be music. He coined the term "Broadcasting", borrowed from agriculture, meaning scattering seeds over a wide field, to describe data thrown into the air for whoever wanted to receive it.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the zero point of the Media Content Schedule and the "Attention Subscription". Herrold’s 1909 station is the seed of every TV channel, FM radio station, weekly podcast and Twitch stream. By establishing a "scheduled time" for data traffic, music and voice, he trained humanity to use receiver hardware (the radio) not just to send business telegrams, but to synchronize daily life with the reception of virtual leisure media, creating the behavioral foundation of multimedia consumption that dominates the Internet today.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1910,
+    era: {
+      pt: 'O Live Streaming, o Link de Dados Aeronáutico e a Rede de Terminais de Texto',
+      en: 'Live Streaming, the Aeronautical Data Link and the Text Terminal Network',
+    },
+    context: {
+      pt: 'Em 1910, a tecnologia da informação quebra a barreira da transmissão ao vivo, leva as redes móveis para os céus e coloca a automação de texto em produção comercial contínua. Em Nova York, o rádio deixa de transmitir apenas discos gravados para executar o primeiro Live Streaming da história, transmitindo uma ópera diretamente para milhares de ouvintes simultâneos. Acima do solo americano, a conectividade wireless desafia a gravidade e o ruído dos motores, estabelecendo o primeiro link de dados bidirecional entre um avião em voo e uma estação terrestre, fundando a telemetria aeroespacial. E no mundo corporativo, o protocolo Start-Stop ganha seu primeiro grande deploy comercial, conectando Nova York a Boston com máquinas de escrever autônomas que rodam sem intervenção humana de ponta a ponta. É o ano do evento ao vivo, do Wi-Fi aéreo e do Teletype em produção.',
+      en: 'In 1910, information technology breaks the barrier of live transmission, takes mobile networks into the sky and puts text automation into continuous commercial production. In New York, radio stops transmitting only recorded discs and performs the first live stream in history, broadcasting an opera directly to thousands of simultaneous listeners. Above American ground, wireless connectivity defies gravity and engine noise, establishing the first bidirectional data link between an airplane in flight and a ground station, founding aerospace telemetry. And in the corporate world, the Start-Stop protocol gets its first major commercial deployment, connecting New York to Boston with autonomous typewriters running end to end without human intervention. It is the year of the live event, aerial Wi-Fi and Teletype in production.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Lee de Forest',
+        imagePlaceholder: YEAR_1910_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Doutor em física, inventor e um dos pioneiros absolutos do hardware de radiodifusão (inventor do tubo de vácuo amplificador Audion em 1906).',
+          en: 'Doctor of physics, inventor and one of the absolute pioneers of broadcasting hardware, inventor of the Audion amplifying vacuum tube in 1906.',
+        },
+        summary: {
+          pt: 'Realizou em 13 de janeiro de 1910 a primeira transmissão pública de rádio "ao vivo" (Live Broadcast) de um evento cultural da história, transmitindo as vozes do tenor Enrico Caruso e de outros cantores líricos diretamente do palco do Metropolitan Opera House, em Nova York.',
+          en: 'On January 13, 1910, carried out the first public "live" radio broadcast of a cultural event in history, transmitting the voices of tenor Enrico Caruso and other opera singers directly from the stage of the Metropolitan Opera House in New York.',
+        },
+        role: {
+          pt: 'Pioneiro do live broadcast cultural',
+          en: 'Pioneer of cultural live broadcast',
+        },
+        contribution: {
+          pt: 'Em 1910, de Forest inventou o conceito de "Evento Ao Vivo Simultâneo", transformando a rede em um canal de Streaming em tempo real para as massas.',
+          en: 'In 1910, de Forest invented the concept of the "Simultaneous Live Event", turning the network into a real-time streaming channel for the masses.',
+        },
+        detail: {
+          pt: 'Até então, os poucos broadcasts experimentais (como o de Fessenden em 1906 ou os do próprio Herrold em 1909) usavam discos de fonógrafo tocando perto do microfone ou pessoas lendo notícias dentro do laboratório. De Forest instalou transmissores acústicos no palco do Met e uma enorme antena no telhado, roteando a energia acústica da ópera diretamente para a onda de rádio sem gravação intermediária. Qualquer pessoa na cidade com um receptor e um fone de ouvido (inclusive navios no porto de Nova York) pôde escutar o evento no exato milissegundo em que as cordas vocais de Caruso vibravam.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o marco zero da Transmissão de Mídia ao Vivo (Live Streaming). De Forest validou o modelo de arquitetura de rede onde eventos de alto valor cultural ou jornalístico são capturados no local de origem e distribuídos instantaneamente para uma audiência descentralizada. Esta é a premissa de infraestrutura exata que usamos hoje quando abrimos a Twitch para assistir a um torneio de e-sports ao vivo, ou quando sintonizamos uma transmissão esportiva na TV em tempo real. A ideia de que "o mundo inteiro pode assistir ou ouvir algo junto, exatamente na mesma hora" foi posta em prática técnica nesta noite.',
+          en: 'Until then, the few experimental broadcasts, such as Fessenden’s in 1906 or Herrold’s own in 1909, used phonograph records playing near a microphone or people reading news inside a laboratory. De Forest installed acoustic transmitters on the Met stage and a huge antenna on the roof, routing the opera’s acoustic energy directly into the radio wave with no intermediate recording. Anyone in the city with a receiver and headphones, including ships in New York harbor, could hear the event in the exact millisecond when Caruso’s vocal cords were vibrating.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the zero point of Live Media Transmission (Live Streaming). De Forest validated the network architecture model in which culturally or journalistically valuable events are captured at the source and instantly distributed to a decentralized audience. This is the exact infrastructure premise we use today when opening Twitch to watch a live e-sports tournament, or when tuning into a real-time sports broadcast on TV. The idea that "the whole world can watch or hear something together, at exactly the same time" was technically put into practice on this night.',
+        },
+      },
+      {
+        name: 'J.A.D. McCurdy & Harry M. Horton',
+        imagePlaceholder: YEAR_1910_PLACEHOLDER,
+        flag: '🇨🇦 🇺🇸',
+        nationality: { pt: 'Canadense / Americano', en: 'Canadian / American' },
+        formation: {
+          pt: 'McCurdy: Engenheiro mecânico recém-formado e um dos pioneiros mais corajosos da aviação norte-americana. Horton: Engenheiro eletricista, construtor de transmissores portáteis e especialista em telegrafia sem fio.',
+          en: 'McCurdy: a newly graduated mechanical engineer and one of the bravest pioneers of North American aviation. Horton: an electrical engineer, builder of portable transmitters and specialist in wireless telegraphy.',
+        },
+        summary: {
+          pt: 'Executaram em 27 de agosto de 1910, em Sheepshead Bay (Nova York), a primeira transmissão bem-sucedida de dados via telégrafo sem fio de um avião (um biplano Curtiss) em pleno voo para uma estação receptora na Terra.',
+          en: 'On August 27, 1910, in Sheepshead Bay, New York, carried out the first successful wireless-telegraph data transmission from an airplane, a Curtiss biplane, in full flight to a receiving station on the ground.',
+        },
+        role: {
+          pt: 'Pioneiros do link de dados ar-terra',
+          en: 'Pioneers of the air-to-ground data link',
+        },
+        contribution: {
+          pt: 'Em 1910, a infraestrutura de rede saltou para o Eixo Z (altitude), estabelecendo o primeiro link de dados em movimento aéreo.',
+          en: 'In 1910, network infrastructure jumped onto the Z axis (altitude), establishing the first data link in aerial motion.',
+        },
+        detail: {
+          pt: 'Apenas sete anos após o primeiro voo dos irmãos Wright, os aviões eram máquinas de madeira e tecido brutais e barulhentas. Havia um temor técnico de que a vibração severa do motor, a falta de aterramento físico e a interferência elétrica da ignição do avião impossibilitassem o uso do sensível rádio de Marconi. Horton construiu um transmissor minúsculo de faísca (pesando apenas cerca de 20 kg) e McCurdy arrastou um fio de cobre de 15 metros pendurado atrás do avião para servir de antena. A centenas de metros do chão, ele bateu o código Morse na chave do telégrafo amarrada no volante, e o sinal foi lido perfeitamente no solo por Horton.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta é a fundação da Comunicação Ar-Terra e da Telemetria Aeroespacial. O teste de McCurdy e Horton de 1910 provou que os pacotes de dados não precisavam de cabos, montanhas ou do oceano para viajar; eles poderiam conectar nós de rede cruzando o espaço aéreo em alta velocidade. Toda a infraestrutura moderna de Controle de Tráfego Aéreo, os protocolos de download de dados de aviões comerciais em voo, os drones controlados via rádio e até as cápsulas espaciais da NASA herdaram a viabilidade técnica testada nesta tarde arriscada sobre Nova York.',
+          en: 'Only seven years after the Wright brothers’ first flight, airplanes were brutal, noisy machines made of wood and fabric. There was a technical fear that severe engine vibration, the lack of physical grounding and electrical interference from aircraft ignition would make use of Marconi’s sensitive radio impossible. Horton built a tiny spark transmitter, weighing only about 20 kg, and McCurdy dragged a 15-meter copper wire behind the airplane as an antenna. Hundreds of meters above the ground, he tapped Morse code on the telegraph key tied to the control wheel, and Horton read the signal perfectly on the ground.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the foundation of Air-Ground Communication and Aerospace Telemetry. McCurdy and Horton’s 1910 test proved that data packets did not need cables, mountains or the ocean to travel; they could connect network nodes across airspace at high speed. All modern Air Traffic Control infrastructure, in-flight commercial-aircraft data-download protocols, radio-controlled drones and even NASA spacecraft capsules inherited the technical viability tested on that risky afternoon over New York.',
+        },
+      },
+      {
+        name: 'Charles Krum, Howard Krum & Joy Morton (A Morkrum Company)',
+        imagePlaceholder: YEAR_1910_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Os brilhantes engenheiros mecânicos e elétricos que, financiados pelo empresário Joy Morton (da Morton Salt), haviam inventado o protocolo de sincronização Start-Stop para redes em 1908.',
+          en: 'The brilliant mechanical and electrical engineers who, financed by businessman Joy Morton of Morton Salt, had invented the Start-Stop synchronization protocol for networks in 1908.',
+        },
+        summary: {
+          pt: 'Realizaram no verão de 1910 a primeira instalação corporativa e operação comercial ininterrupta de um sistema de Teleimpressora (Teletype), conectando os escritórios da Postal Telegraph Company através de cabos entre Boston e Nova York.',
+          en: 'In the summer of 1910, performed the first corporate installation and uninterrupted commercial operation of a teleprinter (Teletype) system, connecting Postal Telegraph Company offices through cables between Boston and New York.',
+        },
+        role: {
+          pt: 'Operadores do primeiro Teletype comercial',
+          en: 'Operators of the first commercial Teletype',
+        },
+        contribution: {
+          pt: 'Em 1910, a máquina Morkrum executou o primeiro deploy prático do "Terminal Assíncrono", provando que máquinas podiam imprimir e-mails sem operadores na recepção.',
+          en: 'In 1910, the Morkrum machine performed the first practical deployment of the "Asynchronous Terminal", proving that machines could print email-like messages without receiving operators.',
+        },
+        detail: {
+          pt: 'Antes de 1910, enviar um telegrama significava que um humano treinado em Boston batia os bipes, e outro humano treinado em Nova York escutava os bipes e escrevia em um papel. O sistema Morkrum mudou completamente a interface de Hardware/Usuário no mercado de trabalho comercial. Um funcionário que só sabia bater à máquina em Boston digitava uma tecla em um teclado convencional. O hardware da Morkrum traduzia a letra para impulsos elétricos automáticos, viajava centenas de quilômetros de fio de cobre e, em Nova York, o motor elétrico da máquina receptora imprimia a letra fisicamente na folha, sem ninguém tocar no aparelho receptor.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o momento em que a Automação de Interface de Input/Output de Texto atingiu o grau de confiabilidade "Enterprise". A rede Morkrum de 1910 não era mais um experimento de laboratório, era uma ferramenta B2B (Business to Business) movendo dados reais e financeiros sem gargalos humanos na tradução. As máquinas que saíram dessa linha de produção evoluíram diretamente para as redes de "Telex" que dominaram as comunicações corporativas globais no século XX. Elas seriam, futuramente, a exata arquitetura de console que os pioneiros da computação usariam para dar os primeiros comandos de linha (CLI) em sistemas Unix e nos computadores mainframe.',
+          en: 'Before 1910, sending a telegram meant that a trained human in Boston tapped the beeps, and another trained human in New York listened to the beeps and wrote them on paper. The Morkrum system completely changed the Hardware/User interface in the commercial labor market. An employee who only knew how to type in Boston pressed a key on a conventional keyboard. Morkrum hardware translated the letter into automatic electrical impulses, traveled hundreds of kilometers of copper wire and, in New York, the electric motor of the receiving machine physically printed the letter on the page, with nobody touching the receiving device.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the moment when Text Input/Output Interface Automation reached "Enterprise" reliability. The 1910 Morkrum network was no longer a laboratory experiment; it was a B2B (Business to Business) tool moving real and financial data without human bottlenecks in translation. The machines that came out of this production line evolved directly into the "Telex" networks that dominated global corporate communications in the twentieth century. They would later become the exact console architecture that computing pioneers used to issue the first command-line instructions (CLI) in Unix systems and mainframe computers.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1911,
+    era: {
+      pt: 'O Nascimento da "Big Tech" Original, a Física da Supercondutividade e o Ancestral da Banda Larga',
+      en: 'The Birth of the Original "Big Tech", the Physics of Superconductivity and the Ancestor of Broadband',
+    },
+    context: {
+      pt: 'Em 1911, a tecnologia da informação consolida seu modelo de negócios monopolista, descobre um fenômeno físico que desafia as leis da termodinâmica e resolve o limite físico dos cabos de rede. Em Wall Street, a união de pequenas fabricantes de máquinas de processamento de dados cria o primeiro verdadeiro colosso corporativo da tecnologia, a empresa que governaria os computadores do século XX. Na Holanda, um físico congela metal quase até o zero absoluto e descobre a supercondutividade, plantando a semente técnica que viabilizaria os computadores quânticos um século depois. E nos laboratórios militares americanos, um engenheiro inventa uma forma de "fatiar" o espectro dentro de um fio de cobre, permitindo que múltiplos fluxos de dados trafeguem pelo mesmo cabo simultaneamente, fundando a arquitetura da banda larga. É o ano da fundação da futura IBM, da resistência elétrica zero e da Multiplexação por Frequência.',
+      en: 'In 1911, information technology consolidates its monopolistic business model, discovers a physical phenomenon that defies the laws of thermodynamics and solves the physical limit of network cables. On Wall Street, the union of small data-processing machine manufacturers creates the first true corporate colossus of technology, the company that would rule twentieth-century computing. In the Netherlands, a physicist freezes metal almost to absolute zero and discovers superconductivity, planting the technical seed that would make quantum computers possible a century later. And in American military laboratories, an engineer invents a way to "slice" the spectrum inside a copper wire, allowing multiple data streams to travel through the same cable simultaneously, founding the architecture of broadband. It is the year of the founding of the future IBM, zero electrical resistance and Frequency-Division Multiplexing.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Charles Ranlett Flint & Herman Hollerith',
+        imagePlaceholder: YEAR_1911_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Flint era um financista implacável e mestre em fusões corporativas (conhecido como "O Pai dos Trustes"). Hollerith era o engenheiro estatístico e inventor das máquinas de cartões perfurados. Juntos, uniram capital agressivo à engenharia de dados.',
+          en: 'Flint was a relentless financier and master of corporate mergers, known as "The Father of Trusts". Hollerith was the statistical engineer and inventor of punched-card machines. Together, they joined aggressive capital to data engineering.',
+        },
+        summary: {
+          pt: 'Orquestraram e fundaram oficialmente em 16 de junho de 1911 a Computing-Tabulating-Recording Company (C-T-R), fundindo a empresa de Hollerith com outras três fabricantes de equipamentos de medição e automação de escritórios.',
+          en: 'Orchestrated and officially founded the Computing-Tabulating-Recording Company (C-T-R) on June 16, 1911, merging Hollerith’s company with three other makers of measurement and office-automation equipment.',
+        },
+        role: {
+          pt: 'Fundadores da C-T-R, futura IBM',
+          en: 'Founders of C-T-R, the future IBM',
+        },
+        contribution: {
+          pt: 'Em 1911, o mercado financeiro fundiu o hardware de dados em um império corporativo, criando a empresa que mais tarde seria rebatizada como IBM.',
+          en: 'In 1911, the financial market fused data hardware into a corporate empire, creating the company that would later be renamed IBM.',
+        },
+        detail: {
+          pt: 'A Tabulating Machine Company de Hollerith (de 1896) era um sucesso no processamento de censos, mas Charles Flint percebeu que o futuro exigia uma corporação capaz de dominar todos os aspectos do hardware comercial: desde relógios de ponto, balanças de cálculo comercial até as próprias máquinas de processamento de cartões perfurados. Ele comprou e fundiu as companhias na C-T-R. O modelo de negócios era brutalmente eficiente e moderno: eles dominavam as patentes, alugavam as máquinas de processamento a preços altíssimos e lucravam com a venda recorrente dos cartões de papel em branco (Vendor Lock-in).\n\nPor que isso entra no Hall da Fama da TI?\n\nA fundação da C-T-R em 1911 é literalmente o nascimento da IBM (o nome seria mudado para International Business Machines em 1924 sob a liderança de Thomas J. Watson). Esta é a primeira megacorporação de Tecnologia da Informação do planeta. Toda a cultura de tecnologia corporativa (Enterprise IT), a venda de poder de processamento como serviço, os mainframes gigantescos que geririam os bancos mundiais nas décadas de 1960 e 1970 e a fundação da própria engenharia de software comercial descendem diretamente da assinatura deste contrato de fusão em Wall Street.',
+          en: 'Hollerith’s Tabulating Machine Company, from 1896, was a success in census processing, but Charles Flint realized that the future demanded a corporation capable of dominating every aspect of commercial hardware: from time clocks and commercial calculating scales to the punched-card processing machines themselves. He bought and merged the companies into C-T-R. The business model was brutally efficient and modern: they dominated the patents, rented processing machines at very high prices and profited from recurring sales of blank paper cards (Vendor Lock-in).\n\nWhy does this belong in the IT Hall of Fame?\n\nThe founding of C-T-R in 1911 is literally the birth of IBM; the name would be changed to International Business Machines in 1924 under Thomas J. Watson. This is the first information-technology megacorporation on the planet. The entire culture of corporate technology (Enterprise IT), the sale of processing power as a service, the giant mainframes that would run world banks in the 1960s and 1970s and the foundation of commercial software engineering itself descend directly from the signing of this merger contract on Wall Street.',
+        },
+      },
+      {
+        name: 'Heike Kamerlingh Onnes',
+        imagePlaceholder: YEAR_1911_PLACEHOLDER,
+        flag: '🇳🇱',
+        nationality: { pt: 'Holandês', en: 'Dutch' },
+        formation: {
+          pt: 'Físico experimental brilhante. Professor na Universidade de Leiden, ele transformou seu laboratório no local mais frio do universo conhecido, tornando-se o mestre indiscutível da termodinâmica de baixas temperaturas (criogenia).',
+          en: 'Brilliant experimental physicist. A professor at Leiden University, he turned his laboratory into the coldest place in the known universe, becoming the undisputed master of low-temperature thermodynamics (cryogenics).',
+        },
+        summary: {
+          pt: 'Descobriu e documentou em 8 de abril de 1911 o fenômeno da Supercondutividade, provando que quando o mercúrio metálico é resfriado a 4,2 Kelvins (cerca de -269 °C), sua resistência elétrica cai abruptamente para o zero absoluto.',
+          en: 'Discovered and documented the phenomenon of superconductivity on April 8, 1911, proving that when metallic mercury is cooled to 4.2 Kelvin, about -269 °C, its electrical resistance abruptly falls to absolute zero.',
+        },
+        role: {
+          pt: 'Descobridor da supercondutividade',
+          en: 'Discoverer of superconductivity',
+        },
+        contribution: {
+          pt: 'Em 1911, Onnes descobriu um estado da matéria onde o "gargalo térmico" da transmissão de dados e energia desaparece completamente.',
+          en: 'In 1911, Onnes discovered a state of matter where the "thermal bottleneck" of data and energy transmission disappears completely.',
+        },
+        detail: {
+          pt: 'Em todos os fios do mundo (cobre, ouro, prata), a passagem de elétrons esbarra nos átomos do metal, gerando calor (efeito Joule) e perda de energia. Era uma lei imutável da física. Onnes, que havia sido o primeiro humano a conseguir liquefazer o gás hélio, usou esse líquido supercongelante para banhar um fio de mercúrio. Ao atingir quase o zero absoluto, o fio sofreu uma transição de fase quântica: a resistência sumiu. A corrente elétrica injetada naquele laço de fio circularia para a eternidade sem perder um único elétron e sem gerar qualquer calor.\n\nPor que isso entra no Hall da Fama da TI?\n\nA supercondutividade descoberta em 1911 é a fundação extrema do hardware de vanguarda. Sem essa descoberta, os gigantescos eletroímãs supercondutores que formam as máquinas de Ressonância Magnética (MRI) e os aceleradores de partículas (como o LHC) não existiriam. Mais crucialmente para a TI moderna: os Computadores Quânticos de hoje (como os desenvolvidos pelo Google e IBM) operam baseados em qubits supercondutores esfriados a frações de Kelvin, utilizando a exata física da condução sem resistência elétrica descoberta por Onnes neste dia para processar dados de forma quântica sem derreter a máquina ou perder a coerência do bit.',
+          en: 'In every wire in the world (copper, gold, silver), passing electrons collide with the atoms of the metal, generating heat (the Joule effect) and energy loss. It seemed like an immutable law of physics. Onnes, who had been the first human to liquefy helium gas, used that supercooling liquid to bathe a mercury wire. When it reached almost absolute zero, the wire underwent a quantum phase transition: resistance vanished. The electrical current injected into that loop of wire would circulate forever without losing a single electron and without generating any heat.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe superconductivity discovered in 1911 is the extreme foundation of cutting-edge hardware. Without this discovery, the giant superconducting electromagnets that form Magnetic Resonance Imaging (MRI) machines and particle accelerators such as the LHC would not exist. Even more crucially for modern IT: today’s quantum computers, such as those developed by Google and IBM, operate based on superconducting qubits cooled to fractions of a Kelvin, using the exact physics of zero-resistance electrical conduction discovered by Onnes on this day to process data quantum mechanically without melting the machine or losing bit coherence.',
+        },
+      },
+      {
+        name: 'George Owen Squier',
+        imagePlaceholder: YEAR_1911_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Físico e engenheiro militar excepcional. Tinha um Ph.D. em Física pela Universidade Johns Hopkins e atuava como Oficial Chefe do Corpo de Sinalização do Exército dos Estados Unidos (US Army Signal Corps), combinando as necessidades logísticas da guerra com o que havia de mais avançado em telecomunicações.',
+          en: 'Exceptional physicist and military engineer. He held a PhD in Physics from Johns Hopkins University and served as Chief Signal Officer of the United States Army Signal Corps, combining the logistical needs of war with the cutting edge of telecommunications.',
+        },
+        summary: {
+          pt: 'Patenteou em 1911 a Multiplexação por Ondas Portadoras (Carrier-Wave Telephony), inventando um sistema que usava correntes elétricas de alta frequência para transmitir múltiplas chamadas telefônicas ou sinais de telégrafo simultaneamente por um único par de fios de cobre.',
+          en: 'Patented Carrier-Wave Telephony in 1911, inventing a system that used high-frequency electrical currents to transmit multiple telephone calls or telegraph signals simultaneously over a single pair of copper wires.',
+        },
+        role: {
+          pt: 'Inventor da telefonia por ondas portadoras',
+          en: 'Inventor of carrier-wave telephony',
+        },
+        contribution: {
+          pt: 'Em 1911, Squier inventou o fatiamento de banda em cabos físicos (FDM), criando o paradigma de rede onde um fio não suporta mais apenas um usuário.',
+          en: 'In 1911, Squier invented band slicing in physical cables (FDM), creating the network paradigm where one wire no longer supports only one user.',
+        },
+        detail: {
+          pt: 'Antes de Squier, as redes cabeadas operavam no modelo mais brutal possível: 1 cabo = 1 chamada. Se uma cidade quisesse mil conexões telefônicas simultâneas, precisava pendurar mil cabos nos postes, criando uma poluição física insustentável. Squier pegou a tecnologia de rádio contínuo (usada para transmitir no ar) e a "prendeu" dentro do fio de cobre. Ele injetou múltiplas ondas de alta frequência (portadoras) no mesmo cabo e modulou sinais de dados diferentes em cada uma delas. No destino, filtros eletrônicos separavam as frequências, entregando a mensagem exata para o receptor correto. Múltiplos canais invisíveis trafegando por um único duto físico.\n\nPor que isso entra no Hall da Fama da TI?\n\nA invenção de Squier é o ancestral direto da tecnologia de Banda Larga e de toda a multiplexação de rede. O conceito de Multiplexação por Divisão de Frequência (FDM) testado em 1911 é a exata lógica arquitetônica que, no final do século XX, permitiu o surgimento da internet ADSL (que separava a frequência da sua voz da frequência de dados da internet no mesmo fio do telefone). E ainda mais impressionante: a moderna infraestrutura de Fibra Óptica, que suporta a internet global hoje através do sistema WDM (Wavelength-Division Multiplexing - enviando cores de laser diferentes pelo mesmo tubo de vidro), é apenas a evolução direta baseada em luz da patente de rádio confinada criada por este militar em 1911.',
+          en: 'Before Squier, wired networks operated on the most brutal possible model: 1 cable = 1 call. If a city wanted a thousand simultaneous telephone connections, it needed to hang a thousand cables on poles, creating unsustainable physical pollution. Squier took continuous radio technology, used to transmit through the air, and "trapped" it inside copper wire. He injected multiple high-frequency waves (carriers) into the same cable and modulated different data signals onto each one. At the destination, electronic filters separated the frequencies, delivering the exact message to the correct receiver. Multiple invisible channels traveled through a single physical conduit.\n\nWhy does this belong in the IT Hall of Fame?\n\nSquier’s invention is the direct ancestor of broadband technology and all network multiplexing. The concept of Frequency-Division Multiplexing (FDM) tested in 1911 is the exact architectural logic that, at the end of the twentieth century, enabled ADSL internet, which separated the frequency of your voice from the frequency of internet data on the same telephone wire. Even more impressively, the modern fiber-optic infrastructure that supports today’s global internet through WDM (Wavelength-Division Multiplexing, sending different laser colors through the same glass tube) is only the direct light-based evolution of the confined-radio patent created by this military engineer in 1911.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1912,
+    era: {
+      pt: 'O Circuito de Feedback Eletrônico, a Fundação do IEEE e a Legislação de Espectro Pós-Titanic',
+      en: 'The Electronic Feedback Circuit, the Foundation of the IEEE and Post-Titanic Spectrum Law',
+    },
+    context: {
+      pt: 'Em 1912, a tecnologia da informação dá um salto brutal em potência eletrônica, consolida sua principal sociedade acadêmica e sofre seu primeiro grande choque logístico global, forçando a regulamentação governamental do espaço invisível. Nos laboratórios universitários, um jovem engenheiro descobre como fazer o sinal de rádio alimentar a si mesmo, criando um loop lógico que multiplica a amplificação de dados por milhares de vezes. Em Nova York, as mentes brilhantes do hardware e das redes se unem para fundar o ancestral direto do instituto que hoje padroniza do Wi-Fi ao Bluetooth. E nas águas geladas do Atlântico Norte, a tragédia do Titanic expõe falhas fatais no protocolo de redes não monitoradas, forçando a humanidade a criar a primeira lei federal moderna de alocação de frequências e monitoramento ininterrupto de dados. É o ano do circuito regenerativo, da semente do IEEE e da fundação do direito de telecomunicações.',
+      en: 'In 1912, information technology makes a brutal leap in electronic power, consolidates its main academic society and suffers its first major global logistics shock, forcing government regulation of invisible space. In university laboratories, a young engineer discovers how to make a radio signal feed itself, creating a logical loop that multiplies data amplification by thousands of times. In New York, the brilliant minds of hardware and networks join to found the direct ancestor of the institute that today standardizes everything from Wi-Fi to Bluetooth. And in the icy waters of the North Atlantic, the Titanic tragedy exposes fatal flaws in the protocol of unmonitored networks, forcing humanity to create the first modern federal law for frequency allocation and uninterrupted data monitoring. It is the year of the regenerative circuit, the seed of the IEEE and the foundation of telecommunications law.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Edwin Howard Armstrong',
+        imagePlaceholder: YEAR_1912_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Estudante prodígio de engenharia elétrica na Universidade de Columbia. Diferente dos inventores anteriores que procediam por tentativa e erro, Armstrong era obsessivo por entender não apenas que as válvulas funcionavam, mas como a física matemática complexa delas operava.',
+          en: 'Prodigy electrical-engineering student at Columbia University. Unlike earlier inventors who proceeded by trial and error, Armstrong was obsessed with understanding not only that vacuum tubes worked, but how their complex mathematical physics operated.',
+        },
+        summary: {
+          pt: 'Inventou em 1912 o Circuito Regenerativo (ou Feedback Oscillator), roteando o sinal de saída de uma válvula Triodo de volta para a sua entrada, gerando um loop de amplificação positiva massiva.',
+          en: 'Invented the regenerative circuit, or feedback oscillator, in 1912, routing the output signal of a triode valve back into its input and generating a loop of massive positive amplification.',
+        },
+        role: {
+          pt: 'Inventor do circuito regenerativo',
+          en: 'Inventor of the regenerative circuit',
+        },
+        contribution: {
+          pt: 'Em 1912, Armstrong descobriu o poder do Feedback Loop (Retroalimentação Positiva), criando o hardware capaz de processar os sinais mais fracos do mundo.',
+          en: 'In 1912, Armstrong discovered the power of the Feedback Loop (Positive Feedback), creating hardware capable of processing the weakest signals in the world.',
+        },
+        detail: {
+          pt: 'Lee de Forest inventou a válvula Triodo (em 1906), mas ela amplificava os sinais muito pouco de uma só vez. Armstrong estava no laboratório e teve um insight de arquitetura de circuitos genial: ele pegou o cabo de Output (o dado de áudio já amplificado saindo da válvula) e usou uma bobina para induzir uma parte desse sinal de volta no Input (entrada) exatamente na mesma fase. O sinal era amplificado, voltava, entrava junto com o sinal original, era amplificado de novo, num ciclo rapidíssimo. Além disso, se o feedback fosse levado ao limite físico, a válvula deixava de ser um receptor e passava a gerar suas próprias ondas eletromagnéticas contínuas perfeitas, virando um transmissor.\n\nPor que isso entra no Hall da Fama da TI?\n\nO circuito de Armstrong é a "pedra filosofal" da engenharia eletrônica do início do século XX. O nível de amplificação permitiu que receptores de rádio captassem dados fracos vindos do outro lado do mundo usando apenas uma única válvula, sem precisar das antenas gigantescas do passado. Mais do que isso, o conceito abstrato de "Feedback Positivo" transcendeu o rádio: tornou-se um princípio absoluto de toda a engenharia de sistemas de controle, da cibernética e do design de circuitos lógicos. O oscilador de Armstrong foi a tecnologia-chave que permitiu a construção de transmissores compactos e potentes que criariam a era de ouro da radiodifusão (AM).',
+          en: 'Lee de Forest invented the triode valve in 1906, but it amplified signals very little in a single pass. Armstrong was in the laboratory when he had a brilliant circuit-architecture insight: he took the output cable, the already amplified audio data leaving the valve, and used a coil to induce part of that signal back into the input in exactly the same phase. The signal was amplified, returned, entered together with the original signal and was amplified again in a lightning-fast cycle. In addition, if the feedback was pushed to the physical limit, the valve stopped being a receiver and began generating its own perfect continuous electromagnetic waves, becoming a transmitter.\n\nWhy does this belong in the IT Hall of Fame?\n\nArmstrong’s circuit is the "philosopher’s stone" of early twentieth-century electronic engineering. Its amplification level allowed radio receivers to capture weak data from the other side of the world using only a single valve, without needing the giant antennas of the past. More than that, the abstract concept of "Positive Feedback" transcended radio: it became an absolute principle of control-systems engineering, cybernetics and logic-circuit design. Armstrong’s oscillator was the key technology that allowed compact and powerful transmitters to be built, creating the golden age of AM broadcasting.',
+        },
+      },
+      {
+        name: 'Institute of Radio Engineers (IRE) - Liderado por Alfred N. Goldsmith, John V. L. Hogan e Robert H. Marriott',
+        imagePlaceholder: YEAR_1912_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos (Com escopo global)', en: 'Americans (With global scope)' },
+        formation: {
+          pt: 'Engenheiros de rede, matemáticos aplicados e acadêmicos frustrados com a falta de rigor científico nas antigas associações de "eletricistas pesados" da época.',
+          en: 'Network engineers, applied mathematicians and academics frustrated by the lack of scientific rigor in the old associations of "heavy electricians" of the time.',
+        },
+        summary: {
+          pt: 'Fundaram em 13 de maio de 1912 o IRE, a primeira e mais importante associação profissional dedicada estritamente à teoria matemática, padronização corporativa e avanço da tecnologia de rádio e comunicações eletrônicas.',
+          en: 'Founded the IRE on May 13, 1912, the first and most important professional association dedicated strictly to mathematical theory, corporate standardization and the advancement of radio and electronic communications technology.',
+        },
+        role: {
+          pt: 'Fundadores do ancestral direto do IEEE',
+          en: 'Founders of the direct ancestor of the IEEE',
+        },
+        contribution: {
+          pt: 'Em 1912, os engenheiros de dados criaram seu próprio ecossistema acadêmico, separando formalmente a "Engenharia de Informação" da engenharia de motores e energia elétrica.',
+          en: 'In 1912, data engineers created their own academic ecosystem, formally separating "Information Engineering" from motor and electric-power engineering.',
+        },
+        detail: {
+          pt: 'Até 1912, se você trabalhasse enviando dados sem fio pelo ar, você era apenas considerado um eletricista excêntrico pelas grandes associações. A criação do IRE mudou o status quo. O instituto passou a publicar o Proceedings of the IRE, estabelecendo pela primeira vez o método de revisão por pares rigoroso e a documentação padronizada para compartilhar abertamente esquemas de circuitos, testes de propagação de ondas e arquiteturas de válvulas de vácuo. Eles transformaram a invenção do rádio de uma "arte secreta corporativa" em uma ciência exata formal.\n\nPor que isso entra no Hall da Fama da TI?\n\nO IRE é o ancestral direto da maior, mais poderosa e mais vital organização de TI de toda a história humana. Cinquenta anos depois, o IRE se fundiria com outra entidade para formar o todo-poderoso IEEE (Institute of Electrical and Electronics Engineers). Toda a Internet moderna e o hardware que você usa operam sob as leis ditadas por essa entidade. Quando você conecta seu notebook na rede e vê protocolos como "IEEE 802.11" (o nome oficial do Wi-Fi) ou o padrão IEEE 754 (que diz como todos os processadores do mundo calculam números decimais flutuantes), você está usufruindo da semente de padronização global tecnológica plantada naquela reunião em Nova York em 1912.',
+          en: 'Until 1912, if you worked sending wireless data through the air, you were merely considered an eccentric electrician by the major associations. The creation of the IRE changed the status quo. The institute began publishing the Proceedings of the IRE, establishing for the first time rigorous peer review and standardized documentation for openly sharing circuit diagrams, wave-propagation tests and vacuum-tube architectures. They transformed the invention of radio from a "secret corporate art" into a formal exact science.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe IRE is the direct ancestor of the largest, most powerful and most vital IT organization in human history. Fifty years later, the IRE would merge with another entity to form the mighty IEEE (Institute of Electrical and Electronics Engineers). All modern internet and the hardware you use operate under standards defined by this entity. When you connect your notebook to a network and see protocols such as "IEEE 802.11", the official name of Wi-Fi, or the IEEE 754 standard, which defines how all processors in the world calculate floating-point decimal numbers, you are benefiting from the seed of global technological standardization planted at that meeting in New York in 1912.',
+        },
+      },
+      {
+        name: 'Governo Federal dos EUA (Impulsionado pelo naufrágio do RMS Titanic)',
+        imagePlaceholder: YEAR_1912_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano (Com impacto internacional absoluto)', en: 'American (With absolute international impact)' },
+        formation: {
+          pt: 'Legisladores federais e burocratas que foram forçados pela opinião pública a entender a física e a logística de redes descentralizadas devido a um desastre humanitário global sem precedentes.',
+          en: 'Federal legislators and bureaucrats who were forced by public opinion to understand the physics and logistics of decentralized networks because of an unprecedented global humanitarian disaster.',
+        },
+        summary: {
+          pt: 'Aprovou em 13 de agosto de 1912 a Radio Act of 1912, a primeira legislação abrangente que declarava o espectro eletromagnético um recurso público, exigindo o licenciamento estatal para o tráfego de dados e estabelecendo a obrigatoriedade do monitoramento contínuo da rede.',
+          en: 'Passed the Radio Act of 1912 on August 13, 1912, the first comprehensive legislation declaring the electromagnetic spectrum a public resource, requiring state licensing for data traffic and establishing mandatory continuous network monitoring.',
+        },
+        role: {
+          pt: 'Criador do marco legal moderno de espectro',
+          en: 'Creator of the modern legal framework for spectrum',
+        },
+        contribution: {
+          pt: 'Em 1912, o desastre do Titanic expôs as falhas letais da ausência de protocolos de rede, gerando o "Big Bang" do Direito Digital e da governança de espectro.',
+          en: 'In 1912, the Titanic disaster exposed the lethal flaws caused by the absence of network protocols, generating the "Big Bang" of Digital Law and spectrum governance.',
+        },
+        detail: {
+          pt: 'Na noite de 14 de abril de 1912, quando o Titanic colidiu com o iceberg, a rede wireless falhou em dois níveis logísticos cruciais. Primeiro: o navio SS Californian estava a menos de 30 quilômetros de distância (poderia ter salvo todos), mas seu único operador de rádio havia encerrado o turno, desligado o hardware e ido dormir. O Titanic "gritou" no escuro para ninguém. Segundo: assim que a notícia vazou, o espectro de rádio virou um caos absoluto, com operadores amadores (os hackers da época) injetando ruído e boatos na rede, congestionando a banda larga a ponto de os navios de resgate não conseguirem coordenar a operação com a costa. A Radio Act exigiu que navios tivessem hardware ligado 24/7 com equipes de revezamento, impôs multas brutais para interferência maliciosa e dividiu rigorosamente as frequências em fatias comerciais, civis e emergenciais.\n\nPor que isso entra no Hall da Fama da TI?\n\nAntes dessa lei, o ar era uma anarquia; a infraestrutura invisível não pertencia a ninguém. A Radio Act de 1912 estabeleceu o precedente jurídico definitivo de que o espectro onde os pacotes de dados trafegam é um ativo soberano do Estado e deve ser licenciado e regulado para evitar o congestionamento (Denial of Service não intencional). Toda agência reguladora moderna do planeta — a FCC nos Estados Unidos ou a Anatel no Brasil — atua diretamente sob as premissas filosóficas de Compliance de Redes e alocação de bandas (como as concessões de 4G e 5G) que foram forjadas a ferro e fogo pelas consequências tecnológicas dessa tragédia marítima.',
+          en: 'On the night of April 14, 1912, when Titanic collided with the iceberg, the wireless network failed at two crucial logistical levels. First: the SS Californian was less than 30 kilometers away and could have saved everyone, but its only radio operator had ended his shift, turned off the hardware and gone to sleep. Titanic "shouted" into the dark at nobody. Second: as soon as the news leaked, the radio spectrum became absolute chaos, with amateur operators, the hackers of the time, injecting noise and rumors into the network, congesting the bandwidth to the point that rescue ships could not coordinate the operation with shore. The Radio Act required ships to keep hardware on 24/7 with rotating teams, imposed harsh fines for malicious interference and rigorously divided frequencies into commercial, civilian and emergency slices.\n\nWhy does this belong in the IT Hall of Fame?\n\nBefore this law, the air was anarchy; invisible infrastructure belonged to nobody. The Radio Act of 1912 established the definitive legal precedent that the spectrum where data packets travel is a sovereign asset of the state and must be licensed and regulated to avoid congestion (unintentional Denial of Service). Every modern regulatory agency on the planet, from the FCC in the United States to Anatel in Brazil, acts directly under the philosophical premises of Network Compliance and band allocation, such as 4G and 5G concessions, forged through the technological consequences of this maritime tragedy.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1913,
+    era: {
+      pt: 'O Vácuo Perfeito, a Geração Eletrônica de Ondas e o Deploy Transcontinental',
+      en: 'The Perfect Vacuum, Electronic Wave Generation and Transcontinental Deployment',
+    },
+    context: {
+      pt: 'Em 1913, a tecnologia da informação resolve a instabilidade crônica de seu hardware primordial, descobre como gerar sinais perfeitos sem motores físicos e inicia o maior projeto de infraestrutura de rede contínua da história humana. Nos laboratórios químicos dos Estados Unidos, o tubo de vidro eletrônico finalmente atinge o "alto vácuo", transformando o amplificador temperamental do passado em um componente matemático confiável e escalável. Na Alemanha, a válvula deixa de ser apenas um leitor de dados e ganha a capacidade de criar, por conta própria, ondas eletromagnéticas contínuas e puras, aposentando para sempre os velhos geradores de faíscas. E nas corporações americanas, o valor da amplificação de dados é oficialmente reconhecido pelo mercado quando o monopólio telefônico compra a patente do triodo para construir uma malha de rede que uniria as duas costas do país. É o ano da válvula de alto vácuo, do oscilador de Meissner e da compra que viabilizou a rede transcontinental.',
+      en: 'In 1913, information technology solves the chronic instability of its primordial hardware, discovers how to generate perfect signals without physical motors and begins the largest continuous network-infrastructure project in human history. In American chemistry laboratories, the electronic glass tube finally reaches "high vacuum", turning the temperamental amplifier of the past into a mathematically reliable and scalable component. In Germany, the valve stops being merely a data reader and gains the ability to create continuous, pure electromagnetic waves on its own, retiring the old spark generators forever. And in American corporations, the value of data amplification is officially recognized by the market when the telephone monopoly buys the triode patent to build a network mesh that would unite the two coasts of the country. It is the year of the high-vacuum valve, the Meissner oscillator and the purchase that enabled the transcontinental network.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Irving Langmuir (e de forma independente, Harold Arnold)',
+        imagePlaceholder: YEAR_1913_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Químico-físico brilhante, munido de um Ph.D. rigoroso e atuando nos monstruosos laboratórios de Pesquisa e Desenvolvimento da General Electric (GE). Dominava a interação entre gases rarefeitos e metais incandescentes como poucos na história.',
+          en: 'Brilliant physical chemist, armed with a rigorous PhD and working in General Electric’s massive Research and Development laboratories. He mastered the interaction between rarefied gases and incandescent metals like few people in history.',
+        },
+        summary: {
+          pt: 'Inventou e demonstrou em 1913 a primeira válvula termiônica de Alto Vácuo (o Pliotron). Ele descobriu que a instabilidade do Audion de Lee de Forest não era uma característica necessária do circuito, mas um bug causado pelo gás residual dentro do vidro, e usou bombas de difusão de mercúrio para esvaziar o tubo até o limite físico da época.',
+          en: 'Invented and demonstrated in 1913 the first high-vacuum thermionic valve, the Pliotron. He discovered that the instability of Lee de Forest’s Audion was not a necessary feature of the circuit, but a bug caused by residual gas inside the glass, and used mercury diffusion pumps to empty the tube to the physical limit of the time.',
+        },
+        role: {
+          pt: 'Inventor da válvula termiônica de alto vácuo',
+          en: 'Inventor of the high-vacuum thermionic valve',
+        },
+        contribution: {
+          pt: 'Em 1913, Langmuir consertou o Hardware primordial da TI, criando a primeira chave eletrônica estável da história.',
+          en: 'In 1913, Langmuir fixed IT’s primordial hardware, creating the first stable electronic switch in history.',
+        },
+        detail: {
+          pt: 'A válvula de Lee de Forest (1906) funcionava, mas era caótica. Por ter resquícios de gás no vidro, ela oxidava, estalava, derretia ou mudava de comportamento com a temperatura da sala. Forest achava que o gás era necessário para a passagem do sinal. Langmuir provou matematicamente que o gás era poluição. Ele extraiu o oxigênio até sobrar apenas o vácuo perfeito. Quando ele ligou a máquina, o comportamento do fluxo de elétrons obedeceu fielmente à física matemática estrita. A válvula deixou de ser uma peça de artesanato instável e virou um componente industrial perfeitamente previsível.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a válvula de alto vácuo de Langmuir, os supercomputadores da primeira metade do século XX jamais teriam funcionado. Um computador como o ENIAC usava 18.000 válvulas; se elas fossem tão instáveis quanto o Audion original, a máquina travaria a cada dois segundos. O alto vácuo permitiu a fabricação em massa de bilhões de componentes eletrônicos idênticos e hiperconfiáveis, padronizando a unidade base de processamento lógico até a invenção do transistor de estado sólido em 1947.',
+          en: 'Lee de Forest’s valve (1906) worked, but it was chaotic. Because it had traces of gas inside the glass, it oxidized, crackled, melted or changed behavior with room temperature. De Forest believed the gas was necessary for the signal to pass. Langmuir proved mathematically that the gas was pollution. He extracted the oxygen until only the perfect vacuum remained. When he switched on the machine, the behavior of the electron flow faithfully obeyed strict mathematical physics. The valve stopped being an unstable craft object and became a perfectly predictable industrial component.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout Langmuir’s high-vacuum valve, the supercomputers of the first half of the twentieth century would never have worked. A computer like ENIAC used 18,000 valves; if they had been as unstable as the original Audion, the machine would crash every two seconds. High vacuum enabled the mass manufacture of billions of identical, highly reliable electronic components, standardizing the base unit of logical processing until the invention of the solid-state transistor in 1947.',
+        },
+      },
+      {
+        name: 'Alexander Meissner',
+        imagePlaceholder: YEAR_1913_PLACEHOLDER,
+        flag: '🇦🇹 🇩🇪',
+        nationality: { pt: 'Austríaco (Atuando na Alemanha)', en: 'Austrian (Working in Germany)' },
+        formation: {
+          pt: 'Engenheiro e físico de altíssimo nível da Telefunken (o poderoso consórcio alemão de tecnologia de rádio), especialista em fundir a teoria de propagação com o design de novos equipamentos de rede.',
+          en: 'High-level engineer and physicist at Telefunken, the powerful German radio-technology consortium, specializing in merging propagation theory with the design of new network equipment.',
+        },
+        summary: {
+          pt: 'Inventou em março de 1913 o Oscilador de Meissner, o primeiro circuito prático a usar a recém-descoberta capacidade de feedback de uma válvula a vácuo para gerar e modular sua própria onda de rádio de frequência perfeitamente constante.',
+          en: 'Invented the Meissner oscillator in March 1913, the first practical circuit to use the newly discovered feedback capability of a vacuum tube to generate and modulate its own perfectly constant-frequency radio wave.',
+        },
+        role: {
+          pt: 'Inventor do oscilador eletrônico de rádio',
+          en: 'Inventor of the electronic radio oscillator',
+        },
+        contribution: {
+          pt: 'Em 1913, Meissner libertou a geração de dados do pesado maquinário rotativo, criando um "Clock" puramente eletrônico.',
+          en: 'In 1913, Meissner freed data generation from heavy rotating machinery, creating a purely electronic "clock".',
+        },
+        detail: {
+          pt: 'Antes de 1913, para gerar uma onda de rádio limpa capaz de carregar voz ou streaming constante, você precisava de monstruosos geradores elétricos do tamanho de caminhões, com discos de metal girando a milhares de rotações por minuto (como o Alternador de Alexanderson). Meissner usou a válvula a vácuo e algumas bobinas. Ele provou que, usando componentes puramente silenciosos e eletrônicos de mesa, a máquina oscilava (vibrava a energia elétrica) milhões de vezes por segundo por conta própria. Nenhuma engrenagem, nenhum peso, nenhuma faísca.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Oscilador de Meissner ditou como a humanidade fabricaria ondas. A geração eletrônica de frequências transformou os transmissores de rádio em caixas leves que podiam ser levadas para navios e, mais tarde, aviões. Em uma analogia mais profunda com a computação: a base teórica de fazer um circuito eletrônico "oscilar" numa cadência perfeita e inalterável é o mesmo conceito do Cristal Oscilador (Clock Generator) que marca o ritmo e a velocidade de bilhões de ciclos por segundo (os Gigahertz) do processador principal que está rodando a inteligência artificial dentro do seu computador neste exato instante.',
+          en: 'Before 1913, to generate a clean radio wave capable of carrying voice or constant streaming, you needed monstrous electrical generators the size of trucks, with metal discs spinning at thousands of revolutions per minute, like the Alexanderson alternator. Meissner used a vacuum tube and a few coils. He proved that, using purely silent desktop electronic components, the machine oscillated (vibrated electrical energy) millions of times per second on its own. No gears, no weight, no spark.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Meissner oscillator dictated how humanity would manufacture waves. Electronic frequency generation turned radio transmitters into lightweight boxes that could be carried onto ships and, later, airplanes. In a deeper analogy with computing: the theoretical basis of making an electronic circuit "oscillate" at a perfect and unchanging cadence is the same concept as the crystal oscillator (clock generator) that marks the rhythm and speed of billions of cycles per second (gigahertz) in the main processor running artificial intelligence inside your computer at this exact instant.',
+        },
+      },
+      {
+        name: 'AT&T (American Telephone & Telegraph Company) e Lee de Forest',
+        imagePlaceholder: YEAR_1913_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A AT&T era a "Amazon/Google" da infraestrutura da época: uma corporação implacável obcecada por escalar seu monopólio. Lee de Forest era o inventor afundado em dívidas legais precisando monetizar seu trabalho.',
+          en: 'AT&T was the "Amazon/Google" of infrastructure at the time: a relentless corporation obsessed with scaling its monopoly. Lee de Forest was the inventor drowning in legal debt and needing to monetize his work.',
+        },
+        summary: {
+          pt: 'A AT&T, no verão de 1913, comprou sorrateiramente de Lee de Forest (através de intermediários) os direitos comerciais da patente da válvula Triodo por cerca de 50 mil dólares, com o objetivo explícito de construir a primeira linha telefônica transcontinental (de Nova York a São Francisco).',
+          en: 'In the summer of 1913, AT&T quietly bought from Lee de Forest, through intermediaries, the commercial rights to the triode-valve patent for about 50,000 dollars, with the explicit goal of building the first transcontinental telephone line from New York to San Francisco.',
+        },
+        role: {
+          pt: 'Compradores corporativos da patente do triodo',
+          en: 'Corporate buyers of the triode patent',
+        },
+        contribution: {
+          pt: 'Em 1913, ocorreu a primeira grande aquisição corporativa de uma tecnologia de processamento eletrônico para sustentar uma Wide Area Network (WAN).',
+          en: 'In 1913, the first major corporate acquisition of an electronic processing technology took place to sustain a Wide Area Network (WAN).',
+        },
+        detail: {
+          pt: 'A AT&T tinha um gargalo fatal: seus fios de cobre só conseguiam carregar a voz humana até o meio do caminho dos EUA antes do sinal morrer por atenuação (a resistência do cabo). Eles sabiam que não adiantava apenas colocar fios mais grossos. O Chief Engineer John J. Carty montou uma equipe focada em encontrar um "repetidor" mágico. Quando eles testaram a válvula de de Forest, perceberam que tinham o Santo Graal: um hardware que pegava o dado quase morto na metade da rede e o "ressuscitava" com força total sem distorcer as palavras. Ao comprar a patente e aprimorá-la no alto vácuo de Harold Arnold, o destino da rede continental foi selado.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste momento representa o "Business Case" definitivo da amplificação eletrônica. A aquisição de 1913 financiou e acelerou a construção da maior rede interconectada de fios de cobre que o mundo já havia visto (que seria inaugurada no ano seguinte, em 1914/1915). É o momento exato em que a tecnologia de válvulas a vácuo sai dos laboratórios de excêntricos e entra no arsenal corporativo das telecomunicações globais. Ao espalhar esses amplificadores através do deserto e das montanhas americanas, a AT&T plantou o hardware primordial que formaria os futuros troncos (backbones) onde a própria Internet nasceria dezenas de anos depois.',
+          en: 'AT&T had a fatal bottleneck: its copper wires could carry the human voice only halfway across the United States before the signal died from attenuation (the resistance of the cable). They knew that simply installing thicker wires would not solve it. Chief Engineer John J. Carty assembled a team focused on finding a magical "repeater". When they tested de Forest’s valve, they realized they had the Holy Grail: hardware that took nearly dead data halfway through the network and "resurrected" it at full strength without distorting the words. By buying the patent and improving it with Harold Arnold’s high-vacuum work, the fate of the continental network was sealed.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis moment represents the definitive "Business Case" for electronic amplification. The 1913 acquisition funded and accelerated construction of the largest interconnected copper-wire network the world had ever seen, inaugurated the following year in 1914/1915. It is the exact moment when vacuum-tube technology leaves eccentric laboratories and enters the corporate arsenal of global telecommunications. By spreading these amplifiers across American deserts and mountains, AT&T planted the primordial hardware that would form the future trunks (backbones) where the Internet itself would be born decades later.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1914,
+    era: {
+      pt: 'O Processamento Autônomo, o Fio Transcontinental e o Nascimento do SIGINT',
+      en: 'Autonomous Processing, the Transcontinental Wire and the Birth of SIGINT',
+    },
+    context: {
+      pt: 'Em 1914, a tecnologia da informação entra na era da automação física, conclui sua maior obra de infraestrutura terrestre e é militarizada em escala global. Na França, um avião voa sozinho enquanto o piloto anda pelas asas, provando que sensores de hardware podem processar dados e controlar máquinas complexas em tempo real sem ajuda humana. No deserto americano, o último cabo da maior rede física do planeta é conectado, criando a primeira "Wide Area Network" (WAN) de voz a cruzar um continente inteiro usando os recém-inventados tubos de vácuo. E com a eclosão da Primeira Guerra Mundial, as redes de telecomunicação tornam-se armas de guerra: a interceptação estratégica de dados invisíveis inaugura a era da espionagem eletrônica, da criptografia militar e do monitoramento de pacotes. É o ano do Piloto Automático, do Backbone primitivo e do nascimento da Inteligência de Sinais.',
+      en: 'In 1914, information technology enters the era of physical automation, completes its greatest terrestrial infrastructure work and is militarized on a global scale. In France, an airplane flies by itself while the pilot walks on its wings, proving that hardware sensors can process data and control complex machines in real time without human help. In the American desert, the last cable of the largest physical network on the planet is connected, creating the first voice Wide Area Network (WAN) to cross an entire continent using newly invented vacuum tubes. And with the outbreak of World War I, telecommunications networks become weapons of war: the strategic interception of invisible data inaugurates the era of electronic espionage, military cryptography and packet monitoring. It is the year of the Autopilot, the primitive Backbone and the birth of Signals Intelligence.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Lawrence Sperry',
+        imagePlaceholder: YEAR_1914_PLACEHOLDER,
+        flag: '🇺🇸 🇫🇷',
+        nationality: { pt: 'Americano (Demonstração na França)', en: 'American (Demonstration in France)' },
+        formation: {
+          pt: 'Jovem aviador destemido e inventor prodigioso. Filho de Elmer Sperry (um dos pioneiros mundiais no uso do giroscópio para navios), Lawrence aplicou a física naval de seu pai ao caos fluido e tridimensional da aeronáutica nascente.',
+          en: 'Fearless young aviator and prodigious inventor. Son of Elmer Sperry, one of the world pioneers in the use of gyroscopes for ships, Lawrence applied his father’s naval physics to the fluid, three-dimensional chaos of early aviation.',
+        },
+        summary: {
+          pt: 'Demonstrou publicamente no dia 18 de junho de 1914, durante o Concours de la Sécurité en Aéroplane em Paris, o primeiro Piloto Automático (Autopilot) da história, estabilizando um hidroavião no ar sem as mãos enquanto seu mecânico caminhava sobre as asas da aeronave.',
+          en: 'Publicly demonstrated the first autopilot in history on June 18, 1914, during the Concours de la Sécurité en Aéroplane in Paris, stabilizing a seaplane in the air hands-free while his mechanic walked on the aircraft’s wings.',
+        },
+        role: {
+          pt: 'Inventor do primeiro piloto automático',
+          en: 'Inventor of the first autopilot',
+        },
+        contribution: {
+          pt: 'Em 1914, Sperry inventou o Hardware Loop cibernético, provando que máquinas podiam usar dados sensoriais para operar sistemas críticos de forma autônoma.',
+          en: 'In 1914, Sperry invented the cybernetic Hardware Loop, proving that machines could use sensory data to operate critical systems autonomously.',
+        },
+        detail: {
+          pt: 'Pilotar um avião em 1914 era uma luta física constante contra o vento; se o piloto soltasse os controles, a máquina capotava. Sperry resolveu isso criando um sistema de entrada e saída (I/O) mecânico brilhante. Ele instalou quatro giroscópios no avião. O giroscópio atua como um "sensor de dados" perfeito: ele sempre sabe onde é o centro de gravidade, não importa como a fuselagem se mova. Sperry conectou esses giroscópios a geradores elétricos e servomotores presos aos cabos das asas. Se uma rajada de vento empurrasse a asa direita para cima, o giroscópio detectava a anomalia (o input) e o motor puxava o cabo na direção oposta (o output) instantaneamente, nivelando o avião antes mesmo que o cérebro humano pudesse reagir.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o nascimento histórico dos Sistemas de Controle Autônomo e da Cibernética Aplicada. Sperry criou a arquitetura fundacional da robótica moderna: a leitura de dados de ambiente acoplada a um circuito de feedback que executa correções em tempo real. Cada drone que paira de forma estabilizada no céu, todo carro autônomo da Tesla calculando o traçado da pista e os sistemas estabilizadores de foguetes da SpaceX operam exatamente sob este conceito filosófico de delegação do processamento de dados vitais para um hardware de correção automática.',
+          en: 'Flying an airplane in 1914 was a constant physical fight against the wind; if the pilot released the controls, the machine could flip over. Sperry solved this by creating a brilliant mechanical input/output (I/O) system. He installed four gyroscopes in the airplane. A gyroscope acts as a perfect "data sensor": it always knows where the center of gravity is, no matter how the fuselage moves. Sperry connected these gyroscopes to electrical generators and servomotors attached to the wing cables. If a gust of wind pushed the right wing upward, the gyroscope detected the anomaly (the input) and the motor instantly pulled the cable in the opposite direction (the output), leveling the airplane before the human brain could even react.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the historical birth of Autonomous Control Systems and Applied Cybernetics. Sperry created the foundational architecture of modern robotics: environmental data reading coupled to a feedback circuit that executes corrections in real time. Every drone that hovers stably in the sky, every Tesla autonomous car calculating the shape of a road and SpaceX rocket stabilizer systems operate under exactly this philosophical concept of delegating vital data processing to automatic correction hardware.',
+        },
+      },
+      {
+        name: 'AT&T (Liderada por Theodore Vail e o engenheiro John J. Carty)',
+        imagePlaceholder: YEAR_1914_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A AT&T já operava como a megacorporação monopolista da infraestrutura de telecomunicações dos Estados Unidos, possuindo orçamentos comparáveis aos de nações inteiras e uma força de trabalho de dezenas de milhares de instaladores.',
+          en: 'AT&T already operated as the monopolistic telecommunications-infrastructure megacorporation of the United States, with budgets comparable to entire nations and a workforce of tens of thousands of installers.',
+        },
+        summary: {
+          pt: 'Concluiu fisicamente no dia 17 de junho de 1914 a construção da Primeira Linha Telefônica Transcontinental da história, conectando o último poste em Wendover, Utah, interligando Nova York a São Francisco através de 5.471 quilômetros de fio de cobre contínuo.',
+          en: 'Physically completed construction of the first transcontinental telephone line in history on June 17, 1914, connecting the last pole in Wendover, Utah, and linking New York to San Francisco through 5,471 kilometers of continuous copper wire.',
+        },
+        role: {
+          pt: 'Construtora do backbone telefônico transcontinental',
+          en: 'Builder of the transcontinental telephone backbone',
+        },
+        contribution: {
+          pt: 'Em 1914, a AT&T executou o maior deploy de infraestrutura física do mundo, instalando o "Backbone" continental que uniu as costas de um país.',
+          en: 'In 1914, AT&T executed the largest physical-infrastructure deployment in the world, installing the continental "Backbone" that united a country’s coasts.',
+        },
+        detail: {
+          pt: 'Lembra que em 1913 a AT&T comprou as patentes das válvulas a vácuo para usá-las como repetidores? Em 1914, eles aplicaram isso no mundo real com uma brutalidade logística assustadora. Eles ergueram 130.000 postes de madeira através de pântanos, desertos salgados e montanhas nevadas, esticando mais de 2.950 toneladas de fio de cobre puro. Para que o dado (a voz) não morresse no caminho, as válvulas a vácuo (os amplificadores) foram instaladas em estações estratégicas no meio do nada. Quando uma palavra era dita em Nova York, o sinal começava a enfraquecer, mas o hardware ao longo do cabo "recriava" e impulsionava o dado dezenas de vezes até ele chegar cristalino na Califórnia.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Linha Transcontinental é a primeira WAN (Wide Area Network) terrestre verdadeiramente massiva suportada ativamente por eletrônica. Este cabeamento definiu a arquitetura da malha de rede mundial. Os exatos mesmos postes físicos e rotas instalados nesta obra seriam utilizados nas décadas seguintes para passar cabos coaxiais de alta capacidade e, posteriormente, as fibras ópticas que compõem as espinhas dorsais da Internet moderna. O conceito logístico de ter nós de repetição e amplificação de dados espalhados fisicamente por continentes inteiros foi validado em escala comercial de produção em 1914.',
+          en: 'Remember that in 1913 AT&T bought the vacuum-tube patents to use them as repeaters? In 1914, they applied that in the real world with frightening logistical force. They erected 130,000 wooden poles across swamps, salt deserts and snowy mountains, stretching more than 2,950 tons of pure copper wire. So that the data (the voice) would not die on the way, vacuum tubes (amplifiers) were installed in strategic stations in the middle of nowhere. When a word was spoken in New York, the signal began to weaken, but the hardware along the cable "recreated" and boosted the data dozens of times until it arrived crystal clear in California.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Transcontinental Line is the first truly massive terrestrial Wide Area Network (WAN) actively supported by electronics. This cabling defined the architecture of the global network mesh. The exact same physical poles and routes installed in this work would be used in the following decades to carry high-capacity coaxial cables and later the optical fibers that compose the backbones of the modern Internet. The logistical concept of having data-repetition and amplification nodes physically spread across entire continents was validated at commercial production scale in 1914.',
+        },
+      },
+      {
+        name: 'Almirantado Britânico (A lendária "Room 40")',
+        imagePlaceholder: YEAR_1914_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'Uma improvável, porém genial, mistura de oficiais navais, professores de linguística, matemáticos acadêmicos e criptógrafos recrutados às pressas pelo Diretor de Inteligência Naval (Almirante Henry Oliver) nos primeiros meses da guerra.',
+          en: 'An unlikely but brilliant mixture of naval officers, linguistics professors, academic mathematicians and cryptographers hurriedly recruited by the Director of Naval Intelligence, Admiral Henry Oliver, during the first months of the war.',
+        },
+        summary: {
+          pt: 'Após a Marinha Britânica cortar fisicamente todos os cabos submarinos telegráficos da Alemanha em agosto de 1914, a "Room 40" foi fundada como a primeira agência de inteligência governamental dedicada exclusivamente a interceptar, rastrear e decifrar fluxos de dados de rádio inimigos.',
+          en: 'After the British Navy physically cut all of Germany’s submarine telegraph cables in August 1914, "Room 40" was founded as the first government intelligence agency dedicated exclusively to intercepting, tracking and deciphering enemy radio data streams.',
+        },
+        role: {
+          pt: 'Fundadores da inteligência de sinais moderna',
+          en: 'Founders of modern signals intelligence',
+        },
+        contribution: {
+          pt: 'Em 1914, a rede tornou-se um campo de batalha, inaugurando a era do "Packet Sniffing" e da guerra cibernética primitiva.',
+          en: 'In 1914, the network became a battlefield, inaugurating the era of "Packet Sniffing" and primitive cyberwarfare.',
+        },
+        detail: {
+          pt: 'Assim que a Primeira Guerra Mundial estourou, o primeiro ato de guerra do Império Britânico não foi disparar um canhão, mas enviar o navio corta-cabos CS Alert para o Canal da Mancha para arrancar as conexões físicas de dados da Alemanha com o mundo exterior. A Alemanha foi forçada a fazer um failover (redundância) para a sua recém-construída rede de rádio de alta potência. O problema é que o ar é uma rede aberta. Ao transmitir instruções militares por rádio, a Alemanha entregou seus dados de bandeja. A Room 40 instalou estações de escuta pela costa da Inglaterra para capturar cada bit (código Morse) que saía das antenas alemãs. Usando livros de códigos capturados de navios naufragados, eles decodificavam as mensagens em tempo real.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o "Big Bang" absoluto do SIGINT (Signals Intelligence - Inteligência de Sinais). Antes de 1914, as redes eram vistas como ferramentas comerciais de telégrafo e resgate. Com o corte dos cabos e a criação da Room 40, a interceptação passiva de pacotes de dados de terceiros foi institucionalizada como a arma mais secreta e poderosa do Estado. Foi essa exata agência que evoluiria para criar a Bletchley Park na Segunda Guerra Mundial (onde Alan Turing operou), impulsionando diretamente a criação da criptografia automatizada e, em última instância, a invenção dos primeiros computadores eletrônicos programáveis para quebrar esses códigos de rede.',
+          en: 'As soon as World War I broke out, the first act of war by the British Empire was not firing a cannon, but sending the cable-cutting ship CS Alert into the English Channel to rip out Germany’s physical data connections with the outside world. Germany was forced to perform a failover (redundancy) to its newly built high-power radio network. The problem is that the air is an open network. By transmitting military instructions by radio, Germany handed over its data on a platter. Room 40 installed listening stations along the English coast to capture every bit (Morse code) leaving German antennas. Using codebooks captured from sunken ships, they decoded messages in real time.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the absolute "Big Bang" of SIGINT (Signals Intelligence). Before 1914, networks were seen as commercial tools for telegraphy and rescue. With the cable cuts and the creation of Room 40, passive interception of third-party data packets was institutionalized as the state’s most secret and powerful weapon. This exact agency would evolve toward the creation of Bletchley Park in World War II, where Alan Turing worked, directly driving automated cryptography and, ultimately, the invention of the first programmable electronic computers built to break those network codes.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1915,
+    era: {
+      pt: 'O "Go-Live" Continental, a Compressão de Espectro e o Link Transatlântico de Voz',
+      en: 'The Continental "Go-Live", Spectrum Compression and the Transatlantic Voice Link',
+    },
+    context: {
+      pt: 'Em 1915, a tecnologia da informação inaugura comercialmente sua maior infraestrutura terrestre, inventa o seu primeiro grande algoritmo físico de "compressão" de dados e prova que a voz humana contínua pode cruzar oceanos pelo ar. Nos Estados Unidos, a rede transcontinental de cobre construída no ano anterior entra finalmente em produção com uma chamada cerimonial, abrindo as portas da rede de longa distância para o usuário final corporativo. Nos laboratórios, a matemática pura prova que metade de qualquer transmissão de rádio é apenas lixo redundante, criando a técnica (SSB) que literalmente dobraria a capacidade da banda larga mundial. E na costa leste americana, um cluster maciço de válvulas a vácuo é usado para bombear o primeiro streaming de voz intercontinental até a Torre Eiffel em Paris. É o ano da inauguração da WAN continental, da Modulação de Banda Lateral Única e da telefonia global sem fio.',
+      en: 'In 1915, information technology commercially inaugurates its largest terrestrial infrastructure, invents its first great physical data "compression" algorithm and proves that continuous human voice can cross oceans through the air. In the United States, the transcontinental copper network built the previous year finally enters production with a ceremonial call, opening the doors of the long-distance network to the corporate end user. In laboratories, pure mathematics proves that half of any radio transmission is merely redundant junk, creating the SSB technique that would literally double the capacity of global bandwidth. And on the American east coast, a massive cluster of vacuum tubes is used to pump the first intercontinental voice stream to the Eiffel Tower in Paris. It is the year of the continental WAN inauguration, Single-Sideband Modulation and global wireless telephony.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Alexander Graham Bell, Thomas Watson e AT&T',
+        imagePlaceholder: YEAR_1915_PLACEHOLDER,
+        flag: '🇺🇸 🇬🇧',
+        nationality: { pt: 'Americanos (Bell nascido na Escócia)', en: 'Americans (Bell born in Scotland)' },
+        formation: {
+          pt: 'Os inventores originais do telefone no século XIX, agora atuando como ícones de relações públicas para os executivos e engenheiros da maior corporação de telecomunicações do planeta.',
+          en: 'The original nineteenth-century telephone inventors, now acting as public-relations icons for the executives and engineers of the largest telecommunications corporation on the planet.',
+        },
+        summary: {
+          pt: 'Inauguraram oficialmente para uso comercial, em 25 de janeiro de 1915, a Primeira Linha Telefônica Transcontinental. Bell, em Nova York, repetiu sua famosa frase histórica para Watson, que estava em São Francisco: "Mr. Watson, come here, I want you" (desta vez, Watson respondeu que levaria uma semana para chegar).',
+          en: 'Officially inaugurated the first transcontinental telephone line for commercial use on January 25, 1915. Bell, in New York, repeated his famous historic phrase to Watson, who was in San Francisco: "Mr. Watson, come here, I want you" (this time, Watson replied that it would take him a week to get there).',
+        },
+        role: {
+          pt: 'Inauguradores da primeira WAN continental de voz',
+          en: 'Inaugurators of the first continental voice WAN',
+        },
+        contribution: {
+          pt: 'Em 1915, a AT&T executou o Deploy Comercial da primeira Wide Area Network (WAN) de voz, colocando o "Backbone" continental em produção.',
+          en: 'In 1915, AT&T executed the commercial deployment of the first voice Wide Area Network (WAN), putting the continental "Backbone" into production.',
+        },
+        detail: {
+          pt: 'A estrutura física dos postes e cabos havia sido finalizada em 1914, mas uma rede não é considerada ativa até que a camada de aplicação e a estabilidade do usuário final sejam validadas. A cerimônia de 1915 foi o teste de stress público. Eles interligaram Nova York, São Francisco, Washington (com o Presidente Woodrow Wilson) e a Geórgia em uma única ligação híbrida. O hardware base — as milhares de válvulas de alto vácuo instaladas no deserto atuando como repetidores do sinal — funcionou perfeitamente, garantindo que o tempo de latência de costa a costa fosse quase imperceptível para o cérebro humano.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o nascimento do serviço B2C e B2B de dados interurbanos sob demanda. Até este dia, empresas e pessoas eram reféns do telégrafo lento (bipes no papel) para cruzar o país. Com o Go-Live de 1915, a infraestrutura da AT&T passou a oferecer a compra de "tempo de banda" na rede (o preço inicial era assustador: cerca de 20 dólares por 3 minutos de conversa, uma fortuna na época). Esse modelo de negócios base e a arquitetura física validada pavimentaram o caminho para todas as futuras redes de dados interconectadas que as corporações de tecnologia usariam para construir o esqueleto lógico da Internet na América.',
+          en: 'The physical structure of poles and cables had been completed in 1914, but a network is not considered active until the application layer and end-user stability are validated. The 1915 ceremony was the public stress test. They interconnected New York, San Francisco, Washington (with President Woodrow Wilson) and Georgia in a single hybrid call. The base hardware, thousands of high-vacuum valves installed in the desert acting as signal repeaters, worked perfectly, ensuring that coast-to-coast latency was almost imperceptible to the human brain.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the birth of on-demand intercity data service for B2C and B2B users. Until this day, companies and people were hostage to the slow telegraph (beeps on paper) to cross the country. With the 1915 Go-Live, AT&T infrastructure began offering the purchase of "band time" on the network (the initial price was frightening: about 20 dollars for 3 minutes of conversation, a fortune at the time). This base business model and the validated physical architecture paved the way for every future interconnected data network that technology corporations would use to build the logical skeleton of the Internet in America.',
+        },
+      },
+      {
+        name: 'John Renshaw Carson',
+        imagePlaceholder: YEAR_1915_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Matemático brilhante e engenheiro eletricista da AT&T. Diferente dos inventores de garagem, Carson operava exclusivamente no reino das equações de cálculo avançado e análise de Fourier aplicadas à propagação de ondas eletromagnéticas.',
+          en: 'Brilliant mathematician and electrical engineer at AT&T. Unlike garage inventors, Carson operated exclusively in the realm of advanced calculus equations and Fourier analysis applied to electromagnetic-wave propagation.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1915 a Modulação de Banda Lateral Única (Single-Sideband Modulation - SSB), provando matematicamente que o rádio AM tradicional estava desperdiçando energia massiva para enviar dados espelhados.',
+          en: 'Invented and patented Single-Sideband Modulation (SSB) in 1915, mathematically proving that traditional AM radio was wasting massive energy to send mirrored data.',
+        },
+        role: {
+          pt: 'Inventor da modulação SSB',
+          en: 'Inventor of SSB modulation',
+        },
+        contribution: {
+          pt: 'Em 1915, Carson inventou o primeiro "Algoritmo de Compressão" em nível de hardware, cortando pela metade o consumo de banda de dados.',
+          en: 'In 1915, Carson invented the first hardware-level "Compression Algorithm", cutting data-band consumption in half.',
+        },
+        detail: {
+          pt: 'Quando Fessenden e de Forest inventaram o rádio com áudio (Modulação em Amplitude - AM), a onda gerada carregava a "portadora" (o veículo) e duas bandas laterais (os dados de áudio) que eram cópias exatas e invertidas uma da outra. Carson fez as contas e percebeu o desperdício brutal: por que enviar o mesmo dado duas vezes se a matemática diz que o receptor só precisa de uma metade para reconstruir a voz perfeitamente? Ele desenvolveu filtros complexos que "cortavam" a portadora e a banda lateral repetida do pacote de transmissão, enviando apenas a Banda Lateral Única (SSB).\n\nPor que isso entra no Hall da Fama da TI?\n\nA Modulação SSB é o equivalente analógico a inventar o arquivo ".ZIP". Ao eliminar os dados redundantes do sinal de rádio, Carson fez com que o transmissor precisasse de muito menos energia para enviar a mesma informação para mais longe. Mais criticamente: o espectro invisível ganhou o dobro de espaço. Onde antes cabia apenas uma emissora de rádio, agora cabiam duas sem interferência. Essa eficiência arquitetônica tornou-se o protocolo padrão ouro para todas as comunicações de voz marítimas, militares e de aviação ao longo do século XX.',
+          en: 'When Fessenden and de Forest invented audio radio (Amplitude Modulation - AM), the generated wave carried the "carrier" (the vehicle) and two sidebands (the audio data) that were exact inverted copies of each other. Carson did the math and saw the brutal waste: why send the same data twice if mathematics says the receiver only needs one half to reconstruct the voice perfectly? He developed complex filters that "cut" the carrier and the repeated sideband from the transmission packet, sending only the Single Sideband (SSB).\n\nWhy does this belong in the IT Hall of Fame?\n\nSSB modulation is the analog equivalent of inventing the ".ZIP" file. By eliminating redundant data from the radio signal, Carson made the transmitter need far less energy to send the same information farther. Even more critically: invisible spectrum gained twice as much room. Where previously only one radio station fit, now two could fit without interference. This architectural efficiency became the gold-standard protocol for maritime, military and aviation voice communications throughout the twentieth century.',
+        },
+      },
+      {
+        name: 'Engenheiros da AT&T e da Marinha dos EUA (Liderados por John J. Carty e B.B. Webb)',
+        imagePlaceholder: YEAR_1915_PLACEHOLDER,
+        flag: '🇺🇸 🇫🇷',
+        nationality: { pt: 'Americanos (Operando e roteando para a França)', en: 'Americans (Operating and routing to France)' },
+        formation: {
+          pt: 'Técnicos de ponta especialistas no manuseio de válvulas de alto vácuo, trabalhando no limiar do que o rudimentar hardware da época suportava antes de entrar em curto-circuito.',
+          en: 'Cutting-edge technicians specializing in high-vacuum valves, working at the limit of what the rudimentary hardware of the time could tolerate before short-circuiting.',
+        },
+        summary: {
+          pt: 'Realizaram na noite de 21 de outubro de 1915 a primeira transmissão bem-sucedida de rádio-telefonia (voz humana contínua) transatlântica, enviando um streaming de áudio falado de Arlington (Virgínia) até a antena da Torre Eiffel em Paris.',
+          en: 'On the night of October 21, 1915, carried out the first successful transatlantic radiotelephony transmission (continuous human voice), sending a spoken-audio stream from Arlington, Virginia, to the Eiffel Tower antenna in Paris.',
+        },
+        role: {
+          pt: 'Operadores do primeiro link transatlântico de voz',
+          en: 'Operators of the first transatlantic voice link',
+        },
+        contribution: {
+          pt: 'Em 1915, a TI quebrou a barreira do streaming intercontinental de áudio pesado, orquestrando o primeiro "Cluster" de centenas de válvulas eletrônicas.',
+          en: 'In 1915, IT broke the barrier of heavy intercontinental audio streaming, orchestrating the first "cluster" of hundreds of electronic valves.',
+        },
+        detail: {
+          pt: 'Marconi já havia enviado cliques (código Morse) através do Atlântico em 1901. O desafio agora era a Banda Larga da voz humana. Uma válvula não tinha potência para empurrar um sinal de áudio analógico complexo por 5.000 quilômetros. A genialidade da engenharia da AT&T foi criar uma topologia paralela: eles construíram um banco transmissor gigantesco em Arlington, amarrando centenas das novas válvulas de alto vácuo juntas no mesmo circuito para somar suas saídas em um pulso massivo. Um engenheiro em Paris, usando receptores extremamente sensíveis no alto da Torre Eiffel, conseguiu distinguir perfeitamente as palavras faladas.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste evento validou o Roteamento de Voz Global Híbrido. Antes dessa transmissão, acreditava-se que cabos submarinos seriam a única forma confiável de conectar a Europa e os Estados Unidos. O sucesso em Arlington provou aos governos que clusters de hardware eletrônico poderiam atirar mídias ricas (voz, e depois imagem) diretamente pelo ar de um continente para outro, servindo de fundação técnica para a era de ouro do rádio internacional de ondas curtas e, décadas mais tarde, inspirando a arquitetura primária das comunicações via satélite global.',
+          en: 'Marconi had already sent clicks (Morse code) across the Atlantic in 1901. The challenge now was the broadband of human voice. One valve did not have enough power to push a complex analog audio signal over 5,000 kilometers. The genius of AT&T engineering was to create a parallel topology: they built a gigantic transmitter bank in Arlington, tying hundreds of the new high-vacuum valves together in the same circuit to sum their outputs into a massive pulse. An engineer in Paris, using extremely sensitive receivers high on the Eiffel Tower, was able to distinguish the spoken words perfectly.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis event validated Hybrid Global Voice Routing. Before this transmission, submarine cables were believed to be the only reliable way to connect Europe and the United States. The success at Arlington proved to governments that clusters of electronic hardware could shoot rich media (voice, and later image) directly through the air from one continent to another, serving as the technical foundation for the golden age of international shortwave radio and, decades later, inspiring the primary architecture of global satellite communications.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1916,
+    era: {
+      pt: 'A Alta Fidelidade de Input, a Criptografia de Rotores e o Escaneamento Subaquático',
+      en: 'High-Fidelity Input, Rotor Cryptography and Underwater Scanning',
+    },
+    context: {
+      pt: 'Em 1916, com a Primeira Guerra Mundial forçando a engenharia a seus limites extremos, a tecnologia da informação resolve o gargalo da captura de áudio, cria o primeiro hardware de proteção de rede avançado e mergulha no oceano para inaugurar o processamento de dados acústicos. Nos laboratórios americanos, a interface de gravação analógica ganha sua atualização definitiva, trocando o ruído de fundo por uma captura cristalina e de "alta resolução". Na Europa neutra, dois oficiais da marinha holandesa inventam a máquina que automatizaria a embaralhamento de texto, plantando a semente técnica para o hardware de criptografia mais temido do século XX. E na França, a necessidade de detectar submarinos invisíveis gera a primeira máquina capaz de emitir pacotes de som na água e ler a latência do eco, criando o ancestral do sonar moderno. É o ano do microfone condensador, da máquina de rotores e do primeiro "Ping" ultrassônico.',
+      en: 'In 1916, with World War I pushing engineering to its extreme limits, information technology solves the bottleneck of audio capture, creates the first advanced network-protection hardware and dives into the ocean to inaugurate acoustic data processing. In American laboratories, the analog recording interface receives its definitive upgrade, trading background noise for crystal-clear, "high-resolution" capture. In neutral Europe, two Dutch naval officers invent the machine that would automate text scrambling, planting the technical seed for the most feared cryptographic hardware of the twentieth century. And in France, the need to detect invisible submarines creates the first machine capable of emitting sound packets in water and reading echo latency, creating the ancestor of modern sonar. It is the year of the condenser microphone, the rotor machine and the first ultrasonic "ping".',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Edward Christopher Wente',
+        imagePlaceholder: YEAR_1916_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Físico excepcional e pesquisador acústico da Western Electric (o braço de manufatura da AT&T e futuro Bell Labs), munido do rigor necessário para transformar vibrações mecânicas em equações elétricas precisas.',
+          en: 'Exceptional physicist and acoustic researcher at Western Electric, AT&T’s manufacturing arm and the future Bell Labs, equipped with the rigor needed to turn mechanical vibrations into precise electrical equations.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1916 o Microfone Condensador (Condenser Microphone), substituindo os grânulos de carvão primitivos por duas finíssimas placas metálicas paralelas que formavam um capacitor (condensador) para captar o som com precisão inédita.',
+          en: 'Invented and patented the condenser microphone in 1916, replacing primitive carbon granules with two extremely thin parallel metal plates that formed a capacitor (condenser) to capture sound with unprecedented precision.',
+        },
+        role: {
+          pt: 'Inventor do microfone condensador',
+          en: 'Inventor of the condenser microphone',
+        },
+        contribution: {
+          pt: 'Em 1916, Wente entregou o "Input de Alta Resolução", resolvendo o gargalo de qualidade na captura de dados analógicos.',
+          en: 'In 1916, Wente delivered "High-Resolution Input", solving the quality bottleneck in analog data capture.',
+        },
+        detail: {
+          pt: 'Desde o telefone de Bell e as invenções de Edison, os microfones funcionavam esmagando pó de carvão para variar a corrente elétrica. Isso era ótimo para ouvir a voz robótica em um telefone, mas péssimo para gravar música ou analisar dados científicos, pois cortava frequências e injetava chiado contínuo. Wente usou eletrostática: uma placa de metal fixa e um diafragma ultrafino incrivelmente próximo a ela. Quando a onda sonora batia no diafragma, a distância entre as placas variava em escala microscópica, alterando a capacitância e gerando um sinal elétrico absolutamente limpo e plano, do grave mais profundo ao agudo mais alto.\n\nPor que isso entra no Hall da Fama da TI?\n\nO microfone condensador de 1916 é a interface de Hardware de Entrada de Áudio (Audio Input) padrão-ouro até os dias de hoje. Ao elevar a "largura de banda acústica" que o equipamento podia escutar e traduzir em eletricidade, Wente permitiu o nascimento do cinema falado, da era de ouro da gravação musical de alta fidelidade e dos testes laboratoriais de precisão. Toda vez que um podcaster moderno ou um cantor em estúdio usa um microfone condensador de altíssima qualidade (cuja membrana ainda usa este exato princípio eletrostático), eles estão rodando a arquitetura de conversão acústico-elétrica inventada por Wente neste ano.',
+          en: 'Since Bell’s telephone and Edison’s inventions, microphones had worked by crushing carbon powder to vary electrical current. That was great for hearing a robotic voice on a telephone, but terrible for recording music or analyzing scientific data, because it cut frequencies and injected continuous hiss. Wente used electrostatics: a fixed metal plate and an ultrathin diaphragm incredibly close to it. When a sound wave struck the diaphragm, the distance between the plates varied on a microscopic scale, changing capacitance and generating an absolutely clean and flat electrical signal, from the deepest bass to the highest treble.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe 1916 condenser microphone is still the gold-standard Audio Input hardware interface today. By raising the "acoustic bandwidth" that equipment could hear and translate into electricity, Wente enabled the birth of talking cinema, the golden age of high-fidelity music recording and precision laboratory tests. Every time a modern podcaster or studio singer uses a high-quality condenser microphone, whose membrane still uses this exact electrostatic principle, they are running the acoustic-to-electrical conversion architecture invented by Wente in this year.',
+        },
+      },
+      {
+        name: 'Theo A. van Hengel e R. P. C. Spengler',
+        imagePlaceholder: YEAR_1916_PLACEHOLDER,
+        flag: '🇳🇱',
+        nationality: { pt: 'Holandeses', en: 'Dutch' },
+        formation: {
+          pt: 'Dois oficiais de patentes e engenharia da Marinha Real da Holanda (então uma nação neutra observando a espionagem e a interceptação brutal de redes de seus vizinhos na Grande Guerra).',
+          en: 'Two patent and engineering officers of the Royal Netherlands Navy, then a neutral nation watching the brutal espionage and network interception of its neighbors during the Great War.',
+        },
+        summary: {
+          pt: 'Desenvolveram em 1915/1916 (e operaram em testes navais) o projeto da primeira Máquina de Cifragem baseada em Rotores (Rotor Cipher Machine), um dispositivo eletromecânico desenhado para automatizar e blindar a criptografia de fluxos de mensagens textuais.',
+          en: 'Developed in 1915/1916, and operated in naval tests, the design of the first rotor-based cipher machine, an electromechanical device designed to automate and protect the encryption of textual message streams.',
+        },
+        role: {
+          pt: 'Criadores da primeira máquina de cifragem por rotores',
+          en: 'Creators of the first rotor cipher machine',
+        },
+        contribution: {
+          pt: 'Em 1916, a Segurança da Informação (InfoSec) saltou dos códigos em papel para a "Criptografia Executada por Hardware".',
+          en: 'In 1916, Information Security (InfoSec) jumped from paper codes to "Hardware-Executed Cryptography".',
+        },
+        detail: {
+          pt: 'Até 1916, criptografar um documento exigia que um humano usasse um "Livro de Códigos" (que podia ser roubado) ou rodasse tabelas de substituição mentalmente (um processo lento e passível de erros). Hengel e Spengler perceberam que o embaralhamento de dados deveria ser processado pela máquina, não pelo homem. Eles construíram um teclado conectado a discos rotativos de material isolante contendo contatos metálicos internos cruzados aleatoriamente. Quando o usuário apertava a letra "A", o sinal elétrico passava pelo labirinto de fios dos rotores e saía, por exemplo, como "X". O pulo de gênio: após apertar a tecla, as engrenagens mecânicas faziam o disco girar uma posição. Se você apertasse o "A" de novo, o labirinto mudava, e agora saía um "K". A máquina realizava uma substituição matemática polialfabética contínua sem que o usuário precisasse fazer contas.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o "Big Bang" dos Algoritmos de Criptografia Baseados em Máquinas. O conceito de alterar fisicamente o caminho da fiação a cada ciclo de clock (a cada pressionamento de tecla) é a exata fundação arquitetônica da lendária máquina alemã Enigma, patenteada poucos anos depois, e das máquinas SIGABA aliadas. A invenção da máquina de rotores em 1916 ditou como a TI militar blindaria as comunicações (End-to-End Encryption primitivo) pelas três décadas seguintes, forçando indiretamente Alan Turing e seus colegas a inventarem o computador digital moderno apenas para tentar quebrar a matemática desses discos.',
+          en: 'Until 1916, encrypting a document required a human to use a "code book" (which could be stolen) or mentally run substitution tables (a slow and error-prone process). Hengel and Spengler realized that data scrambling should be processed by the machine, not by the human. They built a keyboard connected to rotating discs of insulating material containing randomly crossed internal metal contacts. When the user pressed the letter "A", the electrical signal passed through the rotor wiring maze and emerged, for example, as "X". The genius leap: after pressing the key, mechanical gears rotated the disc by one position. If you pressed "A" again, the maze had changed, and now it produced "K". The machine performed a continuous polyalphabetic mathematical substitution without the user needing to calculate.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the "Big Bang" of Machine-Based Cryptographic Algorithms. The concept of physically changing the wiring path at every clock cycle (each keypress) is the exact architectural foundation of the legendary German Enigma machine, patented a few years later, and the Allied SIGABA machines. The invention of the rotor machine in 1916 dictated how military IT would protect communications (primitive end-to-end encryption) for the next three decades, indirectly forcing Alan Turing and his colleagues to invent the modern digital computer just to try to break the mathematics of those discs.',
+        },
+      },
+      {
+        name: 'Paul Langevin e Constantin Chilowski',
+        imagePlaceholder: YEAR_1916_PLACEHOLDER,
+        flag: '🇫🇷 🇷🇺',
+        nationality: { pt: 'Francês / Russo (Trabalhando juntos na França)', en: 'French / Russian (Working together in France)' },
+        formation: {
+          pt: 'Langevin: Físico renomado, ex-aluno de Pierre Curie e especialista em eletromagnetismo. Chilowski: Brilhante engenheiro elétrico que havia fugido da Rússia para a Suíça e depois para a França, oferecendo suas ideias à marinha aliada.',
+          en: 'Langevin: renowned physicist, former student of Pierre Curie and specialist in electromagnetism. Chilowski: brilliant electrical engineer who had fled Russia for Switzerland and then France, offering his ideas to the Allied navy.',
+        },
+        summary: {
+          pt: 'Construíram e testaram com sucesso em 1916 o primeiro Transdutor Piezoelétrico Ativo para detecção submarina (o primeiro Sonar moderno), utilizando cristais finos de quartzo prensados entre placas de aço.',
+          en: 'Built and successfully tested in 1916 the first active piezoelectric transducer for submarine detection (the first modern sonar), using thin quartz crystals pressed between steel plates.',
+        },
+        role: {
+          pt: 'Pioneiros do sonar moderno',
+          en: 'Pioneers of modern sonar',
+        },
+        contribution: {
+          pt: 'Em 1916, a TI inventou a Telemetria por Eco (Echo Ranging), criando um Hardware capaz de emitir pacotes acústicos direcionais e computar a latência do retorno.',
+          en: 'In 1916, IT invented Echo Ranging telemetry, creating hardware capable of emitting directional acoustic packets and computing return latency.',
+        },
+        detail: {
+          pt: 'Os temidos U-boats (submarinos alemães) estavam afundando os cabos de dados e a infraestrutura comercial no oceano. A marinha aliada estava cega na água. Chilowski teve a ideia do ultrassom e Langevin aplicou a ciência dos "materiais piezoelétricos" (descoberta anos antes por Jacques e Pierre Curie). Eles construíram um dispositivo que injetava um pulso elétrico brutal num cristal de quartzo. O cristal vibrava violentamente, atirando um pulso de "ping" ultrassônico direcionado pelo mar. Se esse pacote de som batesse num casco de aço submarino a quilômetros de distância, ele refletia de volta. O mesmo cristal recebia a onda fraca, gerava eletricidade, e um amplificador a vácuo avisava os operadores, permitindo calcular a distância exata usando o tempo decorrido (Time of Flight).\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta foi a primeira implementação em grande escala do conceito físico de Rastreamento Ativo por Escaneamento Ambiental. Embora tenha sido desenvolvido para acústica submarina (SONAR), o processo de emitir um pacote de dados (Ping), aguardar o reflexo e calcular o tempo para determinar distâncias é o coração absoluto da tecnologia de varredura. Esta arquitetura inspirou não apenas o RADAR (que faria o mesmo com rádio anos depois), mas também serviu de molde logístico para ferramentas de rede do nosso dia a dia, como o próprio comando de rede "ping", que enviamos do nosso computador para um servidor remoto para testar se ele está online medindo exatamente essa "latência de eco" inaugurada em 1916 nas águas da França.',
+          en: 'The feared U-boats (German submarines) were sinking data cables and commercial infrastructure in the ocean. The Allied navy was blind in the water. Chilowski had the idea of ultrasound and Langevin applied the science of "piezoelectric materials" discovered years earlier by Jacques and Pierre Curie. They built a device that injected a brutal electrical pulse into a quartz crystal. The crystal vibrated violently, firing a directed ultrasonic "ping" pulse through the sea. If that sound packet struck a submarine steel hull kilometers away, it reflected back. The same crystal received the weak wave, generated electricity, and a vacuum amplifier alerted operators, allowing the exact distance to be calculated using elapsed time (Time of Flight).\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the first large-scale implementation of the physical concept of Active Tracking by Environmental Scanning. Although it was developed for underwater acoustics (SONAR), the process of emitting a data packet (Ping), waiting for the reflection and calculating time to determine distances is the absolute heart of scanning technology. This architecture inspired not only RADAR, which would later do the same with radio, but also served as a logistical template for everyday network tools such as the network "ping" command itself, which we send from our computer to a remote server to test whether it is online by measuring exactly this "echo latency" inaugurated in 1916 in the waters of France.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1917,
+    era: {
+      pt: 'A Criptografia Inquebrável, a Arquitetura do Wi-Fi e a Teoria do Laser',
+      en: 'Unbreakable Cryptography, Wi-Fi Architecture and Laser Theory',
+    },
+    context: {
+      pt: 'Em 1917, com o mundo mergulhado no ápice da Primeira Guerra Mundial, a tecnologia da informação entrega a arma matemática definitiva para a segurança de dados, resolve o maior gargalo da sintonia de redes sem fio e teoriza a física óptica que sustentaria a internet no século XXI. Nos Estados Unidos, a necessidade de blindar as redes de máquinas de escrever automatizadas faz um engenheiro inventar o único algoritmo de criptografia matematicamente inquebrável da história. Na França, um oficial militar patenteia um "truque" arquitetônico de hardware que permite rebaixar as altas frequências de rádio para uma velocidade que as máquinas conseguem processar, criando o padrão universal de sintonização usado até hoje. E nos gabinetes científicos da Europa, a teoria quântica prova que é possível "clonar" fótons de luz perfeitamente sincronizados, entregando ao mundo o manual de instruções teórico de como construir um laser e, consequentemente, a fibra óptica. É o ano da Cifra de Vernam, do Super-heteródino primitivo e da Emissão Estimulada.',
+      en: 'In 1917, with the world plunged into the peak of World War I, information technology delivers the definitive mathematical weapon for data security, solves the greatest tuning bottleneck in wireless networks and theorizes the optical physics that would sustain the internet in the twenty-first century. In the United States, the need to shield automated typewriter networks leads an engineer to invent the only mathematically unbreakable cryptographic algorithm in history. In France, a military officer patents a hardware-architecture "trick" that allows high radio frequencies to be lowered to a speed machines can process, creating the universal tuning standard still used today. And in European scientific offices, quantum theory proves that it is possible to "clone" perfectly synchronized photons of light, giving the world the theoretical instruction manual for building a laser and, consequently, fiber optics. It is the year of the Vernam cipher, the primitive superheterodyne and stimulated emission.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Gilbert Vernam',
+        imagePlaceholder: YEAR_1917_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro brilhante de pesquisa e desenvolvimento da AT&T. Trabalhava na fronteira entre a automação eletromecânica de relés e as incipientes redes de teleimpressoras (teletipos) comerciais e militares.',
+          en: 'Brilliant research and development engineer at AT&T. He worked at the frontier between electromechanical relay automation and the emerging commercial and military teleprinter (teletype) networks.',
+        },
+        summary: {
+          pt: 'Inventou e demonstrou em 1917 a Cifra de Vernam, o primeiro sistema automatizado de criptografia em rede de fluxo contínuo, utilizando uma chave criptográfica aleatória perfurada em uma fita de papel que se misturava eletricamente aos dados do teclado original.',
+          en: 'Invented and demonstrated the Vernam cipher in 1917, the first automated continuous-stream network encryption system, using a random cryptographic key punched into paper tape that electrically mixed with the original keyboard data.',
+        },
+        role: {
+          pt: 'Inventor da cifra de Vernam',
+          en: 'Inventor of the Vernam cipher',
+        },
+        contribution: {
+          pt: 'Em 1917, Vernam inventou a criptografia automatizada de "Chave de Uso Único" (One-Time Pad), aplicando o primeiro operador lógico XOR em nível de hardware.',
+          en: 'In 1917, Vernam invented automated "One-Time Pad" cryptography, applying the first XOR logical operator at hardware level.',
+        },
+        detail: {
+          pt: 'Até então, códigos eram feitos por humanos que substituíam letras. Vernam queria que a máquina protegesse os dados sem intervenção humana. Ele fez algo brutalmente lógico: se você tem uma fita de papel com a sua mensagem (os dados), e uma segunda fita com letras totalmente aleatórias (a chave), a máquina funde os contatos elétricos das duas fitas. O resultado gerado no cabo de rede é um lixo estatisticamente indecifrável. No destino, o receptor precisa ter uma cópia exata da fita com a chave aleatória. A máquina receptora funde o lixo recebido com a chave e, por matemática pura, a mensagem original volta a aparecer perfeitamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nA invenção de Vernam é o Santo Graal da Segurança da Informação (InfoSec). O que ele construiu usando relés e furadores de papel foi a primeira manifestação física da porta lógica XOR (Ou Exclusivo) usada na criptografia moderna. Mais do que isso: décadas depois, Claude Shannon provou matematicamente que se a chave de Vernam for verdadeiramente aleatória, do mesmo tamanho da mensagem e nunca reutilizada, o sistema é matematicamente inquebrável, mesmo que o invasor tenha um computador quântico infinito. Toda a criptografia de fluxo de dados (Stream Ciphers) que usamos hoje para proteger nossas conexões seguras descende diretamente desse protocolo inventado na AT&T em 1917.',
+          en: 'Until then, codes were made by humans substituting letters. Vernam wanted the machine to protect data without human intervention. He did something brutally logical: if you have a paper tape with your message (the data), and a second tape with totally random letters (the key), the machine merges the electrical contacts of the two tapes. The result generated on the network cable is statistically indecipherable garbage. At the destination, the receiver must have an exact copy of the tape with the random key. The receiving machine merges the received garbage with the key and, through pure mathematics, the original message reappears perfectly.\n\nWhy does this belong in the IT Hall of Fame?\n\nVernam’s invention is the Holy Grail of Information Security (InfoSec). What he built using relays and paper punches was the first physical manifestation of the XOR logic gate (Exclusive OR) used in modern cryptography. More than that: decades later, Claude Shannon mathematically proved that if Vernam’s key is truly random, the same length as the message and never reused, the system is mathematically unbreakable, even if the attacker has an infinite quantum computer. All data-stream cryptography (Stream Ciphers) we use today to protect secure connections descends directly from this protocol invented at AT&T in 1917.',
+        },
+      },
+      {
+        name: 'Lucien Lévy',
+        imagePlaceholder: YEAR_1917_PLACEHOLDER,
+        flag: '🇫🇷',
+        nationality: { pt: 'Francês', en: 'French' },
+        formation: {
+          pt: 'Engenheiro, físico e pioneiro do rádio. Durante a guerra, foi nomeado chefe do laboratório do Centro Radiotelegráfico Militar instalado na Torre Eiffel, encarregado de construir redes que pudessem superar a interferência alemã.',
+          en: 'Engineer, physicist and radio pioneer. During the war, he was appointed head of the laboratory of the Military Radiotelegraphic Center installed in the Eiffel Tower, tasked with building networks that could overcome German interference.',
+        },
+        summary: {
+          pt: 'Depositou em agosto de 1917 a patente fundamental para o receptor Super-heteródino, inventando o princípio de "conversão de frequência para baixo", misturando o sinal recebido na antena com um sinal local gerado pela própria máquina para criar uma "Frequência Intermediária" fixa.',
+          en: 'Filed in August 1917 the foundational patent for the superheterodyne receiver, inventing the principle of "down-conversion" by mixing the signal received at the antenna with a local signal generated by the machine itself to create a fixed "Intermediate Frequency".',
+        },
+        role: {
+          pt: 'Autor da arquitetura super-heteródina',
+          en: 'Author of the superheterodyne architecture',
+        },
+        contribution: {
+          pt: 'Em 1917, Lévy resolveu o gargalo de processamento das altas frequências, criando a arquitetura de "Down-conversion" que permitiu ao hardware mastigar dados rápidos.',
+          en: 'In 1917, Lévy solved the high-frequency processing bottleneck, creating the "Down-conversion" architecture that allowed hardware to digest fast data.',
+        },
+        detail: {
+          pt: 'As válvulas eletrônicas de 1917 eram ótimas para amplificar sinais lentos, mas falhavam e ficavam instáveis se tentassem amplificar as altas frequências em que os dados de rádio trafegavam. Lévy bolou um truque matemático genial no hardware. Ele usou a máquina para gerar uma onda interna (Oscilador Local) um pouquinho diferente da onda que estava chegando na antena. Quando essas duas ondas se chocavam (Heterodinação), elas "subtraíam" uma à outra, e o que sobrava era a diferença exata entre elas. Essa diferença era uma frequência muito mais baixa e calma (a Frequência Intermediária), que carregava perfeitamente todos os dados originais e que as válvulas da máquina podiam amplificar massivamente sem esforço.\n\nPor que isso entra no Hall da Fama da TI?\n\nEmbora Edwin Armstrong (EUA) também tenha desenvolvido o super-heteródino quase na mesma época (e construído os aparelhos de maior sucesso), a arquitetura proposta na patente de Lévy de 1917 é o padrão-ouro e onipresente em quase todos os dispositivos de telecomunicação do planeta moderno. Toda televisão, aparelho de rádio FM, roteador de rede Wi-Fi e smartphone 5G moderno usa o princípio super-heteródino para pegar a frequência altíssima do ar e "rebaixá-la" no chip para uma frequência intermediária mais limpa que o processador consegue decodificar. É o design pattern definitivo das redes sem fio.',
+          en: 'The electronic valves of 1917 were excellent at amplifying slow signals, but failed and became unstable if they tried to amplify the high frequencies where radio data traveled. Lévy devised a brilliant mathematical trick in hardware. He used the machine to generate an internal wave (Local Oscillator) slightly different from the wave arriving at the antenna. When those two waves collided (heterodyning), they "subtracted" from each other, and what remained was the exact difference between them. That difference was a much lower and calmer frequency (the Intermediate Frequency), which perfectly carried all the original data and which the machine’s valves could amplify massively with no effort.\n\nWhy does this belong in the IT Hall of Fame?\n\nAlthough Edwin Armstrong in the United States also developed the superheterodyne at almost the same time and built the most successful devices, the architecture proposed in Lévy’s 1917 patent is the gold standard and is omnipresent in almost every telecommunications device on the modern planet. Every television, FM radio, Wi-Fi network router and modern 5G smartphone uses the superheterodyne principle to take the extremely high frequency from the air and "lower" it on the chip to a cleaner intermediate frequency the processor can decode. It is the definitive design pattern of wireless networks.',
+        },
+      },
+      {
+        name: 'Albert Einstein',
+        imagePlaceholder: YEAR_1917_PLACEHOLDER,
+        flag: '🇩🇪 🇨🇭',
+        nationality: { pt: 'Alemão (Operando também na Suíça)', en: 'German (Also operating in Switzerland)' },
+        formation: {
+          pt: 'O pilar da física teórica moderna. Já havia resolvido o efeito fotoelétrico em 1905, e em 1917 voltava sua atenção geniosa para como os átomos interagem com o fluxo de energia pura no vácuo.',
+          en: 'The pillar of modern theoretical physics. He had already solved the photoelectric effect in 1905, and in 1917 turned his genius attention to how atoms interact with the flow of pure energy in a vacuum.',
+        },
+        summary: {
+          pt: 'Publicou em 1917 o artigo "Zur Quantentheorie der Strahlung" (Sobre a Teoria Quântica da Radiação), onde introduziu matematicamente o conceito da "Emissão Estimulada" de radiação.',
+          en: 'Published the article "Zur Quantentheorie der Strahlung" (On the Quantum Theory of Radiation) in 1917, where he mathematically introduced the concept of "Stimulated Emission" of radiation.',
+        },
+        role: {
+          pt: 'Autor da teoria da emissão estimulada',
+          en: 'Author of stimulated-emission theory',
+        },
+        contribution: {
+          pt: 'Em 1917, Einstein escreveu o Whitepaper teórico do Laser, provando que era possível "clonar" fótons de luz em uma cadeia perfeita de dados ópticos.',
+          en: 'In 1917, Einstein wrote the theoretical whitepaper for the laser, proving that it was possible to "clone" photons of light in a perfect chain of optical data.',
+        },
+        detail: {
+          pt: 'Antes deste artigo, os cientistas só sabiam que os átomos emitiam luz de forma aleatória e caótica, como as chamas de uma fogueira ou uma lâmpada comum (emissão espontânea). Einstein usou suas equações e descobriu um bug/feature no universo: se você tiver um átomo que já está cheio de energia (excitado) e o atingir com o fóton certo, ele não apenas absorve ou reflete; ele "cospe" um segundo fóton. O choque: esse segundo fóton é um clone idêntico do primeiro. Eles viajam exatamente na mesma direção, com a mesma cor e na mesma fase. É a amplificação perfeita da luz.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a Emissão Estimulada calculada em 1917, a palavra "Laser" (Light Amplification by Stimulated Emission of Radiation) não existiria. Quarenta e três anos depois deste artigo (em 1960), os engenheiros construiriam a máquina com base nestas exatas equações. A tecnologia da informação atual é essencialmente óptica. O núcleo da Internet Global, os cabos submarinos transatlânticos de Fibra Óptica, as leitoras de código de barras e os canhões de luz que gravam os dados em mídias de altíssima densidade operam puramente controlando essa exata cadeia de clonagem fotônica que Einstein descobriu ser possível neste documento histórico.',
+          en: 'Before this article, scientists only knew that atoms emitted light randomly and chaotically, like the flames of a fire or an ordinary lamp (spontaneous emission). Einstein used his equations and discovered a bug/feature in the universe: if you have an atom already full of energy (excited) and strike it with the right photon, it does not merely absorb or reflect; it "spits out" a second photon. The shock: that second photon is an identical clone of the first. They travel in exactly the same direction, with the same color and in the same phase. It is perfect light amplification.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout Stimulated Emission calculated in 1917, the word "Laser" (Light Amplification by Stimulated Emission of Radiation) would not exist. Forty-three years after this article, in 1960, engineers would build the machine based on these exact equations. Information technology today is essentially optical. The core of the Global Internet, transatlantic fiber-optic submarine cables, barcode readers and light beams that write data onto ultra-high-density media operate purely by controlling this exact chain of photonic cloning that Einstein discovered was possible in this historic document.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1918,
+    era: {
+      pt: 'A Memória Eletrônica, o Hardware de Criptografia Definitivo e o Padrão do Rádio Moderno',
+      en: 'Electronic Memory, Definitive Cryptographic Hardware and the Modern Radio Standard',
+    },
+    context: {
+      pt: 'Em 1918, no ano final da Primeira Guerra Mundial, a tecnologia da informação dá o salto conceitual mais importante da história do hardware computacional: ela adquire "memória". Nos laboratórios britânicos, dois físicos usam válvulas a vácuo não para amplificar ondas, mas para criar um circuito que consegue "lembrar" de um estado ligado ou desligado, inventando o primeiríssimo Bit de memória eletrônica. Na Alemanha, a criptografia mecânica deixa de ser um experimento e ganha sua forma comercial mais famosa, nascendo a máquina que, décadas depois, forçaria a invenção do computador digital para ser quebrada. E no front francês, a teoria arquitetônica de rebaixamento de frequência do ano anterior é finalmente transformada no hardware tático perfeito, definindo como todo dispositivo móvel do século XX iria sintonizar dados do ar. É o ano do circuito Flip-Flop, da patente da Máquina Enigma e da consolidação do Super-heteródino.',
+      en: 'In 1918, the final year of World War I, information technology makes the most important conceptual leap in the history of computing hardware: it acquires "memory". In British laboratories, two physicists use vacuum tubes not to amplify waves, but to create a circuit that can "remember" an on or off state, inventing the very first bit of electronic memory. In Germany, mechanical cryptography stops being an experiment and gains its most famous commercial form, giving birth to the machine that, decades later, would force the invention of the digital computer in order to be broken. And on the French front, the previous year’s frequency down-conversion architecture is finally transformed into perfect tactical hardware, defining how every mobile device of the twentieth century would tune data from the air. It is the year of the Flip-Flop circuit, the Enigma machine patent and the consolidation of the superheterodyne.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'William Eccles e F. W. Jordan',
+        imagePlaceholder: YEAR_1918_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'Físicos brilhantes e engenheiros de rádio. Eccles era um pioneiro no estudo de como as ondas viajavam pela atmosfera, mas foi na lógica de circuitos de bancada que eles mudaram o mundo.',
+          en: 'Brilliant physicists and radio engineers. Eccles was a pioneer in the study of how waves traveled through the atmosphere, but it was in bench-circuit logic that they changed the world.',
+        },
+        summary: {
+          pt: 'Inventaram e patentearam em 1918 o Circuito de Gatilho Biestável (Eccles-Jordan trigger circuit), mais conhecido hoje como o circuito Flip-Flop, usando duas válvulas termiônicas conectadas em loop onde o estado de uma forçava a outra a desligar, e vice-versa.',
+          en: 'Invented and patented in 1918 the bistable trigger circuit (Eccles-Jordan trigger circuit), better known today as the flip-flop circuit, using two thermionic valves connected in a loop where the state of one forced the other to switch off, and vice versa.',
+        },
+        role: {
+          pt: 'Inventores do circuito flip-flop',
+          en: 'Inventors of the flip-flop circuit',
+        },
+        contribution: {
+          pt: 'Em 1918, Eccles e Jordan inventaram o "Bit de Hardware", criando a fundação de toda a Memória RAM eletrônica e do processamento binário.',
+          en: 'In 1918, Eccles and Jordan invented the "Hardware Bit", creating the foundation of all electronic RAM and binary processing.',
+        },
+        detail: {
+          pt: 'Antes de 1918, a eletrônica só fluía; ela não retinha informação. Se você desligasse o sinal, a válvula apagava e o dado sumia. Eccles e Jordan ligaram a saída da Válvula A na entrada da Válvula B, e a saída da B na entrada da A. O pulo de gênio: isso criou uma gangorra eletrônica. Se a Válvula A estivesse ligada (Estado 1), ela forçava a B a ficar desligada (Estado 0), e o circuito ficava "travado" nessa posição para sempre (ou até a energia cair). Se você desse um pulso elétrico na B, a gangorra invertia: B ligava e A desligava, travando no novo estado. O circuito acabou de "lembrar" qual foi o último pulso que recebeu.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o marco zero da Memória de Computador. O circuito biestável Flip-Flop é, literalmente, a unidade de armazenamento fundamental (o 1 e o 0) da computação digital. Todos os registradores dentro do processador do seu computador e cada bit da memória cache ultrarrápida (SRAM) que seu celular usa neste exato segundo são formados por transistores microscópicos montados na mesmíssima arquitetura de "gangorra lógica" (Flip-Flop) que Eccles e Jordan desenharam usando pesadas válvulas de vidro em 1918.',
+          en: 'Before 1918, electronics only flowed; it did not retain information. If you turned off the signal, the valve went dark and the data disappeared. Eccles and Jordan connected the output of Valve A to the input of Valve B, and the output of B to the input of A. The genius leap: this created an electronic seesaw. If Valve A was on (State 1), it forced B to stay off (State 0), and the circuit stayed "locked" in that position forever (or until power failed). If you sent an electrical pulse into B, the seesaw flipped: B turned on and A turned off, locking into the new state. The circuit had just "remembered" the last pulse it received.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the zero point of computer memory. The bistable flip-flop circuit is literally the fundamental storage unit (1 and 0) of digital computing. Every register inside your computer processor and every bit of ultrafast cache memory (SRAM) your phone uses at this exact second are formed from microscopic transistors arranged in the same "logical seesaw" (Flip-Flop) architecture that Eccles and Jordan drew using heavy glass valves in 1918.',
+        },
+      },
+      {
+        name: 'Arthur Scherbius',
+        imagePlaceholder: YEAR_1918_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Engenheiro elétrico altamente treinado em Hannover e Munique. Um inventor com forte tino comercial que percebeu que as corporações pós-guerra precisariam esconder seus segredos industriais.',
+          en: 'Highly trained electrical engineer in Hanover and Munich. An inventor with strong commercial instincts who realized that postwar corporations would need to hide their industrial secrets.',
+        },
+        summary: {
+          pt: 'Submeteu em 23 de fevereiro de 1918 a patente de uma máquina de criptografia baseada em rotores eletromecânicos, que ele mais tarde batizaria comercialmente de Enigma.',
+          en: 'Filed on February 23, 1918, the patent for an electromechanical rotor-based cryptography machine, which he would later commercially name Enigma.',
+        },
+        role: {
+          pt: 'Inventor da máquina Enigma',
+          en: 'Inventor of the Enigma machine',
+        },
+        contribution: {
+          pt: 'Em 1918, a Segurança da Informação ganhou sua "Caixa Preta" definitiva, um hardware de cifragem que mudaria o curso da engenharia de software.',
+          en: 'In 1918, Information Security gained its definitive "black box", ciphering hardware that would change the course of software engineering.',
+        },
+        detail: {
+          pt: 'Vimos que os holandeses Hengel e Spengler (1916) e o americano Edward Hebern brincaram com rotores de criptografia, mas foi Scherbius quem criou o projeto elegante, robusto e escalável que o mercado absorveria. A máquina parecia uma máquina de escrever normal, mas entre o teclado e as lâmpadas de saída havia rotores intercambiáveis com fiação cruzada complexa, e um "refletor" que enviava a corrente de volta pelo labirinto. A cada tecla pressionada, a engrenagem movia os rotores, mudando o algoritmo do labirinto instantaneamente. Para a época, a matemática de permutações gerada por essa máquina era considerada intransponível para mentes humanas.\n\nPor que isso entra no Hall da Fama da TI?\n\nA patente da Enigma em 1918 não é apenas um marco da criptografia militar; ela é a força motriz indireta da Ciência da Computação moderna. Essa máquina tornou-se tão segura e aterrorizante nas décadas seguintes que, durante a Segunda Guerra Mundial, os Aliados perceberam que cérebros humanos com lápis jamais conseguiriam quebrar o algoritmo a tempo. A necessidade extrema de aplicar força bruta reversa na lógica idealizada por Scherbius obrigou gênios como Alan Turing a teorizarem e construírem os primeiros computadores automatizados de quebra de códigos (como a Bombe e o Colossus). A TI moderna nasceu para combater este exato hardware de 1918.',
+          en: 'We saw that the Dutch engineers Hengel and Spengler (1916) and the American Edward Hebern experimented with cryptographic rotors, but Scherbius created the elegant, robust and scalable design that the market would absorb. The machine looked like a normal typewriter, but between the keyboard and the output lamps were interchangeable rotors with complex crossed wiring, plus a "reflector" that sent current back through the maze. With every keypress, the gearing moved the rotors, instantly changing the maze algorithm. At the time, the permutation mathematics generated by this machine was considered impassable for human minds.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Enigma patent in 1918 is not only a milestone of military cryptography; it is an indirect driving force of modern Computer Science. This machine became so secure and terrifying in the following decades that, during World War II, the Allies realized human brains with pencils would never break the algorithm in time. The extreme need to apply reverse brute force to the logic idealized by Scherbius forced minds such as Alan Turing to theorize and build the first automated codebreaking computers, such as the Bombe and Colossus. Modern IT was born to fight this exact hardware from 1918.',
+        },
+      },
+      {
+        name: 'Edwin Howard Armstrong',
+        imagePlaceholder: YEAR_1918_PLACEHOLDER,
+        flag: '🇺🇸 🇫🇷',
+        nationality: { pt: 'Americano (Atuando na França)', en: 'American (Working in France)' },
+        formation: {
+          pt: 'O gênio brilhante que já havia inventado a retroalimentação (feedback) em 1912. Em 1918, servindo como Major no Corpo de Sinalização do Exército Americano em Paris, sua missão era detectar as comunicações militares alemãs de altíssima frequência.',
+          en: 'The brilliant mind who had already invented feedback in 1912. In 1918, serving as a Major in the U.S. Army Signal Corps in Paris, his mission was to detect extremely high-frequency German military communications.',
+        },
+        summary: {
+          pt: 'Desenvolveu na prática, refinou e patenteou a arquitetura do Receptor Super-heteródino. Embora Lucien Lévy (1917) tenha patenteado o conceito matemático primeiro, foi o hardware desenhado por Armstrong em 1918 que se provou funcional, eficiente e capaz de ser fabricado em massa.',
+          en: 'Practically developed, refined and patented the superheterodyne receiver architecture. Although Lucien Lévy (1917) had patented the mathematical concept first, the hardware designed by Armstrong in 1918 proved functional, efficient and capable of mass production.',
+        },
+        role: {
+          pt: 'Consolidador do receptor super-heteródino',
+          en: 'Consolidator of the superheterodyne receiver',
+        },
+        contribution: {
+          pt: 'Em 1918, Armstrong consolidou a Interface de Rede definitiva, pegando a teoria da "conversão de frequência" e transformando-a em equipamento de guerra.',
+          en: 'In 1918, Armstrong consolidated the definitive network interface, taking the theory of "frequency conversion" and turning it into war equipment.',
+        },
+        detail: {
+          pt: 'O exército aliado tinha um problema fatal: os transmissores alemães e o ruído dos motores dos aviões operavam em frequências altas demais para os amplificadores aliados conseguirem "ouvir". Armstrong pegou a ideia de misturar os sinais no vácuo (a heterodinação) e construiu um aparelho de 8 válvulas absurdamente sensível e preciso. Em vez de tentar forçar as válvulas a amplificar uma onda muito rápida, a máquina de Armstrong "mastigava" o sinal de alta frequência misturando-o com um oscilador interno, cuspindo uma onda mais lenta (Frequência Intermediária) que suas outras válvulas amplificavam aos milhares.\n\nPor que isso entra no Hall da Fama da TI?\n\nSe Lévy escreveu o conceito em 1917, Armstrong fez o deploy do código em produção em 1918. O receptor super-heteródino de Armstrong resolveu o gargalo da estabilidade do sinal. Assim que a guerra acabou e as patentes foram negociadas, essa exata arquitetura tornou-se o coração da gigantesca indústria do rádio e da televisão. Quando a RCA começou a vender os primeiros rádios domésticos comerciais nos anos 1920, todos eram modelos super-heteródinos construídos sobre o exato diagrama esquemático desenhado por este engenheiro americano nos laboratórios militares da França em 1918.',
+          en: 'The Allied army had a fatal problem: German transmitters and aircraft engine noise operated at frequencies too high for Allied amplifiers to "hear". Armstrong took the idea of mixing signals in a vacuum (heterodyning) and built an absurdly sensitive and precise 8-valve device. Instead of trying to force the valves to amplify a very fast wave, Armstrong’s machine "chewed" the high-frequency signal by mixing it with an internal oscillator, spitting out a slower wave (Intermediate Frequency) that its other valves amplified by thousands.\n\nWhy does this belong in the IT Hall of Fame?\n\nIf Lévy wrote the concept in 1917, Armstrong deployed the code into production in 1918. Armstrong’s superheterodyne receiver solved the bottleneck of signal stability. As soon as the war ended and the patents were negotiated, this exact architecture became the heart of the enormous radio and television industry. When RCA began selling the first commercial home radios in the 1920s, they were all superheterodyne models built on the exact schematic diagram drawn by this American engineer in military laboratories in France in 1918.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1919,
+    era: {
+      pt: 'O Nascimento da "Big Tech" de Mídia, o Roteamento Autônomo e a Descoberta das Micro-ondas',
+      en: 'The Birth of Media "Big Tech", Autonomous Routing and the Discovery of Microwaves',
+    },
+    context: {
+      pt: 'Em 1919, com o fim da Grande Guerra, a tecnologia da informação reestrutura seu modelo de negócios global, transfere o poder de roteamento de dados para as mãos do usuário final e empurra a física do hardware para frequências antes inalcançáveis. Nos Estados Unidos, o governo e as corporações se unem para criar um megamonopólio de patentes, fundando a empresa que definiria o padrão do ecossistema de rádio e televisão do século XX. Nas centrais telefônicas, o gigantesco sistema Bell percebe que gargalos humanos não escalam; eles implementam os primeiros grandes computadores eletromecânicos de comutação, permitindo que o próprio usuário insira o "endereço" de destino via disco rotativo. E na Alemanha, a física das válvulas rompe o teto da frequência de banda, descobrindo como gerar as oscilações ultrarrápidas que hoje chamamos de micro-ondas. É o ano da fundação da RCA, da automação do roteamento na AT&T e do Oscilador Barkhausen-Kurz.',
+      en: 'In 1919, with the end of the Great War, information technology restructures its global business model, transfers the power of data routing into the hands of the end user and pushes hardware physics into previously unreachable frequencies. In the United States, government and corporations unite to create a mega-monopoly of patents, founding the company that would define the standard for the twentieth-century radio and television ecosystem. In telephone exchanges, the giant Bell System realizes that human bottlenecks do not scale; it implements the first large electromechanical switching computers, allowing the user to enter the destination "address" through a rotary dial. And in Germany, vacuum-tube physics breaks through the bandwidth-frequency ceiling, discovering how to generate the ultrafast oscillations we now call microwaves. It is the year of RCA’s founding, routing automation at AT&T and the Barkhausen-Kurz oscillator.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Owen D. Young & General Electric (GE)',
+        imagePlaceholder: YEAR_1919_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Young não era um engenheiro de hardware, mas sim um advogado visionário e executivo da GE. Ele possuía a capacidade de olhar para um emaranhado caótico de patentes isoladas e ver a arquitetura de um ecossistema corporativo global.',
+          en: 'Young was not a hardware engineer, but a visionary lawyer and GE executive. He had the ability to look at a chaotic tangle of isolated patents and see the architecture of a global corporate ecosystem.',
+        },
+        summary: {
+          pt: 'Fundou em 17 de outubro de 1919 a Radio Corporation of America (RCA), orquestrando a compra da infraestrutura da britânica Marconi nos EUA e aglomerando as patentes vitais de rádio da GE, Westinghouse, AT&T e United Fruit Company sob um único consórcio monolítico.',
+          en: 'Founded the Radio Corporation of America (RCA) on October 17, 1919, orchestrating the purchase of British Marconi’s infrastructure in the United States and gathering the vital radio patents of GE, Westinghouse, AT&T and the United Fruit Company under a single monolithic consortium.',
+        },
+        role: {
+          pt: 'Fundador da RCA',
+          en: 'Founder of RCA',
+        },
+        contribution: {
+          pt: 'Em 1919, o mercado de tecnologia criou o primeiro "Ecossistema Fechado" de patentes (Patent Pool), fundando a Big Tech que dominaria o broadcasting global.',
+          en: 'In 1919, the technology market created the first closed patent ecosystem (Patent Pool), founding the Big Tech that would dominate global broadcasting.',
+        },
+        detail: {
+          pt: 'Durante a guerra, o governo dos EUA havia congelado os processos de patentes para que todos os fabricantes pudessem combinar as melhores peças (como as válvulas da AT&T com os circuitos de Armstrong e os transmissores da GE). Com a paz, as empresas voltariam a se processar e o desenvolvimento da rede sem fio pararia (o chamado Patent Thicket ou emaranhado de patentes). Young, com apoio oculto da Marinha americana, criou a RCA. A RCA não inventou uma máquina nova em 1919; ela inventou o Acordo de Licenciamento Cruzado. A RCA controlaria a infraestrutura de vendas e broadcasting, enquanto as outras empresas fabricariam as peças em harmonia padronizada.\n\nPor que isso entra no Hall da Fama da TI?\n\nA fundação da RCA é a semente do modelo de negócios moderno de Tecnologia da Informação. Antes, inventores brigavam por peças soltas. A RCA estabeleceu o conceito de uma plataforma unificada (Platform Monopolies), muito semelhante à forma como hoje a Apple ou a união das empresas em torno do consórcio USB implementam ecossistemas onde o hardware tem que conversar entre si sob um padrão corporativo estrito. O boom brutal da venda de rádios domésticos e, mais tarde, da própria invenção da televisão a cores nos Estados Unidos, foi totalmente financiado e arquitetado pelo império que nasceu dessa assinatura corporativa em 1919.',
+          en: 'During the war, the U.S. government had frozen patent lawsuits so that all manufacturers could combine the best parts, such as AT&T valves with Armstrong circuits and GE transmitters. With peace, the companies would resume suing one another and wireless network development would halt (the so-called patent thicket). Young, with hidden support from the American Navy, created RCA. RCA did not invent a new machine in 1919; it invented the cross-licensing agreement. RCA would control sales and broadcasting infrastructure, while the other companies manufactured parts in standardized harmony.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe founding of RCA is the seed of the modern Information Technology business model. Before it, inventors fought over loose parts. RCA established the concept of a unified platform (platform monopolies), very similar to the way Apple today or the companies organized around the USB consortium implement ecosystems where hardware must talk to itself under a strict corporate standard. The brutal boom in home radio sales and, later, the very invention of color television in the United States were fully financed and architected by the empire born from this corporate signature in 1919.',
+        },
+      },
+      {
+        name: 'Engenheiros do Bell System (AT&T)',
+        imagePlaceholder: YEAR_1919_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Arquitetos de sistemas de rede lidando com a logística assustadora do crescimento exponencial urbano. A missão deles era resolver a latência e o colapso iminente das redes de telecomunicação movidas a mão de obra humana.',
+          en: 'Network-system architects dealing with the frightening logistics of exponential urban growth. Their mission was to solve the latency and imminent collapse of telecommunications networks driven by human labor.',
+        },
+        summary: {
+          pt: 'Inauguraram no final de 1919, na cidade de Norfolk, Virgínia, a primeira implementação de grande escala do Panel Switch (Chave de Painel) do Sistema Bell, oficializando a decisão irrevogável da maior empresa de telecomunicações do mundo de adotar a comutação automática e o telefone de disco rotativo.',
+          en: 'In late 1919, in Norfolk, Virginia, inaugurated the first large-scale implementation of the Bell System Panel Switch, formalizing the irreversible decision of the world’s largest telecommunications company to adopt automatic switching and the rotary-dial telephone.',
+        },
+        role: {
+          pt: 'Operadores da comutação automática em escala Bell',
+          en: 'Operators of Bell-scale automatic switching',
+        },
+        contribution: {
+          pt: 'Em 1919, a TI encerrou a era do roteamento humano e transferiu o controle de acesso e o "endereçamento" diretamente para a interface do usuário final.',
+          en: 'In 1919, IT ended the era of human routing and transferred access control and "addressing" directly to the end-user interface.',
+        },
+        detail: {
+          pt: 'Almon Strowger já havia inventado o roteamento automático no final do século XIX, mas a AT&T (que controlava as grandes metrópoles) resistiu por décadas, preferindo milhares de telefonistas plugando cabos à mão. Em 1919, as cidades ficaram grandes demais; o tempo para rotear uma chamada manualmente era insustentável e uma greve de telefonistas paralisou Nova Inglaterra. A adoção do sistema de painel significava que milhares de grandes relés e seletores mecânicos fariam o papel do computador de rede. O usuário agora usava o disco (Rotary Dial) para enviar pulsos digitais (fatiados no tempo) pela linha. A máquina lia esses pulsos como um endereço e construía o caminho de fios até o destino sozinha.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta é a implantação em massa do Roteamento Orientado ao Usuário. A decisão da AT&T em 1919 mudou o paradigma de Input de Dados da humanidade. Pela primeira vez em escala continental, milhões de usuários comuns passaram a digitar diretamente um número (um primitivo endereço MAC/IP telefônico) no hardware, acionando algoritmos mecânicos remotos que procuravam a melhor rota na malha da cidade, totalmente sem intervenção humana. Todo sistema contemporâneo de comutação de pacotes de dados e DNS opera herdando a lógica de escalabilidade testada nestes imensos painéis de metal.',
+          en: 'Almon Strowger had already invented automatic routing at the end of the nineteenth century, but AT&T, which controlled the great metropolises, resisted for decades, preferring thousands of telephone operators plugging cables by hand. By 1919, cities had become too large; the time required to route a call manually was unsustainable, and a telephone-operator strike paralyzed New England. The adoption of the panel system meant that thousands of large relays and mechanical selectors would play the role of the network computer. The user now used the rotary dial to send digital pulses (sliced in time) through the line. The machine read those pulses as an address and built the path of wires to the destination on its own.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the mass deployment of User-Oriented Routing. AT&T’s 1919 decision changed humanity’s data-input paradigm. For the first time at continental scale, millions of ordinary users began directly typing a number (a primitive telephone MAC/IP address) into hardware, triggering remote mechanical algorithms that searched for the best route in the city mesh, entirely without human intervention. Every contemporary packet-switching and DNS system inherits the scalability logic tested in these immense metal panels.',
+        },
+      },
+      {
+        name: 'Heinrich Barkhausen e Karl Kurz',
+        imagePlaceholder: YEAR_1919_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemães', en: 'Germans' },
+        formation: {
+          pt: 'Físicos brilhantes na vanguarda do eletromagnetismo. Barkhausen era famoso por seus estudos avançados no magnetismo de materiais e era o diretor do Instituto de Corrente Fraca (tecnologia de informação da época) em Dresden.',
+          en: 'Brilliant physicists at the frontier of electromagnetism. Barkhausen was famous for his advanced studies of material magnetism and was director of the Weak-Current Institute (the information technology of the time) in Dresden.',
+        },
+        summary: {
+          pt: 'Descobriram e publicaram em 1919 o Oscilador Barkhausen-Kurz (Oscilador B-K), provando que, alterando as voltagens internas de um tubo de vácuo Triodo normal, os elétrons passavam a "dançar" em alta velocidade ao redor da grade metálica, gerando ondas eletromagnéticas minúsculas nas frequências de Frequência Ultra-Alta (UHF).',
+          en: 'Discovered and published the Barkhausen-Kurz oscillator (B-K oscillator) in 1919, proving that by altering the internal voltages of a normal triode vacuum tube, electrons began to "dance" at high speed around the metal grid, generating tiny electromagnetic waves at Ultra-High Frequency (UHF).',
+        },
+        role: {
+          pt: 'Descobridores do oscilador de micro-ondas',
+          en: 'Discoverers of the microwave oscillator',
+        },
+        contribution: {
+          pt: 'Em 1919, a física quebrou a barreira do espectro, inventando o primeiro Hardware capaz de transmitir pacotes de dados nas frequências de micro-ondas.',
+          en: 'In 1919, physics broke the spectrum barrier, inventing the first hardware capable of transmitting data packets at microwave frequencies.',
+        },
+        detail: {
+          pt: 'Até este ponto, a tecnologia sem fio (como a de Marconi e de Forest) usava "Ondas Longas" e "Ondas Curtas". Elas podiam ricochetear no céu para ir longe, mas não podiam carregar muitos dados simultâneos (a largura de banda era estreita). A física dizia que as válvulas não conseguiam oscilar mais rápido que alguns milhões de vezes por segundo. Barkhausen e Kurz reverteram as polaridades normais da máquina. O resultado? Os elétrons não apenas fluíram; eles ficaram presos num loop microscópico, ziguezagueando a bilhões de ciclos por segundo. Eles haviam acabado de forçar uma válvula comum a gerar sinais com apenas frações de metro de comprimento de onda (Micro-ondas).\n\nPor que isso entra no Hall da Fama da TI?\n\nEles descobriram a "Estrada Expressa" onde quase toda a TI móvel moderna vive. As Frequências Ultra-Altas e Micro-ondas têm comprimentos minúsculos, o que significa que podem carregar uma quantidade estupenda de dados e usar antenas minúsculas (do tamanho daquelas dentro do seu celular). Sem a fundação teórica e prática iniciada por Barkhausen e Kurz em 1919, os inventores seguintes não poderiam ter desenvolvido o Radar da Segunda Guerra Mundial, as torres de telefonia celular e as comunicações por satélite. O sinal do seu roteador Wi-Fi (em 2.4 GHz ou 5 GHz) e o Bluetooth dos seus fones de ouvido são frequências de micro-ondas filhas diretas dessa descoberta alemã de bancada.',
+          en: 'Until this point, wireless technology (such as Marconi’s and de Forest’s) used "long waves" and "short waves". They could bounce off the sky to travel far, but they could not carry much simultaneous data (the bandwidth was narrow). Physics said valves could not oscillate faster than a few million times per second. Barkhausen and Kurz reversed the machine’s normal polarities. The result? Electrons did not merely flow; they became trapped in a microscopic loop, zigzagging at billions of cycles per second. They had just forced an ordinary valve to generate signals with wavelengths of only fractions of a meter (microwaves).\n\nWhy does this belong in the IT Hall of Fame?\n\nThey discovered the "expressway" where almost all modern mobile IT lives. Ultra-high frequencies and microwaves have tiny wavelengths, which means they can carry a stupendous amount of data and use tiny antennas (the size of those inside your phone). Without the theoretical and practical foundation begun by Barkhausen and Kurz in 1919, later inventors could not have developed World War II radar, cellular telephone towers and satellite communications. The signal from your Wi-Fi router (at 2.4 GHz or 5 GHz) and the Bluetooth in your headphones are microwave frequencies directly descended from this German bench discovery.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1920,
+    era: {
+      pt: 'A Estação de Rádio Comercial, o Nascimento da Palavra "Robô" e a Primeira Rede de Tráfego Aéreo',
+      en: 'The Commercial Radio Station, the Birth of the Word "Robot" and the First Air Traffic Network',
+    },
+    context: {
+      pt: 'Em 1920, a tecnologia da informação transforma o broadcasting em um modelo de negócios de massas, nomeia a máquina autônoma que assombraria e inspiraria a computação por um século, e cria a primeira rede tática de dados para gerenciar o espaço físico. Nos Estados Unidos, a transmissão dos resultados de uma eleição presidencial ao vivo consolida o rádio como a primeira grande mídia em tempo real a invadir a sala de estar. Na Tchecoslováquia, um dramaturgo cunha uma nova palavra para descrever a automação de hardware e software trabalhando no lugar dos humanos, fundando o conceito cultural da Inteligência Artificial. E na Inglaterra, o primeiro aeroporto do mundo implementa um sistema bidirecional de dados sem fio para coordenar a posição de aeronaves, inaugurando a rede de telemetria e o controle de tráfego aéreo. É o ano da rádio KDKA, da peça R.U.R. e da torre de controle conectada.',
+      en: 'In 1920, information technology turns broadcasting into a mass business model, names the autonomous machine that would haunt and inspire computing for a century, and creates the first tactical data network for managing physical space. In the United States, the live transmission of presidential election results consolidates radio as the first great real-time medium to enter the living room. In Czechoslovakia, a playwright coins a new word to describe hardware and software automation working in place of humans, founding the cultural concept of Artificial Intelligence. And in England, the world’s first airport implements a bidirectional wireless data system to coordinate aircraft positions, inaugurating telemetry networking and air traffic control. It is the year of KDKA radio, the play R.U.R. and the connected control tower.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Frank Conrad & Westinghouse Electric Corporation',
+        imagePlaceholder: YEAR_1920_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Conrad era um engenheiro autodidata formidável, vice-engenheiro-chefe da Westinghouse, que começou a transmitir música de sua garagem apenas por diversão, atraindo a atenção corporativa para o potencial do "espectador cativo".',
+          en: 'Conrad was a formidable self-taught engineer, assistant chief engineer at Westinghouse, who began broadcasting music from his garage just for fun, drawing corporate attention to the potential of the "captive audience".',
+        },
+        summary: {
+          pt: 'Liderou a construção e a operação da estação KDKA em Pittsburgh, que em 2 de novembro de 1920 realizou a primeira transmissão comercial de rádio da história, informando ao vivo os resultados da eleição presidencial americana (Harding vs. Cox) para um público em tempo real.',
+          en: 'Led the construction and operation of station KDKA in Pittsburgh, which on November 2, 1920, made the first commercial radio broadcast in history, reporting live results of the American presidential election (Harding vs. Cox) to a real-time audience.',
+        },
+        role: {
+          pt: 'Operador da primeira estação comercial de rádio',
+          en: 'Operator of the first commercial radio station',
+        },
+        contribution: {
+          pt: 'Em 1920, a KDKA validou o modelo B2C de "Data Broadcasting", transformando a rede em um serviço de notícias e entretenimento de massas em tempo real.',
+          en: 'In 1920, KDKA validated the B2C model of "Data Broadcasting", turning the network into a real-time mass news and entertainment service.',
+        },
+        detail: {
+          pt: 'Antes da KDKA, o rádio era um hobby de engenheiros ou uma ferramenta militar ponto-a-ponto. Conrad provou que havia valor em transmitir um único sinal potente para milhares de ouvintes anônimos simultaneamente. A Westinghouse percebeu o verdadeiro modelo de negócios: não cobrar pela informação, mas vender o hardware (os aparelhos de rádio receptores) para que o público pudesse acessar a rede. A eleição de 1920 foi o stress test perfeito para mostrar que os dados via rádio venciam a latência do jornal impresso.\n\nPor que isso entra no Hall da Fama da TI?\n\nÉ o "Go-Live" da Mídia de Massa Eletrônica. O modelo arquitetônico e de negócios inaugurado pela KDKA no dia da eleição é o código-fonte de toda a indústria moderna de broadcasting. A ideia de um feed de notícias entregue gratuitamente, financiado pela venda de infraestrutura ou publicidade, pavimentou o caminho para a televisão, canais de notícias 24 horas e, fundamentalmente, arquitetou o comportamento de consumo de informação instantânea que ditaria o desenvolvimento das redes do futuro.',
+          en: 'Before KDKA, radio was an engineer’s hobby or a point-to-point military tool. Conrad proved that there was value in transmitting one powerful signal to thousands of anonymous listeners simultaneously. Westinghouse saw the real business model: not charging for the information, but selling the hardware (radio receivers) so the public could access the network. The 1920 election was the perfect stress test to show that radio data beat the latency of the printed newspaper.\n\nWhy does this belong in the IT Hall of Fame?\n\nIt is the "Go-Live" of Electronic Mass Media. The architectural and business model inaugurated by KDKA on election day is the source code of the entire modern broadcasting industry. The idea of a free news feed, financed by infrastructure sales or advertising, paved the way for television, 24-hour news channels and, fundamentally, architected the instant-information consumption behavior that would dictate the development of future networks.',
+        },
+      },
+      {
+        name: 'Karel Čapek',
+        imagePlaceholder: YEAR_1920_PLACEHOLDER,
+        flag: '🇨🇿',
+        nationality: { pt: 'Tcheco', en: 'Czech' },
+        formation: {
+          pt: 'Escritor, dramaturgo e filósofo. Embora não fosse um engenheiro clássico de hardware, possuía uma compreensão profunda das tensões entre a revolução industrial, a automação de processos lógicos e a condição humana.',
+          en: 'Writer, playwright and philosopher. Although he was not a classic hardware engineer, he had a deep understanding of the tensions between the industrial revolution, logical process automation and the human condition.',
+        },
+        summary: {
+          pt: 'Publicou em 1920 a peça de teatro de ficção científica R.U.R. (Rossumovi Univerzální Roboti / Robôs Universais de Rossum), introduzindo pela primeira vez na história da humanidade a palavra "Robô" (derivada do termo eslavo robota, que significa trabalho forçado ou servidão).',
+          en: 'Published the science-fiction play R.U.R. (Rossumovi Univerzální Roboti / Rossum’s Universal Robots) in 1920, introducing for the first time in human history the word "Robot" (derived from the Slavic term robota, meaning forced labor or servitude).',
+        },
+        role: {
+          pt: 'Criador cultural da palavra "robô"',
+          en: 'Cultural creator of the word "robot"',
+        },
+        contribution: {
+          pt: 'Em 1920, Čapek definiu o conceito teórico da "Automação Sintética", plantando a fundação filosófica para o desenvolvimento da robótica e da IA.',
+          en: 'In 1920, Čapek defined the theoretical concept of "Synthetic Automation", planting the philosophical foundation for the development of robotics and AI.',
+        },
+        detail: {
+          pt: 'A peça descrevia uma fábrica que produzia pessoas artificiais para realizar todo o trabalho braçal e intelectual do mundo. Eventualmente, os robôs adquirem percepção de sua própria exploração, quebram as travas de seu "código" e se rebelam contra os humanos. Čapek capturou de forma impecável o medo e a ambição definitivos da engenharia de sistemas: criar um hardware autônomo com um software (mente) avançado o suficiente para substituir a mão de obra, mas perigoso o suficiente para escapar dos protocolos de segurança.\n\nPor que isso entra no Hall da Fama da TI?\n\nA tecnologia da informação não é feita apenas de transistores e fios; ela é movida pela conceitualização do impossível. Em 1920, a humanidade ganhou a taxonomia para o seu destino tecnológico. A palavra "Robô" (sugerida a Karel por seu irmão Josef) tornou-se o vocábulo universal e inescapável para descrever qualquer entidade eletromecânica programável. Foi essa exata obra que, lida por mentes brilhantes nas décadas seguintes, moldou a ética tecnológica, inspirou as Três Leis da Robótica de Isaac Asimov e deu o batismo cultural aos laboratórios de inteligência artificial de todo o planeta.',
+          en: 'The play described a factory that produced artificial people to perform all the manual and intellectual labor of the world. Eventually, the robots become aware of their own exploitation, break the locks of their "code" and rebel against humans. Čapek impeccably captured the definitive fear and ambition of systems engineering: creating autonomous hardware with software (a mind) advanced enough to replace labor, but dangerous enough to escape safety protocols.\n\nWhy does this belong in the IT Hall of Fame?\n\nInformation technology is not made only of transistors and wires; it is driven by conceptualizing the impossible. In 1920, humanity gained the taxonomy for its technological destiny. The word "Robot" (suggested to Karel by his brother Josef) became the universal and inescapable vocabulary for describing any programmable electromechanical entity. This exact work, read by brilliant minds in the following decades, shaped technological ethics, inspired Isaac Asimov’s Three Laws of Robotics and gave cultural baptism to artificial-intelligence laboratories across the planet.',
+        },
+      },
+      {
+        name: 'Aeroporto de Croydon (Ministério da Aviação Civil Britânica)',
+        imagePlaceholder: YEAR_1920_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'Operadores de rádio e engenheiros de aviação encarregados de resolver um gargalo logístico mortal: aviões comerciais começavam a colidir no céu do pós-guerra porque não havia roteamento organizado do espaço físico.',
+          en: 'Radio operators and aviation engineers tasked with solving a deadly logistics bottleneck: commercial airplanes were beginning to collide in the postwar sky because there was no organized routing of physical space.',
+        },
+        summary: {
+          pt: 'Inaugurou em 25 de fevereiro de 1920 a primeira torre de Controle de Tráfego Aéreo (Air Traffic Control - ATC) do mundo equipada com uma rede de radiogoniometria, rastreando voos em tempo real e enviando vetores de direção via dados falados ou código Morse.',
+          en: 'Inaugurated on February 25, 1920, the world’s first Air Traffic Control (ATC) tower equipped with a radio direction-finding network, tracking flights in real time and sending direction vectors through spoken data or Morse code.',
+        },
+        role: {
+          pt: 'Operador da primeira rede de controle de tráfego aéreo',
+          en: 'Operator of the first air traffic control network',
+        },
+        contribution: {
+          pt: 'Em 1920, Croydon criou a primeira rede de "Rastreamento Espacial em Tempo Real", processando dados de posicionamento para evitar a colisão de máquinas no ar.',
+          en: 'In 1920, Croydon created the first "Real-Time Spatial Tracking" network, processing positioning data to prevent machines from colliding in the air.',
+        },
+        detail: {
+          pt: 'Eles instalaram antenas direcionais sensíveis no aeroporto. Quando o piloto ativava o rádio, a torre triangularizava a origem invisível do sinal para determinar a posição da aeronave. Na sala de controle, usavam-se alfinetes em um grande mapa de papel para marcar o "banco de dados" em tempo real (o precursor analógico de uma tela de radar). O controlador de voo — atuando como um roteador de rede humano — usava o link sem fio para enviar comandos aos pilotos ("vire à esquerda", "aguarde na altitude X"), organizando pacotes físicos em filas lógicas de aterrissagem.\n\nPor que isso entra no Hall da Fama da TI?\n\nÉ o nascimento da Telemetria de Frota e do gerenciamento de redes móveis complexas. O sistema do Aeroporto de Croydon provou que um nó servidor central precisava receber, processar e devolver dados dinâmicos constantemente para garantir a segurança operacional de máquinas remotas autônomas. Todo o ecossistema de logística moderna orientada por dados — desde os complexos radares da aviação global até o software que rastreia os carros em aplicativos de transporte — descende arquitetonicamente daquela pequena torre de madeira em Londres coordenando biplanos invisíveis na neblina.',
+          en: 'They installed sensitive directional antennas at the airport. When a pilot activated the radio, the tower triangulated the invisible origin of the signal to determine the aircraft’s position. In the control room, pins on a large paper map marked the real-time "database" (the analog precursor of a radar screen). The flight controller, acting as a human network router, used the wireless link to send commands to pilots ("turn left", "hold at altitude X"), organizing physical packets into logical landing queues.\n\nWhy does this belong in the IT Hall of Fame?\n\nIt is the birth of Fleet Telemetry and the management of complex mobile networks. The Croydon Airport system proved that a central server node needed to receive, process and return dynamic data constantly to ensure the operational safety of remote autonomous machines. The entire ecosystem of modern data-driven logistics, from complex global aviation radar to the software that tracks cars in ride-hailing apps, descends architecturally from that small wooden tower in London coordinating invisible biplanes in the fog.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1921,
+    era: {
+      pt: 'O "Clock" de Quartzo, a Rede Veicular Móvel e o Motor de Micro-ondas',
+      en: 'The Quartz "Clock", the Mobile Vehicle Network and the Microwave Engine',
+    },
+    context: {
+      pt: 'Em 1921, a tecnologia da informação encontra o "coração" matemático que ditará o ritmo de todos os computadores do futuro, coloca sua infraestrutura de dados sobre quatro rodas e inventa o canhão de energia eletrônica que revolucionaria o espaço aéreo. Nos laboratórios de física, um cristal é domado para vibrar de forma eletricamente inalterável, entregando à eletrônica o oscilador perfeito que jamais perde o compasso. Nas ruas de Detroit, a polícia instala válvulas de rádio sensíveis nos bancos de trás dos carros, criando a primeira rede de comunicação móvel terrestre para frotas em movimento. E na General Electric, o uso de campos magnéticos cria um novo tipo de válvula brutalmente potente, plantando o núcleo de hardware que alimentaria os radares da próxima guerra mundial e as torres de telecomunicação. É o ano do Oscilador de Cristal, da viatura conectada e do Magnetron.',
+      en: 'In 1921, information technology finds the mathematical "heart" that would set the rhythm of all future computers, puts its data infrastructure on four wheels and invents the electronic energy cannon that would revolutionize airspace. In physics laboratories, a crystal is tamed to vibrate in an electrically unchanging way, giving electronics the perfect oscillator that never loses the beat. On the streets of Detroit, police install sensitive radio valves in the back seats of cars, creating the first land-mobile communication network for moving fleets. And at General Electric, the use of magnetic fields creates a new kind of brutally powerful valve, planting the hardware core that would power the radars of the next world war and telecommunications towers. It is the year of the Crystal Oscillator, the connected patrol car and the Magnetron.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Walter Guyton Cady',
+        imagePlaceholder: YEAR_1921_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Físico brilhante e professor da Universidade Wesleyan. Especialista no efeito piezoelétrico, ele usou a experiência adquirida nos sonares de guerra (Langevin, 1916) para tentar resolver um problema gigantesco de interferência na rádio civil.',
+          en: 'Brilliant physicist and professor at Wesleyan University. A specialist in the piezoelectric effect, he used experience gained from wartime sonars (Langevin, 1916) to try to solve a gigantic interference problem in civilian radio.',
+        },
+        summary: {
+          pt: 'Inventou e demonstrou em 1921 o primeiro Oscilador de Cristal de Quartzo (Quartz Crystal Oscillator), provando que uma lâmina de quartzo cortada com precisão absoluta poderia atuar como um regulador eletrônico para fixar a frequência de transmissores e relógios sem nunca sair do tom.',
+          en: 'Invented and demonstrated in 1921 the first Quartz Crystal Oscillator, proving that a quartz plate cut with absolute precision could act as an electronic regulator to lock the frequency of transmitters and clocks without ever drifting out of tune.',
+        },
+        role: {
+          pt: 'Inventor do oscilador de cristal de quartzo',
+          en: 'Inventor of the quartz crystal oscillator',
+        },
+        contribution: {
+          pt: 'Em 1921, Cady inventou o "Gerador de Clock", a peça de hardware essencial para sincronizar qualquer processamento de dados na história.',
+          en: 'In 1921, Cady invented the "Clock Generator", the essential hardware component for synchronizing any data processing in history.',
+        },
+        detail: {
+          pt: 'Os transmissores a válvula de 1921 aqueciam, e o metal expandia. Quando o metal expandia, a frequência do rádio "escorregava", causando interferência nas estações vizinhas. Cady pegou um pequeno cristal de quartzo. Devido à piezoeletricidade, se você der um choque elétrico no quartzo, ele vibra fisicamente; e quando ele vibra fisicamente, ele gera eletricidade. O detalhe mágico: a taxa dessa vibração é ditada puramente pela espessura da pedra, independentemente do calor ou do circuito ao redor. Cady acoplou o cristal à válvula, forçando a rede elétrica a obedecer ao ritmo imutável da rocha.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Oscilador de Quartzo é o maestro absoluto da tecnologia moderna. Sem essa invenção, não haveria relógios precisos, nem computadores. Toda CPU moderna — do processador do seu smartphone aos servidores corporativos — depende de um Cristal Oscilador microscópico soldado na placa-mãe. Quando você compra um processador rodando a "3.5 Gigahertz", o que define essa velocidade (os 3,5 bilhões de ciclos por segundo) é um circuito gerador de Clock descendente direto da patente de Cady de 1921, batendo o ritmo exato que diz aos transistores quando eles devem processar o próximo bit de dados.',
+          en: 'Valve transmitters in 1921 heated up, and the metal expanded. When the metal expanded, the radio frequency "slipped", causing interference with neighboring stations. Cady took a small quartz crystal. Because of piezoelectricity, if you shock quartz electrically, it physically vibrates; and when it physically vibrates, it generates electricity. The magical detail: the rate of that vibration is dictated purely by the thickness of the stone, independently of heat or the surrounding circuit. Cady coupled the crystal to the valve, forcing the electrical network to obey the immutable rhythm of the rock.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Quartz Oscillator is the absolute conductor of modern technology. Without this invention, there would be no precise clocks and no computers. Every modern CPU, from your smartphone processor to corporate servers, depends on a microscopic Crystal Oscillator soldered to the motherboard. When you buy a processor running at "3.5 Gigahertz", what defines that speed (3.5 billion cycles per second) is a Clock generator circuit directly descended from Cady’s 1921 patent, beating the exact rhythm that tells transistors when they must process the next bit of data.',
+        },
+      },
+      {
+        name: 'Departamento de Polícia de Detroit (Liderado pelo Comissário William P. Rutledge e pelo oficial Kenneth Cox)',
+        imagePlaceholder: YEAR_1921_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Policiais inovadores lidando com o aumento brutal da criminalidade motorizada durante a Lei Seca (Proibição). Rutledge entendeu que a polícia não conseguiria capturar criminosos de carro se usasse os velhos telefones de cabines de rua.',
+          en: 'Innovative police officers dealing with the brutal rise of motorized crime during Prohibition. Rutledge understood that police could not catch criminals in cars if they relied on old street-booth telephones.',
+        },
+        summary: {
+          pt: 'Implementaram com sucesso em 1921 a primeira rede de despacho móvel (Mobile Radio Network) do mundo, instalando aparelhos receptores de rádio maciços e delicados nos carros de patrulha Ford Model T para receber dados em tempo real da torre central (Estação KOP).',
+          en: 'Successfully implemented in 1921 the world’s first Mobile Radio Network, installing massive and delicate radio receivers in Ford Model T patrol cars to receive real-time data from the central tower (station KOP).',
+        },
+        role: {
+          pt: 'Operadores da primeira rede móvel veicular',
+          en: 'Operators of the first mobile vehicle network',
+        },
+        contribution: {
+          pt: 'Em 1921, a infraestrutura da informação desceu das torres e navios e tornou-se verdadeiramente Mobile, rodando em ruas esburacadas.',
+          en: 'In 1921, information infrastructure came down from towers and ships and became truly mobile, running on rough city streets.',
+        },
+        detail: {
+          pt: 'Colocar um rádio em um navio era fácil; colocar válvulas de vidro sensíveis em um carro de 1921 com suspensão rígida, andando em ruas de paralelepípedo, era um pesadelo de engenharia. As válvulas quebravam com os solavancos, e a ignição do motor do carro gerava tanta estática que mascarava o sinal da voz. Cox e um jovem estudante de engenharia (Robert Batts) solucionaram os problemas blindando os cabos do motor e envolvendo as válvulas em amortecedores de borracha elástica no banco de trás. Os carros passaram a receber o feed de áudio instantâneo com a localização dos crimes.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o primeiro Deploy comercial e de segurança de Edge Nodes (Nós de Borda) em movimento terrestre. O sistema da polícia de Detroit provou a viabilidade arquitetônica da Telemetria de Frota Veicular. Toda a lógica de comunicação celular que permite que o seu smartphone baixe dados dentro de um Uber a 80 km/h, bem como os sistemas GPS de despacho integrados em caminhões de logística contemporâneos, têm sua fundação neste esforço de proteger o hardware eletrônico contra as forças brutas da mobilidade urbana em 1921.',
+          en: 'Putting a radio on a ship was easy; putting sensitive glass valves in a 1921 car with stiff suspension, driving on cobblestone streets, was an engineering nightmare. The valves broke with the jolts, and the car engine ignition generated so much static that it masked the voice signal. Cox and a young engineering student (Robert Batts) solved the problems by shielding the engine cables and wrapping the valves in elastic rubber shock absorbers in the back seat. The cars began receiving an instant audio feed with crime locations.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the first commercial and public-safety deployment of Edge Nodes moving on land. The Detroit police system proved the architectural viability of Vehicle Fleet Telemetry. All cellular communication logic that lets your smartphone download data inside an Uber at 80 km/h, as well as GPS dispatch systems integrated into contemporary logistics trucks, has its foundation in this effort to protect electronic hardware against the brutal forces of urban mobility in 1921.',
+        },
+      },
+      {
+        name: 'Albert Wallace Hull',
+        imagePlaceholder: YEAR_1921_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Físico proeminente no colossal laboratório de Pesquisa da General Electric (GE). Hull era um mestre em manipular o comportamento dos elétrons sob a influência não apenas de eletricidade, mas de magnetismo severo.',
+          en: 'Prominent physicist in General Electric’s colossal research laboratory. Hull was a master at manipulating electron behavior under the influence not only of electricity, but of severe magnetism.',
+        },
+        summary: {
+          pt: 'Publicou e patenteou em 1921 o Tubo Magnetron, uma válvula termiônica revolucionária que não usava grades de arame para controlar o fluxo de energia, mas sim um poderoso campo magnético externo que forçava os elétrons a girar em espirais hipnóticas.',
+          en: 'Published and patented in 1921 the Magnetron tube, a revolutionary thermionic valve that did not use wire grids to control energy flow, but instead a powerful external magnetic field that forced electrons to spin in hypnotic spirals.',
+        },
+        role: {
+          pt: 'Inventor do magnetron',
+          en: 'Inventor of the magnetron',
+        },
+        contribution: {
+          pt: 'Em 1921, Hull inventou a "Turbina" eletromagnética, abrindo caminho para o processamento de dados usando potência bruta.',
+          en: 'In 1921, Hull invented the electromagnetic "Turbine", opening the way for data processing through brute power.',
+        },
+        detail: {
+          pt: 'A GE queria contornar as patentes da válvula Triodo da rival AT&T. Hull percebeu que, se colocasse um cátodo emissor de elétrons no centro de um cilindro e envolvesse o vidro inteiro com um ímã pesado, a força magnética entortaria a trajetória dos elétrons. Se ajustado perfeitamente, o campo magnético criava um "redemoinho" de elétrons oscilando em altíssima potência e altas frequências de forma muito eficiente, dispensando patentes concorrentes e gerando uma força avassaladora de transmissão.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Magnetron de 1921 é a semente de dois saltos gigantes da infraestrutura tecnológica. Quase vinte anos depois, britânicos aprimorariam esse exato design (criando o Magnetron de Cavidade) para gerar micro-ondas de altíssima potência, viabilizando o Radar que venceu a Segunda Guerra Mundial e a aviação moderna. E, de forma mais curiosa, é essa mesmíssima válvula magnética oscilante de alta energia inventada por Hull que hoje "roteia" micro-ondas para dentro do seu forno doméstico homônimo, esquentando a sua comida através de radiação eletromagnética bruta.',
+          en: 'GE wanted to work around the Triode valve patents held by rival AT&T. Hull realized that if he placed an electron-emitting cathode at the center of a cylinder and wrapped the entire glass tube with a heavy magnet, the magnetic force would bend the electrons’ path. If adjusted perfectly, the magnetic field created a "vortex" of electrons oscillating at very high power and high frequencies with great efficiency, bypassing competing patents and generating overwhelming transmission force.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe 1921 Magnetron is the seed of two gigantic leaps in technological infrastructure. Almost twenty years later, the British would refine this exact design (creating the Cavity Magnetron) to generate extremely high-power microwaves, enabling the Radar that helped win World War II and modern aviation. And, more curiously, this very same high-energy oscillating magnetic valve invented by Hull is what today "routes" microwaves into your domestic oven of the same name, heating your food through raw electromagnetic radiation.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1922,
+    era: {
+      pt: 'A Monetização da Rede, o Roteamento Óptico de Dados e o Fax Sem Fio Transatlântico',
+      en: 'Network Monetization, Optical Data Routing and the Transatlantic Wireless Fax',
+    },
+    context: {
+      pt: 'Em 1922, a tecnologia da informação resolve o maior problema da infraestrutura aberta: como pagar por ela. Ao mesmo tempo, a engenharia de hardware descobre como gravar som usando luz e a rede sem fio prova que pode transportar imagens pesadas através do oceano. Em Nova York, a gigante dos telefones percebe que pode alugar "tempo de transmissão" na sua antena, inaugurando o modelo de negócios de anúncios que financia a internet de hoje. Nos laboratórios cinematográficos, a genialidade óptica permite que os dados de áudio sejam impressos diretamente na fita de vídeo, resolvendo o pesadelo da sincronização mecânica e fundando o armazenamento óptico. E no Oceano Atlântico, uma fotografia de alta resolução é fatiada em código, jogada na atmosfera e reconstruída perfeitamente nos Estados Unidos, marcando a primeira transmissão intercontinental de mídia gráfica sem cabos. É o ano da "Toll Broadcasting", do sistema Phonofilm e da radiotelegrafia de imagens.',
+      en: 'In 1922, information technology solves the biggest problem of open infrastructure: how to pay for it. At the same time, hardware engineering discovers how to record sound using light, and wireless networking proves that it can carry heavy images across the ocean. In New York, the telephone giant realizes it can rent "transmission time" on its antenna, inaugurating the advertising business model that funds today’s internet. In film laboratories, optical ingenuity allows audio data to be printed directly onto the video strip, solving the nightmare of mechanical synchronization and founding optical storage. And over the Atlantic Ocean, a high-resolution photograph is sliced into code, thrown into the atmosphere and perfectly reconstructed in the United States, marking the first intercontinental transmission of graphic media without cables. It is the year of "Toll Broadcasting", the Phonofilm system and image radiotelegraphy.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'AT&T (Estação de Rádio WEAF, Nova York)',
+        imagePlaceholder: YEAR_1922_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A gigante corporativa das telecomunicações testando um novo conceito econômico chamado "Toll Broadcasting" (Transmissão com Pedágio), aplicando a lógica de cobrança das cabines telefônicas à rede pública de rádio.',
+          en: 'The corporate telecommunications giant testing a new economic concept called "Toll Broadcasting", applying the billing logic of telephone booths to the public radio network.',
+        },
+        summary: {
+          pt: 'Transmitiu em 28 de agosto de 1922 o primeiro anúncio comercial pago da história em uma rede de mídia eletrônica, cobrando 50 dólares da Queensboro Corporation por um bloco de 10 minutos para promover apartamentos em Jackson Heights.',
+          en: 'On August 28, 1922, broadcast the first paid commercial advertisement in the history of an electronic media network, charging the Queensboro Corporation 50 dollars for a 10-minute block promoting apartments in Jackson Heights.',
+        },
+        role: {
+          pt: 'Criadora do modelo de monetização por anúncio em rede',
+          en: 'Creator of the network advertising monetization model',
+        },
+        contribution: {
+          pt: 'Em 1922, a AT&T inventou o "Algoritmo de Monetização" das redes gratuitas, o ancestral direto do AdSense e dos anúncios em mídias sociais.',
+          en: 'In 1922, AT&T invented the "Monetization Algorithm" of free networks, the direct ancestor of AdSense and social-media advertising.',
+        },
+        detail: {
+          pt: 'A infraestrutura de rádio era caríssima de manter, e transmitir música de graça não dava lucro. A ideia original da Westinghouse (em 1920) era ganhar dinheiro vendendo o hardware (o rádio). A AT&T, no entanto, não queria focar no aparelho, queria focar no tráfego de dados. Eles aplicaram uma arquitetura de pedágio: qualquer pessoa com uma mensagem, uma música ou um produto poderia "alugar" a largura de banda da antena da AT&T por um tempo determinado. Eles não forneciam o conteúdo, apenas alugavam o conduíte invisível para o público cativo.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o "Big Bang" do modelo de negócios da Internet gratuita. A transmissão da WEAF em 1922 definiu que a atenção do usuário e o tempo de rede eram mercadorias vendáveis. Este é o exato modelo de negócios B2B (Business-to-Business) adotado por empresas como Google, Meta (Facebook) e YouTube hoje: a infraestrutura de dados é oferecida "gratuitamente" ao usuário final (o ouvinte), enquanto o custo de manter os servidores e a rede é pago por corporações que compram blocos de dados inseridos no feed para anunciar seus produtos.',
+          en: 'Radio infrastructure was extremely expensive to maintain, and transmitting music for free did not make a profit. Westinghouse’s original idea (in 1920) was to make money by selling the hardware (the radio). AT&T, however, did not want to focus on the device; it wanted to focus on data traffic. They applied a toll architecture: anyone with a message, a song or a product could "rent" the bandwidth of AT&T’s antenna for a defined period of time. They did not provide the content, only rented the invisible conduit to the captive audience.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the "Big Bang" of the free-internet business model. WEAF’s 1922 broadcast defined that user attention and network time were sellable commodities. This is the exact B2B (Business-to-Business) model adopted today by companies such as Google, Meta (Facebook) and YouTube: data infrastructure is offered "free" to the final user (the listener), while the cost of maintaining servers and the network is paid by corporations that buy blocks of data inserted into the feed to advertise their products.',
+        },
+      },
+      {
+        name: 'Lee de Forest',
+        imagePlaceholder: YEAR_1922_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'O implacável inventor do tubo de vácuo amplificador (Triodo), que passou anos tentando resolver o terrível gargalo de fazer o áudio andar na mesma velocidade que as imagens no cinema incipiente.',
+          en: 'The relentless inventor of the amplifying vacuum tube (Triode), who spent years trying to solve the terrible bottleneck of making audio move at the same speed as images in early cinema.',
+        },
+        summary: {
+          pt: 'Anunciou e demonstrou em 1922 o processo Phonofilm, a primeira tecnologia prática a gravar dados de som como variações ópticas transparentes impressas diretamente na margem da própria película de filme cinematográfico.',
+          en: 'Announced and demonstrated in 1922 the Phonofilm process, the first practical technology to record sound data as transparent optical variations printed directly onto the edge of the motion-picture film itself.',
+        },
+        role: {
+          pt: 'Pioneiro do armazenamento óptico de áudio',
+          en: 'Pioneer of optical audio storage',
+        },
+        contribution: {
+          pt: 'Em 1922, a TI descobriu o "Armazenamento Óptico", usando luz para gravar dados binários e analógicos de forma inseparável do vídeo.',
+          en: 'In 1922, IT discovered "Optical Storage", using light to record binary and analog data inseparably from video.',
+        },
+        detail: {
+          pt: 'Até então, tentar colocar som no cinema significava ter um projetor rodando o filme e um toca-discos mecânico separado rodando o áudio. Se o filme arrebentasse e fosse colado, as duas máquinas perdiam a sincronia para sempre (uma falha fatal de processamento paralelo). O Phonofilm de de Forest usava um microfone que convertia o som em eletricidade, que por sua vez fazia uma lâmpada piscar rapidamente. Essa luz pulsante "queimava" linhas escuras e claras na borda do próprio filme. Na hora de tocar, uma fotocélula lia essas linhas de luz e as transformava de volta em som.\n\nPor que isso entra no Hall da Fama da TI?\n\nA invenção de gravar dados alterando a transparência e a refração óptica de uma mídia é a raiz absoluta da tecnologia de Leitura a Laser. Ao forçar os dados de áudio a existirem fisicamente no mesmo substrato dos dados de vídeo, de Forest inventou a Sincronização Perfeita de Hardware. O princípio de gravar pulsos de informação que são lidos por luz em vez de agulhas magnéticas é a lógica central que a humanidade usaria sessenta anos depois para inventar os CDs (Compact Discs), DVDs e discos Blu-ray, moldando o armazenamento digital de alta capacidade do final do século XX.',
+          en: 'Until then, trying to put sound into cinema meant having a projector running the film and a separate mechanical turntable running the audio. If the film snapped and was spliced, the two machines lost synchronization forever (a fatal parallel-processing failure). de Forest’s Phonofilm used a microphone that converted sound into electricity, which in turn made a lamp flicker rapidly. This pulsing light "burned" dark and light lines onto the edge of the film itself. During playback, a photocell read those light lines and transformed them back into sound.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe invention of recording data by changing the transparency and optical refraction of a medium is the absolute root of Laser Reading technology. By forcing audio data to exist physically on the same substrate as video data, de Forest invented Perfect Hardware Synchronization. The principle of recording information pulses that are read by light instead of magnetic needles is the central logic humanity would use sixty years later to invent CDs (Compact Discs), DVDs and Blu-ray discs, shaping high-capacity digital storage at the end of the twentieth century.',
+        },
+      },
+      {
+        name: 'Arthur Korn & Marinha dos Estados Unidos',
+        imagePlaceholder: YEAR_1922_PLACEHOLDER,
+        flag: '🇩🇪 🇺🇸',
+        nationality: { pt: 'Alemão / Americanos', en: 'German / Americans' },
+        formation: {
+          pt: 'Korn era o físico que em 1907 havia estabelecido o fax através de linhas telefônicas de cobre. O desafio monumental de 1922 era fazer essa tecnologia gigantesca sobreviver ao ruído brutal de uma transmissão pelo ar intercontinental.',
+          en: 'Korn was the physicist who in 1907 had established fax transmission through copper telephone lines. The monumental challenge of 1922 was making this gigantic technology survive the brutal noise of an intercontinental over-the-air transmission.',
+        },
+        summary: {
+          pt: 'Transmitiu em 1922 a primeira fotografia transatlântica via rádio com sucesso, enviando uma imagem escaneada do Papa Pio XI de Roma, através da Alemanha, que cruzou o Oceano Atlântico até ser recebida e renderizada pela estação de rádio da Marinha em Bar Harbor, no Maine (EUA).',
+          en: 'In 1922, successfully transmitted the first transatlantic photograph by radio, sending a scanned image of Pope Pius XI from Rome, through Germany, across the Atlantic Ocean to be received and rendered by the Navy radio station in Bar Harbor, Maine (USA).',
+        },
+        role: {
+          pt: 'Pioneiros da transmissão transatlântica de imagem sem fio',
+          en: 'Pioneers of transatlantic wireless image transmission',
+        },
+        contribution: {
+          pt: 'Em 1922, a "WAN" de Imagens provou que arrays de dados visuais poderiam sobreviver a 6.000 quilômetros de atmosfera sem corromper.',
+          en: 'In 1922, the image "WAN" proved that arrays of visual data could survive 6,000 kilometers of atmosphere without corruption.',
+        },
+        detail: {
+          pt: 'Transmitir uma imagem por fios (onde a corrente é protegida) já era difícil, mas fazer isso via rádio era considerado quase impossível devido à estática e à perda de pacotes (interferência atmosférica que deixaria a imagem irreconhecível). Korn codificou a foto em um sistema onde as diferentes tonalidades de cinza eram traduzidas em letras do código Morse, transmitidas por ondas de rádio superpotentes. Do lado americano, uma máquina de escrever especial traduzia as letras de volta em pequenos blocos de tinta na ordem exata.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta transmissão destruiu a fronteira de latência da mídia rica visual. Antes deste dia de 1922, se os Estados Unidos quisessem ver uma foto de um evento histórico na Europa, a fotografia física precisava embarcar em um navio e viajar por uma semana inteira. O teste de Korn provou a viabilidade arquitetônica da Telefotografia Wireless, garantindo à imprensa global e aos governos que dados complexos poderiam ser transferidos de um continente a outro na velocidade da luz. Foi o teste embrionário da infraestrutura que nos permite, hoje, baixar um anexo de imagem em um e-mail vindo de outro continente em milissegundos.',
+          en: 'Transmitting an image by wire (where the current is protected) was already difficult, but doing it by radio was considered almost impossible because of static and packet loss (atmospheric interference that would make the image unrecognizable). Korn encoded the photo in a system where different shades of gray were translated into Morse-code letters, transmitted by superpowered radio waves. On the American side, a special typewriter translated the letters back into small ink blocks in the exact order.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis transmission destroyed the latency frontier of rich visual media. Before this day in 1922, if the United States wanted to see a photo of a historic event in Europe, the physical photograph had to board a ship and travel for an entire week. Korn’s test proved the architectural viability of Wireless Telephotography, assuring the global press and governments that complex data could be transferred from one continent to another at the speed of light. It was the embryonic test of the infrastructure that lets us today download an image attachment in an email from another continent in milliseconds.',
         },
       },
     ],
