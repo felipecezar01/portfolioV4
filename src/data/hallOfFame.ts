@@ -212,6 +212,116 @@ const YEAR_1886_PLACEHOLDER = {
   en: 'Radio Waves, Mass Text Output and AC Network Architecture\n1886',
 }
 
+const YEAR_1887_PLACEHOLDER = {
+  pt: 'O Armazenamento em Disco Plano, o Motor sem Escovas e a Luz como Dado\n1887',
+  en: 'Flat Disk Storage, the Brushless Motor and Light as Data\n1887',
+}
+
+const YEAR_1888_PLACEHOLDER = {
+  pt: 'O Armazenamento Magnético, a Arquitetura Polifásica e o Hardware Portátil de Imagem\n1888',
+  en: 'Magnetic Storage, Polyphase Architecture and Portable Image Hardware\n1888',
+}
+
+const YEAR_1889_PLACEHOLDER = {
+  pt: 'O Roteamento Autônomo, a Aritmética Recursiva e a Sincronização de Mídia\n1889',
+  en: 'Autonomous Routing, Recursive Arithmetic and Media Synchronization\n1889',
+}
+
+const YEAR_1890_PLACEHOLDER = {
+  pt: 'O Processamento do Big Data, o Sensor Sem Fio e a Captura de Vídeo\n1890',
+  en: 'Big Data Processing, the Wireless Sensor and Video Capture\n1890',
+}
+
+const YEAR_1891_PLACEHOLDER = {
+  pt: 'O Circuito Sintonizado, a Transmissão Trifásica e o Display de Vídeo\n1891',
+  en: 'The Tuned Circuit, Three-Phase Transmission and the Video Display\n1891',
+}
+
+const YEAR_1892_PLACEHOLDER = {
+  pt: 'A Impressão de Logs, o Roteador em Produção e o Colosso da Infraestrutura\n1892',
+  en: 'Log Printing, the Router in Production and the Infrastructure Colossus\n1892',
+}
+
+const YEAR_1893_PLACEHOLDER = {
+  pt: 'A Vitória da Infraestrutura AC, a Demonstração do Rádio e o Ancestral do Fax\n1893',
+  en: 'The AC Infrastructure Victory, the Radio Demonstration and the Fax Ancestor\n1893',
+}
+
+const YEAR_1894_PLACEHOLDER = {
+  pt: 'O Receptor Sem Fio, a Primeira "CPU" e o Pay-Per-View de Telas\n1894',
+  en: 'The Wireless Receiver, the First "CPU" and Screen Pay-Per-View\n1894',
+}
+
+const YEAR_1895_PLACEHOLDER = {
+  pt: 'A Telegrafia Sem Fio Prática, o Escaneamento Invisível e o Broadcast Visual\n1895',
+  en: 'Practical Wireless Telegraphy, Invisible Scanning and Visual Broadcast\n1895',
+}
+
+const YEAR_1896_PLACEHOLDER = {
+  pt: 'A Empresa Fundacional, a Patente do Rádio e a Interface de Roteamento\n1896',
+  en: 'The Foundational Company, the Radio Patent and the Routing Interface\n1896',
+}
+
+const YEAR_1897_PLACEHOLDER = {
+  pt: 'A Descoberta do "Bit" Físico, o Primeiro Monitor Eletrônico e o Provedor Wireless\n1897',
+  en: 'The Discovery of the Physical "Bit", the First Electronic Monitor and the Wireless Provider\n1897',
+}
+
+const YEAR_1898_PLACEHOLDER = {
+  pt: 'A Memória Magnética, o Controle Remoto e o Retificador de Cristal\n1898',
+  en: 'Magnetic Memory, Remote Control and the Crystal Rectifier\n1898',
+}
+
+const YEAR_1899_PLACEHOLDER = {
+  pt: 'A Rede Internacional, o Hardware Anti-Atenuação e a Linha do Tempo Visual\n1899',
+  en: 'The International Network, Anti-Attenuation Hardware and the Visual Timeline\n1899',
+}
+
+const YEAR_1900_PLACEHOLDER = {
+  pt: 'A Física Quântica, o Streaming de Áudio Sem Fio e o Conceito de Televisão\n1900',
+  en: 'Quantum Physics, Wireless Audio Streaming and the Concept of Television\n1900',
+}
+
+const YEAR_1901_PLACEHOLDER = {
+  pt: 'A Conexão Global, o Input de Dados Automatizado e o Primeiro Teclado Elétrico\n1901',
+  en: 'The Global Connection, Automated Data Input and the First Electric Keyboard\n1901',
+}
+
+const YEAR_1902_PLACEHOLDER = {
+  pt: 'O Escaneamento Fotográfico, o Espelho de Rede Global e o Resfriamento de Hardware\n1902',
+  en: 'Photographic Scanning, the Global Network Mirror and Hardware Cooling\n1902',
+}
+
+const YEAR_1903_PLACEHOLDER = {
+  pt: 'A Porta Lógica de Hardware, o Gerador de Banda Larga e a Tipagem de Dados\n1903',
+  en: 'The Hardware Logic Gate, the Broadband Generator and Data Typing\n1903',
+}
+
+const YEAR_1904_PLACEHOLDER = {
+  pt: 'A Válvula Eletrônica, o Radar Primitivo e o Feed de Dados Móvel\n1904',
+  en: 'The Electronic Valve, Primitive Radar and the Mobile Data Feed\n1904',
+}
+
+const YEAR_1905_PLACEHOLDER = {
+  pt: 'O Ano Miraculoso, a Optoeletrônica e o Roteamento Direcional\n1905',
+  en: 'The Miracle Year, Optoelectronics and Directional Routing\n1905',
+}
+
+const YEAR_1906_PLACEHOLDER = {
+  pt: 'O Amplificador Eletrônico, o Broadcast de Entretenimento e o Protocolo Global de Rede\n1906',
+  en: 'The Electronic Amplifier, Entertainment Broadcast and the Global Network Protocol\n1906',
+}
+
+const YEAR_1907_PLACEHOLDER = {
+  pt: 'A Arquitetura do Vídeo Eletrônico, a Descoberta do LED e a WAN de Imagens\n1907',
+  en: 'The Architecture of Electronic Video, the Discovery of the LED and the Image WAN\n1907',
+}
+
+const YEAR_1908_PLACEHOLDER = {
+  pt: 'A Arquitetura 100% Eletrônica, a Transmissão Assíncrona e a Antena Continental\n1908',
+  en: 'The 100% Electronic Architecture, Asynchronous Transmission and the Continental Antenna\n1908',
+}
+
 const data: HallYear[] = [
   {
     year: 1843,
@@ -4239,6 +4349,2030 @@ const data: HallYear[] = [
         detail: {
           pt: 'Os engenheiros europeus (como a equipe ZBD de 1885) já haviam criado transformadores para a rede elétrica de Corrente Alternada de Tesla. Contudo, as redes iniciais ligavam tudo em série. Se uma lâmpada ou transformador ao longo da rua quebrasse, o circuito inteiro da cidade caía — um "bug" de topologia de rede inadmissível. Financiado por Westinghouse, Stanley modificou as bobinas do transformador e mudou a arquitetura do projeto: ele pendurou os transformadores de distribuição em circuitos paralelos ao longo da rua de Great Barrington. Agora, a rede principal fluía em alta tensão (500 volts), e cada prédio "puxava" e baixava sua energia de forma independente (para 100 volts).\n\nPor que isso entra no Hall da Fama da TI?\n\nStanley resolveu o problema do Downtime (tempo de inatividade em cascata) da infraestrutura elétrica, dando início real e prático à famosa "Guerra das Correntes" contra a rede contínua de Edison. Como a infraestrutura de dados moderna (servidores, roteadores, cabos submarinos) exige uptime de 99,99%, ela precisa de uma arquitetura base de fornecimento de energia que não caia se uma ponta der defeito. O design da "Rede Paralela AC" de Stanley de 1886 provou que o fornecimento de energia poderia ser contínuo, modular, escalável e de longo alcance — os exatos pilares logísticos que hoje mantêm os imensos data centers de inteligência artificial em constante funcionamento.',
           en: 'European engineers (such as the 1885 ZBD team) had already created transformers for Tesla’s Alternating Current electrical grid. However, the early networks connected everything in series. If a lamp or transformer along the street failed, the entire city circuit went down — an inadmissible network-topology "bug". Funded by Westinghouse, Stanley modified the transformer coils and changed the project architecture: he hung distribution transformers on parallel circuits along the street in Great Barrington. Now the main grid flowed at high voltage (500 volts), and each building independently "pulled" and stepped down its own energy (to 100 volts).\n\nWhy does this belong in the IT Hall of Fame?\n\nStanley solved the downtime problem (cascading outages) of electrical infrastructure, giving real and practical start to the famous "War of the Currents" against Edison’s direct-current grid. Because modern data infrastructure (servers, routers, submarine cables) requires 99.99% uptime, it needs a base power-supply architecture that does not collapse if one endpoint fails. Stanley’s 1886 "Parallel AC Network" design proved that power delivery could be continuous, modular, scalable and long-range — the exact logistical pillars that keep today’s immense artificial intelligence data centers running constantly.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1887,
+    era: {
+      pt: 'O Armazenamento em Disco Plano, o Motor sem Escovas e a Luz como Dado',
+      en: 'Flat Disk Storage, the Brushless Motor and Light as Data',
+    },
+    context: {
+      pt: 'Em 1887, a tecnologia da informação e o hardware de suporte quebram barreiras físicas e geométricas. O armazenamento de áudio abandona os frágeis cilindros tridimensionais e adota a arquitetura de discos planos, ditando o formato físico das mídias de armazenamento pelo próximo século. Na engenharia elétrica, o motor de indução ganha vida física, provando que é possível transformar energia eletromagnética em movimento contínuo de alta velocidade sem nenhum contato mecânico interno. E, nos laboratórios de física, descobre-se acidentalmente que a própria luz tem o poder de arrancar elétrons de metais, plantando a semente quântica que daria origem a todos os sensores de imagem do futuro. É o ano do "disco rígido" primitivo, da indução AC e do efeito fotoelétrico.',
+      en: 'In 1887, information technology and its supporting hardware break physical and geometric barriers. Audio storage leaves fragile three-dimensional cylinders behind and adopts flat disk architecture, dictating the physical format of storage media for the next century. In electrical engineering, the induction motor gains physical life, proving that electromagnetic energy can be transformed into continuous high-speed motion without any internal mechanical contact. And, in physics laboratories, it is accidentally discovered that light itself has the power to tear electrons from metals, planting the quantum seed that would give rise to all future image sensors. It is the year of the primitive "hard disk", AC induction and the photoelectric effect.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Emile Berliner',
+        imagePlaceholder: YEAR_1887_PLACEHOLDER,
+        flag: '🇩🇪 🇺🇸',
+        nationality: { pt: 'Alemão-Americano', en: 'German-American' },
+        formation: {
+          pt: 'Comerciante, acústico e inventor autodidata. Imigrou para os EUA e aprendeu os princípios da física e eletricidade lendo intensamente à noite na biblioteca do Instituto Cooper, em Nova York.',
+          en: 'Merchant, acoustician and self-taught inventor. He immigrated to the United States and learned the principles of physics and electricity through intense night reading at the Cooper Institute library in New York.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1887 o Gramofone, substituindo o antigo cilindro de cera de Edison por um disco plano de zinco onde os dados acústicos eram gravados em um sulco espiral lateral.',
+          en: 'Invented and patented the Gramophone in 1887, replacing Edison’s old wax cylinder with a flat zinc disk where acoustic data was recorded in a lateral spiral groove.',
+        },
+        role: {
+          pt: 'Inventor do armazenamento em disco plano',
+          en: 'Inventor of flat disk storage',
+        },
+        contribution: {
+          pt: 'Em 1887, Berliner inventou o formato de "Disco Plano", revolucionando a geometria e a replicação massiva do armazenamento de dados.',
+          en: 'In 1887, Berliner invented the "Flat Disk" format, revolutionizing the geometry and mass replication of data storage.',
+        },
+        detail: {
+          pt: 'O Fonógrafo de Edison (1877) gravava o som afundando a agulha verticalmente em um cilindro 3D. Era difícil de armazenar e cada cilindro precisava ser gravado individualmente. Berliner transformou o eixo de gravação. Ele usou um disco totalmente plano coberto de fuligem e cera, e fez a agulha vibrar lateralmente (da esquerda para a direita) esculpindo um sulco espiral. Depois, usava ácido para corroer a linha desenhada no zinco. O pulo de gênio: esse disco de metal poderia atuar como um "Master" (Matriz) para prensar (carimbar) milhares de cópias idênticas em borracha dura ou goma-laca em segundos.\n\nPor que isso entra no Hall da Fama da TI?\n\nBerliner inventou a arquitetura em prato rotativo espiral (Platter) e o conceito de Mass Replication (replicação em massa de dados). O formato de cilindro morreu e o disco dominou o mundo. Toda a indústria de mídias circulares que veio depois — dos Discos de Vinil aos CDs, DVDs e Blu-Rays (onde um laser lê o sulco espiral microscópico), até os pratos magnéticos que giram dentro dos Discos Rígidos (HDDs) tradicionais de servidores — herdou o design físico otimizado consolidado pela patente do Gramofone de 1887.',
+          en: 'Edison’s Phonograph (1877) recorded sound by driving a needle vertically into a 3D cylinder. It was difficult to store, and each cylinder had to be recorded individually. Berliner transformed the recording axis. He used a completely flat disk covered with soot and wax, and made the needle vibrate laterally (from left to right), carving a spiral groove. He then used acid to etch the drawn line into the zinc. The genius leap: this metal disk could act as a "Master" matrix for pressing (stamping) thousands of identical copies in hard rubber or shellac within seconds.\n\nWhy does this belong in the IT Hall of Fame?\n\nBerliner invented the rotating spiral platter architecture and the concept of mass replication of data. The cylinder format died and the disk dominated the world. The entire circular-media industry that followed — from vinyl records to CDs, DVDs and Blu-rays (where a laser reads the microscopic spiral groove), all the way to the magnetic platters spinning inside traditional server hard disk drives (HDDs) — inherited the optimized physical design consolidated by the Gramophone patent of 1887.',
+        },
+      },
+      {
+        name: 'Nikola Tesla',
+        imagePlaceholder: YEAR_1887_PLACEHOLDER,
+        flag: '🇷🇸 🇭🇷',
+        nationality: { pt: 'Sérvio (Nascido no Império Austríaco, atual Croácia)', en: 'Serbian (born in the Austrian Empire, now Croatia)' },
+        formation: {
+          pt: 'Engenheiro eletricista e físico. Estudou engenharia no Instituto Politécnico de Graz, adquirindo uma capacidade quase sobre-humana de visualizar sistemas eletromagnéticos complexos em sua mente antes de construí-los.',
+          en: 'Electrical engineer and physicist. He studied engineering at the Graz Polytechnic Institute, acquiring an almost superhuman ability to visualize complex electromagnetic systems in his mind before building them.',
+        },
+        summary: {
+          pt: 'Construiu fisicamente e submeteu as patentes iniciais em 1887 (concedidas em 1888) do Motor de Indução de Corrente Alternada (AC), operando de forma perfeitamente síncrona sem o uso de comutadores mecânicos que geravam faíscas.',
+          en: 'Physically built and filed the initial patents in 1887 (granted in 1888) for the Alternating Current (AC) induction motor, operating perfectly synchronously without mechanical commutators that generated sparks.',
+        },
+        role: {
+          pt: 'Inventor do motor de indução AC',
+          en: 'Inventor of the AC induction motor',
+        },
+        contribution: {
+          pt: 'Em 1887, Tesla construiu o hardware definitivo de força motriz, usando campos magnéticos invisíveis para girar rotores sem fricção elétrica interna.',
+          en: 'In 1887, Tesla built the definitive motive-power hardware, using invisible magnetic fields to spin rotors without internal electrical friction.',
+        },
+        detail: {
+          pt: 'Os motores de corrente contínua da época exigiam "escovas" de carbono que ficavam raspando fisicamente no eixo para inverter a corrente e manter o motor girando, o que gerava calor, faíscas e manutenção constante. Tesla aplicou a sua teoria matemática do "Campo Magnético Rotativo" (de 1882). Ele posicionou bobinas ao redor do motor e enviou correntes alternadas fora de fase umas das outras. Isso criou um campo magnético que girava sozinho no espaço vazio. O bloco de metal no centro (rotor) era literalmente arrastado para girar junto por pura indução magnética, sem nenhum fio conectado a ele.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Corrente Alternada só venceu a guerra e se tornou a rede elétrica global porque o motor de Tesla de 1887 deu a ela uma utilidade industrial imbatível. Na infraestrutura de TI, o princípio "Brushless" (sem escovas) desenhado por Tesla é o que garante a estabilidade do maquinário contínuo. As ventoinhas (coolers) que evitam que o seu processador derreta, os motores que giram as fitas de backup em data centers e as bombas de refrigeração líquida de supercomputadores usam motores de indução derivados desta invenção, operando por anos a fio sem desgaste mecânico por atrito elétrico.',
+          en: 'Direct-current motors of the time required carbon "brushes" that physically scraped against the shaft to reverse the current and keep the motor spinning, generating heat, sparks and constant maintenance. Tesla applied his mathematical theory of the "Rotating Magnetic Field" (from 1882). He positioned coils around the motor and sent alternating currents out of phase with one another. This created a magnetic field that spun by itself in empty space. The metal block at the center (the rotor) was literally dragged into rotating along with it by pure magnetic induction, with no wire connected to it.\n\nWhy does this belong in the IT Hall of Fame?\n\nAlternating Current only won the war and became the global electrical grid because Tesla’s 1887 motor gave it an unbeatable industrial use. In IT infrastructure, the "Brushless" principle designed by Tesla is what guarantees the stability of continuous machinery. The fans (coolers) that keep your processor from melting, the motors that spin backup tapes in data centers and the liquid-cooling pumps of supercomputers use induction motors derived from this invention, operating for years without mechanical wear from electrical friction.',
+        },
+      },
+      {
+        name: 'Heinrich Hertz',
+        imagePlaceholder: YEAR_1887_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Físico experimental brilhante. Estudou na Universidade de Berlim (Humboldt-Universität zu Berlin), sendo um mestre absoluto em converter equações teóricas complexas em experimentos de laboratório inegáveis.',
+          en: 'Brilliant experimental physicist. He studied at the University of Berlin (Humboldt-Universität zu Berlin), becoming an absolute master at converting complex theoretical equations into undeniable laboratory experiments.',
+        },
+        summary: {
+          pt: 'Descobriu e documentou em 1887 o Efeito Fotoelétrico (durante seus testes com ondas de rádio), observando o fenômeno bizarro de que a luz ultravioleta tinha o poder físico de ejetar elétrons de superfícies metálicas.',
+          en: 'Discovered and documented the Photoelectric Effect in 1887 (during his radio-wave tests), observing the strange phenomenon that ultraviolet light had the physical power to eject electrons from metallic surfaces.',
+        },
+        role: {
+          pt: 'Descobridor do efeito fotoelétrico',
+          en: 'Discoverer of the photoelectric effect',
+        },
+        contribution: {
+          pt: 'Em 1887, Hertz descobriu a "ponte de hardware quântica" entre fótons e elétrons, a física de base de toda a optoeletrônica.',
+          en: 'In 1887, Hertz discovered the "quantum hardware bridge" between photons and electrons, the base physics of all optoelectronics.',
+        },
+        detail: {
+          pt: 'Hertz estava em sua sala escura testando o transmissor de centelha (que provou as ondas de rádio em 1886). Ele notou algo estranho: quando ele colocava uma caixa de vidro ao redor do receptor para enxergar melhor a faísca no escuro, a faísca ficava mais fraca. Ao investigar, percebeu que não era o vidro, mas a luz do sol batendo nos eletrodos que facilitava o salto da eletricidade. Ele provou que a luz ultravioleta estava batendo no metal e "arrancando" elétrons dele, carregando o ar e permitindo que a corrente elétrica fluísse com mais facilidade.\n\nPor que isso entra no Hall da Fama da TI?\n\nHertz registrou o efeito, mas ele desafiava a física clássica (seria explicado apenas em 1905 por Albert Einstein, provando a existência dos fótons e abrindo a era da mecânica quântica). Para a Tecnologia da Informação, o Efeito Fotoelétrico documentado em 1887 é o núcleo de toda captura de imagem digital. Cada pixel do sensor da câmera do seu celular funciona como um minúsculo balde quântico que aplica exatamente essa física: recebe luz do ambiente (fótons), ejeta elétrons proporcionais e converte essa carga em dados digitais de imagem.',
+          en: 'Hertz was in his dark room testing the spark transmitter (which had proved radio waves in 1886). He noticed something strange: when he placed a glass box around the receiver to see the spark better in the dark, the spark became weaker. Investigating further, he realized it was not the glass itself, but sunlight striking the electrodes, that made the electricity jump more easily. He proved that ultraviolet light was hitting the metal and "pulling" electrons out of it, charging the air and allowing electric current to flow more easily.\n\nWhy does this belong in the IT Hall of Fame?\n\nHertz recorded the effect, but it challenged classical physics (it would only be explained in 1905 by Albert Einstein, proving the existence of photons and opening the era of quantum mechanics). For information technology, the Photoelectric Effect documented in 1887 is the core of all digital image capture. Each pixel in your phone camera sensor works like a tiny quantum bucket applying exactly this physics: it receives light from the environment (photons), ejects proportional electrons and converts that charge into digital image data.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1888,
+    era: {
+      pt: 'O Armazenamento Magnético, a Arquitetura Polifásica e o Hardware Portátil de Imagem',
+      en: 'Magnetic Storage, Polyphase Architecture and Portable Image Hardware',
+    },
+    context: {
+      pt: 'Em 1888, a tecnologia da informação conceitualiza a forma de armazenamento que dominaria os computadores do futuro, padroniza a arquitetura matemática da energia global e democratiza radicalmente o input de dados visuais. Nas páginas de uma revista de engenharia, nasce a teoria revolucionária de que dados poderiam ser gravados alterando o magnetismo de um fio, plantando a semente de todos os discos rígidos e fitas de backup. Nos auditórios científicos, o sistema completo de Corrente Alternada é formalmente entregue ao mundo, estabelecendo a espinha dorsal de infraestrutura que usamos até hoje. E no mercado consumidor, a captura de imagens deixa de ser um processo de laboratório complexo para se tornar uma interface de "um clique", introduzindo a portabilidade visual para as massas. É o ano do armazenamento magnético teórico, da rede polifásica e do "point-and-shoot".',
+      en: 'In 1888, information technology conceptualizes the form of storage that would dominate the computers of the future, standardizes the mathematical architecture of global energy and radically democratizes visual data input. In the pages of an engineering magazine, the revolutionary theory is born that data could be recorded by altering the magnetism of a wire, planting the seed of all hard drives and backup tapes. In scientific auditoriums, the complete Alternating Current system is formally delivered to the world, establishing the infrastructure backbone we still use today. And in the consumer market, image capture stops being a complex laboratory process and becomes a "one-click" interface, introducing visual portability to the masses. It is the year of theoretical magnetic storage, the polyphase grid and point-and-shoot.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Oberlin Smith',
+        imagePlaceholder: YEAR_1888_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro mecânico e inventor. Estudou no West Jersey Academy e no Polytechnic College of the State of Pennsylvania, adquirindo profundo conhecimento em usinagem, prensas e metalurgia.',
+          en: 'Mechanical engineer and inventor. He studied at West Jersey Academy and the Polytechnic College of the State of Pennsylvania, acquiring deep knowledge of machining, presses and metallurgy.',
+        },
+        summary: {
+          pt: 'Publicou em 8 de setembro de 1888, na revista The Electrical World, o ensaio visionário "Some Possible Forms of Phonograph", descrevendo o princípio teórico e físico da gravação magnética de dados.',
+          en: 'Published the visionary essay "Some Possible Forms of Phonograph" on September 8, 1888, in The Electrical World, describing the theoretical and physical principle of magnetic data recording.',
+        },
+        role: {
+          pt: 'Idealizador do armazenamento magnético',
+          en: 'Conceptual founder of magnetic storage',
+        },
+        contribution: {
+          pt: 'Em 1888, Smith publicou a arquitetura do "Disco Rígido", sugerindo que a informação acústica poderia ser codificada em partículas magnéticas.',
+          en: 'In 1888, Smith published the architecture of the "Hard Disk", suggesting that acoustic information could be encoded in magnetic particles.',
+        },
+        detail: {
+          pt: 'Ao observar o fonógrafo mecânico de Edison (1877), Smith percebeu as limitações do atrito físico (agarrar e raspar cera). Ele teorizou uma interface puramente eletromagnética: em vez de cavar buracos, por que não passar um fio de aço (ou um fio de algodão coberto com poeira de aço) por um eletroímã acoplado a um microfone? A variação da voz alteraria o campo magnético, magnetizando seções do fio de forma permanente. Para reproduzir, bastava passar o fio magnetizado novamente pela bobina, gerando uma corrente que moveria um alto-falante. Sem agulha, sem desgaste físico.\n\nPor que isso entra no Hall da Fama da TI?\n\nEmbora Smith nunca tenha construído a máquina (ele estava muito ocupado com sua empresa de prensas), seu artigo de 1888 é o nascimento intelectual do Armazenamento Magnético. Quando Valdemar Poulsen construiu o primeiro gravador de fio (o Telegraphone) em 1898, e quando a IBM lançou os primeiros discos rígidos (HDDs) baseados em pratos magnéticos na década de 1950, eles estavam executando exatamente o princípio de física de materiais e manipulação de dados proposto matematicamente por Oberlin Smith neste exato ano.',
+          en: 'While observing Edison’s mechanical phonograph (1877), Smith saw the limitations of physical friction (gripping and scraping wax). He theorized a purely electromagnetic interface: instead of carving holes, why not pass a steel wire (or a cotton thread covered with steel dust) through an electromagnet coupled to a microphone? Variations in the voice would alter the magnetic field, permanently magnetizing sections of the wire. To reproduce the sound, one would simply pass the magnetized wire through the coil again, generating a current that would move a speaker. No needle, no physical wear.\n\nWhy does this belong in the IT Hall of Fame?\n\nAlthough Smith never built the machine (he was too busy with his press company), his 1888 article is the intellectual birth of Magnetic Storage. When Valdemar Poulsen built the first wire recorder (the Telegraphone) in 1898, and when IBM launched the first hard disk drives (HDDs) based on magnetic platters in the 1950s, they were executing exactly the principle of materials physics and data manipulation mathematically proposed by Oberlin Smith in this exact year.',
+        },
+      },
+      {
+        name: 'Nikola Tesla',
+        imagePlaceholder: YEAR_1888_PLACEHOLDER,
+        flag: '🇷🇸 🇭🇷',
+        nationality: { pt: 'Sérvio (Nascido no Império Austríaco, atual Croácia)', en: 'Serbian (born in the Austrian Empire, now Croatia)' },
+        formation: {
+          pt: 'Engenheiro eletricista e físico, mestre em cálculo e dinâmica de campos pelo Instituto Politécnico de Graz.',
+          en: 'Electrical engineer and physicist, master of calculus and field dynamics from the Graz Polytechnic Institute.',
+        },
+        summary: {
+          pt: 'Apresentou em 16 de maio de 1888 o artigo monumental "A New System of Alternate Current Motors and Transformers" ao AIEE (atual IEEE), entregando ao mundo a arquitetura matemática e de hardware do sistema elétrico polifásico moderno.',
+          en: 'Presented the monumental paper "A New System of Alternate Current Motors and Transformers" to the AIEE (now IEEE) on May 16, 1888, delivering to the world the mathematical and hardware architecture of the modern polyphase electrical system.',
+        },
+        role: {
+          pt: 'Arquiteto do sistema elétrico polifásico',
+          en: 'Architect of the polyphase electrical system',
+        },
+        contribution: {
+          pt: 'Em 1888, Tesla publicou o "código-fonte" final da rede elétrica global, provando que a Corrente Alternada era um ecossistema completo e superior.',
+          en: 'In 1888, Tesla published the final "source code" of the global electrical grid, proving that Alternating Current was a complete and superior ecosystem.',
+        },
+        detail: {
+          pt: 'Tesla já havia construído seu motor sem escovas em 1887, mas a apresentação de maio de 1888 diante dos maiores engenheiros dos EUA foi o momento em que ele documentou a arquitetura em escala. Ele explicou brilhantemente como gerar correntes em múltiplas fases (duas ou três correntes defasadas em tempo), como transmiti-las através de longas distâncias usando transformadores e como usá-las para criar o campo magnético rotativo perfeito em motores na ponta final. George Westinghouse estava na plateia (ou leu o artigo imediatamente após) e comprou as patentes meses depois para construir a malha elétrica americana.\n\nPor que isso entra no Hall da Fama da TI?\n\nO sistema polifásico de Tesla de 1888 é o projeto arquitetônico da infraestrutura do mundo moderno. A geração trifásica (Trifásico AC) que ele formalizou neste paper é o exato padrão que alimenta a rede global hoje. Sem essa eficiência máxima na transmissão de energia a longas distâncias, as gigantescas fazendas de servidores e data centers que hospedam a nuvem, processam bilhões de requisições de IA e mantêm a internet viva colapsariam por falta de throughput energético.',
+          en: 'Tesla had already built his brushless motor in 1887, but the May 1888 presentation before the greatest engineers in the United States was the moment when he documented the architecture at scale. He brilliantly explained how to generate currents in multiple phases (two or three currents offset in time), how to transmit them over long distances using transformers and how to use them to create the perfect rotating magnetic field in motors at the endpoint. George Westinghouse was in the audience (or read the paper immediately afterward) and bought the patents months later to build the American electrical mesh.\n\nWhy does this belong in the IT Hall of Fame?\n\nTesla’s 1888 polyphase system is the architectural project of modern-world infrastructure. The three-phase generation (three-phase AC) he formalized in this paper is the exact standard that powers the global grid today. Without this maximum efficiency in long-distance energy transmission, the gigantic server farms and data centers that host the cloud, process billions of AI requests and keep the internet alive would collapse for lack of energy throughput.',
+        },
+      },
+      {
+        name: 'George Eastman',
+        imagePlaceholder: YEAR_1888_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Empreendedor, químico amador e inventor autodidata. Deixou a escola aos 14 anos para sustentar a família trabalhando como mensageiro e, mais tarde, contador de banco, desenvolvendo um instinto cirúrgico para escalabilidade de negócios e usabilidade.',
+          en: 'Entrepreneur, amateur chemist and self-taught inventor. He left school at age 14 to support his family by working as a messenger and later as a bank clerk, developing a surgical instinct for business scalability and usability.',
+        },
+        summary: {
+          pt: 'Patenteou em 4 de setembro de 1888 (e lançou comercialmente) a câmera original Kodak, introduzindo o filme fotográfico em rolo flexível e o modelo de negócios revolucionário de separação entre input do usuário e processamento backend.',
+          en: 'Patented on September 4, 1888 (and commercially launched) the original Kodak camera, introducing flexible roll photographic film and the revolutionary business model that separated user input from backend processing.',
+        },
+        role: {
+          pt: 'Criador da câmera portátil de consumo',
+          en: 'Creator of the portable consumer camera',
+        },
+        contribution: {
+          pt: 'Em 1888, Eastman comprimiu o hardware de captura de dados visuais e inventou a interface do "Aperte um botão, nós fazemos o resto".',
+          en: 'In 1888, Eastman compressed visual data capture hardware and invented the "You press the button, we do the rest" interface.',
+        },
+        detail: {
+          pt: 'A fotografia antes de Eastman exigia o uso de placas de vidro pesadas e manipulação química no local. Usando o celuloide (patenteado em 1870 por Hyatt) modificado para carregar a emulsão seca, Eastman criou o Filme em Rolo. Ele colocou um rolo capaz de tirar 100 fotos dentro de uma caixa de madeira pequena com uma lente e um único botão. O usuário (que não precisava saber nada de química) tirava as 100 fotos e enviava a câmera inteira pelo correio para a fábrica da Kodak. Lá, os técnicos revelavam o "dataset", recarregavam a câmera e a devolviam com as imagens impressas.\n\nPor que isso entra no Hall da Fama da TI?\n\nA câmera Kodak de 1888 democratizou o Input de dados. Ela é o ancestral filosófico e logístico do hardware portátil de consumo (como o smartphone que não exige que o usuário entenda o processamento interno). Eastman criou a abstração perfeita de hardware: o usuário só lida com a interface simples (o botão), enquanto a empresa de tecnologia lida com o complexo processamento de backend (a revelação na fábrica). Esse modelo de isolar a complexidade do cliente é a exata mesma lógica por trás do Cloud Computing e dos serviços de SaaS atuais.',
+          en: 'Photography before Eastman required heavy glass plates and on-site chemical handling. Using celluloid (patented in 1870 by Hyatt) modified to carry the dry emulsion, Eastman created Roll Film. He placed a roll capable of taking 100 photos inside a small wooden box with a lens and a single button. The user (who did not need to know anything about chemistry) took the 100 photos and mailed the entire camera to the Kodak factory. There, technicians developed the "dataset", reloaded the camera and returned it with the printed images.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe 1888 Kodak camera democratized data input. It is the philosophical and logistical ancestor of portable consumer hardware (such as the smartphone, which does not require the user to understand internal processing). Eastman created the perfect hardware abstraction: the user deals only with the simple interface (the button), while the technology company handles the complex backend processing (development in the factory). This model of isolating complexity from the customer is the exact same logic behind Cloud Computing and today’s SaaS services.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1889,
+    era: {
+      pt: 'O Roteamento Autônomo, a Aritmética Recursiva e a Sincronização de Mídia',
+      en: 'Autonomous Routing, Recursive Arithmetic and Media Synchronization',
+    },
+    context: {
+      pt: 'Em 1889, a tecnologia da informação remove o fator humano de gargalos críticos, estabelece a matemática dos laços de repetição e padroniza a mídia visual contínua. Nos Estados Unidos, o ciúme comercial inspira a criação do primeiro roteador de hardware autônomo, eliminando a necessidade de telefonistas manuais. Na matemática europeia, o processo fundamental de contagem é rigorosamente formalizado, entregando à futura ciência da computação a teoria lógica por trás de qualquer algoritmo iterativo e recursivo. E, nos laboratórios de imagem, a fita de filme flexível ganha furos de tração, resolvendo o problema de sincronização mecânica da reprodução de fatias de tempo. É o ano da comutação automática de rede, dos Axiomas de Peano e do formato 35mm.',
+      en: 'In 1889, information technology removes the human factor from critical bottlenecks, establishes the mathematics of repetition loops and standardizes continuous visual media. In the United States, commercial jealousy inspires the creation of the first autonomous hardware router, eliminating the need for manual telephone operators. In European mathematics, the fundamental process of counting is rigorously formalized, giving future computer science the logical theory behind any iterative or recursive algorithm. And, in image laboratories, flexible film tape gains traction perforations, solving the problem of mechanical synchronization in the reproduction of slices of time. It is the year of automatic network switching, Peano’s Axioms and the 35mm format.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Almon Brown Strowger',
+        imagePlaceholder: YEAR_1889_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Professor, veterano militar e agente funerário. Realizou seus estudos primários e secundários em escolas locais de Penfield, Nova York. Não possuía educação superior formal em engenharia ou ciências, desenvolvendo sua genialidade eletromecânica impulsionado por uma necessidade comercial puramente prática.',
+          en: 'Teacher, military veteran and undertaker. He completed his primary and secondary studies in local schools in Penfield, New York. He had no formal higher education in engineering or science, developing his electromechanical genius from a purely practical commercial need.',
+        },
+        summary: {
+          pt: 'Concebeu e submeteu a patente no final de 1889 (US Patent 447,918, oficialmente concedida em 1891) do primeiro comutador telefônico automático (Strowger Switch), criando o ancestral mecânico dos roteadores modernos.',
+          en: 'Conceived and filed the patent in late 1889 (US Patent 447,918, officially granted in 1891) for the first automatic telephone switch (Strowger Switch), creating the mechanical ancestor of modern routers.',
+        },
+        role: {
+          pt: 'Inventor da comutação telefônica automática',
+          en: 'Inventor of automatic telephone switching',
+        },
+        contribution: {
+          pt: 'Em 1889, Strowger inventou o primeiro "roteador autônomo" para remover o viés e o gargalo humano da rede de dados.',
+          en: 'In 1889, Strowger invented the first "autonomous router" to remove human bias and bottlenecks from the data network.',
+        },
+        detail: {
+          pt: 'Strowger era um agente funerário na cidade de Kansas City e estava convencido de que estava perdendo clientes porque a telefonista local (que era esposa de seu concorrente) desviava suas ligações. Para eliminar o fator humano da rede, ele inventou um sistema genial: o telefone do usuário teria um disco gerador de pulsos elétricos. Na central, um eixo mecânico com contatos de metal receberia esses pulsos. Se você discasse "3", o eixo subia 3 degraus eletromagneticamente e fechava o circuito sozinho com a linha do destinatário exato.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o nascimento histórico do Automated Switching (Comutação Automática). Antes de 1889, toda requisição de rede exigia que um operador humano ouvisse o pedido e fisicamente conectasse um cabo (lembra do quadro de Coy em 1878?). A invenção de Strowger provou que os pacotes de informação poderiam carregar seus próprios "metadados de destino" (os pulsos elétricos do disco) e que o próprio hardware da rede poderia ler esses metadados e abrir o caminho correto autonomamente. Todo roteador de internet hoje faz eletronicamente o que as engrenagens de Strowger começaram a fazer mecanicamente naquele ano.',
+          en: 'Strowger was an undertaker in Kansas City and was convinced he was losing customers because the local telephone operator (who was the wife of his competitor) was diverting his calls. To eliminate the human factor from the network, he invented a brilliant system: the user’s telephone would have a dial that generated electrical pulses. At the exchange, a mechanical shaft with metal contacts would receive those pulses. If you dialed "3", the shaft rose 3 steps electromagnetically and closed the circuit by itself with the exact recipient’s line.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the historical birth of Automated Switching. Before 1889, every network request required a human operator to listen to the request and physically connect a cable (remember Coy’s 1878 switchboard?). Strowger’s invention proved that packets of information could carry their own "destination metadata" (the dial’s electrical pulses) and that the network hardware itself could read that metadata and autonomously open the correct path. Every internet router today electronically does what Strowger’s gears began doing mechanically in that year.',
+        },
+      },
+      {
+        name: 'Giuseppe Peano',
+        imagePlaceholder: YEAR_1889_PLACEHOLDER,
+        flag: '🇮🇹',
+        nationality: { pt: 'Italiano', en: 'Italian' },
+        formation: {
+          pt: 'Matemático brilhante e lógico formidável. Graduou-se com altas honras e obteve seu doutorado em matemática pela Universidade de Turim (Università degli Studi di Torino), na Itália, onde dedicou o resto de sua carreira como professor e pesquisador.',
+          en: 'Brilliant mathematician and formidable logician. He graduated with high honors and earned his doctorate in mathematics from the University of Turin (Università degli Studi di Torino) in Italy, where he spent the rest of his career as a professor and researcher.',
+        },
+        summary: {
+          pt: 'Publicou em 1889 o tratado em latim "Arithmetices principia, nova methodo exposita" (Os princípios da aritmética, expostos por um novo método), onde apresentou os revolucionários Axiomas de Peano.',
+          en: 'Published the Latin treatise "Arithmetices principia, nova methodo exposita" (The principles of arithmetic, presented by a new method) in 1889, where he introduced the revolutionary Peano Axioms.',
+        },
+        role: {
+          pt: 'Fundador axiomático da aritmética moderna',
+          en: 'Axiomatic founder of modern arithmetic',
+        },
+        contribution: {
+          pt: 'Em 1889, Peano criou a arquitetura lógica rigorosa que define matematicamente como as máquinas contam e iteram.',
+          en: 'In 1889, Peano created the rigorous logical architecture that mathematically defines how machines count and iterate.',
+        },
+        detail: {
+          pt: 'A matemática lidava com os números naturais de forma intuitiva há milênios, mas Peano percebeu que a lógica pura precisava de regras estruturais mais rígidas. Ele reduziu toda a base da aritmética a um conjunto minúsculo de axiomas simples. Por exemplo: "O zero é um número", "Todo número tem um sucessor lógico", e "Nenhum número tem o zero como sucessor". Com essas regras básicas encadeadas, ele conseguiu formalizar não apenas a soma e a multiplicação, mas o próprio conceito de progressão passo a passo.\n\nPor que isso entra no Hall da Fama da TI?\n\nNa Ciência da Computação teórica, a máquina não "entende" matemática, ela apenas executa passos mecânicos ou lógicos sequenciais. Os Axiomas de Peano de 1889 são a fundação absoluta da Recursividade e da teoria dos laços de repetição (os clássicos loops for e while da programação). Toda vez que um software iterativo usa uma variável contadora (como i = i + 1) para navegar por um banco de dados, ou usa indução matemática para provar que um algoritmo de ordenação funciona perfeitamente, o rigor matemático por trás desse processamento foi cimentado por Peano neste tratado.',
+          en: 'Mathematics had handled natural numbers intuitively for millennia, but Peano realized that pure logic needed stricter structural rules. He reduced the entire basis of arithmetic to a tiny set of simple axioms. For example: "Zero is a number", "Every number has a logical successor", and "No number has zero as its successor". With these basic rules chained together, he managed to formalize not only addition and multiplication, but the very concept of step-by-step progression.\n\nWhy does this belong in the IT Hall of Fame?\n\nIn theoretical computer science, the machine does not "understand" mathematics; it only executes sequential mechanical or logical steps. Peano’s 1889 Axioms are the absolute foundation of Recursiveness and the theory of repetition loops (the classic for and while loops in programming). Every time iterative software uses a counter variable (such as i = i + 1) to navigate a database, or uses mathematical induction to prove that a sorting algorithm works perfectly, the mathematical rigor behind that processing was cemented by Peano in this treatise.',
+        },
+      },
+      {
+        name: 'Thomas Alva Edison & William Kennedy Laurie Dickson',
+        imagePlaceholder: YEAR_1889_PLACEHOLDER,
+        flag: '🇺🇸 🇬🇧',
+        nationality: { pt: 'Americano / Britânico', en: 'American / British' },
+        formation: {
+          pt: 'Edison: Autodidata (já mencionado). Dickson: Fotógrafo e inventor, não frequentou uma universidade tradicional, mas recebeu uma educação rigorosa em ciências, artes e mecânica através de tutores particulares na Inglaterra, antes de imigrar para os EUA e se juntar ao laboratório de Edison.',
+          en: 'Edison: self-taught (already mentioned). Dickson: photographer and inventor, he did not attend a traditional university, but received a rigorous education in science, arts and mechanics through private tutors in England before immigrating to the United States and joining Edison’s laboratory.',
+        },
+        summary: {
+          pt: 'Eles consolidaram em 1889 a formatação física da tira de filme flexível de celuloide transparente (comprada de George Eastman) adicionando perfurações padronizadas nas laterais, dando origem ao formato 35 mm para uso no protótipo do Cinetoscópio.',
+          en: 'In 1889, they consolidated the physical formatting of the transparent flexible celluloid film strip (purchased from George Eastman) by adding standardized side perforations, giving rise to the 35 mm format for use in the Kinetoscope prototype.',
+        },
+        role: {
+          pt: 'Padronizadores da mídia visual perfurada',
+          en: 'Standardizers of perforated visual media',
+        },
+        contribution: {
+          pt: 'Em 1889, Edison e Dickson padronizaram o hardware físico de tração de dados visuais, permitindo a sincronização perfeita do vídeo.',
+          en: 'In 1889, Edison and Dickson standardized the physical traction hardware for visual data, enabling perfect video synchronization.',
+        },
+        detail: {
+          pt: 'Para fazer a imagem em movimento funcionar nas máquinas visuais, a dupla enfrentava um gargalo de hardware de rede: o filme flexível (a mídia de dados) escorregava ou rasgava ao ser puxado pelos roletes mecânicos. A solução arquitetônica foi realizar cortes retangulares exatos em ambas as bordas da fita de 35 milímetros. Isso permitiu que engrenagens dentadas (sprockets) encaixassem perfeitamente nos furos, garantindo que cada quadro de imagem fosse tracionado de forma exata e pausado na frente da lente por uma fração de segundo, sincronizando o transporte do dado físico com a luz.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste evento estabeleceu a "taxa de bits física" original da mídia visual. O filme de 35mm perfurado tornou-se o padrão mundial inquestionável da indústria do cinema e da fotografia por mais de cem anos. Mas, para a Tecnologia da Informação geral, a lógica é ainda mais profunda: a ideia de usar "furos laterais para tração mecânica perfeitamente sincronizada" seria imediatamente adotada pela indústria da computação. As fitas de papel perfurado que alimentariam as instruções dos primeiros supercomputadores (como o Colossus e o Harvard Mark I na década de 1940), e até mesmo o papel contínuo das impressoras matriciais dos anos 1980 e 1990, operaram usando essa exata mesma solução logística de hardware consolidada por Edison e Dickson em 1889.',
+          en: 'To make moving images work in visual machines, the pair faced a network-hardware bottleneck: flexible film (the data medium) slipped or tore when pulled by mechanical rollers. The architectural solution was to make exact rectangular cuts on both edges of the 35-millimeter strip. This allowed toothed gears (sprockets) to fit perfectly into the holes, ensuring that each image frame was pulled exactly and paused in front of the lens for a fraction of a second, synchronizing physical data transport with light.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis event established the original "physical bit rate" of visual media. Perforated 35mm film became the unquestioned world standard of the cinema and photography industries for more than a hundred years. But for general information technology, the logic is even deeper: the idea of using "side holes for perfectly synchronized mechanical traction" would be immediately adopted by the computing industry. The punched paper tapes that fed instructions into the first supercomputers (such as Colossus and the Harvard Mark I in the 1940s), and even the continuous paper of dot-matrix printers in the 1980s and 1990s, operated using this exact same hardware logistics solution consolidated by Edison and Dickson in 1889.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1890,
+    era: {
+      pt: 'O Processamento do Big Data, o Sensor Sem Fio e a Captura de Vídeo',
+      en: 'Big Data Processing, the Wireless Sensor and Video Capture',
+    },
+    context: {
+      pt: 'Em 1890, a tecnologia da informação sai das pranchetas e dos testes de laboratório para provar seu valor em escala continental. Nos Estados Unidos, o primeiro processamento de "Big Data" da história é executado com sucesso, reduzindo anos de trabalho humano a meses através do uso de eletricidade e cartões perfurados. Na Europa, um novo tipo de sensor resolve o problema prático da detecção de ondas de rádio, criando o componente de hardware que tornaria a comunicação sem fio viável. E nos laboratórios de Nova Jersey, o hardware de captura de imagens atinge sua maturidade mecânica, gravando com sucesso dados visuais contínuos em uma fita flexível. É o ano do deploy massivo de dados, da chave digital de radiofrequência e da câmera de vídeo funcional.',
+      en: 'In 1890, information technology leaves drawing boards and laboratory tests to prove its value at continental scale. In the United States, the first "Big Data" processing in history is successfully executed, reducing years of human work to months through the use of electricity and punched cards. In Europe, a new type of sensor solves the practical problem of detecting radio waves, creating the hardware component that would make wireless communication viable. And in New Jersey laboratories, image-capture hardware reaches mechanical maturity, successfully recording continuous visual data on flexible tape. It is the year of massive data deployment, the radio-frequency digital switch and the functional video camera.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Herman Hollerith',
+        imagePlaceholder: YEAR_1890_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro de minas e estatístico formado com excelência pela Columbia University School of Mines, em Nova York. Um mestre em unir a mecânica de precisão com o processamento lógico de dados.',
+          en: 'Mining engineer and statistician who graduated with distinction from the Columbia University School of Mines in New York. A master at uniting precision mechanics with logical data processing.',
+        },
+        summary: {
+          pt: 'Executou com sucesso, em 1890, o processamento de dados do Censo dos Estados Unidos usando suas máquinas tabuladoras eletromecânicas de cartões perfurados (cuja patente básica ele havia submetido em 1884), computando os dados de quase 63 milhões de pessoas.',
+          en: 'Successfully processed the 1890 United States Census data using his electromechanical punched-card tabulating machines (whose basic patent he had filed in 1884), computing the data of nearly 63 million people.',
+        },
+        role: {
+          pt: 'Executor do primeiro processamento de Big Data',
+          en: 'Executor of the first Big Data processing',
+        },
+        contribution: {
+          pt: 'Em 1890, Hollerith executou o primeiro "Stress Test" do processamento corporativo de informações em escala global.',
+          en: 'In 1890, Hollerith ran the first "Stress Test" of corporate information processing at global scale.',
+        },
+        detail: {
+          pt: 'Vimos que em 1884 Hollerith patenteou a ideia de ler buracos em papel com eletricidade. Mas foi o Censo de 1890 que validou a TI comercial. O governo americano estava em pânico: o censo anterior (1880) demorou 8 anos para ser tabulado à mão. A estimativa era de que o censo de 1890 demoraria mais de uma década, tornando os dados obsoletos antes mesmo de serem publicados. Hollerith alugou suas máquinas para o governo. Os recenseadores perfuravam os cartões com os atributos da população e a máquina computava dezenas de cartões por minuto. A contagem total da população foi concluída em apenas seis semanas, e a análise cruzada detalhada em alguns meses.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o nascimento inquestionável do Big Data e do Banco de Dados de hardware. O Censo de 1890 provou que as máquinas poderiam ler, armazenar e classificar informações logísticas infinitamente mais rápido e com menos erros que o cérebro humano. Essa vitória massiva garantiu fundos e fama para Hollerith, permitindo-lhe fundar a empresa (a Tabulating Machine Company) que, no século seguinte, se transformaria na toda-poderosa IBM.',
+          en: 'We saw that in 1884 Hollerith patented the idea of reading holes in paper with electricity. But it was the 1890 Census that validated commercial IT. The American government was panicking: the previous census (1880) had taken 8 years to tabulate by hand. The estimate was that the 1890 census would take more than a decade, making the data obsolete before it was even published. Hollerith leased his machines to the government. Census takers punched cards with population attributes and the machine computed dozens of cards per minute. The total population count was completed in only six weeks, and detailed cross-analysis in a few months.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the unquestionable birth of Big Data and the hardware database. The 1890 Census proved that machines could read, store and classify logistical information infinitely faster and with fewer errors than the human brain. This massive victory brought Hollerith funding and fame, allowing him to found the company (the Tabulating Machine Company) that, in the following century, would become the mighty IBM.',
+        },
+      },
+      {
+        name: 'Édouard Branly',
+        imagePlaceholder: YEAR_1890_PLACEHOLDER,
+        flag: '🇫🇷',
+        nationality: { pt: 'Francês', en: 'French' },
+        formation: {
+          pt: 'Físico e médico formidável. Obteve seus doutorados em física e medicina pela Universidade de Paris (Sorbonne), combinando pesquisa avançada em laboratório com o cargo de professor no Instituto Católico de Paris.',
+          en: 'Formidable physicist and physician. He earned doctorates in physics and medicine from the University of Paris (Sorbonne), combining advanced laboratory research with a professorship at the Catholic Institute of Paris.',
+        },
+        summary: {
+          pt: 'Inventou e apresentou em 1890 o Coesor (Coherer), o primeiro sensor de estado sólido prático e de alta sensibilidade para detectar ondas eletromagnéticas (ondas de rádio) a longas distâncias.',
+          en: 'Invented and presented the Coherer in 1890, the first practical, highly sensitive solid-state sensor for detecting electromagnetic waves (radio waves) over long distances.',
+        },
+        role: {
+          pt: 'Inventor do primeiro sensor prático de rádio',
+          en: 'Inventor of the first practical radio sensor',
+        },
+        contribution: {
+          pt: 'Em 1890, Branly inventou o "interruptor invisível", o hardware que faltava para receber mensagens sem fio de forma confiável.',
+          en: 'In 1890, Branly invented the "invisible switch", the missing hardware for reliably receiving wireless messages.',
+        },
+        detail: {
+          pt: 'Quando Heinrich Hertz provou a existência das ondas de rádio (1886), seu "receptor" era apenas um aro de metal onde uma faísca microscópica saltava. Era impossível usar isso na prática. Branly descobriu um princípio bizarro da física de materiais: ele encheu um pequeno tubo de vidro com limalha (pó) de ferro e zinco. Em estado normal, o pó não conduzia eletricidade. Mas quando uma onda de rádio atingia o tubo (mesmo gerada em outra sala), o campo magnético forçava a limalha a se alinhar e "coesa", caindo a resistência a zero e fechando o circuito, o que permitia ligar uma campainha. Para "resetar" o sensor, bastava um pequeno martelo bater no vidro para bagunçar o pó novamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Coesor de Branly é a primeira antena/receptor de rádio comercial do mundo. Ele agia exatamente como uma "porta lógica" rudimentar acionada por Wi-Fi primitivo (Onda = 1, Sem onda = 0). Foi usando o Coesor de vidro de Branly que gênios como Guglielmo Marconi e Alexander Popov conseguiram construir os primeiros telégrafos sem fio nos anos seguintes, viabilizando as comunicações de rádio de longa distância e fundando as bases para todas as telecomunicações via ar do século XX.',
+          en: 'When Heinrich Hertz proved the existence of radio waves (1886), his "receiver" was only a metal loop where a microscopic spark jumped. It was impossible to use in practice. Branly discovered a strange principle of materials physics: he filled a small glass tube with iron and zinc filings (powder). In its normal state, the powder did not conduct electricity. But when a radio wave hit the tube (even one generated in another room), the magnetic field forced the filings to align and "cohere", dropping the resistance to zero and closing the circuit, which could ring a bell. To "reset" the sensor, a small hammer simply tapped the glass to disorder the powder again.\n\nWhy does this belong in the IT Hall of Fame?\n\nBranly’s Coherer is the world’s first commercial radio antenna/receiver. It acted exactly like a rudimentary logic gate triggered by primitive Wi-Fi (Wave = 1, No wave = 0). Using Branly’s glass Coherer, geniuses such as Guglielmo Marconi and Alexander Popov were able to build the first wireless telegraphs in the following years, enabling long-distance radio communications and founding the basis for all over-the-air telecommunications of the twentieth century.',
+        },
+      },
+      {
+        name: 'William Kennedy Laurie Dickson (sob a direção de Thomas Edison)',
+        imagePlaceholder: YEAR_1890_PLACEHOLDER,
+        flag: '🇬🇧 🇺🇸',
+        nationality: { pt: 'Britânico-Americano', en: 'British-American' },
+        formation: {
+          pt: 'Engenheiro mecânico e fotógrafo de precisão. Educado por tutores particulares na Europa antes de imigrar para os EUA, tornou-se o principal responsável pela pesquisa audiovisual secreta nos laboratórios da Edison.',
+          en: 'Mechanical engineer and precision photographer. Educated by private tutors in Europe before immigrating to the United States, he became the main figure responsible for secret audiovisual research in Edison’s laboratories.',
+        },
+        summary: {
+          pt: 'Construiu e testou com sucesso no final de 1890 (no laboratório "Black Maria", em Nova Jersey) o Kinetograph em sua forma de rolo contínuo, a primeira câmera de filme fotográfico em tira mecanicamente viável da história.',
+          en: 'Successfully built and tested, in late 1890 (at the "Black Maria" laboratory in New Jersey), the Kinetograph in its continuous-roll form, the first mechanically viable strip-film photographic camera in history.',
+        },
+        role: {
+          pt: 'Construtor da primeira câmera de vídeo funcional',
+          en: 'Builder of the first functional video camera',
+        },
+        contribution: {
+          pt: 'Em 1890, Dickson construiu a máquina de "Write Data" visual de alta velocidade, registrando o primeiro fluxo de vídeo ininterrupto do mundo.',
+          en: 'In 1890, Dickson built the high-speed visual "Write Data" machine, recording the world’s first uninterrupted video stream.',
+        },
+        detail: {
+          pt: 'Vimos que em 1889, Dickson e Edison padronizaram o formato do filme de 35mm com furos laterais. Mas fatiar e furar o filme era a parte fácil. O verdadeiro desafio mecânico era construir o hardware que puxasse esse filme, o paralisasse por uma fração de segundo exata, abrisse o obturador, expusesse a luz e o puxasse novamente, tudo isso mais de 40 vezes por segundo sem rasgar o frágil celuloide. No final de 1890, usando um sistema de escape acionado por um motor elétrico, Dickson conseguiu gravar as primeiras imagens contínuas no formato de tira (os curtas de teste experimentais, como "Monkeyshines", foram gravados durante esse período de refinamento da máquina).\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o marco zero da codificação de vídeo e do hardware de captura óptica. O Kinetograph funcional de 1890 provou que uma máquina de precisão poderia "amostrar" (Sample) a realidade em dezenas de Quadros Por Segundo (FPS) de forma robusta e contínua, guardando esse arquivo visual no espaço físico do filme. Cada câmera de cinema digital, sensor de webcam ou lente de smartphone que grava um vídeo para o YouTube ou TikTok executa hoje o equivalente eletrônico do laço de repetição mecânico que Dickson e Edison domaram definitivamente neste ano.',
+          en: 'We saw that in 1889, Dickson and Edison standardized the 35mm film format with side perforations. But slicing and perforating the film was the easy part. The real mechanical challenge was to build hardware that pulled this film, stopped it for an exact fraction of a second, opened the shutter, exposed the light and pulled it again, all more than 40 times per second without tearing the fragile celluloid. By late 1890, using an escapement system driven by an electric motor, Dickson managed to record the first continuous images in strip format (experimental test shorts, such as "Monkeyshines", were recorded during this period of machine refinement).\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the zero point of video encoding and optical capture hardware. The functional 1890 Kinetograph proved that a precision machine could "sample" reality at dozens of Frames Per Second (FPS) in a robust and continuous way, storing that visual file in the physical space of film. Every digital cinema camera, webcam sensor or smartphone lens that records a video for YouTube or TikTok today executes the electronic equivalent of the mechanical repetition loop that Dickson and Edison definitively tamed in this year.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1891,
+    era: {
+      pt: 'O Circuito Sintonizado, a Transmissão Trifásica e o Display de Vídeo',
+      en: 'The Tuned Circuit, Three-Phase Transmission and the Video Display',
+    },
+    context: {
+      pt: 'Em 1891, a tecnologia da informação expande a manipulação do espectro eletromagnético, consolida a distribuição de energia continental e apresenta a primeira interface física de reprodução de vídeo ao público. Nos laboratórios americanos, a invenção de um transformador ressonante permite domar as altas frequências, criando o conceito de "sintonia" que viabilizaria todo o rádio moderno. Na Europa, a Corrente Alternada trifásica viaja quase 200 quilômetros com sucesso absoluto, provando que é possível criar uma malha energética interligada para sustentar o futuro maquinário pesado do planeta. E, complementando o hardware de gravação do ano anterior, surge a máquina de reprodução visual, o primeiro "monitor" de vídeo de uso individual da história. É o ano do tuning de rádio, do deploy do cabo de alta tensão e do output visual dinâmico.',
+      en: 'In 1891, information technology expands the manipulation of the electromagnetic spectrum, consolidates continental energy distribution and presents the first physical video-playback interface to the public. In American laboratories, the invention of a resonant transformer makes it possible to tame high frequencies, creating the concept of "tuning" that would enable all modern radio. In Europe, three-phase Alternating Current travels almost 200 kilometers with complete success, proving that an interconnected energy mesh can sustain the planet’s future heavy machinery. And, complementing the recording hardware of the previous year, the visual playback machine appears: the first individual-use video "monitor" in history. It is the year of radio tuning, high-voltage cable deployment and dynamic visual output.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Nikola Tesla',
+        imagePlaceholder: YEAR_1891_PLACEHOLDER,
+        flag: '🇷🇸 🇭🇷',
+        nationality: { pt: 'Sérvio (Nascido no Império Austríaco, atual Croácia)', en: 'Serbian (born in the Austrian Empire, now Croatia)' },
+        formation: {
+          pt: 'Engenheiro eletricista e físico, mestre em cálculo diferencial e dinâmica de campos pelo Instituto Politécnico de Graz. Um gênio na visualização de arquiteturas eletromagnéticas.',
+          en: 'Electrical engineer and physicist, a master of differential calculus and field dynamics through the Graz Polytechnic Institute. A genius at visualizing electromagnetic architectures.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1891 a Bobina de Tesla (Tesla Coil), o primeiro transformador ressonante de alta frequência, criando a base física do circuito sintonizado (circuito LC) para manipulação de ondas eletromagnéticas.',
+          en: 'Invented and patented the Tesla Coil in 1891, the first high-frequency resonant transformer, creating the physical basis of the tuned circuit (LC circuit) for manipulating electromagnetic waves.',
+        },
+        role: {
+          pt: 'Inventor do transformador ressonante de alta frequência',
+          en: 'Inventor of the high-frequency resonant transformer',
+        },
+        contribution: {
+          pt: 'Em 1891, Tesla inventou o hardware de "sintonia", permitindo que as máquinas escolhessem qual canal invisível de dados queriam ouvir.',
+          en: 'In 1891, Tesla invented the "tuning" hardware, allowing machines to choose which invisible data channel they wanted to listen to.',
+        },
+        detail: {
+          pt: 'A Bobina de Tesla ficou famosa por atirar raios bonitos, mas sua importância para a TI é invisível. Até então, as faíscas de rádio (como as de Hertz) cuspiam ruído eletromagnético em todas as frequências ao mesmo tempo, um caos incontrolável. Tesla combinou um capacitor (que armazena energia) e um indutor (que cria campo magnético) de tal forma que a eletricidade oscilava entre eles em uma frequência matemática exata e controlada. Ele criou o fenômeno da "Ressonância Elétrica", fazendo o circuito vibrar em alta frequência assim como uma taça de cristal vibra em uma nota musical específica.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a ressonância dominada por Tesla em 1891, o rádio, a televisão, os celulares e o Wi-Fi seriam uma bagunça de interferência mútua, com um sinal atropelando o outro. O princípio do circuito ressonante é o que permite a seletividade de dados. É a razão pela qual você pode ligar o Bluetooth do seu fone (que opera em 2.4 GHz) e ele não se confunde com o sinal da torre de celular (que opera em outra frequência). O conceito de sintonizar uma antena em uma frequência específica de transmissão de dados nasceu matematicamente e fisicamente nesta patente.',
+          en: 'The Tesla Coil became famous for throwing beautiful lightning, but its importance for IT is invisible. Until then, radio sparks (such as Hertz’s) sprayed electromagnetic noise across all frequencies at once, an uncontrollable chaos. Tesla combined a capacitor (which stores energy) and an inductor (which creates a magnetic field) in such a way that electricity oscillated between them at an exact, controlled mathematical frequency. He created the phenomenon of "Electrical Resonance", making the circuit vibrate at high frequency just as a crystal glass vibrates at one specific musical note.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout the resonance mastered by Tesla in 1891, radio, television, cell phones and Wi-Fi would be a mess of mutual interference, with one signal running over the other. The principle of the resonant circuit is what enables data selectivity. It is the reason you can turn on your headphones’ Bluetooth (operating at 2.4 GHz) and it does not get confused with a cell tower signal (operating at another frequency). The concept of tuning an antenna to a specific data-transmission frequency was born mathematically and physically in this patent.',
+        },
+      },
+      {
+        name: 'Mikhail Dolivo-Dobrovolsky',
+        imagePlaceholder: YEAR_1891_PLACEHOLDER,
+        flag: '🇷🇺',
+        nationality: { pt: 'Russo (Naturalizado Suíço/Alemão)', en: 'Russian (naturalized Swiss/German)' },
+        formation: {
+          pt: 'Engenheiro elétrico brilhante. Após ser expulso do Instituto Politécnico de Riga (por motivos políticos), completou sua formação com honras na Universidade Técnica de Darmstadt, na Alemanha, revolucionando a matemática da engenharia de potência.',
+          en: 'Brilliant electrical engineer. After being expelled from the Riga Polytechnic Institute for political reasons, he completed his training with honors at the Technical University of Darmstadt in Germany, revolutionizing the mathematics of power engineering.',
+        },
+        summary: {
+          pt: 'Projetou e operou em 24 de agosto de 1891, durante a Exposição Eletrotécnica Internacional de Frankfurt, a primeira transmissão de Corrente Alternada (AC) trifásica de longa distância (Lauffen-Frankfurt), cobrindo incríveis 175 quilômetros.',
+          en: 'Designed and operated, on August 24, 1891, during the International Electrotechnical Exhibition in Frankfurt, the first long-distance three-phase Alternating Current (AC) transmission (Lauffen-Frankfurt), covering an incredible 175 kilometers.',
+        },
+        role: {
+          pt: 'Executor da primeira transmissão trifásica de longa distância',
+          en: 'Executor of the first long-distance three-phase transmission',
+        },
+        contribution: {
+          pt: 'Em 1891, Dolivo-Dobrovolsky executou o teste prático de estresse da rede elétrica, criando o protocolo de distribuição que alimenta o mundo atual.',
+          en: 'In 1891, Dolivo-Dobrovolsky ran the practical stress test of the electrical grid, creating the distribution protocol that powers today’s world.',
+        },
+        detail: {
+          pt: 'A ideia matemática de campos rotativos e fases múltiplas já havia sido delineada por Tesla, mas Dolivo-Dobrovolsky foi o engenheiro prático que percebeu que o sistema de três fases (trifásico) era o ponto ótimo absoluto da física: ele exigia menos cobre e gerava um fluxo de energia perfeitamente constante. Para provar sua tese diante do mundo cético, ele construiu geradores em Lauffen, elevou a tensão para perigosos 15.000 Volts usando transformadores, e transmitiu essa energia por 175 km de fios cruzando a Alemanha para acender mil lâmpadas e girar uma cachoeira artificial na exposição em Frankfurt. A eficiência de transmissão chegou a estonteantes 75%.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste evento de 1891 acabou com o debate sobre como a energia global deveria ser estruturada. O sucesso absoluto do sistema de Frankfurt tornou a Geração Trifásica (Three-Phase Power) o padrão global inquestionável da infraestrutura. Todos os computadores, desde o seu notebook até os gigantescos Data Centers do Google e da Amazon, dependem das torres de alta tensão e da entrega de energia confiável projetada, pela primeira vez em longa distância, neste experimento monumental na Alemanha.',
+          en: 'The mathematical idea of rotating fields and multiple phases had already been outlined by Tesla, but Dolivo-Dobrovolsky was the practical engineer who realized that the three-phase system was the absolute physical optimum: it required less copper and generated a perfectly constant energy flow. To prove his thesis before a skeptical world, he built generators in Lauffen, raised the voltage to a dangerous 15,000 volts using transformers and transmitted that energy across 175 km of wires through Germany to light a thousand lamps and drive an artificial waterfall at the Frankfurt exhibition. Transmission efficiency reached an astonishing 75%.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis 1891 event ended the debate over how global energy should be structured. The complete success of the Frankfurt system made three-phase power the unquestioned global standard for infrastructure. Every computer, from your notebook to the gigantic data centers of Google and Amazon, depends on high-voltage towers and reliable energy delivery first proven over long distance in this monumental German experiment.',
+        },
+      },
+      {
+        name: 'Thomas Alva Edison & William Kennedy Laurie Dickson',
+        imagePlaceholder: YEAR_1891_PLACEHOLDER,
+        flag: '🇺🇸 🇬🇧',
+        nationality: { pt: 'Americano / Britânico', en: 'American / British' },
+        formation: {
+          pt: 'Edison: Autodidata (foco em estratégia e comercialização). Dickson: Fotógrafo e inventor de precisão educado por tutores na Europa (o verdadeiro arquiteto mecânico por trás do maquinário visual do laboratório).',
+          en: 'Edison: self-taught, focused on strategy and commercialization. Dickson: precision photographer and inventor educated by tutors in Europe, the true mechanical architect behind the laboratory’s visual machinery.',
+        },
+        summary: {
+          pt: 'Apresentaram ao público em 20 de maio de 1891 o primeiro protótipo funcional do Cinetoscópio (Kinetoscope), o hardware dedicado à reprodução fluida do filme flexível perfurado.',
+          en: 'Presented to the public on May 20, 1891, the first functional prototype of the Kinetoscope, the hardware dedicated to the fluid playback of perforated flexible film.',
+        },
+        role: {
+          pt: 'Criadores do primeiro display individual de vídeo',
+          en: 'Creators of the first individual video display',
+        },
+        contribution: {
+          pt: 'Em 1891, Edison e Dickson lançaram o primeiro dispositivo de "Output" de vídeo, permitindo a visualização dos dados em formato contínuo.',
+          en: 'In 1891, Edison and Dickson launched the first video "Output" device, enabling data to be viewed in continuous form.',
+        },
+        detail: {
+          pt: 'No ano anterior (1890), Dickson havia resolvido o gargalo de gravar o vídeo com a câmera (Kinetograph). Em 1891, eles apresentaram a máquina de leitura. O Cinetoscópio não projetava a imagem na parede; ele era uma grande caixa de madeira onde uma única pessoa espiava através de um visor com lentes de aumento. O filme corria continuamente sobre um sistema complexo de polias sob uma lâmpada. O segredo mágico era um disco giratório com uma fenda estreita (o obturador) que passava rapidamente entre a luz e os olhos do usuário dezenas de vezes por segundo, congelando visualmente o quadro em movimento e removendo o "borrão" da imagem correndo.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o ancestral conceitual do monitor de computador e do display individual. Enquanto o cinema mais tarde se tornaria uma experiência coletiva (como o broadcast de TV), o Cinetoscópio de 1891 era uma experiência de Interface de Usuário (User Interface - UI) totalmente individual e imersiva: uma pessoa olhando diretamente para um hardware de exibição em um ambiente escuro para consumir uma mídia. É a premissa comportamental de uso que nós replicamos hoje toda vez que seguramos o smartphone perto do rosto para assistir a um vídeo no Instagram ou no YouTube.',
+          en: 'In the previous year (1890), Dickson had solved the bottleneck of recording video with the camera (Kinetograph). In 1891, they presented the reading machine. The Kinetoscope did not project the image onto a wall; it was a large wooden box where a single person peered through a viewer with magnifying lenses. The film ran continuously over a complex system of pulleys beneath a lamp. The magical secret was a rotating disk with a narrow slit (the shutter) that passed rapidly between the light and the user’s eyes dozens of times per second, visually freezing the moving frame and removing the blur of the running image.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the conceptual ancestor of the computer monitor and the individual display. While cinema would later become a collective experience (like TV broadcast), the 1891 Kinetoscope was a fully individual and immersive User Interface (UI) experience: one person looking directly into display hardware in a dark environment to consume media. It is the behavioral premise we replicate today every time we hold a smartphone close to our face to watch a video on Instagram or YouTube.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1892,
+    era: {
+      pt: 'A Impressão de Logs, o Roteador em Produção e o Colosso da Infraestrutura',
+      en: 'Log Printing, the Router in Production and the Infrastructure Colossus',
+    },
+    context: {
+      pt: 'Em 1892, a tecnologia da informação atinge a maturidade do "deploy" prático, tirando invenções cruciais do papel e colocando-as em produção comercial. No processamento de dados, o hardware financeiro ganha memória persistente, imprimindo pela primeira vez os resultados dos cálculos mecânicos em fita de papel. Nas redes de comunicação, o primeiro comutador autônomo é finalmente ligado em uma cidade americana, inaugurando a era do roteamento sem intervenção humana em ambiente real. E nos bastidores financeiros e logísticos, a engenharia elétrica vê a fusão das suas maiores empresas, criando o colosso corporativo que garantiria a escalabilidade massiva da infraestrutura de energia para o século XX. É o ano do log impresso, da rede autônoma comercial e do nascimento da General Electric.',
+      en: 'In 1892, information technology reaches the maturity of practical "deployment", taking crucial inventions off paper and putting them into commercial production. In data processing, financial hardware gains persistent memory, printing the results of mechanical calculations on paper tape for the first time. In communication networks, the first autonomous switch is finally turned on in an American city, inaugurating the era of routing without human intervention in a real environment. And behind the financial and logistical scenes, electrical engineering sees the merger of its largest companies, creating the corporate colossus that would guarantee massive scalability for twentieth-century energy infrastructure. It is the year of the printed log, the commercial autonomous network and the birth of General Electric.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'William Seward Burroughs',
+        imagePlaceholder: YEAR_1892_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Bancário e mecânico de precisão. Formou-se apenas no ensino básico e secundário nas escolas públicas de Auburn, Nova York, não possuindo diploma universitário. Adquiriu sua maestria em engenharia mecânica de forma prática trabalhando em oficinas e lidando com peças de altíssima precisão.',
+          en: 'Bank clerk and precision mechanic. He completed only primary and secondary education in the public schools of Auburn, New York, and had no university degree. He acquired his mastery of mechanical engineering practically, working in workshops and handling extremely precise parts.',
+        },
+        summary: {
+          pt: 'Recebeu em 24 de maio de 1892 a patente final (US Patent 475,411) para sua Máquina de Somar e Listar, o primeiro computador mecânico comercialmente robusto que não apenas calculava, mas imprimia as entradas e os resultados em uma fita de papel contínua.',
+          en: 'Received, on May 24, 1892, the final patent (US Patent 475,411) for his Adding and Listing Machine, the first commercially robust mechanical computer that not only calculated, but printed inputs and results on a continuous paper tape.',
+        },
+        role: {
+          pt: 'Inventor do data logging impresso',
+          en: 'Inventor of printed data logging',
+        },
+        contribution: {
+          pt: 'Em 1892, Burroughs inventou o "Data Logging" contínuo para o processamento corporativo, criando o ancestral da impressora de logs.',
+          en: 'In 1892, Burroughs invented continuous "Data Logging" for corporate processing, creating the ancestor of the log printer.',
+        },
+        detail: {
+          pt: 'Até este ponto, a maioria dos computadores mecânicos (como o Comptometer de 1885) exibia o resultado apenas em um painel visual. Se o operador digitasse um número errado no meio de centenas de somas, era impossível rastrear o erro. Burroughs, que havia sido um contador bancário exausto por falhas humanas, resolveu o problema acoplando um mecanismo de impressão à CPU mecânica. Ao puxar a alavanca, a máquina não apenas somava os números nas engrenagens internas, mas carimbava a tinta o input numérico exato na fita de papel, criando um histórico audível e visível.\n\nPor que isso entra no Hall da Fama da TI?\n\nBurroughs introduziu o conceito de Auditoria de Dados e Output Persistente no processamento de informações financeiras. A fita de papel tornou-se o registro inegável (log) de tudo o que a máquina e o usuário haviam feito. Esse casamento perfeito entre o processamento matemático e a impressão física deu origem imediata às máquinas modernas de contabilidade e é o tataravô arquitetônico das impressoras de recibos de PDV (Ponto de Venda), caixas eletrônicos e dos próprios arquivos de "Log" gerados pelo seu sistema operacional hoje para relatar exatamente quais comandos foram executados.',
+          en: 'Until this point, most mechanical computers (such as the 1885 Comptometer) displayed the result only on a visual panel. If the operator typed a wrong number in the middle of hundreds of additions, it was impossible to trace the error. Burroughs, who had been a bank clerk exhausted by human mistakes, solved the problem by coupling a printing mechanism to the mechanical CPU. When the lever was pulled, the machine not only added the numbers inside its internal gears, but stamped the exact numerical input in ink on the paper tape, creating an audible and visible history.\n\nWhy does this belong in the IT Hall of Fame?\n\nBurroughs introduced the concept of Data Auditing and Persistent Output into financial information processing. The paper tape became the undeniable record (log) of everything the machine and the user had done. This perfect marriage between mathematical processing and physical printing immediately gave rise to modern accounting machines and is the architectural great-great-grandfather of point-of-sale receipt printers, ATMs and the "Log" files generated by your operating system today to report exactly which commands were executed.',
+        },
+      },
+      {
+        name: 'Almon Brown Strowger',
+        imagePlaceholder: YEAR_1892_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Professor, veterano militar e agente funerário. Formou-se no ensino básico e secundário nas escolas públicas do condado de Monroe, em Penfield, Nova York. Sem formação superior em engenharia elétrica, ele moveu-se estritamente pela necessidade de resolver um problema comercial de sua funerária.',
+          en: 'Teacher, military veteran and undertaker. He completed primary and secondary education in the public schools of Monroe County, in Penfield, New York. Without higher education in electrical engineering, he moved strictly from the need to solve a commercial problem in his funeral business.',
+        },
+        summary: {
+          pt: 'Inaugurou em 3 de novembro de 1892, na cidade de La Porte, Indiana, a primeira central telefônica automática comercial do mundo, colocando seu roteador eletromecânico (patenteado no ano anterior) oficialmente em operação para o público geral.',
+          en: 'Inaugurated, on November 3, 1892, in La Porte, Indiana, the world’s first commercial automatic telephone exchange, officially putting his electromechanical router (patented the previous year) into operation for the general public.',
+        },
+        role: {
+          pt: 'Operador do primeiro roteador telefônico comercial',
+          en: 'Operator of the first commercial telephone router',
+        },
+        contribution: {
+          pt: 'Em 1892, Strowger executou o primeiro deploy bem-sucedido de uma rede local autônoma, provando que as máquinas poderiam rotear dados sozinhas em um ambiente urbano.',
+          en: 'In 1892, Strowger executed the first successful deployment of an autonomous local network, proving that machines could route data by themselves in an urban environment.',
+        },
+        detail: {
+          pt: 'A teoria da invenção de Strowger já estava patenteada, mas uma patente não é uma infraestrutura real. Em novembro de 1892, o sistema foi fisicamente ligado para servir cerca de 75 assinantes reais em La Porte, conectando empresas e residências. A figura da telefonista humana — o clássico gargalo manual da TI da época — foi completamente eliminada do circuito local. Para realizar uma chamada, o usuário pressionava botões em seu aparelho (que representavam centenas, dezenas e unidades), enviando pulsos elétricos para o prédio da central. Lá, os cilindros eletromagnéticos giravam com cliques altos, cruzando matrizes de cobre até plugar fisicamente a ligação no vizinho correto de forma autônoma.\n\nPor que isso entra no Hall da Fama da TI?\n\nFoi a primeira vez na história que cidadãos comuns interagiram com um sistema de comutação 100% autônomo. O evento de La Porte de 1892 provou ao mercado global que a automação do roteamento era um produto comercial viável, perfeitamente escalável e infinitamente mais privado e rápido que a mente humana. É o nascimento efetivo da malha de rede LAN mecânica posta em produção. A lógica rigorosa de pulsos usada para abrir caminhos nessa central dominaria as telecomunicações por quase um século, pavimentando a rodovia lógica para as modernas tabelas de roteamento digital.',
+          en: 'The theory of Strowger’s invention had already been patented, but a patent is not real infrastructure. In November 1892, the system was physically turned on to serve about 75 real subscribers in La Porte, connecting businesses and homes. The figure of the human telephone operator, the classic manual bottleneck of the era’s IT, was completely removed from the local circuit. To make a call, the user pressed buttons on the device (representing hundreds, tens and units), sending electrical pulses to the exchange building. There, electromagnetic cylinders rotated with loud clicks, crossing copper matrices until they physically plugged the call into the correct neighbor autonomously.\n\nWhy does this belong in the IT Hall of Fame?\n\nIt was the first time in history that ordinary citizens interacted with a 100% autonomous switching system. The La Porte event of 1892 proved to the global market that routing automation was a viable commercial product, perfectly scalable and infinitely more private and faster than the human mind. It is the effective birth of the mechanical LAN network mesh put into production. The rigorous pulse logic used to open paths in this exchange would dominate telecommunications for almost a century, paving the logical road toward modern digital routing tables.',
+        },
+      },
+      {
+        name: 'John Pierpont (J.P.) Morgan & Charles A. Coffin',
+        imagePlaceholder: YEAR_1892_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Morgan: Formou-se em história da arte e matemática pela Universidade de Göttingen, na Alemanha, trazendo um rigor numérico frio e calculista para as finanças mundiais. Coffin: Empresário e administrador industrial habilidoso, formou-se em ensino secundário de excelência na Bloomfield Academy, no Maine.',
+          en: 'Morgan: trained in art history and mathematics at the University of Göttingen in Germany, bringing cold, calculating numerical rigor to world finance. Coffin: skilled businessman and industrial administrator, educated in an excellent secondary program at Bloomfield Academy in Maine.',
+        },
+        summary: {
+          pt: 'Orquestraram e finalizaram a fusão corporativa histórica em 15 de abril de 1892 entre a Edison General Electric Company e a Thomson-Houston Electric Company, fundando o império tecnológico e industrial General Electric (GE).',
+          en: 'Orchestrated and finalized the historic corporate merger on April 15, 1892, between Edison General Electric Company and Thomson-Houston Electric Company, founding the technological and industrial empire General Electric (GE).',
+        },
+        role: {
+          pt: 'Arquitetos corporativos da infraestrutura elétrica em escala',
+          en: 'Corporate architects of electrical infrastructure at scale',
+        },
+        contribution: {
+          pt: 'Em 1892, o mercado financeiro criou a megaestrutura corporativa necessária para escalar fisicamente a matriz energética que sustentaria toda a tecnologia do século XX.',
+          en: 'In 1892, financial markets created the corporate megastructure needed to physically scale the energy matrix that would sustain all twentieth-century technology.',
+        },
+        detail: {
+          pt: 'A invenção da tecnologia elétrica (Edison, Tesla, Thomson) estava fervilhando, mas esbarrava no monumental gargalo do capital e da capacidade de produção em massa. Edison era um gênio da invenção, mas teimosamente preso à ineficiente Corrente Contínua (DC). J.P. Morgan, agindo como o maior investidor de risco (Venture Capitalist) da época, forçou a saída de Edison do controle e uniu a vasta infraestrutura de produção da empresa com as eficientes patentes de Corrente Alternada da Thomson-Houston, gerenciada por Coffin. Nasceu um colosso industrial projetado para padronização em escala.\n\nPor que isso entra no Hall da Fama da TI?\n\nSoftware e infraestrutura de rede não rodam com magia, rodam com base em megawatts de potência estritamente estabilizada. A fundação da General Electric em 1892 (junto com sua rival Westinghouse) monopolizou, padronizou e barateou brutalmente a construção de dínamos gigantescos, transformadores e cabeamento urbano. Foram as supercorporações consolidadas em 1892 que instalaram a infraestrutura continental, construindo a robusta espinha dorsal elétrica (Power Grid) que o mundo precisava para poder, décadas mais tarde, plugar os primeiros mainframes e ligar a própria internet na tomada.',
+          en: 'The invention of electrical technology (Edison, Tesla, Thomson) was boiling, but it ran into the monumental bottleneck of capital and mass-production capacity. Edison was an invention genius, but stubbornly tied to inefficient Direct Current (DC). J.P. Morgan, acting as the greatest venture capitalist of the era, forced Edison out of control and united the company’s vast production infrastructure with Thomson-Houston’s efficient Alternating Current patents, managed by Coffin. An industrial colossus designed for standardization at scale was born.\n\nWhy does this belong in the IT Hall of Fame?\n\nSoftware and network infrastructure do not run on magic; they run on strictly stabilized megawatts of power. The foundation of General Electric in 1892 (along with its rival Westinghouse) monopolized, standardized and brutally cheapened the construction of giant dynamos, transformers and urban wiring. It was the supercorporations consolidated in 1892 that installed continental infrastructure, building the robust electrical backbone (Power Grid) the world needed so that, decades later, it could plug in the first mainframes and turn on the internet itself.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1893,
+    era: {
+      pt: 'A Vitória da Infraestrutura AC, a Demonstração do Rádio e o Ancestral do Fax',
+      en: 'The AC Infrastructure Victory, the Radio Demonstration and the Fax Ancestor',
+    },
+    context: {
+      pt: 'Em 1893, a tecnologia da informação e sua infraestrutura elétrica ganham a maior vitrine pública da história humana, consolidando os padrões que dominariam o século XX. Em Chicago, a Corrente Alternada ilumina uma "cidade do futuro", encerrando definitivamente a "Guerra das Correntes" e garantindo a arquitetura de energia massiva que roteadores, antenas e servidores precisariam. Em St. Louis, a transmissão sem fio sai da teoria abstrata para uma demonstração pública intencional, delineando o design do rádio. E, no campo da interface visual, o envio de textos limitados a um teclado cede espaço à transmissão de escrita geométrica à mão em tempo real, inaugurando o ancestral do aparelho de fax moderno. É o ano do deploy massivo da Corrente Alternada, do diagrama de rádio e do streaming analógico espacial.',
+      en: 'In 1893, information technology and its electrical infrastructure gain the greatest public showcase in human history, consolidating the standards that would dominate the twentieth century. In Chicago, Alternating Current lights up a "city of the future", definitively ending the "War of the Currents" and securing the massive energy architecture that routers, antennas and servers would need. In St. Louis, wireless transmission leaves abstract theory for an intentional public demonstration, outlining the design of radio. And, in the field of visual interfaces, sending text limited to a keyboard gives way to transmitting geometric handwriting in real time, inaugurating the ancestor of the modern fax machine. It is the year of massive Alternating Current deployment, the radio diagram and spatial analog streaming.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'George Westinghouse & Nikola Tesla',
+        imagePlaceholder: YEAR_1893_PLACEHOLDER,
+        flag: '🇺🇸 🇷🇸 🇭🇷',
+        nationality: { pt: 'Americano / Sérvio-Americano', en: 'American / Serbian-American' },
+        formation: {
+          pt: 'Westinghouse: Autodidata e engenheiro prático, serviu na Guerra Civil Americana e construiu sua expertise mecânica em usinagem e ferrovias. Tesla: Engenheiro eletricista e físico, formado no Instituto Politécnico de Graz, na Áustria.',
+          en: 'Westinghouse: self-taught practical engineer, served in the American Civil War and built his mechanical expertise in machining and railroads. Tesla: electrical engineer and physicist, trained at the Graz Polytechnic Institute in Austria.',
+        },
+        summary: {
+          pt: 'Iluminaram e energizaram a monumental Exposição Universal de Chicago (World’s Columbian Exposition) a partir de 1º de maio de 1893, usando o sistema polifásico de Corrente Alternada (AC), executando o maior teste e deploy de infraestrutura elétrica do mundo até então.',
+          en: 'Lit and powered the monumental Chicago World’s Columbian Exposition starting on May 1, 1893, using the polyphase Alternating Current (AC) system, executing the world’s largest electrical infrastructure test and deployment up to that point.',
+        },
+        role: {
+          pt: 'Executores do deploy massivo da Corrente Alternada',
+          en: 'Executors of massive Alternating Current deployment',
+        },
+        contribution: {
+          pt: 'Em 1893, Westinghouse e Tesla provaram a escalabilidade suprema da Corrente Alternada, garantindo a fundação energética inquestionável de todo o maquinário de TI.',
+          en: 'In 1893, Westinghouse and Tesla proved the supreme scalability of Alternating Current, securing the unquestioned energy foundation of all IT machinery.',
+        },
+        detail: {
+          pt: 'A "Guerra das Correntes" foi decidida aqui. Os organizadores da feira precisavam de mais luzes para o evento do que a cidade inteira de Chicago possuía. A General Electric (apoiada pela Corrente Contínua de Edison) cobrou caríssimo. Westinghouse venceu a licitação prometendo usar a Corrente Alternada de Tesla. O sistema operou de forma impecável, alimentando quase 100 mil lâmpadas incandescentes eficientemente e fornecendo energia para enormes motores elétricos de demonstração, provando que altas voltagens poderiam ser transportadas de forma barata e rebaixadas com segurança no local de uso.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o evento que "vendeu" o Power Grid moderno para a humanidade. Sem o sucesso visual e econômico inegável de 1893 em Chicago, a adoção de redes elétricas em larga escala demoraria muito mais. Essa exposição provou que a energia poderia ser gerada em massa, roteada e consumida a longas distâncias sem perdas brutais. Foi essa vitória arquitetônica que garantiu o pré-requisito fundamental para a Tecnologia da Informação existir: eletricidade onipresente, abundante e padronizada para plugar o hardware do futuro.',
+          en: 'The "War of the Currents" was decided here. The fair’s organizers needed more lights for the event than the entire city of Chicago had. General Electric (backed by Edison’s Direct Current) charged an enormous price. Westinghouse won the bid by promising to use Tesla’s Alternating Current. The system operated flawlessly, efficiently powering nearly 100,000 incandescent lamps and supplying energy to huge demonstration electric motors, proving that high voltages could be transported cheaply and safely stepped down at the point of use.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the event that "sold" the modern Power Grid to humanity. Without the undeniable visual and economic success of 1893 in Chicago, the adoption of large-scale electrical networks would have taken much longer. This exposition proved that energy could be generated in mass, routed and consumed over long distances without brutal losses. It was this architectural victory that secured the fundamental prerequisite for information technology to exist: ubiquitous, abundant and standardized electricity for plugging in the hardware of the future.',
+        },
+      },
+      {
+        name: 'Nikola Tesla',
+        imagePlaceholder: YEAR_1893_PLACEHOLDER,
+        flag: '🇷🇸 🇭🇷',
+        nationality: { pt: 'Sérvio-Americano', en: 'Serbian-American' },
+        formation: {
+          pt: 'Engenheiro eletricista e físico, mestre em cálculo diferencial e dinâmica de campos pelo Instituto Politécnico de Graz.',
+          en: 'Electrical engineer and physicist, a master of differential calculus and field dynamics through the Graz Polytechnic Institute.',
+        },
+        summary: {
+          pt: 'Realizou entre fevereiro e março de 1893, no Instituto Franklin (Filadélfia) e na Associação Nacional de Luz Elétrica (em St. Louis), a primeira demonstração pública detalhada dos princípios estruturais de hardware para a comunicação de rádio.',
+          en: 'Between February and March 1893, at the Franklin Institute in Philadelphia and the National Electric Light Association in St. Louis, he gave the first detailed public demonstration of the structural hardware principles for radio communication.',
+        },
+        role: {
+          pt: 'Demonstrador público da arquitetura do rádio',
+          en: 'Public demonstrator of radio architecture',
+        },
+        contribution: {
+          pt: 'Em 1893, Tesla realizou a primeira demonstração pública de que a informação poderia ser sintonizada e transmitida de forma útil pelo ar.',
+          en: 'In 1893, Tesla gave the first public demonstration that information could be tuned and usefully transmitted through the air.',
+        },
+        detail: {
+          pt: 'Hertz provou que as ondas existiam em laboratório em 1886. Mas foi Tesla que, no palco em 1893, desenhou a arquitetura aplicada para transformá-las em rede de dados. Em sua famosa palestra "Sobre Luz e Outros Fenômenos de Alta Frequência", ele descreveu e demonstrou como uma antena transmissora acoplada ao solo poderia emitir energia invisível em uma frequência exata, e um circuito receptor com antena (usando um circuito LC sintonizado) poderia "ouvi-la" e acender uma luz do outro lado da sala sem nenhum fio conectando-os.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta palestra de 1893 é frequentemente reconhecida por historiadores como a fundação lógica da engenharia de Rádio (Wireless Communication). Guglielmo Marconi construiria os sistemas de telégrafo práticos anos depois, mas a premissa de que o hardware necessitava de "sintonia" e de "aterramento" para codificar e decodificar dados eletromagnéticos no ar foi entregue por Tesla aqui. Hoje, do chip Wi-Fi do seu roteador às antenas 5G do seu celular, toda rede de dados invisível opera sob a lógica de ressonância e propagação demonstrada nesse palco no início de 1893.',
+          en: 'Hertz proved that the waves existed in the laboratory in 1886. But it was Tesla who, on stage in 1893, drew the applied architecture for turning them into a data network. In his famous lecture "On Light and Other High Frequency Phenomena", he described and demonstrated how a transmitting antenna coupled to the ground could emit invisible energy at an exact frequency, and how a receiver circuit with an antenna (using a tuned LC circuit) could "listen" to it and light a lamp on the other side of the room with no wire connecting them.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis 1893 lecture is often recognized by historians as the logical foundation of radio engineering (Wireless Communication). Guglielmo Marconi would build practical telegraph systems years later, but the premise that hardware needed "tuning" and "grounding" to encode and decode electromagnetic data in the air was delivered by Tesla here. Today, from your router’s Wi-Fi chip to your phone’s 5G antennas, every invisible data network operates under the logic of resonance and propagation demonstrated on that stage in early 1893.',
+        },
+      },
+      {
+        name: 'Elisha Gray',
+        imagePlaceholder: YEAR_1893_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro eletricista, inventor e físico. Estudou no prestigiado Oberlin College, onde mergulhou intensamente na física experimental e na telegrafia, embora não tenha concluído a graduação formal antes de entrar no mercado de patentes.',
+          en: 'Electrical engineer, inventor and physicist. He studied at the prestigious Oberlin College, where he immersed himself in experimental physics and telegraphy, although he did not complete the formal degree before entering the patent market.',
+        },
+        summary: {
+          pt: 'Apresentou de forma espetacular na Exposição de Chicago de 1893 o Telautograph (Telautógrafo), o primeiro aparelho comercialmente funcional capaz de transmitir desenhos e caligrafia em tempo real por fios de telégrafo.',
+          en: 'Spectacularly presented the Telautograph at the 1893 Chicago Exposition, the first commercially functional device capable of transmitting drawings and handwriting in real time over telegraph wires.',
+        },
+        role: {
+          pt: 'Inventor do streaming visual analógico em 2D',
+          en: 'Inventor of 2D analog visual streaming',
+        },
+        contribution: {
+          pt: 'Em 1893, Gray inventou o streaming visual em duas dimensões (2D), criando o ancestral analógico da máquina de fax e da tela touchscreen com caneta stylus.',
+          en: 'In 1893, Gray invented two-dimensional (2D) visual streaming, creating the analog ancestor of the fax machine and the touchscreen with a stylus.',
+        },
+        detail: {
+          pt: 'Se o teclado limitava o usuário a enviar caracteres fixos ("A", "B", "C"), Gray quebrou esse limite processando geometria espacial. No transmissor do Telautógrafo, o usuário segurava um lápis preso a duas hastes mecânicas cruzadas. Conforme ele escrevia ou desenhava, o movimento horizontal (Eixo X) e vertical (Eixo Y) alterava a resistência elétrica em dois reostatos independentes. Esses sinais contínuos variáveis viajavam por fios até o receptor, onde motores eletromagnéticos puxavam uma caneta-tinteiro que recriava milimetricamente a assinatura ou o desenho em um papel do outro lado do país, no exato momento em que estava sendo feito.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Telautógrafo de Gray é um salto monumental na "Interface de Input" (UI) e no processamento de dados analógicos. Ele inaugurou a ideia de mapeamento de coordenadas (X, Y) sendo traduzidas em dados dinâmicos. Antes dos tablets digitais como o iPad, das canetas stylus, dos plotters de engenharia ou das assinaturas digitais, a invenção de Gray de 1893 provou que máquinas podiam registrar e transmitir comportamento motor e geometria gráfica complexa sem precisar reduzir tudo a um bloco binário de texto, sendo a raiz tecnológica direta das modernas máquinas de Fax.',
+          en: 'If the keyboard limited the user to sending fixed characters ("A", "B", "C"), Gray broke that limit by processing spatial geometry. In the Telautograph transmitter, the user held a pencil attached to two crossed mechanical rods. As the user wrote or drew, the horizontal movement (X axis) and vertical movement (Y axis) changed the electrical resistance in two independent rheostats. These continuous variable signals traveled through wires to the receiver, where electromagnetic motors pulled a fountain pen that recreated the signature or drawing millimeter by millimeter on paper on the other side of the country, at the exact moment it was being made.\n\nWhy does this belong in the IT Hall of Fame?\n\nGray’s Telautograph is a monumental leap in the "Input Interface" (UI) and in analog data processing. It inaugurated the idea of coordinate mapping (X, Y) being translated into dynamic data. Before digital tablets such as the iPad, stylus pens, engineering plotters or digital signatures, Gray’s 1893 invention proved that machines could record and transmit motor behavior and complex graphic geometry without reducing everything to a binary block of text, becoming the direct technological root of modern fax machines.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1894,
+    era: {
+      pt: 'O Receptor Sem Fio, a Primeira "CPU" e o Pay-Per-View de Telas',
+      en: 'The Wireless Receiver, the First "CPU" and Screen Pay-Per-View',
+    },
+    context: {
+      pt: 'Em 1894, a tecnologia da informação vê ideias teóricas ousadas se transformarem em hardware comprovado e modelos de negócios reais. Na Inglaterra, a transmissão de dados pelo ar ganha seu primeiro receptor automatizado capaz de se "resetar" sozinho após cada pulso de dado, consolidando o rádio prático. Paralelamente, após décadas de ceticismo, o projeto original de Charles Babbage é finalmente testado, provando fisicamente que uma "CPU" mecânica de propósito geral poderia executar e imprimir cálculos complexos autonomamente. Nos Estados Unidos, o entretenimento visual entra na era comercial: as telas deixam os laboratórios e viram máquinas de fliperama, inaugurando o modelo de consumo de vídeo sob demanda. É o ano do rádio em código Morse automatizado, do motor analítico funcionando e da primeira sala de Cinetoscópios.',
+      en: 'In 1894, information technology sees bold theoretical ideas become proven hardware and real business models. In England, data transmission through the air gains its first automated receiver capable of "resetting" itself after each data pulse, consolidating practical radio. At the same time, after decades of skepticism, Charles Babbage’s original project is finally tested, physically proving that a general-purpose mechanical "CPU" could autonomously execute and print complex calculations. In the United States, visual entertainment enters the commercial era: screens leave laboratories and become arcade machines, inaugurating the model of on-demand video consumption. It is the year of automated Morse-code radio, the working analytical engine and the first Kinetoscope parlor.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Oliver Lodge',
+        imagePlaceholder: YEAR_1894_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Físico genial e pioneiro da engenharia de rádio. Obteve seu doutorado em ciências com extremo rigor matemático e experimental pela Universidade de Londres, tornando-se professor na University College London e na Universidade de Liverpool.',
+          en: 'Brilliant physicist and pioneer of radio engineering. He earned his doctorate in science with extreme mathematical and experimental rigor from the University of London, becoming a professor at University College London and the University of Liverpool.',
+        },
+        summary: {
+          pt: 'Realizou em 14 de agosto de 1894, na Universidade de Oxford, a primeira demonstração pública de transmissão de dados via rádio, utilizando um sensor Coesor (de Branly) aprimorado com um batedor mecânico ("trembler") que permitia a leitura contínua de código Morse pelo ar.',
+          en: 'On August 14, 1894, at the University of Oxford, he performed the first public demonstration of radio data transmission, using a Branly coherer sensor improved with a mechanical tapper ("trembler") that enabled continuous reading of Morse code through the air.',
+        },
+        role: {
+          pt: 'Inventor do auto-reset no receptor sem fio',
+          en: 'Inventor of auto-reset in the wireless receiver',
+        },
+        contribution: {
+          pt: 'Em 1894, Lodge inventou o "auto-reset" do hardware de rede sem fio, permitindo que as máquinas processassem um fluxo contínuo de dados.',
+          en: 'In 1894, Lodge invented the "auto-reset" of wireless network hardware, allowing machines to process a continuous flow of data.',
+        },
+        detail: {
+          pt: 'O coesor de Branly (1890) era brilhante para detectar ondas de rádio, mas tinha um defeito de usabilidade terrível: uma vez que a onda o atingia e a limalha de ferro se unia para fechar o circuito, ele ficava "travado" no estado "1". Um humano precisava bater no tubo de vidro para resetá-lo para "0". Lodge resolveu esse gargalo de processamento usando automação: ele acoplou o martelo de uma campainha elétrica ao tubo. Quando a onda chegava (o "ponto" ou "traço" do Morse), a campainha tocava e o próprio martelo batia de volta no tubo, bagunçando o pó e deixando a máquina instantaneamente pronta para o próximo pulso de dado.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o momento em que o receptor de rádio tornou-se uma máquina prática e autônoma, capaz de ler uma stream (fluxo) contínua de dados binários sem intervenção humana. A demonstração de Lodge em 1894 inspirou diretamente gênios como Guglielmo Marconi e J.C. Bose a construírem seus sistemas sem fio logo em seguida. Todo sistema moderno que decodifica pulsos rápidos de informação no espectro eletromagnético compartilha a lógica de recuperação de estado rápido inventada nesse laboratório em Oxford.',
+          en: 'Branly’s coherer (1890) was brilliant at detecting radio waves, but it had a terrible usability flaw: once the wave hit it and the iron filings joined together to close the circuit, it became "stuck" in the "1" state. A human had to tap the glass tube to reset it to "0". Lodge solved this processing bottleneck with automation: he coupled the hammer of an electric bell to the tube. When the wave arrived (the Morse "dot" or "dash"), the bell rang and its own hammer tapped the tube back, disordering the powder and leaving the machine instantly ready for the next data pulse.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the moment when the radio receiver became a practical and autonomous machine, capable of reading a continuous stream of binary data without human intervention. Lodge’s 1894 demonstration directly inspired geniuses such as Guglielmo Marconi and J.C. Bose to build their wireless systems soon afterward. Every modern system that decodes rapid pulses of information in the electromagnetic spectrum shares the logic of fast state recovery invented in that Oxford laboratory.',
+        },
+      },
+      {
+        name: 'Henry Babbage',
+        imagePlaceholder: YEAR_1894_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Militar de carreira, engenheiro e entusiasta da mecânica de precisão. Educado na University College School em Londres e na Companhia das Índias Orientais, sendo o herdeiro intelectual do lendário polímata Charles Babbage.',
+          en: 'Career soldier, engineer and precision-mechanics enthusiast. Educated at University College School in London and in the East India Company, he was the intellectual heir of the legendary polymath Charles Babbage.',
+        },
+        summary: {
+          pt: 'Após anos de trabalho baseado nos projetos de seu falecido pai, publicou um artigo em 1894 demonstrando que havia concluído com sucesso a construção de parte do "Mill" (a CPU) e do mecanismo de impressão da Máquina Analítica, usando-a para calcular e imprimir perfeitamente os múltiplos de Pi (π).',
+          en: 'After years of work based on his late father’s designs, he published an article in 1894 demonstrating that he had successfully completed part of the Analytical Engine’s "Mill" (the CPU) and printing mechanism, using it to perfectly calculate and print multiples of Pi (π).',
+        },
+        role: {
+          pt: 'Construtor da prova física da CPU mecânica',
+          en: 'Builder of the physical proof of the mechanical CPU',
+        },
+        contribution: {
+          pt: 'Em 1894, a primeira Unidade Lógica e Aritmética (ALU) de propósito geral da história provou que funcionava fisicamente, não apenas na imaginação.',
+          en: 'In 1894, the first general-purpose Arithmetic Logic Unit (ALU) in history proved that it worked physically, not just in the imagination.',
+        },
+        detail: {
+          pt: 'Charles Babbage morreu em 1871 sem nunca ver seu majestoso "computador mecânico" (a Máquina Analítica) ser construído, e muitos críticos da época diziam que o projeto era mecanicamente impossível de operar sem que as engrenagens travassem. Seu filho, Henry, decidiu provar que o código e o hardware do pai funcionavam. Financiando do próprio bolso, ele construiu o coração da máquina: o processador aritmético. A engenhoca de metal pesado não apenas realizou matemática complexa com dezenas de casas decimais sem falhas, como também enviou o output diretamente para uma impressora embutida.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o teste de estresse que validou a Arquitetura de Von Neumann (que separa a memória do processador) quase meio século antes dela ser teorizada para os eletrônicos. O hardware de 1894 de Henry Babbage foi a prova irrefutável de conceito de que uma máquina poderia ser "Turing-completa", capaz de processar instruções flexíveis. É o atestado histórico de que a lógica dos computadores estava perfeitamente correta desde a Era Vitoriana, apenas aguardando a invenção da válvula eletrônica e do transistor para ganhar velocidade.',
+          en: 'Charles Babbage died in 1871 without ever seeing his majestic "mechanical computer" (the Analytical Engine) built, and many critics of the time said the project was mechanically impossible to operate without the gears locking up. His son, Henry, decided to prove that his father’s code and hardware worked. Financing it from his own pocket, he built the heart of the machine: the arithmetic processor. The heavy metal contraption not only performed complex mathematics with dozens of decimal places without failures, but also sent the output directly to a built-in printer.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the stress test that validated the Von Neumann Architecture (which separates memory from the processor) almost half a century before it was theorized for electronics. Henry Babbage’s 1894 hardware was the irrefutable proof of concept that a machine could be "Turing-complete", capable of processing flexible instructions. It is the historical certificate that computer logic had been perfectly correct since the Victorian Era, merely waiting for the invention of the electronic valve and transistor to gain speed.',
+        },
+      },
+      {
+        name: 'Andrew e George Holland (sob a licença de Thomas Edison)',
+        imagePlaceholder: YEAR_1894_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Empresários do ramo de entretenimento de massas e promotores de inovações tecnológicas. Especialistas não em inventar a física, mas em descobrir a Interface de Usuário (UX) perfeita para monetizar o hardware nas ruas.',
+          en: 'Businessmen in mass entertainment and promoters of technological innovations. Specialists not in inventing the physics, but in discovering the perfect User Interface (UX) for monetizing hardware on the streets.',
+        },
+        summary: {
+          pt: 'Inauguraram em 14 de abril de 1894, na Broadway, em Nova York, a primeira sala de Cinetoscópios do mundo (Kinetoscope Parlor), colocando 10 máquinas individuais de exibição de vídeo à disposição do público geral.',
+          en: 'On April 14, 1894, on Broadway in New York, they opened the world’s first Kinetoscope Parlor, placing 10 individual video-display machines at the disposal of the general public.',
+        },
+        role: {
+          pt: 'Criadores da primeira sala comercial de telas individuais',
+          en: 'Creators of the first commercial parlor of individual screens',
+        },
+        contribution: {
+          pt: 'Em 1894, o vídeo em loop contínuo tornou-se um serviço corporativo, fundando a indústria de consumo de telas individuais sob demanda.',
+          en: 'In 1894, continuous-loop video became a corporate service, founding the consumer industry of individual on-demand screens.',
+        },
+        detail: {
+          pt: 'Edison e Dickson haviam construído o visualizador de filmes em 1891, mas era apenas uma máquina de laboratório. Os irmãos Holland pegaram esse hardware e criaram um modelo de negócios ao redor dele. Eles enfileiraram as caixas de madeira em uma sala elegante e cobraram 25 centavos de dólar. O usuário enfiava os olhos no visor escuro, a máquina ativava uma luz elétrica interna, ligava o motor e reproduzia curtas de dançarinos, ferreiros ou animais, durando poucos segundos de encanto visual puro e fluido (a 40 frames por segundo).\n\nPor que isso entra no Hall da Fama da TI?\n\nA sala dos irmãos Holland é o marco zero da monetização de Data Streaming visual e da cultura do Fliperama (Arcade). Mais de cem anos antes do YouTube ou do conceito de Pay-Per-View, esse foi o momento exato em que a tecnologia da informação de imagem parou de ser apenas uma ferramenta científica para análise de movimento e se tornou a principal interface de consumo das massas. O comportamento de pagar para olhar fixamente para uma tela luminosa individual recebendo informações de mídia em movimento contínuo nasceu exatamente aqui.',
+          en: 'Edison and Dickson had built the film viewer in 1891, but it was only a laboratory machine. The Holland brothers took that hardware and created a business model around it. They lined up the wooden boxes in an elegant room and charged 25 cents. The user put their eyes into the dark viewer, the machine activated an internal electric light, turned on the motor and played shorts of dancers, blacksmiths or animals, lasting a few seconds of pure and fluid visual enchantment (at 40 frames per second).\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Holland brothers’ parlor is the zero point of visual Data Streaming monetization and Arcade culture. More than one hundred years before YouTube or the concept of Pay-Per-View, this was the exact moment when image information technology stopped being only a scientific tool for motion analysis and became the main consumption interface for the masses. The behavior of paying to stare into an individual luminous screen receiving continuous moving-media information was born exactly here.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1895,
+    era: {
+      pt: 'A Telegrafia Sem Fio Prática, o Escaneamento Invisível e o Broadcast Visual',
+      en: 'Practical Wireless Telegraphy, Invisible Scanning and Visual Broadcast',
+    },
+    context: {
+      pt: 'Em 1895, a tecnologia da informação atinge marcos absolutos na transmissão sem fio, na captura de dados além do espectro visível e no compartilhamento em massa de mídia. O rádio deixa de ser um experimento acadêmico de laboratório e se transforma em um sistema de comunicação prático de longa distância capaz de atravessar montanhas. Na física, descobre-se acidentalmente uma forma de radiação capaz de "escanear" o interior da matéria sólida, revolucionando para sempre a captura de imagens e dados biomédicos. E na França, a tela individual escura dá lugar à projeção pública e luminosa, inaugurando o modelo de broadcast visual coletivo. É o ano da primeira rede Wi-Fi prática, do raio-X e do projetor de cinema.',
+      en: 'In 1895, information technology reaches absolute milestones in wireless transmission, in capturing data beyond the visible spectrum and in mass media sharing. Radio stops being an academic laboratory experiment and becomes a practical long-distance communication system capable of crossing mountains. In physics, a form of radiation capable of "scanning" the interior of solid matter is accidentally discovered, forever revolutionizing image capture and biomedical data. And in France, the dark individual screen gives way to public luminous projection, inaugurating the model of collective visual broadcast. It is the year of the first practical Wi-Fi-like network, X-rays and the cinema projector.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Guglielmo Marconi',
+        imagePlaceholder: YEAR_1895_PLACEHOLDER,
+        flag: '🇮🇹',
+        nationality: { pt: 'Italiano', en: 'Italian' },
+        formation: {
+          pt: 'Inventor e empresário autodidata. Não frequentou a universidade formalmente, mas teve acesso a laboratórios de ponta e aulas particulares de física com professores renomados (como Vincenzo Rosa e Augusto Righi) na Itália, desenvolvendo uma intuição prática e comercial sem paralelos para o hardware eletromagnético.',
+          en: 'Self-taught inventor and entrepreneur. He did not formally attend university, but had access to advanced laboratories and private physics lessons with renowned professors such as Vincenzo Rosa and Augusto Righi in Italy, developing an unmatched practical and commercial intuition for electromagnetic hardware.',
+        },
+        summary: {
+          pt: 'Construiu e testou com sucesso no verão de 1895, na propriedade de sua família (Villa Griffone), o primeiro sistema prático de telegrafia sem fio, conseguindo transmitir e receber sinais de código Morse a mais de dois quilômetros de distância e superando obstáculos físicos (uma colina).',
+          en: 'Successfully built and tested, in the summer of 1895 at his family estate Villa Griffone, the first practical wireless telegraphy system, transmitting and receiving Morse-code signals over more than two kilometers and overcoming physical obstacles, including a hill.',
+        },
+        role: {
+          pt: 'Construtor da telegrafia sem fio prática',
+          en: 'Builder of practical wireless telegraphy',
+        },
+        contribution: {
+          pt: 'Em 1895, Marconi pegou a física teórica de seus antecessores e montou o hardware que viabilizou o roteamento prático de dados pelo ar.',
+          en: 'In 1895, Marconi took the theoretical physics of his predecessors and assembled the hardware that enabled practical data routing through the air.',
+        },
+        detail: {
+          pt: 'Hertz provou que as ondas existiam (1886) e Lodge automatizou a recepção delas a curtas distâncias (1894), mas foi o jovem Marconi (com apenas 21 anos) quem as transformou em um produto de infraestrutura. Ele pegou todos esses componentes isolados, melhorou a sensibilidade do Coesor de Branly e adicionou os toques de mestre da arquitetura de rede: ele elevou a antena transmissora a grandes alturas e fez um aterramento (ligou o circuito fisicamente à terra). O resultado foi explosivo: o sinal deixou de viajar apenas alguns metros e passou a viajar quilômetros, atravessando montanhas e paredes. Quando seu irmão disparou um tiro de espingarda do outro lado da colina confirmando que o receptor havia captado a letra "S" em Morse, o mundo havia mudado.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o marco zero das Telecomunicações de Longa Distância Sem Fio (Long-Range Wireless). Marconi não descobriu as ondas de rádio, mas ele "compilou" a tecnologia para que ela funcionasse fora dos laboratórios perfeitamente. Toda a arquitetura do seu Wi-Fi doméstico, das redes de dados de celular (4G/5G) e da comunicação de satélites que conectam o planeta hoje opera sob os mesmos princípios de antenas aterradas e propagação de espectro que Marconi consolidou comercialmente a partir deste teste crucial em 1895.',
+          en: 'Hertz proved that the waves existed (1886) and Lodge automated their reception at short distances (1894), but it was the young Marconi, only 21 years old, who turned them into an infrastructure product. He took all these isolated components, improved the sensitivity of Branly’s Coherer and added the master touches of network architecture: he raised the transmitting antenna to great heights and grounded the circuit, physically connecting it to the earth. The result was explosive: the signal stopped traveling only a few meters and began traveling kilometers, crossing mountains and walls. When his brother fired a shotgun on the other side of the hill to confirm that the receiver had captured the letter "S" in Morse, the world had changed.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the zero point of Long-Range Wireless Telecommunications. Marconi did not discover radio waves, but he "compiled" the technology so that it worked perfectly outside laboratories. The whole architecture of your home Wi-Fi, cellular data networks (4G/5G) and the satellite communications that connect the planet today operates under the same principles of grounded antennas and spectrum propagation that Marconi commercially consolidated from this crucial 1895 test.',
+        },
+      },
+      {
+        name: 'Wilhelm Conrad Röntgen',
+        imagePlaceholder: YEAR_1895_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Físico e engenheiro mecânico de excelência. Obteve seu doutorado na Universidade de Zurique, na Suíça, e tornou-se um professor e pesquisador incrivelmente meticuloso, atuando na Universidade de Würzburg, na Alemanha, no momento da descoberta.',
+          en: 'Excellent physicist and mechanical engineer. He earned his doctorate at the University of Zurich in Switzerland and became an incredibly meticulous professor and researcher, working at the University of Würzburg in Germany at the moment of the discovery.',
+        },
+        summary: {
+          pt: 'Descobriu em 8 de novembro de 1895 os Raios-X (e publicou semanas depois a primeira imagem radiográfica da história, a mão de sua esposa com um anel), provando que parte do espectro eletromagnético poderia penetrar a matéria sólida e gerar dados visuais não-destrutivos.',
+          en: 'Discovered X-rays on November 8, 1895 (and published weeks later the first radiographic image in history, his wife’s hand with a ring), proving that part of the electromagnetic spectrum could penetrate solid matter and generate non-destructive visual data.',
+        },
+        role: {
+          pt: 'Descobridor do escaneamento interno por raios-X',
+          en: 'Discoverer of internal scanning through X-rays',
+        },
+        contribution: {
+          pt: 'Em 1895, Röntgen inventou o "escaneamento interno", criando a capacidade de capturar dados estruturais invisíveis ao olho humano.',
+          en: 'In 1895, Röntgen invented "internal scanning", creating the ability to capture structural data invisible to the human eye.',
+        },
+        detail: {
+          pt: 'Röntgen estava no seu laboratório escuro testando tubos de vácuo (similares aos de Crookes de 1878) cobertos por papelão grosso para evitar que qualquer luz saísse. Quando ele ligou a máquina, percebeu que uma placa pintada com material fluorescente que estava jogada longe na mesa começou a brilhar intensamente. Havia um raio invisível saindo do tubo, atravessando o papelão, o ar e até a carne de sua mão, sendo bloqueado apenas pelos ossos e metais pesados. Ele chamou esses dados matematicamente desconhecidos de radiação "X".\n\nPor que isso entra no Hall da Fama da TI?\n\nRöntgen inaugurou a TI biomédica e a tecnologia de Imagem Não-Destrutiva (Non-Destructive Testing - NDT). Ele provou que fótons de altíssima energia podem ser usados para recuperar informações do interior de "caixas pretas" físicas. Sem a descoberta dos Raios-X em 1895, não existiriam as Tomografias Computadorizadas (CT Scans) que geram dados em 3D hoje, nem os scanners de aeroporto. E mais importante para o seu computador: a moderna indústria de semicondutores usa litografia de raios-X e inspeção de raio-X de altíssima precisão para desenhar e testar bilhões de transistores microscópicos dentro do seu processador AMD ou Intel.',
+          en: 'Röntgen was in his dark laboratory testing vacuum tubes (similar to Crookes tubes from 1878) covered with thick cardboard to prevent any light from escaping. When he turned on the machine, he noticed that a plate painted with fluorescent material lying far away on the table began to glow intensely. An invisible ray was leaving the tube, crossing the cardboard, the air and even the flesh of his hand, being blocked only by bones and heavy metals. He called this mathematically unknown data "X" radiation.\n\nWhy does this belong in the IT Hall of Fame?\n\nRöntgen inaugurated biomedical IT and Non-Destructive Testing (NDT) imaging technology. He proved that extremely high-energy photons can be used to recover information from inside physical "black boxes". Without the discovery of X-rays in 1895, there would be no Computed Tomography (CT scans) generating 3D data today, nor airport scanners. And most importantly for your computer: the modern semiconductor industry uses X-ray lithography and extremely precise X-ray inspection to draw and test billions of microscopic transistors inside your AMD or Intel processor.',
+        },
+      },
+      {
+        name: 'Auguste e Louis Lumière',
+        imagePlaceholder: YEAR_1895_PLACEHOLDER,
+        flag: '🇫🇷',
+        nationality: { pt: 'Franceses', en: 'French' },
+        formation: {
+          pt: 'Engenheiros e industriais fotográficos natos. Formaram-se na escola técnica La Martinière, em Lyon, a maior escola de ciências aplicadas da França na época. Juntos, geriam e inovavam a enorme fábrica de chapas fotográficas de sua família, dominando a química e a mecânica do celuloide.',
+          en: 'Natural photographic engineers and industrialists. They trained at the La Martinière technical school in Lyon, the largest applied-sciences school in France at the time. Together, they managed and innovated in their family’s huge photographic-plate factory, mastering the chemistry and mechanics of celluloid.',
+        },
+        summary: {
+          pt: 'Inventaram o Cinematógrafo e realizaram a primeira exibição comercial pública de cinema da história em 28 de dezembro de 1895, no Salon Indien du Grand Café, em Paris, projetando vídeos para uma plateia pagante.',
+          en: 'Invented the Cinématographe and held the first public commercial cinema screening in history on December 28, 1895, at the Salon Indien du Grand Café in Paris, projecting videos for a paying audience.',
+        },
+        role: {
+          pt: 'Criadores do broadcast visual coletivo',
+          en: 'Creators of collective visual broadcast',
+        },
+        contribution: {
+          pt: 'Em 1895, os irmãos Lumière transformaram a interface visual individual em um "Monitor Coletivo", fundando a era do Broadcast visual para as massas.',
+          en: 'In 1895, the Lumière brothers transformed the individual visual interface into a "Collective Monitor", founding the era of visual broadcast for the masses.',
+        },
+        detail: {
+          pt: 'Vimos que Edison e Dickson inventaram o Cinetoscópio em 1891, mas ele era uma máquina pesada e egoísta: apenas uma pessoa espiando por um buraco. Os Lumière resolveram dois problemas de hardware geniais de uma vez. Primeiro, eles inventaram um mecanismo de garra inspirado na máquina de costura para puxar o filme e parar a cada quadro com precisão matemática sem rasgar a fita (ditando o padrão de 16 frames por segundo). Segundo, o Cinematógrafo era um hardware "3 em 1": era uma câmera portátil (pesava só 5 kg e não precisava de tomada), uma máquina de revelar e, ao colocar uma lâmpada mágica atrás, ele se transformava no projetor que jogava os dados visuais na parede do café.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o marco absoluto da transição de "Display Individual" para "Display Compartilhado". Os irmãos Lumière inauguraram a Cultura de Tela coletiva e o modelo de negócios de mídia multicast (um transmissor de informação para muitos receptores humanos simultaneamente num mesmo ambiente). Toda a indústria audiovisual de telas gigantes, projetores de apresentações de negócios (PowerPoint) e a ideia de reunir pessoas fisicamente para consumir um fluxo de dados de vídeo centralizado começa na noite de dezembro de 1895 no subsolo daquele café parisiense.',
+          en: 'We saw that Edison and Dickson invented the Kinetoscope in 1891, but it was a heavy and selfish machine: only one person peering through a hole. The Lumières solved two brilliant hardware problems at once. First, they invented a claw mechanism inspired by the sewing machine to pull the film and stop at each frame with mathematical precision without tearing the strip (dictating the standard of 16 frames per second). Second, the Cinématographe was a "3-in-1" hardware device: it was a portable camera (weighing only 5 kg and requiring no electrical outlet), a developing machine and, when a magic lantern was placed behind it, it became the projector that threw visual data onto the café wall.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the absolute milestone in the transition from "Individual Display" to "Shared Display". The Lumière brothers inaugurated collective screen culture and the multicast media business model: one information transmitter for many human receivers simultaneously in the same environment. The entire audiovisual industry of giant screens, business-presentation projectors (PowerPoint) and the idea of physically gathering people to consume a centralized video data stream begins on that December night in 1895 in the basement of that Parisian café.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1896,
+    era: {
+      pt: 'A Empresa Fundacional, a Patente do Rádio e a Interface de Roteamento',
+      en: 'The Foundational Company, the Radio Patent and the Routing Interface',
+    },
+    context: {
+      pt: 'Em 1896, a tecnologia da informação consolida seu modelo de negócios corporativo, legaliza a transmissão sem fio e cria a interface de usuário definitiva para manipulação de redes. O processamento de dados abandona o status de "experimento de governo" para se tornar uma corporação formal comercial, plantando a semente corporativa que se tornaria a gigante IBM. No Reino Unido, o rádio recebe sua primeira patente formal, transformando ondas eletromagnéticas em propriedade intelectual e viabilizando o deploy comercial. E nas telecomunicações, surge o "mouse" das redes telefônicas: o disco rotativo, um hardware mecânico brilhante que permitia que qualquer usuário comum "programasse" um caminho de rede apenas com um giro de dedo. É o ano da fundação da primeira Big Tech de dados, da patente do Wi-Fi primitivo e da interface de discagem.',
+      en: 'In 1896, information technology consolidates its corporate business model, legalizes wireless transmission and creates the definitive user interface for manipulating networks. Data processing leaves the status of a "government experiment" and becomes a formal commercial corporation, planting the corporate seed that would become the IBM giant. In the United Kingdom, radio receives its first formal patent, turning electromagnetic waves into intellectual property and enabling commercial deployment. And in telecommunications, the "mouse" of telephone networks appears: the rotary dial, a brilliant mechanical hardware interface that allowed any ordinary user to "program" a network path with a single turn of a finger. It is the year of the first data Big Tech, the primitive Wi-Fi patent and the dialing interface.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Herman Hollerith',
+        imagePlaceholder: YEAR_1896_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro de minas, inventor e estatístico implacável. Formado pela Columbia University School of Mines, dominava a fusão entre mecânica de precisão e a nascente ciência de dados de grande volume.',
+          en: 'Mining engineer, inventor and relentless statistician. Trained at the Columbia University School of Mines, he mastered the fusion between precision mechanics and the emerging science of large-volume data.',
+        },
+        summary: {
+          pt: 'Fundou formalmente em 3 de dezembro de 1896 a Tabulating Machine Company, a primeira corporação da história dedicada exclusivamente à fabricação, aluguel e manutenção de hardware de processamento de dados (suas máquinas de cartões perfurados).',
+          en: 'Formally founded the Tabulating Machine Company on December 3, 1896, the first corporation in history dedicated exclusively to manufacturing, leasing and maintaining data-processing hardware: his punched-card machines.',
+        },
+        role: {
+          pt: 'Fundador da primeira corporação de processamento de dados',
+          en: 'Founder of the first data-processing corporation',
+        },
+        contribution: {
+          pt: 'Em 1896, Hollerith criou o modelo de negócios corporativo (B2B) para hardware de dados, inaugurando a indústria de TI comercial.',
+          en: 'In 1896, Hollerith created the corporate business model (B2B) for data hardware, inaugurating the commercial IT industry.',
+        },
+        detail: {
+          pt: 'Hollerith já havia provado que suas máquinas funcionavam no Censo de 1890, mas elas eram projetos governamentais. Em 1896, ele percebeu que ferrovias, bancos e indústrias de varejo também precisavam processar Big Data (como controle de fretes e contabilidade). Ele incorporou sua empresa com uma estratégia brilhante e moderna: ele não vendia as caras máquinas tabuladoras; ele as alugava (Hardware as a Service - HaaS) e lucrava vendendo os cartões de papel em branco em volumes colossais, garantindo uma receita recorrente.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Tabulating Machine Company de 1896 é a ancestral direta da IBM. Décadas depois, ela se fundiria com outras fabricantes para formar a Computing-Tabulating-Recording Company (CTR), que em 1924 seria rebatizada como International Business Machines (IBM). Toda a cultura corporativa de processamento de dados, servidores dedicados, mainframes e a ideia de que empresas poderiam comprar poder computacional para otimizar lucros nasceu da fundação desta companhia.',
+          en: 'Hollerith had already proved that his machines worked in the 1890 Census, but they were government projects. In 1896, he realized that railroads, banks and retail industries also needed to process Big Data, such as freight control and accounting. He incorporated his company with a brilliant and modern strategy: he did not sell the expensive tabulating machines; he leased them (Hardware as a Service - HaaS) and profited by selling blank paper cards in colossal volumes, guaranteeing recurring revenue.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Tabulating Machine Company of 1896 is the direct ancestor of IBM. Decades later, it would merge with other manufacturers to form the Computing-Tabulating-Recording Company (CTR), which in 1924 would be renamed International Business Machines (IBM). The whole corporate culture of data processing, dedicated servers, mainframes and the idea that companies could buy computing power to optimize profits was born from the founding of this company.',
+        },
+      },
+      {
+        name: 'Guglielmo Marconi',
+        imagePlaceholder: YEAR_1896_PLACEHOLDER,
+        flag: '🇮🇹 🇬🇧',
+        nationality: { pt: 'Italiano (operando no Reino Unido)', en: 'Italian (operating in the United Kingdom)' },
+        formation: {
+          pt: 'Inventor e empresário autodidata. Tendo sido rejeitado pelo governo italiano para financiamento, ele viajou para a Inglaterra, o epicentro do império global e marítimo, onde sua genialidade prática para negócios e física foi acolhida.',
+          en: 'Self-taught inventor and entrepreneur. After being rejected by the Italian government for funding, he traveled to England, the epicenter of the global maritime empire, where his practical genius for business and physics was welcomed.',
+        },
+        summary: {
+          pt: 'Submeteu em 2 de junho de 1896 a patente britânica Nº 12.039 ("Improvements in Transmitting Electrical Impulses and Signals, and in Apparatus therefor"), a primeira patente da história protegendo um sistema completo e prático de comunicação por ondas de rádio.',
+          en: 'Filed British patent No. 12,039 on June 2, 1896 ("Improvements in Transmitting Electrical Impulses and Signals, and in Apparatus therefor"), the first patent in history protecting a complete and practical radio-wave communication system.',
+        },
+        role: {
+          pt: 'Autor da primeira patente comercial do rádio',
+          en: 'Author of the first commercial radio patent',
+        },
+        contribution: {
+          pt: 'Em 1896, Marconi "compilou" a física solta dos laboratórios em uma patente comercial, garantindo o monopólio e o investimento para a infraestrutura sem fio.',
+          en: 'In 1896, Marconi "compiled" loose laboratory physics into a commercial patent, securing the monopoly and investment needed for wireless infrastructure.',
+        },
+        detail: {
+          pt: 'Marconi havia feito o sistema funcionar em 1895 na Itália, mas a inovação sem proteção legal ou capital de escala morre. Ao chegar em Londres, ele demonstrou seu hardware para os Correios Britânicos (General Post Office) e imediatamente registrou a patente. O documento não detalhava uma física nova (ele usava o centelhador de Hertz e o coesor de Branly/Lodge), mas descrevia a arquitetura do sistema: como sintonizar, como conectar a antena ao solo e como codificar a mensagem de forma que fosse comercialmente viável para substituir os cabos telegráficos dos navios.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta patente é o documento fundador da indústria de Telecomunicações Sem Fio (Wireless). Ao patentear a arquitetura, Marconi atraiu o enorme capital de risco necessário para fundar sua própria companhia no ano seguinte (a Wireless Telegraph & Signal Company). Toda a padronização comercial da comunicação por radiofrequência, que mais tarde evoluiria para o rádio AM/FM, a televisão e as transmissões de pacotes de dados de internet móvel, começou a ser pavimentada legalmente com este registro.',
+          en: 'Marconi had made the system work in Italy in 1895, but innovation without legal protection or scale capital dies. When he arrived in London, he demonstrated his hardware to the British General Post Office and immediately filed the patent. The document did not describe new physics (he used Hertz’s spark transmitter and the Branly/Lodge coherer), but it did describe the system architecture: how to tune it, how to connect the antenna to the ground and how to encode the message so it could be commercially viable as a replacement for telegraph cables on ships.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis patent is the founding document of the Wireless Telecommunications industry. By patenting the architecture, Marconi attracted the enormous venture capital needed to found his own company the following year, the Wireless Telegraph & Signal Company. The entire commercial standardization of radiofrequency communication, which would later evolve into AM/FM radio, television and mobile internet packet transmissions, began to be legally paved with this filing.',
+        },
+      },
+      {
+        name: 'Alexander E. Keith, John Erickson e Charles J. Erickson (Engenheiros da Strowger Automatic Telephone Exchange)',
+        imagePlaceholder: YEAR_1896_PLACEHOLDER,
+        flag: '🇺🇸 🇸🇪',
+        nationality: { pt: 'Americanos (os Ericksons eram imigrantes suecos)', en: 'Americans (the Ericksons were Swedish immigrants)' },
+        formation: {
+          pt: 'Engenheiros mecânicos e relojoeiros de precisão extrema, contratados por Almon Strowger para refinar o hardware brutal de seu primeiro roteador autônomo.',
+          en: 'Mechanical engineers and extremely precise watchmakers, hired by Almon Strowger to refine the rough hardware of his first autonomous router.',
+        },
+        summary: {
+          pt: 'Desenvolveram e introduziram comercialmente em 1896 o Disco Rotativo de Dedo (Rotary Finger-Wheel Dial), substituindo os confusos botões de pressão por um único mecanismo circular para enviar pulsos de dados à central telefônica.',
+          en: 'Developed and commercially introduced the Rotary Finger-Wheel Dial in 1896, replacing confusing push buttons with a single circular mechanism for sending data pulses to the telephone exchange.',
+        },
+        role: {
+          pt: 'Criadores da interface de discagem rotativa',
+          en: 'Creators of the rotary dialing interface',
+        },
+        contribution: {
+          pt: 'Em 1896, a equipe de Strowger inventou o "mouse" das redes, criando a Interface de Usuário (UX) perfeita para a entrada de dados numéricos sequenciais.',
+          en: 'In 1896, Strowger’s team invented the "mouse" of networks, creating the perfect User Interface (UX) for entering sequential numeric data.',
+        },
+        detail: {
+          pt: 'No sistema original de Strowger (1892), o usuário tinha três botões (centenas, dezenas, unidades). Para ligar para o número 324, ele apertava o primeiro botão três vezes, o segundo duas vezes e o terceiro quatro vezes. Era sujeito a falhas humanas e contagens erradas. A genialidade do disco rotativo foi a mecânica de mola. O usuário apenas enfiava o dedo no buraco do número correspondente e puxava até o batente. Ao soltar, uma mola interna fazia o disco girar de volta em uma velocidade constante e milimetricamente controlada, forçando um contato elétrico a abrir e fechar, gerando o trem de pulsos perfeito (bits) para a máquina na central entender.\n\nPor que isso entra no Hall da Fama da TI?\n\nO disco rotativo de 1896 é uma obra-prima de abstração de hardware e controle de Input de usuário. Ele impediu que o ser humano enviasse dados rápidos ou lentos demais para a rede, forçando o comportamento analógico a se adequar à taxa de leitura (baud rate) do comutador mecânico através da velocidade inalterável da mola de retorno. Essa exata interface de disco sobreviveu intacta em quase todas as casas e escritórios do planeta até a década de 1980 (com o surgimento da discagem por tom/DTMF), sendo uma das UIs de maior sucesso de toda a história da tecnologia da informação.',
+          en: 'In Strowger’s original system (1892), the user had three buttons (hundreds, tens and units). To call number 324, the user pressed the first button three times, the second twice and the third four times. It was vulnerable to human error and wrong counts. The genius of the rotary dial was its spring mechanics. The user simply put a finger into the hole for the corresponding number and pulled it to the stop. When released, an internal spring made the dial rotate back at a constant, precisely controlled speed, forcing an electrical contact to open and close, generating the perfect pulse train (bits) for the machine in the exchange to understand.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe 1896 rotary dial is a masterpiece of hardware abstraction and user-input control. It prevented humans from sending data too quickly or too slowly to the network, forcing analog behavior to conform to the reading rate (baud rate) of the mechanical switch through the unchangeable speed of the return spring. This exact dial interface survived intact in almost every home and office on the planet until the 1980s, with the rise of tone dialing/DTMF, becoming one of the most successful UIs in the entire history of information technology.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1897,
+    era: {
+      pt: 'A Descoberta do "Bit" Físico, o Primeiro Monitor Eletrônico e o Provedor Wireless',
+      en: 'The Discovery of the Physical "Bit", the First Electronic Monitor and the Wireless Provider',
+    },
+    context: {
+      pt: 'Em 1897, a tecnologia da informação mergulha no mundo subatômico para descobrir a matéria-prima de toda a computação, constrói a primeira tela verdadeiramente eletrônica e funda a primeira corporação de dados sem fio do planeta. Em Cambridge, a física destrói a ideia do átomo indivisível e encontra a minúscula partícula fundamental que carrega toda e qualquer informação digital até hoje. Na Alemanha, um físico manipula essas mesmas partículas no vácuo para desenhar gráficos em uma tela de fósforo, criando o ancestral absoluto de todos os monitores de computador do século XX. E em Londres, a tecnologia de rádio deixa o balcão de patentes para se tornar uma megacorporação, nascendo o primeiro "provedor" de infraestrutura de dados pelo ar. É o ano do Elétron, do Tubo de Raios Catódicos (CRT) e da primeira Telecom sem fio.',
+      en: 'In 1897, information technology dives into the subatomic world to discover the raw material of all computing, builds the first truly electronic screen and founds the planet’s first wireless data corporation. In Cambridge, physics destroys the idea of the indivisible atom and finds the tiny fundamental particle that still carries every kind of digital information today. In Germany, a physicist manipulates those same particles in a vacuum to draw graphics on a phosphor screen, creating the absolute ancestor of all twentieth-century computer monitors. And in London, radio technology leaves the patent counter and becomes a megacorporation, giving birth to the first "provider" of over-the-air data infrastructure. It is the year of the Electron, the Cathode-Ray Tube (CRT) and the first wireless telecom.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'J.J. Thomson',
+        imagePlaceholder: YEAR_1897_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Físico e matemático brilhante. Mestre supremo do prestigioso Laboratório Cavendish da Universidade de Cambridge, onde combinou uma mente analítica feroz com a construção de hardwares de medição de altíssima precisão.',
+          en: 'Brilliant physicist and mathematician. Supreme master of the prestigious Cavendish Laboratory at the University of Cambridge, where he combined a fierce analytical mind with the construction of extremely precise measurement hardware.',
+        },
+        summary: {
+          pt: 'Descobriu e anunciou em 30 de abril de 1897 a existência do "Elétron" (inicialmente chamado por ele de corpúsculo), provando pela primeira vez que os misteriosos raios catódicos eram, na verdade, um fluxo de partículas subatômicas negativamente carregadas, milhares de vezes menores que um átomo.',
+          en: 'Discovered and announced on April 30, 1897 the existence of the "Electron" (initially called a corpuscle by him), proving for the first time that mysterious cathode rays were actually a flow of negatively charged subatomic particles, thousands of times smaller than an atom.',
+        },
+        role: {
+          pt: 'Descobridor do elétron',
+          en: 'Discoverer of the electron',
+        },
+        contribution: {
+          pt: 'Em 1897, Thomson descobriu a "moeda fundamental" da tecnologia da informação, a partícula que processa e carrega todos os dados do mundo moderno.',
+          en: 'In 1897, Thomson discovered the "fundamental currency" of information technology, the particle that processes and carries all data in the modern world.',
+        },
+        detail: {
+          pt: 'A eletricidade já era usada para telégrafos e motores, mas ninguém sabia exatamente o que fluía pelos fios. Usando uma versão altamente aprimorada do Tubo de Crookes (de 1878) acoplado a campos magnéticos e elétricos cruzados, Thomson conseguiu medir a curvatura do feixe de luz invisível. A matemática não mentia: a eletricidade não era um fluido gasoso, era composta por bilhões de minúsculos "tijolos" idênticos de matéria que podiam ser arrancados de qualquer átomo.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Elétron é a unidade física do "Zero" e do "Um". Toda a Era da Eletrônica e da Computação baseia-se unicamente no domínio absurdo que a humanidade adquiriu sobre essa exata partícula descoberta em 1897. Quando a CPU do seu computador processa uma inteligência artificial, quando a memória RAM armazena uma foto, ou quando o roteador Wi-Fi modula um sinal, o que está acontecendo fisicamente é o roteamento microscópico, a retenção ou o disparo de bilhões de elétrons em frações de nanossegundos. Thomson descobriu o sangue pulsante de todo o hardware da história.',
+          en: 'Electricity was already used for telegraphs and motors, but nobody knew exactly what flowed through the wires. Using a highly improved version of the Crookes Tube (from 1878) coupled to crossed magnetic and electric fields, Thomson managed to measure the curvature of the invisible beam. The mathematics did not lie: electricity was not a gaseous fluid; it was made of billions of tiny identical "bricks" of matter that could be torn from any atom.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Electron is the physical unit of "Zero" and "One". The entire Electronic and Computing Era is based solely on the absurd control humanity acquired over this exact particle discovered in 1897. When your computer’s CPU processes an artificial intelligence, when RAM stores a photo, or when a Wi-Fi router modulates a signal, what is physically happening is the microscopic routing, retention or firing of billions of electrons in fractions of nanoseconds. Thomson discovered the pulsing blood of all hardware in history.',
+        },
+      },
+      {
+        name: 'Karl Ferdinand Braun',
+        imagePlaceholder: YEAR_1897_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Físico, inventor e pioneiro das telecomunicações. Doutor pela Universidade de Berlim e professor na Universidade de Estrasburgo, possuía uma habilidade rara de transformar física fundamental em instrumentos de medição úteis.',
+          en: 'Physicist, inventor and telecommunications pioneer. A doctor from the University of Berlin and professor at the University of Strasbourg, he had the rare ability to turn fundamental physics into useful measuring instruments.',
+        },
+        summary: {
+          pt: 'Inventou em 1897 o Tubo de Braun (Braun Tube), o primeiro osciloscópio e o primeiro Tubo de Raios Catódicos (CRT) focado, usando campos magnéticos para "desenhar" o fluxo de elétrons de forma controlada em uma tela coberta de fósforo.',
+          en: 'Invented the Braun Tube in 1897, the first oscilloscope and the first focused Cathode-Ray Tube (CRT), using magnetic fields to "draw" the electron flow in a controlled way on a phosphor-coated screen.',
+        },
+        role: {
+          pt: 'Inventor do primeiro monitor eletrônico',
+          en: 'Inventor of the first electronic monitor',
+        },
+        contribution: {
+          pt: 'Em 1897, Braun inventou o Hardware Visual Eletrônico, fundando a tecnologia que seria usada em absolutamente todos os monitores de TV e computador pelos próximos 100 anos.',
+          en: 'In 1897, Braun invented Electronic Visual Hardware, founding the technology that would be used in almost every television and computer monitor for the next 100 years.',
+        },
+        detail: {
+          pt: 'Enquanto Thomson usou o feixe de elétrons para descobrir a física subatômica, Braun usou o feixe para desenhar dados. Ele pegou o tubo de vidro a vácuo, colocou uma tela pintada com fósforo na ponta e envolveu o gargalo do tubo com bobinas magnéticas. Ao injetar correntes elétricas variáveis nessas bobinas, ele conseguia desviar o feixe de elétrons para cima, para baixo, para a esquerda e para a direita em altíssima velocidade. Onde o elétron batia na tela, o fósforo brilhava na cor verde. Pela primeira vez, dados elétricos em tempo real ganhavam uma representação visual dinâmica, traçando o formato de uma onda de energia diante dos olhos humanos.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Tubo de Braun é o ancestral direto da "Tela". Antes dele, os dados ou eram impressos em papel ou exibidos em visores mecânicos lentos. A invenção de Braun provou que elétrons sem peso podiam ser manipulados milhões de vezes por segundo para renderizar gráficos instantâneos. Foi esse exato hardware (o CRT) que formou os monitores pesados dos primeiros mainframes, os visores de radar da Segunda Guerra Mundial, os televisores de tubo da nossa infância e os monitores bege dos PCs dos anos 80 e 90, dominando completamente a Interface de Saída Visual (Output) da TI até a chegada do LCD.',
+          en: 'While Thomson used the electron beam to discover subatomic physics, Braun used the beam to draw data. He took the vacuum glass tube, placed a phosphor-painted screen at the end and wrapped the tube neck with magnetic coils. By injecting variable electric currents into those coils, he could deflect the electron beam up, down, left and right at very high speed. Wherever the electron hit the screen, the phosphor glowed green. For the first time, real-time electrical data gained a dynamic visual representation, tracing the shape of an energy wave before human eyes.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Braun Tube is the direct ancestor of the "Screen". Before it, data was either printed on paper or shown on slow mechanical displays. Braun’s invention proved that weightless electrons could be manipulated millions of times per second to render instant graphics. This exact hardware (the CRT) formed the heavy monitors of early mainframes, World War II radar displays, the tube televisions of our childhood and the beige PC monitors of the 1980s and 1990s, completely dominating IT’s Visual Output Interface until the arrival of LCD.',
+        },
+      },
+      {
+        name: 'Guglielmo Marconi',
+        imagePlaceholder: YEAR_1897_PLACEHOLDER,
+        flag: '🇮🇹 🇬🇧',
+        nationality: { pt: 'Italiano (baseado no Reino Unido)', en: 'Italian (based in the United Kingdom)' },
+        formation: {
+          pt: 'O gênio autodidata e estrategista comercial que já havia patenteado o rádio na Inglaterra no ano anterior, agora focado na construção de um monopólio global.',
+          en: 'The self-taught genius and commercial strategist who had already patented radio in England the previous year, now focused on building a global monopoly.',
+        },
+        summary: {
+          pt: 'Fundou formalmente em 20 de julho de 1897, em Londres, a Wireless Telegraph and Signal Company (mais tarde rebatizada simplesmente como Marconi Company), a primeira empresa do mundo focada no deploy comercial de redes de telecomunicação sem fio.',
+          en: 'Formally founded the Wireless Telegraph and Signal Company in London on July 20, 1897 (later renamed simply the Marconi Company), the world’s first company focused on the commercial deployment of wireless telecommunications networks.',
+        },
+        role: {
+          pt: 'Fundador da primeira telecom sem fio comercial',
+          en: 'Founder of the first commercial wireless telecom',
+        },
+        contribution: {
+          pt: 'Em 1897, Marconi criou a primeira corporação de "ISP" (Internet Service Provider) do ar, garantindo o capital e a infraestrutura para a dominação do Wi-Fi primitivo.',
+          en: 'In 1897, Marconi created the first over-the-air "ISP" (Internet Service Provider) corporation, securing the capital and infrastructure for primitive Wi-Fi dominance.',
+        },
+        detail: {
+          pt: 'Uma patente (1896) é apenas um pedaço de papel; uma infraestrutura de comunicação exige estações costeiras, torres de aço maciço, geradores de alta tensão e técnicos contratados. Usando a influência de seus contatos britânicos e financiamento robusto, Marconi fundou a empresa com o objetivo brutal de construir uma malha de rede que interligaria primeiro os navios de guerra e as frotas mercantes, e depois, continentes inteiros. A empresa rapidamente começou a instalar antenas no Canal da Mancha e a fabricar os primeiros kits comerciais de transmissão de dados em código Morse para o mar.\n\nPor que isso entra no Hall da Fama da TI?\n\nSe a empresa de Hollerith (futura IBM) fundou a indústria de processamento de dados, a empresa de Marconi de 1897 fundou a indústria de telecomunicações de dados móveis. Foi a primeira entidade corporativa a tratar o espectro eletromagnético invisível como um ativo logístico comercializável. Hoje, cada grande provedora de celular, como AT&T, Vodafone ou Vivo, além das corporações de internet via satélite (como a Starlink), atua no exato mesmo modelo de negócios de infraestrutura de dados pelo espaço vazio que Marconi inaugurou oficialmente neste dia em Londres.',
+          en: 'A patent (1896) is only a piece of paper; communication infrastructure requires coastal stations, massive steel towers, high-voltage generators and hired technicians. Using the influence of his British contacts and robust financing, Marconi founded the company with the blunt objective of building a network mesh that would first connect warships and merchant fleets, and later entire continents. The company quickly began installing antennas on the English Channel and manufacturing the first commercial kits for Morse-code data transmission at sea.\n\nWhy does this belong in the IT Hall of Fame?\n\nIf Hollerith’s company (the future IBM) founded the data-processing industry, Marconi’s 1897 company founded the mobile data telecommunications industry. It was the first corporate entity to treat the invisible electromagnetic spectrum as a marketable logistical asset. Today, every major cellular provider, such as AT&T, Vodafone or Vivo, as well as satellite internet corporations such as Starlink, operates on the exact same business model of data infrastructure through empty space that Marconi officially inaugurated on this day in London.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1898,
+    era: {
+      pt: 'A Memória Magnética, o Controle Remoto e o Retificador de Cristal',
+      en: 'Magnetic Memory, Remote Control and the Crystal Rectifier',
+    },
+    context: {
+      pt: 'Em 1898, a tecnologia da informação liberta as máquinas do controle físico direto, concretiza a memória magnética e descobre a base física dos semicondutores. Nos Estados Unidos, o primeiro dispositivo de controle sem fio da história navega por um tanque de água, provando que o rádio pode transmitir instruções lógicas, não apenas mensagens de texto. Na Dinamarca, a teoria de gravar dados alterando o magnetismo de um metal vira um hardware prático, fundando a indústria do armazenamento de dados persistente em mídia magnética. E na Alemanha, a física dos materiais revela que certos cristais minerais podem forçar a eletricidade a fluir em uma única direção, plantando a semente bruta que evoluiria para a era da computação de estado sólido. É o ano do gravador de fio, da robótica guiada por rádio e do ancestral do chip moderno.',
+      en: 'In 1898, information technology frees machines from direct physical control, makes magnetic memory real and discovers the physical basis of semiconductors. In the United States, the first wireless-control device in history navigates a water tank, proving that radio can transmit logical instructions, not only text messages. In Denmark, the theory of recording data by altering the magnetism of a metal becomes practical hardware, founding the industry of persistent data storage on magnetic media. And in Germany, materials physics reveals that certain mineral crystals can force electricity to flow in only one direction, planting the raw seed that would evolve into the era of solid-state computing. It is the year of the wire recorder, radio-guided robotics and the ancestor of the modern chip.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Valdemar Poulsen',
+        imagePlaceholder: YEAR_1898_PLACEHOLDER,
+        flag: '🇩🇰',
+        nationality: { pt: 'Dinamarquês', en: 'Danish' },
+        formation: {
+          pt: 'Engenheiro e inventor genial. Iniciou seus estudos em medicina na Universidade de Copenhague, mas seu talento mecânico o desviou para a física experimental e a engenharia atuando na Copenhagen Telephone Company.',
+          en: 'Brilliant engineer and inventor. He began studying medicine at the University of Copenhagen, but his mechanical talent redirected him toward experimental physics and engineering while working at the Copenhagen Telephone Company.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1898 o Telegraphone (Telegrafone), o primeiro dispositivo funcional e prático da história a gravar, armazenar e reproduzir dados acústicos utilizando o princípio do magnetismo em um fio de aço em movimento.',
+          en: 'Invented and patented the Telegraphone in 1898, the first functional and practical device in history to record, store and reproduce acoustic data using magnetism on a moving steel wire.',
+        },
+        role: {
+          pt: 'Inventor da gravação magnética prática',
+          en: 'Inventor of practical magnetic recording',
+        },
+        contribution: {
+          pt: 'Em 1898, Poulsen transformou a gravação magnética teórica em um hardware real e comercializável.',
+          en: 'In 1898, Poulsen transformed theoretical magnetic recording into real, marketable hardware.',
+        },
+        detail: {
+          pt: 'Dez anos antes (em 1888), Oberlin Smith havia proposto a teoria de que ímãs poderiam armazenar som de forma invisível. Poulsen foi quem realmente construiu a máquina e a colocou em funcionamento. O processo era brilhante: ao falar em um microfone, o som gerava uma corrente elétrica variável que passava por um eletroímã. Um fio de aço longo passava rapidamente por esse ímã e ficava com "bolsões" microscópicos de magnetismo permanentemente gravados em sua estrutura metálica, em conformidade exata com o dado de áudio. Ao passar o fio de volta pelo mesmo ímã, o campo magnético induzia uma corrente reversa que tocava o som no fone de ouvido, sem ranhuras físicas, sem agulhas rasgando cilindros e sem nenhum desgaste da mídia.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o hardware fundador de toda a indústria de Armazenamento Magnético moderno. A máquina de Poulsen é a ancestral arquitetônica inegável das fitas cassete, das gigantescas unidades de fita de rolo magnético que faziam o backup dos primeiros supercomputadores nas décadas de 1950 e 1960, dos disquetes flexíveis (Floppy Disks) e, claro, dos Discos Rígidos (HDDs) que giram nos servidores de data centers hoje armazenando petabytes de informação através da pura manipulação de campos magnéticos em pratos de metal.',
+          en: 'Ten years earlier, in 1888, Oberlin Smith had proposed the theory that magnets could store sound invisibly. Poulsen was the one who actually built the machine and made it work. The process was brilliant: when someone spoke into a microphone, the sound generated a variable electric current that passed through an electromagnet. A long steel wire moved quickly past that magnet and received microscopic "pockets" of magnetism permanently recorded in its metal structure, exactly matching the audio data. When the wire passed back through the same magnet, the magnetic field induced a reverse current that played the sound in an earphone, with no physical grooves, no needles tearing cylinders and no wear on the medium.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the founding hardware of the entire modern Magnetic Storage industry. Poulsen’s machine is the undeniable architectural ancestor of cassette tapes, the gigantic magnetic reel-to-reel tape units that backed up early supercomputers in the 1950s and 1960s, floppy disks and, of course, the Hard Disk Drives (HDDs) spinning in today’s data-center servers, storing petabytes of information through pure manipulation of magnetic fields on metal platters.',
+        },
+      },
+      {
+        name: 'Nikola Tesla',
+        imagePlaceholder: YEAR_1898_PLACEHOLDER,
+        flag: '🇷🇸 🇭🇷',
+        nationality: { pt: 'Sérvio-Americano', en: 'Serbian-American' },
+        formation: {
+          pt: 'Engenheiro eletricista e físico formidável formado pelo Instituto Politécnico de Graz, na Áustria.',
+          en: 'Formidable electrical engineer and physicist trained at the Graz Polytechnic Institute in Austria.',
+        },
+        summary: {
+          pt: 'Demonstrou publicamente no Madison Square Garden em 1898 (e patenteou como US Patent 613,809) o Teleautomaton, o primeiro veículo do mundo operado remotamente por instruções transmitidas via ondas de rádio.',
+          en: 'Publicly demonstrated the Teleautomaton at Madison Square Garden in 1898 (and patented it as US Patent 613,809), the world’s first vehicle remotely operated by instructions transmitted through radio waves.',
+        },
+        role: {
+          pt: 'Inventor do controle remoto por rádio',
+          en: 'Inventor of radio remote control',
+        },
+        contribution: {
+          pt: 'Em 1898, Tesla provou que o espectro eletromagnético não servia apenas para comunicação humana, mas para o envio de comandos de execução lógicos para máquinas autônomas.',
+          en: 'In 1898, Tesla proved that the electromagnetic spectrum was not only for human communication, but also for sending logical execution commands to autonomous machines.',
+        },
+        detail: {
+          pt: 'Diante de uma plateia estupefata (que achava que o barco estava sendo controlado por telepatia ou que havia um macaco treinado escondido dentro), Tesla pilotou um pequeno barco de ferro em um tanque de água interno. Ele usava um transmissor de rádio em uma caixa de controle para enviar pulsos eletromagnéticos codificados. Dentro do barco, um receptor captava os sinais e acionava circuitos mecânicos robustos (ancestrais de relés e portas lógicas) que ligavam o propulsor do motor, viravam o leme eletromecânico e acendiam luzes de sinalização, tudo de forma perfeitamente orquestrada e sem nenhum fio de conexão.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o "Big Bang" do Controle Remoto, da Telemetria de Dados e da Robótica não conectada. Tesla não construiu apenas um brinquedo engenhoso; ele inaugurou o conceito de Machine-to-Machine (M2M) Communication e o roteamento de dados de instrução operacional. Todo drone operado à distância que mapeia um terreno, todo satélite em órbita que recebe pacotes de reajuste de trajetória da base terrestre e todo dispositivo de Internet das Coisas (IoT) industrial que executa comandos via Wi-Fi descendem diretamente da arquitetura de comunicação lógica demonstrada por Tesla naquele tanque em 1898.',
+          en: 'Before a stunned audience, which thought the boat was being controlled by telepathy or that a trained animal was hidden inside, Tesla piloted a small iron boat in an indoor water tank. He used a radio transmitter in a control box to send coded electromagnetic pulses. Inside the boat, a receiver captured the signals and triggered robust mechanical circuits, ancestors of relays and logic gates, that powered the motor propeller, turned the electromechanical rudder and lit signal lamps, all perfectly orchestrated with no connecting wires.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the "Big Bang" of Remote Control, Data Telemetry and untethered Robotics. Tesla did not merely build a clever toy; he inaugurated the concept of Machine-to-Machine (M2M) Communication and the routing of operational instruction data. Every remotely operated drone that maps terrain, every satellite in orbit receiving trajectory-adjustment packets from a ground station and every industrial Internet of Things (IoT) device executing commands through Wi-Fi descends directly from the logical communication architecture Tesla demonstrated in that tank in 1898.',
+        },
+      },
+      {
+        name: 'Karl Ferdinand Braun',
+        imagePlaceholder: YEAR_1898_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Físico experimental excepcional. Doutor pela Universidade de Berlim e professor em Estrasburgo (foi o mesmo cientista que inventou o Tubo de Raios Catódicos - CRT, em 1897).',
+          en: 'Exceptional experimental physicist. Doctor from the University of Berlin and professor in Strasbourg; he was the same scientist who invented the Cathode-Ray Tube (CRT) in 1897.',
+        },
+        summary: {
+          pt: 'Aprofundou e documentou detalhadamente em 1898 (dando sequência aos seus estudos iniciados décadas antes) o Efeito Retificador de contatos pontuais em cristais semicondutores, demonstrando que uma ponta metálica tocando um cristal de galena atua como uma porta de mão única para elétrons.',
+          en: 'Deepened and documented in detail in 1898, following studies he had begun decades earlier, the rectifying effect of point contacts on semiconductor crystals, demonstrating that a metal point touching a galena crystal acts as a one-way gate for electrons.',
+        },
+        role: {
+          pt: 'Formalizador do retificador de cristal',
+          en: 'Formalizer of the crystal rectifier',
+        },
+        contribution: {
+          pt: 'Em 1898, Braun formalizou a base física de hardware para o processamento do mundo "Solid-State" (Estado Sólido).',
+          en: 'In 1898, Braun formalized the physical hardware basis for processing in the Solid-State world.',
+        },
+        detail: {
+          pt: 'Até o fim do século XIX, para converter Corrente Alternada (que flui nos dois sentidos) em Corrente Contínua, ou para "retificar" frequências de rádio de modo a extrair dados de áudio, as soluções elétricas eram pesadas, rotativas ou baseadas em química corrosiva. Braun investigou exaustivamente as propriedades anômalas da condução elétrica em cristais minerais (como a galena e a pirita) e documentou definitivamente sua assimetria em 1898. Ele provou que se você encostasse um fio de metal fino na superfície natural de um cristal desses, a estrutura cristalina permitia que os elétrons passassem livremente em uma direção, mas bloqueava fisicamente o fluxo na direção reversa. Era uma válvula elétrica microscópica e inquebrável operando a frio.\n\nPor que isso entra no Hall da Fama da TI?\n\nO "Detector de Cristal" ou "Diodo de Contato Pontual" (Cat’s-whisker detector) que surgiu e se popularizou a partir desses estudos de Braun é o primeiríssimo ancestral do Diodo Semicondutor. É a fundação absoluta da microeletrônica. Antes de existirem processadores complexos feitos de silício ultrapuro, as propriedades retificadoras das rochas e cristais foram fundamentais para as placas e os receptores dos primeiros sistemas portáteis de comunicação em massa do século XX. O estudo documentado de 1898 validou que o controle direcional de dados binários elétricos poderia ser feito estritamente aproveitando as leis subatômicas do estado sólido.',
+          en: 'Until the end of the nineteenth century, converting Alternating Current, which flows in both directions, into Direct Current, or "rectifying" radio frequencies to extract audio data, required electrical solutions that were heavy, rotary or based on corrosive chemistry. Braun exhaustively investigated the anomalous properties of electrical conduction in mineral crystals, such as galena and pyrite, and definitively documented their asymmetry in 1898. He proved that if a thin metal wire touched the natural surface of one of these crystals, the crystal structure allowed electrons to pass freely in one direction but physically blocked the flow in the reverse direction. It was a microscopic, unbreakable electrical valve operating cold.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe "Crystal Detector" or "Point-Contact Diode" (Cat’s-whisker detector) that emerged and became popular from Braun’s studies is the very first ancestor of the Semiconductor Diode. It is the absolute foundation of microelectronics. Before complex processors made of ultrapure silicon existed, the rectifying properties of rocks and crystals were fundamental to the boards and receivers of the first portable mass-communication systems of the twentieth century. The 1898 documented study validated that directional control of binary electrical data could be achieved strictly by exploiting the subatomic laws of the solid state.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1899,
+    era: {
+      pt: 'A Rede Internacional, o Hardware Anti-Atenuação e a Linha do Tempo Visual',
+      en: 'The International Network, Anti-Attenuation Hardware and the Visual Timeline',
+    },
+    context: {
+      pt: 'Em 1899, no apagar das luzes do século XIX, a tecnologia da informação expande seus limites geográficos e refina seu hardware de diagnóstico para entrar no século XX. A transmissão de dados pelo ar ignora as fronteiras políticas e marítimas, cruzando o Canal da Mancha e inaugurando a primeira conexão de rede internacional sem fio. Na infraestrutura física pesada, a matemática avançada resolve o problema letal da degradação de sinal em longas distâncias, criando um hardware passivo que permitiria à rede telefônica cruzar continentes. E nos laboratórios de física, o recém-inventado monitor de elétrons ganha a dimensão do "tempo", permitindo que os engenheiros literalmente enxerguem o fluxo de dados em movimento. É o ano do link internacional, das bobinas de carga e do osciloscópio de varredura.',
+      en: 'In 1899, as the nineteenth century fades out, information technology expands its geographic limits and refines its diagnostic hardware to enter the twentieth century. Data transmission through the air ignores political and maritime borders, crossing the English Channel and inaugurating the first international wireless network connection. In heavy physical infrastructure, advanced mathematics solves the lethal problem of long-distance signal degradation, creating passive hardware that would allow the telephone network to cross continents. And in physics laboratories, the newly invented electron monitor gains the dimension of "time", allowing engineers to literally see data flow in motion. It is the year of the international link, loading coils and the sweep oscilloscope.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Guglielmo Marconi',
+        imagePlaceholder: YEAR_1899_PLACEHOLDER,
+        flag: '🇮🇹 🇬🇧 🇫🇷',
+        nationality: { pt: 'Italiano (operando no Reino Unido e França)', en: 'Italian (operating in the United Kingdom and France)' },
+        formation: {
+          pt: 'Engenheiro prático e estrategista comercial focado em telecomunicações de radiofrequência, gerindo sua própria corporação recém-fundada.',
+          en: 'Practical engineer and commercial strategist focused on radiofrequency telecommunications, managing his own newly founded corporation.',
+        },
+        summary: {
+          pt: 'Estabeleceu em 27 de março de 1899 a primeira comunicação de telegrafia sem fio internacional da história, transmitindo mensagens em código Morse por 46 quilômetros através do Canal da Mancha, conectando South Foreland (Inglaterra) a Wimereux (França).',
+          en: 'Established the first international wireless telegraphy communication in history on March 27, 1899, transmitting Morse-code messages for 46 kilometers across the English Channel, connecting South Foreland in England to Wimereux in France.',
+        },
+        role: {
+          pt: 'Construtor do primeiro link wireless internacional',
+          en: 'Builder of the first international wireless link',
+        },
+        contribution: {
+          pt: 'Em 1899, Marconi construiu o primeiro link WAN (Wide Area Network) internacional sem cabos físicos submarinos.',
+          en: 'In 1899, Marconi built the first international WAN (Wide Area Network) link without physical submarine cables.',
+        },
+        detail: {
+          pt: 'Até este momento, Marconi havia provado que o rádio funcionava em terra firme e a curtas distâncias. Havia um temor na engenharia de que a curvatura da Terra ou a vasta massa de água salgada bloqueassem as ondas eletromagnéticas. Ao erguer mastros gigantescos nos penhascos da Inglaterra e na costa da França, ele conseguiu que os pulsos eletromagnéticos viajassem pelo ar, decodificando as mensagens perfeitamente do outro lado.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta transmissão é o teste de escalabilidade definitivo para a comunicação global wireless. Ela provou para corporações, governos e marinhas de guerra que pacotes de dados poderiam trafegar entre países sem a necessidade extrema de passar pesados e caros cabos telegráficos blindados pelo fundo do oceano. É a prova de conceito arquitetônica que daria a Marconi a confiança para tentar, apenas dois anos depois, transmitir dados através do Oceano Atlântico. Toda a ideia moderna de roteamento de dados via ar além de fronteiras nacionais (como as modernas redes de rádio de aviação e marítimas) teve seu deploy inaugural bem-sucedido nesta data.',
+          en: 'Until this moment, Marconi had proved that radio worked on land and over short distances. Engineers feared that the curvature of the Earth or the vast mass of salt water might block electromagnetic waves. By raising giant masts on the cliffs of England and the coast of France, he managed to make electromagnetic pulses travel through the air, with the messages decoded perfectly on the other side.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis transmission is the definitive scalability test for global wireless communication. It proved to corporations, governments and navies that data packets could travel between countries without the extreme need to lay heavy, expensive armored telegraph cables on the ocean floor. It is the architectural proof of concept that gave Marconi the confidence to attempt, only two years later, to transmit data across the Atlantic Ocean. The whole modern idea of routing data through the air across national borders, such as modern aviation and maritime radio networks, had its first successful deployment on this date.',
+        },
+      },
+      {
+        name: 'Michael Pupin',
+        imagePlaceholder: YEAR_1899_PLACEHOLDER,
+        flag: '🇷🇸 🇺🇸',
+        nationality: { pt: 'Sérvio-Americano', en: 'Serbian-American' },
+        formation: {
+          pt: 'Físico brilhante e matemático. Obteve seu Ph.D. na Universidade de Berlim sob a tutela de Hermann von Helmholtz e tornou-se professor de eletromecânica na Universidade de Columbia, dominando profundamente a física de propagação de ondas.',
+          en: 'Brilliant physicist and mathematician. He earned his Ph.D. at the University of Berlin under Hermann von Helmholtz and became a professor of electromechanics at Columbia University, deeply mastering the physics of wave propagation.',
+        },
+        summary: {
+          pt: 'Submeteu as patentes em dezembro de 1899 (concedidas em 1900) para as "Bobinas de Pupin" (Loading Coils), uma solução matemática e de hardware rigorosa para impedir a degradação de sinais elétricos em redes de longa distância.',
+          en: 'Filed patents in December 1899 (granted in 1900) for the "Pupin Coils" (Loading Coils), a rigorous mathematical and hardware solution to prevent the degradation of electrical signals in long-distance networks.',
+        },
+        role: {
+          pt: 'Inventor das bobinas de carga telefônicas',
+          en: 'Inventor of telephone loading coils',
+        },
+        contribution: {
+          pt: 'Em 1899, Pupin resolveu o gargalo físico do cabeamento de dados usando matemática pura aplicada ao hardware de indução.',
+          en: 'In 1899, Pupin solved the physical bottleneck of data cabling using pure mathematics applied to induction hardware.',
+        },
+        detail: {
+          pt: 'Quando sinais de voz ou dados viajam por dezenas de quilômetros em um cabo de par trançado (como o de Bell), a "capacitância" do próprio fio atua como um filtro indesejado, enfraquecendo e distorcendo a onda até virar ruído (atenuação extrema). Oliver Heaviside já havia teorizado uma solução matemática, mas Pupin calculou exatamente como construir isso no mundo real. Ele descobriu que se você inserir bobinas de indução (fio enrolado em um núcleo magnético) em intervalos físicos milimetricamente calculados ao longo da linha de rede, a indutância adicionada cancela a capacitância. O sinal é "blindado" contra a distorção.\n\nPor que isso entra no Hall da Fama da TI?\n\nA bobina de Pupin é a salvadora das redes cabeadas pré-fibra óptica. Sem esta invenção de 1899, a comunicação interurbana ou intercontinental era impossível sem que a informação fosse corrompida no caminho. A AT&T comprou as patentes de Pupin por uma fortuna, permitindo que as linhas telefônicas e telegráficas cruzassem os Estados Unidos. Durante todo o século XX, a infraestrutura das companhias telefônicas (onde mais tarde os modems de internet discada e os sistemas ADSL trafegariam) dependeu dessas caixas pretas de indução a cada par de quilômetros nos postes de rua para garantir a integridade dos pacotes de dados transmitidos.',
+          en: 'When voice or data signals travel for dozens of kilometers through a twisted-pair cable (such as Bell’s), the "capacitance" of the wire itself acts as an unwanted filter, weakening and distorting the wave until it becomes noise (extreme attenuation). Oliver Heaviside had already theorized a mathematical solution, but Pupin calculated exactly how to build it in the real world. He discovered that if induction coils, wire wound around a magnetic core, were inserted at precisely calculated physical intervals along the network line, the added inductance would cancel the capacitance. The signal was "shielded" against distortion.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Pupin coil is the savior of pre-fiber-optic wired networks. Without this 1899 invention, intercity or intercontinental communication was impossible without corrupting the information along the way. AT&T bought Pupin’s patents for a fortune, allowing telephone and telegraph lines to cross the United States. Throughout the twentieth century, the infrastructure of telephone companies, where dial-up internet modems and ADSL systems would later travel, depended on these induction black boxes every couple of kilometers on street poles to guarantee the integrity of transmitted data packets.',
+        },
+      },
+      {
+        name: 'Jonathan Zenneck',
+        imagePlaceholder: YEAR_1899_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Físico e engenheiro elétrico de altíssimo nível. Estudou na Universidade de Tübingen e atuou como assistente direto de Karl Ferdinand Braun na Universidade de Estrasburgo, focando na intersecção entre propagação de ondas e instrumentação óptica.',
+          en: 'High-level physicist and electrical engineer. He studied at the University of Tübingen and worked as Karl Ferdinand Braun’s direct assistant at the University of Strasbourg, focusing on the intersection between wave propagation and optical instrumentation.',
+        },
+        summary: {
+          pt: 'Inventou em 1899 o Circuito de Varredura (Time-base Sweep) para o Tubo de Raios Catódicos, aplicando campos magnéticos oscilantes que moviam o feixe de elétrons horizontalmente em uma velocidade constante predefinida.',
+          en: 'Invented the Time-base Sweep circuit for the Cathode-Ray Tube in 1899, applying oscillating magnetic fields that moved the electron beam horizontally at a predefined constant speed.',
+        },
+        role: {
+          pt: 'Inventor da varredura temporal do CRT',
+          en: 'Inventor of CRT time-base sweep',
+        },
+        contribution: {
+          pt: 'Em 1899, Zenneck adicionou o "Eixo X" (Tempo) à interface de vídeo, criando a primeira máquina de diagnóstico visual de sinais elétricos da história.',
+          en: 'In 1899, Zenneck added the "X Axis" (Time) to the video interface, creating the first visual diagnostic machine for electrical signals in history.',
+        },
+        detail: {
+          pt: 'Em 1897, Ferdinand Braun inventou o CRT (a primeira tela eletrônica), mas o ponto verde apenas oscilava para cima e para baixo no mesmo lugar. Zenneck projetou um circuito que puxava o feixe de elétrons da esquerda para a direita a uma velocidade matematicamente constante, e depois o "puxava" de volta instantaneamente (como os olhos ao ler uma linha de texto). Como a informação do sinal movia o feixe verticalmente (Eixo Y) e o circuito de Zenneck movia o feixe horizontalmente com o tempo (Eixo X), o resultado era o desenho perfeito da forma de onda de um dado elétrico, em tempo real, na tela.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a varredura linear de Zenneck de 1899, a tela CRT seria inútil para a renderização complexa. Esta invenção gerou o Osciloscópio moderno, a ferramenta de hardware fundamental que todo engenheiro de eletrônica utiliza para ler clocks de processadores e depurar curtos-circuitos em placas-mãe. Ainda mais impactante, o "circuito de varredura" inventado neste laboratório é o exato princípio que as futuras televisões e monitores de computador adotariam para "pintar" linhas de imagem na tela, ditando a arquitetura global de saída de vídeo (Output) do século XX.',
+          en: 'In 1897, Ferdinand Braun invented the CRT (the first electronic screen), but the green dot only oscillated up and down in the same place. Zenneck designed a circuit that pulled the electron beam from left to right at a mathematically constant speed, then "pulled" it back instantly, like the eyes reading a line of text. Because the signal information moved the beam vertically (Y Axis) and Zenneck’s circuit moved the beam horizontally over time (X Axis), the result was the perfect drawing of an electrical data waveform, in real time, on the screen.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout Zenneck’s 1899 linear sweep, the CRT screen would be useless for complex rendering. This invention generated the modern Oscilloscope, the fundamental hardware tool every electronics engineer uses to read processor clocks and debug short circuits on motherboards. Even more impactfully, the "sweep circuit" invented in this laboratory is the exact principle future televisions and computer monitors would adopt to "paint" image lines on the screen, dictating the global architecture of twentieth-century video output.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1900,
+    era: {
+      pt: 'A Física Quântica, o Streaming de Áudio Sem Fio e o Conceito de Televisão',
+      en: 'Quantum Physics, Wireless Audio Streaming and the Concept of Television',
+    },
+    context: {
+      pt: 'Em 1900, a virada do século marca a transição da tecnologia mecânica e elétrica clássica para as bases da eletrônica moderna e da mídia contínua. Nos laboratórios de física da Alemanha, a descoberta de que a energia opera em "pacotes" discretos revoluciona a ciência, plantando a semente teórica inegável de todos os processadores e semicondutores do futuro. Nas Américas, o rádio deixa de enviar apenas pulsos secos em código Morse e consegue, pela primeira vez, modular a riqueza contínua da voz humana pelo ar, inaugurando a transmissão de áudio sem fio. E na grande Exposição Universal de Paris, uma nova palavra é dita em público pela primeira vez, unindo as tecnologias de varredura mecânica e telas de fósforo no conceito definitivo de envio de vídeo à distância. É o ano da Teoria Quântica, da rádio AM e do batismo da "Televisão".',
+      en: 'In 1900, the turn of the century marks the transition from classical mechanical and electrical technology to the foundations of modern electronics and continuous media. In German physics laboratories, the discovery that energy operates in discrete "packets" revolutionizes science, planting the undeniable theoretical seed of every processor and semiconductor of the future. In the Americas, radio stops sending only dry Morse-code pulses and, for the first time, manages to modulate the continuous richness of the human voice through the air, inaugurating wireless audio transmission. And at the great Paris Exposition, a new word is spoken in public for the first time, joining mechanical scanning technologies and phosphor screens into the definitive concept of sending video over distance. It is the year of Quantum Theory, AM radio and the christening of "Television".',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Max Planck',
+        imagePlaceholder: YEAR_1900_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Físico teórico monumental. Formado com honras pela Universidade de Munique e pela Universidade de Berlim, dominava a termodinâmica e dedicou sua vida a resolver os paradoxos matemáticos da radiação de energia.',
+          en: 'Monumental theoretical physicist. Trained with honors at the University of Munich and the University of Berlin, he mastered thermodynamics and dedicated his life to solving the mathematical paradoxes of energy radiation.',
+        },
+        summary: {
+          pt: 'Apresentou em 14 de dezembro de 1900, à Sociedade Alemã de Física, a Teoria Quântica, provando matematicamente que a energia eletromagnética não flui como uma onda contínua infinita, mas sim em pequenos pacotes indivisíveis e discretos chamados "quanta".',
+          en: 'Presented Quantum Theory to the German Physical Society on December 14, 1900, mathematically proving that electromagnetic energy does not flow as an infinite continuous wave, but in small indivisible, discrete packets called "quanta".',
+        },
+        role: {
+          pt: 'Fundador da teoria quântica',
+          en: 'Founder of quantum theory',
+        },
+        contribution: {
+          pt: 'Em 1900, Planck descobriu a arquitetura de "resolução" do próprio universo, a lei física que faria a computação de estado sólido ser possível.',
+          en: 'In 1900, Planck discovered the "resolution" architecture of the universe itself, the physical law that would make solid-state computing possible.',
+        },
+        detail: {
+          pt: 'A física clássica acreditava que a energia podia ser dividida infinitamente, como a água fluindo. Planck percebeu que isso quebrava a matemática ao tentar explicar o brilho de corpos aquecidos (a catástrofe do ultravioleta). Para consertar o bug da física clássica, ele propôs um "código" novo: a energia só pode ser emitida ou absorvida em blocos inteiros, assim como a moeda tem um valor mínimo (o centavo) e não pode ser dividida infinitamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a Teoria Quântica formulada em 1900, a eletrônica moderna não existe. Os computadores de hoje não usam válvulas mecânicas; eles usam transistores feitos de silício (semicondutores). O comportamento dos elétrons dentro do silício, as bandas de energia que permitem que um chip funcione e até o design dos lasers de fibra óptica e dos novos computadores quânticos baseiam-se absoluta e inteiramente na regra de quantização da energia descoberta por Planck neste dia. Ele entregou o manual de instruções do mundo subatômico para os engenheiros do futuro.',
+          en: 'Classical physics believed energy could be divided infinitely, like flowing water. Planck realized that this broke the mathematics when trying to explain the glow of heated bodies (the ultraviolet catastrophe). To fix the bug in classical physics, he proposed a new "code": energy can only be emitted or absorbed in whole blocks, just as money has a minimum unit (the cent) and cannot be divided infinitely.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout the Quantum Theory formulated in 1900, modern electronics does not exist. Today’s computers do not use mechanical valves; they use transistors made of silicon (semiconductors). The behavior of electrons inside silicon, the energy bands that allow a chip to work and even the design of fiber-optic lasers and new quantum computers are based absolutely and entirely on the rule of energy quantization discovered by Planck on this day. He delivered the instruction manual of the subatomic world to the engineers of the future.',
+        },
+      },
+      {
+        name: 'Reginald Fessenden & Roberto Landell de Moura',
+        imagePlaceholder: YEAR_1900_PLACEHOLDER,
+        flag: '🇨🇦 🇧🇷',
+        nationality: { pt: 'Canadense / Brasileiro', en: 'Canadian / Brazilian' },
+        formation: {
+          pt: 'Fessenden: Matemático e engenheiro brilhante, pupilo de Thomas Edison. Landell de Moura: Padre católico e cientista genial formado em Teologia e Física pela Universidade Gregoriana de Roma, com profunda compreensão da propagação de ondas.',
+          en: 'Fessenden: brilliant mathematician and engineer, a pupil of Thomas Edison. Landell de Moura: Catholic priest and gifted scientist trained in Theology and Physics at the Gregorian University in Rome, with a deep understanding of wave propagation.',
+        },
+        summary: {
+          pt: 'Realizaram, de forma independente, as primeiras transmissões experimentais bem-sucedidas da voz humana sem o uso de fios. Landell de Moura fez sua demonstração pública em junho de 1900 em São Paulo; Fessenden realizou sua primeira transmissão de voz contínua documentada em dezembro do mesmo ano em Maryland, EUA.',
+          en: 'Independently carried out the first successful experimental transmissions of the human voice without wires. Landell de Moura made his public demonstration in June 1900 in São Paulo; Fessenden made his first documented continuous voice transmission in December of the same year in Maryland, USA.',
+        },
+        role: {
+          pt: 'Pioneiros da transmissão de voz sem fio',
+          en: 'Pioneers of wireless voice transmission',
+        },
+        contribution: {
+          pt: 'Em 1900, a transmissão sem fio saltou dos "bits" do código Morse para a "banda larga analógica", suportando a complexidade do streaming de áudio em tempo real.',
+          en: 'In 1900, wireless transmission jumped from the "bits" of Morse code to "analog broadband", supporting the complexity of real-time audio streaming.',
+        },
+        detail: {
+          pt: 'Até então, o rádio de Marconi (1895) usava faíscas brutas que só podiam fazer uma coisa: ligar e desligar um sinal (pulsos em Morse). Era impossível falar por uma faísca. O salto de hardware arquitetado por esses gênios foi o conceito de "Onda Contínua". Em vez de ligar e desligar a antena, eles geravam uma onda ininterrupta de alta frequência e sobrepunham as vibrações do microfone de voz diretamente nela (modulação de amplitude - AM). Landell de Moura fez a voz atravessar 8 quilômetros na cidade de São Paulo, e Fessenden provou a técnica para agências meteorológicas americanas no final do ano.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta é a fundação tecnológica de toda a comunicação de voz wireless do planeta. Ao desenvolverem a Modulação de Onda Contínua, eles criaram a infraestrutura que não só deu origem à indústria do Rádio comercial (música e notícias ao vivo), mas também forneceu o princípio físico para todos os protocolos de modulação complexa que usamos hoje. Toda vez que você faz uma chamada de voz pelo celular, está usando uma versão hiperavançada do conceito de carregar som analógico em cima de uma onda portadora invisível testada em 1900.',
+          en: 'Until then, Marconi’s radio (1895) used raw sparks that could only do one thing: turn a signal on and off (Morse pulses). It was impossible to speak through a spark. The hardware leap engineered by these minds was the concept of the "Continuous Wave". Instead of switching the antenna on and off, they generated an uninterrupted high-frequency wave and overlaid the vibrations of the voice microphone directly onto it (amplitude modulation - AM). Landell de Moura made the voice travel 8 kilometers in the city of São Paulo, and Fessenden proved the technique for American meteorological agencies at the end of the year.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the technological foundation of all wireless voice communication on the planet. By developing Continuous-Wave Modulation, they created the infrastructure that not only gave rise to the commercial radio industry (music and live news), but also supplied the physical principle for all the complex modulation protocols we use today. Every time you make a voice call on a cell phone, you are using a hyper-advanced version of the concept of carrying analog sound on top of an invisible carrier wave tested in 1900.',
+        },
+      },
+      {
+        name: 'Constantin Perskyi',
+        imagePlaceholder: YEAR_1900_PLACEHOLDER,
+        flag: '🇷🇺',
+        nationality: { pt: 'Russo', en: 'Russian' },
+        formation: {
+          pt: 'Engenheiro e professor de eletricidade na Academia de Artilharia de São Petersburgo, possuindo uma visão holística rara de como as diversas peças isoladas de hardware óptico e elétrico da época poderiam ser conectadas.',
+          en: 'Engineer and professor of electricity at the Saint Petersburg Artillery Academy, with a rare holistic vision of how the many isolated pieces of optical and electrical hardware of the era could be connected.',
+        },
+        summary: {
+          pt: 'Apresentou em 24 de agosto de 1900, no Congresso Internacional de Eletricidade em Paris, um documento seminal ("Televisão através da Eletricidade") onde ele cunhou e cravou para a história a palavra "Televisão".',
+          en: 'Presented a seminal paper on August 24, 1900, at the International Electricity Congress in Paris ("Television through Electricity"), where he coined and fixed the word "Television" in history.',
+        },
+        role: {
+          pt: 'Criador do conceito público de televisão',
+          en: 'Creator of the public concept of television',
+        },
+        contribution: {
+          pt: 'Em 1900, Perskyi compilou teoricamente o Display Remoto, unindo os inventos do século XIX na arquitetura visionária de uma rede global de vídeos.',
+          en: 'In 1900, Perskyi theoretically compiled the Remote Display, joining nineteenth-century inventions into the visionary architecture of a global video network.',
+        },
+        detail: {
+          pt: 'Perskyi não soldou fios naquele dia, ele fez algo de igual impacto: ele forneceu o Framework teórico do futuro. Lendo os trabalhos de inventores como Nipkow (que fatiou imagens com seu disco rotativo em 1883) e Braun (que inventou a tela de tubo CRT em 1897), Perskyi percebeu que a tecnologia humana já possuía todas as "funções" necessárias para transmitir imagens em movimento pela rede telegráfica, bastava integrá-las. Ele nomeou essa integração de hardware e rede usando o prefixo grego tele (distância) e o latim visio (visão).\n\nPor que isso entra no Hall da Fama da TI?\n\nO documento de Perskyi de 1900 serviu como o roteiro de desenvolvimento corporativo (o roadmap) para a engenharia eletrônica do século XX. O termo recém-nascido pegou quase instantaneamente na feira de Paris. Estabeleceu-se assim o objetivo tecnológico e comercial de interligar as casas e os monitores CRT do mundo para receber dados em vídeo dinâmicos, culminando nas gigantescas redes de radiodifusão e nas transmissões televisivas modernas. A "Televisão", antes de ser um eletrodoméstico de hardware, nasceu como um protocolo conceitual nesta data.',
+          en: 'Perskyi did not solder wires that day; he did something equally impactful: he supplied the theoretical framework of the future. Reading the work of inventors such as Nipkow (who sliced images with his rotating disk in 1883) and Braun (who invented the CRT tube screen in 1897), Perskyi realized that human technology already had all the "functions" necessary to transmit moving images through the telegraph network; they only needed to be integrated. He named this integration of hardware and network using the Greek prefix tele (distance) and the Latin visio (vision).\n\nWhy does this belong in the IT Hall of Fame?\n\nPerskyi’s 1900 document served as the corporate development roadmap for twentieth-century electronic engineering. The newborn term caught on almost instantly at the Paris fair. Thus the technological and commercial objective was established: to interconnect the world’s homes and CRT monitors so they could receive dynamic video data, culminating in gigantic broadcasting networks and modern television transmissions. "Television", before it was a hardware appliance, was born as a conceptual protocol on this date.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1901,
+    era: {
+      pt: 'A Conexão Global, o Input de Dados Automatizado e o Primeiro Teclado Elétrico',
+      en: 'The Global Connection, Automated Data Input and the First Electric Keyboard',
+    },
+    context: {
+      pt: 'Em 1901, a tecnologia da informação quebra a barreira mais temida da física clássica, provando que a Terra inteira poderia ser englobada por uma única rede de comunicação. No Oceano Atlântico, um pulso de rádio viaja entre dois continentes, fundando a infraestrutura da comunicação global em tempo real. Nos escritórios corporativos, o gargalo da inserção manual de dados é resolvido com a invenção da primeira máquina de perfuração guiada por teclado, acelerando brutalmente o input para o processamento de Big Data. E no campo da interface homem-máquina, o esforço físico da digitação é substituído pela força de motores, nascendo o ancestral de todo teclado de computador moderno. É o ano do link transatlântico, da perfuradora de cartões e da máquina de escrever elétrica.',
+      en: 'In 1901, information technology breaks the most feared barrier of classical physics, proving that the entire Earth could be enclosed by a single communication network. Across the Atlantic Ocean, a radio pulse travels between two continents, founding the infrastructure of real-time global communication. In corporate offices, the bottleneck of manual data entry is solved with the invention of the first keyboard-guided punching machine, brutally accelerating input for Big Data processing. And in human-machine interfaces, the physical effort of typing is replaced by motor power, giving birth to the ancestor of every modern computer keyboard. It is the year of the transatlantic link, the card punch and the electric typewriter.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Guglielmo Marconi',
+        imagePlaceholder: YEAR_1901_PLACEHOLDER,
+        flag: '🇮🇹 🇬🇧 🇨🇦',
+        nationality: { pt: 'Italiano (operando entre Reino Unido e Canadá)', en: 'Italian (operating between the United Kingdom and Canada)' },
+        formation: {
+          pt: 'Inventor, empresário e mestre absoluto em escalar hardwares experimentais para proporções industriais e globais.',
+          en: 'Inventor, entrepreneur and absolute master at scaling experimental hardware to industrial and global proportions.',
+        },
+        summary: {
+          pt: 'Recebeu com sucesso em 12 de dezembro de 1901 o primeiro sinal de rádio transatlântico da história. A letra "S" em código Morse viajou impressionantes 3.500 quilômetros, de Poldhu (Cornualha, Inglaterra) até Signal Hill (Terra Nova, Canadá).',
+          en: 'Successfully received the first transatlantic radio signal in history on December 12, 1901. The letter "S" in Morse code traveled an astonishing 3,500 kilometers, from Poldhu in Cornwall, England, to Signal Hill in Newfoundland, Canada.',
+        },
+        role: {
+          pt: 'Construtor do primeiro link transatlântico sem fio',
+          en: 'Builder of the first transatlantic wireless link',
+        },
+        contribution: {
+          pt: 'Em 1901, Marconi provou que a rede "Wireless" poderia ignorar a curvatura do planeta, estabelecendo o primeiro link de dados intercontinental pelo ar.',
+          en: 'In 1901, Marconi proved that the "Wireless" network could ignore the curvature of the planet, establishing the first intercontinental data link through the air.',
+        },
+        detail: {
+          pt: 'A comunidade científica de 1901 ria de Marconi. A física clássica ditava que as ondas de rádio viajavam em linha reta; portanto, devido à curvatura da Terra, qualquer sinal enviado da Europa atiraria direto para o espaço vazio. Marconi apostou milhões na construção de uma antena colossal na Inglaterra que disparava pulsos brutalmente fortes. No Canadá, lutando contra nevascas e usando uma pipa gigante para erguer um fio de cobre como antena receptora conectada a um fone de ouvido, ele ouviu os três cliques do "S". O que ele não sabia na época (e que seria descoberto por Heaviside e Kennelly no ano seguinte) é que os dados "quicaram" na ionosfera, usando a própria atmosfera do planeta como um espelho de roteamento.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o teste de stress definitivo da infraestrutura de Wide Area Network (WAN) Global. O evento de 12 de dezembro de 1901 destruiu o monopólio dos lentos e caros cabos submarinos. Marconi provou que a informação poderia cruzar oceanos instantaneamente de forma invisível. Toda a comunicação via satélite, o rastreamento de aviões em voos transatlânticos e a própria ideia de que vivemos em uma "aldeia global" conectada por dados em tempo real nasceram da recepção desses três bipes em meio ao frio canadense.',
+          en: 'The scientific community of 1901 laughed at Marconi. Classical physics dictated that radio waves traveled in straight lines; therefore, because of Earth’s curvature, any signal sent from Europe would shoot straight into empty space. Marconi bet millions on building a colossal antenna in England that fired brutally strong pulses. In Canada, fighting snowstorms and using a giant kite to raise a copper wire as a receiving antenna connected to an earphone, he heard the three clicks of the "S". What he did not know at the time (and what Heaviside and Kennelly would identify the following year) was that the data had "bounced" off the ionosphere, using the planet’s own atmosphere as a routing mirror.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the definitive stress test of Global Wide Area Network (WAN) infrastructure. The event of December 12, 1901 destroyed the monopoly of slow and expensive submarine cables. Marconi proved that information could cross oceans instantly and invisibly. All satellite communication, the tracking of aircraft on transatlantic flights and the very idea that we live in a "global village" connected by real-time data were born from the reception of those three beeps in the Canadian cold.',
+        },
+      },
+      {
+        name: 'Herman Hollerith',
+        imagePlaceholder: YEAR_1901_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro de minas e fundador da Tabulating Machine Company (a corporação que se tornaria a toda-poderosa IBM nas décadas seguintes).',
+          en: 'Mining engineer and founder of the Tabulating Machine Company, the corporation that would become the all-powerful IBM in later decades.',
+        },
+        summary: {
+          pt: 'Introduziu em 1901 a Máquina Perfuradora Numérica (Automatic Keypunch Type 001), revolucionando a forma como os dados eram inseridos fisicamente nos cartões perfurados ao integrar um teclado numérico com alavancagem mecânica.',
+          en: 'Introduced the Numeric Punching Machine (Automatic Keypunch Type 001) in 1901, revolutionizing the way data was physically entered into punched cards by integrating a numeric keyboard with mechanical leverage.',
+        },
+        role: {
+          pt: 'Criador do data entry por teclado perfurador',
+          en: 'Creator of keyboard-driven punched-card data entry',
+        },
+        contribution: {
+          pt: 'Em 1901, Hollerith automatizou o "Data Entry", criando a primeira interface de teclado de alta velocidade dedicada a escrever dados binários para máquinas.',
+          en: 'In 1901, Hollerith automated "Data Entry", creating the first high-speed keyboard interface dedicated to writing binary data for machines.',
+        },
+        detail: {
+          pt: 'Até então, para "escrever" informações nos cartões perfurados que alimentavam as máquinas de processamento, os funcionários usavam furadores manuais de bilhetes (como cobradores de trem). Era lento e gerava calos e erros. Hollerith desenhou uma máquina de mesa que mudou tudo: o usuário agora só precisava bater os dedos em um pequeno teclado numérico. A energia mecânica da tecla pressionada acionava a lâmina que cortava o furo exato no cartão e, automaticamente, o cartão avançava um espaço para a direita, pronto para o próximo número, exatamente como o cursor do seu computador avança quando você digita.\n\nPor que isso entra no Hall da Fama da TI?\n\nA máquina de Keypunch de 1901 é o berço da profissão de Digitação de Dados (Data Entry) corporativa. Ela resolveu o monumental "Gargalo de Input", permitindo que as empresas convertessem pilhas de documentos humanos em dados legíveis por máquina em uma velocidade dezenas de vezes maior. Essa interface de usuário — o ser humano em um teclado alimentando sequencialmente uma memória física — ditou como a humanidade conversou com os computadores, desde os primórdios da IBM até a década de 1970, antes do surgimento das telas.',
+          en: 'Until then, to "write" information onto the punched cards that fed processing machines, workers used manual ticket punches, like train conductors. It was slow and produced calluses and errors. Hollerith designed a desktop machine that changed everything: the user now only needed to tap a small numeric keyboard. The mechanical energy of the pressed key activated the blade that cut the exact hole in the card and, automatically, the card advanced one space to the right, ready for the next number, exactly as your computer cursor advances when you type.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe 1901 Keypunch machine is the birthplace of the corporate Data Entry profession. It solved the monumental "Input Bottleneck", allowing companies to convert stacks of human documents into machine-readable data dozens of times faster. This user interface, a human at a keyboard sequentially feeding a physical memory, dictated how humanity talked to computers from the beginnings of IBM until the 1970s, before screens took over.',
+        },
+      },
+      {
+        name: 'George C. Blickensderfer',
+        imagePlaceholder: YEAR_1901_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Inventor de máquinas e empreendedor obstinado. Não tinha o financiamento das grandes corporações, mas possuía um gênio inigualável para reduzir o atrito físico e o peso da engenharia de precisão de escritórios.',
+          en: 'Machine inventor and stubborn entrepreneur. He did not have the financing of large corporations, but had unmatched genius for reducing physical friction and the weight of precision office engineering.',
+        },
+        summary: {
+          pt: 'Apresentou em 1901, durante a Exposição Pan-Americana em Buffalo, a Blickensderfer Electric, a primeira máquina de escrever elétrica comercialmente viável da história, utilizando um motor cilíndrico revolucionário para realizar o trabalho pesado de impressão.',
+          en: 'Presented the Blickensderfer Electric at the Pan-American Exposition in Buffalo in 1901, the first commercially viable electric typewriter in history, using a revolutionary cylindrical motor to perform the heavy work of printing.',
+        },
+        role: {
+          pt: 'Inventor da primeira máquina de escrever elétrica viável',
+          en: 'Inventor of the first viable electric typewriter',
+        },
+        contribution: {
+          pt: 'Em 1901, Blickensderfer introduziu a "Assistência de Hardware" no processamento de texto, abolindo o esforço físico analógico do usuário.',
+          en: 'In 1901, Blickensderfer introduced "Hardware Assistance" into text processing, abolishing the user’s analog physical effort.',
+        },
+        detail: {
+          pt: 'As máquinas de escrever mecânicas exigiam que o dedo do usuário fornecesse toda a força cinética para atirar a letra de metal contra o papel. Blickensderfer construiu uma máquina onde o teclado não atirava letras; o teclado enviava um sinal elétrico. Ele usou um motor elétrico embaixo do chassi que girava um engenhoso cilindro de tipos ("type-wheel") na fração de segundo necessária para posicionar a letra correta, disparando-a contra o papel com uma força perfeitamente uniforme. O usuário apenas precisava tocar levemente nas teclas.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Blickensderfer Electric é a ancestral de toda a Interface de Entrada/Saída (I/O) eletrônica baseada em texto. O conceito de um cilindro giratório controlado eletricamente para bater caracteres antecipou em exatos 60 anos a icônica IBM Selectric (a máquina de escrever com a "bolinha" de golfe que dominaria o século XX). Mais do que isso, ao separar a ação física dos dedos da força de impressão final, Blick lançou a fundação mecânica para as futuras teleimpressoras (Teletypes) — as máquinas que serviriam como os primeiros terminais e consoles para os hackers e engenheiros se comunicarem com os supercomputadores décadas mais tarde.',
+          en: 'Mechanical typewriters required the user’s finger to supply all the kinetic force needed to throw the metal character against the paper. Blickensderfer built a machine where the keyboard did not throw letters; the keyboard sent an electrical signal. He used an electric motor under the chassis that rotated an ingenious type wheel in the fraction of a second needed to position the correct letter, striking it against the paper with perfectly uniform force. The user only needed to touch the keys lightly.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Blickensderfer Electric is the ancestor of every electronic text-based Input/Output (I/O) interface. The concept of an electrically controlled rotating cylinder striking characters anticipated by exactly 60 years the iconic IBM Selectric, the typewriter with the "golf ball" that would dominate the twentieth century. More than that, by separating the physical action of fingers from the final printing force, Blick laid the mechanical foundation for future teleprinters (Teletypes), the machines that would serve as the first terminals and consoles for hackers and engineers communicating with supercomputers decades later.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1902,
+    era: {
+      pt: 'O Escaneamento Fotográfico, o Espelho de Rede Global e o Resfriamento de Hardware',
+      en: 'Photographic Scanning, the Global Network Mirror and Hardware Cooling',
+    },
+    context: {
+      pt: 'Em 1902, a tecnologia da informação quebra a barreira da transmissão visual de imagens reais, compreende a arquitetura invisível que permite a comunicação intercontinental e ganha, de forma totalmente acidental, a infraestrutura física térmica que sustentaria toda a computação do futuro. Na Alemanha, o primeiro sistema prático capaz de ler uma fotografia com luz e enviá-la por cabos é construído, inaugurando o conceito moderno de fax e de conversão de imagem em dados seriais. No campo teórico, físicos descobrem que a Terra possui um "espelho de roteamento" natural no céu, explicando como os dados sem fio podem viajar o globo inteiro. E nos Estados Unidos, um engenheiro tentando resolver um problema de umidade inventa o ar condicionado, o maquinário de suporte fundamental sem o qual nenhum data center moderno poderia existir. É o ano do Bitmap analógico, da Ionosfera e do controle térmico.',
+      en: 'In 1902, information technology breaks the barrier of transmitting real visual images, understands the invisible architecture that enables intercontinental communication and, completely by accident, gains the thermal physical infrastructure that would support all future computing. In Germany, the first practical system capable of reading a photograph with light and sending it through cables is built, inaugurating the modern concept of fax and image conversion into serial data. In theory, physicists discover that Earth has a natural "routing mirror" in the sky, explaining how wireless data can travel around the globe. And in the United States, an engineer trying to solve a humidity problem invents air conditioning, the fundamental support machinery without which no modern data center could exist. It is the year of the analog Bitmap, the Ionosphere and thermal control.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Arthur Korn',
+        imagePlaceholder: YEAR_1902_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Físico e matemático de elite. Obteve seu doutorado na Universidade de Leipzig e realizou pós-doutorado em Paris e Würzburg. Diferente dos inventores mecânicos do passado, Korn possuía um entendimento profundo da física fotoelétrica em estado sólido.',
+          en: 'Elite physicist and mathematician. He earned his doctorate at the University of Leipzig and completed postdoctoral work in Paris and Würzburg. Unlike the mechanical inventors of the past, Korn had a deep understanding of solid-state photoelectric physics.',
+        },
+        summary: {
+          pt: 'Demonstrou com sucesso em 1902 a primeira transmissão fotoelétrica prática de uma imagem fotográfica estática (o Bildtelegraph), enviando uma fotografia reconhecível através de fios elétricos.',
+          en: 'Successfully demonstrated in 1902 the first practical photoelectric transmission of a static photographic image (the Bildtelegraph), sending a recognizable photograph through electrical wires.',
+        },
+        role: {
+          pt: 'Inventor do escaneamento fotoelétrico prático',
+          en: 'Inventor of practical photoelectric scanning',
+        },
+        contribution: {
+          pt: 'Em 1902, Korn inventou o Hardware de Escaneamento moderno, transformando pixels de luz e sombra em uma stream de dados analógicos.',
+          en: 'In 1902, Korn invented modern Scanning Hardware, transforming pixels of light and shadow into a stream of analog data.',
+        },
+        detail: {
+          pt: 'Elisha Gray (em 1893) já havia transmitido desenhos, mas sua máquina dependia de uma caneta movendo-se mecanicamente. Era geometria, não imagem. Korn resolveu o problema da fotografia. Ele enrolou um filme fotográfico translúcido em um cilindro de vidro giratório e apontou uma luz muito forte para ele. Dentro do cilindro, um sensor de selênio (aquele inventado em 1883) media a quantidade exata de luz que conseguia atravessar as partes claras e escuras da foto enquanto ela girava. A luz variava a resistência elétrica, criando uma corrente contínua de "tons de cinza" que viajava pelo fio e acionava uma lâmpada modulada no receptor para queimar um novo filme.\n\nPor que isso entra no Hall da Fama da TI?\n\nA máquina de Korn é a tataravó de todos os Scanners de Mesa e aparelhos de Fax modernos. Ele estabeleceu o conceito definitivo de converter uma matriz de imagem 2D complexa (uma foto real) em um trem de dados seriais de varredura (Raster Data) usando luz e sensores de estado sólido. Toda vez que você tira uma foto no celular e a envia pelo WhatsApp, a essência do processo — ler a luz de uma imagem estática e transformá-la em um sinal elétrico transmissível — é a evolução direta da patente executada por Korn em 1902.',
+          en: 'Elisha Gray had already transmitted drawings in 1893, but his machine depended on a mechanically moving pen. It was geometry, not image. Korn solved the problem of photography. He wrapped translucent photographic film around a rotating glass cylinder and pointed a very strong light at it. Inside the cylinder, a selenium sensor (the one introduced in 1883) measured the exact amount of light that could pass through the bright and dark parts of the photo as it rotated. The light varied the electrical resistance, creating a continuous current of "gray tones" that traveled through the wire and drove a modulated lamp at the receiver to expose a new film.\n\nWhy does this belong in the IT Hall of Fame?\n\nKorn’s machine is the great-great-grandmother of every modern flatbed scanner and fax machine. He established the definitive concept of converting a complex 2D image matrix (a real photo) into a serial train of scanning data (Raster Data) using light and solid-state sensors. Every time you take a photo on a phone and send it through WhatsApp, the essence of the process — reading the light of a static image and turning it into a transmissible electrical signal — is the direct evolution of the patent Korn executed in 1902.',
+        },
+      },
+      {
+        name: 'Oliver Heaviside & Arthur E. Kennelly',
+        imagePlaceholder: YEAR_1902_PLACEHOLDER,
+        flag: '🇬🇧 🇺🇸 🇮🇪',
+        nationality: { pt: 'Britânico / Americano (nascido na Índia/Irlanda)', en: 'British / American (born in India/of Irish background)' },
+        formation: {
+          pt: 'Heaviside: Um gênio autodidata recluso que reformulou as equações de Maxwell. Kennelly: Um brilhante engenheiro elétrico e matemático que trabalhou como braço direito de Edison. Trabalharam de forma totalmente independente neste caso.',
+          en: 'Heaviside: a reclusive self-taught genius who reformulated Maxwell’s equations. Kennelly: a brilliant electrical engineer and mathematician who worked as Edison’s right-hand man. In this case, they worked completely independently.',
+        },
+        summary: {
+          pt: 'Postularam simultânea e independentemente, em 1902, a existência de uma camada de gás ionizado na alta atmosfera da Terra (mais tarde batizada de Camada Kennelly-Heaviside ou Ionosfera) capaz de refletir ondas de rádio eletromagnéticas de volta para a superfície.',
+          en: 'Simultaneously and independently postulated in 1902 the existence of a layer of ionized gas in Earth’s upper atmosphere (later called the Kennelly-Heaviside Layer or Ionosphere) capable of reflecting electromagnetic radio waves back to the surface.',
+        },
+        role: {
+          pt: 'Teóricos da camada ionosférica de roteamento',
+          en: 'Theorists of the ionospheric routing layer',
+        },
+        contribution: {
+          pt: 'Em 1902, a TI descobriu que o planeta já vinha equipado com uma "camada de reflexão" natural para o roteamento de pacotes de dados globais.',
+          en: 'In 1902, IT discovered that the planet already came equipped with a natural "reflection layer" for routing global data packets.',
+        },
+        detail: {
+          pt: 'No ano anterior (1901), Marconi chocou o mundo ao enviar um sinal de rádio do Reino Unido ao Canadá. Os físicos ficaram perplexos, pois as ondas de rádio deveriam ter voado direto para o espaço devido à curvatura da Terra. Heaviside e Kennelly aplicaram matemática pura para diagnosticar essa "anomalia" de rede. Eles provaram que a radiação do sol carrega (ioniza) as partículas de ar a cerca de 100 quilômetros de altura, criando um teto elétrico gigante. O sinal de rádio de Marconi atingiu esse teto e "quicou" de volta para o chão, como uma bola de bilhar, atravessando o oceano através de sucessivos reflexos.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta descoberta estabeleceu as leis definitivas da Engenharia de Redes de Rádio (Radio Propagation Routing). Conhecer a Ionosfera permitiu que governos e corporações parassem de enviar sinais "às cegas" e passassem a usar matemática exata (calculando ângulos, frequências diurnas e noturnas) para fazer a informação atingir o alvo exato no outro lado do mundo. Essa camada de "espelho de dados" natural sustentou 100% da comunicação global intercontinental de voz e dados até a invenção dos cabos submarinos de alta capacidade e dos satélites na década de 1960.',
+          en: 'In the previous year (1901), Marconi shocked the world by sending a radio signal from the United Kingdom to Canada. Physicists were perplexed, because radio waves should have flown straight into space because of Earth’s curvature. Heaviside and Kennelly applied pure mathematics to diagnose this network "anomaly". They showed that solar radiation charges (ionizes) air particles about 100 kilometers above the surface, creating a giant electrical ceiling. Marconi’s radio signal hit that ceiling and "bounced" back to the ground, like a billiard ball, crossing the ocean through successive reflections.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis discovery established the definitive laws of Radio Network Engineering (Radio Propagation Routing). Understanding the Ionosphere allowed governments and corporations to stop sending signals "blindly" and start using exact mathematics (calculating angles, daytime and nighttime frequencies) to make information hit an exact target on the other side of the world. This natural "data mirror" layer supported 100% of global intercontinental voice and data communication until high-capacity submarine cables and satellites arrived in the 1960s.',
+        },
+      },
+      {
+        name: 'Willis Carrier',
+        imagePlaceholder: YEAR_1902_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro mecânico meticuloso. Recém-formado pela prestigiosa Universidade Cornell, ele possuía uma obsessão calculista por termodinâmica e psicrometria (o estudo das propriedades físicas das misturas de ar e vapor).',
+          en: 'Meticulous mechanical engineer. Freshly graduated from prestigious Cornell University, he had a calculating obsession with thermodynamics and psychrometrics, the study of the physical properties of air and vapor mixtures.',
+        },
+        summary: {
+          pt: 'Inventou e desenhou em 17 de julho de 1902 o "Aparelho para Tratamento de Ar", o primeiro sistema moderno de ar condicionado elétrico da história, capaz de controlar simultaneamente a temperatura, a umidade, a ventilação e a qualidade do ar em um ambiente fechado.',
+          en: 'Invented and designed the "Apparatus for Treating Air" on July 17, 1902, the first modern electric air-conditioning system in history, capable of simultaneously controlling temperature, humidity, ventilation and air quality in an enclosed environment.',
+        },
+        role: {
+          pt: 'Inventor do ar condicionado moderno',
+          en: 'Inventor of modern air conditioning',
+        },
+        contribution: {
+          pt: 'Em 1902, Carrier criou a infraestrutura de suporte térmico sem a qual nenhum hardware de alta performance moderno conseguiria rodar sem derreter.',
+          en: 'In 1902, Carrier created the thermal support infrastructure without which no modern high-performance hardware could run without melting down.',
+        },
+        detail: {
+          pt: 'Carrier não inventou o ar condicionado para o conforto humano; ele inventou para resolver um problema industrial de dados e impressão. A empresa litográfica Sackett-Wilhelms, no Brooklyn, estava perdendo dinheiro porque o papel esticava e encolhia com o calor e a umidade do verão, arruinando o alinhamento das tintas nas páginas. Carrier criou uma máquina de hardware maciça que forçava o ar passar por serpentinas resfriadas com amônia, extraindo o calor e forçando a umidade a condensar. O papel parou de amassar e a máquina pôde operar em velocidade máxima.\n\nPor que isso entra no Hall da Fama da TI?\n\nHardware de TI gera calor. Muito calor. O controle termodinâmico contínuo desenhado por Carrier em 1902 é uma das dependências de infraestrutura mais subestimadas e vitais da computação. Quando a IBM construiu os primeiros mainframes baseados em válvulas a vácuo na década de 1950, eles precisavam de enormes unidades centrais de ar condicionado ou pegariam fogo. Hoje, os gigantescos Data Centers do Google, Amazon e Microsoft (que processam a nuvem e a inteligência artificial) são descritos por engenheiros como "gigantescos complexos de ar condicionado que por acaso abrigam computadores". Sem a invenção de Willis Carrier em 1902, o temido Thermal Throttling (estrangulamento térmico) impediria a existência de qualquer TI de alta velocidade.',
+          en: 'Carrier did not invent air conditioning for human comfort; he invented it to solve an industrial data and printing problem. The Sackett-Wilhelms lithographic company in Brooklyn was losing money because paper stretched and shrank with summer heat and humidity, ruining ink alignment on pages. Carrier created massive hardware that forced air through coils cooled with ammonia, extracting heat and forcing humidity to condense. The paper stopped warping and the machinery could operate at full speed.\n\nWhy does this belong in the IT Hall of Fame?\n\nIT hardware generates heat. A lot of heat. The continuous thermodynamic control designed by Carrier in 1902 is one of computing’s most underestimated and vital infrastructure dependencies. When IBM built the first vacuum-tube mainframes in the 1950s, they needed enormous central air-conditioning units or they would catch fire. Today, the gigantic data centers of Google, Amazon and Microsoft, which process the cloud and artificial intelligence, are described by engineers as "gigantic air-conditioning complexes that happen to house computers". Without Willis Carrier’s 1902 invention, dreaded Thermal Throttling would prevent the existence of any high-speed IT.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1903,
+    era: {
+      pt: 'A Porta Lógica de Hardware, o Gerador de Banda Larga e a Tipagem de Dados',
+      en: 'The Hardware Logic Gate, the Broadband Generator and Data Typing',
+    },
+    context: {
+      pt: 'Em 1903, a tecnologia da informação vê o nascimento do hardware de decisão condicional, o surgimento do gerador de ondas "limpas" para a rede de rádio e a formulação da crise matemática que fundaria a teoria moderna do software. Nos Estados Unidos, a fim de proteger redes sem fio contra interferências de hackers da época, o primeiro circuito de porta lógica "AND" é patenteado, ensinando as máquinas a exigirem múltiplas chaves para executar um comando. Na Dinamarca, o rádio deixa de "gritar" de forma irregular e passa a emitir ondas contínuas e puras de alta potência, viabilizando o transporte de múltiplos fluxos de dados e vozes limpas. E no Reino Unido, um livro abala as fundações da teoria dos conjuntos, forçando a criação de uma lógica estruturada e hierárquica que pavimentaria o caminho para as modernas linguagens de programação. É o ano da porta lógica física, do Arco de Poulsen e do Paradoxo de Russell.',
+      en: 'In 1903, information technology sees the birth of conditional-decision hardware, the emergence of the "clean" wave generator for radio networks and the formulation of the mathematical crisis that would found modern software theory. In the United States, to protect wireless networks against the interference of the era’s hackers, the first "AND" logic-gate circuit is patented, teaching machines to require multiple keys before executing a command. In Denmark, radio stops "shouting" irregularly and begins emitting pure, high-power continuous waves, enabling the transport of multiple streams of data and clean voices. And in the United Kingdom, a book shakes the foundations of set theory, forcing the creation of structured, hierarchical logic that would pave the way for modern programming languages. It is the year of the physical logic gate, the Poulsen Arc and Russell’s Paradox.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Nikola Tesla',
+        imagePlaceholder: YEAR_1903_PLACEHOLDER,
+        flag: '🇷🇸 🇭🇷',
+        nationality: { pt: 'Sérvio-Americano', en: 'Serbian-American' },
+        formation: {
+          pt: 'Engenheiro eletricista e físico, gênio absoluto do controle eletromagnético, formado no Instituto Politécnico de Graz.',
+          en: 'Electrical engineer and physicist, an absolute genius of electromagnetic control, trained at the Graz Polytechnic Institute.',
+        },
+        summary: {
+          pt: 'Patenteou em 1903 (US Patents 723,188 e 725,605) um sistema de segurança de sinalização sem fio que utilizava circuitos sintonizados independentes e coordenados, criando o primeiro circuito elétrico funcional de Porta Lógica "AND" (E) da história.',
+          en: 'Patented in 1903 (US Patents 723,188 and 725,605) a wireless signaling security system that used independent and coordinated tuned circuits, creating the first functional electrical "AND" logic-gate circuit in history.',
+        },
+        role: {
+          pt: 'Inventor da primeira porta lógica de hardware',
+          en: 'Inventor of the first hardware logic gate',
+        },
+        contribution: {
+          pt: 'Em 1903, Tesla inventou a "Decisão de Hardware", criando a base física do processamento lógico e da cibersegurança primitiva.',
+          en: 'In 1903, Tesla invented "Hardware Decision", creating the physical basis of logical processing and primitive cybersecurity.',
+        },
+        detail: {
+          pt: 'Tesla havia inventado o barco de controle remoto em 1898, mas os militares americanos temiam que qualquer inimigo com um transmissor pudesse roubar o controle da embarcação (Signal Jamming / Hijacking). Para resolver esse problema de segurança de rede, Tesla inventou um mecanismo onde o receptor no barco estava dividido em dois circuitos com frequências diferentes (ex: 50 kHz e 100 kHz). A ação (girar o leme, por exemplo) só ocorria se a máquina recebesse o sinal A E o sinal B simultaneamente. Se recebesse apenas um, ou ruído de uma terceira fonte, nada acontecia.\n\nPor que isso entra no Hall da Fama da TI?\n\nO circuito de Tesla é a primeira manifestação eletromecânica do operador lógico booleano "AND" (Conjunção Lógica). Hoje, portas lógicas (AND, OR, NOT, XOR) construídas microscopicamente em silício são literalmente os tijolos que formam a Unidade Central de Processamento (CPU) do seu celular ou computador. Toda vez que um processador cruza duas correntes elétricas para realizar uma conta matemática ou verificar uma senha (Se Input A for verdadeiro E Input B for verdadeiro = Execute), ele está rodando a exata arquitetura de condicionalidade física desenhada por Tesla nessas patentes.',
+          en: 'Tesla had invented the remote-control boat in 1898, but the American military feared that any enemy with a transmitter could steal control of the vessel (signal jamming / hijacking). To solve this network-security problem, Tesla invented a mechanism where the receiver in the boat was divided into two circuits with different frequencies, for example 50 kHz and 100 kHz. The action (turning the rudder, for instance) only occurred if the machine received signal A AND signal B simultaneously. If it received only one signal, or noise from a third source, nothing happened.\n\nWhy does this belong in the IT Hall of Fame?\n\nTesla’s circuit is the first electromechanical manifestation of the Boolean logical operator "AND" (logical conjunction). Today, logic gates (AND, OR, NOT, XOR) built microscopically in silicon are literally the bricks that form the Central Processing Unit (CPU) of your phone or computer. Every time a processor crosses two electrical currents to perform a mathematical operation or verify a password (If Input A is true AND Input B is true = Execute), it is running the exact architecture of physical conditionality Tesla designed in these patents.',
+        },
+      },
+      {
+        name: 'Valdemar Poulsen',
+        imagePlaceholder: YEAR_1903_PLACEHOLDER,
+        flag: '🇩🇰',
+        nationality: { pt: 'Dinamarquês', en: 'Danish' },
+        formation: {
+          pt: 'Engenheiro mecânico e inventor visionário. Autodidata na física de vanguarda (foi o mesmo homem que inventou a memória magnética/gravador de fio em 1898), ele tinha a habilidade rara de transformar ideias térmicas complexas em maquinário estável.',
+          en: 'Mechanical engineer and visionary inventor. Self-taught in advanced physics (the same man who invented magnetic memory/the wire recorder in 1898), he had the rare ability to turn complex thermal ideas into stable machinery.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1903 o Conversor de Arco (Poulsen Arc), o primeiro transmissor prático e altamente eficiente capaz de gerar ondas de rádio contínuas (Continuous Wave - CW) de alta potência.',
+          en: 'Invented and patented the Poulsen Arc Converter in 1903, the first practical and highly efficient transmitter capable of generating high-power continuous radio waves (Continuous Wave - CW).',
+        },
+        role: {
+          pt: 'Inventor do transmissor de onda contínua de alta potência',
+          en: 'Inventor of the high-power continuous-wave transmitter',
+        },
+        contribution: {
+          pt: 'Em 1903, Poulsen limpou o ruído da infraestrutura "Wireless", criando a banda larga necessária para o tráfego de dados avançados.',
+          en: 'In 1903, Poulsen cleaned the noise from "Wireless" infrastructure, creating the bandwidth needed for advanced data traffic.',
+        },
+        detail: {
+          pt: 'Os transmissores de Marconi baseavam-se em saltos de faíscas que geravam ruído em dezenas de frequências ao mesmo tempo, desperdiçando energia e tornando impossível ter muitas estações no ar sem que uma interferisse na outra. Poulsen utilizou um arco voltaico (um raio controlado) queimando dentro de uma câmara selada com gás hidrogênio e envolto por um poderoso ímã. O resultado foi um rádio que gerava uma onda senoidal perfeitamente pura, contínua e incrivelmente poderosa.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem ondas puras e contínuas, não existe transmissão de áudio (streaming de voz) nem "Multiplexação" (várias redes operando ao mesmo tempo no mesmo lugar). O Arco de Poulsen tornou-se o padrão-ouro das redes intercontinentais sem fio pelas próximas duas décadas. Ao domar a pureza da onda eletromagnética, ele garantiu que a infraestrutura de rádio pudesse, mais tarde, ser dividida cirurgicamente em "Canais", o mesmo princípio fundamental que permite que seu roteador Wi-Fi escolha entre as frequências de 2.4 GHz ou 5 GHz hoje sem atrapalhar o vizinho.',
+          en: 'Marconi’s transmitters were based on spark gaps that generated noise across dozens of frequencies at once, wasting energy and making it impossible to have many stations on the air without interfering with each other. Poulsen used an electric arc (a controlled lightning bolt) burning inside a sealed chamber with hydrogen gas and surrounded by a powerful magnet. The result was a radio that generated a perfectly pure, continuous and incredibly powerful sine wave.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout pure continuous waves, there is no audio transmission (voice streaming) and no "Multiplexing" (several networks operating at the same time in the same place). The Poulsen Arc became the gold standard of intercontinental wireless networks for the next two decades. By taming the purity of the electromagnetic wave, he ensured that radio infrastructure could later be surgically divided into "Channels", the same fundamental principle that lets your Wi-Fi router choose between 2.4 GHz and 5 GHz frequencies today without disturbing the neighbor.',
+        },
+      },
+      {
+        name: 'Bertrand Russell',
+        imagePlaceholder: YEAR_1903_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Filósofo, lógico e matemático formidável. Formado pelo Trinity College, na Universidade de Cambridge, onde mergulhou na missão épica de provar que a matemática pura derivava estritamente e perfeitamente da lógica.',
+          en: 'Formidable philosopher, logician and mathematician. Educated at Trinity College, University of Cambridge, where he immersed himself in the epic mission of proving that pure mathematics derived strictly and perfectly from logic.',
+        },
+        summary: {
+          pt: 'Publicou em 1903 a obra seminal "The Principles of Mathematics", apresentando ao mundo o famoso "Paradoxo de Russell" e iniciando o desenvolvimento da "Teoria dos Tipos" para consertar as brechas da lógica estrutural.',
+          en: 'Published the seminal work "The Principles of Mathematics" in 1903, presenting the famous "Russell’s Paradox" to the world and beginning the development of "Type Theory" to repair gaps in structural logic.',
+        },
+        role: {
+          pt: 'Expositor do paradoxo lógico que levou à teoria dos tipos',
+          en: 'Exposer of the logical paradox that led to type theory',
+        },
+        contribution: {
+          pt: 'Em 1903, Russell descobriu um "Bug Crítico" na matemática e propôs a arquitetura de proteção que inspiraria o controle de dados na programação.',
+          en: 'In 1903, Russell discovered a "Critical Bug" in mathematics and proposed the protective architecture that would inspire data control in programming.',
+        },
+        detail: {
+          pt: 'A matemática do final do século XIX apoiava-se na Teoria dos Conjuntos (a ideia de agrupar elementos). Russell encontrou uma falha lógica catastrófica, o famoso paradoxo: "Considere o conjunto de todos os conjuntos que não contêm a si mesmos. Esse conjunto contém a si mesmo?" Se sim, então ele não deveria se conter. Se não, ele deveria se conter. Era um loop infinito de travamento, o equivalente mental a uma Tela Azul da Morte (Blue Screen of Death). Para salvar a matemática do colapso, Russell introduziu a hierarquia rigorosa, onde as informações tinham que obedecer a regras estritas sobre o que poderiam e não poderiam referenciar.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Ciência da Computação Teórica é, na sua essência, matemática executável. A crise arquitetônica exposta por Russell em 1903, e sua subsequente "Teoria dos Tipos", influenciaram diretamente mentes como Alan Turing e John von Neumann. Mais diretamente: a solução de Russell para impedir os loops lógicos paradoxais inspirou o conceito de "Tipagem de Dados" (Data Typing) na engenharia de software moderna. Em linguagens de programação fortemente tipadas (como Java ou C#), um objeto, uma classe ou uma variável precisam pertencer a uma categoria bem definida, prevenindo erros de execução e referências circulares em um código corporativo complexo.',
+          en: 'Late-nineteenth-century mathematics leaned on Set Theory (the idea of grouping elements). Russell found a catastrophic logical flaw, the famous paradox: "Consider the set of all sets that do not contain themselves. Does that set contain itself?" If yes, then it should not contain itself. If no, then it should contain itself. It was an infinite lock-up loop, the mental equivalent of a Blue Screen of Death. To save mathematics from collapse, Russell introduced rigorous hierarchy, where information had to obey strict rules about what it could and could not reference.\n\nWhy does this belong in the IT Hall of Fame?\n\nTheoretical Computer Science is, at its core, executable mathematics. The architectural crisis exposed by Russell in 1903, and his subsequent "Type Theory", directly influenced minds such as Alan Turing and John von Neumann. More directly: Russell’s solution to prevent paradoxical logical loops inspired the concept of "Data Typing" in modern software engineering. In strongly typed programming languages (such as Java or C#), an object, class or variable must belong to a well-defined category, preventing execution errors and circular references in complex corporate code.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1904,
+    era: {
+      pt: 'A Válvula Eletrônica, o Radar Primitivo e o Feed de Dados Móvel',
+      en: 'The Electronic Valve, Primitive Radar and the Mobile Data Feed',
+    },
+    context: {
+      pt: 'Em 1904, a tecnologia da informação dá o passo final para abandonar as peças mecânicas e criar o hardware eletrônico puro. Na Inglaterra, a invenção da válvula a vácuo funda oficialmente a era da eletrônica, fornecendo o "tijolo" sem partes móveis que construiria os primeiros computadores e rádios em escala global. Na Alemanha, as ondas invisíveis ganham um novo propósito: em vez de apenas carregar mensagens entre duas antenas, elas passam a bater em objetos e voltar, inaugurando o escaneamento físico do espaço aéreo e marítimo. E no Oceano Atlântico, os navios deixam de ser ilhas isoladas de informação, imprimindo os primeiros jornais diários abastecidos por um fluxo contínuo de dados via rádio, criando o ancestral do nosso atual feed de notícias móvel. É o ano do diodo termiônico, do Telemobiloskop e do download de mídia em trânsito.',
+      en: 'In 1904, information technology takes the final step toward leaving mechanical parts behind and creating pure electronic hardware. In England, the invention of the vacuum valve officially founds the electronics era, providing the moving-part-free "brick" that would build the first computers and radios at global scale. In Germany, invisible waves gain a new purpose: instead of only carrying messages between two antennas, they begin hitting objects and returning, inaugurating physical scanning of airspace and maritime space. And on the Atlantic Ocean, ships stop being isolated islands of information, printing the first daily newspapers fed by a continuous stream of radio data, creating the ancestor of today’s mobile news feed. It is the year of the thermionic diode, the Telemobiloskop and media download in transit.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'John Ambrose Fleming',
+        imagePlaceholder: YEAR_1904_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Engenheiro elétrico e físico brilhante. Aluno direto do lendário James Clerk Maxwell no University College London e consultor científico de Guglielmo Marconi, com uma rara habilidade de unir teoria eletromagnética a aplicações industriais.',
+          en: 'Brilliant electrical engineer and physicist. A direct student of the legendary James Clerk Maxwell at University College London and scientific consultant to Guglielmo Marconi, with a rare ability to connect electromagnetic theory to industrial applications.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 16 de novembro de 1904 a "Válvula de Fleming" (Oscillation Valve ou Diodo Termiônico), o primeiro tubo de vácuo prático desenhado para atuar como um retificador unidirecional e detector de sinais de rádio.',
+          en: 'Invented and patented the "Fleming Valve" on November 16, 1904 (Oscillation Valve or Thermionic Diode), the first practical vacuum tube designed to act as a one-way rectifier and detector of radio signals.',
+        },
+        role: {
+          pt: 'Inventor do diodo termiônico',
+          en: 'Inventor of the thermionic diode',
+        },
+        contribution: {
+          pt: 'Em 1904, Fleming inventou o "estado eletrônico", o hardware que controlava o fluxo de elétrons no vácuo puro, sem peças móveis ou cristais instáveis.',
+          en: 'In 1904, Fleming invented the "electronic state", hardware that controlled the flow of electrons in pure vacuum, with no moving parts or unstable crystals.',
+        },
+        detail: {
+          pt: 'Fleming estava tentando resolver um problema na rede de rádio de Marconi: os detectores de cristal e os coesores eram ineficientes e quebravam fácil. Ele lembrou do "Efeito Edison" (que ele havia estudado anos antes). Ele colocou um filamento quente (como o de uma lâmpada) e uma placa de metal fria dentro de um tubo de vidro selado a vácuo. Ao ligar a máquina, os elétrons "ferviam" do filamento quente e saltavam para a placa, mas a física impedia que fizessem o caminho inverso. Era uma válvula de mão única absolutamente perfeita. Se conectada a uma antena de rádio, ela pegava a bagunça do sinal Alternado (que ia e voltava) e a estrangulava, transformando-a em uma Corrente Contínua limpa e fácil de transformar em áudio.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o marco zero da Eletrônica moderna. Antes da válvula de Fleming, os dispositivos elétricos dependiam de chaves mecânicas pesadas ou de minerais arranjados empiricamente. A válvula a vácuo entregou a primeira porta de controle lógico confiável, escalável e puramente eletrônica. Foram exatamente essas válvulas de vidro quentes (e seus sucessores diretos de três polos, os triodos) que atuaram como os "bits" físicos e os "processadores" originais de todos os computadores primordiais, como o gigantesco ENIAC, além de formarem o núcleo de todos os rádios e televisões por mais de meio século, até a chegada do transistor de silício.',
+          en: 'Fleming was trying to solve a problem in Marconi’s radio network: crystal detectors and coherers were inefficient and broke easily. He remembered the "Edison Effect", which he had studied years earlier. He placed a hot filament (like a lamp filament) and a cold metal plate inside a sealed vacuum glass tube. When the machine turned on, electrons "boiled" off the hot filament and jumped to the plate, but physics prevented them from traveling back the other way. It was an absolutely perfect one-way valve. Connected to a radio antenna, it took the mess of the alternating signal (moving back and forth) and strangled it into clean Direct Current that was easy to turn into audio.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the zero point of modern Electronics. Before Fleming’s valve, electrical devices depended on heavy mechanical switches or empirically arranged minerals. The vacuum valve delivered the first reliable, scalable and purely electronic logical-control gate. These hot glass valves (and their direct three-electrode successors, triodes) acted as the physical "bits" and original "processors" of early computers such as the gigantic ENIAC, while also forming the core of radios and televisions for more than half a century, until the arrival of the silicon transistor.',
+        },
+      },
+      {
+        name: 'Christian Hülsmeyer',
+        imagePlaceholder: YEAR_1904_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Inventor, técnico e empresário independente. Focado intensamente na engenharia eletromecânica e de telecomunicações, aplicou as teorias das ondas de Hertz para resolver gargalos práticos de logística naval.',
+          en: 'Independent inventor, technician and entrepreneur. Intensely focused on electromechanical and telecommunications engineering, he applied Hertzian wave theory to solve practical bottlenecks in naval logistics.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 30 de abril de 1904 o Telemobiloskop, o primeiro sistema prático baseado em ondas de rádio desenhado exclusivamente para detectar a presença e a direção de grandes objetos metálicos (navios) em meio ao nevoeiro.',
+          en: 'Invented and patented the Telemobiloskop on April 30, 1904, the first practical radio-wave system designed exclusively to detect the presence and direction of large metallic objects (ships) in fog.',
+        },
+        role: {
+          pt: 'Inventor do primeiro radar prático',
+          en: 'Inventor of the first practical radar',
+        },
+        contribution: {
+          pt: 'Em 1904, Hülsmeyer provou que a rede wireless servia não apenas como comunicação, mas como um "Sensor Espacial" para varredura de ambiente.',
+          en: 'In 1904, Hülsmeyer proved that wireless networks were not only for communication, but could also act as a "Spatial Sensor" for scanning an environment.',
+        },
+        detail: {
+          pt: 'Em vez de usar uma antena para enviar uma mensagem em código Morse para outra pessoa, a máquina de Hülsmeyer funcionava baseada no princípio do ricochete. O dispositivo ficava no convés de um navio e disparava um feixe direcionado de ondas de rádio para o espaço escuro ou enevoado. Se essa onda atingisse o casco de metal de outro navio, parte da radiação refletia de volta (Echo). A antena receptora de Hülsmeyer captava esse eco invisível e fechava um circuito, acendendo uma luz e tocando um sino no painel, avisando o capitão de um obstáculo iminente muito antes dos olhos humanos poderem enxergar.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o primeiro sistema de Radar (Radio Detection and Ranging) operante da história. Hülsmeyer demonstrou o conceito fundamental do rastreamento físico de dados usando eco eletromagnético. Toda a tecnologia contemporânea de mapeamento ativo — desde as telas de controle de tráfego aéreo, passando pelo monitoramento meteorológico, até os sofisticados sensores LIDAR que permitem aos carros autônomos escanearem o trânsito ao redor deles — opera essencialmente sobre a mesma arquitetura conceitual de emissão e reflexão de sinais concebida neste equipamento.',
+          en: 'Instead of using an antenna to send a Morse-code message to another person, Hülsmeyer’s machine worked on the principle of ricochet. The device sat on a ship’s deck and fired a directed beam of radio waves into dark or foggy space. If that wave hit the metal hull of another ship, part of the radiation reflected back (echo). Hülsmeyer’s receiving antenna captured this invisible echo and closed a circuit, lighting a lamp and ringing a bell on the panel, warning the captain of an imminent obstacle long before human eyes could see it.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the first operational Radar (Radio Detection and Ranging) system in history. Hülsmeyer demonstrated the fundamental concept of physical data tracking using electromagnetic echo. All contemporary active-mapping technology, from air-traffic-control screens through weather monitoring to the sophisticated LIDAR sensors that allow autonomous cars to scan surrounding traffic, operates essentially on the same conceptual architecture of signal emission and reflection conceived in this equipment.',
+        },
+      },
+      {
+        name: 'Guglielmo Marconi & Cunard Line',
+        imagePlaceholder: YEAR_1904_PLACEHOLDER,
+        flag: '🇮🇹 🇬🇧',
+        nationality: { pt: 'Italiano / Britânicos', en: 'Italian / British' },
+        formation: {
+          pt: 'A união estratégica entre a corporação de infraestrutura wireless (Marconi Company) e a gigante frota mercante naval da época (Cunard Steamship Company).',
+          en: 'The strategic union between the wireless infrastructure corporation (Marconi Company) and the giant merchant shipping fleet of the era (Cunard Steamship Company).',
+        },
+        summary: {
+          pt: 'Lançaram comercialmente no final de 1904 o Cunard Daily Bulletin, o primeiro jornal impresso da história a ser redigido, tipografado e distribuído a bordo de navios em alto-mar, utilizando um fluxo contínuo de dados atualizados recebidos via telégrafo sem fio de estações terrestres.',
+          en: 'Commercially launched the Cunard Daily Bulletin in late 1904, the first printed newspaper in history to be written, typeset and distributed aboard ships at sea using a continuous flow of updated data received by wireless telegraph from land stations.',
+        },
+        role: {
+          pt: 'Criadores do primeiro feed de notícias móvel',
+          en: 'Creators of the first mobile news feed',
+        },
+        contribution: {
+          pt: 'Em 1904, a rede sem fio transformou-se em um serviço de Push Notifications, permitindo que nós da rede em movimento contínuo fizessem o download de informações em tempo real.',
+          en: 'In 1904, the wireless network became a Push Notifications service, allowing continuously moving network nodes to download information in real time.',
+        },
+        detail: {
+          pt: 'Antes de 1904, um navio no meio do Atlântico era uma ilha totalmente cega e desconectada; a viagem de Nova York a Liverpool significava uma semana inteira de atraso intelectual. Marconi equipou transatlânticos de luxo (como o RMS Campania) com cabines de rádio dedicadas a interceptar conteúdo corporativo. Todas as noites, estações superpotentes em terra firme bombardeavam o céu com o fechamento das bolsas de valores, resultados esportivos e as últimas manchetes políticas. O telegrafista embarcado anotava os dados e repassava ao tipógrafo do navio, entregando aos passageiros o jornal do dia no café da manhã.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta operação marca o nascimento histórico do Mobile Data Streaming e da atualização diária remota de mídia. O Cunard Daily Bulletin alterou a relação da humanidade com a latência de dados durante deslocamentos físicos. O modelo arquitetônico orquestrado aqui — uma torre servidora central transmitindo pacotes de dados constantemente para um dispositivo receptor em movimento com o propósito de consumo de conteúdo — é a raiz comportamental e logística que sustenta todos os nossos feeds modernos, desde a leitura de e-mails em um voo com Wi-Fi até a rolagem do feed de notícias no smartphone enquanto você está de carona num carro.',
+          en: 'Before 1904, a ship in the middle of the Atlantic was a totally blind and disconnected island; the trip from New York to Liverpool meant an entire week of intellectual delay. Marconi equipped luxury ocean liners (such as RMS Campania) with radio cabins dedicated to intercepting corporate content. Every night, superpowered land stations bombarded the sky with stock-market closes, sports results and the latest political headlines. The onboard telegraph operator wrote down the data and passed it to the ship’s typesetter, delivering the day’s newspaper to passengers at breakfast.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis operation marks the historical birth of Mobile Data Streaming and remote daily media updates. The Cunard Daily Bulletin changed humanity’s relationship with data latency during physical travel. The architectural model orchestrated here — a central server tower constantly transmitting data packets to a moving receiver device for content consumption — is the behavioral and logistical root that supports all our modern feeds, from reading email on a flight with Wi-Fi to scrolling the news feed on a smartphone while riding in a car.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1905,
+    era: {
+      pt: 'O Ano Miraculoso, a Optoeletrônica e o Roteamento Direcional',
+      en: 'The Miracle Year, Optoelectronics and Directional Routing',
+    },
+    context: {
+      pt: 'Em 1905, a tecnologia da informação recebe seu maior patch de "física fundamental" de todos os tempos, e a infraestrutura de rede sem fio aprende a mirar. Na Suíça, um jovem funcionário de um escritório de patentes publica uma série de artigos que resolvem os maiores bugs da física do universo. Ele prova como a luz interage matematicamente com os elétrons, fundando a base técnica das câmeras digitais e da fibra óptica, e destrói a noção de tempo absoluto, entregando a equação de sincronização sem a qual nenhum sistema moderno de GPS poderia funcionar. Paralelamente, na engenharia de telecomunicações, as antenas deixam de irradiar dados inutilmente para todas as direções e passam a focar o sinal em um alvo geográfico específico, otimizando o espectro eletromagnético. É o ano do "Annus Mirabilis" de Einstein, do Efeito Fotoelétrico e da antena direcional.',
+      en: 'In 1905, information technology receives its greatest "fundamental physics" patch of all time, and wireless network infrastructure learns how to aim. In Switzerland, a young patent-office clerk publishes a series of papers that solve the biggest bugs in the physics of the universe. He proves how light mathematically interacts with electrons, founding the technical basis of digital cameras and fiber optics, and destroys the notion of absolute time, delivering the synchronization equation without which no modern GPS system could work. In parallel, in telecommunications engineering, antennas stop radiating data uselessly in every direction and begin focusing the signal on a specific geographic target, optimizing the electromagnetic spectrum. It is the year of Einstein’s "Annus Mirabilis", the Photoelectric Effect and the directional antenna.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Albert Einstein',
+        imagePlaceholder: YEAR_1905_PLACEHOLDER,
+        flag: '🇩🇪 🇨🇭',
+        nationality: { pt: 'Alemão (vivendo e operando na Suíça)', en: 'German (living and operating in Switzerland)' },
+        formation: {
+          pt: 'Físico teórico monumental. Na época, trabalhava como examinador de terceira classe no Escritório Suíço de Patentes em Berna, o que lhe dava a tranquilidade e a visão analítica para revisar as patentes eletromagnéticas do dia e desconstruir a mecânica do universo à noite.',
+          en: 'Monumental theoretical physicist. At the time, he worked as a third-class examiner at the Swiss Patent Office in Bern, giving him the calm and analytical perspective to review electromagnetic patents by day and deconstruct the mechanics of the universe by night.',
+        },
+        summary: {
+          pt: 'Publicou em junho de 1905 o artigo "Sobre um Ponto de Vista Heurístico a Respeito da Produção e Transformação da Luz", onde explicou perfeitamente o Efeito Fotoelétrico, provando que a luz é um fluxo de pacotes quânticos discretos (mais tarde chamados de fótons) que podem agir como projéteis físicos para arrancar elétrons de um metal.',
+          en: 'Published in June 1905 the paper "On a Heuristic Point of View Concerning the Production and Transformation of Light", where he perfectly explained the Photoelectric Effect, proving that light is a flow of discrete quantum packets (later called photons) that can act as physical projectiles to knock electrons out of a metal.',
+        },
+        role: {
+          pt: 'Explicador do efeito fotoelétrico',
+          en: 'Explainer of the photoelectric effect',
+        },
+        contribution: {
+          pt: 'Em 1905, Einstein explicou o "código-fonte" de como a luz conversa com a matéria, entregando a base de todo o hardware optoeletrônico da história.',
+          en: 'In 1905, Einstein explained the "source code" of how light talks to matter, delivering the basis of all optoelectronic hardware in history.',
+        },
+        detail: {
+          pt: 'Heinrich Hertz havia observado o fenômeno em 1887, mas ninguém entendia como funcionava. A física clássica dizia que uma luz mais forte deveria arrancar elétrons mais rápido, mas experimentos mostravam que apenas a cor (frequência) da luz importava, não o brilho. Einstein usou a teoria quântica de Max Planck (de 1900) e resolveu o mistério: um fóton de luz atua como uma chave individual. Se o fóton tiver a frequência certa, ele "destrava" e ejeta um elétron do metal instantaneamente, convertendo energia luminosa em dado elétrico puro.\n\nPor que isso entra no Hall da Fama da TI?\n\nA explicação de Einstein (que lhe rendeu seu único Prêmio Nobel) é a fundação absoluta da Interface de Input visual moderna. Cada pixel do sensor CMOS da câmera do seu smartphone, as células solares que alimentam satélites de telecomunicação e os receptores de fibra óptica que transformam pulsos de laser em bits para a sua internet banda larga funcionam aplicando estritamente as leis de conversão fóton-elétron que Einstein mapeou neste papel.',
+          en: 'Heinrich Hertz had observed the phenomenon in 1887, but nobody understood how it worked. Classical physics said that stronger light should knock electrons out faster, but experiments showed that only the color (frequency) of the light mattered, not its brightness. Einstein used Max Planck’s quantum theory (from 1900) and solved the mystery: a photon of light acts like an individual key. If the photon has the right frequency, it "unlocks" and ejects an electron from the metal instantly, converting light energy into pure electrical data.\n\nWhy does this belong in the IT Hall of Fame?\n\nEinstein’s explanation (which earned him his only Nobel Prize) is the absolute foundation of the modern visual Input Interface. Every pixel in the CMOS sensor of your smartphone camera, the solar cells that power telecommunications satellites and the fiber-optic receivers that transform laser pulses into bits for your broadband internet work by strictly applying the photon-electron conversion laws Einstein mapped in this paper.',
+        },
+      },
+      {
+        name: 'Albert Einstein',
+        imagePlaceholder: YEAR_1905_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'O mesmo gênio do Escritório de Patentes de Berna.',
+          en: 'The same genius from the Bern Patent Office.',
+        },
+        summary: {
+          pt: 'Publicou em setembro de 1905 a Teoria da Relatividade Restrita (e, meses depois, a prova que originou a famosa equação $E=mc^2$), revolucionando a mecânica clássica ao provar que o limite de velocidade do universo é a luz e que o tempo sofre dilatação (passa mais devagar) para objetos que se movem em altas velocidades.',
+          en: 'Published the Theory of Special Relativity in September 1905 (and, months later, the proof that originated the famous equation $E=mc^2$), revolutionizing classical mechanics by proving that the universe’s speed limit is light and that time dilates (passes more slowly) for objects moving at high speeds.',
+        },
+        role: {
+          pt: 'Criador da relatividade restrita',
+          en: 'Creator of special relativity',
+        },
+        contribution: {
+          pt: 'Em 1905, Einstein descobriu o Time Drift (desvio de tempo) do hardware em movimento, formulando a matemática de correção vital para as redes de satélite.',
+          en: 'In 1905, Einstein discovered the Time Drift of moving hardware, formulating the correction mathematics that is vital for satellite networks.',
+        },
+        detail: {
+          pt: 'Antes de 1905, Isaac Newton havia convencido o mundo de que o tempo era um clock absoluto e inalterável do universo, batendo igual para todos. Einstein provou com lógica irrefutável que isso era uma ilusão. O tempo e o espaço são relativos ao observador. Se uma máquina viaja a uma velocidade altíssima em relação à Terra, os "ticks" do relógio da CPU dessa máquina literalmente demoram mais para acontecer em comparação com um relógio parado no chão.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a Relatividade de 1905, o Sistema de Posicionamento Global (GPS) não existiria. Para que o seu celular triangularize a sua posição no mapa, ele recebe pacotes de dados contendo timestamps (marcações de tempo) de satélites em órbita voando a 14.000 km/h. Por causa dessa velocidade, o relógio atômico a bordo do satélite bate mais devagar do que os relógios na Terra. Se o software dos satélites não utilizasse as equações da Relatividade de Einstein para corrigir constantemente essa diferença de microssegundos, o sistema inteiro acumularia erros de quilômetros em um único dia, tornando qualquer aplicativo de navegação ou logística mundial instantaneamente inútil.',
+          en: 'Before 1905, Isaac Newton had convinced the world that time was an absolute and unchangeable clock of the universe, ticking the same for everyone. Einstein proved with irrefutable logic that this was an illusion. Time and space are relative to the observer. If a machine travels at extremely high speed relative to Earth, the "ticks" of that machine’s CPU clock literally take longer to happen compared with a clock standing still on the ground.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout the Relativity of 1905, the Global Positioning System (GPS) would not exist. For your phone to triangulate your position on a map, it receives data packets containing timestamps from satellites in orbit flying at 14,000 km/h. Because of that speed, the atomic clock aboard the satellite ticks more slowly than clocks on Earth. If satellite software did not use Einstein’s relativity equations to constantly correct this microsecond difference, the whole system would accumulate errors of kilometers in a single day, making every navigation or global logistics application instantly useless.',
+        },
+      },
+      {
+        name: 'Guglielmo Marconi',
+        imagePlaceholder: YEAR_1905_PLACEHOLDER,
+        flag: '🇮🇹',
+        nationality: { pt: 'Italiano', en: 'Italian' },
+        formation: {
+          pt: 'Engenheiro prático e magnata das telecomunicações corporativas.',
+          en: 'Practical engineer and corporate telecommunications magnate.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1905 a Antena Direcional Horizontal (patente britânica Nº 14.788), provando que um fio de antena dobrado e posicionado paralelamente ao solo poderia transmitir a grande maioria de sua energia magnética para uma única direção escolhida.',
+          en: 'Invented and patented the Horizontal Directional Antenna in 1905 (British patent No. 14,788), proving that a bent antenna wire positioned parallel to the ground could transmit most of its magnetic energy in a single chosen direction.',
+        },
+        role: {
+          pt: 'Inventor da antena direcional horizontal',
+          en: 'Inventor of the horizontal directional antenna',
+        },
+        contribution: {
+          pt: 'Em 1905, Marconi otimizou o consumo de banda e energia da infraestrutura wireless, criando o hardware que consegue "mirar" um pacote de dados.',
+          en: 'In 1905, Marconi optimized the bandwidth and energy consumption of wireless infrastructure, creating hardware that can "aim" a data packet.',
+        },
+        detail: {
+          pt: 'Até então, as antenas de rádio (como as que ele usou para cruzar o Atlântico em 1901) eram mastros verticais que agiam como lâmpadas: irradiavam ondas eletromagnéticas em 360 graus. Se você quisesse enviar um telegrama de Londres para Nova York, 90% da energia do rádio era desperdiçada voando para o polo norte, para o espaço ou para a África, e qualquer um nessas áreas podia interceptar o dado. Ao estender o fio paralelamente à terra com as extremidades livres, Marconi forçou o campo de transmissão a assumir um formato oval agudo. O sinal passava a viajar focado, como o feixe de uma lanterna de precisão.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o nascimento arquitetônico do Roteamento Espacial Direcional. Marconi resolveu o gargalo da eficiência energética das redes e da poluição de espectro. Hoje, a tecnologia de TI não usa antenas de 360 graus o tempo todo; as torres de rádio micro-ondas, os pratos de antenas parabólicas da Starlink e, principalmente, a tecnologia de Beamforming (conformação de feixe) dentro do seu roteador Wi-Fi 5G operam sob este princípio. Eles manipulam fisicamente e eletronicamente as antenas para disparar o feixe de dados invisível diretamente para onde o receptor está localizado, reduzindo ruídos e garantindo velocidades massivas.',
+          en: 'Until then, radio antennas (like the ones he used to cross the Atlantic in 1901) were vertical masts that behaved like lamps: they radiated electromagnetic waves in 360 degrees. If you wanted to send a telegram from London to New York, 90% of the radio energy was wasted flying toward the North Pole, into space or toward Africa, and anyone in those areas could intercept the data. By extending the wire parallel to the ground with free ends, Marconi forced the transmission field into a sharp oval shape. The signal began to travel focused, like the beam of a precision flashlight.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the architectural birth of Directional Spatial Routing. Marconi solved the bottleneck of network energy efficiency and spectrum pollution. Today, IT technology does not use 360-degree antennas all the time; microwave radio towers, Starlink parabolic dishes and, especially, Beamforming technology inside your 5G Wi-Fi router operate under this principle. They physically and electronically manipulate antennas to fire the invisible data beam directly toward the receiver’s location, reducing noise and guaranteeing massive speeds.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1906,
+    era: {
+      pt: 'O Amplificador Eletrônico, o Broadcast de Entretenimento e o Protocolo Global de Rede',
+      en: 'The Electronic Amplifier, Entertainment Broadcast and the Global Network Protocol',
+    },
+    context: {
+      pt: 'Em 1906, a tecnologia da informação resolve seu problema de fraqueza de sinal, inaugura o consumo de mídia em massa e cria suas primeiras leis internacionais de trânsito de dados. Nos Estados Unidos, a adição de um simples pedaço de arame a uma válvula de vidro cria a capacidade de amplificação, entregando à humanidade o "transistor" da era do vácuo, a peça que permitiria a construção dos primeiros computadores. Na costa americana, durante o Natal, o primeiro fluxo de áudio contínuo não é enviado para militares ou empresas, mas lançado ao mar aberto para quem quisesse ouvir, inaugurando a era do broadcasting de entretenimento. E na Alemanha, representantes do mundo todo sentam-se à mesa para criar o primeiro protocolo unificado de comunicação sem fio, padronizando a alocação de frequências e criando o famoso comando "SOS". É o ano do Triodo, da rádio AM musical e do primeiro tratado de rede global.',
+      en: 'In 1906, information technology solves its signal-weakness problem, inaugurates mass media consumption and creates its first international laws for data traffic. In the United States, adding a simple piece of wire to a glass valve creates amplification, giving humanity the "transistor" of the vacuum era, the part that would make the first computers possible. On the American coast, during Christmas, the first continuous audio stream is not sent to militaries or companies, but launched into the open sea for anyone who wanted to listen, inaugurating entertainment broadcasting. And in Germany, representatives from around the world sit down to create the first unified wireless communication protocol, standardizing frequency allocation and creating the famous "SOS" command. It is the year of the Triode, musical AM radio and the first global network treaty.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Lee de Forest',
+        imagePlaceholder: YEAR_1906_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro elétrico e inventor incansável (e frequentemente polêmico). Obteve seu doutorado em física pela Universidade de Yale, dedicando sua tese aos reflexos de ondas hertzianas e focando obsessivamente na melhoria dos detectores de rádio.',
+          en: 'Tireless and often controversial electrical engineer and inventor. He earned his doctorate in physics from Yale University, dedicating his thesis to the reflection of Hertzian waves and obsessively focusing on improving radio detectors.',
+        },
+        summary: {
+          pt: 'Inventou em 1906 (patenteado no início de 1907) o Audion (mais tarde conhecido como válvula Triodo), adicionando um terceiro elemento (uma grade de arame) à válvula de Fleming, criando o primeiro dispositivo eletrônico capaz de amplificar ativamente um sinal.',
+          en: 'Invented the Audion in 1906 (patented in early 1907), later known as the Triode valve, adding a third element (a wire grid) to the Fleming valve and creating the first electronic device capable of actively amplifying a signal.',
+        },
+        role: {
+          pt: 'Inventor do amplificador eletrônico',
+          en: 'Inventor of the electronic amplifier',
+        },
+        contribution: {
+          pt: 'Em 1906, Lee de Forest inventou o componente de hardware definitivo da primeira metade do século XX: o amplificador de sinal.',
+          en: 'In 1906, Lee de Forest invented the defining hardware component of the first half of the twentieth century: the signal amplifier.',
+        },
+        detail: {
+          pt: 'A válvula de Fleming (1904) era genial, mas era passiva; ela apenas "limpava" (retificava) o sinal. Lee de Forest colocou uma malha metálica em zigue-zague (a grade de controle) entre o filamento quente e a placa fria. O pulo de gênio: se você colocasse um sinal de rádio minúsculo e fraco (como o som de uma voz humana captada do ar) nessa grade, ela atuava como uma torneira abrindo e fechando o fluxo de uma corrente muito maior vinda da bateria. O resultado na placa era uma cópia do sinal original, só que dezenas de vezes mais forte.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Audion (Triodo) é a "CPU" e o "Roteador" do mundo pré-silício. Sem amplificação, o sinal de telefone morria após alguns quilômetros e o rádio mal podia ser ouvido em fones de ouvido colados ao ouvido. O Triodo permitiu a telefonia transcontinental, os alto-falantes e o radar moderno. Mais importante para a TI: válvulas triodo conectadas umas às outras podiam funcionar como chaves de alta velocidade (ligado/desligado), tornando-se os "bits" e as portas lógicas que formariam a memória e o processamento de todos os supercomputadores da Geração 1, como o Colossus e o ENIAC.',
+          en: 'The Fleming valve (1904) was brilliant, but passive; it only "cleaned" (rectified) the signal. Lee de Forest placed a zigzag metal mesh (the control grid) between the hot filament and the cold plate. The genius leap: if a tiny, weak radio signal (such as the sound of a human voice captured from the air) was applied to that grid, it acted like a faucet opening and closing the flow of a much larger current from the battery. The result at the plate was a copy of the original signal, but dozens of times stronger.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Audion (Triode) is the "CPU" and "Router" of the pre-silicon world. Without amplification, telephone signals died after a few kilometers and radio could barely be heard in earphones pressed to the ear. The Triode enabled transcontinental telephony, loudspeakers and modern radar. More importantly for IT: triode valves connected to one another could act as high-speed switches (on/off), becoming the "bits" and logic gates that formed the memory and processing of all Generation 1 supercomputers, such as Colossus and ENIAC.',
+        },
+      },
+      {
+        name: 'Reginald Fessenden',
+        imagePlaceholder: YEAR_1906_PLACEHOLDER,
+        flag: '🇨🇦 🇺🇸',
+        nationality: { pt: 'Canadense (trabalhando nos Estados Unidos)', en: 'Canadian (working in the United States)' },
+        formation: {
+          pt: 'Brilhante engenheiro elétrico e ex-químico-chefe de Thomas Edison, mestre em matemática avançada e acústica, impulsionado pela ideia de que o rádio poderia carregar tons complexos, não apenas bipes secos.',
+          en: 'Brilliant electrical engineer and former chief chemist for Thomas Edison, a master of advanced mathematics and acoustics, driven by the idea that radio could carry complex tones, not only dry beeps.',
+        },
+        summary: {
+          pt: 'Realizou na véspera de Natal de 1906, em Brant Rock, Massachusetts, o primeiro broadcast de áudio voltado para o entretenimento público da história, tocando "O Holy Night" no violino e lendo uma passagem da Bíblia pelo rádio.',
+          en: 'On Christmas Eve 1906, in Brant Rock, Massachusetts, he carried out the first audio broadcast aimed at public entertainment in history, playing "O Holy Night" on the violin and reading a Bible passage over radio.',
+        },
+        role: {
+          pt: 'Criador do primeiro broadcast de entretenimento',
+          en: 'Creator of the first entertainment broadcast',
+        },
+        contribution: {
+          pt: 'Em 1906, Fessenden inventou o streaming de mídia para o consumidor final, criando a radiodifusão em massa.',
+          en: 'In 1906, Fessenden invented media streaming for the end consumer, creating mass broadcasting.',
+        },
+        detail: {
+          pt: 'Vimos que Fessenden e Landell de Moura transmitiram a voz humana em 1900, mas eram testes fechados entre duas antenas. Em 1906, Fessenden encomendou a Ernst Alexanderson um gerador de alta frequência monstro (o Alternador de Alexanderson) capaz de empurrar uma onda contínua poderosa pelo ar. Na noite de Natal, em vez de enviar código Morse para os navios da United Fruit Company, ele falou ao microfone, tocou um disco de fonógrafo e tocou seu violino. Os operadores de rádio nos navios no Atlântico, acostumados a ouvir apenas cliques e estalos nos fones, congelaram de choque ao ouvir música humana limpa descendo dos céus.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o marco zero da Indústria de Entretenimento em Mídia de Massa (Mass Media Broadcasting). Fessenden provou a viabilidade arquitetônica do modelo "Um-para-Muitos" (Multicast) sem fio. Antes de 1906, as redes eram de utilidade militar ou logística corporativa. A partir desta noite, a rede invisível passou a ser vista como um conduíte para entregar conteúdo de consumo simultaneamente para milhares de "clientes" finais de forma gratuita e aberta. A cultura dos podcasts, do rádio FM e das lives de YouTube herdam diretamente essa arquitetura comportamental.',
+          en: 'We saw that Fessenden and Landell de Moura transmitted the human voice in 1900, but those were closed tests between two antennas. In 1906, Fessenden ordered from Ernst Alexanderson a monster high-frequency generator (the Alexanderson Alternator) capable of pushing a powerful continuous wave through the air. On Christmas night, instead of sending Morse code to United Fruit Company ships, he spoke into the microphone, played a phonograph record and played his violin. Radio operators on ships in the Atlantic, used to hearing only clicks and crackles in their headphones, froze in shock when they heard clean human music descending from the sky.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the zero point of the Mass Media Broadcasting entertainment industry. Fessenden proved the architectural viability of the wireless "One-to-Many" (Multicast) model. Before 1906, networks served military utility or corporate logistics. From that night on, the invisible network began to be seen as a conduit for delivering consumer content simultaneously to thousands of final "clients" in a free and open way. Podcast culture, FM radio and YouTube live streams directly inherit this behavioral architecture.',
+        },
+      },
+      {
+        name: 'Conferência Radiotelegráfica Internacional de Berlim (International Radiotelegraph Conference)',
+        imagePlaceholder: YEAR_1906_PLACEHOLDER,
+        flag: '🌍',
+        nationality: { pt: 'Internacional (29 nações participantes)', en: 'International (29 participating nations)' },
+        formation: {
+          pt: 'Um consórcio global de governos, almirantes, engenheiros navais e diretores de telecomunicações.',
+          en: 'A global consortium of governments, admirals, naval engineers and telecommunications directors.',
+        },
+        summary: {
+          pt: 'Assinaram em 3 de novembro de 1906 a primeira Convenção Internacional de Radiotelegrafia, criando regras globais de interoperabilidade de redes e instituindo oficialmente o sinal "SOS" como o padrão mundial de trigger de emergência.',
+          en: 'Signed the first International Radiotelegraph Convention on November 3, 1906, creating global rules for network interoperability and officially establishing the "SOS" signal as the world standard emergency trigger.',
+        },
+        role: {
+          pt: 'Criadores do primeiro protocolo global de rádio',
+          en: 'Creators of the first global radio protocol',
+        },
+        contribution: {
+          pt: 'Em 1906, a TI ganhou seu primeiro conjunto de Protocolos de Rede (Network Protocols), forçando a padronização global e quebrando os ecossistemas fechados das corporações.',
+          en: 'In 1906, IT gained its first set of Network Protocols, forcing global standardization and breaking closed corporate ecosystems.',
+        },
+        detail: {
+          pt: 'O rádio havia se tornado um caos comercial. A empresa de Marconi operava um monopólio agressivo: se um navio britânico tivesse um rádio Marconi e estivesse afundando, e o navio mais próximo fosse alemão com um rádio Telefunken, a empresa Marconi proibia o operador de responder porque era "equipamento concorrente". A conferência de Berlim interveio violentamente. O tratado exigiu a interoperabilidade obrigatória: as máquinas precisavam se comunicar independentemente do fabricante. Além disso, eles aposentaram o velho código "CQD" da Marconi e adotaram a sequência "Três pontos, três traços, três pontos" ( . . . - - - . . . ), conhecida como SOS, porque era impossível de ser confundida no meio do ruído de rede.\n\nPor que isso entra no Hall da Fama da TI?\n\nNenhuma rede funciona sem Handshake (acordo de comunicação) e padrões abertos. A Convenção de Berlim de 1906 é o equivalente histórico às reuniões do IEEE, W3C ou IETF que hoje definem os padrões do USB, do Wi-Fi ou do protocolo HTTP da Internet. Ao forçar concorrentes ferrenhos a usar as mesmas frequências de emergência e se comunicarem, os governos mundiais de 1906 criaram a primeira regulamentação de Net Neutrality (Neutralidade de Rede) e interoperabilidade da história, provando que a infraestrutura de dados era importante demais para ficar presa no ecossistema fechado de uma única Big Tech.',
+          en: 'Radio had become commercial chaos. Marconi’s company operated an aggressive monopoly: if a British ship had a Marconi radio and was sinking, and the nearest ship was German with a Telefunken radio, Marconi operators were forbidden to respond because it was "competitor equipment". The Berlin conference intervened forcefully. The treaty required mandatory interoperability: machines had to communicate regardless of manufacturer. It also retired Marconi’s old "CQD" code and adopted the sequence "three dots, three dashes, three dots" ( . . . - - - . . . ), known as SOS, because it was impossible to confuse amid network noise.\n\nWhy does this belong in the IT Hall of Fame?\n\nNo network works without a handshake (communication agreement) and open standards. The 1906 Berlin Convention is the historical equivalent of the IEEE, W3C or IETF meetings that define today’s USB, Wi-Fi or HTTP internet standards. By forcing fierce competitors to use the same emergency frequencies and communicate with one another, the world governments of 1906 created the first regulation of Net Neutrality and interoperability in history, proving that data infrastructure was too important to remain trapped inside the closed ecosystem of a single Big Tech.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1907,
+    era: {
+      pt: 'A Arquitetura do Vídeo Eletrônico, a Descoberta do LED e a WAN de Imagens',
+      en: 'The Architecture of Electronic Video, the Discovery of the LED and the Image WAN',
+    },
+    context: {
+      pt: 'Em 1907, a tecnologia da informação expande suas redes analógicas para níveis comerciais intercontinentais, teoriza o futuro do vídeo e tropeça acidentalmente na física das telas modernas. Na Rússia, um inventor patenteia o primeiro projeto híbrido de televisão, utilizando o tubo de elétrons para renderizar imagens remotas, fundando a arquitetura dos monitores visuais. Nos laboratórios de rádio britânicos, um engenheiro observa um cristal emitir luz sob corrente elétrica, descobrindo o princípio da eletroluminescência que daria origem a todos os displays modernos do futuro. E na Europa continental, a tecnologia de escaneamento de fotos é finalmente posta em produção massiva, inaugurando a primeira rede comercial (WAN) de transmissão de imagens entre nações. É o ano da TV eletrônica teórica, do ancestral do LED e do primeiro provedor de Fax corporativo.',
+      en: 'In 1907, information technology expands its analog networks to commercial intercontinental levels, theorizes the future of video and accidentally stumbles into the physics of modern screens. In Russia, an inventor patents the first hybrid television design, using the electron tube to render remote images and founding the architecture of visual monitors. In British radio laboratories, an engineer observes a crystal emitting light under electrical current, discovering the principle of electroluminescence that would give rise to every modern display of the future. And in continental Europe, photo-scanning technology is finally put into mass production, inaugurating the first commercial network (WAN) for transmitting images between nations. It is the year of theoretical electronic TV, the ancestor of the LED and the first corporate fax provider.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Boris Rosing',
+        imagePlaceholder: YEAR_1907_PLACEHOLDER,
+        flag: '🇷🇺',
+        nationality: { pt: 'Russo', en: 'Russian' },
+        formation: {
+          pt: 'Físico, engenheiro e cientista brilhante. Professor do Instituto de Tecnologia de São Petersburgo, possuía uma visão incrivelmente à frente de seu tempo na fusão de óptica mecânica com a nascente física de elétrons em tubos de vácuo.',
+          en: 'Brilliant physicist, engineer and scientist. A professor at the Saint Petersburg Institute of Technology, he had a vision far ahead of his time in fusing mechanical optics with the emerging physics of electrons in vacuum tubes.',
+        },
+        summary: {
+          pt: 'Submeteu a patente em 26 de novembro de 1907 para o primeiro sistema de "Televisão" que incorporava um Tubo de Raios Catódicos (CRT) como dispositivo de exibição (receptor), provando teoricamente que elétrons poderiam desenhar imagens em movimento.',
+          en: 'Filed a patent on November 26, 1907 for the first "Television" system that incorporated a Cathode-Ray Tube (CRT) as the display device (receiver), theoretically proving that electrons could draw moving images.',
+        },
+        role: {
+          pt: 'Arquiteto do receptor eletrônico de televisão',
+          en: 'Architect of the electronic television receiver',
+        },
+        contribution: {
+          pt: 'Em 1907, Rosing criou a fundação arquitetônica do monitor de vídeo, trocando as engrenagens pesadas por elétrons sem peso.',
+          en: 'In 1907, Rosing created the architectural foundation of the video monitor, replacing heavy gears with weightless electrons.',
+        },
+        detail: {
+          pt: 'Os inventores do final do século XIX (como Nipkow) tentavam fazer televisão usando discos de metal giratórios cheios de furos tanto para gravar quanto para exibir a imagem. O problema é que metal tem inércia, é pesado e lento, tornando a imagem borrada e escura. Rosing teve um insight arquitetônico genial: ele manteve a mecânica para a câmera (para escanear o objeto), mas no lado do receptor, ele usou o recém-inventado Tubo de Braun (CRT). O feixe de elétrons, que não tem peso mecânico, podia varrer a tela pintada com fósforo em altíssima velocidade, desenhando a imagem recebida pela rede perfeitamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o projeto base de todos os monitores visuais eletrônicos do século XX. O trabalho de Rosing de 1907 provou que a renderização de dados de vídeo precisava ser um processo de "Estado Sólido/Eletrônico" para ser rápido o suficiente para os olhos humanos. Sem esse salto conceitual, a exibição de mídia ficaria presa à era da mecânica. Para coroar seu legado na TI, o aluno e protegido de Rosing no laboratório era um jovem chamado Vladimir Zworykin — o homem que, anos mais tarde, nos EUA, inventaria o Iconoscópio e tornaria a televisão 100% eletrônica uma realidade global.',
+          en: 'Late-nineteenth-century inventors (such as Nipkow) tried to build television using rotating metal disks full of holes for both capturing and displaying the image. The problem is that metal has inertia: it is heavy and slow, making the image blurry and dark. Rosing had a brilliant architectural insight: he kept mechanics on the camera side (to scan the object), but on the receiver side he used the newly invented Braun Tube (CRT). The electron beam, which has no mechanical weight, could sweep across the phosphor-painted screen at extremely high speed, perfectly drawing the image received through the network.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the base design of every electronic visual monitor of the twentieth century. Rosing’s 1907 work proved that rendering video data needed to be a "Solid-State/Electronic" process to be fast enough for human eyes. Without this conceptual leap, media display would have remained trapped in the mechanical era. To crown his IT legacy, Rosing’s student and protégé in the laboratory was a young man named Vladimir Zworykin, who years later in the United States would invent the Iconoscope and make 100% electronic television a global reality.',
+        },
+      },
+      {
+        name: 'Henry Joseph Round',
+        imagePlaceholder: YEAR_1907_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Engenheiro eletrônico de elite, atuando como o brilhante assistente direto e solucionador de problemas de Guglielmo Marconi. Um dos pioneiros mais prolíficos e menos reconhecidos no desenvolvimento do rádio comercial.',
+          en: 'Elite electronic engineer, serving as Guglielmo Marconi’s brilliant direct assistant and problem solver. One of the most prolific and least recognized pioneers in the development of commercial radio.',
+        },
+        summary: {
+          pt: 'Descobriu e documentou formalmente em 1907 (em uma nota enviada à revista Electrical World) o fenômeno da Eletroluminescência no estado sólido, após observar luz fria sendo emitida por um cristal de carboneto de silício (SiC).',
+          en: 'Discovered and formally documented the phenomenon of solid-state electroluminescence in 1907 (in a note sent to Electrical World), after observing cold light emitted by a silicon carbide (SiC) crystal.',
+        },
+        role: {
+          pt: 'Descobridor da eletroluminescência semicondutora',
+          en: 'Discoverer of semiconductor electroluminescence',
+        },
+        contribution: {
+          pt: 'Em 1907, a física de semicondutores gerou seu primeiro Output visual de fótons, o ancestral brutal do LED.',
+          en: 'In 1907, semiconductor physics generated its first visual photon Output, the raw ancestor of the LED.',
+        },
+        detail: {
+          pt: 'H.J. Round não estava tentando inventar uma lâmpada. Ele estava nos laboratórios da Marconi Company testando novos cristais minerais para serem usados como detectores em receptores de rádio. Quando ele aplicou uma voltagem de corrente contínua entre dois fios encostados num pedaço de carboneto de silício, a rocha começou a brilhar com uma luz amarelada, verde e azul pálida. Não era calor (incandescência, como nas lâmpadas de Edison); a rocha permanecia fria. O material estava convertendo eletricidade diretamente em dados visuais (luz).\n\nPor que isso entra no Hall da Fama da TI?\n\nRound havia acabado de tropeçar no primeiríssimo Diodo Emissor de Luz (LED). A Eletroluminescência é a tecnologia central e absoluta de toda Interface de Saída e transmissão ótica contemporânea. Aquele pequeno brilho no laboratório em 1907 é a raiz física profunda dos painéis OLED dos smartphones, das matrizes de LED do seu monitor de computador, das luzes que piscam no switch do seu servidor, e, acima de tudo, dos emissores de luz microscópicos que disparam pulsos de dados através de cabos de fibra óptica a 300.000 quilômetros por segundo, sustentando literalmente toda a Internet banda larga do planeta hoje.',
+          en: 'H.J. Round was not trying to invent a lamp. He was in the Marconi Company laboratories testing new mineral crystals to be used as detectors in radio receivers. When he applied direct-current voltage between two wires touching a piece of silicon carbide, the rock began to glow with yellowish, green and pale blue light. It was not heat (incandescence, as in Edison’s lamps); the rock remained cold. The material was converting electricity directly into visual data (light).\n\nWhy does this belong in the IT Hall of Fame?\n\nRound had just stumbled upon the very first Light-Emitting Diode (LED). Electroluminescence is the central and absolute technology of every contemporary Output Interface and optical transmission system. That small glow in the laboratory in 1907 is the deep physical root of smartphone OLED panels, LED matrices in your computer monitor, the blinking lights on your server switch and, above all, the microscopic light emitters that fire data pulses through fiber-optic cables at 300,000 kilometers per second, literally sustaining the planet’s broadband internet today.',
+        },
+      },
+      {
+        name: 'Arthur Korn',
+        imagePlaceholder: YEAR_1907_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Físico e matemático. Após provar a teoria do seu scanner em 1902, ele agiu com a mentalidade de um CTO (Chief Technology Officer) para levar a invenção da bancada do laboratório para a infraestrutura B2B (Business-to-Business).',
+          en: 'Physicist and mathematician. After proving the theory of his scanner in 1902, he acted with the mindset of a CTO (Chief Technology Officer), taking the invention from the laboratory bench into B2B (Business-to-Business) infrastructure.',
+        },
+        summary: {
+          pt: 'Inaugurou no final de 1907 a primeira rede comercial interurbana e internacional de Telefotografia (Bildtelegraph), conectando as redações de grandes jornais de Munique, Berlim, Paris e Londres.',
+          en: 'Inaugurated in late 1907 the first commercial intercity and international Telephotography network (Bildtelegraph), connecting major newspaper newsrooms in Munich, Berlin, Paris and London.',
+        },
+        role: {
+          pt: 'Operador da primeira WAN comercial de imagens',
+          en: 'Operator of the first commercial image WAN',
+        },
+        contribution: {
+          pt: 'Em 1907, o roteamento de imagens estáticas atingiu o status de produção, estabelecendo a primeira rede de distribuição de mídia gráfica corporativa.',
+          en: 'In 1907, static-image routing reached production status, establishing the first corporate graphic-media distribution network.',
+        },
+        detail: {
+          pt: 'Em 1902, a máquina de fax primitiva de Korn funcionava em circuitos fechados. Em 1907, ele superou os brutais problemas de sincronização dos motores mecânicos em diferentes países conectados por centenas de quilômetros de linhas telefônicas de cobre, que sofriam com ruído e atenuação. A rede entrou no ar e o sucesso foi estrondoso. A revista francesa L\'Illustration assinou o serviço e publicou pela primeira vez a fotografia de um criminoso (e depois do Rei Edward VII) que havia sido escaneada e transmitida pela rede elétrica da Europa em meros 12 minutos — um processo logístico que levaria dias pelo correio de trem.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste evento marcou o primeiro deploy comercial bem-sucedido de uma Rede de Longa Distância (WAN) dedicada a dados raster (arquivos não-texto). Korn estabeleceu a utilidade corporativa absoluta do Fax. Ele abriu o precedente tecnológico e o modelo de negócios provando que as redes de infraestrutura não serviam apenas para transportar as letras do código Morse ou a voz humana, mas podiam ser cobradas pela largura de banda usada para transportar imagens pesadas e detalhadas em um formato matricial para atualizar a sociedade em tempo real.',
+          en: 'In 1902, Korn’s primitive fax machine worked on closed circuits. In 1907, he overcame the brutal synchronization problems of mechanical motors in different countries connected by hundreds of kilometers of copper telephone lines suffering from noise and attenuation. The network went live and the success was enormous. The French magazine L\'Illustration subscribed to the service and, for the first time, published the photograph of a criminal (and later King Edward VII) that had been scanned and transmitted through Europe’s electrical network in only 12 minutes, a logistics process that would have taken days by train mail.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis event marked the first successful commercial deployment of a Wide Area Network (WAN) dedicated to raster data (non-text files). Korn established the absolute corporate utility of Fax. He opened the technological precedent and business model proving that infrastructure networks were not only for carrying Morse-code letters or human voice, but could charge for the bandwidth used to carry heavy, detailed images in a matrix format to update society in real time.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1908,
+    era: {
+      pt: 'A Arquitetura 100% Eletrônica, a Transmissão Assíncrona e a Antena Continental',
+      en: 'The 100% Electronic Architecture, Asynchronous Transmission and the Continental Antenna',
+    },
+    context: {
+      pt: 'Em 1908, a tecnologia da informação teoriza o fim absoluto das peças mecânicas no processamento de vídeo, inventa o protocolo de transmissão de dados em pacotes para texto e transforma um dos maiores monumentos do mundo em uma torre de roteamento de rede. No Reino Unido, a arquitetura de vídeo alcança seu formato lógico definitivo, propondo que tanto a câmera quanto o monitor deveriam ser puramente eletrônicos, operando na velocidade da luz. Nos laboratórios americanos, o problema do descompasso de tempo entre máquinas de escrever conectadas em rede é resolvido, criando a transmissão assíncrona e a base para o terminal de computador moderno. E em Paris, o rádio usa a gigantesca estrutura da Torre Eiffel para transmitir streaming de áudio por quase mil quilômetros, consolidando a viabilidade física da mídia em longa distância. É o ano da TV de Estado Sólido Teórica, do protocolo Start-Stop e do Broadcasting em megaestruturas.',
+      en: 'In 1908, information technology theorizes the absolute end of mechanical parts in video processing, invents the packet-like data-transmission protocol for text and turns one of the world’s greatest monuments into a network routing tower. In the United Kingdom, video architecture reaches its definitive logical form, proposing that both camera and monitor should be purely electronic, operating at the speed of light. In American laboratories, the timing mismatch between networked typewriters is solved, creating asynchronous transmission and the basis for the modern computer terminal. And in Paris, radio uses the gigantic structure of the Eiffel Tower to transmit audio streaming for almost a thousand kilometers, consolidating the physical viability of long-distance media. It is the year of theoretical solid-state TV, the Start-Stop protocol and broadcasting on megastructures.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'A.A. Campbell Swinton',
+        imagePlaceholder: YEAR_1908_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Escocês)', en: 'British (Scottish)' },
+        formation: {
+          pt: 'Engenheiro elétrico brilhante e consultor científico. Membro da Royal Society, possuía a capacidade analítica de prever gargalos de hardware décadas antes que eles ocorressem na linha de produção.',
+          en: 'Brilliant electrical engineer and scientific consultant. A Fellow of the Royal Society, he had the analytical ability to foresee hardware bottlenecks decades before they would appear on production lines.',
+        },
+        summary: {
+          pt: 'Publicou uma carta histórica na prestigiosa revista científica Nature em 18 de junho de 1908, delineando teoricamente o primeiro sistema de "Televisão Distante" inteiramente eletrônico, exigindo o uso de Tubos de Raios Catódicos (CRTs) em ambas as pontas da rede (tanto na câmera quanto na tela).',
+          en: 'Published a historic letter in the prestigious scientific journal Nature on June 18, 1908, theoretically outlining the first entirely electronic "Distant Television" system, requiring Cathode-Ray Tubes (CRTs) at both ends of the network: camera and screen.',
+        },
+        role: {
+          pt: 'Autor da arquitetura de televisão totalmente eletrônica',
+          en: 'Author of the fully electronic television architecture',
+        },
+        contribution: {
+          pt: 'Em 1908, Swinton desenhou a arquitetura de vídeo definitiva, eliminando o "gargalo mecânico" da captura de dados.',
+          en: 'In 1908, Swinton designed the definitive video architecture, eliminating the "mechanical bottleneck" of data capture.',
+        },
+        detail: {
+          pt: 'Como vimos no ano anterior (1907), Boris Rosing havia usado um tubo de elétrons para a tela, mas ainda usava pesados espelhos giratórios para a câmera. Swinton percebeu um limite físico: espelhos de vidro girando em motores jamais conseguiriam atingir a Taxa de Quadros (Frame Rate / FPS) ou a resolução exigida pelos olhos humanos sem se despedaçar pela força centrífuga. A solução visionária de Swinton foi usar campos magnéticos para mover um feixe de elétrons sem peso também na câmera, escaneando a imagem em uma placa fotossensível na velocidade da luz. Nenhuma peça móvel.\n\nPor que isso entra no Hall da Fama da TI?\n\nO documento de Swinton de 1908 é o Whitepaper da era do vídeo moderno. Ele estabeleceu o "roteiro de hardware" que toda a indústria eletroeletrônica seguiria para construir a televisão nas décadas seguintes. A ideia de que o processamento e a varredura de dados visuais de altíssima velocidade exigiam componentes inteiramente baseados em estado sólido (ou vácuo eletrônico) é o pilar que sustenta não apenas a televisão analógica que dominou o século XX, mas a própria lógica de renderização rápida dos monitores de computador e dos sensores digitais de imagem até os dias de hoje.',
+          en: 'As we saw in the previous year (1907), Boris Rosing had used an electron tube for the screen, but still used heavy rotating mirrors for the camera. Swinton saw a physical limit: glass mirrors spinning on motors could never reach the Frame Rate (FPS) or resolution demanded by human eyes without tearing themselves apart through centrifugal force. Swinton’s visionary solution was to use magnetic fields to move a weightless electron beam in the camera as well, scanning the image on a photosensitive plate at the speed of light. No moving parts.\n\nWhy does this belong in the IT Hall of Fame?\n\nSwinton’s 1908 document is the whitepaper of the modern video era. It established the "hardware roadmap" that the entire electronics industry would follow to build television in the following decades. The idea that ultra-high-speed visual data processing and scanning required components entirely based on solid-state behavior (or electronic vacuum) is the pillar that supports not only the analog television that dominated the twentieth century, but the very logic of fast rendering in computer monitors and digital image sensors to this day.',
+        },
+      },
+      {
+        name: 'Charles e Howard Krum',
+        imagePlaceholder: YEAR_1908_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Charles era um engenheiro mecânico (trabalhando na área de refrigeração) e seu filho Howard era um engenheiro elétrico recém-formado. Juntos, sob o patrocínio do empresário Joy Morton, eles uniram a força bruta dos motores à precisão dos pulsos elétricos.',
+          en: 'Charles was a mechanical engineer working in refrigeration, and his son Howard was a newly trained electrical engineer. Together, under the sponsorship of businessman Joy Morton, they joined the brute force of motors to the precision of electrical pulses.',
+        },
+        summary: {
+          pt: 'Iniciaram em 1908 o desenvolvimento prático do mecanismo de sincronização "Start-Stop" para teleimpressoras, resolvendo o problema crítico de comunicação de rede das máquinas de escrever à distância e fundando a base funcional do Teletype (Teletipo).',
+          en: 'Began in 1908 the practical development of the "Start-Stop" synchronization mechanism for teleprinters, solving the critical network-communication problem of typewriters at a distance and founding the functional basis of the Teletype.',
+        },
+        role: {
+          pt: 'Criadores da transmissão assíncrona Start-Stop',
+          en: 'Creators of Start-Stop asynchronous transmission',
+        },
+        contribution: {
+          pt: 'Em 1908, a família Krum inventou a "Transmissão Assíncrona", o protocolo de empacotamento de dados que corrigiu a latência das redes de texto.',
+          en: 'In 1908, the Krum family invented "Asynchronous Transmission", the data-packaging protocol that corrected latency in text networks.',
+        },
+        detail: {
+          pt: 'Antes de 1908, tentar enviar texto pelo telégrafo digitando num teclado exigia que o motor da máquina do emissor e da máquina do receptor girassem exatamente na mesma velocidade o tempo todo (transmissão síncrona). Com o chiado e a latência dos cabos de cobre de centenas de quilômetros, as máquinas perdiam a sincronia rapidamente, imprimindo lixo. Howard Krum teve uma ideia de software/hardware brilhante: manter as máquinas paradas. Quando o usuário apertava a letra "A", a máquina enviava um pulso elétrico de alerta (o Start bit). Isso "acordava" o motor do receptor. O código da letra era enviado, seguido imediatamente por um pulso de desligamento (o Stop bit). As máquinas ficavam sincronizadas apenas durante a fração de segundo necessária para imprimir uma única letra.\n\nPor que isso entra no Hall da Fama da TI?\n\nO protocolo Start-Stop de 1908 é a base da interface de terminal da história da computação. As máquinas desenvolvidas a partir dessa lógica (os Teletypes ou TTYs) se tornaram tão confiáveis que, décadas mais tarde, os primeiros programadores as usariam como teclados e telas primários para conversar com os supercomputadores (mainframes). Até hoje, se você abrir um terminal no Linux ou macOS, ou configurar uma porta serial ou USB, a arquitetura subjacente de entrada e saída (I/O) de caracteres de texto assíncronos — carinhosamente ainda referida nos sistemas modernos pelo acrônimo "TTY" — opera com o exato DNA lógico que os Krum idealizaram.',
+          en: 'Before 1908, trying to send text by telegraph through a keyboard required the motor in the sender’s machine and the motor in the receiver’s machine to rotate at exactly the same speed all the time (synchronous transmission). With the hiss and latency of hundreds of kilometers of copper cable, the machines quickly lost synchronization and printed garbage. Howard Krum had a brilliant software/hardware idea: keep the machines stopped. When the user pressed the letter "A", the machine sent an electrical alert pulse (the Start bit). This "woke up" the receiver motor. The code for the letter was sent, immediately followed by a shutdown pulse (the Stop bit). The machines stayed synchronized only for the fraction of a second needed to print a single letter.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe 1908 Start-Stop protocol is the basis of the terminal interface in computing history. Machines developed from this logic (Teletypes or TTYs) became so reliable that, decades later, early programmers would use them as primary keyboards and screens to talk to supercomputers (mainframes). To this day, if you open a terminal on Linux or macOS, or configure a serial or USB port, the underlying architecture of asynchronous text-character input and output (I/O), still affectionately referred to in modern systems by the acronym "TTY", operates with the exact logical DNA the Krums conceived.',
+        },
+      },
+      {
+        name: 'Lee de Forest',
+        imagePlaceholder: YEAR_1908_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Doutor em física, inventor agressivo e brilhante promotor de tecnologias.',
+          en: 'Doctor of physics, aggressive inventor and brilliant promoter of technologies.',
+        },
+        summary: {
+          pt: 'No verão de 1908, viajou a Paris, montou um poderoso transmissor de arco acoplado aos seus microfones primitivos na base da Torre Eiffel e utilizou o enorme monumento de metal como antena para transmitir um streaming de rádio, música e voz.',
+          en: 'In the summer of 1908, he traveled to Paris, mounted a powerful arc transmitter coupled to his primitive microphones at the base of the Eiffel Tower and used the enormous metal monument as an antenna to transmit radio streaming of music and voice.',
+        },
+        role: {
+          pt: 'Executor do broadcasting continental em megaestrutura',
+          en: 'Executor of continental broadcasting through a megastructure',
+        },
+        contribution: {
+          pt: 'Em 1908, de Forest executou um Stress Test brutal da infraestrutura de "Wide Area Network" (WAN) de rádio, usando arquitetura urbana para escalar o sinal.',
+          en: 'In 1908, de Forest ran a brutal stress test of radio "Wide Area Network" (WAN) infrastructure, using urban architecture to scale the signal.',
+        },
+        detail: {
+          pt: 'Lee de Forest queria convencer os governos e militares europeus de que o áudio sem fio era o futuro tático e comercial indiscutível. Ele percebeu que as antenas eram o maior gargalo físico da propagação: quanto mais alta, mais longe o campo eletromagnético viaja. Ele obteve permissão para pendurar os fios de seu transmissor a partir do topo dos mais de 300 metros da Torre Eiffel. Durante a transmissão, usando um fonógrafo e sua própria voz, de Forest banhou a França com mídia analógica ininterrupta. Operadores navais em Marselha (a mais de 800 quilômetros de distância) captaram a música de forma clara em seus fones de ouvido.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste evento marcou o primeiro deploy bem-sucedido de mídia rica em uma escala geográfica quase continental, usando superestruturas verticais. De Forest provou fisicamente que a topologia de rede perfeita para broadcasting e roteamento wireless era a elevação extrema da antena. Este é o exato princípio de topologia física que fundamenta a engenharia moderna de celular: a razão pela qual as corporações de telecomunicações instalam as antenas de 5G nos topos dos prédios mais altos, ou torres em picos de montanhas (as chamadas Estações Rádio Base - ERBs), para garantir a linha de visão máxima e cobrir as células de dados da cidade com precisão.',
+          en: 'Lee de Forest wanted to convince European governments and militaries that wireless audio was the undisputed tactical and commercial future. He realized that antennas were the greatest physical bottleneck in propagation: the higher the antenna, the farther the electromagnetic field travels. He obtained permission to hang the wires of his transmitter from the top of the more than 300-meter Eiffel Tower. During the transmission, using a phonograph and his own voice, de Forest bathed France in uninterrupted analog media. Naval operators in Marseille, more than 800 kilometers away, captured the music clearly in their headphones.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis event marked the first successful deployment of rich media at an almost continental geographic scale using vertical superstructures. De Forest physically proved that the perfect network topology for broadcasting and wireless routing was extreme antenna elevation. This is the exact principle of physical topology behind modern cellular engineering: the reason telecommunications corporations install 5G antennas on the tops of the tallest buildings, or towers on mountain peaks (Base Transceiver Stations), to guarantee maximum line of sight and cover the city’s data cells precisely.',
         },
       },
     ],
