@@ -392,6 +392,221 @@ const YEAR_1922_PLACEHOLDER = {
   en: 'Network Monetization, Optical Data Routing and the Transatlantic Wireless Fax\n1922',
 }
 
+const YEAR_1923_PLACEHOLDER = {
+  pt: 'A Câmera Eletrônica, a Topologia de Rede Sincronizada e o P2P Global\n1923',
+  en: 'The Electronic Camera, Synchronized Network Topology and Global P2P\n1923',
+}
+
+const YEAR_1924_PLACEHOLDER = {
+  pt: 'O Batismo da IBM, o Primeiro Fax Interurbano de Imprensa e a Prova Física da Ionosfera\n1924',
+  en: 'IBM’s Naming, the First Intercity Press Fax and the Physical Proof of the Ionosphere\n1924',
+}
+
+const YEAR_1925_PLACEHOLDER = {
+  pt: 'O "Cérebro" da Tecnologia, o Transistor Teórico e o Nascimento do Vídeo\n1925',
+  en: 'Technology’s "Brain", the Theoretical Transistor and the Birth of Video\n1925',
+}
+
+const YEAR_1926_PLACEHOLDER = {
+  pt: 'A Geometria do Wi-Fi, a Escala da CDN Corporativa e a WAN Full-Duplex\n1926',
+  en: 'Wi-Fi Geometry, Corporate CDN Scale and the Full-Duplex WAN\n1926',
+}
+
+const YEAR_1927_PLACEHOLDER = {
+  pt: 'A Primeira Tela de Estado Sólido, o Algoritmo Físico de Correção de Erros e o Relógio de Precisão Absoluta\n1927',
+  en: 'The First Solid-State Screen, the Physical Error-Correction Algorithm and the Clock of Absolute Precision\n1927',
+}
+
+const YEAR_1928_PLACEHOLDER = {
+  pt: 'A Memória Magnética, a Padronização do Input e a Lei de Conversão Digital\n1928',
+  en: 'Magnetic Memory, Input Standardization and the Law of Digital Conversion\n1928',
+}
+
+const YEAR_1929_PLACEHOLDER = {
+  pt: 'O Tubo de Banda Larga, o Monitor de Estado Sólido e a Transmissão de Texto "Inquebrável"\n1929',
+  en: 'The Broadband Tube, the Solid-State Monitor and "Unbreakable" Text Transmission\n1929',
+}
+
+const YEAR_1930_PLACEHOLDER = {
+  pt: 'O Primeiro "Supercomputador" Analógico, a Origem da Motorola e o Streaming Multimídia\n1930',
+  en: 'The First Analog "Supercomputer", the Origin of Motorola and Multimedia Streaming\n1930',
+}
+
+const YEAR_1931_PLACEHOLDER = {
+  pt: 'O "Bug" Matemático Universal, o Primeiro Contador Digital Eletrônico e o Streaming Espacial (Estéreo)\n1931',
+  en: 'The Universal Mathematical "Bug", the First Electronic Digital Counter and Spatial Streaming (Stereo)\n1931',
+}
+
+const YEAR_1932_PLACEHOLDER = {
+  pt: 'O "Disco Rígido" Primordial, a Primeira Internet de Texto e o "Debug" Intergaláctico\n1932',
+  en: 'The Primordial "Hard Disk", the First Text Internet and Intergalactic "Debugging"\n1932',
+}
+
+const YEAR_1933_PLACEHOLDER = {
+  pt: 'O Fim da Estática, o Primeiro "Cluster" de Computadores e a Execução Remota de Hardware\n1933',
+  en: 'The End of Static, the First Computer "Cluster" and Remote Hardware Execution\n1933',
+}
+
+const YEAR_1934_PLACEHOLDER = {
+  pt: 'A Regulação Global da Rede, a Concepção do PC Binário e o Roteamento Espacial Autônomo\n1934',
+  en: 'Global Network Regulation, the Conception of the Binary PC and Autonomous Spatial Routing\n1934',
+}
+
+const YEAR_1935_PLACEHOLDER = {
+  pt: 'O Primeiro "Ping" Global, o Hardware Antivírus/Hacker e o Sensor Físico Definitivo (RADAR)\n1935',
+  en: 'The First Global "Ping", Antivirus/Hacker Hardware and the Definitive Physical Sensor (RADAR)\n1935',
+}
+
+const YEAR_1936_PLACEHOLDER = {
+  pt: 'O Computador Universal, a Voz Artificial e a Arquitetura de "Alta Definição"\n1936',
+  en: 'The Universal Computer, Artificial Voice and "High Definition" Architecture\n1936',
+}
+
+const YEAR_1937_PLACEHOLDER = {
+  pt: 'A Matemática Vira Eletricidade, a Primeira Calculadora Binária e a Digitalização do Mundo\n1937',
+  en: 'Mathematics Becomes Electricity, the First Binary Calculator and the Digitization of the World\n1937',
+}
+
+const YEAR_1938_PLACEHOLDER = {
+  pt: 'O Primeiro PC Programável, o "Ctrl+C" Analógico e a Garagem do Vale do Silício\n1938',
+  en: 'The First Programmable PC, Analog "Ctrl+C" and the Silicon Valley Garage\n1938',
+}
+
+const YEAR_1939_PLACEHOLDER = {
+  pt: 'O Primeiro Cérebro Eletrônico, o "Servidor" Corporativo e o Motor de Micro-ondas\n1939',
+  en: 'The First Electronic Brain, the Corporate "Server" and the Microwave Engine\n1939',
+}
+
+const YEAR_1940_PLACEHOLDER = {
+  pt: 'A Primeira Nuvem (Cloud Computing), o Motor de Ciberguerra e a Matriz RGB\n1940',
+  en: 'The First Cloud (Cloud Computing), the Cyberwarfare Engine and the RGB Matrix\n1940',
+}
+
+const YEAR_1941_PLACEHOLDER = {
+  pt: 'O Primeiro Computador Turing-Completo, a Criptografia Inquebrável do "Wi-Fi" e a Padronização do Vídeo\n1941',
+  en: 'The First Turing-Complete Computer, the Unbreakable Cryptography of "Wi-Fi" and Video Standardization\n1941',
+}
+
+const YEAR_1942_PLACEHOLDER = {
+  pt: 'O "Whitepaper" do Colosso Eletrônico, o Algoritmo Preditivo (Cibernética) e o Patch de Alta Fidelidade\n1942',
+  en: 'The "Whitepaper" of the Electronic Colossus, the Predictive Algorithm (Cybernetics) and the High-Fidelity Patch\n1942',
+}
+
+const YEAR_1943_PLACEHOLDER = {
+  pt: 'O Primeiro Computador Eletrônico, a Arquitetura da Inteligência Artificial e a Escala Industrial\n1943',
+  en: 'The First Electronic Computer, the Architecture of Artificial Intelligence and Industrial Scale\n1943',
+}
+
+const YEAR_1944_PLACEHOLDER = {
+  pt: 'O Ápice da Engenharia Eletromecânica, a Primeira "Dev" de Elite e o Hardware do Dia D\n1944',
+  en: 'The Apex of Electromechanical Engineering, the First Elite "Dev" and the Hardware of D-Day\n1944',
+}
+
+const YEAR_1945_PLACEHOLDER = {
+  pt: 'O Protocolo Universal da Placa-Mãe, o "Whitepaper" da Internet e o Roteador Espacial\n1945',
+  en: 'The Universal Motherboard Protocol, the "Whitepaper" of the Internet and the Space Router\n1945',
+}
+
+const YEAR_1946_PLACEHOLDER = {
+  pt: 'O "Deploy" do Cérebro de Válvulas, a Primeira RAM Eletrônica e a Primeira Startup de TI\n1946',
+  en: 'The "Deploy" of the Tube Brain, the First Electronic RAM and the First IT Startup\n1946',
+}
+
+const YEAR_1947_PLACEHOLDER = {
+  pt: 'A Revolução do Estado Sólido, o Batismo do "Bug" e o Algoritmo do Acaso\n1947',
+  en: 'The Solid-State Revolution, the Naming of the "Bug" and the Algorithm of Chance\n1947',
+}
+
+const YEAR_1948_PLACEHOLDER = {
+  pt: 'A Teoria de Tudo dos Dados, o Primeiro Boot de Software e a Bíblia da IA\n1948',
+  en: 'The Theory of Everything for Data, the First Software Boot and the Bible of AI\n1948',
+}
+
+const YEAR_1949_PLACEHOLDER = {
+  pt: 'A Primeira Linguagem Assembly, a Memória RAM Indestrutível e o Primeiro MP3 (Música Digital)\n1949',
+  en: 'The First Assembly Language, Indestructible RAM and the First MP3 (Digital Music)\n1949',
+}
+
+const YEAR_1950_PLACEHOLDER = {
+  pt: 'O Teste de Inteligência Artificial, o "Antivírus" Físico de Dados e o Cérebro de Diodos\n1950',
+  en: 'The Artificial Intelligence Test, the Physical Data "Antivirus" and the Diode Brain\n1950',
+}
+
+const YEAR_1951_PLACEHOLDER = {
+  pt: 'A TI Corporativa, o Fim do Papel Perfurado e o Processamento em Tempo Real\n1951',
+  en: 'Corporate IT, the End of Punched Paper and Real-Time Processing\n1951',
+}
+
+const YEAR_1952_PLACEHOLDER = {
+  pt: 'O Primeiro Compilador, a Compressão Perfeita e a IA Prevendo o Futuro ao Vivo\n1952',
+  en: 'The First Compiler, Perfect Compression and AI Predicting the Future Live\n1952',
+}
+
+const YEAR_1953_PLACEHOLDER = {
+  pt: 'O Despertar da "Big Blue", o Fim Prático das Válvulas e o Código Universal\n1953',
+  en: 'The Awakening of "Big Blue", the Practical End of Tubes and Universal Code\n1953',
+}
+
+const YEAR_1954_PLACEHOLDER = {
+  pt: 'O Nascimento do "Silício", a Primeira Linguagem de Alto Nível e o "Modelo T" dos Computadores\n1954',
+  en: 'The Birth of "Silicon", the First High-Level Language and the "Model T" of Computers\n1954',
+}
+
+const YEAR_1955_PLACEHOLDER = {
+  pt: 'O Primeiro Sistema Operacional, o Batismo da Inteligência Artificial e o Ancestral do GitHub\n1955',
+  en: 'The First Operating System, the Naming of Artificial Intelligence and the Ancestor of GitHub\n1955',
+}
+
+const YEAR_1956_PLACEHOLDER = {
+  pt: 'A Invenção do Disco Rígido (HD), o "Big Bang" da Inteligência Artificial e a Máquina do Hacker\n1956',
+  en: 'The Invention of the Hard Disk Drive, the "Big Bang" of Artificial Intelligence and the Hacker Machine\n1956',
+}
+
+const YEAR_1957_PLACEHOLDER = {
+  pt: 'O Compilador FORTRAN, a Primeira Rede Neural e a Fundação do Vale do Silício\n1957',
+  en: 'The FORTRAN Compiler, the First Neural Network and the Founding of Silicon Valley\n1957',
+}
+
+const YEAR_1958_PLACEHOLDER = {
+  pt: 'O Primeiro Circuito Integrado, a Linguagem Ancestral da IA e o Início do "Networking"\n1958',
+  en: 'The First Integrated Circuit, the Ancestral Language of AI and the Beginning of Networking\n1958',
+}
+
+const YEAR_1959_PLACEHOLDER = {
+  pt: 'A Linguagem Universal dos Negócios, a Impressão 2D de Semicondutores e o Batismo do "Machine Learning"\n1959',
+  en: 'The Universal Business Language, 2D Semiconductor Printing and the Naming of "Machine Learning"\n1959',
+}
+
+const YEAR_1960_PLACEHOLDER = {
+  pt: 'O Primeiro Minicomputador, a Matriarca do Código Moderno e o Manifesto da Simbiose\n1960',
+  en: 'The First Minicomputer, the Matriarch of Modern Code and the Symbiosis Manifesto\n1960',
+}
+
+const YEAR_1961_PLACEHOLDER = {
+  pt: 'A Invenção do Multitasking, o Primeiro Robô Operacional e o Nascimento dos Videogames\n1961',
+  en: 'The Invention of Multitasking, the First Operational Robot and the Birth of Video Games\n1961',
+}
+
+const YEAR_1962_PLACEHOLDER = {
+  pt: 'O Truque da "Memória Infinita", a Rede Indestrutível e o Roteador Espacial\n1962',
+  en: 'The "Infinite Memory" Trick, the Indestructible Network and the Space Router\n1962',
+}
+
+const YEAR_1963_PLACEHOLDER = {
+  pt: 'O Primeiro Software Gráfico (CAD), o Alfabeto Universal e a Invenção do Mouse\n1963',
+  en: 'The First Graphic Software (CAD), the Universal Alphabet and the Invention of the Mouse\n1963',
+}
+
+const YEAR_1964_PLACEHOLDER = {
+  pt: 'A Arquitetura Universal, a Linguagem para as Massas e o Primeiro Supercomputador\n1964',
+  en: 'The Universal Architecture, the Language for the Masses and the First Supercomputer\n1964',
+}
+
+const YEAR_1965_PLACEHOLDER = {
+  pt: 'A Profecia do Silício, o Ancestral da Web e o Nascimento dos Objetos\n1965',
+  en: 'The Silicon Prophecy, the Ancestor of the Web and the Birth of Objects\n1965',
+}
+
 const data: HallYear[] = [
   {
     year: 1843,
@@ -7736,191 +7951,3957 @@ const data: HallYear[] = [
     ],
   },
   {
-    year: 1936,
-    era: { pt: 'A Fundação Teórica', en: 'The Theoretical Foundation' },
-    context: {
-      pt: 'Antes de qualquer transistor, antes de qualquer computador eletrônico, um matemático britânico de 24 anos publicou um paper que definia matematicamente o que é computação — e seus limites.',
-      en: 'Before any transistor, before any electronic computer, a 24-year-old British mathematician published a paper that mathematically defined what computation is — and its limits.',
+    year: 1923,
+    era: {
+      pt: 'A Câmera Eletrônica, a Topologia de Rede Sincronizada e o P2P Global',
+      en: 'The Electronic Camera, Synchronized Network Topology and Global P2P',
     },
+    context: {
+      pt: 'Em 1923, a tecnologia da informação resolve o gargalo mecânico da captura visual, inventa a arquitetura de "Rede de Servidores" (Networks) para espalhar dados simultaneamente e vê os "hackers" da época quebrarem o monopólio corporativo do alcance global. Nos laboratórios da Westinghouse, um refugiado russo patenteia o "olho eletrônico", inaugurando a verdadeira câmera de vídeo de estado sólido e aposentando as peças giratórias pesadas. Em infraestrutura comercial, a AT&T usa cabos transurbanos para forçar duas torres de rádio em estados diferentes a tocarem o mesmo streaming de dados ao mesmo tempo, criando o conceito moderno de "Rede de Transmissão" (Network). E no submundo das frequências de rádio, dois radioamadores usam antenas caseiras para trocar mensagens bidirecionais através do Oceano Atlântico, provando que as frequências "lixo" rejeitadas pelo governo eram, na verdade, a autoestrada secreta da ionosfera. É o ano do Iconoscópio, do Chain Broadcasting e do Roteamento em Ondas Curtas.',
+      en: 'In 1923, information technology solves the mechanical bottleneck of visual capture, invents the architecture of "Server Networks" for spreading data simultaneously, and watches the "hackers" of the era break the corporate monopoly on global reach. In Westinghouse laboratories, a Russian refugee patents the "electronic eye", inaugurating the true solid-state video camera and retiring heavy rotating parts. In commercial infrastructure, AT&T uses intercity cables to force two radio towers in different states to play the same data stream at the same time, creating the modern concept of a "Broadcast Network". And in the underground of radio frequencies, two radio amateurs use homemade antennas to exchange bidirectional messages across the Atlantic Ocean, proving that the "junk" frequencies rejected by governments were actually the secret highway of the ionosphere. It is the year of the Iconoscope, Chain Broadcasting and Shortwave Routing.',
+    },
+    peopleCount: 3,
     people: [
       {
-        name: 'Alan Turing',
-        image: '/hall/1936/alan-turing',
+        name: 'Vladimir Zworykin',
+        imagePlaceholder: YEAR_1923_PLACEHOLDER,
+        flag: '🇷🇺 🇺🇸',
+        nationality: { pt: 'Russo (Vivendo e operando nos Estados Unidos)', en: 'Russian (living and operating in the United States)' },
+        formation: {
+          pt: 'Engenheiro elétrico brilhante e ex-aluno de Boris Rosing (que em 1907 concebeu a tela de tubo CRT). Fugiu da Revolução Russa, estabeleceu-se nos EUA e foi trabalhar nos laboratórios da Westinghouse.',
+          en: 'Brilliant electrical engineer and former student of Boris Rosing (who in 1907 conceived the CRT tube screen). He fled the Russian Revolution, settled in the United States and went to work in Westinghouse laboratories.',
+        },
+        summary: {
+          pt: 'Submeteu a patente em 29 de dezembro de 1923 para o Iconoscópio, o primeiro tubo de câmera de televisão 100% eletrônico prático, capaz de escanear uma imagem visual e convertê-la em um fluxo de dados elétrico sem depender de nenhuma engrenagem, disco ou motor mecânico móvel.',
+          en: 'Submitted the patent on December 29, 1923 for the Iconoscope, the first practical 100% electronic television camera tube, capable of scanning a visual image and converting it into an electrical data stream without depending on any gear, disc or moving mechanical motor.',
+        },
+        role: {
+          pt: 'Inventor da câmera eletrônica de televisão',
+          en: 'Inventor of the electronic television camera',
+        },
+        contribution: {
+          pt: 'Em 1923, Zworykin entregou a "Interface de Input de Vídeo" definitiva, transferindo a captura da luz da era mecânica para a era dos elétrons.',
+          en: 'In 1923, Zworykin delivered the definitive "Video Input Interface", transferring light capture from the mechanical era to the age of electrons.',
+        },
+        detail: {
+          pt: 'A grande barreira para a TV (o vídeo contínuo) era que as câmeras mecânicas da época usavam discos de metal giratórios cheios de furos para "ler" a luz, o que deixava a imagem escura, borrada e lenta. A genialidade de Zworykin foi usar uma placa fotossensível isolada dentro de um tubo de vácuo. A imagem caía sobre a placa e criava um mosaico de pequenas cargas elétricas. Um feixe de elétrons (sem peso e viajando quase à velocidade da luz) varria essa placa, "lendo" as cargas e transformando a luz em um sinal de broadcasting ultrarrápido.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o nascimento arquitetônico de todas as Câmeras de Vídeo modernas. O Iconoscópio foi a tecnologia-base que as emissoras usariam na década seguinte para lançar a televisão pública global. Mais do que isso, a lógica de ter um sensor que converte fótons em energia armazenada que depois é lida e roteada para fora do chip é a avó ancestral direta dos sensores CCD e CMOS que estão na câmera do seu smartphone hoje. Zworykin ensinou as máquinas a "enxergarem" dados em tempo real.',
+          en: 'The great barrier for TV (continuous video) was that mechanical cameras of the era used rotating metal discs full of holes to "read" light, which made the image dark, blurry and slow. Zworykin’s genius was to use an isolated photosensitive plate inside a vacuum tube. The image fell onto the plate and created a mosaic of small electrical charges. An electron beam (weightless and traveling almost at the speed of light) swept that plate, "reading" the charges and transforming light into an ultrafast broadcasting signal.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the architectural birth of all modern Video Cameras. The Iconoscope was the base technology broadcasters would use in the following decade to launch global public television. More than that, the logic of having a sensor that converts photons into stored energy that is then read and routed out of the chip is the direct ancestral grandmother of the CCD and CMOS sensors in your smartphone camera today. Zworykin taught machines to "see" data in real time.',
+        },
+      },
+      {
+        name: 'AT&T (Engenheiros interligando as estações WEAF e WNAC)',
+        imagePlaceholder: YEAR_1923_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A megacorporação de roteamento, dona das linhas telefônicas americanas e agora tentando escalar seu modelo de negócios de "pedágio de rádio".',
+          en: 'The routing megacorporation, owner of American telephone lines and now trying to scale its "radio toll" business model.',
+        },
+        summary: {
+          pt: 'Realizaram em 4 de janeiro de 1923 a primeira transmissão de Chain Broadcasting (Transmissão em Cadeia / Topologia de Rede), unindo a estação WEAF em Nova York à estação WNAC em Boston através de linhas telefônicas especialmente condicionadas, fazendo com que ambas transmitissem simultaneamente o mesmo programa de rádio.',
+          en: 'On January 4, 1923, carried out the first Chain Broadcasting transmission (network topology), linking station WEAF in New York to station WNAC in Boston through specially conditioned telephone lines, making both simultaneously transmit the same radio program.',
+        },
+        role: {
+          pt: 'Pioneiros da transmissão em cadeia sincronizada',
+          en: 'Pioneers of synchronized chain broadcasting',
+        },
+        contribution: {
+          pt: 'Em 1923, a TI inaugurou o modelo de Content Delivery Network (CDN) primitivo, espalhando a carga de transmissão por múltiplos "servidores" (antenas) descentralizados.',
+          en: 'In 1923, IT inaugurated the primitive Content Delivery Network (CDN) model, spreading transmission load across multiple decentralized "servers" (antennas).',
+        },
+        detail: {
+          pt: 'Até então, o rádio era local: uma antena, uma cidade. Se você quisesse cobrir o país, precisaria de um transmissor inimaginavelmente potente (e caro). A AT&T resolveu o problema com arquitetura de rede: eles usaram o seu robusto "Backbone" de cabos de cobre para injetar o mesmo pacote de áudio (originado em um estúdio em Nova York) diretamente na base das antenas de cidades distantes em milissegundos. De repente, milhões de usuários em estados diferentes estavam consumindo exatamente o mesmo feed de dados sincronizado perfeitamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste evento marcou a fundação técnica das "Redes" (Networks). Hoje conhecemos essas entidades como ABC, NBC, CBS ou Globo. Ao provar que conexões cabeadas dedicadas podiam sincronizar nós de transmissão wireless distantes, a AT&T estabeleceu a base topológica para toda a distribuição de mídia escalável da história moderna. É a exata mesma filosofia logística de proxy e descentralização que empresas como a Cloudflare usam hoje: colocar pequenos nós de distribuição o mais perto possível do usuário final, alimentados por um cabo central de alta velocidade.',
+          en: 'Until then, radio was local: one antenna, one city. If you wanted to cover the country, you needed an unimaginably powerful (and expensive) transmitter. AT&T solved the problem with network architecture: they used their robust copper-cable "Backbone" to inject the same audio packet (originating in a New York studio) directly into the base of antennas in distant cities within milliseconds. Suddenly, millions of users in different states were consuming exactly the same perfectly synchronized data feed.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis event marked the technical foundation of "Networks". Today we know these entities as ABC, NBC, CBS or Globo. By proving that dedicated wired connections could synchronize distant wireless transmission nodes, AT&T established the topological basis for all scalable media distribution in modern history. It is the exact same logistical philosophy of proxying and decentralization used today by companies like Cloudflare: placing small distribution nodes as close as possible to the final user, fed by a high-speed central cable.',
+        },
+      },
+      {
+        name: 'Léon Deloy (8AB) e Fred Schnell (1MO)',
+        imagePlaceholder: YEAR_1923_PLACEHOLDER,
+        flag: '🇫🇷 🇺🇸',
+        nationality: { pt: 'Francês / Americano', en: 'French / American' },
+        formation: {
+          pt: 'Não eram corporações ou generais, eram "Radioamadores" — os pioneiros da cultura Hacker / Maker, entusiastas de garagem que construíam seu próprio hardware em casa e operavam sob indicativos de chamada.',
+          en: 'They were not corporations or generals, they were "radio amateurs" — pioneers of Hacker / Maker culture, garage enthusiasts who built their own hardware at home and operated under call signs.',
+        },
+        summary: {
+          pt: 'Estabeleceram na noite de 27 de novembro de 1923 a primeira comunicação de rádio bidirecional transatlântica contínua operando exclusivamente na banda de Ondas Curtas (operando a cerca de 100 metros / 3 MHz).',
+          en: 'On the night of November 27, 1923, established the first continuous bidirectional transatlantic radio communication operating exclusively in the Shortwave band (around 100 meters / 3 MHz).',
+        },
+        role: {
+          pt: 'Pioneiros do roteamento global em ondas curtas',
+          en: 'Pioneers of global shortwave routing',
+        },
+        contribution: {
+          pt: 'Em 1923, o submundo civil validou a propagação Ionosférica (Skywave), provando que frequências descartadas como "lixo" podiam cruzar o globo com hardware barato.',
+          en: 'In 1923, the civilian underground validated Ionospheric Propagation (Skywave), proving that frequencies dismissed as "junk" could cross the globe with cheap hardware.',
+        },
+        detail: {
+          pt: 'Na época, os especialistas corporativos (como Marconi e a Marinha) acreditavam que apenas as "Ondas Longas" quilométricas podiam cruzar o Atlântico, e para isso construíam antenas do tamanho de prédios que custavam milhões e usavam potência massiva. Para tirar os "amadores" (civis) do caminho, os governos deram a eles as frequências altas de Ondas Curtas, acreditando que eram inúteis e não passavam de poucos quilômetros. Deloy (na França) e Schnell (nos EUA) construíram transmissores caseiros e provaram o impossível: as Ondas Curtas, na verdade, batiam na camada eletrizada da atmosfera (ionosfera) e ricocheteavam de volta à Terra como um espelho de teto, cruzando oceanos com um gasto de energia quase irrisório.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o triunfo máximo do código aberto civil e da descentralização de rede. Esse evento chocou o mundo corporativo. Ele provou que as telecomunicações intercontinentais não precisavam ser um monopólio restrito a megacorporações com milhões de dólares em infraestrutura pesada; pequenos "nós" periféricos (Peer-to-Peer) podiam se comunicar globalmente ignorando fronteiras e cabos estatais. Essa descoberta forçou toda a indústria mundial (inclusive Marconi) a abandonar seus equipamentos gigantescos e migrar sua infraestrutura inteira para as Ondas Curtas ao longo do final da década de 20.',
+          en: 'At the time, corporate specialists (such as Marconi and the Navy) believed that only kilometer-long "Long Waves" could cross the Atlantic, and to do so they built building-sized antennas that cost millions and used massive power. To get "amateurs" (civilians) out of the way, governments gave them the high Shortwave frequencies, believing they were useless and would not travel more than a few kilometers. Deloy (in France) and Schnell (in the United States) built homemade transmitters and proved the impossible: Shortwaves, in fact, struck the electrified layer of the atmosphere (the ionosphere) and bounced back to Earth like a ceiling mirror, crossing oceans with almost negligible energy use.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the maximum triumph of civilian open source and network decentralization. The event shocked the corporate world. It proved that intercontinental telecommunications did not need to be a monopoly restricted to megacorporations with millions of dollars in heavy infrastructure; small peripheral "nodes" (Peer-to-Peer) could communicate globally while ignoring borders and state cables. This discovery forced the entire global industry (including Marconi) to abandon its gigantic equipment and migrate its whole infrastructure to Shortwaves throughout the late 1920s.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1924,
+    era: {
+      pt: 'O Batismo da IBM, o Primeiro Fax Interurbano de Imprensa e a Prova Física da Ionosfera',
+      en: 'IBM’s Naming, the First Intercity Press Fax and the Physical Proof of the Ionosphere',
+    },
+    context: {
+      pt: 'Em 1924, a tecnologia da informação ganha o nome de sua marca corporativa mais famosa, estabelece a transmissão comercial de dados visuais pesados pela rede terrestre e mapeia fisicamente o "teto" invisível da internet sem fio. Em Nova York, o líder de um conglomerado de maquinário de dados toma uma decisão de rebranding que ecoaria por um século, fundando oficialmente a marca IBM e consolidando o mercado de processamento corporativo. Nas agências de notícias americanas, a transmissão de fotografias políticas cruza estados inteiros em minutos através de cabos de cobre, validando o fax de alta definição como uma ferramenta essencial de mídia e roteamento raster. E no Reino Unido, a física prova cientificamente o que os radioamadores haviam descoberto no ano anterior: existe uma camada eletrizada no céu que atua como um espelho gigantesco para ondas de rádio, fornecendo a matemática exata para o cálculo de roteamento intercontinental. É o ano do nascimento do nome International Business Machines, da máquina de Wirephoto da AT&T e da descoberta da Camada de Appleton.',
+      en: 'In 1924, information technology receives the name of its most famous corporate brand, establishes the commercial transmission of heavy visual data over the terrestrial network and physically maps the invisible "ceiling" of wireless internet. In New York, the leader of a data-machinery conglomerate makes a rebranding decision that would echo for a century, officially founding the IBM brand and consolidating the corporate processing market. In American news agencies, the transmission of political photographs crosses entire states in minutes through copper cables, validating high-definition fax as an essential tool for media and raster routing. And in the United Kingdom, physics scientifically proves what radio amateurs had discovered the previous year: there is an electrified layer in the sky that acts as a giant mirror for radio waves, providing the exact mathematics for intercontinental routing calculations. It is the year of the birth of the name International Business Machines, AT&T’s Wirephoto machine and the discovery of the Appleton Layer.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Thomas J. Watson',
+        imagePlaceholder: YEAR_1924_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Executivo agressivo, mestre em vendas corporativas e logística de mercado. Ele já havia assumido a liderança da velha C-T-R (fundada em 1911) e focado implacavelmente no aluguel recorrente de grandes máquinas de tabulação por cartões perfurados.',
+          en: 'Aggressive executive, master of corporate sales and market logistics. He had already taken leadership of the old C-T-R (founded in 1911) and focused relentlessly on recurring rental of large punched-card tabulating machines.',
+        },
+        summary: {
+          pt: 'Anunciou em 14 de fevereiro de 1924 que a Computing-Tabulating-Recording Company mudaria oficialmente e definitivamente seu nome para International Business Machines Corporation (IBM).',
+          en: 'Announced on February 14, 1924 that the Computing-Tabulating-Recording Company would officially and permanently change its name to International Business Machines Corporation (IBM).',
+        },
+        role: {
+          pt: 'Executivo que batizou a IBM',
+          en: 'Executive who named IBM',
+        },
+        contribution: {
+          pt: 'Em 1924, a TI ganhou seu primeiro verdadeiro "Colosso Corporativo", com o rebranding focado no processamento global de dados empresariais.',
+          en: 'In 1924, IT gained its first true "Corporate Colossus", with rebranding focused on global business-data processing.',
+        },
+        detail: {
+          pt: 'Watson percebeu que o antigo nome da empresa era provincial e mecânico demais. Ele entendia que o modelo de negócios da corporação não era "vender registradoras", mas sim fornecer infraestrutura de processamento de dados (na época, através da mecânica de perfuração) para automatizar a burocracia do mundo inteiro. Ao criar a sigla IBM, ele alinhou a identidade da empresa com a escalabilidade global. Sob essa nova bandeira e cultura de vendas (guiada pelo famoso lema "THINK"), a companhia dominaria completamente os contratos governamentais.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o batismo do titã do Hardware Enterprise. A IBM não seria apenas uma fornecedora de máquinas; ela seria a corporação que inventaria o disco rígido magnético (HDD), desenvolveria os mainframes que rodariam o sistema bancário global e da NASA, inventaria a linguagem SQL de banco de dados e lançaria o IBM PC que padronizaria os computadores pessoais nos anos 1980. Toda a cultura corporativa de "Soluções de TI", onde uma empresa vende hardware, software e suporte logístico em um único pacote de assinatura, nasceu no escritório de Watson em 1924.',
+          en: 'Watson realized that the company’s old name was too provincial and mechanical. He understood that the corporation’s business model was not "selling registers", but providing data-processing infrastructure (at the time, through punch-card mechanics) to automate bureaucracy around the entire world. By creating the IBM acronym, he aligned the company’s identity with global scalability. Under this new banner and sales culture (guided by the famous motto "THINK"), the company would completely dominate government contracts.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the naming of the Enterprise Hardware titan. IBM would not be merely a machine supplier; it would be the corporation that invented the magnetic hard disk drive (HDD), developed the mainframes that ran the global banking system and NASA, invented the SQL database language and launched the IBM PC that standardized personal computers in the 1980s. The entire corporate culture of "IT Solutions", where a company sells hardware, software and logistical support in a single subscription package, was born in Watson’s office in 1924.',
+        },
+      },
+      {
+        name: 'Herbert E. Ives (com a equipe de engenheiros da AT&T)',
+        imagePlaceholder: YEAR_1924_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro e físico óptico genial dentro da AT&T. Ives tinha uma compreensão profunda de que a luz não precisava ser apenas assistida; ela podia ser "fatiada" em pacotes lógicos contínuos de eletricidade, roteada por fios de telefone comuns e reconstruída matematicamente.',
+          en: 'Brilliant optical engineer and physicist inside AT&T. Ives had a deep understanding that light did not need only to be watched; it could be "sliced" into continuous logical packets of electricity, routed through ordinary telephone wires and mathematically reconstructed.',
+        },
+        summary: {
+          pt: 'Demonstrou com sucesso no meio de 1924 o sistema corporativo de Wirephoto (Telefotografia), enviando as primeiras fotografias de alta resolução da Convenção Nacional Republicana em Cleveland diretamente para a central em Nova York através de cabos de rede em questão de minutos.',
+          en: 'Successfully demonstrated in mid-1924 the corporate Wirephoto (telephotography) system, sending the first high-resolution photographs of the Republican National Convention in Cleveland directly to the New York office through network cables in a matter of minutes.',
+        },
+        role: {
+          pt: 'Pioneiro do Wirephoto comercial',
+          en: 'Pioneer of commercial Wirephoto',
+        },
+        contribution: {
+          pt: 'Em 1924, o roteamento de imagens estáticas tornou-se comercialmente viável para a imprensa, quebrando a barreira da latência jornalística.',
+          en: 'In 1924, static-image routing became commercially viable for the press, breaking the barrier of journalistic latency.',
+        },
+        detail: {
+          pt: 'Vimos Arthur Korn enviar fax interurbano em 1907 na Europa e um transatlântico em 1922, mas o processo ainda era lento, experimental e com qualidade rústica. Ives otimizou o processo de codificação óptica até o limite: o aparelho escaneava a foto com um fino feixe de luz que lia os tons de cinza e traduzia tudo para frequências elétricas que os repetidores de válvula da AT&T conseguiam impulsionar pelo cabo sem perda de dados. Em Nova York, um papel fotográfico recebia a varredura elétrica sincronizada e renderizava a imagem pronta para ser impressa nos jornais matinais.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o Deploy de Produção da mídia rica no mercado Business-to-Business (B2B). O sucesso desse sistema levou as agências de notícias a fundarem suas próprias redes exclusivas de transmissão de imagens pouco tempo depois (como o AP Wirephoto). Essa arquitetura provou que a rede telefônica não era apenas um conduíte para áudio; ela era, na prática, uma rodovia de dados cega e agnóstica. Isso plantou a fundação conceitual para os modems dial-up do final do século XX, que usariam as exatas mesmas linhas telefônicas projetadas para voz e Wirephoto para transmitir a própria Internet digital.',
+          en: 'We saw Arthur Korn send intercity fax in 1907 in Europe and transatlantic fax in 1922, but the process was still slow, experimental and rough in quality. Ives optimized the optical-encoding process to the limit: the apparatus scanned the photo with a thin beam of light that read grayscale tones and translated everything into electrical frequencies that AT&T’s valve repeaters could push through the cable without data loss. In New York, photographic paper received the synchronized electrical scan and rendered the image ready to be printed in the morning newspapers.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the Production Deployment of rich media in the Business-to-Business (B2B) market. The success of this system soon led news agencies to found their own exclusive image-transmission networks (such as AP Wirephoto). This architecture proved that the telephone network was not just a conduit for audio; in practice, it was a blind and agnostic data highway. That planted the conceptual foundation for late-twentieth-century dial-up modems, which would use the exact same telephone lines designed for voice and Wirephoto to transmit the digital Internet itself.',
+        },
+      },
+      {
+        name: 'Edward Victor Appleton',
+        imagePlaceholder: YEAR_1924_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Físico acadêmico e pesquisador estelar na Universidade de Cambridge. Ele não estava interessado em construir um negócio, mas em provar rigorosamente por que o hardware dos radioamadores de ondas curtas (de 1923) conseguia violar a geometria e cruzar oceanos.',
+          en: 'Academic physicist and stellar researcher at the University of Cambridge. He was not interested in building a business, but in rigorously proving why the shortwave radio-amateur hardware of 1923 could violate geometry and cross oceans.',
+        },
+        summary: {
+          pt: 'Usou os poderosos transmissores da emissora BBC em 1924 para emitir sinais com variações de frequência calculadas verticalmente para o espaço e mediu a interferência do eco que voltava. Ele provou fisicamente a existência e a altitude da alta camada ionizada da atmosfera, batizada em sua homenagem de Camada de Appleton (Ionosfera).',
+          en: 'Used the powerful transmitters of the BBC in 1924 to emit signals with calculated frequency variations vertically into space and measured the interference from the returning echo. He physically proved the existence and altitude of the upper ionized layer of the atmosphere, named in his honor the Appleton Layer (Ionosphere).',
+        },
+        role: {
+          pt: 'Comprovador físico da ionosfera',
+          en: 'Physical prover of the ionosphere',
+        },
+        contribution: {
+          pt: 'Em 1924, Appleton descobriu o "Servidor DNS" atmosférico, provando que a Terra possuía uma camada refletora intrínseca para roteamento global de wireless.',
+          en: 'In 1924, Appleton discovered the atmospheric "DNS Server", proving that Earth had an intrinsic reflecting layer for global wireless routing.',
+        },
+        detail: {
+          pt: 'Existia a teoria (de Heaviside e Kennelly) de que havia uma camada elétrica no céu que refletia as ondas, impedindo que os dados simplesmente sumissem no vácuo do espaço. Appleton aplicou matemática de tempo e frequência: ele atirou a onda e leu o sinal que chegava pelo chão simultaneamente com o sinal refletido que chegava pelo céu. Usando a diferença de latência (Time of Flight), ele não apenas provou que o espelho atmosférico existia, mas calculou que ele ficava a exatos 96 quilômetros de altura (na camada inferior) e outra mais forte ainda mais alto.\n\nPor que isso entra no Hall da Fama da TI?\n\nEssa descoberta mudou a engenharia de telecomunicações para sempre. Sabendo a altitude exata da ionosfera e sua densidade de elétrons, os engenheiros finalmente podiam "mirar" fisicamente os dados de rádio. Eles começaram a calcular ângulos de refração perfeitos, atirando ondas curtas no céu para que o ping batesse na ionosfera e aterrissasse em cidades específicas do outro lado do oceano, criando rotas contínuas e seguras. Além de render o Nobel de Física a Appleton (em 1947), o exato método de emitir o pulso e calcular o eco ionosférico usado por ele em 1924 é o protótipo lógico absoluto do que, na década de 1930, os militares chamariam de RADAR.',
+          en: 'There was a theory (from Heaviside and Kennelly) that an electrical layer existed in the sky and reflected waves, preventing data from simply disappearing into the vacuum of space. Appleton applied time and frequency mathematics: he fired the wave and read the signal arriving along the ground simultaneously with the reflected signal arriving from the sky. Using the latency difference (Time of Flight), he not only proved that the atmospheric mirror existed, but calculated that it was exactly 96 kilometers high (in the lower layer), with another even stronger layer higher up.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis discovery changed telecommunications engineering forever. Knowing the exact altitude of the ionosphere and its electron density, engineers could finally physically "aim" radio data. They began calculating perfect refraction angles, firing shortwaves into the sky so that the ping would strike the ionosphere and land in specific cities on the other side of the ocean, creating continuous and reliable routes. Besides earning Appleton the Nobel Prize in Physics (in 1947), the exact method he used in 1924 to emit a pulse and calculate the ionospheric echo is the absolute logical prototype of what, in the 1930s, militaries would call RADAR.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1925,
+    era: {
+      pt: 'O "Cérebro" da Tecnologia, o Transistor Teórico e o Nascimento do Vídeo',
+      en: 'Technology’s "Brain", the Theoretical Transistor and the Birth of Video',
+    },
+    context: {
+      pt: 'Em 1925, a tecnologia da informação centraliza seu intelecto, teoriza o hardware de estado sólido que dominará o mundo e finalmente faz a primeira imagem em movimento piscar através de uma rede. Nos Estados Unidos, o monopólio das telecomunicações une seus gênios dispersos e funda o maior e mais letal laboratório de inovação corporativa da história humana. No Canadá, um físico escreve a patente do componente exato que hoje sustenta todos os processadores modernos, antecipando a era do silício em décadas. E em Londres, um inventor escocês obstinado junta caixas de biscoito, lentes de bicicleta e motores velhos para transmitir o primeiro streaming de vídeo (silhuetas em movimento) da história. É o ano da fundação do Bell Labs, da patente do Transistor de Efeito de Campo e do nascimento da Televisão Mecânica.',
+      en: 'In 1925, information technology centralizes its intellect, theorizes the solid-state hardware that will dominate the world and finally makes the first moving image flicker across a network. In the United States, the telecommunications monopoly unites its scattered geniuses and founds the greatest and most formidable corporate innovation laboratory in human history. In Canada, a physicist writes the patent for the exact component that today supports all modern processors, anticipating the silicon era by decades. And in London, an obstinate Scottish inventor combines biscuit boxes, bicycle lenses and old motors to transmit the first video stream (moving silhouettes) in history. It is the year of the founding of Bell Labs, the Field-Effect Transistor patent and the birth of Mechanical Television.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'AT&T e Western Electric (Criação do Bell Telephone Laboratories)',
+        imagePlaceholder: YEAR_1925_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A junção monumental dos departamentos de pesquisa e desenvolvimento da maior operadora de telecomunicações do mundo com a sua principal fabricante de hardware.',
+          en: 'The monumental joining of the research and development departments of the world’s largest telecommunications operator with its main hardware manufacturer.',
+        },
+        summary: {
+          pt: 'Fundaram oficialmente em 1º de janeiro de 1925 o Bell Labs, consolidando todos os engenheiros, físicos e matemáticos da corporação em um único instituto de pesquisa de elite sediado na cidade de Nova York (posteriormente em Nova Jersey).',
+          en: 'Officially founded Bell Labs on January 1, 1925, consolidating all the corporation’s engineers, physicists and mathematicians into a single elite research institute based in New York City (later in New Jersey).',
+        },
+        role: {
+          pt: 'Criadores do Bell Labs',
+          en: 'Creators of Bell Labs',
+        },
+        contribution: {
+          pt: 'Em 1925, a TI ganhou a sua "fábrica de milagres", o laboratório centralizado de onde sairia quase toda a fundação da era digital.',
+          en: 'In 1925, IT gained its "miracle factory", the centralized laboratory from which almost the entire foundation of the digital age would emerge.',
+        },
+        detail: {
+          pt: 'A AT&T percebeu que resolver gargalos de rede através de tentativa e erro não era mais escalável. Eles precisavam de ciência fundamental rigorosa. O presidente da AT&T, Walter Gifford, orquestrou a criação do Bell Labs como uma entidade separada, dando aos pesquisadores financiamento quase infinito e a liberdade de estudar desde a física quântica dos materiais até a matemática pura, com um único objetivo: melhorar o tráfego de informações.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Bell Labs é, sem exagero, o local de nascimento do mundo moderno. A fundação deste laboratório em 1925 é o marco zero da Pesquisa Corporativa em TI. Foi lá dentro que, nas décadas seguintes, seus cientistas inventariam o Transistor, o Laser, a Célula Solar, a Fibra Óptica, o sistema operacional UNIX, as linguagens de programação C e C++, e a Teoria da Informação de Claude Shannon. Se a tecnologia da informação tem um "Vaticano" histórico, ele foi inaugurado no primeiro dia de 1925.',
+          en: 'AT&T realized that solving network bottlenecks through trial and error was no longer scalable. They needed rigorous fundamental science. AT&T president Walter Gifford orchestrated the creation of Bell Labs as a separate entity, giving researchers nearly infinite funding and the freedom to study everything from the quantum physics of materials to pure mathematics, with one objective: improving information traffic.\n\nWhy does this belong in the IT Hall of Fame?\n\nBell Labs is, without exaggeration, the birthplace of the modern world. The founding of this laboratory in 1925 is the zero point of Corporate Research in IT. Inside it, in the following decades, its scientists would invent the Transistor, the Laser, the Solar Cell, Fiber Optics, the UNIX operating system, the C and C++ programming languages, and Claude Shannon’s Information Theory. If information technology has a historical "Vatican", it was inaugurated on the first day of 1925.',
+        },
+      },
+      {
+        name: 'Julius Edgar Lilienfeld',
+        imagePlaceholder: YEAR_1925_PLACEHOLDER,
+        flag: '🇦🇹 🇺🇸',
+        nationality: { pt: 'Austro-Húngaro / Americano', en: 'Austro-Hungarian / American' },
+        formation: {
+          pt: 'Físico excepcional e professor na Universidade de Leipzig antes de emigrar. Um homem cujo cérebro estava operando pelo menos 30 anos no futuro, focado no controle de correntes elétricas através de materiais cristalinos em vez de tubos de vidro a vácuo.',
+          en: 'Exceptional physicist and professor at the University of Leipzig before emigrating. A man whose mind was operating at least 30 years in the future, focused on controlling electrical currents through crystalline materials instead of glass vacuum tubes.',
+        },
+        summary: {
+          pt: 'Submeteu em outubro de 1925, no Canadá, a patente do primeiro Transistor de Efeito de Campo (FET - Field-Effect Transistor), propondo o uso de sulfeto de cobre para criar uma chave amplificadora de estado sólido.',
+          en: 'Submitted in October 1925, in Canada, the patent for the first Field-Effect Transistor (FET), proposing the use of copper sulfide to create a solid-state amplifying switch.',
+        },
+        role: {
+          pt: 'Autor da patente teórica do transistor de efeito de campo',
+          en: 'Author of the theoretical field-effect transistor patent',
+        },
+        contribution: {
+          pt: 'Em 1925, Lilienfeld escreveu o "código-fonte" da computação de silício, patenteando a física da CPU moderna muito antes do hardware conseguir acompanhá-lo.',
+          en: 'In 1925, Lilienfeld wrote the "source code" of silicon computing, patenting the physics of the modern CPU long before hardware could catch up with him.',
+        },
+        detail: {
+          pt: 'As válvulas de vácuo dominavam tudo, mas eram quentes, frágeis e consumiam muita energia. Lilienfeld teorizou um hardware silencioso, frio e minúsculo: se você aplicasse uma pequena voltagem a uma placa metálica isolada em cima de um material semicondutor especial, esse campo elétrico invisível agiria como uma porta, abrindo caminho para uma corrente muito maior passar por baixo. Sem elétrons voando no vácuo, sem filamentos derretendo. Era o controle de dados perfeito.\n\nPor que isso entra no Hall da Fama da TI?\n\nEmbora Lilienfeld não tenha conseguido construir um protótipo funcional em 1925 (porque a indústria química da época não conseguia purificar os cristais semicondutores no nível atômico exigido), ele havia acabado de descrever o MOSFET (Transistor de Efeito de Campo Metal-Óxido-Semicondutor). Hoje, o MOSFET é o dispositivo mais fabricado em toda a história da humanidade. Os bilhões de minúsculos interruptores que ligam e desligam dentro do processador do seu celular e do seu computador operam exatamente sob a premissa de manipulação de campo elétrico patenteada por este físico em 1925.',
+          en: 'Vacuum valves dominated everything, but they were hot, fragile and consumed a great deal of energy. Lilienfeld theorized silent, cold and tiny hardware: if you applied a small voltage to an insulated metal plate above a special semiconductor material, that invisible electric field would act as a gate, opening a path for a much larger current to pass underneath. No electrons flying through a vacuum, no filaments melting. It was perfect data control.\n\nWhy does this belong in the IT Hall of Fame?\n\nAlthough Lilienfeld could not build a functional prototype in 1925 (because the chemical industry of the time could not purify semiconductor crystals at the required atomic level), he had just described the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor). Today, the MOSFET is the most manufactured device in all of human history. The billions of tiny switches that turn on and off inside your phone’s and computer’s processor operate exactly under the premise of electric-field manipulation patented by this physicist in 1925.',
+        },
+      },
+      {
+        name: 'John Logie Baird',
+        imagePlaceholder: YEAR_1925_PLACEHOLDER,
+        flag: '🏴',
+        nationality: { pt: 'Britânico (Escocês)', en: 'British (Scottish)' },
+        formation: {
+          pt: 'Engenheiro teimoso, excêntrico e sem grande financiamento corporativo, operando fora dos grandes laboratórios e usando materiais incrivelmente rústicos, porém genial em sua montagem mecânica.',
+          en: 'Stubborn, eccentric engineer with no major corporate funding, operating outside the great laboratories and using incredibly crude materials, yet brilliant in his mechanical assembly.',
+        },
+        summary: {
+          pt: 'Realizou no final de 1925 as primeiras demonstrações bem-sucedidas de televisão mecânica, escaneando e transmitindo publicamente imagens em movimento em tons de cinza (silhuetas iniciais e depois o rosto de um manequim de ventríloquo chamado "Stooky Bill") usando discos rotativos.',
+          en: 'In late 1925, carried out the first successful demonstrations of mechanical television, publicly scanning and transmitting moving grayscale images (initial silhouettes and then the face of a ventriloquist dummy called "Stooky Bill") using rotating discs.',
+        },
+        role: {
+          pt: 'Pioneiro da televisão mecânica',
+          en: 'Pioneer of mechanical television',
+        },
+        contribution: {
+          pt: 'Em 1925, o "Streaming de Vídeo" provou ser mecanicamente possível, forçando a compressão e reconstrução de pacotes visuais em tempo real.',
+          en: 'In 1925, "Video Streaming" proved mechanically possible, forcing the compression and reconstruction of visual packets in real time.',
+        },
+        detail: {
+          pt: 'Enquanto Zworykin (1923) estava tentando fazer isso eletronicamente nos laboratórios americanos (e enfrentando problemas de sinal fraco), Baird foi pela força bruta da velha engenharia de Paul Nipkow. Ele perfurou buracos em espiral num disco de papelão. Ao girar o disco violentamente na frente de uma luz, cada buraco varria uma linha da imagem, convertendo a luz em eletricidade. No lado do receptor, outro disco girava perfeitamente sincronizado, e uma lâmpada acendia e apagava reconstruindo o rosto fatiado pela máquina do outro lado da sala.\n\nPor que isso entra no Hall da Fama da TI?\n\nBaird entregou a prova de conceito. Embora a TV mecânica de discos fosse um beco sem saída evolutivo (sendo depois substituída pelos tubos eletrônicos), as demonstrações de Baird em 1925 provaram ao público geral, à imprensa e aos investidores que a transmissão ao vivo de imagens em movimento era uma realidade comercial iminente, não apenas ficção científica. Ele criou o mercado de exibição de mídia visual contínua, forçando as grandes empresas a entrarem na corrida tecnológica para construir o hardware que em breve encheria as salas de estar do planeta.',
+          en: 'While Zworykin (1923) was trying to do this electronically in American laboratories (and facing weak-signal problems), Baird went through the brute force of Paul Nipkow’s old engineering. He punched spiral holes into a cardboard disc. By spinning the disc violently in front of a light, each hole swept one line of the image, converting light into electricity. On the receiver side, another disc rotated in perfect synchronization, and a lamp turned on and off, reconstructing the face sliced by the machine on the other side of the room.\n\nWhy does this belong in the IT Hall of Fame?\n\nBaird delivered the proof of concept. Although mechanical disc television was an evolutionary dead end (later replaced by electronic tubes), Baird’s demonstrations in 1925 proved to the general public, the press and investors that live transmission of moving images was an imminent commercial reality, not just science fiction. He created the market for continuous visual-media display, forcing major companies to enter the technological race to build the hardware that would soon fill living rooms around the planet.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1926,
+    era: {
+      pt: 'A Geometria do Wi-Fi, a Escala da CDN Corporativa e a WAN Full-Duplex',
+      en: 'Wi-Fi Geometry, Corporate CDN Scale and the Full-Duplex WAN',
+    },
+    context: {
+      pt: 'Em 1926, a tecnologia da informação foca na direção, na escala e na bidirecionalidade de seus backbones de dados. No Japão, dois pesquisadores criam a geometria física definitiva para apontar e atirar ondas de rádio em uma única direção, inventando a antena que dominaria os telhados e torres do mundo todo. Nos Estados Unidos, o conceito de topologia de rede é levado ao nível corporativo definitivo com a fundação da primeira grande "Network" de mídia do planeta, centralizando a distribuição de dados de costa a costa. E sobre o Oceano Atlântico, os engenheiros finalmente resolvem o "handshake" analógico simultâneo, testando com sucesso a primeira infraestrutura de voz sem fio que permitia a duas pessoas conversarem em tempo real entre a Europa e a América sem colisão de pacotes. É o ano da Antena Yagi-Uda, da fundação da NBC e do link telefônico transatlântico contínuo.',
+      en: 'In 1926, information technology focuses on direction, scale and bidirectionality in its data backbones. In Japan, two researchers create the definitive physical geometry for aiming and firing radio waves in a single direction, inventing the antenna that would dominate rooftops and towers around the world. In the United States, the concept of network topology is taken to its definitive corporate level with the founding of the first major media "Network" on the planet, centralizing data distribution from coast to coast. And over the Atlantic Ocean, engineers finally solve the simultaneous analog "handshake", successfully testing the first wireless voice infrastructure that allowed two people to talk in real time between Europe and America without packet collision. It is the year of the Yagi-Uda Antenna, the founding of NBC and the continuous transatlantic telephone link.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Shintaro Uda e Hidetsugu Yagi',
+        imagePlaceholder: YEAR_1926_PLACEHOLDER,
+        flag: '🇯🇵',
+        nationality: { pt: 'Japoneses', en: 'Japanese' },
+        formation: {
+          pt: 'Engenheiros elétricos excepcionais na Universidade Imperial de Tohoku. Uda era o gênio prático e experimental que desenhava e testava as hastes, enquanto Yagi era o professor visionário que percebeu a aplicação tática da descoberta e escreveu o artigo em inglês que apresentou a invenção ao ocidente.',
+          en: 'Exceptional electrical engineers at Tohoku Imperial University. Uda was the practical and experimental genius who designed and tested the rods, while Yagi was the visionary professor who perceived the tactical application of the discovery and wrote the English-language paper that introduced the invention to the West.',
+        },
+        summary: {
+          pt: 'Inventaram e publicaram em 1926 a antena direcional "Yagi-Uda", um equipamento de hardware passivo incrivelmente simples que usava uma haste ativa cercada por hastes de metal isoladas (refletores e diretores) para focar ondas eletromagnéticas de alta frequência em um único "feixe" estreito.',
+          en: 'Invented and published in 1926 the directional "Yagi-Uda" antenna, an incredibly simple passive hardware device that used one active rod surrounded by isolated metal rods (reflectors and directors) to focus high-frequency electromagnetic waves into a single narrow "beam".',
+        },
+        role: {
+          pt: 'Inventores da antena direcional Yagi-Uda',
+          en: 'Inventors of the Yagi-Uda directional antenna',
+        },
+        contribution: {
+          pt: 'Em 1926, a TI inventou a "Lente Óptica" para dados invisíveis, permitindo atirar pacotes de rádio como um raio laser em vez de espalhá-los no escuro.',
+          en: 'In 1926, IT invented the "Optical Lens" for invisible data, allowing radio packets to be fired like a laser beam instead of scattered into the dark.',
+        },
+        detail: {
+          pt: 'Até 1926, as antenas eram essencialmente omnidirecionais: atiravam sinal de dados para todas as direções de forma circular, o que exigia muita potência e desperdiçava energia em rotas vazias. Uda percebeu que, posicionando pedaços de arame soltos em distâncias matematicamente precisas ao redor da antena transmissora, a onda de rádio ricocheteava nesses arames. Em vez de causar interferência, essas ondas batiam umas nas outras criando uma "interferência construtiva" perfeita para a frente, e cancelando o sinal que ia para trás. Eles criaram o ganho direcional sem usar nenhuma peça móvel ou válvula.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Yagi-Uda é, indiscutivelmente, a arquitetura de antena mais onipresente do século XX. Toda a televisão analógica do planeta contou com essas "antenas espinha de peixe" nos telhados para sintonizar os dados de vídeo e focar exatamente na torre da emissora. Mais importante para a atualidade: se você olhar dentro de radares avançados ou das gigantescas antenas de grade usadas para atirar links de Wi-Fi de longa distância e rotas de micro-ondas entre os prédios de um provedor de Internet hoje, você encontrará a exata geometria espacial testada por esses dois engenheiros japoneses em 1926.',
+          en: 'Until 1926, antennas were essentially omnidirectional: they fired data signals in every direction in a circle, requiring a lot of power and wasting energy on empty routes. Uda realized that by positioning loose pieces of wire at mathematically precise distances around the transmitting antenna, the radio wave bounced off those wires. Instead of causing interference, those waves struck one another and created perfect forward "constructive interference", while canceling the signal going backward. They created directional gain without using any moving part or valve.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Yagi-Uda is, indisputably, the most ubiquitous antenna architecture of the twentieth century. All analog television on the planet relied on these rooftop "fishbone antennas" to tune video data and focus exactly on the broadcaster’s tower. More important today: if you look inside advanced radars or the giant grid antennas used to fire long-distance Wi-Fi links and microwave routes between buildings for an internet provider, you will find the exact spatial geometry tested by these two Japanese engineers in 1926.',
+        },
+      },
+      {
+        name: 'David Sarnoff & RCA (Radio Corporation of America)',
+        imagePlaceholder: YEAR_1926_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Sarnoff era um líder corporativo implacável (que havia começado a carreira como operador de telégrafo da Marconi). Ele tinha o capital e o monopólio de patentes da RCA nas mãos para unificar infraestruturas fragmentadas em um único ecossistema nacional.',
+          en: 'Sarnoff was a relentless corporate leader (who had begun his career as a Marconi telegraph operator). He had RCA’s capital and patent monopoly in his hands to unify fragmented infrastructures into a single national ecosystem.',
+        },
+        summary: {
+          pt: 'Fundou em 9 de setembro de 1926 a NBC (National Broadcasting Company), criando a primeira grande rede permanente (Network) de radiodifusão em escala continental, interconectando dezenas de estações locais através de cabos telefônicos alugados.',
+          en: 'Founded NBC (National Broadcasting Company) on September 9, 1926, creating the first major permanent broadcasting network at continental scale, interconnecting dozens of local stations through leased telephone cables.',
+        },
+        role: {
+          pt: 'Fundadores da primeira grande network de mídia',
+          en: 'Founders of the first major media network',
+        },
+        contribution: {
+          pt: 'Em 1926, a topologia de Content Delivery Network (CDN) atingiu escala de produção em massa, estabelecendo o paradigma de um "Nó Mestre" alimentando milhares de servidores locais.',
+          en: 'In 1926, Content Delivery Network (CDN) topology reached mass-production scale, establishing the paradigm of a "Master Node" feeding thousands of local servers.',
+        },
+        detail: {
+          pt: 'Vimos que a AT&T testou o Chain Broadcasting em 1923 conectando apenas duas cidades. A RCA e a NBC transformaram isso na regra de negócios da infraestrutura global. O custo para produzir programação rica de áudio em cada cidade isolada era impossível de sustentar. A NBC criou uma rede corporativa onde o dado era gerado em um único mainframe de alta qualidade (os estúdios de Nova York) e empurrado através de uma rede cabeada física para ser distribuído pelos Edge Nodes (as antenas afiliadas em cada estado norte-americano).\n\nPor que isso entra no Hall da Fama da TI?\n\nA fundação da NBC cristalizou o conceito da "Rede" (Network) como uma entidade provedora de acesso unificada. Ao unificar a produção de mídia em núcleos centrais e roteá-los sincronizadamente por milissegundos para dezenas de transmissores simultâneos, Sarnoff pavimentou o modelo lógico exato que a Internet seguiria para a distribuição de dados pesados de streaming: processamento central executado na nuvem e empurrado via rotas de Backbone para data centers de borda, garantindo que usuários na Califórnia e em Nova York fizessem o download do exato mesmo pacote de entretenimento em tempo real.',
+          en: 'We saw AT&T test Chain Broadcasting in 1923 by connecting only two cities. RCA and NBC turned it into the business rule of global infrastructure. The cost of producing rich audio programming in each isolated city was impossible to sustain. NBC created a corporate network where data was generated in one high-quality mainframe (the New York studios) and pushed through a physical wired network to be distributed by Edge Nodes (affiliate antennas in each U.S. state).\n\nWhy does this belong in the IT Hall of Fame?\n\nThe founding of NBC crystallized the concept of the "Network" as a unified access-provider entity. By unifying media production in central cores and routing it synchronously within milliseconds to dozens of simultaneous transmitters, Sarnoff paved the exact logical model the Internet would follow for distributing heavy streaming data: central processing executed in the cloud and pushed through Backbone routes to edge data centers, ensuring that users in California and New York downloaded the exact same entertainment packet in real time.',
+        },
+      },
+      {
+        name: 'Engenheiros da AT&T e do General Post Office (GPO Britânico)',
+        imagePlaceholder: YEAR_1926_PLACEHOLDER,
+        flag: '🇺🇸 🇬🇧',
+        nationality: { pt: 'Americanos / Britânicos', en: 'Americans / British' },
+        formation: {
+          pt: 'Os arquitetos seniores das redes das duas maiores potências econômicas do mundo, encarregados de fazer infraestruturas de telecomunicação concorrentes (Europa e América) falarem o mesmo idioma analógico sobre águas instáveis.',
+          en: 'The senior network architects of the world’s two largest economic powers, tasked with making competing telecommunications infrastructures (Europe and America) speak the same analog language over unstable waters.',
+        },
+        summary: {
+          pt: 'Concluíram e realizaram, em março de 1926, os testes bem-sucedidos do primeiro circuito telefônico bidirecional por rádio sobre o Atlântico (operando a partir de Long Island e Londres). Esse teste homologou a infraestrutura pesada para o serviço comercial público que se iniciaria em janeiro de 1927.',
+          en: 'In March 1926, completed and carried out the successful tests of the first bidirectional radio telephone circuit across the Atlantic (operating from Long Island and London). This test certified the heavy infrastructure for the public commercial service that would begin in January 1927.',
+        },
+        role: {
+          pt: 'Arquitetos do link telefônico transatlântico bidirecional',
+          en: 'Architects of the bidirectional transatlantic telephone link',
+        },
+        contribution: {
+          pt: 'Em 1926, a rede sem fio intercontinental tornou-se estritamente Full-Duplex, resolvendo o problema lógico de colisões de dados em conexões abertas de longa latência.',
+          en: 'In 1926, the intercontinental wireless network became strictly Full-Duplex, solving the logical problem of data collisions in open high-latency connections.',
+        },
+        detail: {
+          pt: 'Em 1915, a voz havia cruzado o Atlântico em uma direção. O inferno lógico começou ao tentar fazer a voz voltar. Em uma ligação normal, se você mandar som enquanto o outro fala, o microfone pega a voz da caixa de som e retransmite de volta, criando um ciclo infinito de uivos (microfonia), amplificado pelas potentes válvulas da rede sem fio transoceânica. A equipe de 1926 resolveu isso criando a primeira implementação massiva de um hardware de cancelamento e comutação ativada por voz (Voice-operated Switch - VODAS). Se a pessoa nos EUA falava, a máquina automaticamente abria a rota de envio e fechava a de recepção em frações de segundo, permitindo conversas de mão dupla naturais.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a estabilização desse protocolo analógico em 1926, as chamadas de longa distância internacionais ficariam para sempre presas no primitivo modo mecânico do "câmbio, desligo" (Half-Duplex), usado por militares. Os testes de 1926 estabeleceram o padrão de arquitetura de comunicação contínua e sem eco para as massas. Este foi o primeiro verdadeiro "Tronco" (Trunk) de rede em tempo real unindo os dois hemisférios, sustentando todo o fluxo de negócios financeiros e comunicação entre a Bolsa de Nova York e o centro financeiro de Londres três décadas antes da inauguração do primeiro cabo telefônico submarino transatlântico na década de 1950.',
+          en: 'In 1915, voice had crossed the Atlantic in one direction. The logical nightmare began when engineers tried to make voice return. In a normal call, if you send sound while the other person speaks, the microphone picks up the loudspeaker voice and retransmits it back, creating an infinite loop of howling feedback, amplified by the powerful valves of the transoceanic wireless network. The 1926 team solved this by creating the first massive implementation of cancellation hardware and voice-operated switching (Voice-operated Switch - VODAS). If the person in the United States spoke, the machine automatically opened the sending route and closed the receiving route in fractions of a second, allowing natural two-way conversations.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout the stabilization of this analog protocol in 1926, international long-distance calls would have remained forever trapped in the primitive mechanical "over and out" (Half-Duplex) mode used by militaries. The 1926 tests established the architectural standard of continuous, echo-free communication for the masses. This was the first true real-time network "Trunk" linking the two hemispheres, sustaining the flow of financial business and communication between the New York Stock Exchange and London’s financial center three decades before the first transatlantic submarine telephone cable opened in the 1950s.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1927,
+    era: {
+      pt: 'A Primeira Tela de Estado Sólido, o Algoritmo Físico de Correção de Erros e o Relógio de Precisão Absoluta',
+      en: 'The First Solid-State Screen, the Physical Error-Correction Algorithm and the Clock of Absolute Precision',
+    },
+    context: {
+      pt: 'Em 1927, a tecnologia da informação quebra os últimos grilhões da mecânica e resolve falhas críticas na integridade dos dados de longa distância. Nos laboratórios americanos, um jovem inventor de 21 anos cria o primeiro protótipo funcional de uma câmera de vídeo puramente eletrônica, aposentando para sempre os discos giratórios pesados e abrindo caminho para o monitor moderno. A caminho do trabalho em uma balsa de Nova York, um engenheiro tem um momento de epifania e desenha em um jornal a arquitetura do "cancelamento de ruído", criando o circuito lógico que permitiu que os dados viajassem por milhares de quilômetros sem se corromper. E nos porões do Bell Labs, o cristal de quartzo é finalmente acoplado a um mecanismo de tempo, entregando à rede o "clock" de precisão que manteria os servidores e clientes perfeitamente sincronizados no futuro. É o ano do Tubo Dissecador de Imagens, do Amplificador de Feedback Negativo e do Relógio de Quartzo.',
+      en: 'In 1927, information technology breaks the last shackles of mechanics and solves critical failures in long-distance data integrity. In American laboratories, a 21-year-old inventor creates the first functional prototype of a purely electronic video camera, retiring heavy rotating discs forever and opening the way for the modern monitor. On his way to work on a New York ferry, an engineer has a moment of epiphany and draws the architecture of "noise cancellation" on a newspaper, creating the logical circuit that allowed data to travel thousands of kilometers without corruption. And in the basements of Bell Labs, the quartz crystal is finally coupled to a timekeeping mechanism, giving the network the precision "clock" that would keep servers and clients perfectly synchronized in the future. It is the year of the Image Dissector Tube, the Negative Feedback Amplifier and the Quartz Clock.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Philo Farnsworth',
+        imagePlaceholder: YEAR_1927_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Um jovem prodígio agrícola e autodidata em eletrônica. Ele teve a ideia para a arquitetura do vídeo eletrônico aos 14 anos, enquanto arava o campo de batatas de sua família e observava como a terra era cortada em linhas paralelas.',
+          en: 'A young agricultural prodigy and self-taught electronics inventor. He had the idea for electronic-video architecture at age 14 while plowing his family’s potato field and observing how the soil was cut into parallel lines.',
+        },
+        summary: {
+          pt: 'Transmitiu em 7 de setembro de 1927 a primeira imagem de televisão totalmente eletrônica da história (uma simples linha reta pintada em um pedaço de vidro, e mais tarde o símbolo do dólar) usando seu "Tubo Dissecador de Imagens" (Image Dissector), sem utilizar nenhuma peça mecânica móvel.',
+          en: 'On September 7, 1927, transmitted the first fully electronic television image in history (a simple straight line painted on a piece of glass, and later the dollar sign) using his "Image Dissector" tube, without using any moving mechanical part.',
+        },
+        role: {
+          pt: 'Pioneiro da televisão totalmente eletrônica',
+          en: 'Pioneer of fully electronic television',
+        },
+        contribution: {
+          pt: 'Em 1927, Farnsworth executou o Deploy Prático da Interface Visual 100% Eletrônica, provando que elétrons podiam fatiar e renderizar mídia visual instantaneamente.',
+          en: 'In 1927, Farnsworth executed the practical deployment of the 100% Electronic Visual Interface, proving that electrons could slice and render visual media instantly.',
+        },
+        detail: {
+          pt: 'Zworykin havia patenteado o conceito em 1923, mas não conseguiu fazê-lo funcionar de forma prática com as resoluções necessárias na época. Farnsworth construiu o hardware do zero no laboratório. Seu Tubo Dissecador pegava a luz da imagem, transformava em um "mapa" de elétrons no vácuo e usava forças eletromagnéticas para mover esse mapa inteiro na frente de um pequeno buraco leitor (o ânodo). A máquina "lia" a imagem linha por linha quase à velocidade da luz, codificando os dados visuais em corrente elétrica com uma pureza que os discos mecânicos de Baird (1925) jamais sonhariam em alcançar.\n\nPor que isso entra no Hall da Fama da TI?\n\nA demonstração de Farnsworth de 1927 é o nascimento de facto das telas (monitores e televisores) que dominaram as salas de estar e as mesas de computador até a chegada do LCD/LED. Ele estabeleceu o protocolo de "varredura eletrônica" (o ato de desenhar a imagem na tela linha por linha usando feixes magnéticos de elétrons). Toda interface visual moderna de computação e todo o hardware de captura de dados de imagem começou a escalar para resoluções de alta definição a partir do momento em que este jovem provou na bancada que os motores rotativos eram obsoletos para o broadcasting de vídeo.',
+          en: 'Zworykin had patented the concept in 1923, but could not make it work practically at the resolutions needed at the time. Farnsworth built the hardware from scratch in the laboratory. His Image Dissector took the light from the image, transformed it into a "map" of electrons in a vacuum and used electromagnetic forces to move that entire map in front of a small reading hole (the anode). The machine "read" the image line by line almost at the speed of light, encoding visual data into electrical current with a purity that Baird’s mechanical discs (1925) could never have dreamed of achieving.\n\nWhy does this belong in the IT Hall of Fame?\n\nFarnsworth’s 1927 demonstration is the de facto birth of the screens (monitors and televisions) that dominated living rooms and computer desks until the arrival of LCD/LED. He established the protocol of "electronic scanning" (the act of drawing an image on the screen line by line using magnetic electron beams). Every modern visual computing interface and every piece of image-data capture hardware began to scale toward high-definition resolutions from the moment this young man proved on the bench that rotating motors were obsolete for video broadcasting.',
+        },
+      },
+      {
+        name: 'Harold Stephen Black',
+        imagePlaceholder: YEAR_1927_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro brilhante do Bell Labs. Sua missão corporativa era resolver o "Bug" mais assustador da infraestrutura telefônica: a degeneração de dados.',
+          en: 'Brilliant Bell Labs engineer. His corporate mission was to solve the most frightening "bug" in telephone infrastructure: data degeneration.',
+        },
+        summary: {
+          pt: 'Inventou em 2 de agosto de 1927 (desenhando o diagrama esquemático em uma página do New York Times enquanto atravessava o Rio Hudson) o Amplificador de Feedback Negativo (Negative Feedback Amplifier).',
+          en: 'Invented on August 2, 1927 (drawing the schematic diagram on a page of The New York Times while crossing the Hudson River) the Negative Feedback Amplifier.',
+        },
+        role: {
+          pt: 'Inventor do amplificador de feedback negativo',
+          en: 'Inventor of the negative feedback amplifier',
+        },
+        contribution: {
+          pt: 'Em 1927, Black inventou o Hardware de Correção de Integridade, resolvendo o problema lógico de que "amplificar o dado também amplifica a sujeira".',
+          en: 'In 1927, Black invented Integrity-Correction Hardware, solving the logical problem that "amplifying the data also amplifies the dirt".',
+        },
+        detail: {
+          pt: 'Para enviar dados telefônicos através do país, a AT&T usava centenas de amplificadores de tubo de vácuo seguidos em um cabo. O problema: nenhum tubo era perfeito. Cada tubo inseria uma minúscula distorção (ruído) no sinal. O segundo tubo amplificava o sinal e o ruído do primeiro tubo, adicionando seu próprio ruído. Após mil quilômetros, a voz virava lixo eletrônico ininteligível. Black teve um estalo genial de lógica reversa: ele pegou uma amostra do sinal sujo da saída, inverteu sua polaridade matematicamente e o injetou de volta na entrada (Negative Feedback). A mágica da física fez com que o ruído invertido cancelasse o ruído original gerado pela máquina. O sinal saía infinitamente puro.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Negative Feedback Amplifier é considerado uma das invenções arquitetônicas mais críticas de todo o século XX. Sem esse circuito lógico, a Internet global moderna, a fibra óptica, a transmissão de dados de broadcasting e a telefonia de altíssima distância simplesmente não poderiam existir, pois os pacotes de dados seriam devorados pela corrupção física do caminho. O diagrama que Harold Black desenhou no jornal tornou-se o princípio fundamental de design de quase todos os circuitos eletrônicos lineares e robóticos construídos desde então.',
+          en: 'To send telephone data across the country, AT&T used hundreds of vacuum-tube amplifiers in sequence along a cable. The problem: no tube was perfect. Each tube inserted a tiny distortion (noise) into the signal. The second tube amplified both the signal and the noise from the first tube, adding its own noise. After a thousand kilometers, the voice became unintelligible electronic junk. Black had a brilliant flash of reverse logic: he took a sample of the dirty output signal, mathematically inverted its polarity and injected it back into the input (Negative Feedback). The physics worked like magic: the inverted noise canceled the original noise generated by the machine. The signal came out infinitely pure.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Negative Feedback Amplifier is considered one of the most critical architectural inventions of the entire twentieth century. Without this logical circuit, the modern global internet, fiber optics, broadcasting data transmission and ultra-long-distance telephony simply could not exist, because data packets would be eaten by physical corruption along the path. The diagram Harold Black drew on the newspaper became the fundamental design principle of almost every linear and robotic electronic circuit built since then.',
+        },
+      },
+      {
+        name: 'Warren Marrison e J.W. Horton',
+        imagePlaceholder: YEAR_1927_PLACEHOLDER,
+        flag: '🇨🇦 🇺🇸',
+        nationality: { pt: 'Canadense / Americano', en: 'Canadian / American' },
+        formation: {
+          pt: 'Engenheiros de telecomunicações do Bell Labs. Eles precisavam de um padrão de frequência absurdamente preciso para manter as redes de telefone transcontinentais (e as emissoras de rádio da RCA) perfeitamente alinhadas, evitando que os canais de dados colidissem.',
+          en: 'Bell Labs telecommunications engineers. They needed an absurdly precise frequency standard to keep transcontinental telephone networks (and RCA radio stations) perfectly aligned, preventing data channels from colliding.',
+        },
+        summary: {
+          pt: 'Construíram e testaram o primeiro Relógio de Quartzo do mundo, acoplando as vibrações elétricas constantes e microscópicas de um cristal de quartzo (descoberto por Cady em 1921) a um circuito contador que girava um motor síncrono.',
+          en: 'Built and tested the world’s first Quartz Clock, coupling the constant microscopic electrical vibrations of a quartz crystal (discovered by Cady in 1921) to a counter circuit that drove a synchronous motor.',
+        },
+        role: {
+          pt: 'Construtores do primeiro relógio de quartzo',
+          en: 'Builders of the first quartz clock',
+        },
+        contribution: {
+          pt: 'Em 1927, Marrison inventou a ferramenta de sincronização definitiva, criando o Clock mestre que manteria as redes de dados unificadas.',
+          en: 'In 1927, Marrison invented the definitive synchronization tool, creating the master Clock that would keep data networks unified.',
+        },
+        detail: {
+          pt: 'Até 1927, o tempo era medido por pêndulos gigantes (que eram afetados pela gravidade e tremores de terra) ou motores mecânicos imprecisos. Para rotear múltiplos pacotes de dados no mesmo fio ou sincronizar canais de televisão sem que a imagem "rolasse" na tela, transmissor e receptor precisavam operar exatamente no mesmo milissegundo. Marrison isolou o cristal de quartzo em uma câmara de temperatura controlada e usou o zumbido inalterável dele para marcar o ritmo. Eles criaram uma máquina de cronometragem cem vezes mais precisa do que o melhor relógio mecânico da época.\n\nPor que isso entra no Hall da Fama da TI?\n\nA medição de tempo ultraprecisa é a âncora de toda a computação digital e arquitetura de redes. Toda comunicação de dados moderna requer sincronização impecável. Quando o Bell Labs introduziu o Relógio de Quartzo, eles entregaram a tecnologia que padronizaria o fatiamento de tempo (Time-Division Multiplexing) em cabos intercontinentais. A arquitetura física desenvolvida por Marrison em 1927 foi miniaturizada e é a exata mesma lógica que roda no pequeno oscilador de cristal dentro da placa-mãe do seu PC hoje, garantindo que bilhões de operações do seu processador não percam o ritmo por um nanossegundo sequer.',
+          en: 'Until 1927, time was measured by giant pendulums (affected by gravity and earthquakes) or imprecise mechanical motors. To route multiple data packets over the same wire, or synchronize television channels without the image "rolling" on the screen, transmitter and receiver needed to operate in exactly the same millisecond. Marrison isolated the quartz crystal in a temperature-controlled chamber and used its unchanging hum to mark the rhythm. They created a timekeeping machine one hundred times more precise than the best mechanical clock of the era.\n\nWhy does this belong in the IT Hall of Fame?\n\nUltra-precise time measurement is the anchor of all digital computing and network architecture. All modern data communication requires impeccable synchronization. When Bell Labs introduced the Quartz Clock, they delivered the technology that would standardize time slicing (Time-Division Multiplexing) in intercontinental cables. The physical architecture developed by Marrison in 1927 was miniaturized and is the exact same logic running in the small crystal oscillator inside your PC motherboard today, ensuring that billions of operations in your processor never lose rhythm by even a nanosecond.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1928,
+    era: {
+      pt: 'A Memória Magnética, a Padronização do Input e a Lei de Conversão Digital',
+      en: 'Magnetic Memory, Input Standardization and the Law of Digital Conversion',
+    },
+    context: {
+      pt: 'Em 1928, a tecnologia da informação (TI) inventa o meio definitivo de armazenamento em massa, padroniza seu formato de entrada de dados e escreve a lei matemática irrevogável que governará toda a conversão do mundo analógico para o digital. Na Alemanha, um inventor descobre como colar pó de metal em uma fita de papel, criando a primeira mídia de armazenamento magnético não volátil e de alta densidade da história. Nos Estados Unidos, a IBM introduz um novo cartão de papel com exatos 80 espaços de dados, criando o formato de "Input" de código que ditaria o padrão de telas de computador pelas próximas décadas. E nos saguões do Bell Labs, um matemático publica a equação que define exatamente qual é a velocidade mínima necessária para "fatiar" uma onda analógica para que ela possa ser reconstruída de forma digital perfeita, fundando a base matemática do MP3, do CD e da amostragem de dados. É o ano da Fita Magnética, do Cartão de 80 Colunas e do Teorema de Nyquist.',
+      en: 'In 1928, information technology (IT) invents the definitive medium for mass storage, standardizes its data-input format and writes the irrevocable mathematical law that will govern all conversion from the analog world to the digital one. In Germany, an inventor discovers how to bind metal powder to a strip of paper, creating the first non-volatile, high-density magnetic storage medium in history. In the United States, IBM introduces a new paper card with exactly 80 data spaces, creating the code "Input" format that would dictate the standard for computer screens over the following decades. And in the halls of Bell Labs, a mathematician publishes the equation that defines exactly the minimum speed needed to "slice" an analog wave so it can be reconstructed in perfect digital form, founding the mathematical basis of MP3, CDs and data sampling. It is the year of Magnetic Tape, the 80-Column Card and the Nyquist Theorem.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Fritz Pfleumer',
+        imagePlaceholder: YEAR_1928_PLACEHOLDER,
+        flag: '🇩🇪 🇦🇹',
+        nationality: { pt: 'Alemão / Austríaco', en: 'German / Austrian' },
+        formation: {
+          pt: 'Engenheiro e inventor criativo. Pfleumer tinha um profundo conhecimento de materiais, tendo desenvolvido anteriormente métodos para colocar anéis de bronze em cigarros para evitar que os fumantes sujassem os lábios.',
+          en: 'Creative engineer and inventor. Pfleumer had deep knowledge of materials, having previously developed methods for placing bronze rings on cigarettes to prevent smokers from staining their lips.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1928 a primeira Fita Magnética funcional para gravação de áudio. Ele substituiu os pesados e caros fios de aço maciços (usados nos rústicos gravadores de fio da época) por tiras de papel revestidas com um pó magnetizável de óxido de ferro.',
+          en: 'Invented and patented in 1928 the first functional Magnetic Tape for audio recording. He replaced the heavy and expensive solid steel wires used in the crude wire recorders of the era with strips of paper coated in magnetizable iron-oxide powder.',
+        },
+        role: {
+          pt: 'Inventor da fita magnética',
+          en: 'Inventor of magnetic tape',
+        },
+        contribution: {
+          pt: 'Em 1928, a TI inventou a "Memória Magnética Não Volátil", criando um meio de armazenamento físico barato, leve e capaz de reter dados indefinidamente sem energia.',
+          en: 'In 1928, IT invented "Non-Volatile Magnetic Memory", creating a cheap, light physical storage medium capable of retaining data indefinitely without power.',
+        },
+        detail: {
+          pt: 'Gravar dados usando magnetismo já existia em formato de "fio de aço" (inventado por Valdemar Poulsen no final do século XIX), mas fios não podiam ser emendados facilmente, enferrujavam e emaranhavam. Pfleumer pegou papel comum e o cobriu com pó de ferro esmagado. Quando o fio elétrico do microfone magnetizava esse pó, a fita "lembrava" a posição exata das partículas de metal. O dado analógico ficava congelado fisicamente no plástico/papel. Se você quisesse "deletar" o dado, bastava passar um ímã por cima para embaralhar as partículas e gravar novamente (Read/Write e Rewrite).\n\nPor que isso entra no Hall da Fama da TI?\n\nA patente de Pfleumer de 1928 é a fundadora absoluta da indústria de Armazenamento de Dados de Massa (Mass Storage). Sem o conceito de prender material magnético sobre um substrato fino e giratório, não haveria Fitas K7, fitas de videocassete (VHS) ou os monstruosos carretéis de fita magnética que armazenavam os bancos de dados dos primeiros computadores. Mais fundamentalmente ainda: a placa metálica espelhada que gira dentro do Disco Rígido (HD) do seu computador ou servidor em nuvem até hoje usa a exata mesma física de magnetização de partículas superficiais inaugurada por Pfleumer na Alemanha.',
+          en: 'Recording data with magnetism already existed in the form of "steel wire", invented by Valdemar Poulsen at the end of the nineteenth century, but wires could not be spliced easily, rusted and tangled. Pfleumer took ordinary paper and covered it with crushed iron powder. When the electrical wire from the microphone magnetized that powder, the tape "remembered" the exact position of the metal particles. The analog data became physically frozen in the plastic/paper. If you wanted to "delete" the data, you only had to pass a magnet over it to scramble the particles and record again (Read/Write and Rewrite).\n\nWhy does this belong in the IT Hall of Fame?\n\nPfleumer’s 1928 patent is the absolute founder of the Mass Data Storage industry. Without the concept of fastening magnetic material onto a thin, rotating substrate, there would be no cassette tapes, videotapes (VHS) or the monstrous magnetic-tape reels that stored the databases of early computers. Even more fundamentally: the mirrored metal platter spinning inside the Hard Disk Drive (HDD) of your computer or cloud server still uses the exact same physics of surface-particle magnetization inaugurated by Pfleumer in Germany.',
+        },
+      },
+      {
+        name: 'IBM (Liderada por J. Royden Peirce e a equipe de engenharia)',
+        imagePlaceholder: YEAR_1928_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Arquitetos de sistemas corporativos operando sob a bandeira da recém-batizada IBM (1924). Eles precisavam otimizar a densidade de dados físicos para vender mais capacidade de processamento sem dobrar o tamanho do hardware.',
+          en: 'Corporate systems architects operating under the newly renamed IBM banner (1924). They needed to optimize physical data density to sell more processing capacity without doubling the size of the hardware.',
+        },
+        summary: {
+          pt: 'Introduziu em 1928 o icônico Cartão Perfurado de 80 Colunas da IBM com furos retangulares, um formato proprietário que dobrava a capacidade de dados em relação aos cartões antigos de 45 colunas.',
+          en: 'Introduced in 1928 the iconic IBM 80-Column Punched Card with rectangular holes, a proprietary format that doubled data capacity compared with older 45-column cards.',
+        },
+        role: {
+          pt: 'Padronizadora do input físico de 80 colunas',
+          en: 'Standardizer of 80-column physical input',
+        },
+        contribution: {
+          pt: 'Em 1928, a IBM criou a primeira Padronização Global de Input, estabelecendo o "Tamanho do Bloco" de dados na computação primitiva.',
+          en: 'In 1928, IBM created the first Global Input Standardization, establishing the data "Block Size" of primitive computing.',
+        },
+        detail: {
+          pt: 'As máquinas tabuladoras precisavam de uma interface para receber informações (o software inicial). Antes de 1928, os cartões tinham furos redondos grandes, o que desperdiçava espaço no papel. A genialidade da IBM foi mudar a geometria do furo para um retângulo estreito. Isso permitiu espremer 80 colunas de dados (80 caracteres alfanuméricos) em um único pedaço de cartolina do tamanho de uma nota de dólar. O usuário usava uma máquina de perfuração para "digitar" o código no cartão, e a leitora elétrica processava os furos.\n\nPor que isso entra no Hall da Fama da TI?\n\nO cartão de 80 colunas da IBM ditou as restrições físicas da Engenharia de Software por quase cinquenta anos. Programadores nas décadas de 1950 a 1970 escreviam seus códigos em linguagens como FORTRAN limitados a 80 caracteres por linha, porque esse era o limite físico de dados do cartão. O mais impressionante legado fantasma de 1928: se você abrir o Prompt de Comando (CMD) do Windows hoje, ou a janela de Terminal nativa em sistemas Linux/Unix, verá que a largura padrão da tela de texto é de exatos 80 caracteres. A interface de linha de comando atual imita as limitações do papel de um cartão IBM projetado há quase um século.',
+          en: 'Tabulating machines needed an interface to receive information (the early software). Before 1928, cards had large round holes, wasting space on the paper. IBM’s genius was to change the geometry of the hole into a narrow rectangle. This made it possible to squeeze 80 columns of data (80 alphanumeric characters) into a single piece of cardstock the size of a dollar bill. The user used a keypunch machine to "type" the code onto the card, and the electrical reader processed the holes.\n\nWhy does this belong in the IT Hall of Fame?\n\nIBM’s 80-column card dictated the physical constraints of Software Engineering for almost fifty years. Programmers in the 1950s through the 1970s wrote code in languages such as FORTRAN limited to 80 characters per line, because that was the card’s physical data limit. The most impressive ghost legacy of 1928: if you open the Windows Command Prompt (CMD) today, or the native Terminal window on Linux/Unix systems, you will see that the standard width of the text screen is exactly 80 characters. Today’s command-line interface imitates the paper limitations of an IBM card designed almost a century ago.',
+        },
+      },
+      {
+        name: 'Harry Nyquist',
+        imagePlaceholder: YEAR_1928_PLACEHOLDER,
+        flag: '🇸🇪 🇺🇸',
+        nationality: { pt: 'Sueco / Americano', en: 'Swedish / American' },
+        formation: {
+          pt: 'Físico e engenheiro de telecomunicações do imponente Bell Labs. Nyquist era um matemático operando no reino mais abstrato da teoria da informação, obcecado em descobrir "qual é o limite de velocidade absoluto para empurrar pulsos elétricos por um fio sem que eles se fundam num borrão".',
+          en: 'Physicist and telecommunications engineer at the imposing Bell Labs. Nyquist was a mathematician operating in the most abstract realm of information theory, obsessed with discovering "the absolute speed limit for pushing electrical pulses through a wire without having them merge into a blur".',
+        },
+        summary: {
+          pt: 'Publicou em abril de 1928 o monumental artigo acadêmico "Certain Topics in Telegraph Transmission Theory", onde formulou a taxa matemática que mais tarde ficaria mundialmente conhecida como a Taxa de Nyquist.',
+          en: 'Published in April 1928 the monumental academic paper "Certain Topics in Telegraph Transmission Theory", where he formulated the mathematical rate that would later become known worldwide as the Nyquist Rate.',
+        },
+        role: {
+          pt: 'Formulador da taxa de Nyquist',
+          en: 'Formulator of the Nyquist rate',
+        },
+        contribution: {
+          pt: 'Em 1928, a matemática ditou a Lei do "Analog to Digital Converter" (ADC), resolvendo como fatiar a realidade contínua em pontos de dados digitais.',
+          en: 'In 1928, mathematics dictated the law of the "Analog to Digital Converter" (ADC), solving how to slice continuous reality into digital data points.',
+        },
+        detail: {
+          pt: 'Nyquist percebeu que um fio telegráfico tinha um limite de banda. Se você tentasse enviar dados mais rápido do que a banda permitia, os pulsos "borravam" (interferência intersimbólica). Ele provou matematicamente uma regra sagrada: para transmitir e reconstruir perfeitamente qualquer sinal sem perda de dados, você precisa "amostrar" (medir) o sinal a uma taxa estritamente igual ou superior a duas vezes a frequência mais alta presente nele.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta é a fundação de toda a mídia digital moderna. Toda vez que o áudio real do mundo entra no seu smartphone, ele precisa ser picotado em dados digitais (0 e 1). Por que o formato padrão dos CDs de áudio foi cravado em 44.100 amostras por segundo (44.1 kHz)? Porque o ouvido humano consegue escutar frequências de até, no máximo, 20.000 Hz. Seguindo o teorema de Nyquist de 1928, para reconstruir um som digitalmente com perfeição até 20.000 Hz, você precisa amostrá-lo em pelo menos o dobro da velocidade (40.000 + uma margem de segurança = 44.100). A TI digital (câmeras, áudio, sensores) obedece à equação de Nyquist de forma inquestionável.',
+          en: 'Nyquist realized that a telegraph wire had a bandwidth limit. If you tried to send data faster than the band allowed, the pulses "blurred" (intersymbol interference). He mathematically proved a sacred rule: to transmit and perfectly reconstruct any signal without data loss, you must "sample" (measure) the signal at a rate strictly equal to or greater than twice the highest frequency present in it.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the foundation of all modern digital media. Every time real-world audio enters your smartphone, it must be chopped into digital data (0 and 1). Why was the standard format for audio CDs fixed at 44,100 samples per second (44.1 kHz)? Because the human ear can hear frequencies up to, at most, 20,000 Hz. Following Nyquist’s 1928 theorem, to reconstruct sound digitally with perfection up to 20,000 Hz, you need to sample it at at least twice the speed (40,000 + a safety margin = 44,100). Digital IT (cameras, audio, sensors) obeys Nyquist’s equation unquestioningly.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1929,
+    era: {
+      pt: 'O Tubo de Banda Larga, o Monitor de Estado Sólido e a Transmissão de Texto "Inquebrável"',
+      en: 'The Broadband Tube, the Solid-State Monitor and "Unbreakable" Text Transmission',
+    },
+    context: {
+      pt: 'Em 1929, no ano em que o sistema financeiro global entrou em colapso, a tecnologia da informação forjou a infraestrutura física que sustentaria o mundo moderno, inaugurando a era da "banda larga", do monitor eletrônico de mesa e da tolerância a falhas extremas. Nos saguões do Bell Labs, dois engenheiros resolvem o problema do vazamento de dados em fios telefônicos inventando um conduíte blindado capaz de engolir frequências massivas de informação. Na Westinghouse, a interface visual ganha sua metade final: após inventar a câmera eletrônica, o gênio russo apresenta a tela de tubo receptora que povoaria as salas e escritórios do planeta pelas próximas oito décadas. E na Alemanha, a transmissão corporativa de texto muda o paradigma do "código" para os "pixels", criando uma máquina de teletipo baseada em matriz de pontos que era praticamente imune a quedas de conexão. É o ano da patente do Cabo Coaxial, do Kinescópio e da Máquina Hellschreiber.',
+      en: 'In 1929, the year the global financial system collapsed, information technology forged the physical infrastructure that would sustain the modern world, inaugurating the era of "broadband", the desktop electronic monitor and extreme fault tolerance. In the halls of Bell Labs, two engineers solve the problem of data leakage in telephone wires by inventing a shielded conduit capable of swallowing massive frequencies of information. At Westinghouse, the visual interface gains its final half: after inventing the electronic camera, the Russian genius presents the receiving tube screen that would populate the planet’s living rooms and offices for the next eight decades. And in Germany, corporate text transmission changes the paradigm from "code" to "pixels", creating a dot-matrix teletype machine that was practically immune to connection drops. It is the year of the Coaxial Cable patent, the Kinescope and the Hellschreiber machine.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Lloyd Espenschied e Herman Affel',
+        imagePlaceholder: YEAR_1929_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Engenheiros de rede de elite do recém-formado Bell Labs. A dupla era especialista em altas frequências e precisava resolver um limite físico brutal: fios telefônicos normais (par trançado) perdiam os dados ou sofriam interferência quando tentavam carregar muito tráfego simultâneo.',
+          en: 'Elite network engineers from the newly formed Bell Labs. The pair specialized in high frequencies and needed to solve a brutal physical limit: ordinary telephone wires (twisted pair) lost data or suffered interference when trying to carry too much simultaneous traffic.',
+        },
+        summary: {
+          pt: 'Inventaram e patentearam em 1929 o Cabo Coaxial, um design de fiação física revolucionário composto por um fio central de cobre suspenso exatamente no meio de um tubo metálico cilíndrico oco, mantendo os dois eixos geometricamente separados por discos isolantes.',
+          en: 'Invented and patented in 1929 the Coaxial Cable, a revolutionary physical wiring design composed of a central copper wire suspended exactly in the middle of a hollow cylindrical metal tube, keeping the two axes geometrically separated by insulating discs.',
+        },
+        role: {
+          pt: 'Inventores do cabo coaxial',
+          en: 'Inventors of coaxial cable',
+        },
+        contribution: {
+          pt: 'Em 1929, a TI inventou o "Backbone de Banda Larga" (Broadband), o duto físico perfeito para rotear pacotes pesados sem vazar energia.',
+          en: 'In 1929, IT invented the "Broadband Backbone", the perfect physical duct for routing heavy packets without leaking energy.',
+        },
+        detail: {
+          pt: 'Quando você empurra sinais elétricos de altíssima frequência por um fio normal, o fio passa a atuar como uma antena: a energia foge voando pelo ar e causa "linha cruzada". Espenschied e Affel usaram a física a favor da infraestrutura. O tubo metálico externo do cabo coaxial serve como o aterramento, mas, acima de tudo, atua como uma "jaula" perfeita. O campo eletromagnético (os dados) fica literalmente aprisionado e comprimido entre o fio do meio e a parede interna do tubo. Nada entra para causar ruído e nenhum dado vaza para o ambiente.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a patente do cabo coaxial de 1929, a televisão a cabo, as conexões rápidas entre cidades e a própria internet via cabo (HFC) jamais teriam existido. Este foi o hardware exato que permitiu que um único conduíte carregasse centenas de ligações telefônicas simultâneas, ou o fluxo massivo de dados de um canal de vídeo ao vivo. Toda vez que você pluga aquele cabo com pino de cobre e rosca na sua TV ou no roteador de internet da sua operadora (DOCSIS), você está conectando o seu hardware à exata arquitetura de aprisionamento de radiofrequência desenhada por esses dois homens no ano da Grande Depressão.',
+          en: 'When you push extremely high-frequency electrical signals through a normal wire, the wire begins to act like an antenna: energy escapes through the air and causes crosstalk. Espenschied and Affel used physics in favor of infrastructure. The outer metal tube of the coaxial cable serves as ground, but above all, it acts as a perfect "cage". The electromagnetic field (the data) is literally trapped and compressed between the middle wire and the inner wall of the tube. Nothing enters to cause noise, and no data leaks into the environment.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout the 1929 coaxial-cable patent, cable television, fast connections between cities and cable internet itself (HFC) would never have existed. This was the exact hardware that allowed a single conduit to carry hundreds of simultaneous telephone calls, or the massive data flow of a live video channel. Every time you plug that cable with a copper pin and screw thread into your TV or your operator’s internet router (DOCSIS), you are connecting your hardware to the exact radiofrequency-trapping architecture designed by these two men in the year of the Great Depression.',
+        },
+      },
+      {
+        name: 'Vladimir Zworykin',
+        imagePlaceholder: YEAR_1929_PLACEHOLDER,
+        flag: '🇷🇺 🇺🇸',
+        nationality: { pt: 'Russo / Americano', en: 'Russian / American' },
+        formation: {
+          pt: 'O implacável engenheiro de hardware que já havia inventado o "olho" eletrônico da câmera (o Iconoscópio) em 1923. Agora, ele precisava convencer o mundo de que a interface de Output para o usuário final também não precisava de discos mecânicos ruidosos.',
+          en: 'The relentless hardware engineer who had already invented the electronic "eye" of the camera (the Iconoscope) in 1923. Now he needed to convince the world that the Output interface for the final user also did not need noisy mechanical discs.',
+        },
+        summary: {
+          pt: 'Demonstrou com sucesso no final de 1929 o Kinescópio (Kinescope), o primeiro Tubo de Raios Catódicos (CRT) construído especificamente e de forma prática para ser o receptor doméstico e silencioso de um streaming de vídeo.',
+          en: 'Successfully demonstrated in late 1929 the Kinescope, the first Cathode Ray Tube (CRT) built specifically and practically to be the silent domestic receiver of a video stream.',
+        },
+        role: {
+          pt: 'Pioneiro do monitor CRT doméstico',
+          en: 'Pioneer of the domestic CRT monitor',
+        },
+        contribution: {
+          pt: 'Em 1929, Zworykin entregou o "Monitor", substituindo a mecânica ruidosa pelo desenho passivo de pixels por feixes de elétrons.',
+          en: 'In 1929, Zworykin delivered the "Monitor", replacing noisy mechanics with passive pixel drawing through electron beams.',
+        },
+        detail: {
+          pt: 'Lembra da TV de John Logie Baird (1925) com os discos de papelão perfurados girando freneticamente? Ninguém queria aquilo na sala de estar. O Kinescópio pegou o feed de dados que vinha da antena e o injetou num "canhão" de elétrons dentro de um tubo de vidro pontiagudo. Esse canhão disparava um jato contínuo de energia contra a tela frontal (que era pintada com fósforo fotoluminescente). Campos magnéticos forçavam o feixe a desenhar e apagar a imagem linha por linha, dezenas de vezes por segundo, de forma totalmente invisível e inaudível para o usuário humano.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Kinescópio é a fundação da interface de saída (Output) do século XX. Farnsworth (1927) e Zworykin (1923) resolveram o Input da câmera, mas foi o Kinescópio de 1929 que criou o conceito do Monitor de Tela. Toda a computação em seus primórdios, desde os mainframes até a era do PC doméstico nos anos 1980 e 1990 (antes dos painéis de LED plano), utilizou a exata tecnologia do Tubo de Raios Catódicos patenteada por Zworykin para que a máquina pudesse "conversar" visualmente com o operador.',
+          en: 'Remember John Logie Baird’s TV (1925), with perforated cardboard discs spinning frenetically? Nobody wanted that in the living room. The Kinescope took the data feed coming from the antenna and injected it into an electron "gun" inside a pointed glass tube. This gun fired a continuous jet of energy against the front screen, which was painted with photoluminescent phosphor. Magnetic fields forced the beam to draw and erase the image line by line, dozens of times per second, in a way that was totally invisible and inaudible to the human user.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Kinescope is the foundation of the twentieth century’s output interface. Farnsworth (1927) and Zworykin (1923) solved camera input, but it was the 1929 Kinescope that created the concept of the Screen Monitor. All early computing, from mainframes to the home PC era in the 1980s and 1990s (before flat LED panels), used the exact Cathode Ray Tube technology patented by Zworykin so the machine could visually "talk" to the operator.',
+        },
+      },
+      {
+        name: 'Rudolf Hell',
+        imagePlaceholder: YEAR_1929_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Engenheiro elétrico focado em inventar sistemas logísticos que fossem resilientes. Ele odiava a fragilidade do telégrafo tradicional, onde um simples estalo de estática no fio podia transformar a letra "A" na letra "E".',
+          en: 'Electrical engineer focused on inventing resilient logistics systems. He hated the fragility of traditional telegraphy, where a single crackle of static on the wire could turn the letter "A" into the letter "E".',
+        },
+        summary: {
+          pt: 'Patenteou em 1929 a Hellschreiber, uma máquina de teleimpressão que fundia a lógica do código Morse com a tecnologia primitiva de fax para transmitir texto em redes sujas e instáveis.',
+          en: 'Patented in 1929 the Hellschreiber, a teleprinting machine that fused Morse-code logic with primitive fax technology to transmit text across dirty and unstable networks.',
+        },
+        role: {
+          pt: 'Inventor da Hellschreiber',
+          en: 'Inventor of the Hellschreiber',
+        },
+        contribution: {
+          pt: 'Em 1929, Hell inventou a "Tolerância a Falhas em Nível de Pixel", substituindo o roteamento de símbolos por dados rasterizados imunes a bugs.',
+          en: 'In 1929, Hell invented "Pixel-Level Fault Tolerance", replacing symbol routing with rasterized data resilient to bugs.',
+        },
+        detail: {
+          pt: 'Se você envia código binário ou Morse e a rede cai por um milissegundo, o computador do outro lado recebe a tecla errada. A genialidade da máquina Hellschreiber foi parar de enviar códigos e começar a enviar pixels. Quando o operador apertava a letra "H", a máquina não enviava o "código do H"; ela fatiava visualmente a letra "H" em uma grade de pequenos pontos (Matriz de Pontos / Dot-Matrix) e enviava os pixels por rádio. No destino, uma agulha suja de tinta pintava os pontinhos num papel.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o primeiro grande protocolo corporativo de Error Correction/Tolerance (Correção e Tolerância a Erros) em redes de dados. A beleza brutal da invenção de 1929 era que, se o cabo desse interferência pesada e metade dos pixels sumisse no caminho, o papel no destino seria impresso borrado ou arranhado, mas o cérebro humano lendo a fita do outro lado ainda seria perfeitamente capaz de identificar a letra "H". Era uma engenharia que transferia a responsabilidade de "descriptografar o ruído" da máquina para a percepção biológica do usuário, garantindo comunicações críticas e militares durante tempestades atmosféricas e quebras de rede que paralisariam qualquer computador moderno da mesma época.',
+          en: 'If you send binary or Morse code and the network drops for a millisecond, the computer on the other side receives the wrong key. The genius of the Hellschreiber machine was to stop sending codes and start sending pixels. When the operator pressed the letter "H", the machine did not send the "code for H"; it visually sliced the letter "H" into a grid of small dots (Dot Matrix) and sent the pixels by radio. At the destination, an inked stylus painted the dots onto paper.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the first major corporate protocol for Error Correction/Tolerance in data networks. The brutal beauty of the 1929 invention was that if the cable suffered heavy interference and half the pixels disappeared along the way, the paper at the destination would be printed blurred or scratched, but the human brain reading the tape on the other side would still be perfectly able to identify the letter "H". It was engineering that transferred responsibility for "decrypting the noise" from the machine to the user’s biological perception, guaranteeing critical and military communications during atmospheric storms and network failures that would paralyze any modern computer of the same era.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1930,
+    era: {
+      pt: 'O Primeiro "Supercomputador" Analógico, a Origem da Motorola e o Streaming Multimídia',
+      en: 'The First Analog "Supercomputer", the Origin of Motorola and Multimedia Streaming',
+    },
+    context: {
+      pt: 'Em 1930, com o mundo mergulhando na escuridão da Grande Depressão, a tecnologia da informação constrói seu primeiro grande "cérebro" para processamento de cálculos complexos, transforma o carro em um nó de rede móvel de consumo e transmite a primeira peça de entretenimento com duas vias de dados sincronizadas. No MIT, um engenheiro finaliza a construção de uma máquina do tamanho de uma sala cheia de engrenagens e eixos que consegue resolver equações diferenciais sozinha, inaugurando a era da computação de alto nível. Em Chicago, dois irmãos lutando para não falir instalam um receptor de rádio no painel de um carro e criam uma marca que dominaria a tecnologia móvel por quase um século. E em Londres, a televisão e o rádio são finalmente fundidos em um único protocolo de transmissão pública, enviando som e imagem em tempo real para as telas. É o ano do Analisador Diferencial, do Rádio Motorola e do primeiro drama televisivo sincronizado.',
+      en: 'In 1930, as the world sinks into the darkness of the Great Depression, information technology builds its first great "brain" for processing complex calculations, turns the car into a consumer mobile network node and transmits the first entertainment piece with two synchronized data paths. At MIT, an engineer completes the construction of a room-sized machine full of gears and shafts that can solve differential equations by itself, inaugurating the era of high-level computing. In Chicago, two brothers fighting not to go bankrupt install a radio receiver in a car dashboard and create a brand that would dominate mobile technology for almost a century. And in London, television and radio are finally fused into a single public transmission protocol, sending sound and image in real time to screens. It is the year of the Differential Analyzer, the Motorola Radio and the first synchronized television drama.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Vannevar Bush',
+        imagePlaceholder: YEAR_1930_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Um titã da engenharia e professor do MIT (Instituto de Tecnologia de Massachusetts). Bush não estava interessado em apenas somar ou tabular números de contabilidade corporativa; ele queria resolver a matemática fluida do universo, balística e física de redes elétricas.',
+          en: 'A titan of engineering and professor at MIT (Massachusetts Institute of Technology). Bush was not interested merely in adding or tabulating corporate accounting numbers; he wanted to solve the fluid mathematics of the universe, ballistics and electrical-network physics.',
+        },
+        summary: {
+          pt: 'Concluiu e colocou em operação em 1930 o Analisador Diferencial (Differential Analyzer), o primeiro computador analógico de grande escala e propósito geral do mundo. Era um monstro mecânico pesando toneladas, composto por motores elétricos, engrenagens, eixos rotativos e rodas integradoras.',
+          en: 'Completed and put into operation in 1930 the Differential Analyzer, the world’s first large-scale, general-purpose analog computer. It was a mechanical monster weighing tons, composed of electric motors, gears, rotating shafts and integrating wheels.',
+        },
+        role: {
+          pt: 'Criador do analisador diferencial',
+          en: 'Creator of the differential analyzer',
+        },
+        contribution: {
+          pt: 'Em 1930, a TI ganhou o seu primeiro "Cérebro Analógico", um hardware capaz de resolver matemática avançada processando o movimento físico de peças em vez de números digitais.',
+          en: 'In 1930, IT gained its first "Analog Brain", hardware capable of solving advanced mathematics by processing the physical movement of parts instead of digital numbers.',
+        },
+        detail: {
+          pt: 'As máquinas da IBM da época (como a perfuradora de cartões de 1928) lidavam com aritmética simples. O Analisador de Bush foi a primeira máquina a resolver Equações Diferenciais (a matemática de coisas que mudam continuamente ao longo do tempo, como a gravidade ou a eletricidade). O usuário configurava o problema usando chaves de fenda e chaves inglesas para conectar fisicamente os eixos corretos. Quando os motores eram ligados, as rotações contínuas das engrenagens realizavam cálculos de cálculo integral maciços em minutos, desenhando a curva de resposta em uma prancheta de papel.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Analisador Diferencial de 1930 é o verdadeiro avô dos supercomputadores. Ele marcou a transição da tecnologia de tabulação comercial para a Computação Científica Pesada. Ao provar que uma máquina poderia executar o processamento lógico de cálculo avançado de forma automatizada, Bush plantou a semente que inspiraria as Forças Armadas a financiar e construir o ENIAC (o primeiro computador eletrônico digital) anos depois, com o exato mesmo propósito: calcular trajetórias complexas que o cérebro humano não conseguia processar a tempo.',
+          en: 'IBM machines of the era (such as the 1928 card punch) handled simple arithmetic. Bush’s Analyzer was the first machine to solve Differential Equations (the mathematics of things that change continuously over time, such as gravity or electricity). The user configured the problem using screwdrivers and wrenches to physically connect the correct shafts. When the motors were turned on, the continuous rotations of the gears performed massive integral-calculus operations in minutes, drawing the response curve on a paper drafting board.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe 1930 Differential Analyzer is the true grandfather of supercomputers. It marked the transition from commercial tabulation technology to Heavy Scientific Computing. By proving that a machine could execute the logical processing of advanced calculus automatically, Bush planted the seed that would inspire the Armed Forces to fund and build ENIAC, the first electronic digital computer, years later, with the exact same purpose: calculating complex trajectories that the human brain could not process in time.',
+        },
+      },
+      {
+        name: 'Paul Galvin e Joseph Galvin',
+        imagePlaceholder: YEAR_1930_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Empreendedores industriais lutando contra a Grande Depressão. Sua antiga empresa fabricava adaptadores para ligar rádios na tomada (eliminadores de bateria), um produto que se tornou inútil quando os rádios começaram a vir com plugues embutidos.',
+          en: 'Industrial entrepreneurs fighting against the Great Depression. Their old company manufactured adapters for plugging radios into wall outlets (battery eliminators), a product that became useless when radios began to ship with built-in plugs.',
+        },
+        summary: {
+          pt: 'Criaram, patentearam e começaram a vender comercialmente em 1930 o modelo 5T71, o primeiro rádio de carro viável e comercialmente bem-sucedido para o público geral, batizando-o com o nome de Motorola (uma junção de "motor" e o sufixo "-ola", popularizado pela Victrola).',
+          en: 'Created, patented and began commercially selling in 1930 the 5T71 model, the first viable and commercially successful car radio for the general public, naming it Motorola, a combination of "motor" and the "-ola" suffix popularized by Victrola.',
+        },
+        role: {
+          pt: 'Criadores do rádio automotivo Motorola',
+          en: 'Creators of the Motorola car radio',
+        },
+        contribution: {
+          pt: 'Em 1930, o "Edge Node" móvel deixou de ser uma ferramenta militar e policial restrita para se tornar o primeiro gadget de Consumer Electronics veicular.',
+          en: 'In 1930, the mobile "Edge Node" stopped being a restricted military and police tool and became the first vehicle Consumer Electronics gadget.',
+        },
+        detail: {
+          pt: 'Vimos que a polícia de Detroit botou rádios nos carros em 1921, mas aqueles eram monstros frágeis que enchiam o porta-malas. A genialidade dos irmãos Galvin foi miniaturizar, blindar e empacotar o receptor de rádio para o usuário final, com uma interface que podia ser embutida no painel de qualquer carro e suportar os tremores da estrada civil. Para vender a ideia, Paul Galvin dirigiu até uma convenção e estacionou na calçada com o rádio ligado em alto volume, pois não tinha dinheiro para alugar um estande.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta invenção é a fundação de duas coisas essenciais. Primeiro: provou o modelo de negócios de que a informação e o entretenimento não precisavam estar presos à sala de estar; os dados podiam ser consumidos em alta velocidade (Mobile Data Consumption). Segundo: o sucesso absurdo desse rádio mudou o nome da empresa inteira para Motorola. Essa é a corporação que nas décadas seguintes fabricaria o hardware de comunicação dos astronautas da Apollo 11 na Lua, inventaria o telefone celular portátil nos anos 1970 e desenharia alguns dos processadores mais importantes da era dos microcomputadores. Tudo começou no painel de um carro em 1930.',
+          en: 'We saw Detroit police put radios in cars in 1921, but those were fragile monsters that filled the trunk. The genius of the Galvin brothers was to miniaturize, shield and package the radio receiver for the final user, with an interface that could be embedded in the dashboard of any car and survive the vibrations of civilian roads. To sell the idea, Paul Galvin drove to a convention and parked on the sidewalk with the radio playing loudly, because he had no money to rent a booth.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis invention is the foundation of two essential things. First: it proved the business model that information and entertainment did not need to be trapped in the living room; data could be consumed at high speed (Mobile Data Consumption). Second: the absurd success of this radio changed the entire company’s name to Motorola. This is the corporation that, in the following decades, would manufacture the communications hardware for the Apollo 11 astronauts on the Moon, invent the portable cellular telephone in the 1970s and design some of the most important processors of the microcomputer era. It all began on a car dashboard in 1930.',
+        },
+      },
+      {
+        name: 'BBC (British Broadcasting Corporation) e John Logie Baird',
+        imagePlaceholder: YEAR_1930_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos (Baird sendo Escocês)', en: 'British (Baird being Scottish)' },
+        formation: {
+          pt: 'A união corporativa do serviço estatal britânico de radiodifusão com o implacável inventor da televisão mecânica, forçados a empurrar a infraestrutura de rádio do país até o limite.',
+          en: 'The corporate union of the British state broadcasting service with the relentless inventor of mechanical television, forced to push the country’s radio infrastructure to its limit.',
+        },
+        summary: {
+          pt: 'Transmitiram em 14 de julho de 1930 a primeira peça de drama televisivo da história ("The Man with the Flower in His Mouth"), mas com um marco arquitetônico absoluto: foi a primeira transmissão em que a BBC alocou múltiplos transmissores para transmitir o pacote de vídeo simultaneamente e perfeitamente em sincronia com o pacote de áudio.',
+          en: 'On July 14, 1930, broadcast the first television drama in history ("The Man with the Flower in His Mouth"), with an absolute architectural milestone: it was the first transmission in which the BBC allocated multiple transmitters to broadcast the video packet simultaneously and perfectly in sync with the audio packet.',
+        },
+        role: {
+          pt: 'Pioneiros do streaming multimídia sincronizado',
+          en: 'Pioneers of synchronized multimedia streaming',
+        },
+        contribution: {
+          pt: 'Em 1930, a rede resolveu o "Gargalo da Sincronização", criando a infraestrutura para a entrega de Multimídia em tempo real.',
+          en: 'In 1930, the network solved the "Synchronization Bottleneck", creating the infrastructure for real-time Multimedia delivery.',
+        },
+        detail: {
+          pt: 'Antes deste dia, o broadcasting era dolorosamente isolado. Baird tinha acesso a apenas um transmissor por vez. Se ele quisesse mostrar algo, a tela acendia e ficava muda. Se alguém falasse, a tela precisava ser desligada. Era um sistema primitivo de Half-Duplex entre áudio e vídeo. Em 1930, a BBC entregou dois canais de espectro simultâneos. Eles rotearam os dados de imagem capturados pelas câmeras mecânicas por uma antena, e a captação dos microfones pela outra. Na casa do receptor humano (que precisava ter a máquina visual de Baird ao lado de um rádio comum), a magia da multiplexação biológica aconteceu: som e imagem chegaram independentes, mas formaram uma única mídia.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste evento validou o "Streaming" de Multimídia Rica. Qualquer transmissão moderna de dados, do vídeo do YouTube que você assiste às chamadas de vídeo do Zoom, requer o que chamamos de Lip Sync e Multiplexing: a capacidade do servidor de "empacotar" dados de vídeo pesado e áudio leve em vias separadas, garantir que ambos viajem pela rede sem atrasos relativos, e juntá-los no cliente final no momento exato da exibição. O drama da BBC de 1930 foi a primeira vez que a infraestrutura mundial sustentou de forma bem-sucedida esse processamento paralelo para o público em larga escala.',
+          en: 'Before this day, broadcasting was painfully isolated. Baird had access to only one transmitter at a time. If he wanted to show something, the screen lit up and stayed silent. If someone spoke, the screen had to be turned off. It was a primitive Half-Duplex system between audio and video. In 1930, the BBC delivered two simultaneous spectrum channels. They routed the image data captured by mechanical cameras through one antenna, and the microphone capture through the other. In the human receiver’s home (which needed Baird’s visual machine beside an ordinary radio), the magic of biological multiplexing happened: sound and image arrived independently, but formed a single medium.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis event validated Rich Multimedia "Streaming". Any modern data transmission, from the YouTube video you watch to Zoom video calls, requires what we call Lip Sync and Multiplexing: the server’s ability to "package" heavy video data and light audio data in separate paths, ensure both travel through the network without relative delay, and join them in the final client at the exact moment of display. The BBC’s 1930 drama was the first time global infrastructure successfully sustained this parallel processing for the public at large scale.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1931,
+    era: {
+      pt: 'O "Bug" Matemático Universal, o Primeiro Contador Digital Eletrônico e o Streaming Espacial (Estéreo)',
+      en: 'The Universal Mathematical "Bug", the First Electronic Digital Counter and Spatial Streaming (Stereo)',
+    },
+    context: {
+      pt: 'Em 1931, a tecnologia da informação descobre o limite matemático definitivo de todo software futuro, rompe a barreira da velocidade mecânica na contagem de dados e expande a mídia para a terceira dimensão espacial. Em Viena, um matemático de 25 anos prova que qualquer sistema de lógica ou computação que a humanidade venha a criar sempre terá "furos" impossíveis de serem resolvidos, estabelecendo a fronteira absoluta da Inteligência Artificial. Na Inglaterra, a necessidade de processar dados atômicos ultrarrápidos faz um físico abandonar as engrenagens e criar o primeiro hardware eletrônico focado puramente em contar pulsos digitais discretos. E nos cinemas britânicos, um engenheiro frustrado com o som "chapado" que saía das telas inventa o algoritmo de codificação para capturar e rotear o áudio em dois canais simultâneos, recriando a física do espaço através da rede. É o ano dos Teoremas da Incompletude, do Contador Thyratron e da patente do Som Estéreo.',
+      en: 'In 1931, information technology discovers the definitive mathematical limit of all future software, breaks the mechanical speed barrier in data counting and expands media into the third spatial dimension. In Vienna, a 25-year-old mathematician proves that any system of logic or computation humanity may create will always have "holes" impossible to resolve, establishing the absolute frontier of Artificial Intelligence. In England, the need to process ultrafast atomic data makes a physicist abandon gears and create the first electronic hardware focused purely on counting discrete digital pulses. And in British cinemas, an engineer frustrated with the "flat" sound coming from screens invents the encoding algorithm for capturing and routing audio in two simultaneous channels, recreating the physics of space through the network. It is the year of the Incompleteness Theorems, the Thyratron Counter and the Stereo Sound patent.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Kurt Gödel',
+        imagePlaceholder: YEAR_1931_PLACEHOLDER,
+        flag: '🇦🇹',
+        nationality: { pt: 'Austríaco', en: 'Austrian' },
+        formation: {
+          pt: 'Um dos matemáticos e lógicos mais brilhantes (e atormentados) da história, operando no epicentro do Círculo de Viena, obcecado em descobrir se a matemática era um sistema de código perfeitamente fechado e à prova de falhas.',
+          en: 'One of the most brilliant (and tormented) mathematicians and logicians in history, operating at the epicenter of the Vienna Circle, obsessed with discovering whether mathematics was a perfectly closed and fail-proof code system.',
+        },
+        summary: {
+          pt: 'Publicou em 1931 os "Teoremas da Incompletude", provando matematicamente que em qualquer sistema lógico complexo (como a aritmética) sempre haverá afirmações que são verdadeiras, mas que a máquina/sistema jamais conseguirá provar que são verdadeiras.',
+          en: 'Published the "Incompleteness Theorems" in 1931, mathematically proving that in any complex logical system (such as arithmetic) there will always be statements that are true, but that the machine/system will never be able to prove are true.',
+        },
+        role: {
+          pt: 'Autor dos teoremas da incompletude',
+          en: 'Author of the incompleteness theorems',
+        },
+        contribution: {
+          pt: 'Em 1931, a TI ganhou seu "Limite de Velocidade" teórico: Gödel provou que existem problemas de dados que nenhum hardware infinito conseguirá resolver.',
+          en: 'In 1931, IT gained its theoretical "Speed Limit": Gödel proved that there are data problems that no infinite hardware will be able to solve.',
+        },
+        detail: {
+          pt: 'Até 1931, os matemáticos achavam que, com tempo suficiente, uma máquina conseguiria calcular e provar qualquer coisa no universo (o sonho de David Hilbert). Gödel hackeou a própria matemática usando a lógica. Ele criou uma equação que basicamente dizia para o sistema: "Esta afirmação não pode ser provada dentro do sistema". Se o sistema provasse, ele entrava em paradoxo (dava crash). Se ele não provasse, a afirmação era verdadeira, logo, o sistema era incompleto. Ele descobriu que a lógica humana e maquinal tem pontos cegos nativos inescapáveis.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem Gödel em 1931, não haveria a Ciência da Computação Teórica. Este artigo foi a faísca que forçou Alan Turing (cinco anos depois) a inventar o conceito do "Computador Universal" (a Máquina de Turing) e a definir o famoso Halting Problem (Problema da Parada). Gödel provou que não importa quão avançada seja a Inteligência Artificial ou quão rápido seja o processador quântico do futuro, existirão loops infinitos e verdades computacionais que o software nunca conseguirá compilar até o fim.',
+          en: 'Until 1931, mathematicians believed that, given enough time, a machine could calculate and prove anything in the universe (David Hilbert’s dream). Gödel hacked mathematics itself using logic. He created an equation that basically said to the system: "This statement cannot be proved within the system". If the system proved it, it entered a paradox (it crashed). If it did not prove it, the statement was true, and therefore the system was incomplete. He discovered that human and machine logic have inescapable native blind spots.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout Gödel in 1931, there would be no Theoretical Computer Science. This article was the spark that forced Alan Turing, five years later, to invent the concept of the "Universal Computer" (the Turing Machine) and define the famous Halting Problem. Gödel proved that no matter how advanced Artificial Intelligence becomes, or how fast the quantum processor of the future may be, there will be infinite loops and computational truths that software will never be able to compile all the way to the end.',
+        },
+      },
+      {
+        name: 'C. E. Wynn-Williams',
+        imagePlaceholder: YEAR_1931_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Galês)', en: 'British (Welsh)' },
+        formation: {
+          pt: 'Físico experimental no prestigioso Laboratório Cavendish em Cambridge. Ele trabalhava com Ernest Rutherford, o homem que estudava o núcleo do átomo. Wynn-Williams tinha um problema de throughput: as partículas atômicas batiam nos sensores mais rápido do que qualquer engrenagem física conseguia girar para contá-las.',
+          en: 'Experimental physicist at the prestigious Cavendish Laboratory in Cambridge. He worked with Ernest Rutherford, the man studying the atomic nucleus. Wynn-Williams had a throughput problem: atomic particles struck the sensors faster than any physical gear could spin to count them.',
+        },
+        summary: {
+          pt: 'Inventou o primeiro Contador Digital Eletrônico de alta velocidade da história (o circuito "Scale-of-Two"), utilizando válvulas preenchidas com gás (Thyratrons) para registrar e memorizar pulsos elétricos discretos sem mover uma única peça de metal.',
+          en: 'Invented the first high-speed Electronic Digital Counter in history (the "Scale-of-Two" circuit), using gas-filled valves (Thyratrons) to register and memorize discrete electrical pulses without moving a single metal part.',
+        },
+        role: {
+          pt: 'Inventor do contador digital eletrônico',
+          en: 'Inventor of the electronic digital counter',
+        },
+        contribution: {
+          pt: 'Em 1931, o processamento lógico abandonou a mecânica: Wynn-Williams inventou o Hardware Eletrônico Digital.',
+          en: 'In 1931, logical processing abandoned mechanics: Wynn-Williams invented Digital Electronic Hardware.',
+        },
+        detail: {
+          pt: 'Vimos que Vannevar Bush construiu um supercomputador em 1930, mas era analógico (com eixos girando). Wynn-Williams precisava de discretização (contar eventos binários de impacto, 1 ou 0). Como as engrenagens travavam em altas velocidades, ele usou tubos de vácuo Thyratron acoplados em cascata. O primeiro tubo acendia com o impacto da partícula 1. O impacto 2 apagava o primeiro tubo e acendia o segundo (processando um ciclo). Isso permitiu que o hardware contasse dezenas de milhares de bits de dados invisíveis por minuto, totalmente em estado eletrônico.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o nascimento dos processadores de pulso e dos relógios digitais modernos. Wynn-Williams foi o primeiro ser humano a usar um circuito de válvulas em escala massiva (conhecido como Ring Counter) puramente para fazer matemática binária sequencial (1, 2, 3, 4...). Essa arquitetura de "contar usando elétrons" foi a tecnologia exata copiada e expandida durante a Segunda Guerra Mundial para construir o colosso computacional Colossus (para quebrar os códigos alemães) e, posteriormente, o ENIAC.',
+          en: 'We saw Vannevar Bush build a supercomputer in 1930, but it was analog (with rotating shafts). Wynn-Williams needed discretization: counting binary impact events, 1 or 0. Since gears jammed at high speeds, he used Thyratron vacuum tubes coupled in cascade. The first tube lit up with particle impact 1. Impact 2 turned the first tube off and lit the second one (processing a cycle). This allowed the hardware to count tens of thousands of invisible data bits per minute, entirely in an electronic state.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the birth of pulse processors and modern digital clocks. Wynn-Williams was the first human being to use a valve circuit at massive scale (known as a Ring Counter) purely to perform sequential binary mathematics (1, 2, 3, 4...). This architecture of "counting with electrons" was the exact technology copied and expanded during World War II to build the computational colossus Colossus (to break German codes) and, later, ENIAC.',
+        },
+      },
+      {
+        name: 'Alan Blumlein',
+        imagePlaceholder: YEAR_1931_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Engenheiro-chefe brilhante da EMI (Electric and Musical Industries). Um mestre em processamento de sinais que mais tarde construiria os radares vitais para a sobrevivência da Inglaterra na guerra.',
+          en: 'Brilliant chief engineer at EMI (Electric and Musical Industries). A master of signal processing who would later build radars vital to England’s survival in the war.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 14 de dezembro de 1931 o "Som Binaural" (o moderno Áudio Estereofônico), criando os microfones para capturar a diferença de tempo e volume entre o lado esquerdo e direito, e a cabeça de corte que gravava esses dois canais distintos na mesma ranhura de um disco de vinil.',
+          en: 'Invented and patented on December 14, 1931 "Binaural Sound" (modern Stereophonic Audio), creating microphones to capture the time and volume difference between left and right, and the cutting head that recorded those two distinct channels in the same groove of a vinyl record.',
+        },
+        role: {
+          pt: 'Inventor do som estéreo moderno',
+          en: 'Inventor of modern stereo sound',
+        },
+        contribution: {
+          pt: 'Em 1931, a TI inventou a Representação de Dados Espaciais, roteando dois pacotes de áudio paralelos para enganar o cérebro e criar uma rede de som 3D.',
+          en: 'In 1931, IT invented Spatial Data Representation, routing two parallel audio packets to trick the brain and create a 3D sound network.',
+        },
+        detail: {
+          pt: 'Blumlein estava no cinema com a esposa e ficou irritado porque o ator andava pela tela, mas a voz saía sempre do mesmo buraco negro no meio do palco. O áudio até então era "Mono" (um único fluxo de dados contínuo). Blumlein percebeu que a audição humana é um algoritmo de geolocalização: sabemos onde o objeto está porque o som chega milissegundos antes num ouvido do que no outro. Ele desenhou um sistema de hardware completo (microfones cruzados, amplificadores divididos e corte de matriz ortogonal) que conseguia empacotar a via esquerda e a via direita de dados sem que elas colidissem, e desempacotar isso em dois alto-falantes sincronizados.\n\nPor que isso entra no Hall da Fama da TI?\n\nA patente de Blumlein de 1931 é o projeto matriz de toda a mídia imersiva moderna. Ele inventou o Multiplexing (espremer múltiplos canais de dados no mesmo conduíte físico) voltado para a psicoacústica. Todo headset de realidade virtual, fone de ouvido sem fio, cinema moderno ou mixagem de música do Spotify só consegue criar a ilusão física de que "o baixo está na direita e a voz na esquerda" porque o algoritmo biológico do nosso cérebro está sendo alimentado pela arquitetura de divisão de pacotes projetada por esse engenheiro britânico naquela noite de 1931.',
+          en: 'Blumlein was at the cinema with his wife and became irritated because the actor walked across the screen, but the voice always came from the same black hole in the middle of the stage. Audio until then was "Mono" (one continuous data stream). Blumlein realized that human hearing is a geolocation algorithm: we know where an object is because sound arrives milliseconds earlier in one ear than the other. He designed a complete hardware system (crossed microphones, split amplifiers and orthogonal matrix cutting) that could package the left and right data paths without collision, and unpack them into two synchronized loudspeakers.\n\nWhy does this belong in the IT Hall of Fame?\n\nBlumlein’s 1931 patent is the matrix design of all modern immersive media. He invented Multiplexing (squeezing multiple data channels into the same physical conduit) for psychoacoustics. Every virtual-reality headset, wireless earbud, modern cinema or Spotify music mix can create the physical illusion that "the bass is on the right and the voice is on the left" only because the biological algorithm of our brain is being fed by the packet-division architecture designed by this British engineer on that night in 1931.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1932,
+    era: {
+      pt: 'O "Disco Rígido" Primordial, a Primeira Internet de Texto e o "Debug" Intergaláctico',
+      en: 'The Primordial "Hard Disk", the First Text Internet and Intergalactic "Debugging"',
+    },
+    context: {
+      pt: 'Em 1932, a tecnologia da informação inventa o componente rotativo que se tornaria a memória principal dos primeiros computadores do mundo, inaugura a primeira rede global pública para roteamento de texto e, acidentalmente, intercepta dados vindos do centro da galáxia. Na Áustria, um engenheiro autodidata resolve o problema do armazenamento rápido acoplando a fita magnética a um cilindro de metal giratório, criando o ancestral absoluto do Disco Rígido (HD). Na Alemanha, o governo conecta as máquinas de escrever eletrônicas a um sistema de discagem pública, fundando a avó do e-mail e do SMS corporativo. E nos Estados Unidos, um engenheiro do Bell Labs construindo uma antena gigantesca para caçar bugs (interferências) na rede transatlântica de telefonia descobre que a estática no fio era, na verdade, a Via Láctea transmitindo dados invisíveis para a Terra. É o ano da Memória de Tambor, da rede TELEX e do nascimento da Radioastronomia.',
+      en: 'In 1932, information technology invents the rotating component that would become the main memory of the world’s first computers, inaugurates the first public global network for text routing and, accidentally, intercepts data coming from the center of the galaxy. In Austria, a self-taught engineer solves the problem of fast storage by coupling magnetic tape to a rotating metal cylinder, creating the absolute ancestor of the Hard Disk Drive (HDD). In Germany, the government connects electronic typewriters to a public dialing system, founding the grandmother of corporate email and SMS. And in the United States, a Bell Labs engineer building a giant antenna to hunt bugs (interference) in the transatlantic telephone network discovers that the static in the wire was, in fact, the Milky Way transmitting invisible data to Earth. It is the year of Drum Memory, the TELEX network and the birth of Radio Astronomy.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Gustav Tauschek',
+        imagePlaceholder: YEAR_1932_PLACEHOLDER,
+        flag: '🇦🇹',
+        nationality: { pt: 'Austríaco', en: 'Austrian' },
+        formation: {
+          pt: 'Um gênio autodidata que não possuía educação universitária formal, mas que já havia trabalhado otimizando as perfuradoras de cartão da IBM. Ele tinha uma obsessão singular: fazer a máquina "lembrar" das coisas mais rápido do que o papel permitia.',
+          en: 'A self-taught genius with no formal university education, but who had already worked optimizing IBM card punch machines. He had a singular obsession: making the machine "remember" things faster than paper allowed.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1932 a Memória de Tambor Magnético (Magnetic Drum Memory), um cilindro de metal maciço revestido com material ferromagnético que girava em alta velocidade, acompanhado por uma fileira de "cabeças" elétricas que podiam ler e gravar dados em sua superfície.',
+          en: 'Invented and patented Magnetic Drum Memory in 1932, a solid metal cylinder coated with ferromagnetic material that rotated at high speed, accompanied by a row of electrical "heads" that could read and write data on its surface.',
+        },
+        role: {
+          pt: 'Inventor da memória de tambor magnético',
+          en: 'Inventor of magnetic drum memory',
+        },
+        contribution: {
+          pt: 'Em 1932, Tauschek construiu a primeira "Memória RAM" de acesso rápido e massa da história da computação.',
+          en: 'In 1932, Tauschek built the first fast-access mass "RAM Memory" in computing history.',
+        },
+        detail: {
+          pt: 'A fita magnética de Fritz Pfleumer (1928) era ótima, mas tinha um defeito terrível para processamento: o acesso era sequencial (para achar um dado no final da fita, você tinha que rebobinar tudo). Tauschek resolveu isso usando um cilindro. Ao girar o cilindro de metal magnético sob múltiplas agulhas leitoras estáticas, o computador só precisava esperar uma fração de segundo até que o "setor" certo do cilindro passasse sob a agulha correta. A máquina agora tinha acesso direto e quase instantâneo aos dados matemáticos que precisava calcular.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Tambor de Tauschek definiu a arquitetura do armazenamento pelas próximas três décadas. Quando os primeiros grandes computadores eletrônicos comerciais nasceram nos anos 1950, eles não usavam chips de silício para a memória principal; eles usavam esses enormes tambores magnéticos giratórios que zumbiam como motores de avião. Mais criticamente: a lógica mecânica de um prato coberto de magnetismo girando sob uma cabeça de leitura/gravação é a exata fundação arquitetônica do Hard Disk Drive (HDD) mecânico que guardou os dados de quase todos os computadores do planeta até a chegada dos SSDs recentes.',
+          en: 'Fritz Pfleumer’s magnetic tape (1928) was excellent, but it had a terrible defect for processing: access was sequential (to find data at the end of the tape, you had to rewind everything). Tauschek solved this by using a cylinder. By rotating the magnetic metal cylinder under multiple static reader needles, the computer only needed to wait a fraction of a second until the right "sector" of the cylinder passed under the correct needle. The machine now had direct and almost instant access to the mathematical data it needed to calculate.\n\nWhy does this belong in the IT Hall of Fame?\n\nTauschek’s Drum defined storage architecture for the next three decades. When the first large commercial electronic computers were born in the 1950s, they did not use silicon chips for main memory; they used these huge spinning magnetic drums that buzzed like airplane engines. More critically: the mechanical logic of a magnetism-covered platter spinning under a read/write head is the exact architectural foundation of the mechanical Hard Disk Drive (HDD) that stored the data of almost every computer on the planet until the recent arrival of SSDs.',
+        },
+      },
+      {
+        name: 'Reichspost (O serviço postal e de telecomunicações alemão)',
+        imagePlaceholder: YEAR_1932_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemães', en: 'Germans' },
+        formation: {
+          pt: 'Os burocratas e engenheiros de infraestrutura de rede da República de Weimar, encarregados de modernizar a velocidade com que o Estado e as corporações industriais trocavam documentos legais.',
+          en: 'The network-infrastructure bureaucrats and engineers of the Weimar Republic, tasked with modernizing the speed at which the state and industrial corporations exchanged legal documents.',
+        },
+        summary: {
+          pt: 'Inauguraram publicamente em 1932 o serviço TELEX (Teleprinter Exchange), a primeira rede pública comutada (com discagem direta) do mundo voltada exclusivamente para a transmissão de dados de texto entre usuários finais comerciais.',
+          en: 'Publicly inaugurated the TELEX (Teleprinter Exchange) service in 1932, the world’s first public switched network (with direct dialing) dedicated exclusively to text-data transmission between commercial end users.',
+        },
+        role: {
+          pt: 'Operadores da primeira rede pública TELEX',
+          en: 'Operators of the first public TELEX network',
+        },
+        contribution: {
+          pt: 'Em 1932, a TI lançou o Deploy comercial da primeira "Wide Area Network" (WAN) de texto da história.',
+          en: 'In 1932, IT launched the commercial deploy of the first text "Wide Area Network" (WAN) in history.',
+        },
+        detail: {
+          pt: 'Até 1932, as redes de teleimpressoras (teletipos) existiam, mas eram como linhas privadas: você alugava um fio que ia do ponto A diretamente ao ponto B, ou precisava de um operador humano nos correios para repassar a mensagem. A rede TELEX automatizou o roteamento de texto. Eles colocaram um disco de telefone ao lado da máquina de escrever. O usuário discava um "endereço" (número do cliente), a central mecânica conectava os fios automaticamente, e tudo o que você digitasse no teclado na Alemanha aparecia digitado na folha de papel do escritório em outro país, operando a impressionantes (para a época) 50 bauds (cerca de 66 palavras por minuto).\n\nPor que isso entra no Hall da Fama da TI?\n\nO TELEX foi o primeiro serviço de mensagens instantâneas e a primeira "Internet" não-vocal corporativa. Ele estabeleceu protocolos globais de dados rigorosos (o alfabeto de código Baudot de 5 bits) que permitiam que máquinas de fabricantes diferentes "conversassem" perfeitamente. Nas décadas seguintes, essa rede cobriria o globo e seria a infraestrutura central de todos os bancos, agências de notícias e governos durante a Guerra Fria. Muito antes do protocolo TCP/IP e do e-mail nascerem, o mundo digital das comunicações instantâneas escritas operava exclusivamente sob a arquitetura do TELEX de 1932.',
+          en: 'Until 1932, teleprinter networks existed, but they were like private lines: you rented a wire that went directly from point A to point B, or you needed a human operator at the post office to relay the message. The TELEX network automated text routing. They placed a telephone dial beside the typewriter. The user dialed an "address" (the customer number), the mechanical exchange connected the wires automatically, and everything typed on the keyboard in Germany appeared typed on a sheet of paper in an office in another country, operating at an impressive, for the time, 50 bauds (about 66 words per minute).\n\nWhy does this belong in the IT Hall of Fame?\n\nTELEX was the first instant-messaging service and the first corporate non-voice "Internet". It established strict global data protocols (the 5-bit Baudot code alphabet) that allowed machines from different manufacturers to "talk" perfectly. In the following decades, this network would cover the globe and become the central infrastructure of every bank, news agency and government during the Cold War. Long before TCP/IP and email were born, the digital world of instant written communications operated exclusively under the architecture of the 1932 TELEX.',
+        },
+      },
+      {
+        name: 'Karl Guthe Jansky',
+        imagePlaceholder: YEAR_1932_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Físico e engenheiro de rádio do implacável Bell Labs. Sua missão oficial era atuar essencialmente como um caçador de bugs de TI de altíssimo nível (SysAdmin): descobrir o que estava causando estática (ruído de fundo) no canal de voz das linhas telefônicas transatlânticas recém-inauguradas.',
+          en: 'Physicist and radio engineer at the relentless Bell Labs. His official mission was essentially to act as a very high-level IT bug hunter (SysAdmin): discover what was causing static (background noise) in the voice channel of the newly inaugurated transatlantic telephone lines.',
+        },
+        summary: {
+          pt: 'Construiu uma antena direcional gigantesca de 30 metros montada sobre rodas de um carro Ford Model T (o "Carrossel de Jansky") e descobriu, em agosto de 1932, que uma interferência rítmica inexplicável a 20.5 MHz vinha exatamente da constelação de Sagitário, no centro da Via Láctea.',
+          en: 'Built a giant 30-meter directional antenna mounted on Ford Model T wheels (the "Jansky Carousel") and discovered, in August 1932, that an inexplicable rhythmic interference at 20.5 MHz came precisely from the constellation Sagittarius, at the center of the Milky Way.',
+        },
+        role: {
+          pt: 'Fundador da radioastronomia',
+          en: 'Founder of radio astronomy',
+        },
+        contribution: {
+          pt: 'Em 1932, uma investigação de falha de rede de telecomunicação provou que antenas atuam como sensores de dados cósmicos, fundando a astrofísica computacional.',
+          en: 'In 1932, a telecommunications network-failure investigation proved that antennas act as cosmic-data sensors, founding computational astrophysics.',
+        },
+        detail: {
+          pt: 'Jansky rastreou as estáticas do rádio por meses. Ele descobriu duas fáceis: tempestades elétricas próximas e tempestades distantes. Mas havia um terceiro ruído, um chiado fraco e constante. Ao girar a antena e anotar os horários diariamente, ele percebeu que o pico de interferência se adiantava 4 minutos a cada dia. Sendo físico, ele reconheceu o número: 4 minutos é a diferença entre um dia solar (rotina do sol) e um dia sideral (rotina das estrelas). O sinal não vinha da atmosfera da Terra e nem do Sol; vinha das profundezas da nossa galáxia. A estrela emitia fótons invisíveis gigantescos (ondas de rádio) que estavam "batendo" no hardware da AT&T.\n\nPor que isso entra no Hall da Fama da TI?\n\nO "debug" de Jansky em 1932 criou uma disciplina científica inteira do zero: a Radioastronomia. Ele provou que a tecnologia de informação eletromagnética construída para os seres humanos (as antenas super-heteródinas de Armstrong e os receptores de altíssima sensibilidade) era capaz de baixar o "log de dados" mais antigo do universo. Sem essa descoberta e a validação desse hardware de escuta profunda, não teríamos hoje a Deep Space Network da NASA (que usa antenas de rádio para conversar com sondas fora do sistema solar) nem a imagem recente do Buraco Negro supermassivo roteada para os nossos monitores. Tudo começou como um "defeito" na linha telefônica.',
+          en: 'Jansky tracked radio static for months. He discovered two easy sources: nearby electrical storms and distant storms. But there was a third noise, a weak and constant hiss. By rotating the antenna and noting the times daily, he realized that the interference peak moved 4 minutes earlier each day. As a physicist, he recognized the number: 4 minutes is the difference between a solar day (the sun’s routine) and a sidereal day (the stars’ routine). The signal did not come from Earth’s atmosphere or from the Sun; it came from the depths of our galaxy. The star emitted gigantic invisible photons (radio waves) that were "hitting" AT&T’s hardware.\n\nWhy does this belong in the IT Hall of Fame?\n\nJansky’s 1932 "debugging" created an entire scientific discipline from zero: Radio Astronomy. He proved that the electromagnetic information technology built for human beings (Armstrong’s superheterodyne antennas and ultra-sensitive receivers) was capable of downloading the oldest "data log" in the universe. Without this discovery and the validation of this deep-listening hardware, today we would not have NASA’s Deep Space Network (which uses radio antennas to talk to probes outside the solar system) or the recent image of the supermassive Black Hole routed to our monitors. It all began as a "defect" in the telephone line.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1933,
+    era: {
+      pt: 'O Fim da Estática, o Primeiro "Cluster" de Computadores e a Execução Remota de Hardware',
+      en: 'The End of Static, the First Computer "Cluster" and Remote Hardware Execution',
+    },
+    context: {
+      pt: 'Em 1933, a tecnologia da informação reescreve as leis de como codificar dados no ar para torná-los imunes a "bugs", interliga máquinas contábeis para criar a primeira rede local de processamento contínuo e automatiza fisicamente as fábricas de notícias à distância. Nos Estados Unidos, o maior gênio do rádio descobre que, se você parar de alterar a força da onda e começar a alterar a velocidade dela, o ruído atmosférico desaparece, patenteando o rádio FM. Na Universidade de Columbia, um astrônomo frustrado com o trabalho manual constrói um "painel roteador" que obriga várias máquinas da IBM a trabalharem juntas em um loop, criando o primeiro cluster de processamento automatizado. E na indústria jornalística, o telégrafo deixa de apenas imprimir letras e passa a controlar robôs gigantes de chumbo derretido, inaugurando a era em que um teclado em Nova York operava maquinário pesado na Califórnia via fita perfurada. É o ano da Invenção do FM, do Control Switch de Eckert e do Teletypesetter (TTS).',
+      en: 'In 1933, information technology rewrites the laws of how to encode data in the air to make it immune to "bugs", interconnects accounting machines to create the first local network of continuous processing and physically automates news factories at a distance. In the United States, radio’s greatest genius discovers that if you stop changing the strength of the wave and start changing its speed, atmospheric noise disappears, patenting FM radio. At Columbia University, an astronomer frustrated with manual labor builds a "router panel" that forces several IBM machines to work together in a loop, creating the first automated processing cluster. And in the newspaper industry, the telegraph stops merely printing letters and starts controlling giant robots of molten lead, inaugurating the era in which a keyboard in New York operated heavy machinery in California through punched tape. It is the year of the invention of FM, Eckert’s Control Switch and the Teletypesetter (TTS).',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Edwin Howard Armstrong',
+        imagePlaceholder: YEAR_1933_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'O gênio indiscutível da engenharia de rádio (que já havia inventado o circuito super-heteródino em 1918). Armstrong passou quase uma década trancado nos porões da Universidade de Columbia tentando resolver um problema que o Bell Labs e a RCA diziam ser impossível: a eliminação matemática da estática.',
+          en: 'The undisputed genius of radio engineering (who had already invented the superheterodyne circuit in 1918). Armstrong spent almost a decade locked in Columbia University’s basements trying to solve a problem Bell Labs and RCA said was impossible: the mathematical elimination of static.',
+        },
+        summary: {
+          pt: 'Submeteu em dezembro de 1933 as quatro patentes fundamentais do Rádio FM (Modulação em Frequência de Banda Larga), um protocolo de transmissão completamente novo que eliminava 99% da interferência atmosférica e entregava áudio de altíssima fidelidade.',
+          en: 'Submitted in December 1933 the four fundamental patents for FM Radio (Wideband Frequency Modulation), a completely new transmission protocol that eliminated 99% of atmospheric interference and delivered very high-fidelity audio.',
+        },
+        role: {
+          pt: 'Inventor do rádio FM',
+          en: 'Inventor of FM radio',
+        },
+        contribution: {
+          pt: 'Em 1933, a TI mudou o paradigma de codificação do broadcasting: em vez de alterar a amplitude da onda (AM), os dados passaram a ser gravados na variação de espaço entre as ondas (FM).',
+          en: 'In 1933, IT changed the encoding paradigm of broadcasting: instead of altering the wave’s amplitude (AM), data began to be recorded in the variation of space between waves (FM).',
+        },
+        detail: {
+          pt: 'O rádio AM enviava dados aumentando e diminuindo a altura (potência) da onda. O problema: um relâmpago, o motor de um carro ou a poeira cósmica também criavam "picos" de energia, e a máquina misturava isso com a música. Armstrong quebrou a regra. Ele manteve a altura da onda sempre igual e começou a "espremer e esticar" a onda na horizontal (frequência). A estática do ambiente atingia a onda e amassava a altura dela, mas quando o rádio FM recebia o pacote, ele ignorava a altura (que estava suja) e lia apenas o espaçamento horizontal (que estava limpo e intacto).\n\nPor que isso entra no Hall da Fama da TI?\n\nO FM (Wideband Frequency Modulation) é o maior triunfo de Data Integrity (Integridade de Dados) em ambientes não guiados do início do século XX. O AM era vulnerável porque o ruído se misturava ao dado. O algoritmo de Armstrong blindou os dados contra a natureza. Essa exata técnica de codificar informação variando frequências não apenas nos deu o som estéreo de alta fidelidade nas rádios modernas, mas é a base arquitetônica de como as transmissões de televisão de alta qualidade e certas redes de micro-ondas entregam fluxos massivos de informação limpa aos nossos gadgets até os dias de hoje.',
+          en: 'AM radio sent data by increasing and decreasing the height (power) of the wave. The problem: lightning, a car engine or cosmic dust also created energy "spikes", and the machine mixed that with the music. Armstrong broke the rule. He kept the wave height always the same and started to "squeeze and stretch" the wave horizontally (frequency). Environmental static hit the wave and crushed its height, but when the FM radio received the packet, it ignored the height (which was dirty) and read only the horizontal spacing (which was clean and intact).\n\nWhy does this belong in the IT Hall of Fame?\n\nFM (Wideband Frequency Modulation) is the greatest triumph of Data Integrity in unguided environments in the early twentieth century. AM was vulnerable because noise mixed with the data. Armstrong’s algorithm shielded data against nature. This exact technique of encoding information by varying frequencies not only gave us high-fidelity stereo sound on modern radio, but is also the architectural basis for how high-quality television transmissions and certain microwave networks deliver massive streams of clean information to our gadgets to this day.',
+        },
+      },
+      {
+        name: 'Wallace J. Eckert (com maquinário IBM)',
+        imagePlaceholder: YEAR_1933_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Astrônomo e professor da Universidade de Columbia. Eckert estava tentando calcular a órbita de asteroides e da Lua, uma matemática tão pesada que seria impossível fazer à mão. Ele alugou o melhor equipamento corporativo da época, mas percebeu que humanos carregando pilhas de cartões entre máquinas eram um gargalo de throughput.',
+          en: 'Astronomer and professor at Columbia University. Eckert was trying to calculate the orbits of asteroids and the Moon, mathematics so heavy that it would be impossible to do by hand. He rented the best corporate equipment of the time, but realized that humans carrying stacks of cards between machines were a throughput bottleneck.',
+        },
+        summary: {
+          pt: 'Criou e implementou em 1933 um laboratório inovador onde projetou um Control Switch (Interruptor de Controle) — um painel mecânico cheio de cabos que conectou fisicamente um Tabulador, uma Multiplicadora e uma Perfuradora de Cartões da IBM, forçando-os a rodar sincronizados.',
+          en: 'Created and implemented in 1933 an innovative laboratory where he designed a Control Switch: a mechanical panel full of cables that physically connected an IBM Tabulator, Multiplier and Card Punch, forcing them to run synchronized.',
+        },
+        role: {
+          pt: 'Criador do primeiro cluster automatizado com máquinas IBM',
+          en: 'Creator of the first automated cluster using IBM machines',
+        },
+        contribution: {
+          pt: 'Em 1933, a TI criou a "Arquitetura de Barramento" (Bus), conectando hardwares isolados em um Cluster que processava loops de dados sem interferência biológica.',
+          en: 'In 1933, IT created the "Bus Architecture", connecting isolated hardware into a Cluster that processed data loops without biological interference.',
+        },
+        detail: {
+          pt: 'Antes de Eckert, a computação da IBM funcionava assim: a Máquina A multiplicava, cuspia os cartões; um humano pegava os cartões, andava até a Máquina B para somar; o humano pegava o resultado e levava à Máquina C para imprimir. Eckert construiu um cérebro elétrico central de cabos. Quando a multiplicadora terminava de calcular a equação orbital, o fio enviava o dado direto para a tabuladora, que por sua vez acionava a perfuradora. Ele automatizou o Pipelining de dados. A máquina resolveu equações diferenciais sozinha e sem interrupções por dias.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta foi a primeira transição do "processamento em lote isolado" para o Processamento Integrado de Sistemas. Thomas J. Watson, o presidente da IBM, ficou tão maravilhado com a gambiarra genial de Eckert que fundou no local o Thomas J. Watson Astronomical Computing Bureau. Eckert provou às corporações que o valor real da tecnologia não estava nas máquinas individuais, mas em como você roteava eletricamente as informações entre elas. É o precursor mecânico absoluto dos clusters de servidores em nuvem que empurram dados de uma CPU para outra em tempo real hoje.',
+          en: 'Before Eckert, IBM computing worked like this: Machine A multiplied, spat out the cards; a human picked up the cards and walked to Machine B to add; the human took the result and carried it to Machine C to print. Eckert built a central electrical brain of cables. When the multiplier finished calculating the orbital equation, the wire sent the data directly to the tabulator, which in turn triggered the punch. He automated data Pipelining. The machine solved differential equations by itself and without interruptions for days.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the first transition from "isolated batch processing" to Integrated Systems Processing. Thomas J. Watson, IBM’s president, was so amazed by Eckert’s brilliant hack that he founded the Thomas J. Watson Astronomical Computing Bureau on the site. Eckert proved to corporations that the real value of technology was not in individual machines, but in how you electrically routed information between them. It is the absolute mechanical precursor of today’s cloud server clusters that push data from one CPU to another in real time.',
+        },
+      },
+      {
+        name: 'Walter Morey (Apoiado por Frank Gannett) e Morkrum-Kleinschmidt Co.',
+        imagePlaceholder: YEAR_1933_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Morey era um inventor e operador de monotipo, e Gannett era dono de uma grande cadeia de jornais tentando esmagar o tempo de latência entre as agências de notícias e a gráfica.',
+          en: 'Morey was an inventor and monotype operator, and Gannett owned a large newspaper chain trying to crush the latency between news agencies and the printing plant.',
+        },
+        summary: {
+          pt: 'Iniciaram a adoção e o deploy em larga escala em 1933 do sistema Teletypesetter (TTS). O sistema permitia que um operador de teclado em Nova York produzisse uma fita de papel perfurada com dados que era transmitida por fio de cobre e controlava automaticamente as gigantescas máquinas de fundição de chumbo (Linotypes) em outras cidades.',
+          en: 'Began the large-scale adoption and deploy in 1933 of the Teletypesetter (TTS) system. The system allowed a keyboard operator in New York to produce a punched paper tape with data that was transmitted over copper wire and automatically controlled giant lead-casting machines (Linotypes) in other cities.',
+        },
+        role: {
+          pt: 'Pioneiros do Teletypesetter e da execução remota de hardware',
+          en: 'Pioneers of Teletypesetter and remote hardware execution',
+        },
+        contribution: {
+          pt: 'Em 1933, a TI inventou a "Execução Remota de Código Baseado em Física", onde os dados transmitidos não eram apenas lidos, eles ligavam e desligavam motores.',
+          en: 'In 1933, IT invented "Remote Execution of Physics-Based Code", where transmitted data was not merely read; it turned motors on and off.',
+        },
+        detail: {
+          pt: 'O telégrafo e o Telex (1932) apenas imprimiam letras em um papel plano. O processo de um jornal era ler esse papel e colocar dezenas de homens derretendo e alinhando blocos de chumbo para fazer a chapa de impressão. O sistema TTS pulou o humano. O código perfurado não tinha apenas as letras "A, B, C", mas também comandos físicos (equivalentes ao HTML ou CSS primitivo) como "justificar à direita", "pular linha" e "despejar chumbo". Quando o código chegava via rede na máquina Linotype, relés elétricos liam a fita e ativavam braços mecânicos, forçando a fábrica a imprimir o jornal como um robô autônomo operado remotamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o tataravô da Automação de Infraestrutura (Infrastructure as Code) e da Internet das Coisas (IoT) pesada. O Teletypesetter validou comercialmente que as redes de telecomunicação podiam ser usadas como um "controle remoto" para equipamentos industriais complexos. Ele separou fisicamente a criação do software (o jornalista escrevendo a fita em Nova York) da compilação e renderização do hardware (a fábrica de impressão na Califórnia trabalhando sem operadores manuais). Um princípio logístico que hoje usamos para controlar fábricas automatizadas pelo mundo todo com servidores na nuvem.',
+          en: 'The telegraph and Telex (1932) only printed letters on flat paper. A newspaper’s process was to read that paper and put dozens of men to work melting and aligning lead blocks to make the printing plate. The TTS system skipped the human. The punched code had not only the letters "A, B, C", but also physical commands (equivalent to primitive HTML or CSS) such as "justify right", "line break" and "pour lead". When the code arrived through the network at the Linotype machine, electrical relays read the tape and activated mechanical arms, forcing the factory to print the newspaper like an autonomous robot operated remotely.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the great-great-grandfather of Infrastructure Automation (Infrastructure as Code) and heavy Internet of Things (IoT). The Teletypesetter commercially validated that telecommunications networks could be used as a "remote control" for complex industrial equipment. It physically separated software creation (the journalist writing the tape in New York) from hardware compilation and rendering (the printing plant in California working without manual operators). It is a logistical principle we now use to control automated factories all over the world with cloud servers.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1934,
+    era: {
+      pt: 'A Regulação Global da Rede, a Concepção do PC Binário e o Roteamento Espacial Autônomo',
+      en: 'Global Network Regulation, the Conception of the Binary PC and Autonomous Spatial Routing',
+    },
+    context: {
+      pt: 'Em 1934, a tecnologia da informação atinge uma escala tão massiva que os governos percebem que o espectro invisível de dados é o território mais valioso do planeta. Em Washington, o governo americano consolida o monopólio e o controle das telecomunicações em uma única agência federal poderosa, criando as leis de tráfego que, décadas depois, ditariam as regras da própria Internet. Na Alemanha, um jovem engenheiro civil frustrado com cálculos estruturais intermináveis tem uma epifania de design: ele decide abandonar a matemática decimal humana e desenha os primeiros esboços de um computador mecânico baseado puramente em código binário (zeros e uns), plantando a semente da arquitetura da CPU moderna. E nos céus noturnos da Europa, sistemas de rádio avançados começam a transmitir feixes de dados contínuos para o painel de aviões, permitindo que pilotos pousem no escuro total apenas lendo os "pacotes" de frequência, validando o conceito de telemetria e navegação autônoma. É o ano da fundação da FCC, da concepção do computador Z1 e do Sistema de Pouso Cego.',
+      en: 'In 1934, information technology reaches such massive scale that governments realize the invisible data spectrum is the most valuable territory on the planet. In Washington, the American government consolidates the monopoly and control of telecommunications into a single powerful federal agency, creating the traffic laws that, decades later, would dictate the rules of the Internet itself. In Germany, a young civil engineer frustrated with endless structural calculations has a design epiphany: he decides to abandon human decimal mathematics and sketches the first outlines of a mechanical computer based purely on binary code (zeros and ones), planting the seed of modern CPU architecture. And in Europe’s night skies, advanced radio systems begin transmitting continuous data beams to aircraft panels, allowing pilots to land in total darkness by reading frequency "packets", validating the concept of telemetry and autonomous navigation. It is the year of the FCC’s founding, the conception of the Z1 computer and the Blind Landing System.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Congresso dos EUA e Presidente Franklin D. Roosevelt',
+        imagePlaceholder: YEAR_1934_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Legisladores lidando com o caos absoluto. Até este ponto, as frequências de rádio e as linhas de telégrafo/telefone eram uma selva corporativa (uma "Deep Web" analógica) onde emissoras invadiam o sinal umas das outras e monopólios sufocavam a inovação.',
+          en: 'Legislators dealing with absolute chaos. Until this point, radio frequencies and telegraph/telephone lines were a corporate jungle (an analog "Deep Web") where broadcasters invaded each other’s signals and monopolies suffocated innovation.',
+        },
+        summary: {
+          pt: 'Aprovaram o Communications Act of 1934, abolindo a antiga Comissão Federal de Rádio e criando a todo-poderosa FCC (Federal Communications Commission), a agência governamental encarregada de regular todas as comunicações interestaduais e internacionais por rádio, televisão, fios, cabos e satélites.',
+          en: 'Passed the Communications Act of 1934, abolishing the old Federal Radio Commission and creating the all-powerful FCC (Federal Communications Commission), the government agency charged with regulating all interstate and international communications by radio, television, wires, cables and satellites.',
+        },
+        role: {
+          pt: 'Criadores da FCC e da governança moderna de telecomunicações',
+          en: 'Creators of the FCC and modern telecommunications governance',
+        },
+        contribution: {
+          pt: 'Em 1934, a TI ganhou seu "SysAdmin" Legal, implementando o controle centralizado sobre quem tem permissão de rotear dados no espaço físico.',
+          en: 'In 1934, IT gained its Legal "SysAdmin", implementing centralized control over who is allowed to route data through physical space.',
+        },
+        detail: {
+          pt: 'O ar invisível e os fios enterrados no chão passaram a ser considerados "Bens Públicos". A FCC estabeleceu a arquitetura jurídica da infraestrutura de rede: para transmitir dados (seja uma rádio comercial ou um sinal de emergência), você precisava de um "endereço IP/Frequência" oficial alocado e licenciado pelo Estado. Eles padronizaram as larguras de banda, definiram frequências de emergência e forçaram a AT&T a operar sob a premissa de um monopólio regulado (eles podiam ser os únicos donos dos fios, mas o governo ditaria os preços e o acesso universal).\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a criação da FCC (cujo modelo foi copiado por agências globais como a Anatel no Brasil), o espectro eletromagnético teria colapsado sob o peso da interferência mútua, impossibilitando o Wi-Fi, o 5G ou o Bluetooth. Mais importante: foi esta exata legislação de 1934 que estabeleceu o conceito embrionário de "Common Carrier" (Transportador Comum), a doutrina jurídica de que empresas de telefonia não podiam discriminar o conteúdo que trafegava em seus fios. Esta é a raiz legal exata da famosa batalha da Neutralidade da Rede (Net Neutrality) que define a Internet livre hoje.',
+          en: 'The invisible air and the wires buried in the ground came to be considered "Public Goods". The FCC established the legal architecture of network infrastructure: to transmit data (whether a commercial radio station or an emergency signal), you needed an official "IP Address/Frequency" allocated and licensed by the State. They standardized bandwidths, defined emergency frequencies and forced AT&T to operate under the premise of a regulated monopoly (they could be the only owners of the wires, but the government would dictate prices and universal access).\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout the creation of the FCC (whose model was copied by global agencies such as Anatel in Brazil), the electromagnetic spectrum would have collapsed under mutual interference, making Wi-Fi, 5G or Bluetooth impossible. More importantly: this exact 1934 legislation established the embryonic concept of "Common Carrier", the legal doctrine that telephone companies could not discriminate against the content traveling through their wires. This is the exact legal root of the famous Net Neutrality battle that defines the free Internet today.',
+        },
+      },
+      {
+        name: 'Konrad Zuse',
+        imagePlaceholder: YEAR_1934_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Estudante de engenharia civil em Berlim. Zuse odiava o trabalho braçal de resolver sistemas complexos de equações lineares para determinar a resistência estrutural de pontes e telhados. Ele queria automatizar a inteligência.',
+          en: 'Civil engineering student in Berlin. Zuse hated the manual labor of solving complex systems of linear equations to determine the structural strength of bridges and roofs. He wanted to automate intelligence.',
+        },
+        summary: {
+          pt: 'Em 1934, Zuse começou a rascunhar e conceituar ativamente a arquitetura do que viria a ser o Z1, o primeiro computador programável do mundo. Sua decisão arquitetônica mais brilhante ocorreu neste ano: ele rejeitou a matemática decimal (0 a 9) usada pelas calculadoras mecânicas da época e decidiu que sua máquina operaria exclusivamente em sistema binário e com a lógica booleana (Verdadeiro/Falso).',
+          en: 'In 1934, Zuse began actively sketching and conceptualizing the architecture of what would become the Z1, the world’s first programmable computer. His most brilliant architectural decision happened that year: he rejected the decimal mathematics (0 to 9) used by the mechanical calculators of the time and decided that his machine would operate exclusively in binary system and with Boolean logic (True/False).',
+        },
+        role: {
+          pt: 'Conceptor da arquitetura binária do Z1',
+          en: 'Conceiver of the Z1 binary architecture',
+        },
+        contribution: {
+          pt: 'Em 1934, Zuse escreveu a fundação do Assembly de Hardware: todas as informações, de números a lógica, seriam reduzidas a interruptores de "Ligado" (1) e "Desligado" (0).',
+          en: 'In 1934, Zuse wrote the foundation of Hardware Assembly: all information, from numbers to logic, would be reduced to "On" (1) and "Off" (0) switches.',
+        },
+        detail: {
+          pt: 'As tabuladoras da IBM e o Analisador de Bush (1930) usavam engrenagens com 10 dentes para representar números de 0 a 9. Isso exigia um maquinário complexo e vulnerável a erros mecânicos. Zuse percebeu que, se você usasse a lógica do matemático George Boole, você só precisaria de duas posições. Uma haste de metal empurrada para a frente é "1", puxada para trás é "0". Essa simplificação brutal permitiu que ele desenhasse portas lógicas (AND, OR, NOT) puramente mecânicas, criando uma CPU primitiva que podia executar qualquer código matemático apenas deslizando finas chapas de metal.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o "ponto de inflexão" onde a humanidade descobriu o idioma nativo dos computadores. Embora a máquina Z1 só tenha ficado pronta anos depois (e operasse de forma não confiável na sala da casa dos pais de Zuse), a decisão arquitetônica tomada em 1934 de fundir a aritmética com a lógica binária é o coração batendo dentro da tecnologia moderna. Todo software que você usa, toda foto que tira e toda IA com a qual conversa é, no nível de silício mais profundo, apenas a execução da matemática de bilhões de interruptores ligados e desligados, exatamente como Zuse conceituou neste ano.',
+          en: 'IBM tabulators and Bush’s Analyzer (1930) used gears with 10 teeth to represent numbers from 0 to 9. This required complex machinery vulnerable to mechanical errors. Zuse realized that if you used the logic of mathematician George Boole, you would only need two positions. A metal rod pushed forward is "1"; pulled backward is "0". This brutal simplification allowed him to design purely mechanical logic gates (AND, OR, NOT), creating a primitive CPU that could execute any mathematical code simply by sliding thin metal plates.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the "inflection point" where humanity discovered the native language of computers. Although the Z1 machine would only be finished years later (and operated unreliably in the living room of Zuse’s parents’ house), the architectural decision made in 1934 to fuse arithmetic with binary logic is the beating heart inside modern technology. Every piece of software you use, every photo you take and every AI you talk to is, at the deepest silicon level, only the execution of the mathematics of billions of switches turned on and off, exactly as Zuse conceived it this year.',
+        },
+      },
+      {
+        name: 'Ernst Kramar e a empresa C. Lorenz AG',
+        imagePlaceholder: YEAR_1934_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemães', en: 'Germans' },
+        formation: {
+          pt: 'A Lorenz era uma potência na fabricação de teletipos (como o sistema do TELEX de 1932). Sob a liderança técnica de Kramar, eles aplicaram os conceitos de transmissão de código Morse de altíssima precisão à navegação aérea espacial.',
+          en: 'Lorenz was a powerhouse in teleprinter manufacturing (like the 1932 TELEX system). Under Kramar’s technical leadership, they applied the concepts of ultra-precise Morse-code transmission to spatial air navigation.',
+        },
+        summary: {
+          pt: 'Patenteou e começou a implementar em 1934 o "Feixe de Lorenz" (Lorenz beam ou Lorenz blind-landing system), um dos primeiros e mais eficazes Sistemas de Pouso por Instrumentos (ILS) baseados em rádio, que permitia aos pilotos alinhar a aeronave e descer para a pista em condições de visibilidade zero.',
+          en: 'Patented and began implementing in 1934 the "Lorenz Beam" (Lorenz blind-landing system), one of the first and most effective radio-based Instrument Landing Systems (ILS), which allowed pilots to align the aircraft and descend to the runway in zero-visibility conditions.',
+        },
+        role: {
+          pt: 'Pioneiros do sistema de pouso cego por rádio',
+          en: 'Pioneers of radio blind-landing systems',
+        },
+        contribution: {
+          pt: 'Em 1934, a TI inventou a "Interface Homem-Máquina para Telemetria de Espaço 3D", usando a rede wireless para controlar trajetórias físicas de altíssimo risco.',
+          en: 'In 1934, IT invented the "Human-Machine Interface for 3D Space Telemetry", using the wireless network to control extremely high-risk physical trajectories.',
+        },
+        detail: {
+          pt: 'Até então, se houvesse neblina, o avião não descia. O sistema Lorenz funcionava como um "farol de dados" invisível. Eles colocaram um transmissor no final da pista que atirava dois lóbulos de rádio sobrepostos. O lóbulo da esquerda atirava um pacote contínuo de código Morse da letra "E" (um ponto curto). O da direita atirava a letra "T" (um traço longo). Onde os dois lóbulos se cruzavam perfeitamente no centro da pista, o ponto e o traço se fundiam num bipe sólido e contínuo. O piloto não olhava para fora; ele ouvia o fone. Se ouvisse pontinhos (E), estava torto para a esquerda; se ouvisse traços (T), estava torto para a direita; bipe contínuo = acelerar e descer.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste é o tataravô do Roteamento de Veículos Autônomos e do GPS logístico. O sistema Lorenz de 1934 provou que um fluxo de dados eletromagnético contínuo era mais confiável para coordenar objetos em movimento no espaço físico do que os olhos humanos. Essa arquitetura de usar interferência e sobreposição de pacotes de rádio para guiar máquinas em tempo real é a exata lógica usada hoje por satélites de geolocalização e pelos sistemas ILS computadorizados modernos que assumem o controle do piloto automático do seu voo comercial em dias de chuva pesada.',
+          en: 'Until then, if there was fog, the airplane did not descend. The Lorenz system worked like an invisible "data beacon". They placed a transmitter at the end of the runway that fired two overlapping radio lobes. The left lobe fired a continuous Morse-code packet of the letter "E" (a short dot). The right fired the letter "T" (a long dash). Where the two lobes crossed perfectly in the center of the runway, the dot and dash merged into a solid continuous beep. The pilot did not look outside; he listened through the headset. If he heard dots (E), he was off to the left; if he heard dashes (T), he was off to the right; continuous beep = accelerate and descend.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the great-great-grandfather of Autonomous Vehicle Routing and logistical GPS. The 1934 Lorenz system proved that a continuous electromagnetic data stream was more reliable for coordinating moving objects in physical space than human eyes. This architecture of using interference and overlapping radio packets to guide machines in real time is the exact logic used today by geolocation satellites and by modern computerized ILS systems that take control of your commercial flight’s autopilot on days of heavy rain.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1935,
+    era: {
+      pt: 'O Primeiro "Ping" Global, o Hardware Antivírus/Hacker e o Sensor Físico Definitivo (RADAR)',
+      en: 'The First Global "Ping", Antivirus/Hacker Hardware and the Definitive Physical Sensor (RADAR)',
+    },
+    context: {
+      pt: 'Em 1935, a tecnologia da informação constrói as ferramentas que a preparariam para o cataclismo da Segunda Guerra Mundial, descobrindo como enxergar através das nuvens, como quebrar a criptografia militar usando força bruta automatizada e como rotear um pacote de dados dando uma volta completa na circunferência do planeta. No interior da Inglaterra, um físico comprova que ondas de rádio podem atuar como olhos, inventando o "sonar do ar" que varreria os céus do mundo moderno. Na Polônia, um matemático genial farto de fazer cálculos à mão junta partes de máquinas alemãs para criar o primeiro grande hardware focado exclusivamente em quebrar senhas, inaugurando o ciberataque industrializado. E nos escritórios de Nova York, o presidente da maior corporação telefônica do mundo fala ao microfone e escuta sua própria voz voltar milissegundos depois, realizando a primeira transmissão bidirecional ininterrupta a abraçar o globo terrestre. É o ano do Experimento de Daventry (Radar), do Ciclômetro de Rejewski e do "Global Loopback" da AT&T.',
+      en: 'In 1935, information technology builds the tools that would prepare it for the cataclysm of World War II, discovering how to see through clouds, how to break military cryptography using automated brute force and how to route a data packet all the way around the planet’s circumference. In the English countryside, a physicist proves that radio waves can act as eyes, inventing the "sonar of the air" that would scan the skies of the modern world. In Poland, a brilliant mathematician tired of doing calculations by hand assembles parts of German machines to create the first major hardware focused exclusively on cracking passwords, inaugurating industrialized cyberattack. And in New York offices, the president of the world’s largest telephone corporation speaks into a microphone and hears his own voice return milliseconds later, performing the first uninterrupted bidirectional transmission to embrace the globe. It is the year of the Daventry Experiment (Radar), Rejewski’s Cyclometer and AT&T’s "Global Loopback".',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Robert Watson-Watt e Arnold Wilkins',
+        imagePlaceholder: YEAR_1935_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos (Escocês e Inglês, respectivamente)', en: 'British (Scottish and English, respectively)' },
+        formation: {
+          pt: 'Físicos operando no coração do governo britânico. O Ministério do Ar, aterrorizado pelos novos bombardeiros alemães, havia encomendado secretamente um "raio da morte" elétrico. Watson-Watt calculou que o raio era impossível, mas que usar as ondas para detectar os aviões não só era viável como urgente.',
+          en: 'Physicists operating at the heart of the British government. The Air Ministry, terrified by the new German bombers, had secretly requested an electric "death ray". Watson-Watt calculated that the ray was impossible, but that using waves to detect airplanes was not only viable but urgent.',
+        },
+        summary: {
+          pt: 'Realizaram em 26 de fevereiro de 1935 o "Experimento de Daventry". Eles usaram os potentes transmissores de rádio de ondas curtas da BBC e um receptor osciloscópio montado em uma van para focar no céu. Eles conseguiram captar perfeitamente o "eco" de rádio ricocheteando no metal de um bombardeiro Heyford da RAF voando às cegas na região, inaugurando a era prática do RADAR (Radio Detection and Ranging).',
+          en: 'Performed the "Daventry Experiment" on February 26, 1935. They used the BBC’s powerful shortwave radio transmitters and an oscilloscope receiver mounted in a van to focus on the sky. They successfully captured the radio "echo" bouncing off the metal of an RAF Heyford bomber flying blind in the area, inaugurating the practical era of RADAR (Radio Detection and Ranging).',
+        },
+        role: {
+          pt: 'Pioneiros do radar prático',
+          en: 'Pioneers of practical radar',
+        },
+        contribution: {
+          pt: 'Em 1935, a TI inventou o "Scanner de Matéria", provando que pacotes de dados poderiam mapear o ambiente físico e renderizá-lo em uma tela.',
+          en: 'In 1935, IT invented the "Matter Scanner", proving that data packets could map the physical environment and render it on a screen.',
+        },
+        detail: {
+          pt: 'Langevin (1916) fez isso na água com o sonar, e Appleton (1924) atirou rádio no céu para achar a ionosfera. Mas a genialidade de Watson-Watt e Wilkins foi militarizar a matemática da latência para alvos em movimento rápido. O radar atira pulsos de rádio microscópicos. A maioria se perde, mas se o pulso bater em uma placa de alumínio a dezenas de quilômetros de distância, uma fração de energia reflete de volta para a antena. Sabendo que a onda viaja na velocidade da luz, o hardware analógico conta os microssegundos entre o disparo (TX) e o eco (RX) e desenha no monitor do tubo de raios catódicos um "blip" verde, revelando a exata distância e direção do objeto.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Radar é o sensor final da infraestrutura autônoma moderna. Foi ele que venceu a Batalha da Inglaterra poucos anos depois, integrando as torres de observação na primeira grande "Rede de Dados de Defesa Aérea" descentralizada (o Sistema Dowding). Mas, para a TI de hoje, a arquitetura do radar é a base de todo o rastreamento espacial: desde o controle de tráfego aéreo dos aeroportos até os micro-radares de estado sólido (LiDAR/Radar) embutidos nos parachoques dos carros autônomos da Tesla ou do Google, que mapeiam pedestres lançando rajadas de energia exatamente com o mesmo princípio testado naquela van inglesa em 1935.',
+          en: 'Langevin (1916) did this in water with sonar, and Appleton (1924) shot radio into the sky to find the ionosphere. But the genius of Watson-Watt and Wilkins was to militarize latency mathematics for fast-moving targets. Radar fires microscopic radio pulses. Most are lost, but if the pulse hits an aluminum plate tens of kilometers away, a fraction of energy reflects back to the antenna. Knowing that the wave travels at the speed of light, analog hardware counts the microseconds between the transmission (TX) and the echo (RX) and draws a green "blip" on the cathode-ray-tube monitor, revealing the exact distance and direction of the object.\n\nWhy does this belong in the IT Hall of Fame?\n\nRadar is the final sensor of modern autonomous infrastructure. It was radar that won the Battle of Britain a few years later, integrating observation towers into the first great decentralized "Air Defense Data Network" (the Dowding System). But for today’s IT, radar architecture is the basis of all spatial tracking: from airport air-traffic control to the solid-state micro-radars (LiDAR/Radar) embedded in the bumpers of autonomous cars from Tesla or Google, which map pedestrians by launching bursts of energy using exactly the same principle tested in that English van in 1935.',
+        },
+      },
+      {
+        name: 'Marian Rejewski (e o Biuro Szyfrów - Escritório de Cifras Polonês)',
+        imagePlaceholder: YEAR_1935_PLACEHOLDER,
+        flag: '🇵🇱',
+        nationality: { pt: 'Polonês', en: 'Polish' },
+        formation: {
+          pt: 'Matemático e criptoanalista genial. Os poloneses foram os primeiros a perceber que, para quebrar a criptografia da máquina Enigma alemã (inventada por Scherbius em 1918), os linguistas não serviam mais; eles precisavam de matemáticos de elite munidos de engenharia reversa.',
+          en: 'Brilliant mathematician and cryptanalyst. The Poles were the first to realize that, to break the cryptography of the German Enigma machine (invented by Scherbius in 1918), linguists were no longer enough; they needed elite mathematicians armed with reverse engineering.',
+        },
+        summary: {
+          pt: 'Inventou e construiu em meados de 1935 o Ciclômetro (Cyklometr), um dispositivo eletromecânico composto por dois conjuntos de rotores da Enigma interligados. Ele automatizou o cálculo de todas as permutações possíveis da máquina alemã, gerando um imenso "catálogo de senhas" em cartões perfurados.',
+          en: 'Invented and built in mid-1935 the Cyclometer (Cyklometr), an electromechanical device composed of two interconnected sets of Enigma rotors. It automated the calculation of every possible permutation of the German machine, generating a vast "password catalog" on punched cards.',
+        },
+        role: {
+          pt: 'Inventor do Ciclômetro e pioneiro da criptoanálise por hardware',
+          en: 'Inventor of the Cyclometer and pioneer of hardware cryptanalysis',
+        },
+        contribution: {
+          pt: 'Em 1935, nasceu o processamento de "Força Bruta" por Hardware: a TI aprendeu que a única maneira de combater uma máquina cibernética era construir outra máquina para atacá-la.',
+          en: 'In 1935, hardware "Brute Force" processing was born: IT learned that the only way to fight a cybernetic machine was to build another machine to attack it.',
+        },
+        detail: {
+          pt: 'Rejewski havia conseguido quebrar a matemática da Enigma usando equações puras no papel em 1932, mas os alemães trocavam a configuração das engrenagens todos os dias. Um humano levaria meses para testar as 105.456 combinações iniciais dos rotores. O Ciclômetro girava os rotores sob motores elétricos, fechando circuitos para descobrir os ciclos de permutação de cada configuração diária em questão de minutos. O resultado desse script físico era catalogado. Quando os alemães transmitiam a mensagem do dia, os poloneses apenas olhavam o catálogo gerado pela máquina e achavam a chave de descriptografia quase instantaneamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Ciclômetro é a primeira máquina de ciberguerra automatizada da história. Este equipamento marcou a mudança do "Hacking como um processo cerebral" para o "Hacking como um processo de throughput computacional". A invenção de Rejewski em 1935 e seu catálogo mecânico lançaram a base criptoanalítica que, após a invasão da Polônia, foi repassada a Alan Turing e aos britânicos. Sem essa primeira arquitetura de quebra automatizada polonesa, não existiriam as lendárias "Bombas" de Turing (que salvaram o Atlântico dos submarinos) e o conceito moderno de aceleração de decodificação por hardware dedicado.',
+          en: 'Rejewski had managed to break Enigma’s mathematics using pure equations on paper in 1932, but the Germans changed the gear configuration every day. A human would take months to test the 105,456 initial rotor combinations. The Cyclometer spun the rotors under electric motors, closing circuits to discover the permutation cycles of each daily configuration in minutes. The result of this physical script was cataloged. When the Germans transmitted the day’s message, the Poles simply looked at the catalog generated by the machine and found the decryption key almost instantly.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Cyclometer is the first automated cyberwarfare machine in history. This equipment marked the shift from "Hacking as a brain process" to "Hacking as a computational throughput process". Rejewski’s 1935 invention and its mechanical catalog laid the cryptanalytic foundation that, after the invasion of Poland, was passed to Alan Turing and the British. Without this first Polish architecture for automated codebreaking, Turing’s legendary "Bombes" (which saved the Atlantic from submarines) and the modern concept of dedicated-hardware decoding acceleration would not exist.',
+        },
+      },
+      {
+        name: 'Walter S. Gifford (Presidente da AT&T) e T.G. Miller (Vice-Presidente)',
+        imagePlaceholder: YEAR_1935_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Os titãs corporativos que controlavam a maior e mais rica infraestrutura de rede da Terra, supervisionando o Bell Labs e as linhas de longa distância transoceânicas.',
+          en: 'The corporate titans who controlled the largest and richest network infrastructure on Earth, supervising Bell Labs and transoceanic long-distance lines.',
+        },
+        summary: {
+          pt: 'Em 25 de abril de 1935, realizaram a primeira chamada telefônica pública a dar a volta completa ao mundo. Gifford estava sentado em seu escritório em Nova York e ligou para o colega Miller, que estava numa sala a meros 15 metros de distância. A conexão, no entanto, foi roteada deliberadamente ao redor do planeta inteiro antes de chegar à sala ao lado.',
+          en: 'On April 25, 1935, performed the first public telephone call to travel all the way around the world. Gifford was sitting in his office in New York and called his colleague Miller, who was in a room merely 15 meters away. The connection, however, was deliberately routed around the entire planet before reaching the room next door.',
+        },
+        role: {
+          pt: 'Pioneiros do loopback telefônico global',
+          en: 'Pioneers of global telephone loopback',
+        },
+        contribution: {
+          pt: 'Em 1935, a infraestrutura da Terra executou o primeiro "Loopback Global", provando que cabos e ondas de rádio podiam ser emendados em um Backbone contínuo ininterrupto.',
+          en: 'In 1935, Earth’s infrastructure executed the first "Global Loopback", proving that cables and radio waves could be stitched into an uninterrupted continuous Backbone.',
+        },
+        detail: {
+          pt: 'A rota foi um milagre do processamento analógico em tempo real, cobrindo 37.000 quilômetros (23.000 milhas). A voz de Gifford saiu por cabos de Nova York a São Francisco; de lá, foi "atirada" por rádio de ondas curtas até Java (na Indonésia); viajou por rádio novamente até Amsterdã; mergulhou em um cabo submarino até Londres; foi transmitida por rádio através do Atlântico até Nova Jersey e, finalmente, via cabo até a sala ao lado em Manhattan. A latência final (o ping terrestre inteiro) foi de exatamente 0,25 segundos (250 milissegundos). A conexão durou sem corromper ou cair.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o teste de estresse (stress test) final que provou o conceito da "Globalização dos Dados". Naquele quarto de segundo de latência em 1935, a AT&T provou que o solavanco entre protocolos (fio de cobre -> válvula amplificadora -> rádio de alta frequência -> cabo oceânico -> rádio de volta) era comercialmente transparente. Isso validou toda a arquitetura mista que sustenta a internet atual. Hoje, quando você carrega uma página da web sediada em Cingapura, o seu pedido passa pela mesmíssima malha mista de fibra óptica oceânica, roteadores de borda terrestres e Wi-Fi aéreo, cruzando os hemisférios com a mesma estabilidade estrutural testada e comprovada pela primeira vez neste histórico telefonema.',
+          en: 'The route was a miracle of real-time analog processing, covering 37,000 kilometers (23,000 miles). Gifford’s voice traveled by cable from New York to San Francisco; from there it was "shot" by shortwave radio to Java (in Indonesia); traveled by radio again to Amsterdam; dove into a submarine cable to London; was transmitted by radio across the Atlantic to New Jersey and, finally, by cable to the room next door in Manhattan. The final latency (the entire terrestrial ping) was exactly 0.25 seconds (250 milliseconds). The connection held without corruption or collapse.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the final stress test that proved the concept of "Data Globalization". In that quarter-second of latency in 1935, AT&T proved that the bump between protocols (copper wire -> amplifier valve -> high-frequency radio -> ocean cable -> radio back) was commercially transparent. This validated the entire mixed architecture that sustains today’s internet. Today, when you load a web page hosted in Singapore, your request crosses the very same mixed mesh of oceanic fiber optics, terrestrial edge routers and aerial Wi-Fi, crossing hemispheres with the same structural stability first tested and proven in this historic telephone call.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1936,
+    era: {
+      pt: 'O Computador Universal, a Voz Artificial e a Arquitetura de "Alta Definição"',
+      en: 'The Universal Computer, Artificial Voice and "High Definition" Architecture',
+    },
+    context: {
+      pt: 'Em 1936, a tecnologia da informação dá o salto filosófico e arquitetônico mais importante de todos os tempos. Na Inglaterra, um jovem matemático brilhante tenta resolver o "bug" lógico deixado por Gödel (em 1931) e acaba publicando o manual de instruções definitivo de como construir qualquer computador, separando para sempre a máquina física dos programas que rodam dentro dela. Nos laboratórios americanos, a engenharia descobre que não precisa transmitir o áudio bruto da voz humana; basta transmitir a "matemática" das cordas vocais, criando o primeiro sintetizador eletrônico de fala e a compressão de áudio digital. E nos estúdios de Londres, a guerra entre a televisão mecânica e a eletrônica chega ao fim, com o lançamento do primeiro serviço de vídeo público de banda larga, cravando o padrão de resolução e framerate que governaria as telas pelas décadas seguintes. É o ano da Máquina de Turing, do sintetizador VODER e do padrão de 405 linhas da BBC.',
+      en: 'In 1936, information technology makes the most important philosophical and architectural leap of all time. In England, a brilliant young mathematician tries to solve the logical "bug" left by Gödel in 1931 and ends up publishing the definitive instruction manual for how to build any computer, forever separating the physical machine from the programs that run inside it. In American laboratories, engineering discovers that it does not need to transmit raw human voice audio; it only needs to transmit the "mathematics" of the vocal cords, creating the first electronic speech synthesizer and digital audio compression. And in London studios, the war between mechanical and electronic television ends with the launch of the first public broadband video service, establishing the resolution and framerate standard that would govern screens for decades. It is the year of the Turing Machine, the VODER synthesizer and the BBC 405-line standard.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Alan Mathison Turing',
+        imagePlaceholder: YEAR_1936_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Um gênio matemático indomável da Universidade de Cambridge. Ele estava tentando resolver o Entscheidungsproblem (Problema de Decisão), um desafio puro da lógica teórica, mas sua mente operava de forma tão visual e mecânica que ele resolveu o problema de matemática inventando um computador imaginário.',
+          en: 'An indomitable mathematical genius from the University of Cambridge. He was trying to solve the Entscheidungsproblem (Decision Problem), a pure challenge of theoretical logic, but his mind operated so visually and mechanically that he solved the mathematical problem by inventing an imaginary computer.',
+        },
+        summary: {
+          pt: 'Publicou o monumental artigo "On Computable Numbers, with an Application to the Entscheidungsproblem", onde introduziu o conceito teórico da Máquina de Turing, uma máquina simples composta por uma fita infinita e uma cabeça de leitura/gravação que podia ler símbolos, alterar seu próprio estado interno e mover a fita.',
+          en: 'Published the monumental paper "On Computable Numbers, with an Application to the Entscheidungsproblem", where he introduced the theoretical concept of the Turing Machine, a simple machine composed of an infinite tape and a read/write head that could read symbols, change its own internal state and move the tape.',
+        },
+        role: {
+          pt: 'Criador da Máquina de Turing e do conceito de computador universal',
+          en: 'Creator of the Turing Machine and the universal computer concept',
+        },
+        contribution: {
+          pt: 'Em 1936, Turing inventou o Software. Ele provou que uma única máquina genérica poderia simular a lógica de qualquer outra máquina, desde que recebesse o código correto.',
+          en: 'In 1936, Turing invented Software. He proved that one generic machine could simulate the logic of any other machine, as long as it received the correct code.',
+        },
+        detail: {
+          pt: 'Até 1936, as máquinas eram desenhadas para uma única tarefa (uma máquina de somar só somava; um rádio só recebia rádio). Se você quisesse fazer outra coisa, tinha que construir um hardware novo. Turing provou matematicamente que se você construir a "Máquina Universal" (uma CPU capaz de ler instruções lógicas sequenciais), você não precisa mais trocar as engrenagens físicas. Você apenas apaga a fita (a memória) e escreve um novo conjunto de regras (o programa). A máquina física permanece a mesma, mas seu comportamento muda infinitamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste artigo é a Carta Magna da Ciência da Computação. Turing criou a distinção absoluta entre Hardware (a cabeça de leitura e a fita) e Software (as regras gravadas). O celular no seu bolso, o notebook na sua mesa e os data centers do Google são, em sua arquitetura fundamental, Máquinas Universais de Turing em estado sólido. Turing estabeleceu em 1936 que a computação não era sobre fios ou válvulas, mas sobre a execução disciplinada de algoritmos. Toda linguagem de programação moderna (do Python ao C++) existe unicamente para traduzir nossas ideias para a lógica de fita imaginada por este homem.',
+          en: 'Until 1936, machines were designed for a single task (an adding machine only added; a radio only received radio). If you wanted to do something else, you had to build new hardware. Turing mathematically proved that if you build the "Universal Machine" (a CPU capable of reading sequential logical instructions), you no longer need to swap physical gears. You simply erase the tape (the memory) and write a new set of rules (the program). The physical machine remains the same, but its behavior changes infinitely.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis paper is the Magna Carta of Computer Science. Turing created the absolute distinction between Hardware (the read head and the tape) and Software (the recorded rules). The phone in your pocket, the notebook on your desk and Google’s data centers are, in their fundamental architecture, solid-state Universal Turing Machines. Turing established in 1936 that computing was not about wires or valves, but about the disciplined execution of algorithms. Every modern programming language, from Python to C++, exists only to translate our ideas into the tape logic imagined by this man.',
+        },
+      },
+      {
+        name: 'Homer Dudley e o Bell Labs',
+        imagePlaceholder: YEAR_1936_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro acústico focado no gargalo de largura de banda dos cabos transatlânticos da AT&T. Transmitir a onda de voz analógica pura custava muito caro e ocupava o cabo inteiro. Ele precisava de um algoritmo de compressão bruta.',
+          en: 'Acoustic engineer focused on the bandwidth bottleneck of AT&T’s transatlantic cables. Transmitting the pure analog voice wave was extremely expensive and occupied the entire cable. He needed a brute compression algorithm.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou o VOCODER (Voice Coder) e seu instrumento de output, o VODER (Voice Operating Demonstrator). Foi o primeiro sintetizador eletrônico de voz humana, capaz de recriar a fala a partir do zero usando osciladores eletrônicos e filtros, em vez de reproduzir uma gravação analógica.',
+          en: 'Invented and patented the VOCODER (Voice Coder) and its output instrument, the VODER (Voice Operating Demonstrator). It was the first electronic human-voice synthesizer, capable of recreating speech from scratch using electronic oscillators and filters instead of replaying an analog recording.',
+        },
+        role: {
+          pt: 'Inventor do Vocoder e do VODER',
+          en: 'Inventor of the Vocoder and VODER',
+        },
+        contribution: {
+          pt: 'Em 1936, a TI inventou a "Compressão Baseada em Parâmetros" e o Áudio Sintético, reduzindo a biologia humana a variáveis matemáticas.',
+          en: 'In 1936, IT invented "Parameter-Based Compression" and Synthetic Audio, reducing human biology to mathematical variables.',
+        },
+        detail: {
+          pt: 'Dudley percebeu que transmitir a onda sonora exata de uma pessoa falando era desperdício de dados. A voz humana é apenas ar passando por um tubo (garganta) e sendo cortado por válvulas (língua/lábios). O Vocoder dissecava a voz no transmissor, extraindo apenas três bits de dados essenciais: o tom (pitch), o chiado (hiss) e a ressonância. Ele enviava apenas esses pequenos parâmetros matemáticos pela rede de forma criptografada. No destino, o VODER pegava esses dados minúsculos e "tocava" osciladores eletrônicos para sintetizar uma voz robótica imitando as cordas vocais da pessoa.\n\nPor que isso entra no Hall da Fama da TI?\n\nO sistema de Dudley é a raiz absoluta da síntese de fala e da compressão de áudio de baixa latência. Durante a Segunda Guerra Mundial, essa exata tecnologia seria militarizada para criar a SIGSALY, a primeira rede de voz digital criptografada usada por Churchill e Roosevelt. Hoje, quando as redes de celular 4G/5G compactam a sua voz durante uma ligação em áreas de sinal fraco, ou quando você conversa com assistentes virtuais de IA que respondem com uma voz sintetizada, o algoritmo de hardware rodando por trás da reconstrução desse áudio é um descendente direto do Vocoder patenteado em 1936.',
+          en: 'Dudley realized that transmitting the exact sound wave of a person speaking was a waste of data. The human voice is only air passing through a tube (the throat) and being cut by valves (the tongue/lips). The Vocoder dissected the voice at the transmitter, extracting only three essential data bits: pitch, hiss and resonance. It sent only these small mathematical parameters through the network in encrypted form. At the destination, the VODER took these tiny data points and "played" electronic oscillators to synthesize a robotic voice imitating the person’s vocal cords.\n\nWhy does this belong in the IT Hall of Fame?\n\nDudley’s system is the absolute root of speech synthesis and low-latency audio compression. During World War II, this exact technology would be militarized to create SIGSALY, the first encrypted digital voice network used by Churchill and Roosevelt. Today, when 4G/5G cellular networks compress your voice during a call in weak-signal areas, or when you talk to AI virtual assistants that answer with synthesized speech, the hardware algorithm running behind that audio reconstruction is a direct descendant of the Vocoder patented in 1936.',
+        },
+      },
+      {
+        name: 'BBC (Liderada por Isaac Shoenberg e a equipe da Marconi-EMI)',
+        imagePlaceholder: YEAR_1936_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos / 🇷🇺 Russo (Shoenberg)', en: 'British / Russian (Shoenberg)' },
+        formation: {
+          pt: 'A união corporativa do serviço público de broadcasting britânico com a equipe de engenheiros elétricos mais avançada da Europa, encarregados de matar os experimentos com discos rotativos de uma vez por todas.',
+          en: 'The corporate union of Britain’s public broadcasting service with Europe’s most advanced electrical-engineering team, tasked with ending rotating-disc experiments once and for all.',
+        },
+        summary: {
+          pt: 'Inauguraram no outono de 1936 o primeiro serviço de televisão pública regular de alta definição do mundo (transmitido do Alexandra Palace, em Londres), adotando o sistema puramente eletrônico da Marconi-EMI operando a impressionantes 405 linhas de resolução e 25 quadros entrelaçados por segundo.',
+          en: 'Inaugurated in the autumn of 1936 the world’s first regular public high-definition television service, transmitted from Alexandra Palace in London, adopting Marconi-EMI’s purely electronic system operating at an impressive 405 lines of resolution and 25 interlaced frames per second.',
+        },
+        role: {
+          pt: 'Pioneiros da televisão eletrônica pública de alta definição',
+          en: 'Pioneers of public high-definition electronic television',
+        },
+        contribution: {
+          pt: 'Em 1936, a rede de dados estabeleceu a "Norma de Resolução de Tela", padronizando a largura de banda brutal necessária para renderizar pixels contínuos de forma estável.',
+          en: 'In 1936, the data network established the "Screen Resolution Standard", standardizing the brutal bandwidth needed to render continuous pixels stably.',
+        },
+        detail: {
+          pt: 'Nos anos 20, a TV mecânica rodava a 30 linhas (o que gerava apenas borrões irreconhecíveis). Para que a tela do tubo de raios catódicos (Kinescópio) funcionasse para as massas, o sinal precisava ser fatiado em uma grade muito mais densa. A equipe de Shoenberg na EMI construiu a câmera Emitron e estabeleceu o protocolo de 405 linhas. Isso exigia transmitir dados na faixa dos Megahertz (milhões de ciclos por segundo), algo até então inédito para o consumo doméstico. A BBC iniciou uma competição de testes entre o sistema mecânico de Baird e o eletrônico da EMI. O sistema eletrônico aniquilou a mecânica em estabilidade e clareza de dados.\n\nPor que isso entra no Hall da Fama da TI?\n\nA decisão de 1936 de adotar as 405 linhas estabeleceu as fundações de roteamento de vídeo moderno: o conceito de Framerate (quadros por segundo) para enganar o nervo óptico humano e o método de Interlacing (entrelaçamento, desenhando primeiro as linhas ímpares e depois as pares para economizar banda sem a imagem piscar). Todos os padrões visuais da computação que vieram a seguir (VGA, 1080p, 4K) operam seguindo a lógica arquitetônica da matriz de linhas inaugurada nesta transmissão de altíssima frequência em Londres.',
+          en: 'In the 1920s, mechanical TV ran at 30 lines, which produced only unrecognizable blurs. For the cathode-ray-tube screen (Kinescope) to work for the masses, the signal needed to be sliced into a much denser grid. Shoenberg’s EMI team built the Emitron camera and established the 405-line protocol. This required transmitting data in the Megahertz range (millions of cycles per second), something unprecedented for domestic consumption. The BBC began a test competition between Baird’s mechanical system and EMI’s electronic system. The electronic system annihilated the mechanical one in data stability and clarity.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe 1936 decision to adopt 405 lines established the foundations of modern video routing: the concept of Framerate (frames per second) to trick the human optic nerve and the method of Interlacing (drawing odd lines first and then even lines to save bandwidth without image flicker). Every visual computing standard that followed (VGA, 1080p, 4K) operates according to the architectural logic of the line matrix inaugurated in this ultra-high-frequency transmission in London.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1937,
+    era: {
+      pt: 'A Matemática Vira Eletricidade, a Primeira Calculadora Binária e a Digitalização do Mundo',
+      en: 'Mathematics Becomes Electricity, the First Binary Calculator and the Digitization of the World',
+    },
+    context: {
+      pt: 'Em 1937, a tecnologia da informação descobre como a matemática abstrata pode ser literalmente soldada em fios, constrói a primeira calculadora digital binária na mesa da cozinha de um cientista e inventa o algoritmo definitivo para transformar a realidade analógica em código de computador. No MIT, um estudante de mestrado de 21 anos prova matematicamente que os conceitos lógicos de "verdadeiro e falso" operam sob a exata mesma física de um circuito elétrico "ligado e desligado", fundando todo o design de hardware digital moderno. No Bell Labs, um físico usa relés de sucata e latas de tabaco para construir a primeira máquina elétrica do mundo que soma números processando exclusivamente zeros e uns. E em Paris, um engenheiro britânico inventa o protocolo que pega a voz humana, fatia em números binários e a transmite como dados, criando o código que hoje faz os CDs e o áudio digital funcionarem. É o ano da Tese de Shannon, da Máquina "Modelo K" e da Invenção do PCM.',
+      en: 'In 1937, information technology discovers how abstract mathematics can literally be soldered into wires, builds the first binary digital calculator on a scientist’s kitchen table and invents the definitive algorithm for transforming analog reality into computer code. At MIT, a 21-year-old master’s student mathematically proves that the logical concepts of "true and false" operate under the exact same physics as an electrical circuit being "on and off", founding all modern digital hardware design. At Bell Labs, a physicist uses scrap relays and tobacco tins to build the world’s first electrical machine that adds numbers by processing exclusively zeros and ones. And in Paris, a British engineer invents the protocol that takes the human voice, slices it into binary numbers and transmits it as data, creating the code that makes CDs and digital audio work today. It is the year of Shannon’s Thesis, the "Model K" Machine and the invention of PCM.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Claude Shannon',
+        imagePlaceholder: YEAR_1937_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Um jovem gênio da engenharia e matemática no MIT, operando no cruzamento perfeito entre a lógica filosófica e a brutalidade prática dos circuitos de fios.',
+          en: 'A young engineering and mathematics genius at MIT, operating at the perfect crossroads between philosophical logic and the practical force of wired circuits.',
+        },
+        summary: {
+          pt: 'Publicou e defendeu em 1937 sua tese de mestrado, "A Symbolic Analysis of Relay and Switching Circuits" (Uma Análise Simbólica de Circuitos de Relés e Chaves), provando que a Álgebra Booleana (a matemática de Verdadeiro/Falso) poderia ser mapeada de forma perfeita e direta sobre circuitos elétricos e relés eletromecânicos.',
+          en: 'Published and defended in 1937 his master’s thesis, "A Symbolic Analysis of Relay and Switching Circuits", proving that Boolean Algebra (the mathematics of True/False) could be mapped perfectly and directly onto electrical circuits and electromechanical relays.',
+        },
+        role: {
+          pt: 'Fundador do design de circuitos digitais',
+          en: 'Founder of digital circuit design',
+        },
+        contribution: {
+          pt: 'Em 1937, Shannon conectou a Filosofia à Engenharia Elétrica, provando que fios não serviam apenas para carregar energia; eles podiam processar raciocínio lógico.',
+          en: 'In 1937, Shannon connected Philosophy to Electrical Engineering, proving that wires did not merely carry energy; they could process logical reasoning.',
+        },
+        detail: {
+          pt: 'Desde o século XIX, os matemáticos sabiam que você podia resolver problemas usando lógica binária ("E", "OU", "NÃO" — as famosas portas lógicas AND, OR, NOT inventadas por George Boole). O problema é que isso era teoria no papel. Shannon olhou para os relés (interruptores magnéticos) usados nos telefones e teve a maior epifania de todos os tempos: se dois interruptores estão ligados em série, a energia só passa se o Primeiro E o Segundo estiverem fechados (porta AND). Se estiverem em paralelo, a energia passa se o Primeiro OU o Segundo estiverem fechados (porta OR). A eletricidade, por natureza física, obedecia à lógica de Boole.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta tese é universalmente considerada "a mais importante e famosa tese de mestrado do século XX". Shannon fundou o Design de Circuitos Digitais. Sem essa ponte teórica em 1937, os engenheiros construiriam circuitos na base da intuição. A partir de Shannon, eles podiam escrever equações matemáticas puras no quadro-negro e transformar essa equação perfeitamente numa placa-mãe. Todo chip de silício existente hoje (incluindo o que está rodando esta nossa conversa) é apenas uma execução física das regras de álgebra que Shannon descreveu em 1937.',
+          en: 'Since the nineteenth century, mathematicians knew that you could solve problems using binary logic ("AND", "OR", "NOT", the famous logic gates associated with George Boole). The problem was that this was theory on paper. Shannon looked at the relays (magnetic switches) used in telephones and had one of the greatest epiphanies of all time: if two switches are connected in series, energy only passes if the First AND the Second are closed (AND gate). If they are in parallel, energy passes if the First OR the Second is closed (OR gate). Electricity, by its physical nature, obeyed Boole’s logic.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis thesis is universally considered "the most important and famous master’s thesis of the twentieth century". Shannon founded Digital Circuit Design. Without this theoretical bridge in 1937, engineers would have built circuits by intuition. After Shannon, they could write pure mathematical equations on the blackboard and transform that equation perfectly into a motherboard. Every silicon chip that exists today (including the one running this conversation) is only a physical execution of the algebra rules Shannon described in 1937.',
+        },
+      },
+      {
+        name: 'George Stibitz',
+        imagePlaceholder: YEAR_1937_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Matemático investigador do imponente Bell Labs. O laboratório estava com um problema: os relés telefônicos faziam cliques mecânicos que geravam faíscas. Stibitz levou alguns relés defeituosos para casa em um fim de semana para brincar e acabou inventando o cérebro da CPU.',
+          en: 'Research mathematician at the imposing Bell Labs. The laboratory had a problem: telephone relays made mechanical clicks that generated sparks. Stibitz took a few defective relays home one weekend to play with and ended up inventing the brain of the CPU.',
+        },
+        summary: {
+          pt: 'Construiu em novembro de 1937, na mesa de sua própria cozinha, o Modelo K (K de Kitchen - Cozinha). Usando relés telefônicos, duas baterias, pedaços de arame e duas lâmpadas escondidas em uma lata de tabaco, ele criou um hardware eletromecânico puro focado em somar dois bits binários (Binary Adder).',
+          en: 'Built in November 1937, on his own kitchen table, the Model K (K for Kitchen). Using telephone relays, two batteries, pieces of wire and two lamps hidden in a tobacco tin, he created pure electromechanical hardware focused on adding two binary bits (Binary Adder).',
+        },
+        role: {
+          pt: 'Criador do Modelo K e do somador binário eletromecânico',
+          en: 'Creator of the Model K and the electromechanical binary adder',
+        },
+        contribution: {
+          pt: 'Em 1937, a TI executou o primeiro cálculo binário em hardware, provando que máquinas podiam fazer matemática complexa usando a lógica do "1 e 0".',
+          en: 'In 1937, IT executed the first binary calculation in hardware, proving that machines could perform complex mathematics using the logic of "1 and 0".',
+        },
+        detail: {
+          pt: 'Vimos que Konrad Zuse conceituou o binário na Alemanha em 1934, mas as máquinas dele ainda eram instáveis mecanicamente. Stibitz conectou seus fios seguindo a lógica (a exata lógica que Shannon estava provando no MIT). No Modelo K, você inseria a conta fechando contatos metálicos com os dedos. A corrente passava pelos relés e a máquina cuspia a resposta: se a primeira lâmpada acendesse, o número era 1. Se a segunda acendesse, era 2. Se as duas acendessem, o circuito havia processado e somado o número 3.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Modelo K é a "célula-tronco" absoluta da Unidade Lógica e Aritmética (ALU). Todo processador moderno possui uma ALU dentro dele — a parte do cérebro eletrônico que faz a força bruta de somar os dados (desde calcular os danos no seu jogo de videogame até abrir uma página da web). Stibitz construiu o primeiro modelo prático provando que circuitos elétricos, devidamente montados como somadores, eram mil vezes melhores e mais confiáveis para calcular números do que engrenagens giratórias.',
+          en: 'We saw that Konrad Zuse conceptualized binary in Germany in 1934, but his machines were still mechanically unstable. Stibitz connected his wires according to logic (the exact logic Shannon was proving at MIT). In the Model K, you entered the calculation by closing metal contacts with your fingers. Current passed through the relays and the machine spat out the answer: if the first lamp lit up, the number was 1. If the second lit up, it was 2. If both lit up, the circuit had processed and added the number 3.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Model K is the absolute "stem cell" of the Arithmetic Logic Unit (ALU). Every modern processor has an ALU inside it, the part of the electronic brain that performs the brute force of adding data (from calculating damage in your video game to opening a web page). Stibitz built the first practical model proving that electrical circuits, properly assembled as adders, were a thousand times better and more reliable for calculating numbers than rotating gears.',
+        },
+      },
+      {
+        name: 'Alec Reeves',
+        imagePlaceholder: YEAR_1937_PLACEHOLDER,
         flag: '🇬🇧',
         nationality: { pt: 'Britânico', en: 'British' },
         formation: {
-          pt: 'Matemática, King\'s College Cambridge · Doutorado em Princeton',
-          en: 'Mathematics, King\'s College Cambridge · PhD, Princeton University',
+          pt: 'Engenheiro pesquisador dos laboratórios da ITT (International Telephone & Telegraph) em Paris. Ele estava frustrado com o velho problema de Harold Black (de 1927): toda vez que você amplificava um sinal telefônico transatlântico, você amplificava o ruído elétrico do cabo.',
+          en: 'Research engineer at ITT (International Telephone & Telegraph) laboratories in Paris. He was frustrated with Harold Black’s old 1927 problem: every time you amplified a transatlantic telephone signal, you amplified the cable’s electrical noise.',
         },
-        summary: { pt: 'Definiu matematicamente o que é computação e seus limites', en: 'Mathematically defined what computation is and its limits' },
-        role: { pt: 'Matemático e pai da ciência da computação', en: 'Mathematician and father of computer science' },
+        summary: {
+          pt: 'Concebeu e patenteou em 1937 o protocolo de Modulação por Código de Pulsos (PCM - Pulse-Code Modulation), o algoritmo definitivo para converter sinais analógicos (contínuos) em pacotes de dados puramente digitais (0 e 1).',
+          en: 'Conceived and patented in 1937 the Pulse-Code Modulation protocol (PCM), the definitive algorithm for converting analog (continuous) signals into purely digital data packets (0 and 1).',
+        },
+        role: {
+          pt: 'Inventor da Modulação por Código de Pulsos',
+          en: 'Inventor of Pulse-Code Modulation',
+        },
         contribution: {
-          pt: 'Publicou "On Computable Numbers", definindo o conceito de Máquina de Turing — o modelo teórico que até hoje fundamenta tudo que um computador pode ou não pode fazer.',
-          en: 'Published "On Computable Numbers", defining the concept of the Turing Machine — the theoretical model that to this day underpins everything a computer can or cannot do.',
+          pt: 'Em 1937, a TI descobriu como digitalizar o mundo real, fatiando ondas infinitas em uma tabela de números exatos que não podiam ser corrompidos pelo ruído.',
+          en: 'In 1937, IT discovered how to digitize the real world, slicing infinite waves into a table of exact numbers that could not be corrupted by noise.',
         },
         detail: {
-          pt: 'Com um único paper, Turing criou o conceito de algoritmo universal e provou que existem problemas matematicamente insolúveis — o Problema da Parada. Durante a Segunda Guerra Mundial, liderou a equipe que quebrou o código Enigma nazista, tendo salvo potencialmente milhões de vidas. Em 1950, propôs o Teste de Turing, questionando se máquinas podem pensar. Seu legado é a própria base sobre a qual toda a ciência da computação foi construída. Foi perseguido e condenado pelo governo britânico por ser gay, e morreu aos 41 anos em circunstâncias trágicas. Recebeu perdão póstimo apenas em 2013.',
-          en: 'With a single paper, Turing created the concept of a universal algorithm and proved that mathematically unsolvable problems exist — the Halting Problem. During World War II, he led the team that broke the Nazi Enigma code, potentially saving millions of lives. In 1950, he proposed the Turing Test, questioning whether machines can think. His legacy is the very foundation upon which all computer science was built. He was prosecuted by the British government for being gay, and died at 41 in tragic circumstances. He received a posthumous pardon only in 2013.',
+          pt: 'Até então, o som e o rádio eram transmitidos desenhando uma onda no ar. Reeves pensou: e se, em vez de enviar a onda inteira sujeita à interferência da natureza, eu usar o Teorema de Nyquist (1928) para medir a altura da onda milhares de vezes por segundo? Para cada medida, eu anoto o número binário exato da altura e envio esse número telegráfico pelo fio. Quando o receptor pegar os números (001, 101, 010), ele redesenha a onda artificialmente com perfeição matemática. Se houver ruído no fio, não importa, porque a máquina só precisa distinguir a diferença extrema entre a presença (1) ou ausência (0) de corrente elétrica.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Modulação PCM é a "Tradução Universal" do analógico para o digital. A invenção de Reeves foi tão revolucionária que ficou adormecida por anos, porque a tecnologia de hardware de 1937 ainda não tinha velocidade para fatiar áudio tão rápido. No entanto, quando os transistores nasceram nas décadas seguintes, o mundo inteiro adotou o PCM. É esse exato protocolo de 1937 que compacta a sua voz nas chamadas de celular (VoIP), que grava a música nos CDs e DVDs, e que sustenta praticamente toda a engenharia de conversão de som e imagem digital (Analog-to-Digital) do século XXI.',
+          en: 'Until then, sound and radio were transmitted by drawing a wave through the air. Reeves thought: what if, instead of sending the whole wave subject to nature’s interference, I use the Nyquist Theorem (1928) to measure the wave’s height thousands of times per second? For each measurement, I record the exact binary number of the height and send that telegraphic number through the wire. When the receiver gets the numbers (001, 101, 010), it redraws the wave artificially with mathematical perfection. If there is noise on the wire, it does not matter, because the machine only needs to distinguish the extreme difference between the presence (1) or absence (0) of electrical current.\n\nWhy does this belong in the IT Hall of Fame?\n\nPCM Modulation is the "Universal Translator" from analog to digital. Reeves’ invention was so revolutionary that it lay dormant for years, because 1937 hardware technology still did not have the speed to slice audio that fast. However, when transistors were born in the following decades, the entire world adopted PCM. It is this exact 1937 protocol that compresses your voice in cellular calls (VoIP), records music on CDs and DVDs, and supports practically all digital sound and image conversion engineering (Analog-to-Digital) in the twenty-first century.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1938,
+    era: {
+      pt: 'O Primeiro PC Programável, o "Ctrl+C" Analógico e a Garagem do Vale do Silício',
+      en: 'The First Programmable PC, Analog "Ctrl+C" and the Silicon Valley Garage',
+    },
+    context: {
+      pt: 'Em 1938, a tecnologia da informação inaugura o conceito moderno de hardware arquitetado, descobre como copiar dados físicos usando apenas eletricidade estática e funda o marco zero da cultura de empresas de tecnologia. Na sala de estar de seus pais na Alemanha, o engenheiro que havia conceituado a lógica binária mecânica anos antes finalmente termina de aparafusar a sua máquina, entregando ao mundo o primeiro computador programável da história. Em uma cozinha de Nova York, um advogado de patentes frustrado com a lentidão de copiar documentos à mão inventa uma forma de usar luz e carga elétrica para "fotografar" e imprimir dados secos em segundos, criando a máquina de fotocópia (Xerox). E na Califórnia, dois jovens amigos de faculdade alugam uma pequena garagem em Palo Alto e começam a soldar seu primeiro equipamento de teste de áudio, plantando a semente da corporação que daria início ao império tecnológico do Vale do Silício. É o ano do Computador Z1, da Eletrofotografia e do Oscilador HP 200A.',
+      en: 'In 1938, information technology inaugurates the modern concept of architected hardware, discovers how to copy physical data using only static electricity and founds the zero milestone of technology-company culture. In his parents’ living room in Germany, the engineer who had conceptualized mechanical binary logic years earlier finally finishes bolting together his machine, giving the world the first programmable computer in history. In a New York kitchen, a patent attorney frustrated by the slowness of copying documents by hand invents a way to use light and electrical charge to "photograph" and print dry data in seconds, creating the photocopy machine (Xerox). And in California, two young college friends rent a small garage in Palo Alto and begin soldering their first audio test instrument, planting the seed of the corporation that would begin Silicon Valley’s technological empire. It is the year of the Z1 Computer, Electrophotography and the HP 200A Oscillator.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Konrad Zuse',
+        imagePlaceholder: YEAR_1938_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Engenheiro civil que odiava a rotina repetitiva da matemática estrutural e decidiu construir uma máquina para automatizar sua própria profissão.',
+          en: 'Civil engineer who hated the repetitive routine of structural mathematics and decided to build a machine to automate his own profession.',
+        },
+        summary: {
+          pt: 'Finalizou e colocou em funcionamento em 1938 o Z1, o primeiro computador binário eletromecânico e programável do mundo. Ele foi construído inteiramente na sala do apartamento de seus pais em Berlim, usando milhares de chapas de metal cortadas com serra de vaivém, pinos e engrenagens de vidro.',
+          en: 'Completed and put into operation in 1938 the Z1, the world’s first electromechanical, programmable binary computer. It was built entirely in the living room of his parents’ apartment in Berlin, using thousands of metal plates cut with a jigsaw, pins and glass gears.',
+        },
+        role: {
+          pt: 'Criador do computador Z1',
+          en: 'Creator of the Z1 computer',
+        },
+        contribution: {
+          pt: 'Em 1938, o Z1 executou o Deploy Prático da Arquitetura Moderna, processando código binário de ponto flutuante diretamente de uma fita perfurada.',
+          en: 'In 1938, the Z1 executed the practical deploy of Modern Architecture, processing floating-point binary code directly from punched tape.',
+        },
+        detail: {
+          pt: 'Vimos Zuse conceituar o uso do binário (0 e 1) em 1934. Em 1938, a máquina ganhou vida. O Z1 não usava válvulas nem relés (que eram caros); usava puramente a física mecânica para empurrar pinos que abriam ou fechavam portas lógicas. A genialidade absurda do Z1 é que ele separava completamente a Memória (que guardava os números) da CPU (a unidade que fazia os cálculos). O programa não era digitado toda vez; ele era lido de forma autônoma a partir de uma fita de celuloide (filme de cinema descartado) perfurada, fazendo a máquina processar as instruções em sequência.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Z1 é amplamente considerado o protótipo funcional do computador moderno. Quase tudo que existe na arquitetura do seu desktop atual estava lá em 1938: a separação entre Unidade de Controle, Unidade Lógica e Aritmética (ALU), Memória RAM e Dispositivos de Entrada/Saída (Input/Output). Além disso, ele processava números em "ponto flutuante" (a capacidade da máquina de calcular números com casas decimais quebradas em binário), uma fundação matemática crítica que os processadores americanos só adotariam de forma padronizada muitos anos depois.',
+          en: 'We saw Zuse conceptualize the use of binary (0 and 1) in 1934. In 1938, the machine came to life. The Z1 used neither valves nor relays (which were expensive); it used purely mechanical physics to push pins that opened or closed logic gates. The absurd genius of the Z1 is that it completely separated Memory (which stored the numbers) from the CPU (the unit that performed the calculations). The program was not typed every time; it was read autonomously from punched celluloid tape (discarded cinema film), making the machine process instructions in sequence.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Z1 is widely considered the functional prototype of the modern computer. Almost everything in the architecture of your current desktop was already there in 1938: the separation between Control Unit, Arithmetic Logic Unit (ALU), RAM Memory and Input/Output Devices. In addition, it processed numbers in "floating point" (the machine’s ability to calculate numbers with decimal fractions broken into binary), a critical mathematical foundation that American processors would only adopt in standardized form many years later.',
+        },
+      },
+      {
+        name: 'Chester Carlson',
+        imagePlaceholder: YEAR_1938_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Físico e advogado de patentes. Trabalhando no departamento de registros, ele sofria de artrite e odiava o processo brutal de ter que reescrever ou fotografar quimicamente cada documento legal para enviar cópias aos engenheiros. Ele queria um método de duplicação "seco".',
+          en: 'Physicist and patent attorney. Working in the records department, he suffered from arthritis and hated the brutal process of having to rewrite or chemically photograph every legal document to send copies to engineers. He wanted a "dry" duplication method.',
+        },
+        summary: {
+          pt: 'Inventou e realizou a primeira cópia bem-sucedida em 22 de outubro de 1938 (imprimindo as palavras "10-22-38 ASTORIA") através do processo que ele chamou de Eletrofotografia (posteriormente batizado de Xerografia, do grego "escrita seca").',
+          en: 'Invented and made the first successful copy on October 22, 1938 (printing the words "10-22-38 ASTORIA") through the process he called Electrophotography, later named Xerography, from the Greek for "dry writing".',
+        },
+        role: {
+          pt: 'Inventor da eletrofotografia e da xerografia',
+          en: 'Inventor of electrophotography and xerography',
+        },
+        contribution: {
+          pt: 'Em 1938, a TI inventou a replicação de dados baseada em fotocondutividade, o "Copiar e Colar" físico que usava eletricidade estática no lugar da prensa de chumbo.',
+          en: 'In 1938, IT invented photoconductivity-based data replication, the physical "Copy and Paste" that used static electricity instead of the lead press.',
+        },
+        detail: {
+          pt: 'O problema de duplicar dados físicos era que a tinta borrava e a foto exigia líquidos. Carlson usou a física de isolantes. Ele pegou uma placa de zinco revestida com enxofre (um material que só conduz eletricidade quando a luz bate nele) e a carregou com eletricidade estática. Ele colocou um papel com o texto por cima e jogou uma luz forte. Onde o papel estava em branco, a luz passava e a carga elétrica da placa sumia. Onde havia tinta (o texto), a placa continuava carregada. Depois, ele jogou um pó escuro (toner) que grudou magneticamente apenas no texto estático invisível. Bastou encostar um papel em branco e aquecer para ter a cópia perfeita.\n\nPor que isso entra no Hall da Fama da TI?\n\nA xerografia é a fundação da burocracia moderna e da gestão de dados físicos. A patente de Carlson originou a corporação Xerox, e o algoritmo de usar luz contínua (ou mais tarde, lasers) para desenhar eletricidade estática em um tambor é a arquitetura exata de todas as impressoras a laser e máquinas fotocopiadoras que rodam na infraestrutura corporativa do mundo atual. Ele resolveu o gargalo da distribuição e escalabilidade da informação física.',
+          en: 'The problem with duplicating physical data was that ink smudged and photography required liquids. Carlson used the physics of insulators. He took a zinc plate coated with sulfur (a material that conducts electricity only when light hits it) and charged it with static electricity. He placed a sheet with text over it and shone a strong light. Where the paper was blank, the light passed through and the electrical charge on the plate disappeared. Where there was ink (the text), the plate remained charged. Then he sprinkled a dark powder (toner) that stuck magnetically only to the invisible static text. All it took was touching it with a blank sheet and heating it to get a perfect copy.\n\nWhy does this belong in the IT Hall of Fame?\n\nXerography is the foundation of modern bureaucracy and physical data management. Carlson’s patent gave rise to the Xerox corporation, and the algorithm of using continuous light (or later, lasers) to draw static electricity on a drum is the exact architecture of every laser printer and photocopier running in today’s corporate infrastructure. He solved the bottleneck of physical information distribution and scalability.',
+        },
+      },
+      {
+        name: 'Bill Hewlett e David Packard',
+        imagePlaceholder: YEAR_1938_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Engenheiros elétricos brilhantes formados pela Universidade de Stanford, incentivados pelo lendário professor Fred Terman a não irem trabalhar para as corporações gigantes da Costa Leste (como a GE ou a AT&T), mas a abrirem sua própria empresa na Califórnia.',
+          en: 'Brilliant electrical engineers from Stanford University, encouraged by the legendary professor Fred Terman not to go work for East Coast corporate giants such as GE or AT&T, but to open their own company in California.',
+        },
+        summary: {
+          pt: 'Alugaram uma garagem em Palo Alto em 1938 e projetaram/construíram o HP 200A, um oscilador de áudio de precisão que usava uma lâmpada incandescente comum como componente crítico para estabilizar o circuito de forma barata e impecável, vendendo-o por uma fração do preço dos concorrentes.',
+          en: 'Rented a garage in Palo Alto in 1938 and designed/built the HP 200A, a precision audio oscillator that used an ordinary incandescent lamp as the critical component to stabilize the circuit cheaply and impeccably, selling it for a fraction of competitors’ prices.',
+        },
+        role: {
+          pt: 'Criadores do HP 200A e marco inicial do Vale do Silício',
+          en: 'Creators of the HP 200A and starting milestone of Silicon Valley',
+        },
+        contribution: {
+          pt: 'Em 1938, o espírito corporativo da TI mudou de monopólios pesados para "Startups Inovadoras", inaugurando o modelo ágil de engenharia de hardware.',
+          en: 'In 1938, IT’s corporate spirit shifted from heavy monopolies to "Innovative Startups", inaugurating the agile model of hardware engineering.',
+        },
+        detail: {
+          pt: 'O equipamento padrão da época (da corporação General Radio) custava 400 dólares, um absurdo durante a Depressão. O genial design de Hewlett de usar a resistência térmica de uma lâmpada comum de 110 volts no circuito de feedback deixou o oscilador deles muito mais estável que os da concorrência e reduziu o custo de produção para apenas 54 dólares (eles vendiam por módicos $71.50). A máquina gerava frequências de áudio puras, essenciais para testar redes telefônicas, acústica e filmes. A genialidade e o preço atraíram ninguém menos que a Walt Disney, que comprou oito osciladores modificados (HP 200B) para testar os alto-falantes de seu novo e revolucionário filme sonoro, Fantasia.\n\nPor que isso entra no Hall da Fama da TI?\n\nA montagem do HP 200A na garagem de 1938 (a empresa seria formalizada juridicamente no dia 1º de janeiro de 1939 como Hewlett-Packard) é universalmente reconhecida como o Nascimento do Vale do Silício. Eles criaram o arquétipo da Startup de tecnologia: dois engenheiros numa garagem, financiamento mínimo, uma ideia de hardware disruptiva que esmaga os gigantes do mercado, e uma cultura focada em inovação veloz e engenharia criativa. A HP não apenas fabricaria infraestrutura e calculadoras fundamentais nas próximas décadas, mas sua "garagem" inaugurou o ecossistema mental que mais tarde daria à luz a Apple, a Intel, o Google e toda a indústria de TI contemporânea.',
+          en: 'The standard equipment of the time (from the General Radio corporation) cost 400 dollars, absurd during the Depression. Hewlett’s ingenious design, using the thermal resistance of an ordinary 110-volt lamp in the feedback circuit, made their oscillator much more stable than competitors’ and reduced production cost to only 54 dollars (they sold it for a modest $71.50). The machine generated pure audio frequencies, essential for testing telephone networks, acoustics and films. The genius and the price attracted none other than Walt Disney, who bought eight modified oscillators (HP 200B) to test the loudspeakers for his new and revolutionary sound film, Fantasia.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe assembly of the HP 200A in the 1938 garage (the company would be legally formalized on January 1, 1939 as Hewlett-Packard) is universally recognized as the Birth of Silicon Valley. They created the archetype of the technology Startup: two engineers in a garage, minimal funding, a disruptive hardware idea that crushes market giants, and a culture focused on fast innovation and creative engineering. HP would not only manufacture fundamental infrastructure and calculators in the following decades, but its "garage" inaugurated the mental ecosystem that would later give birth to Apple, Intel, Google and the entire contemporary IT industry.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1939,
+    era: {
+      pt: 'O Primeiro Cérebro Eletrônico, o "Servidor" Corporativo e o Motor de Micro-ondas',
+      en: 'The First Electronic Brain, the Corporate "Server" and the Microwave Engine',
+    },
+    context: {
+      pt: 'Em 1939, a TI dá o primeiro passo para fora da era eletromecânica e entra na era verdadeiramente eletrônica, implementa o primeiro computador para rotinas empresariais e cria o hardware de alta frequência que ganharia a guerra. Em Iowa, um professor de física e seu aluno de graduação decidem que peças móveis são lentas demais e constroem o primeiro protótipo de computador que faz cálculos usando apenas a luz das válvulas de vácuo, inventando no processo a memória RAM moderna. Em Nova York, o experimento de cozinha de 1937 vira uma máquina em escala industrial, entregando à operadora de telefonia um "servidor" de cálculo de números complexos de uso contínuo. E na Inglaterra, sob a ameaça de bombardeios iminentes, dois físicos inventam uma válvula de cobre capaz de gerar frequências incrivelmente destrutivas e precisas, permitindo que o radar coubesse no bico de um avião. É o ano do Protótipo ABC, da Calculadora de Números Complexos e do Magnetron de Cavidade.',
+      en: 'In 1939, IT takes its first step out of the electromechanical era and enters the truly electronic era, implements the first computer for business routines and creates the high-frequency hardware that would win the war. In Iowa, a physics professor and his graduate student decide that moving parts are too slow and build the first computer prototype that performs calculations using only the glow of vacuum tubes, inventing modern RAM memory in the process. In New York, the 1937 kitchen experiment becomes an industrial-scale machine, giving the telephone operator a continuous-use complex-number calculation "server". And in England, under the threat of imminent bombing, two physicists invent a copper valve capable of generating incredibly destructive and precise frequencies, allowing radar to fit inside the nose of an airplane. It is the year of the ABC Prototype, the Complex Number Calculator and the Cavity Magnetron.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'John Vincent Atanasoff e Clifford Berry',
+        imagePlaceholder: YEAR_1939_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Atanasoff era professor de física no Iowa State College, frustrado com a lentidão dos computadores mecânicos da IBM para resolver equações lineares para seus alunos. Berry era seu genial aluno de engenharia elétrica que transformou a teoria do professor em hardware físico.',
+          en: 'Atanasoff was a physics professor at Iowa State College, frustrated by the slowness of IBM mechanical computers for solving linear equations for his students. Berry was his brilliant electrical-engineering student who transformed the professor’s theory into physical hardware.',
+        },
+        summary: {
+          pt: 'Concluíram e testaram com sucesso em outubro de 1939 o protótipo do Computador Atanasoff-Berry (ABC). Foi a primeira máquina digital da história a usar tubos de vácuo (válvulas) puramente eletrônicos para realizar cálculos lógicos, abandonando qualquer engrenagem, relé ou interruptor mecânico na Unidade Lógica e Aritmética (ALU).',
+          en: 'Completed and successfully tested in October 1939 the prototype of the Atanasoff-Berry Computer (ABC). It was the first digital machine in history to use purely electronic vacuum tubes (valves) to perform logical calculations, abandoning any gear, relay or mechanical switch in the Arithmetic Logic Unit (ALU).',
+        },
+        role: {
+          pt: 'Criadores do protótipo do Computador Atanasoff-Berry',
+          en: 'Creators of the Atanasoff-Berry Computer prototype',
+        },
+        contribution: {
+          pt: 'Em 1939, a TI migrou o processamento de dados para o "Estado Eletrônico" e inventou a Memória RAM Dinâmica (DRAM).',
+          en: 'In 1939, IT moved data processing into the "Electronic State" and invented Dynamic RAM Memory (DRAM).',
+        },
+        detail: {
+          pt: 'Para calcular sem pinos de metal, Atanasoff usou válvulas que ligavam e desligavam fluxos de elétrons na velocidade da luz. Mas o grande problema era a memória: como guardar os zeros e uns sem usar relés caros? Eles inventaram um tambor giratório cravejado de capacitores (pequenas baterias que guardam carga elétrica). Como os capacitores "vazam" energia rapidamente e esquecem a informação, eles inventaram um circuito elétrico lógico que lia a carga de cada capacitor e o recarregava (fazia um refresh) constantemente antes que ele apagasse.\n\nPor que isso entra no Hall da Fama da TI?\n\nO ABC marcou o nascimento da Computação Eletrônica Digital. Eles provaram que elétrons não serviam apenas para o rádio, mas eram os melhores matemáticos do universo. Mais impactante ainda: a ideia de usar capacitores minúsculos que precisam ser recarregados continuamente pela máquina para não perderem a memória é a exata e inalterada arquitetura técnica da Memória DRAM (Dynamic Random-Access Memory) que compõe os "pentes" de memória RAM que estão dentro do seu computador, tablet e celular neste exato segundo.',
+          en: 'To calculate without metal pins, Atanasoff used valves that turned electron flows on and off at the speed of light. But the major problem was memory: how do you store zeros and ones without expensive relays? They invented a rotating drum studded with capacitors (small batteries that store electrical charge). Because capacitors quickly "leak" energy and forget information, they invented a logical electrical circuit that read the charge of each capacitor and recharged it (performed a refresh) constantly before it disappeared.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe ABC marked the birth of Digital Electronic Computing. They proved that electrons were not only useful for radio; they were the best mathematicians in the universe. Even more impactful: the idea of using tiny capacitors that need to be continuously recharged by the machine so they do not lose memory is the exact and unchanged technical architecture of DRAM (Dynamic Random-Access Memory), which makes up the RAM "sticks" inside your computer, tablet and phone at this very second.',
+        },
+      },
+      {
+        name: 'George Stibitz e Samuel Williams (Bell Labs)',
+        imagePlaceholder: YEAR_1939_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Stibitz, que havia construído a calculadora binária na mesa da cozinha em 1937 (Modelo K), juntou-se ao engenheiro Samuel Williams para escalar a sua invenção amadora para uma demanda corporativa crítica de telecomunicações.',
+          en: 'Stibitz, who had built the binary calculator on his kitchen table in 1937 (Model K), joined engineer Samuel Williams to scale his amateur invention into a critical corporate telecommunications demand.',
+        },
+        summary: {
+          pt: 'Finalizaram e colocaram em operação contínua no final de 1939 a Calculadora de Números Complexos (Complex Number Calculator, depois renomeada como Bell Labs Model I), usando 400 relés telefônicos pesados para realizar multiplicações e divisões avançadas com números complexos (parte real e imaginária).',
+          en: 'Completed and put into continuous operation at the end of 1939 the Complex Number Calculator, later renamed Bell Labs Model I, using 400 heavy telephone relays to perform advanced multiplications and divisions with complex numbers (real and imaginary parts).',
+        },
+        role: {
+          pt: 'Criadores da Calculadora de Números Complexos do Bell Labs',
+          en: 'Creators of the Bell Labs Complex Number Calculator',
+        },
+        contribution: {
+          pt: 'Em 1939, o Hardware tornou-se um equipamento Enterprise, inaugurando a primeira máquina de cálculos especializada ligada a uma interface de teclado.',
+          en: 'In 1939, Hardware became Enterprise equipment, inaugurating the first specialized calculation machine connected to a keyboard interface.',
+        },
+        detail: {
+          pt: 'Os engenheiros da AT&T gastavam dias fazendo cálculos complexos na mão para projetar filtros de voz para os cabos de telefone de longa distância. O computador de Stibitz e Williams foi construído especificamente para esse pipeline de dados corporativos. Em vez de usar painéis confusos cheios de cabos ou fitas furadas para inserir os números, a equipe conectou a máquina a um teclado de teletipo adaptado. O engenheiro sentava, digitava a equação como se estivesse batendo à máquina, a central de relés em outra sala mastigava a matemática binária usando a lógica booleana, e o resultado era impresso de volta no papel.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta foi uma das primeiras instâncias de um computador eletromecânico sendo colocado em "Deploy de Produção" diário para facilitar o trabalho de desenvolvedores e engenheiros civis. A separação física entre o "cérebro" (a sala dos relés ruidosos) e o "terminal" (o teclado na mesa do usuário) não apenas ditou o design de usabilidade de interfaces Human-Computer Interaction (HCI), mas no ano seguinte (1940) permitiria a Stibitz realizar a primeira demonstração de computação remota da história via linha telefônica.',
+          en: 'AT&T engineers spent days doing complex calculations by hand to design voice filters for long-distance telephone cables. The computer by Stibitz and Williams was built specifically for this corporate data pipeline. Instead of using confusing panels full of cables or punched tapes to enter numbers, the team connected the machine to an adapted teletype keyboard. The engineer sat down, typed the equation as if using a typewriter, the relay center in another room chewed through the binary mathematics using Boolean logic, and the result was printed back on paper.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was one of the first instances of an electromechanical computer being put into daily "Production Deploy" to support the work of developers and civil engineers. The physical separation between the "brain" (the noisy relay room) and the "terminal" (the keyboard on the user’s desk) not only dictated the usability design of Human-Computer Interaction (HCI) interfaces, but in the following year (1940) would allow Stibitz to perform the first remote-computing demonstration in history via telephone line.',
+        },
+      },
+      {
+        name: 'John Randall e Harry Boot',
+        imagePlaceholder: YEAR_1939_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'Físicos operando sob intenso sigilo na Universidade de Birmingham. O radar inglês (de 1935) exigia antenas de 100 metros de altura porque usava frequências longas (ondas de rádio métricas). Para colocar um radar em um caça ou em um navio, a onda tinha que ser centimétrica (Micro-ondas). O problema é que ninguém sabia como gerar micro-ondas com potência suficiente sem que as válvulas derretessem.',
+          en: 'Physicists operating under intense secrecy at the University of Birmingham. English radar (from 1935) required 100-meter-tall antennas because it used long frequencies (metric radio waves). To put radar in a fighter aircraft or on a ship, the wave had to be centimetric (microwaves). The problem was that nobody knew how to generate microwaves with enough power without melting the valves.',
+        },
+        summary: {
+          pt: 'Inventaram e construíram em 1939 o Magnetron de Cavidade (Cavity Magnetron), refinando o conceito antigo de Albert Hull (1921). Eles pegaram um bloco maciço de cobre, perfuraram cavidades circulares precisas em seu interior e aplicaram magnetismo e energia letais.',
+          en: 'Invented and built in 1939 the Cavity Magnetron, refining Albert Hull’s earlier 1921 concept. They took a solid block of copper, drilled precise circular cavities inside it and applied lethal magnetism and energy.',
+        },
+        role: {
+          pt: 'Inventores do magnetron de cavidade',
+          en: 'Inventors of the cavity magnetron',
+        },
+        contribution: {
+          pt: 'Em 1939, a TI inventou a "Bomba" de Alta Frequência, gerando Throughput de energia eletromagnética massiva em escala miniaturizada.',
+          en: 'In 1939, IT invented the High-Frequency "Bomb", generating massive electromagnetic-energy throughput at miniaturized scale.',
+        },
+        detail: {
+          pt: 'A lógica de Randall e Boot foi baseada em acústica: se você assoprar a boca de uma garrafa de vidro vazia, ela emite um som forte e estável. Eles fizeram isso com elétrons. Dentro do bloco de cobre, elétrons eram disparados no vácuo e forçados a girar violentamente por um ímã forte. Conforme passavam pelas bordas das pequenas cavidades perfuradas, os elétrons "ressonavam", gerando ondas eletromagnéticas minúsculas (micro-ondas), mas com uma potência de centenas de quilowatts (capaz de iluminar uma cidade por uma fração de segundo). Era potência suficiente para atirar pulsos de dados pelos céus e detectar o periscópio de um submarino alemão emergindo na água.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Magnetron de Cavidade não apenas venceu a Batalha do Atlântico e miniaturizou a guerra eletrônica; ele reescreveu os limites da transmissão de sinais de altíssima densidade. Esta mesma invenção provou que comprimentos de onda curtos eram controláveis, abrindo o espectro que mais tarde seria usado para redes móveis corporativas, links espaciais via satélite e, curiosamente, o exato mesmo tubo magnético denso que, após a guerra, seria adaptado para cozinhar nossa comida em fornos de micro-ondas.',
+          en: 'Randall and Boot’s logic was based on acoustics: if you blow across the mouth of an empty glass bottle, it emits a strong and stable sound. They did this with electrons. Inside the copper block, electrons were fired in a vacuum and forced to spin violently by a strong magnet. As they passed the edges of the small drilled cavities, the electrons "resonated", generating tiny electromagnetic waves (microwaves), but with hundreds of kilowatts of power (enough to light a city for a fraction of a second). It was enough power to shoot data pulses through the skies and detect the periscope of a German submarine emerging from the water.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Cavity Magnetron not only won the Battle of the Atlantic and miniaturized electronic warfare; it rewrote the limits of ultra-high-density signal transmission. This same invention proved that short wavelengths were controllable, opening the spectrum that would later be used for corporate mobile networks, satellite space links and, curiously, the exact same dense magnetic tube that, after the war, would be adapted to cook our food in microwave ovens.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1940,
+    era: {
+      pt: 'A Primeira Nuvem (Cloud Computing), o Motor de Ciberguerra e a Matriz RGB',
+      en: 'The First Cloud (Cloud Computing), the Cyberwarfare Engine and the RGB Matrix',
+    },
+    context: {
+      pt: 'Em 1940, a tecnologia da informação realiza o primeiro login remoto da história, transforma a quebra de criptografia em uma linha de montagem industrial e adiciona a terceira dimensão visual aos dados de tela: a cor. Nos Estados Unidos, o engenheiro que havia construído o "servidor" do Bell Labs no ano anterior decide pegar um teclado, viajar para outro estado e provar que você não precisa estar perto da máquina para usar o cérebro dela, inaugurando o acesso remoto. Na Inglaterra, a inteligência britânica constrói monstros eletromecânicos barulhentos capazes de testar milhares de senhas por segundo usando matemática e dedução lógica, criando os primeiros data centers focados puramente em hacking. E nos laboratórios da CBS, o mundo monocromático dos dados visuais ganha vida quando um físico inventa o protocolo de fatiar a luz em vermelho, verde e azul, estabelecendo a base do pixel colorido que você está olhando agora. É o ano da Computação Remota de Stibitz, da Máquina Bombe de Turing e da TV a Cores de Goldmark.',
+      en: 'In 1940, information technology performs the first remote login in history, turns cryptography breaking into an industrial assembly line and adds the third visual dimension to screen data: color. In the United States, the engineer who had built Bell Labs’ "server" the previous year decides to take a keyboard, travel to another state and prove that you do not need to be near the machine to use its brain, inaugurating remote access. In England, British intelligence builds noisy electromechanical monsters capable of testing thousands of passwords per second using mathematics and logical deduction, creating the first data centers focused purely on hacking. And in CBS laboratories, the monochrome world of visual data comes alive when a physicist invents the protocol for slicing light into red, green and blue, establishing the foundation of the color pixel you are looking at right now. It is the year of Stibitz’s Remote Computing, Turing’s Bombe Machine and Goldmark’s Color TV.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'George Stibitz e a equipe do Bell Labs',
+        imagePlaceholder: YEAR_1940_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Stibitz, o homem que inventou a calculadora na mesa da cozinha (1937), agora era o pai do Bell Labs Model I (1939). A máquina era um sucesso corporativo em Nova York, mas Stibitz foi convidado para dar uma palestra na Universidade de Dartmouth, em New Hampshire (a cerca de 400 km de distância). Ele queria levar o computador, mas ele pesava toneladas.',
+          en: 'Stibitz, the man who invented the kitchen-table calculator in 1937, was now the father of the Bell Labs Model I (1939). The machine was a corporate success in New York, but Stibitz was invited to give a lecture at Dartmouth College in New Hampshire, about 400 km away. He wanted to take the computer with him, but it weighed tons.',
+        },
+        summary: {
+          pt: 'Realizou em 11 de setembro de 1940 a primeira operação de computação remota da história. Stibitz instalou um teclado de teletipo no palco em Dartmouth e o conectou a uma linha telefônica comum de telégrafo que ia até o prédio do Bell Labs em Nova York. Ele digitava as equações complexas em New Hampshire, o sinal viajava 400 km, o computador em Nova York processava a matemática e enviava a resposta de volta para a impressora do palco em menos de um minuto.',
+          en: 'Performed on September 11, 1940 the first remote-computing operation in history. Stibitz installed a teletype keyboard onstage at Dartmouth and connected it to an ordinary telephone/telegraph line running to the Bell Labs building in New York. He typed complex equations in New Hampshire, the signal traveled 400 km, the computer in New York processed the mathematics and sent the answer back to the stage printer in less than a minute.',
+        },
+        role: {
+          pt: 'Pioneiro da computação remota',
+          en: 'Pioneer of remote computing',
+        },
+        contribution: {
+          pt: 'Em 1940, a TI inventou a Arquitetura "Client-Server" (Cliente-Servidor) e o acesso em nuvem: a máquina física finalmente foi separada do usuário final.',
+          en: 'In 1940, IT invented "Client-Server" Architecture and cloud access: the physical machine was finally separated from the final user.',
+        },
+        detail: {
+          pt: 'Até este dia, a regra era: se você quer usar um computador, você tem que sentar fisicamente na frente dele. Stibitz provou que o "Poder de Processamento" podia ser tratado como uma utilidade pública (como eletricidade ou água), onde você apenas "liga a torneira" (o terminal) e consome os cálculos que estão sendo gerados por um hardware massivo a milhares de quilômetros de distância. Entre a plateia perplexa no dia da demonstração estavam John von Neumann e Norbert Wiener, que logo depois escreveriam as regras definitivas da computação moderna.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste evento é a fundação absoluta do Cloud Computing (Computação em Nuvem), do Telnet e do SSH (Acesso Remoto Seguro). Toda vez que você acessa um banco de dados hospedado na AWS (Amazon Web Services) ou usa o Google Docs, você não está processando os dados no seu aparelho; você está usando o seu celular/PC apenas como um "terminal burro" (como o teclado de Stibitz) para enviar comandos e receber respostas de um mainframe corporativo distante. Stibitz provou, em 1940, que a rede de telecomunicações e a computação eram, na verdade, uma coisa só.',
+          en: 'Until this day, the rule was: if you want to use a computer, you must sit physically in front of it. Stibitz proved that "Processing Power" could be treated as a public utility (like electricity or water), where you simply "turn on the faucet" (the terminal) and consume calculations being generated by massive hardware thousands of kilometers away. Among the astonished audience on the day of the demonstration were John von Neumann and Norbert Wiener, who would soon write the definitive rules of modern computing.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis event is the absolute foundation of Cloud Computing, Telnet and SSH (Secure Remote Access). Every time you access a database hosted on AWS (Amazon Web Services) or use Google Docs, you are not processing the data on your device; you are using your phone/PC only as a "dumb terminal" (like Stibitz’s keyboard) to send commands and receive answers from a distant corporate mainframe. Stibitz proved, in 1940, that the telecommunications network and computing were, in fact, one thing.',
+        },
+      },
+      {
+        name: 'Alan Turing e Gordon Welchman',
+        imagePlaceholder: YEAR_1940_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'Os matemáticos geniais recrutados pela inteligência militar britânica para a ultrassecreta instalação de Bletchley Park. A missão deles: quebrar a Enigma alemã (que os poloneses haviam atacado em 1935), mas que agora tinha milhões de combinações a mais após atualizações de hardware da Marinha Nazista.',
+          en: 'The brilliant mathematicians recruited by British military intelligence for the ultra-secret Bletchley Park facility. Their mission: break the German Enigma (which the Poles had attacked in 1935), now with millions more combinations after Nazi Navy hardware upgrades.',
+        },
+        summary: {
+          pt: 'Projetaram e colocaram em operação (com o primeiro protótipo batizado de "Victory" entregue em março de 1940) a Máquina Bombe. Tratava-se de um armário colossal cheio de relés rotativos que replicava o comportamento de dezenas de máquinas Enigma trabalhando juntas para fazer a engenharia reversa das senhas interceptadas.',
+          en: 'Designed and put into operation the Bombe Machine, with the first prototype named "Victory" delivered in March 1940. It was a colossal cabinet full of rotating relays that replicated the behavior of dozens of Enigma machines working together to reverse-engineer intercepted passwords.',
+        },
+        role: {
+          pt: 'Criadores da Bombe britânica',
+          en: 'Creators of the British Bombe',
+        },
+        contribution: {
+          pt: 'Em 1940, o Hacking tornou-se Industrializado. A TI construiu um hardware para rodar algoritmos de otimização de busca, rejeitando a pura "força bruta".',
+          en: 'In 1940, Hacking became Industrialized. IT built hardware to run search-optimization algorithms, rejecting pure "brute force".',
+        },
+        detail: {
+          pt: 'Se a Bombe tentasse testar cada letra uma por uma, o universo acabaria antes de ela achar a senha. Turing e Welchman criaram um algoritmo lógico e o traduziram para fios. Eles sabiam que os alemães eram burocráticos e sempre começavam as mensagens com palavras conhecidas (cribs), como "WETTER" (Clima). A Bombe não testava o alfabeto inteiro; os rotores elétricos rodavam procurando apenas contradições lógicas nessas palavras. Quando a máquina sentia que uma eletricidade não entrava em paradoxo, ela parava os motores com um baque surdo, indicando que havia achado a chave criptográfica do dia.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Bombe é a mãe de todo o hardware de Criptografia e Criptoanálise moderna. Bletchley Park encomendou dezenas dessas máquinas operando 24 horas por dia, criando essencialmente o primeiro grande Data Center do mundo dedicado ao processamento de dados inimigos. A capacidade de quebrar os códigos dos submarinos alemães (os U-boats) através deste processamento acelerado por hardware foi um dos fatores primários que permitiu aos Aliados vencerem a Batalha do Atlântico, encurtando a Segunda Guerra Mundial em pelo menos dois anos.',
+          en: 'If the Bombe tried to test every letter one by one, the universe would end before it found the password. Turing and Welchman created a logical algorithm and translated it into wires. They knew the Germans were bureaucratic and often began messages with known words (cribs), such as "WETTER" (weather). The Bombe did not test the entire alphabet; its electrical rotors ran looking only for logical contradictions in those words. When the machine sensed that an electrical path did not fall into paradox, it stopped the motors with a dull thud, indicating that it had found the cryptographic key of the day.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Bombe is the mother of all modern Cryptography and Cryptanalysis hardware. Bletchley Park ordered dozens of these machines operating 24 hours a day, essentially creating the world’s first large Data Center dedicated to processing enemy data. The ability to break the codes of German submarines (the U-boats) through this hardware-accelerated processing was one of the primary factors that allowed the Allies to win the Battle of the Atlantic, shortening World War II by at least two years.',
+        },
+      },
+      {
+        name: 'Peter Carl Goldmark e a CBS (Columbia Broadcasting System)',
+        imagePlaceholder: YEAR_1940_PLACEHOLDER,
+        flag: '🇭🇺 🇺🇸',
+        nationality: { pt: 'Húngaro / Americano', en: 'Hungarian / American' },
+        formation: {
+          pt: 'Engenheiro-chefe genial da rede de rádio e TV CBS. Goldmark não aceitava que a revolução das telas (padronizada em 1936 com a alta definição monocromática) fosse para sempre restrita a tons de cinza. O mundo tinha cores, e os dados visuais precisavam refleti-las.',
+          en: 'Brilliant chief engineer of the CBS radio and television network. Goldmark did not accept that the screen revolution, standardized in 1936 with monochrome high definition, would remain forever restricted to shades of gray. The world had color, and visual data needed to reflect it.',
+        },
+        summary: {
+          pt: 'Demonstrou com sucesso no final de agosto de 1940 o Sistema CBS de Televisão em Cores (Televisão de Campo Sequencial). Ele conseguiu transmitir e exibir na tela imagens coloridas em movimento de forma viável pela primeira vez, usando um conceito brutalmente inteligente de multiplexação temporal de cores.',
+          en: 'Successfully demonstrated in late August 1940 the CBS Color Television System (Field-Sequential Television). He managed to transmit and display moving color images on screen in a viable way for the first time, using a brutally intelligent concept of temporal color multiplexing.',
+        },
+        role: {
+          pt: 'Pioneiro da televisão em cores e da matriz RGB',
+          en: 'Pioneer of color television and the RGB matrix',
+        },
+        contribution: {
+          pt: 'Em 1940, a Mídia Digital ganhou "Color Depth" (Profundidade de Cor), codificando o vermelho, verde e azul (RGB) como canais de dados separados.',
+          en: 'In 1940, Digital Media gained "Color Depth", encoding red, green and blue (RGB) as separate data channels.',
+        },
+        detail: {
+          pt: 'Como o hardware da época não conseguia transmitir três imagens pesadas (uma de cada cor) ao mesmo tempo sem derrubar a rede, Goldmark usou a limitação do olho humano a favor da engenharia. O sistema dele atirava os dados da imagem em preto e branco muito rápido na tela. Na frente do tubo do monitor, havia um disco girando violentamente contendo filtros transparentes em Vermelho (Red), Verde (Green) e Azul (Blue). A máquina desenhava a imagem quando o filtro vermelho passava, redesenhava no filtro verde e depois no azul, 120 vezes por segundo. O cérebro do usuário derretia as três telas monocromáticas numa única e vibrante imagem colorida.\n\nPor que isso entra no Hall da Fama da TI?\n\nEmbora esse disco giratório mecânico fosse ruidoso e acabasse substituído anos depois pela TV a cores totalmente eletrônica (do sistema NTSC/RCA), Goldmark foi o homem que cravou o padrão arquitetônico absoluto da renderização visual. Ele provou comercialmente o modelo de Adição de Cores RGB. Todo pixel individual no monitor LCD/OLED que você usa para programar, jogar ou ler este texto é composto por três sub-pixels minúsculos (Vermelho, Verde, Azul). A lógica de enganar a sua biologia misturando essas três frequências exatas nasceu nestes testes corporativos de 1940.',
+          en: 'Because the hardware of the time could not transmit three heavy images (one for each color) at the same time without collapsing the network, Goldmark used the limitation of the human eye in favor of engineering. His system fired black-and-white image data very quickly onto the screen. In front of the monitor tube, a disk spun violently containing transparent filters in Red, Green and Blue. The machine drew the image when the red filter passed, redrew it through the green filter and then through the blue, 120 times per second. The user’s brain melted the three monochrome screens into one vibrant color image.\n\nWhy does this belong in the IT Hall of Fame?\n\nAlthough this mechanical spinning disk was noisy and would later be replaced by fully electronic color TV (the NTSC/RCA system), Goldmark was the person who locked in the absolute architectural standard of visual rendering. He commercially proved the RGB Color Addition model. Every individual pixel on the LCD/OLED monitor you use to program, play or read this text is composed of three tiny sub-pixels (Red, Green, Blue). The logic of tricking your biology by mixing these three exact frequencies was born in these 1940 corporate tests.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1941,
+    era: {
+      pt: 'O Primeiro Computador Turing-Completo, a Criptografia Inquebrável do "Wi-Fi" e a Padronização do Vídeo',
+      en: 'The First Turing-Complete Computer, the Unbreakable Cryptography of "Wi-Fi" and Video Standardization',
+    },
+    context: {
+      pt: 'Em 1941, com o mundo mergulhado na Segunda Guerra Mundial, a tecnologia da informação atinge três picos arquitetônicos absolutos: ela constrói o primeiro "computador" prático e completo da história, inventa a lógica matemática que protege o seu Wi-Fi hoje e estabelece o primeiro grande protocolo unificado para telas. Na Alemanha, trabalhando de forma isolada, um engenheiro liga a energia de uma máquina gigantesca de relés e finalmente vê um programa de software rodar de forma 100% autônoma e sem falhas, criando o pai físico de todos os PCs. Em Hollywood, uma estrela de cinema genial une forças com um compositor musical para inventar um algoritmo de "salto de frequência", ensinando transmissores e receptores a mudarem de canal de rádio em perfeita sincronia para despistar hackers e jammers inimigos. E nos Estados Unidos, o governo força corporações rivais a assinarem a paz tecnológica, lançando o protocolo unificado de renderização de vídeo que ditaria o hardware do ocidente por 60 anos. É o ano do Computador Z3, do Frequency Hopping (Salto de Frequência) e da fundação do protocolo NTSC.',
+      en: 'In 1941, with the world plunged into World War II, information technology reaches three absolute architectural peaks: it builds the first practical and complete "computer" in history, invents the mathematical logic that protects your Wi-Fi today and establishes the first major unified protocol for screens. In Germany, working in isolation, an engineer powers up a giant relay machine and finally sees a software program run 100% autonomously and without failures, creating the physical father of all PCs. In Hollywood, a brilliant movie star joins forces with a musical composer to invent a "frequency hopping" algorithm, teaching transmitters and receivers to change radio channels in perfect sync to evade enemy hackers and jammers. And in the United States, the government forces rival corporations to sign a technological peace, launching the unified video-rendering protocol that would dictate Western hardware for 60 years. It is the year of the Z3 Computer, Frequency Hopping and the founding of the NTSC protocol.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Konrad Zuse',
+        imagePlaceholder: YEAR_1941_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'O implacável engenheiro civil que não desistiu após seus experimentos iniciais (o Z1 mecânico de 1938). Operando virtualmente cego em relação aos avanços americanos ou britânicos devido ao bloqueio da guerra, ele conseguiu financiamento estatal para construir uma máquina que não travasse.',
+          en: 'The relentless civil engineer who did not give up after his initial experiments (the mechanical Z1 of 1938). Operating virtually blind to American or British advances because of the wartime blockade, he obtained state funding to build a machine that would not jam.',
+        },
+        summary: {
+          pt: 'Apresentou em 12 de maio de 1941 o Z3, o primeiro computador digital automático, programável e totalmente operacional do mundo. Ele substituiu as antigas engrenagens de metal emperradas por cerca de 2.000 relés eletromecânicos de telefone para realizar toda a lógica binária e a memória.',
+          en: 'Presented on May 12, 1941 the Z3, the world’s first automatic, programmable and fully operational digital computer. It replaced the old jammed metal gears with about 2,000 electromechanical telephone relays to perform all binary logic and memory.',
+        },
+        role: {
+          pt: 'Criador do computador Z3',
+          en: 'Creator of the Z3 computer',
+        },
+        contribution: {
+          pt: 'Em 1941, a TI colocou a Teoria em Produção: o Z3 foi o primeiro hardware físico a rodar com sucesso a arquitetura universal e o código de "Ponto Flutuante".',
+          en: 'In 1941, IT put Theory into Production: the Z3 was the first physical hardware to successfully run universal architecture and "Floating Point" code.',
+        },
+        detail: {
+          pt: 'Alan Turing imaginou o conceito no papel em 1936. Zuse, sem ter lido o artigo de Turing, construiu a máquina na prática. O Z3 processava os programas lendo furos em tiras de filme cinematográfico. A maravilha arquitetônica era o seu pipeline aritmético: ele executava matemática em ponto flutuante (binário de 22 bits), o que significa que o hardware conseguia calcular variáveis extremamente precisas com casas decimais, lidando desde frações minúsculas de aerodinâmica até números massivos de engenharia aeronáutica para o Instituto de Pesquisa de Aviação Alemão.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Z3 é oficialmente aclamado como o primeiro computador de uso geral funcional da história. Décadas depois de sua criação, matemáticos provaram rigorosamente que o Z3 era "Turing-Completo" (ou seja, dadas as devidas memórias, ele poderia teoricamente computar qualquer algoritmo que um processador Intel Core moderno consegue computar, apenas muito mais devagar). Zuse implementou em 1941 o pacote completo que usamos hoje: um clock (operando a míseros 5.3 Hz), unidade de controle, memória, ALU e fita de input/output de código.',
+          en: 'Alan Turing imagined the concept on paper in 1936. Zuse, without having read Turing’s paper, built the machine in practice. The Z3 processed programs by reading holes in strips of motion-picture film. The architectural marvel was its arithmetic pipeline: it executed floating-point mathematics (22-bit binary), which means the hardware could calculate extremely precise variables with decimal fractions, handling everything from tiny aerodynamic fractions to massive aeronautical engineering numbers for the German Aviation Research Institute.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Z3 is officially acclaimed as the first functional general-purpose computer in history. Decades after its creation, mathematicians rigorously proved that the Z3 was "Turing-Complete" (that is, given the proper memory, it could theoretically compute any algorithm that a modern Intel Core processor can compute, only much more slowly). Zuse implemented in 1941 the complete package we use today: a clock (operating at a meager 5.3 Hz), control unit, memory, ALU and code input/output tape.',
+        },
+      },
+      {
+        name: 'Hedy Lamarr e George Antheil',
+        imagePlaceholder: YEAR_1941_PLACEHOLDER,
+        flag: '🇦🇹 🇺🇸',
+        nationality: { pt: 'Austríaca (naturalizada Americana) / Americano', en: 'Austrian (naturalized American) / American' },
+        formation: {
+          pt: 'Lamarr era uma das atrizes mais famosas e glamourosas da Era de Ouro de Hollywood, mas possuía uma mente voltada para a invenção de sistemas dinâmicos. Antheil era um compositor de música vanguardista obcecado por sincronizar múltiplos pianos mecânicos (pianolas) de forma simultânea.',
+          en: 'Lamarr was one of the most famous and glamorous actresses of Hollywood’s Golden Age, but she had a mind oriented toward inventing dynamic systems. Antheil was an avant-garde music composer obsessed with synchronizing multiple mechanical pianos (player pianos) simultaneously.',
+        },
+        summary: {
+          pt: 'Submeteram a patente em junho de 1941 do Secret Communication System (Sistema de Comunicação Secreta), inventando o conceito de Frequency-Hopping Spread Spectrum (FHSS). Eles criaram um protocolo para torpedos rádio-controlados que trocava a frequência de transmissão em frações de segundo, seguindo um código pseudoaleatório.',
+          en: 'Submitted in June 1941 the patent for the Secret Communication System, inventing the concept of Frequency-Hopping Spread Spectrum (FHSS). They created a protocol for radio-controlled torpedoes that changed transmission frequency in fractions of a second, following a pseudorandom code.',
+        },
+        role: {
+          pt: 'Inventores do salto de frequência',
+          en: 'Inventors of frequency hopping',
+        },
+        contribution: {
+          pt: 'Em 1941, a TI inventou a "Criptografia Física de Rede", despistando a intercepção de dados ao fazer a portadora de rádio pular de canal constantemente.',
+          en: 'In 1941, IT invented "Physical Network Cryptography", evading data interception by making the radio carrier constantly jump channels.',
+        },
+        detail: {
+          pt: 'Se um navio tentasse guiar um torpedo via rádio, o inimigo só precisava ligar um gerador de estática na mesma frequência e os pacotes de dados colidiam, bloqueando o controle (Jamming). Lamarr teve a epifania de não usar uma frequência só, mas 88 delas (o número de teclas do piano). Antheil implementou isso usando o cilindro perfurado de papel de uma pianola. O transmissor no navio e o receptor no torpedo liam o mesmo "papel furado" em perfeita sincronia, trocando juntos a frequência de rádio dezenas de vezes por segundo. Para o inimigo, o sinal parecia apenas um chiado indetectável de fundo; para a máquina sintonizada, o dado chegava puro.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta invenção é simplesmente o Código-Fonte logístico do Wi-Fi, Bluetooth, GPS e do 4G/5G modernos. Hoje, os roteadores e celulares não usam rolos de papel de piano, mas usam chips digitais que rodam exatamente o mesmo algoritmo de "espalhamento de espectro" patenteado por Lamarr e Antheil em 1941. Se você consegue usar o Bluetooth do seu fone de ouvido numa rua lotada de outras pessoas usando Bluetooth sem que os sinais se misturem, é porque todos os aparelhos estão pulando de frequência agilmente usando o protocolo projetado por essa estrela de cinema para combater nazistas.',
+          en: 'If a ship tried to guide a torpedo by radio, the enemy only needed to turn on a static generator on the same frequency and the data packets would collide, blocking control (jamming). Lamarr had the epiphany of not using just one frequency, but 88 of them (the number of piano keys). Antheil implemented this using the perforated paper cylinder of a player piano. The transmitter on the ship and the receiver in the torpedo read the same "punched paper" in perfect synchronization, changing radio frequency together dozens of times per second. To the enemy, the signal looked like only an undetectable background hiss; to the synchronized machine, the data arrived cleanly.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis invention is simply the logistical Source Code of modern Wi-Fi, Bluetooth, GPS and 4G/5G. Today, routers and phones do not use piano paper rolls, but they use digital chips that run exactly the same "spread spectrum" algorithm patented by Lamarr and Antheil in 1941. If you can use your Bluetooth earbuds on a street full of other people using Bluetooth without the signals mixing, it is because all the devices are agilely hopping frequencies using the protocol designed by this movie star to fight Nazis.',
+        },
+      },
+      {
+        name: 'National Television System Committee (NTSC) e a FCC',
+        imagePlaceholder: YEAR_1941_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Um comitê brutal de negociação liderado pelo governo americano. A FCC pegou os engenheiros chefes de todas as corporações rivais de tecnologia (RCA, CBS, Philco, DuMont) e os trancou num processo de padronização, exigindo que eles parassem de construir máquinas incompatíveis entre si.',
+          en: 'A brutal negotiation committee led by the American government. The FCC took the chief engineers of every rival technology corporation (RCA, CBS, Philco, DuMont) and locked them into a standardization process, requiring them to stop building machines incompatible with one another.',
+        },
+        summary: {
+          pt: 'Aprovaram e oficializaram em maio de 1941 o Padrão NTSC Original (Monocromático), autorizando o início das transmissões comerciais na América do Norte a partir de julho do mesmo ano. O protocolo fixou a engenharia de tela em 525 linhas de resolução e 30 quadros por segundo (em formato de 60 campos entrelaçados).',
+          en: 'Approved and officialized in May 1941 the original NTSC Standard (monochrome), authorizing the start of commercial broadcasts in North America from July of the same year. The protocol fixed screen engineering at 525 lines of resolution and 30 frames per second (in the format of 60 interlaced fields).',
+        },
+        role: {
+          pt: 'Criadores do padrão NTSC original',
+          en: 'Creators of the original NTSC standard',
+        },
+        contribution: {
+          pt: 'Em 1941, a Infraestrutura fechou o seu "Acordo Universal de API" para mídias visuais, forçando todos os fabricantes a obedecerem às mesmas métricas de pacote e latência.',
+          en: 'In 1941, Infrastructure closed its "Universal API Agreement" for visual media, forcing all manufacturers to obey the same packet and latency metrics.',
+        },
+        detail: {
+          pt: 'Se a RCA transmitisse em 441 linhas e a DuMont transmitisse em 600 linhas, o usuário teria que comprar duas TVs diferentes. O comitê de 1941 agiu como o IEEE (Institute of Electrical and Electronics Engineers) age hoje ao padronizar cabos USB. O detalhe arquitetônico mais genial deste protocolo foi travar a taxa de atualização da tela em 60 Hertz. Por que 60? Porque a rede elétrica de energia dos Estados Unidos pulsava a 60 ciclos por segundo. Ao amarrar o ciclo de dados de vídeo à própria pulsação elétrica da tomada, eles eliminaram distorções visuais críticas nos hardwares da época.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o primeiro grande tratado comercial de padronização de interface de hardware da história das comunicações de massa. O protocolo NTSC ditou a taxa de framerate baseada em 30/60fps. Mesmo hoje, décadas após a morte das TVs de tubo e a ascensão do digital, se você gravar um vídeo no seu smartphone para o YouTube, o formato padrão de processamento continuará sendo quase sempre 30 fps ou 60 fps — um fantasma numérico direto cravado pela infraestrutura decidida neste comitê corporativo em 1941.',
+          en: 'If RCA transmitted at 441 lines and DuMont transmitted at 600 lines, the user would have to buy two different TVs. The 1941 committee acted the way the IEEE (Institute of Electrical and Electronics Engineers) acts today when standardizing USB cables. The most brilliant architectural detail of this protocol was locking the screen refresh rate at 60 Hertz. Why 60? Because the electrical power grid in the United States pulsed at 60 cycles per second. By tying the video data cycle to the very electrical pulse of the wall outlet, they eliminated critical visual distortions in the hardware of the time.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the first major commercial treaty for hardware-interface standardization in the history of mass communications. The NTSC protocol dictated a framerate based on 30/60 fps. Even today, decades after the death of tube TVs and the rise of digital, if you record a video on your smartphone for YouTube, the standard processing format will still almost always be 30 fps or 60 fps: a direct numerical ghost fixed by the infrastructure decided in this corporate committee in 1941.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1942,
+    era: {
+      pt: 'O "Whitepaper" do Colosso Eletrônico, o Algoritmo Preditivo (Cibernética) e o Patch de Alta Fidelidade',
+      en: 'The "Whitepaper" of the Electronic Colossus, the Predictive Algorithm (Cybernetics) and the High-Fidelity Patch',
+    },
+    context: {
+      pt: 'Em 1942, com o planeta imerso na fúria da Segunda Guerra Mundial, a tecnologia da informação percebe que as armas não são mais decididas pelo tamanho do canhão, mas pela velocidade do processamento dos dados. Nos Estados Unidos, um físico cansado de ver as tabelas de artilharia atrasarem meses escreve o "manifesto" confidencial que convenceria o exército a financiar o primeiro supercomputador eletrônico e de uso geral da história. Em Massachusetts, um matemático excêntrico tentando prever a rota de bombardeiros inimigos descobre a equação matemática do feedback biológico, fundando a "Cibernética" e plantando a raiz da inteligência artificial preditiva. E na Alemanha, uma falha acidental em um laboratório de rádio revela o segredo para gravar dados magnéticos com perfeição cristalina, revolucionando para sempre o disco rígido e o armazenamento de informações de alta densidade. É o ano do Memorando do ENIAC, do Preditivo de Wiener e da Descoberta do AC Bias.',
+      en: 'In 1942, with the planet immersed in the fury of World War II, information technology realizes that weapons are no longer decided by the size of the cannon, but by the speed of data processing. In the United States, a physicist tired of seeing artillery tables delayed by months writes the confidential "manifesto" that would convince the army to fund the first general-purpose electronic supercomputer in history. In Massachusetts, an eccentric mathematician trying to predict the route of enemy bombers discovers the mathematical equation of biological feedback, founding "Cybernetics" and planting the root of predictive artificial intelligence. And in Germany, an accidental failure in a radio laboratory reveals the secret to recording magnetic data with crystalline perfection, forever revolutionizing the hard drive and high-density information storage. It is the year of the ENIAC Memorandum, Wiener’s Predictor and the Discovery of AC Bias.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'John Mauchly',
+        imagePlaceholder: YEAR_1942_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Físico e professor na Moore School of Electrical Engineering da Universidade da Pensilvânia. Ele via o exército americano empregar centenas de mulheres (chamadas de "computadores humanos") calculando à mão tabelas de balística de mísseis, um processo torturantemente lento.',
+          en: 'Physicist and professor at the Moore School of Electrical Engineering of the University of Pennsylvania. He saw the U.S. Army employ hundreds of women (called "human computers") to calculate missile ballistics tables by hand, a torturously slow process.',
+        },
+        summary: {
+          pt: 'Escreveu e publicou em agosto de 1942 o memorando confidencial "The Use of High Speed Vacuum Tube Devices for Calculating" (O Uso de Dispositivos de Tubos de Vácuo de Alta Velocidade para Cálculo). Este humilde documento de algumas páginas foi a proposta arquitetônica que deu origem ao lendário projeto ENIAC.',
+          en: 'Wrote and circulated in August 1942 the confidential memorandum "The Use of High Speed Vacuum Tube Devices for Calculating". This humble document of a few pages was the architectural proposal that gave rise to the legendary ENIAC project.',
+        },
+        role: {
+          pt: 'Autor do memorando fundador do ENIAC',
+          en: 'Author of the founding ENIAC memorandum',
+        },
+        contribution: {
+          pt: 'Em 1942, a TI ganhou seu Business Plan definitivo: Mauchly provou no papel que o custo de usar válvulas eletrônicas valia a pena, arquitetando a computação em escala de massa.',
+          en: 'In 1942, IT gained its definitive Business Plan: Mauchly proved on paper that the cost of using electronic tubes was worthwhile, architecting mass-scale computing.',
+        },
+        detail: {
+          pt: 'Os computadores até então (como o Z3 alemão e o ABC de 1939) eram ou mecânicos (lentos) ou resolviam um único problema muito específico. No seu memorando, Mauchly propôs a loucura de juntar dezenas de milhares de válvulas de rádio (que na época queimavam constantemente) para construir um cérebro eletrônico General-Purpose (de uso geral). Se uma válvula pifasse, eles trocariam rápido; se funcionasse, a máquina faria em segundos o que um humano levava 30 dias para calcular. O memorando convenceu o Exército dos EUA a despejar meio milhão de dólares (uma fortuna) no projeto.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste memorando é o documento fundador da Indústria de Computadores Mainframe. Zuse e Atanasoff construíram as primeiras máquinas, mas foi a proposta de Mauchly em 1942 que gerou a ignição do complexo militar-industrial da computação. Sem este documento, não haveria o ENIAC (iniciado no ano seguinte), não haveria a parceria com J. Presper Eckert e não haveria a posterior arquitetura comercial de Von Neumann que definiu o mercado de computação da Guerra Fria. O "Whitepaper" de 1942 foi a faísca que forçou a transição oficial do hardware mecânico para o eletrônico.',
+          en: 'Computers up to that point (such as the German Z3 and the ABC of 1939) were either mechanical (slow) or solved one very specific problem. In his memorandum, Mauchly proposed the madness of joining tens of thousands of radio tubes (which at the time constantly burned out) to build a general-purpose electronic brain. If a tube failed, they would replace it quickly; if it worked, the machine would do in seconds what a human took 30 days to calculate. The memorandum convinced the U.S. Army to pour half a million dollars (a fortune) into the project.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis memorandum is the founding document of the Mainframe Computer Industry. Zuse and Atanasoff built the first machines, but it was Mauchly’s 1942 proposal that ignited the military-industrial complex of computing. Without this document, there would be no ENIAC (started the following year), no partnership with J. Presper Eckert and no later commercial Von Neumann architecture that defined the Cold War computing market. The 1942 "Whitepaper" was the spark that forced the official transition from mechanical hardware to electronic hardware.',
+        },
+      },
+      {
+        name: 'Norbert Wiener e Julian Bigelow',
+        imagePlaceholder: YEAR_1942_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Wiener era um matemático prodigioso do MIT, e Bigelow um engenheiro elétrico afiado. Eles foram contratados pelo governo para resolver um problema insolúvel de lag (latência física): quando você atira num avião voando a 600 km/h, o míssil demora a chegar. Você não atira onde o avião está, você atira onde ele estará.',
+          en: 'Wiener was a prodigious MIT mathematician, and Bigelow a sharp electrical engineer. They were hired by the government to solve an insoluble problem of lag (physical latency): when you shoot at an airplane flying at 600 km/h, the missile takes time to arrive. You do not shoot where the airplane is, you shoot where it will be.',
+        },
+        summary: {
+          pt: 'Desenvolveram em 1942 a matemática do Preditore Antiaéreo (Anti-Aircraft Predictor), introduzindo formalmente o conceito lógico de Feedback Loop (Malha de Retroalimentação) na engenharia de sistemas modernos.',
+          en: 'Developed in 1942 the mathematics of the Anti-Aircraft Predictor, formally introducing the logical concept of the Feedback Loop into modern systems engineering.',
+        },
+        role: {
+          pt: 'Fundadores da matemática preditiva da cibernética',
+          en: 'Founders of cybernetic predictive mathematics',
+        },
+        contribution: {
+          pt: 'Em 1942, o algoritmo parou de apenas calcular o passado e começou a inferir o futuro, criando o conceito do "Erro como Combustível de Aprendizado".',
+          en: 'In 1942, the algorithm stopped merely calculating the past and began inferring the future, creating the concept of "Error as Learning Fuel".',
+        },
+        detail: {
+          pt: 'Wiener percebeu que o piloto inimigo e a máquina antiaérea formavam um único sistema de dados. Para a arma "adivinhar" o futuro, a máquina precisava medir constantemente a diferença entre onde o canhão estava apontado e onde o avião realmente estava (o erro). Ao pegar esse dado de erro e reinjetá-lo na entrada do sistema (feedback negativo), a máquina "aprendia" e corrigia sua mira em tempo real. Wiener notou, chocado, que esse era exatamente o mesmo algoritmo que o cérebro humano usa para pegar um copo d\'água sem derrubá-lo.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta é a fundação da Cibernética e o avô do Machine Learning (Aprendizado de Máquina). Ao equacionar o feedback em 1942, Wiener unificou o estudo das máquinas e da neurologia humana. A lógica que eles usaram para calcular o comportamento evasivo do piloto alemão é o princípio filosófico por trás de toda IA moderna: a Rede Neural que hoje joga xadrez, dirige carros ou responde perguntas na internet só "aprende" porque calcula o seu próprio erro e reajusta seus pesos internos em um loop constante, um conceito arquitetado durante os testes militares deste ano decisivo.',
+          en: 'Wiener realized that the enemy pilot and the anti-aircraft machine formed a single data system. For the weapon to "guess" the future, the machine needed to constantly measure the difference between where the cannon was aimed and where the airplane actually was (the error). By taking that error data and feeding it back into the system input (negative feedback), the machine "learned" and corrected its aim in real time. Wiener noticed, shocked, that this was exactly the same algorithm the human brain uses to grab a glass of water without knocking it over.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the foundation of Cybernetics and the grandfather of Machine Learning. By formulating feedback in 1942, Wiener unified the study of machines and human neurology. The logic they used to calculate the evasive behavior of the German pilot is the philosophical principle behind all modern AI: the Neural Network that today plays chess, drives cars or answers questions on the internet only "learns" because it calculates its own error and readjusts its internal weights in a constant loop, a concept architected during the military tests of this decisive year.',
+        },
+      },
+      {
+        name: 'Walter Weber',
+        imagePlaceholder: YEAR_1942_PLACEHOLDER,
+        flag: '🇩🇪',
+        nationality: { pt: 'Alemão', en: 'German' },
+        formation: {
+          pt: 'Engenheiro pesquisador trabalhando para o rádio estatal alemão (Reichs-Rundfunk-Gesellschaft - RRG). Ele operava as avançadas máquinas de "Magnetophon" (os primeiros gravadores de fita do mundo, aperfeiçoados na Alemanha nazista).',
+          en: 'Research engineer working for German state radio (Reichs-Rundfunk-Gesellschaft - RRG). He operated the advanced "Magnetophon" machines (the first tape recorders in the world, perfected in Nazi Germany).',
+        },
+        summary: {
+          pt: 'Redescobriu e aprimorou em 1942 o método do AC Biasing (Polarização por Corrente Alternada). Ele descobriu que se misturasse uma onda elétrica inaudível de altíssima frequência (um sinal fantasma) junto com o sinal de áudio no momento da gravação magnética, o ruído ruidoso da fita desaparecia magicamente.',
+          en: 'Rediscovered and improved in 1942 the method of AC Biasing. He discovered that if he mixed an inaudible, very high-frequency electrical wave (a ghost signal) together with the audio signal at the moment of magnetic recording, the tape’s noisy hiss magically disappeared.',
+        },
+        role: {
+          pt: 'Aprimorador do AC Biasing em fita magnética',
+          en: 'Improver of AC biasing in magnetic tape',
+        },
+        contribution: {
+          pt: 'Em 1942, a física corrigiu o maior "Bug" do armazenamento magnético: o ruído de gravação foi eliminado, permitindo a alta fidelidade dos dados (Hi-Fi).',
+          en: 'In 1942, physics corrected the biggest "Bug" in magnetic storage: recording noise was eliminated, enabling high-fidelity data (Hi-Fi).',
+        },
+        detail: {
+          pt: 'Até então, gravar dados ou som em fitas magnéticas resultava em um chiado terrível. Isso ocorria porque as partículas microscópicas de metal na fita eram "teimosas" e resistiam à magnetização, gravando o sinal em trancos e barrancos (histerese magnética). A invenção de Weber injetava uma corrente de alta frequência que funcionava como um "lubrificante magnético": a energia chacoalhava as partículas de metal rapidamente e as forçava a um estado neutro perfeito, permitindo que a onda de áudio real moldasse as partículas como se fossem argila molhada. A fidelidade do som subiu a níveis quase perfeitos.\n\nPor que isso entra no Hall da Fama da TI?\n\nO AC Biasing inaugurou a era do Armazenamento Magnético de Precisão. Os aliados ficaram aterrorizados em 1942 e 1943 ao ouvir discursos perfeitamente nítidos de Hitler sendo transmitidos simultaneamente em várias cidades diferentes à meia-noite, achando que ele estava se teletransportando — eles não sabiam que a fita de áudio havia evoluído ao ponto de ser indistinguível de um humano ao vivo. Na tecnologia da informação, esse "lubrificante" eletromagnético permitiu que a densidade dos dados em fitas, discos e mainframes subsequentes fosse aumentada dezenas de vezes sem corromper a integridade do código.',
+          en: 'Until then, recording data or sound on magnetic tapes resulted in a terrible hiss. This happened because the microscopic metal particles in the tape were "stubborn" and resisted magnetization, recording the signal in jerks and jumps (magnetic hysteresis). Weber’s invention injected a high-frequency current that worked like a "magnetic lubricant": the energy rapidly shook the metal particles and forced them into a perfect neutral state, allowing the real audio wave to shape the particles as if they were wet clay. Sound fidelity rose to almost perfect levels.\n\nWhy does this belong in the IT Hall of Fame?\n\nAC Biasing inaugurated the era of Precision Magnetic Storage. The Allies were terrified in 1942 and 1943 when they heard perfectly clear speeches by Hitler being broadcast simultaneously in several different cities at midnight, thinking he was teleporting; they did not know audio tape had evolved to the point of being indistinguishable from a live human. In information technology, this electromagnetic "lubricant" allowed data density on later tapes, disks and mainframes to be increased dozens of times without corrupting code integrity.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1943,
+    era: {
+      pt: 'O Primeiro Computador Eletrônico, a Arquitetura da Inteligência Artificial e a Escala Industrial',
+      en: 'The First Electronic Computer, the Architecture of Artificial Intelligence and Industrial Scale',
+    },
+    context: {
+      pt: 'Em 1943, a guerra exige velocidade que as engrenagens não conseguem mais entregar, forçando a tecnologia da informação a abraçar o fluxo de elétrons e a tentar copiar matematicamente o cérebro humano. Na Inglaterra, um engenheiro de telefonia contraria todos os físicos acadêmicos e constrói, em segredo, a primeira máquina de computação digital e puramente eletrônica do mundo para ler os pensamentos do Alto Comando Nazista. Nos Estados Unidos, um neurofisiologista e um jovem prodígio da matemática publicam um artigo revolucionário provando que os neurônios biológicos operam sob a exata mesma lógica binária de um circuito de computador, fundando as bases teóricas de toda a Inteligência Artificial moderna. E na Filadélfia, o exército americano aprova o orçamento maciço para transformar o documento teórico de 1942 em uma fera de 30 toneladas de metal e luz. É o ano do Computador Colossus, da Rede Neural de McCulloch-Pitts e do início físico do ENIAC.',
+      en: 'In 1943, the war demands speed that gears can no longer deliver, forcing information technology to embrace the flow of electrons and to try to mathematically copy the human brain. In England, a telephone engineer contradicts all the academic physicists and secretly builds the first digital and purely electronic computing machine in the world to read the thoughts of the Nazi High Command. In the United States, a neurophysiologist and a young mathematics prodigy publish a revolutionary paper proving that biological neurons operate under the exact same binary logic as a computer circuit, founding the theoretical bases of all modern Artificial Intelligence. And in Philadelphia, the U.S. Army approves the massive budget to transform the 1942 theoretical document into a 30-ton beast of metal and light. It is the year of the Colossus Computer, the McCulloch-Pitts Neural Network and the physical beginning of ENIAC.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Tommy Flowers',
+        imagePlaceholder: YEAR_1943_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico (Inglês)', en: 'British (English)' },
+        formation: {
+          pt: 'Engenheiro elétrico brilhante e teimoso que trabalhava na divisão de pesquisa do General Post Office (os Correios britânicos). Enquanto os matemáticos de Bletchley Park confiavam em engrenagens, Flowers era um mestre em telecomunicações puramente eletrônicas.',
+          en: 'Brilliant and stubborn electrical engineer who worked in the research division of the General Post Office (the British Post Office). While the mathematicians of Bletchley Park trusted gears, Flowers was a master of purely electronic telecommunications.',
+        },
+        summary: {
+          pt: 'Projetou e liderou a construção do Colossus (Mark 1), que entrou em operação experimental no final de 1943 (e oficialmente em janeiro de 1944). Usando incríveis 1.500 válvulas de vácuo, foi o primeiro computador digital, eletrônico e programável do mundo, criado especificamente para quebrar a cifra Lorenz (a comunicação direta de teleimpressora de Hitler).',
+          en: 'Designed and led the construction of Colossus (Mark 1), which entered experimental operation at the end of 1943 (and officially in January 1944). Using an incredible 1,500 vacuum tubes, it was the world’s first digital, electronic and programmable computer, created specifically to break the Lorenz cipher (Hitler’s direct teleprinter communication).',
+        },
+        role: {
+          pt: 'Criador do computador Colossus',
+          en: 'Creator of the Colossus computer',
+        },
+        contribution: {
+          pt: 'Em 1943, a TI quebrou a barreira do som computacional: o Colossus substituiu o hardware mecânico pelo processamento na velocidade da luz.',
+          en: 'In 1943, IT broke the computational sound barrier: Colossus replaced mechanical hardware with processing at the speed of light.',
+        },
+        detail: {
+          pt: 'As máquinas de Alan Turing (as Bombes de 1940) eram eletromecânicas: faziam barulho de relógios gigantes e os rotores físicos demoravam a girar. O código Lorenz era tão complexo que a mecânica falhava. A maioria dos cientistas dizia que construir uma máquina com 1.500 válvulas seria impossível, pois as válvulas de vidro queimavam constantemente. A epifania de Flowers foi o SysAdmin definitivo: ele percebeu que as válvulas só queimavam quando a máquina era ligada ou desligada (choque térmico). Se ele ligasse a máquina e nunca mais a desligasse, os elétrons fluiriam para sempre. O Colossus lia fita de papel a inacreditáveis 5.000 caracteres por segundo, mastigando o código alemão visualmente quase à velocidade da luz.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Colossus é o avô secreto da Era Digital. Ele provou em hardware que o processamento em estado totalmente eletrônico não apenas era viável, mas incrivelmente mais confiável do que engrenagens. Como a existência do Colossus foi considerada "Top Secret" e escondida do mundo pelo governo britânico até os anos 1970, ele não influenciou diretamente o mercado comercial da época. Mas, historicamente, a máquina de Flowers de 1943 detém o título absoluto de primeira encarnação física de um computador eletrônico digital semi-programável.',
+          en: 'Alan Turing’s machines (the Bombes of 1940) were electromechanical: they sounded like giant clocks and the physical rotors took time to turn. The Lorenz code was so complex that mechanics failed. Most scientists said building a machine with 1,500 tubes would be impossible, because glass tubes constantly burned out. Flowers’s epiphany was the definitive SysAdmin insight: he realized that tubes only burned out when the machine was turned on or off (thermal shock). If he turned the machine on and never turned it off again, the electrons would flow forever. Colossus read paper tape at an unbelievable 5,000 characters per second, chewing through the German code visually almost at the speed of light.\n\nWhy does this belong in the IT Hall of Fame?\n\nColossus is the secret grandfather of the Digital Age. It proved in hardware that fully electronic-state processing was not only viable, but incredibly more reliable than gears. Because the existence of Colossus was considered "Top Secret" and hidden from the world by the British government until the 1970s, it did not directly influence the commercial market of the time. But historically, Flowers’s 1943 machine holds the absolute title of the first physical incarnation of a semi-programmable digital electronic computer.',
+        },
+      },
+      {
+        name: 'Warren McCulloch e Walter Pitts',
+        imagePlaceholder: YEAR_1943_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Uma das duplas mais inusitadas e geniais da ciência. McCulloch era um neurofisiologista conceituado tentando entender como o cérebro processava a visão. Pitts era um gênio adolescente, matemático autodidata e sem teto, que fugiu de casa e foi acolhido por McCulloch.',
+          en: 'One of the most unusual and brilliant duos in science. McCulloch was a respected neurophysiologist trying to understand how the brain processed vision. Pitts was a teenage genius, self-taught mathematician and homeless runaway who was taken in by McCulloch.',
+        },
+        summary: {
+          pt: 'Publicaram no final de 1943 o artigo "A Logical Calculus of the Ideas Immanent in Nervous Activity" (Um Cálculo Lógico das Ideias Iminentes na Atividade Nervosa). Eles criaram o primeiro modelo matemático da história provando que os neurônios humanos operam como portas lógicas binárias.',
+          en: 'Published at the end of 1943 the paper "A Logical Calculus of the Ideas Immanent in Nervous Activity". They created the first mathematical model in history proving that human neurons operate as binary logic gates.',
+        },
+        role: {
+          pt: 'Criadores do primeiro modelo de rede neural artificial',
+          en: 'Creators of the first artificial neural network model',
+        },
+        contribution: {
+          pt: 'Em 1943, a Biologia foi convertida em Algoritmo. A TI ganhou a prova matemática de que "pensamento" e "computação" eram, estruturalmente, a mesma coisa.',
+          en: 'In 1943, Biology was converted into Algorithm. IT gained the mathematical proof that "thought" and "computation" were structurally the same thing.',
+        },
+        detail: {
+          pt: 'Shannon havia provado em 1937 que fios elétricos executavam lógica booleana. McCulloch e Pitts olharam para o cérebro e notaram a mesma coisa: um neurônio dispara energia (1) ou não dispara (0). A sinapse só "atira" se o sinal recebido dos neurônios vizinhos ultrapassar um certo limiar. Eles modelaram matematicamente uma "Rede Neural Artificial" simplificada, demonstrando que uma rede de neurônios artificiais conectados poderia, em teoria, realizar qualquer cálculo de máquina de Turing.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste artigo solitário de 1943 é a "Pedra de Roseta" da Inteligência Artificial. Sem a prova arquitetônica de McCulloch e Pitts, não existiria o conceito de Machine Learning ou Deep Learning. O ChatGPT, o algoritmo de recomendação do YouTube, as IAs de reconhecimento facial — tudo isso roda hoje sobre arquiteturas de Redes Neurais (ANNs) que são descendentes diretas e inegáveis das equações lógicas publicadas por este médico e este jovem matemático durante o auge da Segunda Guerra Mundial.',
+          en: 'Shannon had proved in 1937 that electrical wires executed Boolean logic. McCulloch and Pitts looked at the brain and noticed the same thing: a neuron fires energy (1) or does not fire (0). The synapse only "fires" if the signal received from neighboring neurons exceeds a certain threshold. They mathematically modeled a simplified "Artificial Neural Network", demonstrating that a network of connected artificial neurons could, in theory, perform any Turing machine calculation.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis solitary 1943 paper is the "Rosetta Stone" of Artificial Intelligence. Without McCulloch and Pitts’s architectural proof, the concept of Machine Learning or Deep Learning would not exist. ChatGPT, YouTube’s recommendation algorithm, facial recognition AIs: all of this today runs on Neural Network (ANN) architectures that are direct and undeniable descendants of the logical equations published by this doctor and this young mathematician during the height of World War II.',
+        },
+      },
+      {
+        name: 'O Exército dos EUA (Projeto liderado por John Mauchly e J. Presper Eckert)',
+        imagePlaceholder: YEAR_1943_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A união do poder financeiro brutal das Forças Armadas com os físicos brilhantes da Universidade da Pensilvânia, impulsionados pela urgência de calcular tabelas de balística para artilharia.',
+          en: 'The union of the Armed Forces’ brutal financial power with the brilliant physicists of the University of Pennsylvania, driven by the urgency of calculating artillery ballistics tables.',
+        },
+        summary: {
+          pt: 'Em 9 de abril de 1943, o Departamento de Ordenança do Exército dos EUA assinou o contrato "Projeto PX". Em junho do mesmo ano, a fundação física e a engenharia de hardware do ENIAC (Electronic Numerical Integrator and Computer) começaram oficialmente a ser soldadas.',
+          en: 'On April 9, 1943, the U.S. Army Ordnance Department signed the "Project PX" contract. In June of the same year, the physical foundation and hardware engineering of ENIAC (Electronic Numerical Integrator and Computer) officially began to be soldered.',
+        },
+        role: {
+          pt: 'Financiadores e construtores iniciais do ENIAC',
+          en: 'Funders and initial builders of ENIAC',
+        },
+        contribution: {
+          pt: 'Em 1943, a Computação virou um Complexo Militar-Industrial. O "Whitepaper" de 1942 saiu do papel para se tornar o projeto de hardware mais ambicioso da época.',
+          en: 'In 1943, Computing became a Military-Industrial Complex. The 1942 "Whitepaper" left paper behind to become the most ambitious hardware project of the era.',
+        },
+        detail: {
+          pt: 'A ideia que Mauchly desenhou em 1942 era considerada arriscada demais (construir uma máquina com 18.000 válvulas). Mas em 1943, o exército americano estava em guerra em duas frentes (Europa e Pacífico) e percebeu que canhões novos eram inúteis sem as tabelas matemáticas de mira. Eles decidiram bancar o risco e iniciaram a construção do ENIAC. Diferente do Colossus (que era secreto e focado em quebrar um único tipo de senha), o Projeto PX começou a ser arquitetado desde o primeiro dia para ser "Turing-Completo" — ou seja, com a promessa de que poderia ser reprogramado usando cabos físicos para resolver absolutamente qualquer equação do mundo, de artilharia a cálculos de fissão nuclear.\n\nPor que isso entra no Hall da Fama da TI?\n\nO ano de 1943 marca o momento em que os Estados Unidos iniciam a construção do seu titã, consolidando a mudança de paradigma de que a computação deixaria de ser projetos de garagem ou salas isoladas para se tornar projetos da escala de edifícios industriais. O Projeto PX criaria o ENIAC, que após a guerra seria ostensivamente apresentado ao público, ditando sozinho o mercado de mainframes que daria origem às megacorporações de TI americanas (como UNIVAC e o domínio subsequente da IBM no setor eletrônico).',
+          en: 'The idea Mauchly drew in 1942 was considered far too risky (building a machine with 18,000 tubes). But in 1943, the U.S. Army was fighting on two fronts (Europe and the Pacific) and realized that new cannons were useless without the mathematical aiming tables. They decided to fund the risk and began building ENIAC. Unlike Colossus (which was secret and focused on breaking a single type of cipher), Project PX began to be architected from day one as "Turing-Complete", that is, with the promise that it could be reprogrammed using physical cables to solve absolutely any equation in the world, from artillery to nuclear fission calculations.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe year 1943 marks the moment when the United States began building its titan, consolidating the paradigm shift that computing would stop being garage projects or isolated rooms and become projects on the scale of industrial buildings. Project PX would create ENIAC, which after the war would be ostentatiously presented to the public, single-handedly dictating the mainframe market that gave rise to American IT megacorporations (such as UNIVAC and IBM’s subsequent dominance in the electronic sector).',
+        },
+      },
+    ],
+  },
+  {
+    year: 1944,
+    era: {
+      pt: 'O Ápice da Engenharia Eletromecânica, a Primeira "Dev" de Elite e o Hardware do Dia D',
+      en: 'The Apex of Electromechanical Engineering, the First Elite "Dev" and the Hardware of D-Day',
+    },
+    context: {
+      pt: 'Em 1944, a tecnologia da informação constrói o maior leviatã mecânico de sua era, sistematiza a disciplina da programação e implementa o primeiro grande upgrade de hardware paralelo para decidir o destino do mundo em um único dia. Na Universidade de Harvard, uma corporação entrega um monstro de aço e vidro de cinco toneladas, a coroação definitiva do computador físico antes que as válvulas tomassem conta. Para operar esse monstro, a Marinha convoca uma matemática brilhante que se tornaria a mãe da programação moderna, escrevendo o primeiro manual de instruções estruturado de como "conversar" com uma máquina. E nos porões da Inglaterra, dias antes da invasão da Normandia, a inteligência britânica liga o primeiro computador a realizar "processamento paralelo" da história, quebrando as comunicações nazistas a tempo de salvar milhares de vidas. É o ano do Harvard Mark I, da entrada de Grace Hopper na TI e do Colossus Mark II.',
+      en: 'In 1944, information technology builds the greatest mechanical leviathan of its era, systematizes the discipline of programming and implements the first major parallel hardware upgrade to decide the fate of the world in a single day. At Harvard University, a corporation delivers a five-ton monster of steel and glass, the definitive coronation of the physical computer before tubes took over. To operate this monster, the Navy summons a brilliant mathematician who would become the mother of modern programming, writing the first structured instruction manual on how to "talk" to a machine. And in the basements of England, days before the invasion of Normandy, British intelligence turns on the first computer to perform "parallel processing" in history, breaking Nazi communications in time to save thousands of lives. It is the year of the Harvard Mark I, Grace Hopper’s entry into IT and Colossus Mark II.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Howard Aiken e IBM (Thomas J. Watson)',
+        imagePlaceholder: YEAR_1944_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Aiken era um físico de Harvard sedento por poder de cálculo. Thomas J. Watson era o presidente implacável da IBM, que injetou a vasta engenharia corporativa e recursos financeiros da sua empresa para tornar o sonho de Aiken físico.',
+          en: 'Aiken was a Harvard physicist hungry for computing power. Thomas J. Watson was the relentless president of IBM, who injected his company’s vast corporate engineering and financial resources to make Aiken’s dream physical.',
+        },
+        summary: {
+          pt: 'Inauguraram e apresentaram oficialmente em agosto de 1944 o Harvard Mark I (nomeado pela IBM como ASCC - Automatic Sequence Controlled Calculator). Era um colosso de 15 metros de comprimento, 5 toneladas e mais de 800 quilômetros de fiação interna, movido por um eixo de transmissão mecânico de 5 cavalos de potência.',
+          en: 'Inaugurated and officially presented in August 1944 the Harvard Mark I (named by IBM as ASCC - Automatic Sequence Controlled Calculator). It was a colossus 15 meters long, weighing 5 tons and containing more than 800 kilometers of internal wiring, driven by a 5-horsepower mechanical transmission shaft.',
+        },
+        role: {
+          pt: 'Construtores do Harvard Mark I',
+          en: 'Builders of the Harvard Mark I',
+        },
+        contribution: {
+          pt: 'Em 1944, a IBM fez o Deploy do Cérebro Eletromecânico definitivo, provando que operações de longa sequência podiam ser totalmente automatizadas.',
+          en: 'In 1944, IBM deployed the definitive Electromechanical Brain, proving that long-sequence operations could be fully automated.',
+        },
+        detail: {
+          pt: 'Enquanto o ENIAC estava sendo construído em segredo com válvulas delicadas, o Mark I era puro "metal pesado" confiável. Ele não tomava decisões condicionais complexas (o famoso "IF/THEN"), mas executava rotinas matemáticas brutalmente longas lendo uma fita de papel perfurada sem parar e sem errar. Seus relés faziam tanto barulho ao calcular que quem estava na sala descrevia o som como "uma sala cheia de senhoras tricotando furiosamente".\n\nPor que isso entra no Hall da Fama da TI?\n\nO Harvard Mark I é o ápice absoluto e o canto do cisne da era da computação eletromecânica (antes da dominação do estado sólido). Foi o primeiro computador digital de grande escala e totalmente automático dos Estados Unidos. Ele validou para a indústria, especialmente para a IBM, que havia um mercado real e gigantesco para calculadoras de alta capacidade, pavimentando o caminho para os gigantescos mainframes que a corporação venderia no pós-guerra para bancos e empresas do mundo todo.',
+          en: 'While ENIAC was being built in secret with delicate tubes, the Mark I was pure reliable "heavy metal". It did not make complex conditional decisions (the famous "IF/THEN"), but it executed brutally long mathematical routines by reading a punched paper tape without stopping and without making mistakes. Its relays made so much noise while calculating that people in the room described the sound as "a room full of ladies knitting furiously".\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Harvard Mark I is the absolute apex and swan song of the electromechanical computing era (before the domination of solid state). It was the first large-scale and fully automatic digital computer in the United States. It validated for industry, especially for IBM, that there was a real and gigantic market for high-capacity calculators, paving the way for the enormous mainframes the corporation would sell after the war to banks and companies around the world.',
+        },
+      },
+      {
+        name: 'Grace Brewster Murray Hopper',
+        imagePlaceholder: YEAR_1944_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americana', en: 'American' },
+        formation: {
+          pt: 'Doutora em matemática pela Universidade de Yale. Com a guerra, ela abriu mão de seu cargo de professora e se alistou na Marinha dos Estados Unidos. Os militares, reconhecendo seu intelecto raro, a enviaram direto para os porões de Harvard para domesticar o Mark I.',
+          en: 'PhD in mathematics from Yale University. With the war, she gave up her teaching position and enlisted in the United States Navy. The military, recognizing her rare intellect, sent her directly to the basements of Harvard to tame the Mark I.',
+        },
+        summary: {
+          pt: 'Designada em 1944 como uma das três primeiras "codificadoras" do Mark I, Grace Hopper assumiu o controle do monstro. Ela mergulhou na lógica da máquina e escreveu um monumental manual de operações de 500 páginas detalhando exatamente como codificar e operar o computador.',
+          en: 'Assigned in 1944 as one of the first three "coders" of the Mark I, Grace Hopper took control of the monster. She plunged into the machine’s logic and wrote a monumental 500-page operations manual detailing exactly how to code and operate the computer.',
+        },
+        role: {
+          pt: 'Pioneira da programação moderna',
+          en: 'Pioneer of modern programming',
+        },
+        contribution: {
+          pt: 'Em 1944, a TI ganhou a sua "Arquiteta de Software" fundadora, transformando a programação de um trabalho braçal em uma disciplina acadêmica documentada.',
+          en: 'In 1944, IT gained its founding "Software Architect", transforming programming from manual labor into a documented academic discipline.',
+        },
+        detail: {
+          pt: 'O hardware de Aiken (o Mark I) era inútil sem as fitas perfuradas corretas. Grace Hopper não apenas aprendeu a escrever esses códigos lógicos binários que a máquina lia, mas ela criou a estrutura de documentação. Se houvesse um cálculo balístico ou naval complexo, Hopper o traduzia para a matemática sequencial que o maquinário conseguia engolir. Ela iniciou o processo intelectual que separou para sempre os engenheiros que "montam" a máquina daqueles que "escrevem" a alma dela.\n\nPor que isso entra no Hall da Fama da TI?\n\nO ano de 1944 marca a entrada desta gigante na computação. O trabalho de Hopper no Mark I foi a base de sua carreira espetacular que moldaria o software moderno. Nos anos seguintes, ela seria a criadora do primeiro "Compilador" (o programa que traduz a linguagem humana para zeros e uns) e a arquiteta por trás da linguagem COBOL, que ainda hoje roda bilhões de transações financeiras em servidores no mundo todo. Tudo começou quando a Marinha a mandou perfurar fitas para a calculadora de Aiken neste ano decisivo.',
+          en: 'Aiken’s hardware (the Mark I) was useless without the correct punched tapes. Grace Hopper not only learned to write the binary logical codes the machine read, she created the documentation structure. If there was a complex ballistic or naval calculation, Hopper translated it into the sequential mathematics the machinery could swallow. She began the intellectual process that forever separated the engineers who "assemble" the machine from those who "write" its soul.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe year 1944 marks this giant’s entry into computing. Hopper’s work on the Mark I was the foundation of her spectacular career that would shape modern software. In the following years, she would become the creator of the first "Compiler" (the program that translates human language into zeros and ones) and the architect behind the COBOL language, which still runs billions of financial transactions on servers around the world. It all began when the Navy sent her to punch tapes for Aiken’s calculator in this decisive year.',
+        },
+      },
+      {
+        name: 'Tommy Flowers (e a equipe de Bletchley Park)',
+        imagePlaceholder: YEAR_1944_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'A mesma equipe de engenharia dos Correios britânicos que chocou os teóricos construindo o primeiro computador eletrônico do mundo (Colossus Mark I) no ano anterior. Mas o inimigo estava mudando seus códigos mais rápido.',
+          en: 'The same British Post Office engineering team that shocked theorists by building the first electronic computer in the world (Colossus Mark I) the previous year. But the enemy was changing its codes faster.',
+        },
+        summary: {
+          pt: 'Projetou, construiu e entregou em 1º de junho de 1944 o Colossus Mark II. Era uma versão maciçamente atualizada, possuindo agora 2.400 válvulas de vácuo, e foi comissionada estrategicamente a tempo de interceptar as comunicações cruciais de Hitler na semana do Dia D (o desembarque na Normandia).',
+          en: 'Designed, built and delivered on June 1, 1944 the Colossus Mark II. It was a massively updated version, now possessing 2,400 vacuum tubes, and was strategically commissioned in time to intercept Hitler’s crucial communications in the week of D-Day (the Normandy landing).',
+        },
+        role: {
+          pt: 'Construtor do Colossus Mark II',
+          en: 'Builder of Colossus Mark II',
+        },
+        contribution: {
+          pt: 'Em 1944, a TI implementou o "Processamento Paralelo", criando uma arquitetura de CPU capaz de calcular cinco caminhos lógicos ao mesmo tempo.',
+          en: 'In 1944, IT implemented "Parallel Processing", creating a CPU architecture capable of calculating five logical paths at the same time.',
+        },
+        detail: {
+          pt: 'O Colossus Mark I de 1943 lia a fita perfurada muito rápido, mas processava o código de forma linear. Flowers percebeu que, para quebrar a criptografia a tempo das tropas desembarcarem na França, a máquina precisava de um salto de arquitetura. O Mark II usou circuitos inovadores (registradores de deslocamento - shift registers) que permitiam que o hardware mastigasse 5 operações diferentes simultaneamente em paralelo. Isso aumentou a velocidade efetiva de leitura para absurdos 25.000 caracteres por segundo, uma taxa de dados brutal para a década de 40.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Colossus Mark II é o ancestral absoluto dos processadores Multi-Core (Múltiplos Núcleos) modernos. Ao introduzir o hardware capaz de resolver partes do mesmo algoritmo simultaneamente em vez de uma por uma (computação paralela), Flowers resolveu o gargalo do tempo de execução. As quebras de código geradas por este upgrade na semana de 1º de junho de 1944 confirmaram aos Aliados que Hitler havia caído no plano de despiste, garantindo que as tropas avançassem sobre as praias da Normandia com sucesso na vitória mais crítica do século XX.',
+          en: 'The 1943 Colossus Mark I read punched tape very quickly, but processed code linearly. Flowers realized that, to break the cryptography in time for troops to land in France, the machine needed an architectural leap. The Mark II used innovative circuits (shift registers) that allowed the hardware to chew through 5 different operations simultaneously in parallel. This increased the effective reading speed to an absurd 25,000 characters per second, a brutal data rate for the 1940s.\n\nWhy does this belong in the IT Hall of Fame?\n\nColossus Mark II is the absolute ancestor of modern Multi-Core processors. By introducing hardware capable of resolving parts of the same algorithm simultaneously instead of one by one (parallel computing), Flowers solved the execution-time bottleneck. The code breaks generated by this upgrade in the week of June 1, 1944 confirmed to the Allies that Hitler had fallen for the deception plan, ensuring that troops advanced onto the beaches of Normandy successfully in the most critical victory of the 20th century.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1945,
+    era: {
+      pt: 'O Protocolo Universal da Placa-Mãe, o "Whitepaper" da Internet e o Roteador Espacial',
+      en: 'The Universal Motherboard Protocol, the "Whitepaper" of the Internet and the Space Router',
+    },
+    context: {
+      pt: 'Em 1945, enquanto a fumaça da Segunda Guerra Mundial se dissipa após as explosões atômicas, a tecnologia da informação olha para o futuro e escreve os três documentos teóricos mais proféticos do século XX. Nos Estados Unidos, o maior matemático vivo analisa o monstruoso ENIAC em construção e escreve o manual de instruções definitivo de como todo computador moderno deve ser organizado internamente, fundando o design da placa-mãe que usamos até hoje. Em um ensaio de revista, o chefe de pesquisa científica do governo americano descreve conceitualmente um "navegador web" mecânico, inventando a lógica do hiperlink e da Wikipédia quase 50 anos antes da Internet existir. E na Inglaterra, um oficial de radar e futuro escritor de ficção científica publica um artigo provando que, se você colocar três "torres de rádio" flutuando no espaço sideral, você consegue cobrir a Terra inteira com dados. É o ano da Arquitetura de Von Neumann, do Memex de Bush e dos Satélites Geoestacionários de Clarke.',
+      en: 'In 1945, as the smoke of World War II dissipates after the atomic explosions, information technology looks to the future and writes the three most prophetic theoretical documents of the 20th century. In the United States, the greatest living mathematician analyzes the monstrous ENIAC under construction and writes the definitive instruction manual for how every modern computer should be organized internally, founding the motherboard design we still use today. In a magazine essay, the head of American scientific research conceptually describes a mechanical "web browser", inventing the logic of the hyperlink and Wikipedia almost 50 years before the Internet existed. And in England, a radar officer and future science-fiction writer publishes an article proving that if you put three "radio towers" floating in outer space, you can cover the entire Earth with data. It is the year of the Von Neumann Architecture, Bush’s Memex and Clarke’s Geostationary Satellites.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'John von Neumann',
+        imagePlaceholder: YEAR_1945_PLACEHOLDER,
+        flag: '🇭🇺 🇺🇸',
+        nationality: { pt: 'Húngaro / Americano', en: 'Hungarian / American' },
+        formation: {
+          pt: 'Indiscutivelmente uma das mentes matemáticas mais brilhantes da história da humanidade. Membro do Projeto Manhattan (que construiu a bomba atômica), ele precisava de poder de processamento infinito para simular as implosões nucleares e acabou prestando consultoria para a equipe do ENIAC.',
+          en: 'Indisputably one of the most brilliant mathematical minds in human history. A member of the Manhattan Project (which built the atomic bomb), he needed infinite processing power to simulate nuclear implosions and ended up consulting for the ENIAC team.',
+        },
+        summary: {
+          pt: 'Redigiu em junho de 1945 o "First Draft of a Report on the EDVAC", o documento arquitetônico mais importante da história da engenharia de hardware. Nele, von Neumann descreveu o conceito do "Programa Armazenado" (Stored-Program Concept).',
+          en: 'Wrote in June 1945 the "First Draft of a Report on the EDVAC", the most important architectural document in the history of hardware engineering. In it, von Neumann described the Stored-Program Concept.',
+        },
+        role: {
+          pt: 'Arquiteto do conceito de programa armazenado',
+          en: 'Architect of the stored-program concept',
+        },
+        contribution: {
+          pt: 'Em 1945, a TI estabeleceu o "Design Universal da CPU": os dados do usuário e o código do programa deveriam ser armazenados exatamente no mesmo banco de memória RAM.',
+          en: 'In 1945, IT established the "Universal CPU Design": user data and program code should be stored in exactly the same RAM memory bank.',
+        },
+        detail: {
+          pt: 'Até 1945, as máquinas (como o ENIAC ou o Harvard Mark I) tinham memórias separadas. Você colocava os dados numa fita e a programação era feita puxando fios grossos e trocando painéis com as próprias mãos (um inferno logístico que demorava dias). Von Neumann sistematizou a lógica definitiva: o computador deve ter uma Unidade Central de Processamento (ALU + Unidade de Controle), e a Memória deve guardar tanto os números da matemática quanto o próprio software em formato binário. Se você quiser trocar de programa, não precisa mais puxar cabos físicos; basta apagar a memória e carregar o novo software.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Arquitetura de Von Neumann é a planta-baixa do mundo digital. Praticamente 100% dos computadores, smartphones, smartwatches e mainframes fabricados nos últimos 70 anos seguem rigorosamente a estrutura desenhada neste rascunho de 1945. A separação lógica entre CPU, Memória e Dispositivos de I/O (Input/Output) se tornou o padrão absoluto do mercado. Quando você reclama que o seu computador está "engasgando" para abrir o Google Chrome, você está presenciando o "Gargalo de Von Neumann" (o tempo que a CPU demora para buscar os dados na RAM), um problema físico nascido exatamente neste documento teórico.',
+          en: 'Until 1945, machines (such as ENIAC or the Harvard Mark I) had separate memories. You put data on a tape and programming was done by pulling thick wires and changing panels with your own hands (a logistical nightmare that took days). Von Neumann systematized the definitive logic: the computer must have a Central Processing Unit (ALU + Control Unit), and Memory must store both the mathematical numbers and the software itself in binary format. If you want to change programs, you no longer need to pull physical cables; you simply erase memory and load the new software.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Von Neumann Architecture is the floor plan of the digital world. Practically 100% of computers, smartphones, smartwatches and mainframes manufactured in the last 70 years rigorously follow the structure drawn in this 1945 draft. The logical separation between CPU, Memory and I/O Devices (Input/Output) became the absolute market standard. When you complain that your computer is "choking" while opening Google Chrome, you are witnessing the "Von Neumann Bottleneck" (the time the CPU takes to fetch data from RAM), a physical problem born exactly in this theoretical document.',
+        },
+      },
+      {
+        name: 'Vannevar Bush',
+        imagePlaceholder: YEAR_1945_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'O homem que construiu o primeiro computador analógico em 1930. Em 1945, ele era o diretor do Office of Scientific Research and Development, essencialmente o "CEO" de toda a pesquisa científica militar dos EUA durante a guerra.',
+          en: 'The man who built the first analog computer in 1930. In 1945, he was director of the Office of Scientific Research and Development, essentially the "CEO" of all U.S. military scientific research during the war.',
+        },
+        summary: {
+          pt: 'Publicou na revista The Atlantic em julho de 1945 o ensaio visionário "As We May Think" (Como Podemos Pensar). No artigo, ele conceituou uma máquina de gestão de dados pessoais chamada Memex (Memory Extender).',
+          en: 'Published in The Atlantic in July 1945 the visionary essay "As We May Think". In the article, he conceptualized a personal data-management machine called Memex (Memory Extender).',
+        },
+        role: {
+          pt: 'Visionário do Memex e da navegação associativa',
+          en: 'Visionary of Memex and associative navigation',
+        },
+        contribution: {
+          pt: 'Em 1945, a TI ganhou a base teórica para o navegador Web, o Hipertexto e a Wikipédia, criando a arquitetura de "Linkagem de Dados Associativa".',
+          en: 'In 1945, IT gained the theoretical basis for the Web browser, Hypertext and Wikipedia, creating the architecture of "Associative Data Linking".',
+        },
+        detail: {
+          pt: 'Bush percebeu que a humanidade estava gerando dados rápido demais (artigos, fotos, jornais) e os sistemas de arquivos alfabéticos eram inúteis. Ele desenhou o Memex: uma mesa de escritório mecanizada com duas telas de microfilme. A genialidade absurda de Bush foi o protocolo de navegação. Ele disse que o cérebro não pensa em ordem alfabética, ele pensa por associação. No Memex, o usuário poderia ler um artigo sobre física e "linkar" aquele pedaço de texto a uma foto de um átomo. Esse "fio" ficava salvo para sempre.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Memex é a profecia exata da World Wide Web (WWW). Embora a máquina de microfilmes de Bush nunca tenha sido construída comercialmente, o conceito da "trilha de links interconectados" foi a inspiração direta lida por Ted Nelson (que cunhou a palavra Hipertexto nos anos 60) e por Tim Berners-Lee (que inventou o HTML nos anos 90). Quando você clica em um link azul num texto hoje e é magicamente redirecionado para outra página de dados em outro servidor, você está executando exatamente a visão cibernética de navegação associativa desenhada por Bush neste ensaio histórico.',
+          en: 'Bush realized that humanity was generating data too quickly (articles, photos, newspapers) and alphabetical filing systems were useless. He designed the Memex: a mechanized office desk with two microfilm screens. Bush’s absurdly brilliant insight was the navigation protocol. He said the brain does not think in alphabetical order; it thinks by association. In the Memex, the user could read an article about physics and "link" that piece of text to a photo of an atom. That "thread" would be saved forever.\n\nWhy does this belong in the IT Hall of Fame?\n\nMemex is the exact prophecy of the World Wide Web (WWW). Although Bush’s microfilm machine was never built commercially, the concept of a "trail of interconnected links" was the direct inspiration read by Ted Nelson (who coined the word Hypertext in the 1960s) and by Tim Berners-Lee (who invented HTML in the 1990s). When you click a blue link in text today and are magically redirected to another page of data on another server, you are executing exactly Bush’s cybernetic vision of associative navigation from this historic essay.',
+        },
+      },
+      {
+        name: 'Arthur C. Clarke',
+        imagePlaceholder: YEAR_1945_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico', en: 'British' },
+        formation: {
+          pt: 'Oficial de radar da Força Aérea Real Britânica (RAF) durante a guerra, possuía um entendimento profundo da propagação de altas frequências. Mais tarde, ele se consagraria como um dos maiores autores de ficção científica do mundo (autor de 2001: Uma Odisseia no Espaço).',
+          en: 'Radar officer in the British Royal Air Force (RAF) during the war, with a deep understanding of high-frequency propagation. Later, he would become one of the world’s greatest science-fiction authors (author of 2001: A Space Odyssey).',
+        },
+        summary: {
+          pt: 'Publicou em outubro de 1945, na revista Wireless World, um artigo técnico intitulado "Extra-Terrestrial Relays" (Retransmissores Extraterrestres). Nele, ele propôs e calculou exatamente a matemática para usar a órbita espacial como o maior Backbone de rede da Terra.',
+          en: 'Published in October 1945, in Wireless World, a technical article titled "Extra-Terrestrial Relays". In it, he proposed and calculated exactly the mathematics for using orbital space as Earth’s largest network Backbone.',
+        },
+        role: {
+          pt: 'Visionário dos satélites geoestacionários',
+          en: 'Visionary of geostationary satellites',
+        },
+        contribution: {
+          pt: 'Em 1945, o Roteamento de Dados saiu da atmosfera. Clarke inventou a arquitetura teórica da Rede de Telecomunicação Geoestacionária.',
+          en: 'In 1945, Data Routing left the atmosphere. Clarke invented the theoretical architecture of the Geostationary Telecommunication Network.',
+        },
+        detail: {
+          pt: 'Cabos submarinos arrebentavam e o rádio falhava devido à curvatura da Terra. Clarke pegou a física orbital e propôs uma ideia estarrecedora: se você atirar um satélite com um repetidor de rádio para o espaço a exatos 35.786 quilômetros da linha do Equador, o satélite vai girar ao redor do planeta na exata mesma velocidade da rotação da Terra. O resultado? O satélite parecerá "parado" no mesmo ponto do céu o tempo todo. Ele calculou que bastariam três desses satélites roteadores no espaço para criar uma rede mundial capaz de enviar televisão e dados instantaneamente do Japão para o Brasil.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste artigo é o pilar de toda a infraestrutura espacial moderna. Clarke detalhou a ideia tão bem e com tamanha precisão matemática que essa faixa específica do espaço a 36.000 km de altura é oficialmente chamada até hoje de "Órbita de Clarke". A internet via satélite, o sinal de televisão global contínuo (que anos depois transmitiria a chegada do homem à Lua ao vivo) e as comunicações militares só são possíveis hoje porque a infraestrutura lógica do "Node Orbital Estático" foi concebida nas páginas dessa revista britânica no ano em que a guerra acabou.',
+          en: 'Submarine cables broke and radio failed because of the curvature of Earth. Clarke took orbital physics and proposed a startling idea: if you launch a satellite with a radio repeater into space at exactly 35,786 kilometers above the Equator, the satellite will orbit the planet at exactly the same speed as Earth’s rotation. The result? The satellite will appear to be "standing still" in the same point of the sky all the time. He calculated that just three of these router satellites in space would be enough to create a worldwide network capable of sending television and data instantly from Japan to Brazil.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis article is the pillar of all modern space infrastructure. Clarke detailed the idea so well and with such mathematical precision that this specific band of space at 36,000 km altitude is still officially called the "Clarke Orbit". Satellite internet, continuous global television signals (which years later would broadcast the Moon landing live) and military communications are only possible today because the logical infrastructure of the "Static Orbital Node" was conceived in the pages of this British magazine in the year the war ended.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1946,
+    era: {
+      pt: 'O "Deploy" do Cérebro de Válvulas, a Primeira RAM Eletrônica e a Primeira Startup de TI',
+      en: 'The "Deploy" of the Tube Brain, the First Electronic RAM and the First IT Startup',
+    },
+    context: {
+      pt: 'Em 1946, a tecnologia da informação entrega ao mundo o seu primeiro grande leviatã eletrônico operante, resolve o maior gargalo de armazenamento de dados da nova arquitetura e percebe que vender computadores poderia ser o negócio mais lucrativo do planeta. Nos Estados Unidos, o exército finalmente puxa a lona e revela ao público uma fera de 30 toneladas que consegue calcular a trajetória de um míssil mais rápido do que a própria velocidade do míssil no ar, programada por seis mulheres brilhantes cujos nomes haviam sido omitidos. Na Inglaterra, um engenheiro de radar descobre como usar a estática brilhante na tela de uma velha televisão de tubo para "congelar" pacotes de zeros e uns, inventando a primeira memória RAM de altíssima velocidade. E de volta aos EUA, os dois criadores do colosso eletrônico pedem demissão da universidade, alugam um escritório e fundam a primeira corporação comercial do mundo focada inteiramente em vender computadores para civis. É o ano da Revelação do ENIAC, da invenção do Tubo de Williams e da fundação da primeira empresa de computadores comerciais.',
+      en: 'In 1946, information technology delivers to the world its first great operating electronic leviathan, solves the greatest data-storage bottleneck of the new architecture and realizes that selling computers could be the most profitable business on the planet. In the United States, the army finally pulls back the cover and reveals to the public a 30-ton beast that can calculate the trajectory of a missile faster than the missile itself moves through the air, programmed by six brilliant women whose names had been omitted. In England, a radar engineer discovers how to use the glowing static on an old tube television screen to "freeze" packets of zeros and ones, inventing the first ultra-high-speed RAM memory. And back in the U.S., the two creators of the electronic colossus resign from the university, rent an office and found the world’s first commercial corporation focused entirely on selling computers to civilians. It is the year of ENIAC’s Revelation, the invention of the Williams Tube and the founding of the first commercial computer company.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Universidade da Pensilvânia e o Exército dos EUA (Eckert, Mauchly e as seis Programadoras Originais)',
+        imagePlaceholder: YEAR_1946_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A união colossal entre engenharia de estado sólido e a genialidade matemática humana. Destacam-se aqui as seis mulheres (Jean Bartik, Kathleen McNulty, Betty Holberton, Marlyn Wescoff, Frances Spence e Ruth Teitelbaum) que estudaram os diagramas elétricos da máquina e dominaram a sua lógica sem nenhum manual existente.',
+          en: 'The colossal union between solid-state engineering and human mathematical genius. Especially important here are the six women (Jean Bartik, Kathleen McNulty, Betty Holberton, Marlyn Wescoff, Frances Spence and Ruth Teitelbaum) who studied the machine’s electrical diagrams and mastered its logic with no existing manual.',
+        },
+        summary: {
+          pt: 'No dia 14 de fevereiro de 1946, realizaram a demonstração pública e o anúncio oficial do ENIAC (Electronic Numerical Integrator and Computer), o primeiro computador digital eletrônico de propósito geral de grande escala do mundo. A máquina processou em 20 segundos um cálculo balístico que um humano levaria 40 horas para fazer.',
+          en: 'On February 14, 1946, they held the public demonstration and official announcement of ENIAC (Electronic Numerical Integrator and Computer), the world’s first large-scale general-purpose electronic digital computer. The machine processed in 20 seconds a ballistic calculation that would take a human 40 hours to perform.',
+        },
+        role: {
+          pt: 'Equipe do deploy público do ENIAC',
+          en: 'Team behind ENIAC’s public deploy',
+        },
+        contribution: {
+          pt: 'Em 1946, ocorreu o Deploy de Produção da Era Digital: o hardware mecânico foi oficialmente esmagado pelos elétrons.',
+          en: 'In 1946, the Production Deploy of the Digital Age occurred: mechanical hardware was officially crushed by electrons.',
+        },
+        detail: {
+          pt: 'O ENIAC era um monstro apocalíptico: possuía cerca de 18.000 válvulas de vácuo, 70.000 resistores e consumia impressionantes 150 quilowatts de energia elétrica. Quando foi ligado para a imprensa, as luzes da Filadélfia não piscaram (como diz a lenda urbana), mas o mundo mudou para sempre. As programadoras haviam roteado os dados fisicamente através da máquina usando uma teia infernal de cabos pretos grossos e dezenas de painéis de interruptores. O ENIAC provou além de qualquer dúvida cética que tubos de vidro a vácuo não eram frágeis demais para a matemática pesada.\n\nPor que isso entra no Hall da Fama da TI?\n\nO ENIAC é o "Hello World" da infraestrutura de TI moderna. Ele definiu o que o público geral passou a entender como um computador. Embora sua programação ainda fosse feita através de fios físicos (a arquitetura de Von Neumann com programas na memória ainda não estava implementada nele), seu poder de processamento bruto iniciou a corrida armamentista tecnológica da Guerra Fria. Foi a máquina que posteriormente ajudou a calcular a viabilidade da bomba de hidrogênio e estabeleceu os Estados Unidos como o epicentro do desenvolvimento de mainframes.',
+          en: 'ENIAC was an apocalyptic monster: it had about 18,000 vacuum tubes, 70,000 resistors and consumed an impressive 150 kilowatts of electrical power. When it was turned on for the press, Philadelphia’s lights did not flicker (as the urban legend says), but the world changed forever. The programmers had physically routed data through the machine using an infernal web of thick black cables and dozens of switch panels. ENIAC proved beyond any skeptical doubt that vacuum glass tubes were not too fragile for heavy mathematics.\n\nWhy does this belong in the IT Hall of Fame?\n\nENIAC is the "Hello World" of modern IT infrastructure. It defined what the general public came to understand as a computer. Although its programming was still done through physical wires (the Von Neumann architecture with programs in memory had not yet been implemented in it), its raw processing power initiated the technological arms race of the Cold War. It was the machine that later helped calculate the feasibility of the hydrogen bomb and established the United States as the epicenter of mainframe development.',
+        },
+      },
+      {
+        name: 'Freddie Williams (e mais tarde auxiliado por Tom Kilburn)',
+        imagePlaceholder: YEAR_1946_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico', en: 'British' },
+        formation: {
+          pt: 'Engenheiro brilhante de radares trabalhando para a pesquisa de telecomunicações do governo britânico. Ele estava perfeitamente ciente do documento teórico de Von Neumann (1945), que dizia que os programas deviam ficar na memória, mas ninguém tinha hardware rápido o suficiente para fazer isso.',
+          en: 'Brilliant radar engineer working for British government telecommunications research. He was perfectly aware of Von Neumann’s theoretical document (1945), which said programs should live in memory, but nobody had hardware fast enough to do that.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou no final de 1946 o Tubo de Williams (ou Tubo de Williams-Kilburn), a primeira Memória de Acesso Aleatório (RAM) totalmente eletrônica e de alta velocidade da história, utilizando um tubo de raios catódicos (CRT - uma tela de TV) adaptado.',
+          en: 'Invented and patented at the end of 1946 the Williams Tube (or Williams-Kilburn Tube), the first fully electronic and high-speed Random-Access Memory (RAM) in history, using an adapted cathode-ray tube (CRT, a TV screen).',
+        },
+        role: {
+          pt: 'Inventor da primeira RAM eletrônica',
+          en: 'Inventor of the first electronic RAM',
+        },
+        contribution: {
+          pt: 'Em 1946, a TI resolveu o temido "Gargalo de Memória", provando que dados voláteis podiam ser armazenados na luz e na estática em vez de em relés de metal.',
+          en: 'In 1946, IT solved the feared "Memory Bottleneck", proving that volatile data could be stored in light and static instead of metal relays.',
+        },
+        detail: {
+          pt: 'A arquitetura de Von Neumann dependia de a CPU conseguir ler dados absurdamente rápido. As memórias mecânicas (como os tambores giratórios) eram muito lentas para as CPUs de válvulas. Williams teve uma ideia genial: quando você atira um feixe de elétrons na tela de uma TV velha, um pontinho de luz acende e deixa uma carga elétrica estática (um bit "1"). Ele colocou uma placa de metal fina encostada no vidro da tela para "ler" essa estática. O Tubo de Williams "desenhava" milhares de zeros e uns invisíveis na tela numa fração de milissegundo, e a máquina os lia antes que a estática sumisse.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem memória RAM dinâmica de alta velocidade, os computadores rápidos e programáveis não teriam existido. O Tubo de Williams foi a tecnologia habilitadora absoluta da computação da década de 1940 e início dos anos 1950. Esta patente de 1946 permitiu que a Universidade de Manchester construísse, apenas dois anos depois, o primeiro computador do mundo a rodar um software puramente armazenado na memória (o lendário "Baby" de Manchester).',
+          en: 'Von Neumann architecture depended on the CPU being able to read data absurdly fast. Mechanical memories (such as rotating drums) were far too slow for tube CPUs. Williams had a brilliant idea: when you fire a beam of electrons at the screen of an old TV, a tiny point of light turns on and leaves an electrostatic charge (a "1" bit). He placed a thin metal plate against the glass of the screen to "read" this static. The Williams Tube "drew" thousands of invisible zeros and ones on the screen in a fraction of a millisecond, and the machine read them before the static disappeared.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout high-speed dynamic RAM memory, fast programmable computers would not have existed. The Williams Tube was the absolute enabling technology of computing in the 1940s and early 1950s. This 1946 patent allowed the University of Manchester, only two years later, to build the first computer in the world to run software stored purely in memory (the legendary Manchester "Baby").',
+        },
+      },
+      {
+        name: 'John Mauchly e J. Presper Eckert',
+        imagePlaceholder: YEAR_1946_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Os geniais criadores do hardware do ENIAC. Após a universidade tentar forçá-los a ceder as patentes lucrativas da máquina para a academia, eles se recusaram, pediram demissão e decidiram que a TI deveria ser um empreendimento capitalista.',
+          en: 'The brilliant creators of ENIAC’s hardware. After the university tried to force them to hand the machine’s lucrative patents over to academia, they refused, resigned and decided that IT should be a capitalist enterprise.',
+        },
+        summary: {
+          pt: 'Fundaram em 1946 a Electronic Control Company (mais tarde renomeada para Eckert-Mauchly Computer Corporation - EMCC), estabelecendo a primeira empresa comercial do mundo dedicada exclusivamente à engenharia, construção e venda de computadores eletrônicos.',
+          en: 'Founded in 1946 the Electronic Control Company (later renamed Eckert-Mauchly Computer Corporation - EMCC), establishing the world’s first commercial company dedicated exclusively to the engineering, construction and sale of electronic computers.',
+        },
+        role: {
+          pt: 'Fundadores da primeira empresa comercial de computadores',
+          en: 'Founders of the first commercial computer company',
+        },
+        contribution: {
+          pt: 'Em 1946, a tecnologia rompeu com a academia militar. O Processamento de Dados tornou-se o modelo de negócios corporativo mais valioso do século.',
+          en: 'In 1946, technology broke away from military academia. Data Processing became the most valuable corporate business model of the century.',
+        },
+        detail: {
+          pt: 'Até 1946, construir computadores era uma coisa que apenas governos fazendo guerra ou universidades gigantescas faziam. Não havia um "mercado". Eckert e Mauchly abriram o primeiro CNPJ de TI puro. Eles convenceram a Prudential Insurance (uma empresa de seguros privada civil) e o U.S. Census Bureau (o IBGE americano) de que o processamento massivo de arquivos não precisava ser feito por milhares de burocratas com calculadoras, mas por um "servidor" eletrônico contínuo.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta é a semente de toda a indústria corporativa de TI (a Big Tech primordial). Ao fundar a empresa, eles não apenas iniciaram o projeto do mítico computador UNIVAC (que se tornaria sinônimo de computação nos anos 1950 e seria o primeiro a gravar dados em fita magnética de alta velocidade comercialmente), mas inauguraram a cultura B2B (Business-to-Business) de venda de hardware tecnológico de ponta, um mercado corporativo que as gigantes atuais como IBM, Microsoft, Oracle e AWS continuam dominando até hoje.',
+          en: 'Until 1946, building computers was something only governments at war or gigantic universities did. There was no "market". Eckert and Mauchly opened the first pure IT business. They convinced Prudential Insurance (a private civilian insurance company) and the U.S. Census Bureau that massive file processing did not need to be done by thousands of bureaucrats with calculators, but by a continuous electronic "server".\n\nWhy does this belong in the IT Hall of Fame?\n\nThis is the seed of the entire corporate IT industry (the primordial Big Tech). By founding the company, they not only began the project of the mythical UNIVAC computer (which would become synonymous with computing in the 1950s and would be the first to commercially record data on high-speed magnetic tape), but inaugurated the B2B (Business-to-Business) culture of selling cutting-edge technological hardware, a corporate market that current giants such as IBM, Microsoft, Oracle and AWS still dominate today.',
         },
       },
     ],
   },
   {
     year: 1947,
-    era: { pt: 'A Peça que Mudou o Hardware', en: 'The Part That Changed Hardware' },
-    context: {
-      pt: 'Válvulas eletrônicas eram grandes, quentes e quebravam constantemente. Três engenheiros dos Bell Labs inventaram algo que cabia na palma da mão e rodaria para sempre.',
-      en: 'Vacuum tubes were large, hot and broke constantly. Three Bell Labs engineers invented something that fit in the palm of a hand and would run indefinitely.',
+    era: {
+      pt: 'A Revolução do Estado Sólido, o Batismo do "Bug" e o Algoritmo do Acaso',
+      en: 'The Solid-State Revolution, the Naming of the "Bug" and the Algorithm of Chance',
     },
+    context: {
+      pt: 'Em 1947, a tecnologia da informação dá à luz a invenção física mais importante de toda a história humana moderna, batiza o seu inimigo operacional mais antigo e muda a forma como a matemática lida com a incerteza. Nos laboratórios da AT&T, três físicos realizam o milagre de amplificar energia não através de um tubo de vidro quente e frágil, mas através de um pedaço sólido e frio de metal e cristal, inaugurando a era dos semicondutores e condenando as válvulas à obsolescência. Em Harvard, a equipe da Marinha americana tenta descobrir por que o gigantesco computador eletromecânico travou e encontra um inseto literal esmagado nos relés, popularizando para sempre os termos "bug" e "debugging" na engenharia de software. E no laboratório secreto de Los Alamos, físicos tentando calcular a radiação nuclear desistem das equações perfeitas e criam um algoritmo que usa a "aleatoriedade" dos computadores para adivinhar a resposta certa, fundando a base das simulações modernas. É o ano da Invenção do Transistor, do Inseto da Grace Hopper e do Método de Monte Carlo.',
+      en: 'In 1947, information technology gives birth to the most important physical invention in all of modern human history, names its oldest operational enemy and changes the way mathematics deals with uncertainty. In AT&T’s laboratories, three physicists perform the miracle of amplifying energy not through a hot and fragile glass tube, but through a solid and cold piece of metal and crystal, inaugurating the semiconductor era and condemning tubes to obsolescence. At Harvard, the U.S. Navy team tries to discover why the gigantic electromechanical computer crashed and finds a literal insect crushed in the relays, forever popularizing the terms "bug" and "debugging" in software engineering. And in the secret laboratory of Los Alamos, physicists trying to calculate nuclear radiation give up on perfect equations and create an algorithm that uses computer "randomness" to guess the right answer, founding the basis of modern simulations. It is the year of the Invention of the Transistor, Grace Hopper’s Insect and the Monte Carlo Method.',
+    },
+    peopleCount: 3,
     people: [
       {
-        name: 'John Bardeen',
-        image: '/hall/1947/john-bardeen',
+        name: 'John Bardeen, Walter Brattain e William Shockley (Bell Labs)',
+        imagePlaceholder: YEAR_1947_PLACEHOLDER,
         flag: '🇺🇸',
-        nationality: { pt: 'Americano', en: 'American' },
+        nationality: { pt: 'Americanos', en: 'Americans' },
         formation: {
-          pt: 'Engenharia Elétrica, Univ. Wisconsin-Madison · Doutorado em Física, Princeton',
-          en: 'Electrical Engineering, Univ. Wisconsin-Madison · PhD in Physics, Princeton',
+          pt: 'Um "dream team" da física quântica e estado sólido. O Bell Labs precisava desesperadamente de uma alternativa às válvulas de vácuo, que geravam um calor infernal, consumiam muita energia e queimavam constantemente, tornando impossível construir computadores maiores do que o ENIAC sem que eles derretessem.',
+          en: 'A "dream team" of quantum and solid-state physics. Bell Labs desperately needed an alternative to vacuum tubes, which generated infernal heat, consumed a lot of energy and constantly burned out, making it impossible to build computers larger than ENIAC without them melting.',
         },
-        summary: { pt: 'Co-inventou o transistor, peça fundamental de todo chip moderno', en: 'Co-invented the transistor, the fundamental component of every modern chip' },
-        role: { pt: 'Físico, co-inventor do transistor', en: 'Physicist, co-inventor of the transistor' },
+        summary: {
+          pt: 'Inventaram e testaram com sucesso em dezembro de 1947 o Transistor de Contato de Ponto (Point-Contact Transistor). Eles pegaram um pequeno bloco de germânio (um semicondutor) e pressionaram dois finos contatos de ouro sobre ele. Eles provaram que uma pequena corrente elétrica entrando no cristal podia controlar e amplificar uma corrente muito maior saindo dele, sem precisar de vácuo, filamentos ou calor.',
+          en: 'Invented and successfully tested in December 1947 the Point-Contact Transistor. They took a small block of germanium (a semiconductor) and pressed two thin gold contacts onto it. They proved that a small electric current entering the crystal could control and amplify a much larger current leaving it, without needing vacuum, filaments or heat.',
+        },
+        role: {
+          pt: 'Inventores do transistor',
+          en: 'Inventors of the transistor',
+        },
         contribution: {
-          pt: 'Co-inventou o transistor em dezembro de 1947, a peça fundamental que tornou possível toda a miniaturização da eletrônica moderna.',
-          en: 'Co-invented the transistor in December 1947, the fundamental component that made possible all miniaturization of modern electronics.',
+          pt: 'Em 1947, a TI abandonou a "Força Bruta do Vidro" e abraçou o "Silício/Germânio", reduzindo o cérebro do computador de uma lâmpada para uma lasca de cristal microscópica.',
+          en: 'In 1947, IT abandoned the "Brute Force of Glass" and embraced "Silicon/Germanium", reducing the computer brain from a lamp to a microscopic chip of crystal.',
         },
         detail: {
-          pt: 'Bardeen é o único físico a ganhar o Nobel de Física duas vezes: em 1956 pelo transistor e em 1972 pela teoria da supercondutividade. O transistor que ele co-inventou com Brattain e Shockley substituiu as frágeis válvulas de vácuo e abriu caminho para os circuitos integrados, os microprocessadores e tudo que veio depois. Cada chip moderno contém bilhões de transistores — todos descendentes diretos do protótipo que cabia numa mão.',
-          en: 'Bardeen is the only physicist to win the Nobel Prize in Physics twice: in 1956 for the transistor and in 1972 for the theory of superconductivity. The transistor he co-invented with Brattain and Shockley replaced fragile vacuum tubes and paved the way for integrated circuits, microprocessors, and everything that followed. Every modern chip contains billions of transistors — all direct descendants of the prototype that fit in one hand.',
+          pt: 'A válvula de vácuo precisava ferver elétrons no ar. O Transistor manipulava os elétrons dentro da estrutura atômica do cristal sólido. Isso significava que ele nunca esquentava, praticamente nunca queimava, não tinha partes móveis, gastava quase zero energia e, o mais importante, poderia ser encolhido. O transistor é, na sua essência, um interruptor de luz digital perfeito: injete energia, ele diz "1"; corte a energia, ele diz "0".\n\nPor que isso entra no Hall da Fama da TI?\n\nO Transistor é o bloco de construção absoluto de toda a tecnologia moderna. Sem a invenção de 1947, não haveria internet, celulares, viagens espaciais ou IA. As válvulas tinham um limite físico de quão rápido e pequenas podiam ser. O transistor quebrou a barreira física. Hoje, o processador dentro do smartphone que está no seu bolso ou na sua mesa não contém algumas milhares de válvulas (como o ENIAC), mas contém bilhões de transistores microscópicos esculpidos em silício, operando bilhões de vezes por segundo. Tudo começou com essa gambiarra de ouro e cristal no Natal de 1947.',
+          en: 'The vacuum tube needed to boil electrons in air. The Transistor manipulated electrons inside the atomic structure of the solid crystal. This meant it never heated up, practically never burned out, had no moving parts, used almost zero energy and, most importantly, could be shrunk. The transistor is, in essence, a perfect digital light switch: inject energy, it says "1"; cut the energy, it says "0".\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Transistor is the absolute building block of all modern technology. Without the 1947 invention, there would be no internet, phones, space travel or AI. Tubes had a physical limit to how fast and small they could be. The transistor broke the physical barrier. Today, the processor inside the smartphone in your pocket or on your desk does not contain a few thousand tubes (like ENIAC), but billions of microscopic transistors carved into silicon, operating billions of times per second. It all began with this gold-and-crystal hack around Christmas 1947.',
         },
       },
       {
-        name: 'Walter Brattain',
-        image: '/hall/1947/walter-brattain',
+        name: 'Grace Hopper e a equipe da Marinha dos EUA',
+        imagePlaceholder: YEAR_1947_PLACEHOLDER,
         flag: '🇺🇸',
-        nationality: { pt: 'Americano', en: 'American' },
+        nationality: { pt: 'Americana', en: 'American' },
         formation: {
-          pt: 'Física e Matemática, Whitman College · Doutorado em Física, Univ. Minnesota',
-          en: 'Physics and Mathematics, Whitman College · PhD in Physics, Univ. of Minnesota',
+          pt: 'A matemática que já havia dominado o Harvard Mark I (em 1944). Em 1947, ela e sua equipe estavam operando a nova versão da máquina, o Harvard Mark II, um colosso eletromecânico alojado num prédio militar.',
+          en: 'The mathematician who had already mastered the Harvard Mark I (in 1944). In 1947, she and her team were operating the new version of the machine, the Harvard Mark II, an electromechanical colossus housed in a military building.',
         },
-        summary: { pt: 'Construiu o primeiro transistor funcional da história', en: 'Built the first functional transistor in history' },
-        role: { pt: 'Físico experimental, co-inventor do transistor', en: 'Experimental physicist, co-inventor of the transistor' },
+        summary: {
+          pt: 'No dia 9 de setembro de 1947, o computador Mark II começou a dar erros de cálculo inexplicáveis. A equipe abriu as entranhas da máquina e descobriu uma mariposa literal presa e eletrocutada entre os contatos do Relé número 70 no Painel F. Eles tiraram o inseto com uma pinça, colaram no caderno de registros (logbook) da máquina e escreveram a nota: "First actual case of bug being found" (Primeiro caso real de inseto/bug a ser encontrado).',
+          en: 'On September 9, 1947, the Mark II computer began producing inexplicable calculation errors. The team opened the machine’s innards and discovered a literal moth stuck and electrocuted between the contacts of Relay number 70 on Panel F. They removed the insect with tweezers, taped it into the machine’s logbook and wrote the note: "First actual case of bug being found".',
+        },
+        role: {
+          pt: 'Popularizadora do termo bug/debugging',
+          en: 'Popularizer of the terms bug/debugging',
+        },
         contribution: {
-          pt: 'Foi quem realizou os experimentos práticos que levaram à invenção do transistor de ponto de contato, o primeiro a funcionar.',
-          en: 'Conducted the practical experiments that led to the invention of the point-contact transistor, the first to actually work.',
+          pt: 'Em 1947, a Engenharia de Software ganhou sua "Nomenclatura Operacional", transformando a caça a erros de sistema em um jargão oficial da cultura Dev.',
+          en: 'In 1947, Software Engineering gained its "Operational Nomenclature", turning the hunt for system errors into official Dev-culture jargon.',
         },
         detail: {
-          pt: 'Brattain era o experimentador do trio — enquanto Bardeen fornecia a teoria e Shockley a visão, Brattain construía e testava. Em 16 de dezembro de 1947, ele montou o primeiro transistor funcional com dois fios de ouro e um cristal de germânio. O dispositivo amplificou o sinal de áudio com sucesso, e os três correram para demonstrar ao laboratório antes que alguém copiasse a ideia.',
-          en: 'Brattain was the experimenter of the trio — while Bardeen provided the theory and Shockley the vision, Brattain built and tested. On December 16, 1947, he assembled the first functional transistor with two gold wires and a germanium crystal. The device successfully amplified an audio signal, and the three rushed to demonstrate it to the lab before anyone could copy the idea.',
+          pt: 'A palavra "bug" para descrever defeitos mecânicos já era usada por engenheiros desde a época de Thomas Edison (nos anos 1870), mas a cultura da computação recém-nascida não tinha uma palavra oficial para "o código parou de funcionar e não sabemos o porquê". Quando a equipe colou o inseto no caderno (um documento que hoje repousa no Museu Nacional de História Americana), eles fundiram a falha lógica do software/hardware com o termo biológico. Eles passaram a dizer que tinham "debugado" (debugged) a máquina, um termo que Grace Hopper popularizou impiedosamente a partir de então.\n\nPor que isso entra no Hall da Fama da TI?\n\nA fixação da palavra "Bug" e da ação de "Debugging" formou o vocabulário base de todo programador moderno. Hoje, ferramentas bilionárias chamadas Debuggers são usadas em IDEs (como o VS Code que você usa nos seus projetos de IA) para rastrear erros no código. O log do inseto de 1947 é o "marco zero" cultural que nos lembra de uma verdade brutal da TI: não importa quão sofisticado seja o seu algoritmo, o seu sistema sempre pode ser derrubado por uma variável física externa estúpida que você não previu.',
+          en: 'The word "bug" to describe mechanical defects had already been used by engineers since the time of Thomas Edison (in the 1870s), but newborn computing culture did not have an official word for "the code stopped working and we do not know why". When the team taped the insect into the notebook (a document now resting in the National Museum of American History), they fused the logical failure of software/hardware with the biological term. They began saying they had "debugged" the machine, a term Grace Hopper relentlessly popularized from then on.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe fixation of the word "Bug" and the action of "Debugging" formed the base vocabulary of every modern programmer. Today, billion-dollar tools called Debuggers are used in IDEs (like the VS Code you use in your AI projects) to trace code errors. The 1947 insect log is the cultural "zero mark" reminding us of a brutal IT truth: no matter how sophisticated your algorithm is, your system can always be brought down by a stupid external physical variable you did not predict.',
         },
       },
       {
-        name: 'William Shockley',
-        image: '/hall/1947/william-shockley',
-        flag: '🇺🇸',
-        nationality: { pt: 'Britânico-Americano', en: 'British-American' },
+        name: 'Stanislaw Ulam e John von Neumann',
+        imagePlaceholder: YEAR_1947_PLACEHOLDER,
+        flag: '🇵🇱 🇭🇺',
+        nationality: { pt: 'Polonês / Húngaro-Americano', en: 'Polish / Hungarian-American' },
         formation: {
-          pt: 'Física, Caltech · Doutorado em Física, MIT',
-          en: 'Physics, Caltech · PhD in Physics, MIT',
+          pt: 'Físicos e matemáticos trabalhando no topo da cadeia alimentar acadêmica no Laboratório Nacional de Los Alamos (berço da bomba atômica). Eles tinham o ENIAC à disposição, mas as equações teóricas para prever como nêutrons batiam em átomos de urânio eram complexas demais até para o computador resolver de forma exata.',
+          en: 'Physicists and mathematicians working at the top of the academic food chain at Los Alamos National Laboratory (birthplace of the atomic bomb). They had ENIAC available, but the theoretical equations for predicting how neutrons struck uranium atoms were too complex even for the computer to solve exactly.',
         },
-        summary: { pt: 'Liderou a invenção do transistor e originou o Vale do Silício', en: 'Led the transistor invention and originated Silicon Valley' },
-        role: { pt: 'Físico, líder da equipe do transistor', en: 'Physicist, leader of the transistor team' },
+        summary: {
+          pt: 'Ulam, enquanto se recuperava de uma doença jogando Paciência, teve a epifania de que não precisava calcular todas as combinações de cartas possíveis matematicamente; ele podia apenas jogar o jogo centenas de vezes e fazer uma média dos resultados. Ele e von Neumann transformaram isso em um algoritmo computacional em 1947, batizado como Método de Monte Carlo (em homenagem aos cassinos de Mônaco).',
+          en: 'Ulam, while recovering from an illness by playing solitaire, had the epiphany that he did not need to calculate all possible card combinations mathematically; he could simply play the game hundreds of times and average the results. He and von Neumann turned this into a computational algorithm in 1947, named the Monte Carlo Method (after the casinos of Monaco).',
+        },
+        role: {
+          pt: 'Criadores do método de Monte Carlo',
+          en: 'Creators of the Monte Carlo method',
+        },
         contribution: {
-          pt: 'Liderou o grupo de física de estado sólido nos Bell Labs que inventou o transistor, e posteriormente criou o transistor de junção bipolar, mais prático e amplamente adotado.',
-          en: 'Led the solid-state physics group at Bell Labs that invented the transistor, and later created the bipolar junction transistor, more practical and widely adopted.',
+          pt: 'Em 1947, a Computação inventou o "Algoritmo Randomizado". Se um problema é impossível de resolver com precisão matemática pura, o computador chuta milhares de vezes até achar um padrão.',
+          en: 'In 1947, Computing invented the "Randomized Algorithm". If a problem is impossible to solve with pure mathematical precision, the computer guesses thousands of times until it finds a pattern.',
         },
         detail: {
-          pt: 'Shockley é uma figura complexa na história da TI. Foi ele quem montou o grupo que inventou o transistor, mas seus ex-funcionários — os "Oito Traidores" — fundaram a Fairchild Semiconductor e, depois, a Intel. Essas spinoffs deram origem ao Vale do Silício como o conhecemos. Shockley recebeu o Nobel em 1956, mas seus anos finais foram manchados por posições controversas sobre eugenia e inteligência.',
-          en: 'Shockley is a complex figure in IT history. He assembled the group that invented the transistor, but his former employees — the "Traitorous Eight" — went on to found Fairchild Semiconductor and, later, Intel. These spinoffs gave birth to Silicon Valley as we know it. Shockley received the Nobel in 1956, but his later years were tainted by controversial positions on eugenics and intelligence.',
+          pt: 'Até então, o computador era visto como uma máquina determinística (você põe 2+2, sai 4). Von Neumann programou o ENIAC para gerar "Números Pseudoaleatórios". Eles simulavam o voo de um nêutron "rolando dados" virtuais milhares de vezes por segundo. O resultado não era uma certeza matemática de 100%, mas uma aproximação estatística tão precisa que permitiu aos EUA desenvolver a bomba de hidrogênio. A máquina deixou de ser apenas uma calculadora exata e passou a ser um simulador de probabilidade e caos.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Algoritmo de Monte Carlo é um dos métodos computacionais mais revolucionários já concebidos. Ele é a base de todo o processamento preditivo moderno em áreas complexas. Quando os jogos de videogame atuais (como os da Unreal Engine 5) calculam o rebatimento da luz em tempo real (Ray Tracing), eles usam algoritmos de Monte Carlo. Quando bancos calculam o risco de mercado na bolsa de valores, ou quando cientistas de dados criam modelos de inferência estatística no Scikit-learn, eles estão usando a exata arquitetura matemática do acaso inventada por Ulam e von Neumann neste ano.',
+          en: 'Until then, the computer was seen as a deterministic machine (you put in 2+2, it returns 4). Von Neumann programmed ENIAC to generate "Pseudorandom Numbers". They simulated the flight of a neutron by "rolling" virtual dice thousands of times per second. The result was not 100% mathematical certainty, but a statistical approximation so precise that it allowed the United States to develop the hydrogen bomb. The machine stopped being only an exact calculator and became a simulator of probability and chaos.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Monte Carlo Algorithm is one of the most revolutionary computational methods ever conceived. It is the basis of all modern predictive processing in complex areas. When current video games (such as those using Unreal Engine 5) calculate light bounces in real time (Ray Tracing), they use Monte Carlo algorithms. When banks calculate market risk in the stock exchange, or when data scientists create statistical inference models in Scikit-learn, they are using the exact mathematical architecture of chance invented by Ulam and von Neumann in this year.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1948,
+    era: {
+      pt: 'A Teoria de Tudo dos Dados, o Primeiro Boot de Software e a Bíblia da IA',
+      en: 'The Theory of Everything for Data, the First Software Boot and the Bible of AI',
+    },
+    context: {
+      pt: 'Em 1948, a tecnologia da informação escreve o seu "Gênesis" matemático, liga a primeira placa-mãe com código armazenado na memória e publica o manifesto que equipara máquinas a seres vivos. Nos laboratórios americanos, o mesmo gênio que provou que fios executam lógica (em 1937) volta para provar matematicamente qual é o limite absoluto de dados que um cabo pode transmitir no universo, cunhando de vez a palavra "Bit" e inventando a compressão de arquivos. Na Inglaterra, usando a memória de TV inventada dois anos antes, engenheiros montam o primeiro hardware do mundo a rodar um programa de software lido diretamente da memória RAM, sem fitas de papel ou painéis de cabos. E de volta ao MIT, o homem que estudou mísseis antiaéreos publica o livro que funda a ciência da "Cibernética", transformando o estudo de robôs e algoritmos preditivos em uma disciplina acadêmica global. É o ano da Teoria da Informação de Shannon, do Computador "Baby" de Manchester e da publicação de Cybernetics.',
+      en: 'In 1948, information technology writes its mathematical "Genesis", turns on the first motherboard with code stored in memory and publishes the manifesto that equates machines with living beings. In American laboratories, the same genius who proved that wires execute logic (in 1937) returns to mathematically prove the absolute limit of data that a cable can transmit in the universe, permanently coining the word "Bit" and inventing file compression. In England, using the TV memory invented two years earlier, engineers assemble the first hardware in the world to run a software program read directly from RAM memory, without paper tapes or cable panels. And back at MIT, the man who studied anti-aircraft missiles publishes the book that founds the science of "Cybernetics", transforming the study of robots and predictive algorithms into a global academic discipline. It is the year of Shannon’s Information Theory, the Manchester "Baby" Computer and the publication of Cybernetics.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Claude Shannon (com a cunhagem de John Tukey)',
+        imagePlaceholder: YEAR_1948_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'O matemático do Bell Labs que conectou os relés de telefone à lógica Booleana em 1937. Agora, logo após o fim da guerra, ele se perguntou: "Qual é a matemática fundamental por trás de uma mensagem? Como posso enviar dados com 100% de precisão em uma rede que tem 99% de ruído?"',
+          en: 'The Bell Labs mathematician who connected telephone relays to Boolean logic in 1937. Now, just after the end of the war, he asked himself: "What is the fundamental mathematics behind a message? How can I send data with 100% precision over a network that has 99% noise?"',
+        },
+        summary: {
+          pt: 'Publicou em julho e outubro de 1948 o artigo mais importante da história das telecomunicações: "A Mathematical Theory of Communication" (Uma Teoria Matemática da Comunicação). Neste texto épico, ele batiza oficialmente a unidade fundamental da computação como "Bit" (Binary Digit, sugerido pelo seu colega John Tukey).',
+          en: 'Published in July and October 1948 the most important paper in the history of telecommunications: "A Mathematical Theory of Communication". In this epic text, he officially names the fundamental unit of computing as the "Bit" (Binary Digit, suggested by his colleague John Tukey).',
+        },
+        role: {
+          pt: 'Fundador da Teoria da Informação',
+          en: 'Founder of Information Theory',
+        },
+        contribution: {
+          pt: 'Em 1948, a TI estabeleceu as Leis da Física dos Dados. Shannon inventou a matemática da Compressão (Zip) e o Limite de Banda (Bandwidth).',
+          en: 'In 1948, IT established the Laws of Data Physics. Shannon invented the mathematics of Compression (Zip) and the Bandwidth Limit.',
+        },
+        detail: {
+          pt: 'Shannon provou que todas as informações do universo (um texto, uma música, um vídeo, uma pintura) podem ser reduzidas a Zeros e Uns (Bits). Mais genial ainda: ele descobriu a "Entropia da Informação", provando que a língua inglesa (ou portuguesa) tem muita "gordura". Você não precisa enviar todas as letras de uma palavra para o computador do outro lado entender; você pode cortar o excesso (comprimir os dados) e descompactar no destino. Ele também cravou o "Teorema de Shannon-Hartley", que calcula exatamente qual é a velocidade máxima de conexão (limite de download) de qualquer cabo físico antes que a física corrompa os dados.\n\nPor que isso entra no Hall da Fama da TI?\n\nSe Alan Turing (1936) inventou a "lógica" do computador, Claude Shannon (1948) inventou a internet. Este artigo solitário fundou sozinho a disciplina da Teoria da Informação. Toda a criptografia moderna, o protocolo de compressão MP3 (que compacta áudio sem o usuário notar), as pastas ".ZIP", a resolução de vídeos 4K na Netflix e a correção de erros no seu disco rígido operam estritamente dentro dos limites da equação matemática desenhada por Shannon neste documento. É o verdadeiro mapa do código digital.',
+          en: 'Shannon proved that all information in the universe (a text, a song, a video, a painting) can be reduced to Zeros and Ones (Bits). Even more brilliantly, he discovered "Information Entropy", proving that the English language (or Portuguese) has a lot of "fat". You do not need to send every letter of a word for the computer on the other side to understand; you can cut the excess (compress the data) and decompress it at the destination. He also established the "Shannon-Hartley Theorem", which calculates exactly the maximum connection speed (download limit) of any physical cable before physics corrupts the data.\n\nWhy does this belong in the IT Hall of Fame?\n\nIf Alan Turing (1936) invented the "logic" of the computer, Claude Shannon (1948) invented the internet. This solitary paper single-handedly founded the discipline of Information Theory. All modern cryptography, the MP3 compression protocol (which compresses audio without the user noticing), ".ZIP" folders, 4K video resolution on Netflix and error correction on your hard drive operate strictly within the limits of the mathematical equation drawn by Shannon in this document. It is the true map of digital code.',
+        },
+      },
+      {
+        name: 'Tom Kilburn e Freddie Williams',
+        imagePlaceholder: YEAR_1948_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'Engenheiros da Universidade de Manchester. Williams era o gênio que havia inventado o Tubo de Williams (a memória RAM feita de tela de TV em 1946). Kilburn era o matemático genial que escreveu o primeiro código para testar se essa memória prestava para alguma coisa.',
+          en: 'Engineers at the University of Manchester. Williams was the genius who had invented the Williams Tube (RAM made from a TV screen in 1946). Kilburn was the brilliant mathematician who wrote the first code to test whether this memory was good for anything.',
+        },
+        summary: {
+          pt: 'Na manhã de 21 de junho de 1948, ligaram e rodaram com sucesso a Manchester Small-Scale Experimental Machine (SSEM), carinhosamente apelidada de "Baby". Foi o primeiríssimo computador de programa armazenado eletronicamente a funcionar no mundo.',
+          en: 'On the morning of June 21, 1948, they turned on and successfully ran the Manchester Small-Scale Experimental Machine (SSEM), affectionately nicknamed "Baby". It was the very first electronically stored-program computer to work in the world.',
+        },
+        role: {
+          pt: 'Criadores do Manchester Baby',
+          en: 'Creators of the Manchester Baby',
+        },
+        contribution: {
+          pt: 'Em 1948, a TI executou o primeiro Software residente em RAM, validando fisicamente a arquitetura de Placa-Mãe que usamos hoje.',
+          en: 'In 1948, IT executed the first Software resident in RAM, physically validating the motherboard architecture we use today.',
+        },
+        detail: {
+          pt: 'O ENIAC (1946) ainda precisava que mulheres puxassem cabos pesados para programá-lo. O "Baby" foi diferente. Kilburn não tocou em chaves de fenda para mudar a rotina da máquina. Ele inseriu as 17 instruções matemáticas de seu programa (um algoritmo para encontrar o maior divisor próprio de um número gigantesco) diretamente nos pontinhos de luz verde brilhando no Tubo de Williams. O processador leu as instruções da luz, processou a matemática na luz e guardou o resultado na luz. O programa rodou em 52 minutos, executando 3.5 milhões de operações sem travar.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Manchester "Baby" é a validação prática da Arquitetura de Von Neumann (1945). Ele marcou a separação definitiva entre Hardware e Software na prática comercial. Foi o primeiro momento em que um sistema computacional se comportou como um PC moderno: você guarda o código na memória (HD/RAM) e a CPU apenas lê e obedece. Sem a prova de conceito do "Baby" em 1948, os primeiros computadores comerciais americanos e britânicos da década seguinte não teriam adotado a programação eletrônica limpa.',
+          en: 'ENIAC (1946) still needed women to pull heavy cables to program it. "Baby" was different. Kilburn did not touch screwdrivers to change the machine’s routine. He inserted the 17 mathematical instructions of his program (an algorithm to find the highest proper divisor of a huge number) directly into the green glowing points of light in the Williams Tube. The processor read the instructions from light, processed the mathematics in light and stored the result in light. The program ran in 52 minutes, executing 3.5 million operations without crashing.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Manchester "Baby" is the practical validation of the Von Neumann Architecture (1945). It marked the definitive separation between Hardware and Software in commercial practice. It was the first moment in which a computational system behaved like a modern PC: you store the code in memory (HD/RAM) and the CPU simply reads and obeys. Without the proof of concept of "Baby" in 1948, the first American and British commercial computers of the following decade would not have adopted clean electronic programming.',
+        },
+      },
+      {
+        name: 'Norbert Wiener',
+        imagePlaceholder: YEAR_1948_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'O matemático do MIT que, durante a guerra (1942), havia desenhado o algoritmo de armas antiaéreas aprendendo com seus próprios erros de mira. Após o conflito, ele decidiu que essa matemática se aplicava a biologia, sociologia e engenharia.',
+          en: 'The MIT mathematician who, during the war (1942), had designed the algorithm of anti-aircraft weapons learning from their own aiming errors. After the conflict, he decided that this mathematics applied to biology, sociology and engineering.',
+        },
+        summary: {
+          pt: 'Publicou em 1948 o livro seminal "Cybernetics: Or Control and Communication in the Animal and the Machine" (Cibernética: Ou Controle e Comunicação no Animal e na Máquina).',
+          en: 'Published in 1948 the seminal book "Cybernetics: Or Control and Communication in the Animal and the Machine".',
+        },
+        role: {
+          pt: 'Fundador da cibernética moderna',
+          en: 'Founder of modern cybernetics',
+        },
+        contribution: {
+          pt: 'Em 1948, a TI ganhou a sua disciplina filosófica: Wiener formalizou o estudo de Sistemas de Feedback, conectando o comportamento dos algoritmos ao sistema nervoso humano.',
+          en: 'In 1948, IT gained its philosophical discipline: Wiener formalized the study of Feedback Systems, connecting the behavior of algorithms to the human nervous system.',
+        },
+        detail: {
+          pt: 'Wiener chocou a comunidade científica ao provar que o cérebro humano tentando agarrar uma caneta e o termostato tentando manter um quarto aquecido usavam exatamente o mesmo princípio lógico: a malha fechada de dados. O sistema age, mede a realidade (sensor/input), compara com o objetivo (processamento), percebe o erro e reajusta o motor (output). Ele batizou essa nova ciência da retroalimentação de "Cibernética" (do grego kybernetes, que significa timoneiro ou governador de um navio).\n\nPor que isso entra no Hall da Fama da TI?\n\nO livro de Wiener popularizou um vocabulário inteiro para o Mundo Digital (a raiz do termo Ciberespaço de William Gibson vem daqui). Mas, mais criticamente, este livro é a fundação literária e matemática da Automação Industrial e da Robótica Autônoma. Ao unificar a comunicação eletrônica com o controle motor biológico, Wiener inspirou as gerações seguintes de engenheiros de IA a pararem de tratar computadores apenas como "calculadoras grandes" e começarem a tratá-los como "agentes" capazes de interagir com o ambiente físico e corrigir seus próprios comportamentos de forma autônoma.',
+          en: 'Wiener shocked the scientific community by proving that the human brain trying to grab a pen and the thermostat trying to keep a room warm used exactly the same logical principle: the closed data loop. The system acts, measures reality (sensor/input), compares it with the objective (processing), perceives the error and readjusts the motor (output). He named this new science of feedback "Cybernetics" (from the Greek kybernetes, meaning helmsman or governor of a ship).\n\nWhy does this belong in the IT Hall of Fame?\n\nWiener’s book popularized an entire vocabulary for the Digital World (the root of William Gibson’s term Cyberspace comes from here). But more critically, this book is the literary and mathematical foundation of Industrial Automation and Autonomous Robotics. By unifying electronic communication with biological motor control, Wiener inspired the following generations of AI engineers to stop treating computers merely as "large calculators" and start treating them as "agents" capable of interacting with the physical environment and correcting their own behavior autonomously.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1949,
+    era: {
+      pt: 'A Primeira Linguagem Assembly, a Memória RAM Indestrutível e o Primeiro MP3 (Música Digital)',
+      en: 'The First Assembly Language, Indestructible RAM and the First MP3 (Digital Music)',
+    },
+    context: {
+      pt: 'Em 1949, a tecnologia da informação deixa de ser apenas um experimento de laboratório e se transforma em uma ferramenta de produção diária, ganha uma memória que não "esquece" os dados quando a luz acaba e, pela primeira vez na história, produz arte. Na Inglaterra, um engenheiro constrói o primeiro computador prático de uso geral e percebe que digitar zeros e uns é torturante, inventando o primeiro tradutor que permite programar usando letras (o nascimento do código Assembly). Nos Estados Unidos, físicos descobrem como usar pequenas rosquinhas de metal magnetizado para guardar dados eternamente sem precisar de energia contínua, criando a memória de computador definitiva da Guerra Fria. E na Austrália, cientistas entediados com a matemática usam os pulsos elétricos brutos da CPU para vibrar um alto-falante de rádio, forçando um computador gigante a tocar uma marcha musical e inaugurando a era do áudio digital. É o ano do Computador EDSAC, da Memória de Núcleo Magnético e da Música do CSIRAC.',
+      en: 'In 1949, information technology stops being merely a laboratory experiment and becomes a tool of daily production, gains a memory that does not "forget" data when the lights go out and, for the first time in history, produces art. In England, an engineer builds the first practical general-purpose computer and realizes that typing zeros and ones is torture, inventing the first translator that allows programming with letters (the birth of Assembly code). In the United States, physicists discover how to use tiny magnetized metal rings to store data forever without continuous power, creating the definitive computer memory of the Cold War. And in Australia, scientists bored with mathematics use the raw electrical pulses of the CPU to vibrate a radio speaker, forcing a giant computer to play a musical march and inaugurating the era of digital audio. It is the year of the EDSAC Computer, Magnetic Core Memory and CSIRAC Music.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Maurice Wilkes e a equipe da Universidade de Cambridge',
+        imagePlaceholder: YEAR_1949_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'Wilkes era um físico genial que leu o rascunho de John von Neumann de 1945 e decidiu que não ia apenas teorizar; ele ia construir a máquina para a universidade usar de verdade.',
+          en: 'Wilkes was a brilliant physicist who read John von Neumann’s 1945 draft and decided he would not merely theorize; he would build the machine for the university to actually use.',
+        },
+        summary: {
+          pt: 'Inaugurou em 6 de maio de 1949 o EDSAC (Electronic Delay Storage Automatic Calculator). Enquanto o "Baby" de Manchester (1948) era só um protótipo para testar a memória, o EDSAC foi o primeiro computador prático de programa armazenado a entrar em serviço regular. Para operá-lo, Wilkes inventou as "Ordens Iniciais" (Initial Orders), um sistema que permitia programar a máquina usando códigos alfabéticos mnemônicos (como "A" para Add / Somar) em vez de furos binários puros.',
+          en: 'Inaugurated on May 6, 1949 the EDSAC (Electronic Delay Storage Automatic Calculator). While the Manchester "Baby" (1948) was only a prototype to test memory, EDSAC was the first practical stored-program computer to enter regular service. To operate it, Wilkes invented the "Initial Orders", a system that allowed programming the machine with alphabetic mnemonic codes (such as "A" for Add) instead of pure binary holes.',
+        },
+        role: {
+          pt: 'Criador do EDSAC e das Initial Orders',
+          en: 'Creator of EDSAC and the Initial Orders',
+        },
+        contribution: {
+          pt: 'Em 1949, a TI inventou a Linguagem de Programação (Assembly). A máquina finalmente foi ensinada a traduzir o idioma humano para o seu próprio código de máquina.',
+          en: 'In 1949, IT invented the Programming Language (Assembly). The machine was finally taught to translate human language into its own machine code.',
+        },
+        detail: {
+          pt: 'Antes do EDSAC, se você quisesse somar dois números, tinha que decorar e perfurar "1011001" na fita de papel. Wilkes percebeu que isso gerava falhas humanas constantes. Ele criou um software básico e fixo (gravado em interruptores mecânicos) que lia letras do alfabeto na fita de entrada e as convertia automaticamente para os binários corretos antes de jogar na RAM. Nasceu o conceito de "Assembler" (Montador). O programador agora escrevia um código humanamente legível, e o próprio computador assumia o trabalho braçal de compilar isso para elétrons.\n\nPor que isso entra no Hall da Fama da TI?\n\nO EDSAC estabeleceu a cultura do "Servidor Acadêmico" (pesquisadores faziam fila para rodar seus códigos nele). Mas a invenção da linguagem Assembly alterou o curso do software para sempre. Todo o ecossistema de programação atual (C++, Python, Java) existe em uma pirâmide de abstração onde nós digitamos palavras em inglês e camadas de tradutores transformam isso em binário. O topo dessa pirâmide, a ideia de usar uma interface alfabética para não ter que lidar com a matemática de máquina pura, foi inaugurada nestas "Ordens Iniciais" de 1949.',
+          en: 'Before EDSAC, if you wanted to add two numbers, you had to memorize and punch "1011001" onto paper tape. Wilkes realized this caused constant human errors. He created basic fixed software (stored in mechanical switches) that read alphabet letters on the input tape and automatically converted them to the correct binaries before loading them into RAM. The concept of the "Assembler" was born. The programmer now wrote human-readable code, and the computer itself took over the manual labor of compiling it into electrons.\n\nWhy does this belong in the IT Hall of Fame?\n\nEDSAC established the culture of the "Academic Server" (researchers queued to run their code on it). But the invention of Assembly language changed the course of software forever. The entire programming ecosystem today (C++, Python, Java) exists in a pyramid of abstraction where we type English words and layers of translators turn them into binary. The top of that pyramid, the idea of using an alphabetic interface so humans did not have to deal with pure machine mathematics, was inaugurated in these 1949 "Initial Orders".',
+        },
+      },
+      {
+        name: 'An Wang e Jay Forrester (trabalhos independentes)',
+        imagePlaceholder: YEAR_1949_PLACEHOLDER,
+        flag: '🇨🇳 🇺🇸',
+        nationality: { pt: 'Chinês-Americano / Americano', en: 'Chinese-American / American' },
+        formation: {
+          pt: 'Wang era um brilhante físico de Harvard, e Forrester um engenheiro pioneiro do MIT. Ambos estavam tentando resolver o maior pesadelo da TI na época: o Tubo de Williams (a memória de tela de TV de 1946) perdia todos os dados na hora que a energia piscava ou a máquina era desligada (era uma memória Volátil).',
+          en: 'Wang was a brilliant Harvard physicist, and Forrester a pioneering MIT engineer. Both were trying to solve IT’s greatest nightmare at the time: the Williams Tube (the TV-screen memory of 1946) lost all data when power flickered or the machine was turned off (it was volatile memory).',
+        },
+        summary: {
+          pt: 'Inventaram e patentearam a física e a matriz da Memória de Núcleo Magnético (Magnetic Core Memory). Eles descobriram que se passassem fios cruzados (em formato de "X" e "Y") por dentro de pequenas argolas de cerâmica magnética do tamanho de cabeças de alfinete, eles poderiam magnetizar a argola para a direita (1) ou para a esquerda (0).',
+          en: 'Invented and patented the physics and matrix of Magnetic Core Memory. They discovered that if crossed wires (in "X" and "Y" format) passed through tiny magnetic ceramic rings the size of pinheads, they could magnetize the ring to the right (1) or to the left (0).',
+        },
+        role: {
+          pt: 'Pioneiros da memória de núcleo magnético',
+          en: 'Pioneers of magnetic core memory',
+        },
+        contribution: {
+          pt: 'Em 1949, a TI encontrou o seu "Hardware Eterno": uma RAM de altíssima densidade que não perdia os arquivos quando ocorria um Blackout.',
+          en: 'In 1949, IT found its "Eternal Hardware": an ultra-high-density RAM that did not lose files when a blackout occurred.',
+        },
+        detail: {
+          pt: 'A Memória de Núcleo foi uma das peças de engenharia mais bonitas já feitas. Parecia uma tela de mosquiteiro tricotada à mão com minúsculos "donuts" de metal nos cruzamentos. A mágica da física magnética era a histerese: uma vez que o fio elétrico enviava um pulso e magnetizava a argola para o sentido horário (bit 1), você podia arrancar a máquina da tomada. Dez anos depois, a argola ainda estaria magnetizada no sentido horário. O dado físico se tornara virtualmente indestrutível e à prova de perda de energia (Não-Volátil).\n\nPor que isso entra no Hall da Fama da TI?\n\nA Memória de Núcleo Magnético foi a tecnologia reinante de armazenamento primário (RAM) em todos os computadores da Terra pelos próximos 20 anos (até a Intel inventar a memória de silício nos anos 70). Foi esse hardware que equipou os computadores do programa espacial Apollo, porque as fitas e válvulas não aguentariam a radiação do espaço, mas as argolas magnéticas de Forrester e Wang sim. Até hoje, quando um sistema Linux sofre um crash fatal e grava o erro no disco para você investigar, o arquivo gerado chama-se "Core Dump" (Despejo do Núcleo), um fantasma linguístico direto dessas argolas de metal de 1949.',
+          en: 'Core Memory was one of the most beautiful pieces of engineering ever made. It looked like a mosquito screen hand-knitted with tiny metal "donuts" at the intersections. The magic of magnetic physics was hysteresis: once an electric wire sent a pulse and magnetized the ring clockwise (bit 1), you could pull the machine from the wall outlet. Ten years later, the ring would still be magnetized clockwise. The physical data had become virtually indestructible and immune to power loss (Non-Volatile).\n\nWhy does this belong in the IT Hall of Fame?\n\nMagnetic Core Memory was the reigning primary storage technology (RAM) in every computer on Earth for the next 20 years (until Intel invented silicon memory in the 1970s). This was the hardware that equipped the Apollo program computers, because tapes and tubes would not withstand space radiation, but Forrester and Wang’s magnetic rings would. Even today, when a Linux system suffers a fatal crash and writes the error to disk for investigation, the generated file is called a "Core Dump", a linguistic ghost directly from these 1949 metal rings.',
+        },
+      },
+      {
+        name: 'Trevor Pearcey e Maston Beard (CSIRAC)',
+        imagePlaceholder: YEAR_1949_PLACEHOLDER,
+        flag: '🇦🇺',
+        nationality: { pt: 'Australianos', en: 'Australians' },
+        formation: {
+          pt: 'Cientistas do Conselho de Pesquisa Científica e Industrial da Austrália (CSIR). Eles construíram o CSIR Mk 1 (mais tarde renomeado para CSIRAC), o primeiro computador digital da Austrália, operando no isolamento geográfico quase total do resto da comunidade de TI americana e britânica.',
+          en: 'Scientists from Australia’s Council for Scientific and Industrial Research (CSIR). They built the CSIR Mk 1 (later renamed CSIRAC), Australia’s first digital computer, operating in almost total geographic isolation from the rest of the American and British IT community.',
+        },
+        summary: {
+          pt: 'No final de 1949 (e formalmente documentado em testes no início de 1950), o programador e matemático Geoff Hill usou a arquitetura do CSIRAC para gerar a primeira música digital sintetizada por um computador na história. Ele fez o computador calcular pulsos elétricos precisos e enviá-los a um alto-falante acoplado ao painel, tocando a "Colonel Bogey March".',
+          en: 'At the end of 1949 (and formally documented in tests in early 1950), programmer and mathematician Geoff Hill used the CSIRAC architecture to generate the first digital music synthesized by a computer in history. He made the computer calculate precise electrical pulses and send them to a speaker attached to the panel, playing the "Colonel Bogey March".',
+        },
+        role: {
+          pt: 'Pioneiros da música digital em computador',
+          en: 'Pioneers of computer digital music',
+        },
+        contribution: {
+          pt: 'Em 1949, a TI invadiu a Indústria do Entretenimento. A máquina provou que frequências lógicas binárias podiam ser convertidas em acústica musical.',
+          en: 'In 1949, IT entered the Entertainment Industry. The machine proved that binary logical frequencies could be converted into musical acoustics.',
+        },
+        detail: {
+          pt: 'Os computadores gigantes da época tinham alto-falantes embutidos nos seus circuitos, mas não para tocar música. Eles serviam como um "monitor de debug": o programador ficava ouvindo os cliques da máquina; se o som ficasse preso num ruído contínuo, significava que o software tinha entrado em loop infinito e travado. A genialidade da equipe australiana foi escrever um código que forçava a CPU a mandar pulsos para o alto-falante em ritmos matematicamente perfeitos (ex: mandar 440 pulsos por segundo para criar a nota musical Lá). A máquina parou de calcular balística e virou um instrumento musical gigantesco.\n\nPor que isso entra no Hall da Fama da TI?\n\nEsta foi a primeira fagulha da era multimídia e da síntese de áudio computacional. Antes do CSIRAC, áudio era gravado em fitas analógicas ou discos de vinil. A equipe de Pearcey provou que o som poderia ser 100% gerado por algoritmos (Procedural Audio). O Spotify, as placas de som dos PCs, os sintetizadores dos DJs e a voz artificial da IA que usamos hoje derivam do salto conceitual brutal dado nesta sala em Sydney: a ideia de que o mesmo processador desenhado para calcular física quântica e radares poderia ser instruído via código a gerar arte humana.',
+          en: 'The giant computers of the time had speakers built into their circuits, but not to play music. They served as a "debug monitor": the programmer listened to the clicks of the machine; if the sound got stuck in a continuous noise, it meant the software had entered an infinite loop and crashed. The brilliance of the Australian team was writing code that forced the CPU to send pulses to the speaker in mathematically perfect rhythms (for example, sending 440 pulses per second to create the musical note A). The machine stopped calculating ballistics and became a gigantic musical instrument.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the first spark of the multimedia era and computational audio synthesis. Before CSIRAC, audio was recorded on analog tapes or vinyl records. Pearcey’s team proved that sound could be 100% generated by algorithms (Procedural Audio). Spotify, PC sound cards, DJ synthesizers and the artificial AI voice we use today all derive from the brutal conceptual leap made in this room in Sydney: the idea that the same processor designed to calculate quantum physics and radar could be instructed by code to generate human art.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1950,
+    era: {
+      pt: 'O Teste de Inteligência Artificial, o "Antivírus" Físico de Dados e o Cérebro de Diodos',
+      en: 'The Artificial Intelligence Test, the Physical Data "Antivirus" and the Diode Brain',
+    },
+    context: {
+      pt: 'Em 1950, a tecnologia da informação deixa de se preocupar apenas em como a máquina faz contas e passa a enfrentar uma crise existencial: a máquina consegue pensar? É o ano em que a filosofia e a matemática se chocam para definir o que nos torna humanos. Na Inglaterra, o herói da Segunda Guerra Mundial escreve o manifesto definitivo da Inteligência Artificial, propondo um jogo psicológico para julgar a consciência de um computador. Nos laboratórios americanos, um matemático furioso porque sua máquina dava crash nos fins de semana inventa um algoritmo milagroso: um código que não apenas avisa que o arquivo foi corrompido, mas reconstrói o arquivo sozinho. E em Washington, o governo americano se cansa de esperar as corporações entregarem máquinas comerciais e liga o primeiro grande hardware de programa armazenado do país, substituindo os tubos de vidro pelas minúsculas "pedras" de estado sólido. É o ano do Teste de Turing, do Código de Hamming e do Computador SEAC.',
+      en: 'In 1950, information technology stops worrying only about how the machine performs calculations and begins facing an existential crisis: can the machine think? It is the year in which philosophy and mathematics collide to define what makes us human. In England, the hero of World War II writes the definitive manifesto of Artificial Intelligence, proposing a psychological game to judge the consciousness of a computer. In American laboratories, a mathematician furious because his machine crashed on weekends invents a miraculous algorithm: code that not only warns that a file was corrupted, but reconstructs the file by itself. And in Washington, the American government gets tired of waiting for corporations to deliver commercial machines and turns on the country’s first large stored-program hardware, replacing glass tubes with tiny solid-state "stones". It is the year of the Turing Test, Hamming Code and the SEAC Computer.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Alan Turing',
+        imagePlaceholder: YEAR_1950_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânico', en: 'British' },
+        formation: {
+          pt: 'O pai da ciência da computação moderna, que já havia inventado a máquina universal (1936) e quebrado a criptografia nazista (1940). Agora, trabalhando na Universidade de Manchester, ele olhava para os computadores e começava a se perguntar sobre o futuro da mente digital.',
+          en: 'The father of modern computer science, who had already invented the universal machine (1936) and broken Nazi cryptography (1940). Now, working at the University of Manchester, he looked at computers and began wondering about the future of the digital mind.',
+        },
+        summary: {
+          pt: 'Publicou na prestigiada revista Mind o artigo histórico "Computing Machinery and Intelligence" (Maquinaria Computacional e Inteligência). O texto começava com a frase imortal: "Proponho considerar a questão: As máquinas podem pensar?". Para provar isso, ele inventou o "Jogo da Imitação", universalmente conhecido hoje como o Teste de Turing.',
+          en: 'Published in the prestigious journal Mind the historic paper "Computing Machinery and Intelligence". The text began with the immortal phrase: "I propose to consider the question: Can machines think?". To prove this, he invented the "Imitation Game", universally known today as the Turing Test.',
+        },
+        role: {
+          pt: 'Criador do Teste de Turing',
+          en: 'Creator of the Turing Test',
+        },
+        contribution: {
+          pt: 'Em 1950, a TI estabeleceu o Limite de Referência da IA. Turing declarou que a inteligência não é biológica; ela é baseada apenas na capacidade de processar dados sociais perfeitamente.',
+          en: 'In 1950, IT established the reference limit of AI. Turing declared that intelligence is not biological; it is based only on the ability to process social data perfectly.',
+        },
+        detail: {
+          pt: 'Turing percebeu que definir "pensamento" era impossível. Então, ele desenhou um teste de interface cega: um humano juiz conversa (via teclado/tela) com duas entidades escondidas em outras salas. Uma entidade é humana, a outra é um computador. O objetivo do computador é fingir tão bem ser humano (mentir, errar contas de propósito, fazer piadas) que o juiz não consegue distinguir quem é quem. Turing declarou que, se a máquina enganar o juiz de forma consistente, a humanidade seria obrigada a admitir que a máquina "pensa".\n\nPor que isso entra no Hall da Fama da TI?\n\nEste artigo é o documento fundador da filosofia da Inteligência Artificial. Ele mudou o objetivo da computação de "calcular matemática pesada" para "simular o raciocínio neurológico e social". O Teste de Turing foi o "Santo Graal" inalcançável da TI por sete décadas. Se hoje você utiliza sistemas de processamento de linguagem natural (Large Language Models - LLMs) que conseguem manter um diálogo com você em português fluente sobre história, demonstrando empatia e adaptando o tom da conversa, o benchmark original de que essa interação seria o ápice da tecnologia foi traçado por Alan Turing em 1950.',
+          en: 'Turing realized that defining "thought" was impossible. So he designed a blind-interface test: a human judge converses (via keyboard/screen) with two entities hidden in other rooms. One entity is human, the other is a computer. The computer’s objective is to pretend to be human so well (lying, intentionally making arithmetic mistakes, making jokes) that the judge cannot distinguish who is who. Turing declared that if the machine consistently deceived the judge, humanity would be forced to admit that the machine "thinks".\n\nWhy does this belong in the IT Hall of Fame?\n\nThis paper is the founding document of the philosophy of Artificial Intelligence. It changed the goal of computing from "calculating heavy mathematics" to "simulating neurological and social reasoning". The Turing Test was IT’s unreachable "Holy Grail" for seven decades. If today you use natural language processing systems (Large Language Models - LLMs) that can maintain a dialogue with you in fluent Portuguese about history, showing empathy and adapting the tone of the conversation, the original benchmark that such interaction would be the peak of technology was drawn by Alan Turing in 1950.',
+        },
+      },
+      {
+        name: 'Richard Wesley Hamming',
+        imagePlaceholder: YEAR_1950_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Matemático genial do Bell Labs. Ele costumava deixar seus cartões perfurados rodando cálculos complexos no computador durante o fim de semana. A máquina de relés usava um sistema burro: se um único bit flipasse (mudasse de 1 para 0) devido a estática ou poeira magnética, a máquina soava um alarme, travava e cancelava as operações do fim de semana inteiro.',
+          en: 'Brilliant Bell Labs mathematician. He used to leave his punched cards running complex calculations on the computer over the weekend. The relay machine used a dumb system: if a single bit flipped (changed from 1 to 0) due to static or magnetic dust, the machine sounded an alarm, crashed and canceled the entire weekend’s operations.',
+        },
+        summary: {
+          pt: 'Publicou em abril de 1950 o artigo "Error Detecting and Error Correcting Codes", inventando os Códigos de Hamming. Ele criou algoritmos lógicos e matemáticos de paridade que permitiam ao computador não apenas detectar que um dado estava corrompido, mas descobrir exatamente qual bit estava corrompido e consertá-lo autonomamente sem travar o sistema.',
+          en: 'Published in April 1950 the paper "Error Detecting and Error Correcting Codes", inventing Hamming Codes. He created logical and mathematical parity algorithms that allowed the computer not only to detect that data was corrupted, but to discover exactly which bit was corrupted and fix it autonomously without crashing the system.',
+        },
+        role: {
+          pt: 'Criador dos códigos de Hamming',
+          en: 'Creator of Hamming codes',
+        },
+        contribution: {
+          pt: 'Em 1950, a TI inventou a "Integridade de Dados Autocicatrizante". A máquina aprendeu a curar seus próprios arquivos sem a intervenção de um programador.',
+          en: 'In 1950, IT invented "Self-Healing Data Integrity". The machine learned to heal its own files without programmer intervention.',
+        },
+        detail: {
+          pt: 'Até então, adicionar redundância significava enviar a mensagem três vezes (desperdício de banda). A genialidade de Hamming foi entrelaçar "bits de verificação" na raiz do arquivo binário através de álgebra geométrica de hipercubos. Se um raio cósmico ou ruído elétrico mudasse a senha "A" para "B" na memória, os bits de verificação matematicamente deduziriam o erro em milissegundos, consertariam o bit e o computador continuaria trabalhando como se nada tivesse acontecido.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem o Código de Hamming, a infraestrutura da internet seria um caos irrecuperável. Esta arquitetura matemática de 1950 é a avó da criptografia de blocos e da memória RAM ECC (Error-Correcting Code), que é o padrão absoluto exigido em servidores de bancos e sistemas de aviação. É também a exata matemática que garante que você possa baixar um arquivo pesado em uma conexão Wi-Fi ou 5G cheia de ruídos estáticos da rua sem que a foto chegue cortada ao meio pela metade na sua tela.',
+          en: 'Until then, adding redundancy meant sending the message three times (a waste of bandwidth). Hamming’s genius was interlacing "check bits" into the root of the binary file through geometric algebra of hypercubes. If a cosmic ray or electrical noise changed the password "A" to "B" in memory, the check bits would mathematically deduce the error in milliseconds, fix the bit and the computer would keep working as if nothing had happened.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout Hamming Code, internet infrastructure would be unrecoverable chaos. This 1950 mathematical architecture is the grandmother of block cryptography and ECC (Error-Correcting Code) RAM, which is the absolute standard required in bank servers and aviation systems. It is also the exact mathematics that ensures you can download a large file over a noisy Wi-Fi or 5G connection without the photo arriving cut in half on your screen.',
+        },
+      },
+      {
+        name: 'National Bureau of Standards (NBS) - Liderado por Samuel Alexander',
+        imagePlaceholder: YEAR_1950_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'O Instituto Nacional de Padrões do governo dos EUA (avô do atual NIST). A agência estava cansada de esperar as empresas corporativas (como a de Eckert e Mauchly) terminarem seus projetos de computadores comercias, então decidiram construir o seu próprio no laboratório de Washington.',
+          en: 'The U.S. government’s National Bureau of Standards (ancestor of today’s NIST). The agency was tired of waiting for corporate companies (such as Eckert and Mauchly’s) to finish their commercial computer projects, so it decided to build its own in the Washington laboratory.',
+        },
+        summary: {
+          pt: 'Ligaram e dedicaram em maio de 1950 o SEAC (Standards Eastern Automatic Computer). Tornou-se o primeiro computador eletrônico de programa armazenado totalmente operacional dos Estados Unidos (batendo as corporações civis). Mais impressionante: foi o primeiro computador do mundo a fazer a maior parte de sua lógica primária de roteamento usando diodos de estado sólido (usando mais de 10.000 pequenos semicondutores de germânio, no lugar das lâmpadas a vácuo).',
+          en: 'Turned on and dedicated in May 1950 the SEAC (Standards Eastern Automatic Computer). It became the first fully operational stored-program electronic computer in the United States (beating civilian corporations). More impressively, it was the first computer in the world to perform most of its primary routing logic using solid-state diodes (using more than 10,000 small germanium semiconductors instead of vacuum lamps).',
+        },
+        role: {
+          pt: 'Construtores do SEAC',
+          en: 'Builders of SEAC',
+        },
+        contribution: {
+          pt: 'Em 1950, o Hardware iniciou sua transição oficial para o "Estado Sólido", provando que semicondutores podiam processar dados muito mais rápido do que lâmpadas de vidro ferventes.',
+          en: 'In 1950, Hardware began its official transition to "Solid State", proving that semiconductors could process data far faster than boiling glass lamps.',
+        },
+        detail: {
+          pt: 'Enquanto os ingleses foram os pioneiros do programa armazenado em 1948, o SEAC foi o titã que trouxe a inovação para os Estados Unidos, marcando a escalada americana. Mas o detalhe arquitetônico matador foi o abandono parcial das válvulas. As válvulas eram apenas usadas para amplificar o sinal; a inteligência lógica (as portas AND / OR) foi montada com os pequenos e confiáveis cristais de diodos. O SEAC também foi pioneiro ao possuir, no mesmo sistema, a primeira impressora de saída automática ligada diretamente a um computador e terminais de operação remota.\n\nPor que isso entra no Hall da Fama da TI?\n\nO SEAC representa o passo intermediário crítico e brutal entre a "Era dos Dinossauros de Vidro" (como o ENIAC) e a era dos computadores baseados puramente em chips (como os da IBM nos anos 60). Foi a primeira máquina a provar comercialmente e em escala industrial que a teoria de estado sólido do Transistor (de 1947) realmente funcionava como lógica de processamento em computadores. O SEAC funcionou sem interrupções por absurdos 14 anos, processando de tudo, desde códigos de imposto de renda até simulações atmosféricas para a recém-criada Força Aérea americana.',
+          en: 'While the English pioneered the stored program in 1948, SEAC was the titan that brought the innovation to the United States, marking the American escalation. But the killer architectural detail was the partial abandonment of tubes. Tubes were used only to amplify the signal; the logical intelligence (the AND / OR gates) was assembled with small and reliable diode crystals. SEAC also pioneered having, in the same system, the first automatic output printer connected directly to a computer and remote operation terminals.\n\nWhy does this belong in the IT Hall of Fame?\n\nSEAC represents the critical and brutal intermediate step between the "Glass Dinosaur Era" (such as ENIAC) and the era of computers based purely on chips (such as IBM machines in the 1960s). It was the first machine to prove commercially and at industrial scale that the solid-state theory of the Transistor (from 1947) really worked as processing logic in computers. SEAC operated uninterrupted for an absurd 14 years, processing everything from income-tax codes to atmospheric simulations for the newly created U.S. Air Force.',
         },
       },
     ],
   },
   {
     year: 1951,
-    era: { pt: 'A Primeira Compiladora', en: 'The First Compiler' },
-    context: {
-      pt: 'Programar computadores significava escrever em binário ou assembly puro. Uma almirante da marinha americana achou isso absurdo e decidiu mudar.',
-      en: 'Programming computers meant writing in pure binary or assembly. An American Navy admiral found this absurd and decided to change it.',
+    era: {
+      pt: 'A TI Corporativa, o Fim do Papel Perfurado e o Processamento em Tempo Real',
+      en: 'Corporate IT, the End of Punched Paper and Real-Time Processing',
     },
+    context: {
+      pt: 'Em 1951, a tecnologia da informação deixa de ser um instrumento exclusivo de guerra e ciência e se torna, oficialmente, o motor de logística e lucro corporativo. Na Inglaterra, a diretoria de uma gigante rede de casas de chá e padarias se cansa de fazer contas de estoque à mão, contrata engenheiros e constrói o primeiro computador focado puramente em negócios do mundo. Nos Estados Unidos, a primeira máquina comercial de venda em massa é finalmente entregue ao governo americano, aposentando os velhos cartões de papelão perfurado em favor da velocidade brutal da fita magnética. E no MIT, engenheiros constroem o primeiro computador capaz de reagir "ao vivo", inaugurando a era do processamento em tempo real e desenhando a primeira interface gráfica interativa em uma tela de televisão. É o ano do Computador de Padaria LEO I, da entrega do UNIVAC I ao Censo e do Computador Whirlwind.',
+      en: 'In 1951, information technology stops being an exclusive instrument of war and science and officially becomes the engine of corporate logistics and profit. In England, the board of a giant chain of tea shops and bakeries gets tired of doing inventory math by hand, hires engineers and builds the world’s first computer focused purely on business. In the United States, the first mass-market commercial machine is finally delivered to the American government, retiring old punched cardboard cards in favor of the brutal speed of magnetic tape. And at MIT, engineers build the first computer capable of reacting "live", inaugurating the era of real-time processing and drawing the first interactive graphical interface on a television screen. It is the year of the LEO I Bakery Computer, the delivery of UNIVAC I to the Census and the Whirlwind Computer.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'J. Lyons and Co. (liderado por John Simmons e Oliver Standingford)',
+        imagePlaceholder: YEAR_1951_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'Não eram físicos nucleares nem militares; eram executivos seniores de uma das maiores e mais famosas redes de casas de chá (teashops) e padarias de Londres. Eles precisavam controlar o fluxo logístico caótico de milhões de bolos, pães e salários diários.',
+          en: 'They were not nuclear physicists or soldiers; they were senior executives of one of London’s largest and most famous chains of tea shops and bakeries. They needed to control the chaotic logistics flow of millions of cakes, breads and daily wages.',
+        },
+        summary: {
+          pt: 'Eles financiaram e construíram o LEO I (Lyons Electronic Office I). Baseado na arquitetura do EDSAC (de 1949), o LEO I entrou em operação em setembro de 1951, tornando-se o primeiro computador comercial focado em negócios da história. Seu primeiro "job" não foi calcular mísseis, mas sim calcular a "Avaliação Diária das Padarias", automatizando o inventário da empresa.',
+          en: 'They funded and built LEO I (Lyons Electronic Office I). Based on the EDSAC architecture (from 1949), LEO I entered operation in September 1951, becoming the first commercial computer focused on business in history. Its first "job" was not calculating missiles, but calculating the "Daily Bakery Valuation", automating the company inventory.',
+        },
+        role: {
+          pt: 'Criadores do primeiro computador corporativo de negócios',
+          en: 'Creators of the first business computer',
+        },
+        contribution: {
+          pt: 'Em 1951, a TI inventou a Gestão Corporativa Automatizada. O hardware parou de calcular balística e começou a calcular o lucro e a logística.',
+          en: 'In 1951, IT invented Automated Corporate Management. Hardware stopped calculating ballistics and started calculating profit and logistics.',
+        },
+        detail: {
+          pt: 'As outras máquinas da época resolviam problemas complexos de matemática que exigiam poucos dados de entrada. Um negócio comercial é o oposto: envolve matemática muito simples (somas e subtrações), mas com volumes monstruosos de dados (milhares de recibos de vendas diárias e pontos de funcionários). A rede Lyons percebeu que precisava de uma máquina projetada para I/O (Input/Output) massivo para otimizar o tempo e o custo de suas operações, criando a base do que hoje chamamos de back-office automatizado.\n\nPor que isso entra no Hall da Fama da TI?\n\nO LEO I é o marco zero do setor B2B corporativo e do software ERP (Enterprise Resource Planning). Antes do LEO, corporações achavam que computadores eram "coisa de universidade". A J. Lyons provou que usar um servidor de dados contínuo era a única forma de escalar empresas gigantes sem colapsar sob a própria burocracia. Esse computador abriu a porta para que gigantes do varejo moderno (como a Amazon ou os supermercados locais) pudessem gerenciar cadeias de suprimentos globais de forma viável.',
+          en: 'Other machines of the time solved complex mathematical problems requiring little input data. A commercial business is the opposite: it involves very simple math (additions and subtractions), but with monstrous volumes of data (thousands of daily sales receipts and employee time records). The Lyons chain realized it needed a machine designed for massive I/O (Input/Output) to optimize the time and cost of operations, creating the basis of what we now call automated back office.\n\nWhy does this belong in the IT Hall of Fame?\n\nLEO I is the zero mark of the corporate B2B sector and ERP (Enterprise Resource Planning) software. Before LEO, corporations thought computers were "university things". J. Lyons proved that using a continuous data server was the only way to scale gigantic companies without collapsing under their own bureaucracy. This computer opened the door for modern retail giants (such as Amazon or local supermarkets) to manage global supply chains viably.',
+        },
+      },
+      {
+        name: 'Eckert, Mauchly (pela Remington Rand) e o US Census Bureau',
+        imagePlaceholder: YEAR_1951_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A startup nascida em 1946 finalmente terminou o seu produto de prateleira, sob o teto da empresa Remington Rand (que os comprou), e entregou a máquina ao Departamento do Censo dos EUA, que estava afogado em dados demográficos.',
+          en: 'The startup born in 1946 finally finished its shelf product under the roof of Remington Rand (which bought them) and delivered the machine to the U.S. Census Bureau, which was drowning in demographic data.',
+        },
+        summary: {
+          pt: 'No dia 31 de março de 1951, ocorreu a aceitação e entrega do primeiro UNIVAC I (Universal Automatic Computer I). Além de ser o primeiro computador comercial americano fabricado em série, ele foi a primeira máquina a introduzir comercialmente os UNISERVOs, unidades leitoras de Fita Magnética metálica ultra-rápidas para armazenar dados.',
+          en: 'On March 31, 1951, the first UNIVAC I (Universal Automatic Computer I) was accepted and delivered. Besides being the first American commercial computer manufactured in series, it was the first machine to commercially introduce UNISERVOs, ultra-fast metallic Magnetic Tape reader units for storing data.',
+        },
+        role: {
+          pt: 'Responsáveis pela entrega do UNIVAC I',
+          en: 'Responsible for the delivery of UNIVAC I',
+        },
+        contribution: {
+          pt: 'Em 1951, a TI inventou o Data Center comercial de altíssimo throughput, aposentando os cartões perfurados de papel que dominavam a indústria desde o século XIX.',
+          en: 'In 1951, IT invented the ultra-high-throughput commercial Data Center, retiring the punched paper cards that had dominated the industry since the 19th century.',
+        },
+        detail: {
+          pt: 'O gargalo de ler milhões de habitantes pelo cartão de papelão era a mecânica pesada. O UNIVAC I migrou os dados para rolos de fitas magnéticas (feitas de bronze revestido de níquel). Essa máquina podia ler inacreditáveis 7.200 caracteres por segundo direto da fita, mastigando o censo americano a uma velocidade que nenhum burocrata conseguiria acompanhar, e gravando os resultados em fita novamente para serem impressos depois (arquitetura offline printing).\n\nPor que isso entra no Hall da Fama da TI?\n\nA entrega deste primeiro UNIVAC I (a mesma máquina que brilharia na TV no ano seguinte, em 1952) ditou o padrão de armazenamento sequencial moderno. O uso de fitas magnéticas para backup e armazenamento massivo (Cold Storage) reduziu salas e mais salas cheias de armários de papel para algumas bobinas empilhadas. A indústria bilionária de servidores comerciais e armazenamento em fita que sustenta bancos e data centers da AWS hoje nasceu dessa exata entrega em Washington em 1951.',
+          en: 'The bottleneck of reading millions of citizens through cardboard cards was heavy mechanics. UNIVAC I migrated data to magnetic tape reels (made of nickel-plated bronze). This machine could read an unbelievable 7,200 characters per second directly from tape, chewing through the American census at a speed no bureaucrat could match, and recording the results back to tape to be printed later (offline printing architecture).\n\nWhy does this belong in the IT Hall of Fame?\n\nThe delivery of this first UNIVAC I (the same machine that would shine on TV the following year, in 1952) dictated the pattern of modern sequential storage. The use of magnetic tapes for backup and mass storage (Cold Storage) reduced room after room full of paper cabinets to a few stacked reels. The billion-dollar industry of commercial servers and tape storage that supports banks and AWS data centers today was born from this exact delivery in Washington in 1951.',
+        },
+      },
+      {
+        name: 'Jay Forrester e a equipe do Projeto Whirlwind (MIT)',
+        imagePlaceholder: YEAR_1951_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'O MIT havia recebido fundos da Marinha americana ainda nos anos 40 para criar um simulador de voo para pilotos bombardeiros. O problema é que o computador precisava reagir instantaneamente quando o piloto puxasse o manche; ele não podia calcular e entregar a resposta "duas horas depois".',
+          en: 'MIT had received U.S. Navy funds back in the 1940s to create a flight simulator for bomber pilots. The problem was that the computer needed to react instantly when the pilot pulled the stick; it could not calculate and deliver the answer "two hours later".',
+        },
+        summary: {
+          pt: 'O Whirlwind I alcançou a operacionalidade plena em 1951. Foi o primeiro computador a processar operações em Tempo Real (Real-Time Processing). Mais impressionante: foi a primeira máquina a usar monitores CRT (tubos de imagem de televisão) não apenas como banco de memória, mas como Telas de Exibição (Output Visual) interativas, mostrando dados geográficos vivos em vez de cuspir fitas de papel numéricas.',
+          en: 'Whirlwind I reached full operational status in 1951. It was the first computer to process operations in Real Time (Real-Time Processing). More impressively, it was the first machine to use CRT monitors (television picture tubes) not only as memory banks, but as interactive Display Screens (Visual Output), showing live geographic data instead of spitting out numerical paper tapes.',
+        },
+        role: {
+          pt: 'Pioneiros da computação em tempo real',
+          en: 'Pioneers of real-time computing',
+        },
+        contribution: {
+          pt: 'Em 1951, a TI quebrou a latência visual: a máquina deixou de operar em "lotes cegos" (Batch processing) e passou a desenhar respostas instantâneas na tela de vidro.',
+          en: 'In 1951, IT broke visual latency: the machine stopped operating in "blind batches" (Batch processing) and began drawing instant responses on the glass screen.',
+        },
+        detail: {
+          pt: 'Forrester (o gênio que já havia inventado a memória de núcleo em 1949 para este mesmo projeto) criou uma máquina monstruosa paralela de 16 bits capaz de rodar rotinas a 20.000 operações por segundo. Como o computador processava na mesma velocidade que os eventos aconteciam na vida real, ele podia desenhar os blips de aviões não aliados numa tela de radar, ao vivo. O operador sentava na frente do computador, olhava para a tela luminosa de fósforo verde e interagia com a máquina instantaneamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Whirlwind I é a semente evolutiva de toda a computação interativa moderna. Sem ele, a TI continuaria sendo um processo matemático morto de "insere pergunta, vai tomar um café, pega a resposta no papel". Ao processar dados ao vivo e renderizá-los em uma tela luminosa, Forrester e sua equipe inventaram o conceito da Interface Gráfica, a fundação técnica que tornou possível a existência do sistema de defesa aérea SAGE, do primeiro videogame (Spacewar!, na década seguinte), e da própria interface de monitor visual que eu e você estamos usando para conversar neste exato segundo.',
+          en: 'Forrester (the genius who had already invented core memory in 1949 for this same project) created a monstrous parallel 16-bit machine capable of running routines at 20,000 operations per second. Because the computer processed at the same speed as events happened in real life, it could draw the blips of non-allied aircraft on a radar screen, live. The operator sat in front of the computer, looked at the glowing green phosphor screen and interacted with the machine instantly.\n\nWhy does this belong in the IT Hall of Fame?\n\nWhirlwind I is the evolutionary seed of all modern interactive computing. Without it, IT would have remained a dead mathematical process of "insert question, go get coffee, pick up the answer on paper". By processing live data and rendering it on a glowing screen, Forrester and his team invented the concept of the Graphical Interface, the technical foundation that made possible the SAGE air-defense system, the first video game (Spacewar!, in the following decade), and the very visual monitor interface that you and I are using to converse at this exact second.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1952,
+    era: {
+      pt: 'O Primeiro Compilador, a Compressão Perfeita e a IA Prevendo o Futuro ao Vivo',
+      en: 'The First Compiler, Perfect Compression and AI Predicting the Future Live',
+    },
+    context: {
+      pt: 'Em 1952, a tecnologia da informação ganha independência da linguagem de máquina brutal, comprime os dados do universo em seu formato mais eficiente e assombra a humanidade na televisão. Na Pensilvânia, a matemática que havia batizado o primeiro "bug" escreve um programa que ensina o computador a traduzir o idioma humano para zeros e uns, inventando o "Compilador" e inaugurando a engenharia de software moderna. No MIT, um estudante tentando fugir de uma prova final inventa uma árvore binária que espreme arquivos de forma tão perfeita que bateu seu próprio professor e Claude Shannon, criando o algoritmo que hoje comprime todas as suas fotos e músicas. E nos estúdios da CBS em Nova York, os executivos entram em pânico quando uma máquina de 13 toneladas prevê o resultado exato das eleições presidenciais com menos de 5% dos votos apurados, realizando a primeira demonstração pública de Big Data da história. É o ano do Sistema A-0, do Código de Huffman e da Eleição do UNIVAC.',
+      en: 'In 1952, information technology gains independence from brutal machine language, compresses the data of the universe into its most efficient format and haunts humanity on television. In Pennsylvania, the mathematician who had named the first "bug" writes a program that teaches the computer to translate human language into zeros and ones, inventing the "Compiler" and inaugurating modern software engineering. At MIT, a student trying to avoid a final exam invents a binary tree that squeezes files so perfectly that it beat his own professor and Claude Shannon, creating the algorithm that compresses all your photos and music today. And in CBS studios in New York, executives panic when a 13-ton machine predicts the exact result of the presidential elections with less than 5% of the votes counted, performing the first public Big Data demonstration in history. It is the year of the A-0 System, Huffman Code and the UNIVAC Election.',
+    },
+    peopleCount: 3,
     people: [
       {
         name: 'Grace Hopper',
-        image: '/hall/1951/grace-hopper',
+        imagePlaceholder: YEAR_1952_PLACEHOLDER,
         flag: '🇺🇸',
         nationality: { pt: 'Americana', en: 'American' },
         formation: {
-          pt: 'Matemática e Física, Vassar College · Doutorado em Matemática, Yale',
-          en: 'Mathematics and Physics, Vassar College · PhD in Mathematics, Yale',
+          pt: 'A lenda viva da Marinha dos EUA e veterana do Harvard Mark I. Agora operando no setor corporativo (trabalhando para a empresa de Eckert e Mauchly no UNIVAC), ela estava farta de ver os programadores cometerem os mesmos erros de digitação ao copiar códigos matemáticos complexos.',
+          en: 'The living legend of the U.S. Navy and veteran of the Harvard Mark I. Now operating in the corporate sector (working for Eckert and Mauchly’s company on UNIVAC), she was tired of seeing programmers make the same typing errors when copying complex mathematical codes.',
         },
-        summary: { pt: 'Criou o primeiro compilador da história', en: 'Created the first compiler in history' },
-        role: { pt: 'Cientista da computação e almirante da Marinha dos EUA', en: 'Computer scientist and US Navy Rear Admiral' },
+        summary: {
+          pt: 'Inventou e desenvolveu o Sistema A-0 (Arithmetic Language version 0). Foi o primeiro Compilador da história da computação. O A-0 não era um programa de cálculo; era um programa projetado especificamente para "montar" outros programas.',
+          en: 'Invented and developed the A-0 System (Arithmetic Language version 0). It was the first Compiler in the history of computing. A-0 was not a calculation program; it was a program designed specifically to "assemble" other programs.',
+        },
+        role: {
+          pt: 'Criadora do primeiro compilador',
+          en: 'Creator of the first compiler',
+        },
         contribution: {
-          pt: 'Criou o primeiro compilador da história (A-0), provando que era possível escrever programas em linguagem próxima ao inglês em vez de código binário.',
-          en: 'Created the first compiler in history (A-0), proving it was possible to write programs in language closer to English instead of binary code.',
+          pt: 'Em 1952, o Software aprendeu a se auto-escrever. A TI abstraiu o código de máquina, permitindo que sub-rotinas inteiras fossem "puxadas" por uma única palavra.',
+          en: 'In 1952, Software learned to write itself. IT abstracted machine code, allowing entire subroutines to be "pulled" by a single word.',
         },
         detail: {
-          pt: 'Hopper acreditava que qualquer pessoa deveria poder programar, não apenas especialistas em matemática. O A-0 traduzia instruções simbólicas em código de máquina — uma ideia que seus superiores inicialmente rejeitaram, dizendo que "computadores não podem entender inglês". Ela também popularizou o termo "bug" após encontrar uma mariposa real presa nos relés do Harvard Mark II. Mais tarde, liderou o desenvolvimento do COBOL, a linguagem que ainda roda bilhões de dólares em transações bancárias hoje.',
-          en: 'Hopper believed anyone should be able to program, not just math specialists. The A-0 translated symbolic instructions into machine code — an idea her superiors initially rejected, saying "computers cannot understand English." She also popularized the term "bug" after finding an actual moth stuck in the relays of the Harvard Mark II. She later led the development of COBOL, the language that still runs billions of dollars in banking transactions today.',
+          pt: 'Antes do A-0, se você quisesse calcular o seno de um ângulo, você tinha que escrever o código binário dessa matemática do zero todas as vezes. Hopper teve a epifania de gravar esses "pedaços" de código úteis em uma fita magnética e dar um número de chamada a eles. O programador agora apenas digitava a instrução (o "código-fonte"), e o A-0 procurava na fita, pegava as sub-rotinas corretas e as "compilava" (costurava juntas) num programa executável perfeito e sem erros humanos de digitação.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem o compilador, a programação seria eternamente um trabalho braçal insano, reservado a matemáticos que pensam em binário. A genialidade de Hopper em 1952 provou que o computador poderia ser usado para traduzir a linguagem humana para a sua própria linguagem nativa de 0 e 1. Esta é a pedra fundamental que deu origem a linguagens como FORTRAN, COBOL e C. Todo código atual — de queries SQL a grandes scripts Python — depende da arquitetura conceitual de compilação/interpretação inventada por Grace Hopper neste ano.',
+          en: 'Before A-0, if you wanted to calculate the sine of an angle, you had to write the binary code for that mathematics from scratch every time. Hopper had the epiphany of recording these useful "pieces" of code on magnetic tape and giving them call numbers. The programmer now simply typed the instruction (the "source code"), and A-0 searched the tape, took the correct subroutines and "compiled" them (stitched them together) into a perfect executable program without human typing errors.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout the compiler, programming would forever be insane manual labor reserved for mathematicians who think in binary. Hopper’s genius in 1952 proved that the computer could be used to translate human language into its own native language of 0 and 1. This is the cornerstone that gave rise to languages such as FORTRAN, COBOL and C. All current code, from SQL queries to large Python scripts, depends on the conceptual architecture of compilation/interpretation invented by Grace Hopper in this year.',
+        },
+      },
+      {
+        name: 'David A. Huffman',
+        imagePlaceholder: YEAR_1952_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Estudante de doutorado no MIT. Ele estava fazendo uma disciplina de Teoria da Informação com o renomado professor Robert Fano. Fano deu aos alunos uma escolha: fazer a prova final ou escrever um artigo resolvendo o problema de "encontrar o código binário mais eficiente do mundo" (algo que nem Fano, nem Claude Shannon haviam conseguido otimizar 100%).',
+          en: 'Doctoral student at MIT. He was taking an Information Theory course with the renowned professor Robert Fano. Fano gave students a choice: take the final exam or write a paper solving the problem of "finding the most efficient binary code in the world" (something neither Fano nor Claude Shannon had optimized 100%).',
+        },
+        summary: {
+          pt: 'Huffman desistiu de estudar para a prova na noite anterior e, em um momento de pura clareza matemática, desenhou uma árvore binária que organizava os dados baseada na frequência de repetição. Ele publicou o método Codificação de Huffman (Huffman Coding), resolvendo o problema de forma perfeita e sem perdas (lossless).',
+          en: 'Huffman gave up studying for the exam the night before and, in a moment of pure mathematical clarity, drew a binary tree that organized data based on repetition frequency. He published the Huffman Coding method, solving the problem perfectly and losslessly.',
+        },
+        role: {
+          pt: 'Criador da codificação de Huffman',
+          en: 'Creator of Huffman coding',
+        },
+        contribution: {
+          pt: 'Em 1952, um estudante universitário inventou o Algoritmo de Compressão Absoluto, provando que letras menos usadas deveriam gastar mais bits, e letras mais usadas, menos bits.',
+          en: 'In 1952, a university student invented the Absolute Compression Algorithm, proving that less-used letters should spend more bits, and more-used letters fewer bits.',
+        },
+        detail: {
+          pt: 'A lógica da época (o código ASCII e o Baudot) usava um tamanho fixo para tudo: a letra "A" usava 8 bits e a letra "Z" usava 8 bits. Huffman percebeu o desperdício: como o "A" é muito mais comum, ele deve usar um código minúsculo (ex: "0"), e o "Z", que é raro, usa um código mais longo (ex: "1101"). Ao ler o texto inteiro e montar uma "árvore de probabilidade" de baixo para cima (agrupando as letras menos frequentes primeiro), ele criou o método matemático que consome a menor quantidade de espaço em disco fisicamente possível. Ele superou o seu próprio professor e passou direto na matéria.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Código de Huffman é a espinha dorsal de todo o armazenamento digital moderno de mídia. Se você compactar um arquivo em .ZIP, a máquina está rodando a árvore de Huffman. Quando você abre uma imagem .JPEG, escuta uma música .MP3 ou assiste a um vídeo de alta definição, a camada final de compressão que impede que o arquivo tenha tamanhos absurdos em Gigabytes é o algoritmo exato inventado por esse estudante tentando evitar um exame final no MIT em 1952.',
+          en: 'The logic of the time (ASCII and Baudot code) used a fixed size for everything: the letter "A" used 8 bits and the letter "Z" used 8 bits. Huffman saw the waste: because "A" is much more common, it should use a tiny code (for example, "0"), and "Z", which is rare, should use a longer code (for example, "1101"). By reading the entire text and building a "probability tree" from the bottom up (grouping the least frequent letters first), he created the mathematical method that consumes the smallest amount of disk space physically possible. He surpassed his own professor and passed the course outright.\n\nWhy does this belong in the IT Hall of Fame?\n\nHuffman Code is the backbone of all modern digital media storage. If you compress a file into .ZIP, the machine is running the Huffman tree. When you open a .JPEG image, listen to an .MP3 song or watch high-definition video, the final compression layer preventing the file from having absurd gigabyte sizes is the exact algorithm invented by this student trying to avoid a final exam at MIT in 1952.',
+        },
+      },
+      {
+        name: 'UNIVAC I (Operado por J. Presper Eckert e John Mauchly) e a Rede CBS',
+        imagePlaceholder: YEAR_1952_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A Eckert-Mauchly Computer Corporation havia sido comprada pela Remington Rand. Eles tinham o computador mais avançado do mercado comercial corporativo (o UNIVAC I) e queriam uma manobra de marketing para convencer os americanos de que a máquina não era apenas uma supercalculadora, mas uma máquina de pensar.',
+          en: 'Eckert-Mauchly Computer Corporation had been bought by Remington Rand. They had the most advanced computer in the corporate commercial market (UNIVAC I) and wanted a marketing maneuver to convince Americans that the machine was not just a supercalculator, but a thinking machine.',
+        },
+        summary: {
+          pt: 'No dia 4 de novembro de 1952, a rede de televisão CBS usou o computador UNIVAC I na TV ao vivo para tentar prever o vencedor das eleições presidenciais entre Dwight D. Eisenhower e Adlai Stevenson. Com apenas 5% dos votos apurados (cerca de 3 milhões de votos), o UNIVAC analisou padrões de votação passados e imprimiu uma previsão insana: vitória esmagadora de Eisenhower (100 para 1 de chance).',
+          en: 'On November 4, 1952, the CBS television network used the UNIVAC I computer live on TV to try to predict the winner of the presidential election between Dwight D. Eisenhower and Adlai Stevenson. With only 5% of the votes counted (about 3 million votes), UNIVAC analyzed past voting patterns and printed an insane prediction: a landslide Eisenhower victory (100 to 1 odds).',
+        },
+        role: {
+          pt: 'Primeira demonstração pública de análise preditiva computacional',
+          en: 'First public demonstration of computational predictive analysis',
+        },
+        contribution: {
+          pt: 'Em 1952, a Análise Preditiva de Dados provou seu poder absoluto. O Machine Learning embrionário desafiou os humanos e estava certo.',
+          en: 'In 1952, Predictive Data Analysis proved its absolute power. Embryonic Machine Learning challenged humans and was right.',
+        },
+        detail: {
+          pt: 'Todos os especialistas políticos humanos e pesquisas de opinião diziam que a corrida seria acirradíssima. Quando o UNIVAC previu a lavada eleitoral de Eisenhower tão cedo, os executivos da CBS e os próprios engenheiros entraram em pânico, achando que o algoritmo havia "bugado". Eles esconderam o resultado real da máquina e obrigaram o computador a refazer as contas manipulando parâmetros para dar um resultado mais apertado para ser mostrado na TV. Quando a contagem oficial da madrugada confirmou a previsão inicial bizarra do UNIVAC com uma margem de erro de menos de 1%, o âncora da CBS teve que ir ao ar e confessar que a máquina esteve certa desde o primeiro minuto e que os humanos duvidaram dela.\n\nPor que isso entra no Hall da Fama da TI?\n\nFoi este evento transmitido na televisão que introduziu a palavra "Computador" ao vocabulário do público em geral. A máquina de fita magnética tornou-se uma celebridade do dia para a noite. Do ponto de vista técnico, foi o primeiro Use Case público e validado de análise de dados massivos e Estatística Preditiva de longo alcance. Ele provou comercialmente que um computador munido do algoritmo correto poderia inferir a verdade oculta em uma montanha de dados, enxergando tendências que os preconceitos humanos se recusavam a aceitar.',
+          en: 'All human political experts and opinion polls said the race would be extremely tight. When UNIVAC predicted Eisenhower’s landslide so early, CBS executives and the engineers themselves panicked, thinking the algorithm had "bugged". They hid the machine’s real result and forced the computer to recalculate by manipulating parameters to give a tighter result for TV. When the official count at dawn confirmed UNIVAC’s bizarre initial prediction with an error margin of less than 1%, the CBS anchor had to go on air and confess that the machine had been right from the first minute and humans had doubted it.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis televised event introduced the word "Computer" into the general public’s vocabulary. The magnetic-tape machine became a celebrity overnight. Technically, it was the first public and validated use case of massive data analysis and long-range Predictive Statistics. It commercially proved that a computer equipped with the correct algorithm could infer hidden truth in a mountain of data, seeing trends that human biases refused to accept.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1953,
+    era: {
+      pt: 'O Despertar da "Big Blue", o Fim Prático das Válvulas e o Código Universal',
+      en: 'The Awakening of "Big Blue", the Practical End of Tubes and Universal Code',
+    },
+    context: {
+      pt: 'Em 1953, a tecnologia da informação assiste ao despertar do gigante corporativo que dominaria o mundo nas décadas seguintes, vê a primeira máquina física abandonar completamente as lâmpadas de vidro ferventes em favor do cristal frio e dá mais um passo vital para afastar o cérebro humano da linguagem binária. Em Nova York, o herdeiro de um império de calculadoras mecânicas contraria o próprio pai e lança o primeiro supercomputador eletrônico da empresa, iniciando a guerra brutal contra a UNIVAC e o monopólio da IBM. Na Inglaterra, a mesma universidade que rodou o primeiro software na memória monta uma máquina exótica usando as pequenas "pedras" inventadas no Bell Labs seis anos antes, construindo o primeiro computador totalmente transistorizado da história. E de volta à IBM, um programador exausto inventa uma linguagem que roda como uma "máquina virtual" dentro do computador, permitindo cálculos complexos com apenas uma linha de código. É o ano do IBM 701, do Computador Transistorizado de Manchester e do Speedcoding de Backus.',
+      en: 'In 1953, information technology witnesses the awakening of the corporate giant that would dominate the world in the following decades, sees the first physical machine completely abandon boiling glass lamps in favor of cold crystal and takes another vital step away from the human brain having to speak binary. In New York, the heir to a mechanical-calculator empire defies his own father and launches the company’s first electronic supercomputer, beginning the brutal war against UNIVAC and IBM’s monopoly. In England, the same university that ran the first software in memory assembles an exotic machine using the small "stones" invented at Bell Labs six years earlier, building the first fully transistorized computer in history. And back at IBM, an exhausted programmer invents a language that runs like a "virtual machine" inside the computer, allowing complex calculations with a single line of code. It is the year of the IBM 701, the Manchester Transistor Computer and Backus’s Speedcoding.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Thomas J. Watson Jr. e a IBM',
+        imagePlaceholder: YEAR_1953_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Watson Jr. era o vice-presidente implacável da IBM, batendo de frente com o seu pai conservador (Thomas J. Watson Sr.), que acreditava que cartões perfurados e engrenagens mecânicas ainda eram o futuro da empresa. Watson Jr. viu o UNIVAC (da concorrente Remington Rand) roubar a atenção do mundo na TV em 1952 e decidiu que a IBM precisava esmagá-los na era eletrônica.',
+          en: 'Watson Jr. was IBM’s relentless vice president, clashing with his conservative father (Thomas J. Watson Sr.), who believed punched cards and mechanical gears were still the company’s future. Watson Jr. saw UNIVAC (from rival Remington Rand) steal the world’s attention on TV in 1952 and decided IBM needed to crush them in the electronic era.',
+        },
+        summary: {
+          pt: 'Lançou comercialmente e entregou em abril de 1953 o IBM 701 (inicialmente chamado de Defense Calculator). Foi o primeiro computador científico comercial e eletrônico de grande escala da história da IBM, operando com válvulas de vácuo e fita magnética, projetado para atrair clientes do governo e corporações de pesquisa.',
+          en: 'Commercially launched and delivered in April 1953 the IBM 701 (initially called the Defense Calculator). It was the first large-scale commercial and electronic scientific computer in IBM history, operating with vacuum tubes and magnetic tape, designed to attract government clients and research corporations.',
+        },
+        role: {
+          pt: 'Líderes do lançamento do IBM 701',
+          en: 'Leaders of the IBM 701 launch',
+        },
+        contribution: {
+          pt: 'Em 1953, a TI assistiu ao nascimento do Monopólio Eletrônico: a IBM abandonou as engrenagens e entrou no mercado de Mainframes, iniciando seu reinado absoluto.',
+          en: 'In 1953, IT witnessed the birth of the Electronic Monopoly: IBM abandoned gears and entered the Mainframe market, beginning its absolute reign.',
+        },
+        detail: {
+          pt: 'O IBM 701 não era necessariamente muito melhor ou mais inovador arquitetonicamente que o UNIVAC, mas ele tinha o peso da máquina de vendas e de suporte ao cliente da IBM por trás dele. Ele podia realizar impressionantes 2.200 multiplicações por segundo. O detalhe matador foi o modelo de negócios: em vez de vender a máquina por milhões de dólares (o que assustava as empresas), a IBM alugava o 701 por cerca de 15 mil dólares ao mês. Se a máquina quebrasse, os técnicos de terno e gravata da IBM consertavam de graça.\n\nPor que isso entra no Hall da Fama da TI?\n\nO lançamento do IBM 701 marcou o momento exato em que a balança de poder do mundo digital mudou. A entrada da IBM ("Big Blue") na computação eletrônica definiu a cultura de TI corporativa pelas próximas três décadas (estabelecendo a famosa frase da época: "Ninguém nunca foi demitido por comprar equipamento IBM"). A máquina alavancou o faturamento da empresa para as nuvens e pavimentou o caminho para a arquitetura unificada de mainframes que a empresa consolidaria nos anos 60.',
+          en: 'The IBM 701 was not necessarily much better or more architecturally innovative than UNIVAC, but it had the weight of IBM’s sales and customer-support machine behind it. It could perform an impressive 2,200 multiplications per second. The killer detail was the business model: instead of selling the machine for millions of dollars (which scared companies), IBM rented the 701 for about 15 thousand dollars per month. If the machine broke, IBM technicians in suits fixed it for free.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe launch of the IBM 701 marked the exact moment when the balance of power in the digital world changed. IBM’s entry ("Big Blue") into electronic computing defined corporate IT culture for the next three decades (establishing the famous phrase of the time: "Nobody ever got fired for buying IBM equipment"). The machine lifted the company’s revenue into the clouds and paved the way for the unified mainframe architecture the company would consolidate in the 1960s.',
+        },
+      },
+      {
+        name: 'Richard Grimsdale e Douglas Webb (sob supervisão de Tom Kilburn)',
+        imagePlaceholder: YEAR_1953_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'A lendária equipe de engenharia elétrica da Universidade de Manchester. Eles já haviam montado o primeiro computador com programa na memória em 1948 (o "Baby"). Agora, eles olhavam para as válvulas quentes e frágeis do seu laboratório com profundo desprezo.',
+          en: 'The legendary electrical engineering team at the University of Manchester. They had already assembled the first stored-program computer in 1948 (the "Baby"). Now they looked at the hot and fragile tubes in their laboratory with deep contempt.',
+        },
+        summary: {
+          pt: 'Ligaram e colocaram em operação em novembro de 1953 o Computador Transistorizado de Manchester (Manchester Transistor Computer). Foi a primeira máquina computacional digital do mundo a não utilizar sequer uma válvula de vácuo para sua lógica primária. Em vez disso, usou 92 transistores de contato de ponto (aqueles inventados em 1947).',
+          en: 'Turned on and put into operation in November 1953 the Manchester Transistor Computer. It was the world’s first digital computing machine to use no vacuum tube at all for its primary logic. Instead, it used 92 point-contact transistors (the kind invented in 1947).',
+        },
+        role: {
+          pt: 'Construtores do primeiro computador transistorizado',
+          en: 'Builders of the first transistorized computer',
+        },
+        contribution: {
+          pt: 'Em 1953, o Hardware deu o maior salto físico de sua história: o computador eletrônico passou oficialmente da época do "Vidro e Calor" para o "Estado Sólido Silencioso".',
+          en: 'In 1953, Hardware made the greatest physical leap in its history: the electronic computer officially moved from the age of "Glass and Heat" to "Silent Solid State".',
+        },
+        detail: {
+          pt: 'Construir circuitos de diodos já havia sido feito (como no SEAC em 1950), mas diodos não podiam amplificar sinais matemáticos fortes; as válvulas ainda eram necessárias para empurrar a energia pesada. Grimsdale e Webb construíram uma arquitetura onde o Transistor fez todo o trabalho pesado. A máquina experimental consumia apenas uma fração mínima da eletricidade dos monstros da década de 40 e gerava quase nenhum calor. Embora os transistores iniciais fossem instáveis, a máquina processou códigos reais perfeitamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste foi o protótipo que sepultou as válvulas. O Computador Transistorizado de Manchester provou que a Teoria de Estado Sólido de 1947 era perfeitamente viável para a escala de um Mainframe inteiro. Esta mesma equipe evoluiu o design no ano seguinte para criar o projeto comercial "Metrovick 950". Todo computador moderno, servidor, laptop ou sistema embarcado opera estritamente sob o paradigma de estado sólido total validado nestes testes britânicos do outono de 1953.',
+          en: 'Building diode circuits had already been done (as in SEAC in 1950), but diodes could not amplify strong mathematical signals; tubes were still needed to push heavy energy. Grimsdale and Webb built an architecture where the Transistor did all the heavy work. The experimental machine consumed only a tiny fraction of the electricity of the monsters of the 1940s and generated almost no heat. Although early transistors were unstable, the machine processed real code perfectly.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis was the prototype that buried tubes. The Manchester Transistor Computer proved that the Solid-State Theory of 1947 was perfectly viable at the scale of an entire Mainframe. This same team evolved the design the following year to create the commercial "Metrovick 950" project. Every modern computer, server, laptop or embedded system operates strictly under the fully solid-state paradigm validated in these British tests of autumn 1953.',
+        },
+      },
+      {
+        name: 'John Backus',
+        imagePlaceholder: YEAR_1953_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Matemático e programador da IBM. Ele tinha a dura tarefa de fazer os cientistas e clientes entenderem como programar o recém-lançado supercomputador IBM 701. O problema era que o 701 não calculava números em ponto flutuante (casas decimais complexas) nativamente em hardware. Fazer isso exigia escrever centenas de linhas de código binário massante.',
+          en: 'Mathematician and IBM programmer. He had the hard task of helping scientists and customers understand how to program the newly launched IBM 701 supercomputer. The problem was that the 701 did not calculate floating-point numbers (complex decimal fractions) natively in hardware. Doing so required writing hundreds of exhausting lines of binary code.',
+        },
+        summary: {
+          pt: 'No final de 1953, Backus desenvolveu e propôs o Speedcoding. Tratava-se de um sistema de interpretação (e uma linguagem) que forçava a máquina a se comportar como se fosse uma calculadora de ponto flutuante, automatizando drasticamente o processo de escrita.',
+          en: 'At the end of 1953, Backus developed and proposed Speedcoding. It was an interpretation system (and language) that forced the machine to behave as if it were a floating-point calculator, drastically automating the writing process.',
+        },
+        role: {
+          pt: 'Criador do Speedcoding',
+          en: 'Creator of Speedcoding',
+        },
+        contribution: {
+          pt: 'Em 1953, a TI deu os primeiros passos em direção à "Abstração de Alto Nível". Backus inventou um interpretador que reduziu programas de duas semanas para algumas horas.',
+          en: 'In 1953, IT took its first steps toward "High-Level Abstraction". Backus invented an interpreter that reduced programs from two weeks to a few hours.',
+        },
+        detail: {
+          pt: 'Grace Hopper já havia inventado o compilador (A-0) em 1952, mas o Speedcoding de Backus foi o primeiro projeto a popularizar a ideia de uma "Máquina Virtual" rodando dentro de um computador comercial. O Speedcoding ficava residente na memória e ouvia comandos simplificados do programador. Se o humano escrevesse um comando simples para multiplicar decimais, o Speedcoding acionava secretamente dezenas de operações de máquina por baixo dos panos sem que o usuário visse. O custo era que o programa ficava mais lento, mas o ganho em tempo humano (não precisar programar em binário) era brutal.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Speedcoding foi o campo de testes da IBM para revolucionar o desenvolvimento de software. O sucesso absurdo desse sistema interpretado deu a John Backus a moral necessária com a diretoria da IBM para, no ano seguinte (1954), pedir uma equipe e criar a linguagem de alto nível mais famosa e resiliente da história da engenharia: o FORTRAN. A semente da filosofia de "facilitar a vida do desenvolvedor em troca de ciclos de máquina" foi plantada no cérebro corporativo aqui em 1953.',
+          en: 'Grace Hopper had already invented the compiler (A-0) in 1952, but Backus’s Speedcoding was the first project to popularize the idea of a "Virtual Machine" running inside a commercial computer. Speedcoding stayed resident in memory and listened for simplified programmer commands. If the human wrote a simple command to multiply decimals, Speedcoding secretly triggered dozens of machine operations behind the scenes without the user seeing them. The cost was that the program became slower, but the gain in human time (not needing to program in binary) was brutal.\n\nWhy does this belong in the IT Hall of Fame?\n\nSpeedcoding was IBM’s test field for revolutionizing software development. The absurd success of this interpreted system gave John Backus the credibility he needed with IBM management to, the following year (1954), request a team and create the most famous and resilient high-level language in engineering history: FORTRAN. The seed of the philosophy of "making the developer’s life easier in exchange for machine cycles" was planted in the corporate brain here in 1953.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1954,
+    era: {
+      pt: 'O Nascimento do "Silício", a Primeira Linguagem de Alto Nível e o "Modelo T" dos Computadores',
+      en: 'The Birth of "Silicon", the First High-Level Language and the "Model T" of Computers',
+    },
+    context: {
+      pt: 'Em 1954, a TI resolve a falha fatal da nova era de estado sólido trocando o material-base do processador, cria o primeiro compilador matemático focado em engenheiros e transforma o computador em um eletrodoméstico corporativo produzido em massa. No Texas, um físico roubado do Bell Labs choca a indústria ao apresentar um transistor feito da areia da praia, que não derrete no calor, decretando a morte do germânio e fundando a base do hardware moderno. Em Nova York, o programador genial da IBM cumpre a promessa do ano anterior e publica a proposta da primeira linguagem de programação de "Alto Nível" amplamente adotada do mundo, permitindo que matemáticos programassem sem saber nada de arquitetura de CPU. E nas fábricas, a IBM entrega sua nova máquina de tambor magnético, que se tornaria o primeiro computador da história a ser produzido e vendido na casa dos milhares. É o ano do Transistor de Silício, do Whitepaper do FORTRAN e da entrega do IBM 650.',
+      en: 'In 1954, IT solves the fatal flaw of the new solid-state era by changing the processor’s base material, creates the first mathematical compiler aimed at engineers and turns the computer into a mass-produced corporate appliance. In Texas, a physicist recruited from Bell Labs shocks the industry by presenting a transistor made from beach sand that does not melt in heat, decreeing the death of germanium and founding the basis of modern hardware. In New York, IBM’s brilliant programmer fulfills the previous year’s promise and publishes the proposal for the first widely adopted "High-Level" programming language in the world, allowing mathematicians to program without knowing anything about CPU architecture. And in factories, IBM delivers its new magnetic-drum machine, which would become the first computer in history to be produced and sold in the thousands. It is the year of the Silicon Transistor, the FORTRAN Whitepaper and the delivery of the IBM 650.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Gordon Teal e a Texas Instruments (TI)',
+        imagePlaceholder: YEAR_1954_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Um físico químico brilhante. Ele trabalhou no Bell Labs na mesma época da invenção do transistor original (1947), mas foi contratado pela então pequena empresa Texas Instruments. Ele sabia o segredo que as corporações gigantes estavam ignorando: os transistores atuais usavam o elemento Germânio. O problema? Se a máquina esquentasse um pouquinho, o germânio parava de conduzir eletricidade direito e o computador travava.',
+          en: 'A brilliant chemical physicist. He worked at Bell Labs around the time of the original transistor invention (1947), but was hired by the then-small company Texas Instruments. He knew the secret giant corporations were ignoring: current transistors used the element Germanium. The problem? If the machine heated up even a little, germanium stopped conducting electricity properly and the computer crashed.',
+        },
+        summary: {
+          pt: 'No dia 10 de maio de 1954, em uma conferência caótica cheia de executivos afirmando que construir transistores de outro material seria impossível e caro demais, Gordon Teal subiu ao palco e anunciou que a Texas Instruments já estava fabricando e vendendo o Primeiro Transistor de Silício Comercial. Para provar, ele mergulhou um rádio tocando música no óleo fervente; o rádio com transistores de germânio desligou, o de silício continuou tocando perfeitamente.',
+          en: 'On May 10, 1954, at a chaotic conference full of executives claiming that building transistors from another material would be impossible and too expensive, Gordon Teal went on stage and announced that Texas Instruments was already manufacturing and selling the First Commercial Silicon Transistor. To prove it, he plunged a music-playing radio into boiling oil; the radio with germanium transistors shut off, while the silicon one kept playing perfectly.',
+        },
+        role: {
+          pt: 'Criador do transistor comercial de silício',
+          en: 'Creator of the commercial silicon transistor',
+        },
+        contribution: {
+          pt: 'Em 1954, a TI encontrou o seu "Adamantium". O Silício (um elemento abundante na areia) substituiu o Germânio, provando possuir uma resistência térmica e elétrica perfeita para escalar a computação.',
+          en: 'In 1954, IT found its "Adamantium". Silicon (an element abundant in sand) replaced Germanium, proving it had the thermal and electrical resistance needed to scale computing.',
+        },
+        detail: {
+          pt: 'A indústria de 1954 estava aterrorizada porque, para colocar milhares de transistores juntos em uma placa, o calor inevitável fritaria as peças de germânio. Teal dominou a técnica de "crescer" cristais puros de silício no laboratório. O silício tem um bandgap maior (precisa de mais energia para os elétrons pularem), o que significa que ele age como um isolante perfeito até que você aplique a carga exata, mesmo operando em altas temperaturas.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a façanha de Gordon Teal em 1954, o "Vale do Silício" (Silicon Valley) na Califórnia provavelmente se chamaria "Vale do Germânio" (e a tecnologia não teria escalado da mesma forma). O Transistor de Silício é, literalmente, a matéria da qual são feitos 99.9% dos microchips, processadores (como os da AMD, Intel e Apple) e memórias produzidos no mundo até hoje. Foi este anúncio no Texas que deu início à era contemporânea da engenharia de semicondutores à base de silício.',
+          en: 'The industry of 1954 was terrified because, to put thousands of transistors together on a board, the inevitable heat would fry germanium parts. Teal mastered the technique of "growing" pure silicon crystals in the laboratory. Silicon has a larger bandgap (it requires more energy for electrons to jump), which means it behaves as a perfect insulator until the exact charge is applied, even while operating at high temperatures.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout Gordon Teal’s feat in 1954, "Silicon Valley" in California would probably be called "Germanium Valley" (and technology would not have scaled the same way). The Silicon Transistor is literally the matter from which 99.9% of microchips, processors (such as AMD, Intel and Apple chips) and memories produced in the world are made today. This announcement in Texas began the contemporary era of silicon-based semiconductor engineering.',
+        },
+      },
+      {
+        name: 'John Backus e a equipe da IBM',
+        imagePlaceholder: YEAR_1954_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'O mesmo gênio rebelde da IBM que inventou o interpretador Speedcoding (em 1953). Como ele mesmo admitiu, ele era "muito preguiçoso" e odiava o trabalho torturante de escrever códigos em Assembly e debugar binários. Ele convenceu a diretoria da IBM a lhe dar uma equipe para criar um tradutor definitivo.',
+          en: 'The same rebellious IBM genius who invented the Speedcoding interpreter (in 1953). As he admitted himself, he was "very lazy" and hated the torturous work of writing Assembly code and debugging binaries. He convinced IBM management to give him a team to create a definitive translator.',
+        },
+        summary: {
+          pt: 'Em novembro de 1954, Backus e sua equipe publicaram o documento interno "Preliminary Report, Specifications for the IBM Mathematical FORmula TRANslating System, FORTRAN". Estava lançada a arquitetura conceitual e o design da linguagem FORTRAN, a primeira linguagem de programação de alto nível, estruturada e amplamente adotada do planeta.',
+          en: 'In November 1954, Backus and his team published the internal document "Preliminary Report, Specifications for the IBM Mathematical FORmula TRANslating System, FORTRAN". The conceptual architecture and design of FORTRAN, the first structured and widely adopted high-level programming language on the planet, had been launched.',
+        },
+        role: {
+          pt: 'Autor da especificação inicial do FORTRAN',
+          en: 'Author of the initial FORTRAN specification',
+        },
+        contribution: {
+          pt: 'Em 1954, a Engenharia de Software emancipou os programadores. A TI permitiu que o Developer escrevesse equações de álgebra em inglês puro e deixasse o computador fazer o trabalho de montagem sujo.',
+          en: 'In 1954, Software Engineering emancipated programmers. IT allowed the developer to write algebra equations in plain English and let the computer do the dirty assembly work.',
+        },
+        detail: {
+          pt: 'Linguagens anteriores (como o A-0 de Grace Hopper) ainda exigiam um nível brutal de conhecimento da máquina. O design do FORTRAN em 1954 quebrou o paradigma: a premissa de Backus era que o Compilador seria tão inteligente que o programador não precisaria saber absolutamente nada sobre registradores ou válvulas. Ele poderia simplesmente digitar `C = A + B` no teclado, e o compilador traduziria isso no código de máquina mais absurdamente otimizado e veloz possível.\n\nPor que isso entra no Hall da Fama da TI?\n\nO FORTRAN, cuja especificação nasceu em 1954 (e o compilador final foi entregue anos depois), explodiu o gargalo humano da TI. Matemáticos, físicos, engenheiros civis e analistas financeiros de repente puderam virar "programadores". A linguagem foi tão revolucionariamente bem desenhada para cálculos massivos que o FORTRAN sobrevive ativamente até os dias de hoje, rodando simulações meteorológicas colossais e cálculos físicos em supercomputadores do governo e na academia.',
+          en: 'Earlier languages (such as Grace Hopper’s A-0) still required a brutal level of machine knowledge. FORTRAN’s design in 1954 broke the paradigm: Backus’s premise was that the Compiler would be so intelligent that the programmer would not need to know anything at all about registers or tubes. The programmer could simply type `C = A + B` on the keyboard, and the compiler would translate it into the most absurdly optimized and fast machine code possible.\n\nWhy does this belong in the IT Hall of Fame?\n\nFORTRAN, whose specification was born in 1954 (and whose final compiler was delivered years later), blew up IT’s human bottleneck. Mathematicians, physicists, civil engineers and financial analysts could suddenly become "programmers". The language was so revolutionaryly well designed for massive calculations that FORTRAN actively survives to this day, running colossal weather simulations and physical calculations on government and academic supercomputers.',
+        },
+      },
+      {
+        name: 'IBM (Divisão de Produtos de Computação)',
+        imagePlaceholder: YEAR_1954_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A gigante "Big Blue" já havia lançado o seu titã caríssimo de ponta (o IBM 701) no ano anterior. Mas eles perceberam que a maioria das universidades e empresas médias não podia pagar por um supercomputador de alto nível. O mercado precisava de uma máquina acessível, confiável e barata.',
+          en: 'The "Big Blue" giant had already launched its very expensive high-end titan (the IBM 701) the previous year. But IBM realized most universities and mid-sized companies could not pay for a high-level supercomputer. The market needed an accessible, reliable and cheaper machine.',
+        },
+        summary: {
+          pt: 'A IBM entregou em dezembro de 1954 o primeiro IBM 650 Magnetic Drum Data-Processing Machine. Enquanto os outros computadores usavam a cara memória eletrônica (Tubos de Williams), o 650 usava um tambor de metal giratório magnetizado como sua memória principal (muito mais barato e lento, mas indestrutível).',
+          en: 'IBM delivered in December 1954 the first IBM 650 Magnetic Drum Data-Processing Machine. While other computers used expensive electronic memory (Williams Tubes), the 650 used a magnetized rotating metal drum as its main memory (much cheaper and slower, but indestructible).',
+        },
+        role: {
+          pt: 'Criadores do primeiro computador produzido em massa',
+          en: 'Creators of the first mass-produced computer',
+        },
+        contribution: {
+          pt: 'Em 1954, a TI inaugurou a Escala Comercial de Massa. O IBM 650 foi o primeiro sistema de computação do mundo a ultrapassar a marca de milhares de unidades fabricadas.',
+          en: 'In 1954, IT inaugurated Mass Commercial Scale. The IBM 650 was the first computing system in the world to pass the mark of thousands of units manufactured.',
+        },
+        detail: {
+          pt: 'Até 1954, quando uma empresa comprava um computador, era comum que os engenheiros fossem montá-lo peça por peça no porão do cliente. O IBM 650 foi desenhado para ser uma "linha de montagem". Era modular, mais compacto e, fundamentalmente, era totalmente compatível com a frota milenar de cartões perfurados que a IBM já vendia para burocracia desde os anos 20. As empresas podiam dar um upgrade dos seus métodos de papel para a computação eletrônica sem jogar seus dados velhos no lixo.\n\nPor que isso entra no Hall da Fama da TI?\n\nO IBM 650 é conhecido na história da tecnologia como o "Modelo T da Computação" (em alusão ao primeiro carro popular da Ford). A IBM esperava vender umas 50 unidades; eles acabaram fabricando e alugando quase 2.000 unidades durante a vida útil da máquina. Foi o IBM 650 que colocou um computador pela primeira vez dentro da maioria das universidades americanas, gerando a primeira safra massiva de jovens graduados no planeta que sabiam escrever códigos e interagir com mainframes, plantando a semente da força de trabalho de TI que dominaria as décadas seguintes.',
+          en: 'Until 1954, when a company bought a computer, engineers often assembled it piece by piece in the client’s basement. The IBM 650 was designed as an "assembly line" product. It was modular, more compact and, fundamentally, fully compatible with the ancient fleet of punched cards IBM had already sold for bureaucracy since the 1920s. Companies could upgrade their paper methods to electronic computing without throwing old data away.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe IBM 650 is known in technology history as the "Model T of Computing" (alluding to Ford’s first popular car). IBM expected to sell about 50 units; it ended up manufacturing and renting nearly 2,000 units during the machine’s lifetime. The IBM 650 placed a computer inside most American universities for the first time, generating the first massive crop of young graduates on the planet who knew how to write code and interact with mainframes, planting the seed of the IT workforce that would dominate the following decades.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1955,
+    era: {
+      pt: 'O Primeiro Sistema Operacional, o Batismo da Inteligência Artificial e o Ancestral do GitHub',
+      en: 'The First Operating System, the Naming of Artificial Intelligence and the Ancestor of GitHub',
+    },
+    context: {
+      pt: 'Em 1955, a tecnologia da informação deixa de ser uma criança pesada que exige que os humanos segurem sua mão a cada segundo e ganha, finalmente, o seu primeiro "gerente" interno. Nos Estados Unidos, corporações perdem a paciência com o tempo que a máquina fica parada entre uma tarefa e outra e inventam um software mestre que comanda os outros softwares, criando o primeiro Sistema Operacional da história. Na costa oeste, engenheiros cansados de reescrever os mesmos códigos exaustivamente fundam a primeira comunidade de compartilhamento livre de rotinas, plantando a semente da cultura Open Source e do fórum de desenvolvedores. E no meio acadêmico, um matemático audacioso redige um manifesto de duas páginas que recusa a antiga "Cibernética" e forja, pela primeira vez na história da humanidade, o termo exato que define o maior objetivo da tecnologia moderna. É o ano do Sistema Operacional GM-NAA I/O, do Grupo SHARE e da Proposta de Dartmouth.',
+      en: 'In 1955, information technology stops being a heavy child that requires humans to hold its hand every second and finally gains its first internal "manager". In the United States, corporations lose patience with the time the machine remains idle between tasks and invent master software that commands other software, creating the first Operating System in history. On the West Coast, engineers tired of exhaustively rewriting the same code found the first community for free sharing of routines, planting the seed of Open Source culture and developer forums. And in academia, a bold mathematician writes a two-page manifesto that rejects old "Cybernetics" and forges, for the first time in human history, the exact term that defines the greatest objective of modern technology. It is the year of the GM-NAA I/O Operating System, the SHARE Group and the Dartmouth Proposal.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Robert Patrick (General Motors) e Owen Mock (North American Aviation)',
+        imagePlaceholder: YEAR_1955_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Programadores corporativos de duas gigantes industriais (uma montadora de carros e uma fabricante de aviões). Eles usavam o poderoso IBM 701, mas estavam enlouquecidos com o "Gargalo Humano": toda vez que um programa terminava, a máquina cara ficava ociosa por 15 minutos enquanto um humano tirava a fita magnética anterior, inseria a nova e configurava os interruptores.',
+          en: 'Corporate programmers from two industrial giants (a carmaker and an aircraft manufacturer). They used the powerful IBM 701, but were going mad with the "Human Bottleneck": every time a program ended, the expensive machine sat idle for 15 minutes while a human removed the previous magnetic tape, inserted the new one and configured switches.',
+        },
+        summary: {
+          pt: 'Juntaram forças e escreveram em 1955 o GM-NAA I/O (General Motors and North American Aviation Input/Output system). Foi o primeiro Sistema Operacional (OS) baseado em Processamento em Lote (Batch Processing) da história.',
+          en: 'Joined forces and wrote in 1955 GM-NAA I/O (General Motors and North American Aviation Input/Output system). It was the first Operating System (OS) based on Batch Processing in history.',
+        },
+        role: {
+          pt: 'Criadores do primeiro sistema operacional',
+          en: 'Creators of the first operating system',
+        },
+        contribution: {
+          pt: 'Em 1955, o Computador ganhou um "Gerente de Tarefas". A TI inventou um software residente que ficava acordado o tempo todo apenas para carregar e descarregar outros programas.',
+          en: 'In 1955, the Computer gained a "Task Manager". IT invented resident software that stayed awake all the time only to load and unload other programs.',
+        },
+        detail: {
+          pt: 'Patrick e Mock criaram um programa monitor que ficava fixo na memória da máquina. Os programadores deixavam de entregar suas fitas para o operador humano e passavam a empilhar seus "Jobs" (tarefas) em uma fita magnética mestre. O GM-NAA I/O lia a fita, rodava o primeiro programa, imprimia o resultado e, sem nenhuma intervenção humana, limpava a memória e iniciava o segundo programa imediatamente, e depois o terceiro. O tempo ocioso da máquina de milhões de dólares caiu para zero.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem um Sistema Operacional, o computador é apenas um pedaço de metal burro esperando comandos manuais. O GM-NAA I/O é a semente de todos os OS do planeta. A ideia de que você precisa de uma camada de software fundamental (um Kernel inicial) rodando em segundo plano para gerenciar o hardware, a memória e a fila de execução dos aplicativos do usuário começou aqui. O Windows, o macOS e o Linux que usamos hoje para orquestrar nossos arquivos são descendentes diretos dessa solução de logística criada por esses dois engenheiros em 1955.',
+          en: 'Patrick and Mock created a monitor program that stayed fixed in the machine memory. Programmers stopped handing tapes to the human operator and began stacking their "Jobs" on a master magnetic tape. GM-NAA I/O read the tape, ran the first program, printed the result and, without any human intervention, cleared memory and immediately started the second program, then the third. The idle time of the million-dollar machine fell to zero.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout an Operating System, the computer is only a dumb piece of metal waiting for manual commands. GM-NAA I/O is the seed of every OS on the planet. The idea that you need a fundamental software layer (an initial Kernel) running in the background to manage hardware, memory and the execution queue of user applications began here. Windows, macOS and Linux, which we use today to orchestrate our files, are direct descendants of this logistics solution created by these two engineers in 1955.',
+        },
+      },
+      {
+        name: 'O Grupo SHARE (Liderado por usuários do IBM 701, como Paul Armer)',
+        imagePlaceholder: YEAR_1955_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Uma associação informal (que logo virou formal) de administradores de sistemas, matemáticos e engenheiros corporativos na Califórnia que usavam computadores IBM. Eles perceberam um absurdo na indústria: cem empresas diferentes estavam perdendo meses escrevendo, isoladamente, o exato mesmo código para calcular folhas de pagamento ou equações trigonométricas.',
+          en: 'An informal association (soon formalized) of system administrators, mathematicians and corporate engineers in California who used IBM computers. They saw an absurdity in the industry: one hundred different companies were losing months writing, in isolation, the exact same code for calculating payroll or trigonometric equations.',
+        },
+        summary: {
+          pt: 'No dia 22 de agosto de 1955, fundaram o SHARE, o primeiro e mais antigo Grupo de Usuários de Computador do mundo. Eles criaram uma biblioteca central física onde qualquer empresa parceira poderia enviar os cartões perfurados dos seus programas e receber cópias gratuitas dos códigos escritos pelas outras empresas.',
+          en: 'On August 22, 1955, they founded SHARE, the first and oldest Computer User Group in the world. They created a central physical library where any partner company could send the punched cards of its programs and receive free copies of code written by other companies.',
+        },
+        role: {
+          pt: 'Fundadores do primeiro grupo de usuários de computador',
+          en: 'Founders of the first computer user group',
+        },
+        contribution: {
+          pt: 'Em 1955, a TI fundou a Cultura "Open Source" e as Bibliotecas Compartilhadas. Os desenvolvedores perceberam que a colaboração triturava custos e acelerava a inovação.',
+          en: 'In 1955, IT founded "Open Source" Culture and Shared Libraries. Developers realized that collaboration crushed costs and accelerated innovation.',
+        },
+        detail: {
+          pt: 'Até então, o código-fonte era tratado como um segredo industrial fechado. O grupo SHARE quebrou esse monopólio intelectual. Eles criaram um manual de padronização dizendo: "Se você vai escrever um software nesta linguagem, escreva desta forma documentada para que outros possam usar". A IBM ficou tão impressionada com a redução de bugs e a aceleração do desenvolvimento que começou a distribuir gratuitamente os compiladores montados por esses usuários para os novos clientes, tornando o SHARE essencialmente a equipe de testes da IBM.\n\nPor que isso entra no Hall da Fama da TI?\n\nO SHARE é a fundação antropológica da comunidade global de desenvolvedores. Toda vez que um programador trava em um projeto e entra no Stack Overflow para achar uma solução, ou baixa um pacote via NPM ou Pip, ou clona um repositório no GitHub, ele está executando o protocolo cultural cravado pelo SHARE em 1955. Eles inventaram o conceito da dependência colaborativa: a tecnologia só escala quando não precisamos reinventar a roda matemática a cada novo projeto.',
+          en: 'Until then, source code was treated as a closed industrial secret. The SHARE group broke this intellectual monopoly. They created a standardization manual saying: "If you are going to write software in this language, write it in this documented form so others can use it". IBM was so impressed by the reduction in bugs and the acceleration of development that it began freely distributing compilers assembled by these users to new clients, making SHARE essentially IBM’s testing team.\n\nWhy does this belong in the IT Hall of Fame?\n\nSHARE is the anthropological foundation of the global developer community. Every time a programmer gets stuck on a project and goes to Stack Overflow to find a solution, downloads a package via NPM or Pip, or clones a repository on GitHub, that programmer is executing the cultural protocol fixed by SHARE in 1955. They invented the concept of collaborative dependency: technology only scales when we do not need to reinvent the mathematical wheel for every new project.',
+        },
+      },
+      {
+        name: 'John McCarthy (com Claude Shannon, Marvin Minsky e Nathaniel Rochester)',
+        imagePlaceholder: YEAR_1955_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'McCarthy era um jovem e brilhante professor de matemática no Dartmouth College. Ele estava insatisfeito com a teoria da "Cibernética" de Norbert Wiener (1948), achando que ela focava demais no hardware analógico e no biofeedback, e ignorava o puro poder lógico dos novos computadores digitais.',
+          en: 'McCarthy was a brilliant young mathematics professor at Dartmouth College. He was dissatisfied with Norbert Wiener’s "Cybernetics" theory (1948), believing it focused too much on analog hardware and biofeedback and ignored the pure logical power of new digital computers.',
+        },
+        summary: {
+          pt: 'No dia 31 de agosto de 1955, McCarthy redigiu e submeteu uma proposta de financiamento para a Fundação Rockefeller, pedindo dinheiro para organizar um seminário de verão. O título do documento continha, pela primeira vez na história registrada, a cunhagem do termo oficial: Inteligência Artificial (IA).',
+          en: 'On August 31, 1955, McCarthy wrote and submitted a funding proposal to the Rockefeller Foundation, asking for money to organize a summer seminar. The title of the document contained, for the first time in recorded history, the official coinage of the term: Artificial Intelligence (AI).',
+        },
+        role: {
+          pt: 'Criador do termo Inteligência Artificial',
+          en: 'Creator of the term Artificial Intelligence',
+        },
+        contribution: {
+          pt: 'Em 1955, a Tecnologia cravou seu objetivo máximo. A IA foi batizada não como mágica, mas como uma ciência exata de simulação comportamental.',
+          en: 'In 1955, Technology fixed its greatest objective. AI was named not as magic, but as an exact science of behavioral simulation.',
+        },
+        detail: {
+          pt: 'Na "Proposta de Dartmouth", McCarthy e seus colegas escreveram a hipótese mais ousada do século XX: "O estudo deve prosseguir com base na conjectura de que cada aspecto da aprendizagem ou qualquer outra característica da inteligência pode, em princípio, ser descrita com tanta precisão que uma máquina pode ser feita para simulá-la". Eles queriam juntar os 10 maiores gênios do mundo durante dois meses para descobrir como ensinar as máquinas a usar a linguagem humana, formar abstrações e melhorar a si mesmas.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste documento de 1955 é a Certidão de Nascimento da IA moderna. Alan Turing havia teorizado o pensamento da máquina em 1950, mas McCarthy unificou a disciplina, deu-lhe um nome comercial e um roteiro de engenharia focado puramente em software e heurística (e não apenas em simular neurônios de verdade). O projeto de verão aconteceu no ano seguinte (1956), mas o ano de 1955 entra para a história como o momento em que o conceito de Inteligência Artificial foi formalmente delineado, pavimentando o caminho para os Agentes Inteligentes, o RAG e os LLMs que utilizamos e estudamos até hoje.',
+          en: 'In the "Dartmouth Proposal", McCarthy and his colleagues wrote the boldest hypothesis of the 20th century: "The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it". They wanted to bring together the 10 greatest minds in the world for two months to discover how to teach machines to use human language, form abstractions and improve themselves.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis 1955 document is the birth certificate of modern AI. Alan Turing had theorized machine thought in 1950, but McCarthy unified the discipline, gave it a commercial name and an engineering roadmap focused purely on software and heuristics (not only on simulating real neurons). The summer project happened the following year (1956), but 1955 enters history as the moment when the concept of Artificial Intelligence was formally outlined, paving the way for Intelligent Agents, RAG and the LLMs we use and study today.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1956,
+    era: {
+      pt: 'A Invenção do Disco Rígido (HD), o "Big Bang" da Inteligência Artificial e a Máquina do Hacker',
+      en: 'The Invention of the Hard Disk Drive, the "Big Bang" of Artificial Intelligence and the Hacker Machine',
+    },
+    context: {
+      pt: 'Em 1956, a TI resolve o maior pesadelo da busca de dados, prova que máquinas podem deduzir matemática sozinhas e constrói um computador não para calcular mísseis, mas para pesquisadores "brincarem". Na Califórnia, um ex-professor de ciências contratado pela IBM empilha dezenas de discos de metal e inventa um braço robótico veloz, criando o primeiro armazenamento de dados que não exige rebobinar uma fita gigante. Em New Hampshire, o evento proposto no ano anterior finalmente acontece, reunindo as mentes mais brilhantes do planeta e apresentando o primeiro software capaz de provar teoremas lógicos de forma autônoma. E no MIT, engenheiros constroem um computador de transistores rápido e eficiente que abandona as formalidades corporativas e permite que o usuário sente na frente de um monitor com um teclado, inaugurando a era interativa. É o ano do IBM RAMAC 350, da Conferência de Dartmouth e do Computador TX-0.',
+      en: 'In 1956, IT solves the greatest nightmare of data search, proves that machines can deduce mathematics by themselves and builds a computer not to calculate missiles, but for researchers to "play" with. In California, a former science teacher hired by IBM stacks dozens of metal disks and invents a fast robotic arm, creating the first data storage that does not require rewinding a giant tape. In New Hampshire, the event proposed the previous year finally happens, gathering the brightest minds on the planet and presenting the first software capable of proving logical theorems autonomously. And at MIT, engineers build a fast and efficient transistor computer that abandons corporate formalities and lets the user sit in front of a monitor with a keyboard, inaugurating the interactive era. It is the year of IBM RAMAC 350, the Dartmouth Conference and the TX-0 Computer.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Reynold B. Johnson e a equipe do laboratório da IBM em San Jose',
+        imagePlaceholder: YEAR_1956_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Johnson era um inventor prolífico e ex-professor de ciências do ensino médio. A IBM pediu a ele que resolvesse o problema do "Acesso Sequencial". Até então, se você quisesse ler um dado no meio de uma fita magnética, tinha que rodar a fita inteira até chegar lá. Era lento demais para os negócios modernos.',
+          en: 'Johnson was a prolific inventor and former high-school science teacher. IBM asked him to solve the problem of "Sequential Access". Until then, if you wanted to read data in the middle of a magnetic tape, you had to run the entire tape until you reached it. It was too slow for modern business.',
+        },
+        summary: {
+          pt: 'Inventou e entregou em setembro de 1956 o IBM 350 Disk Storage Unit (como parte do sistema RAMAC - Random Access Method of Accounting and Control). Tratava-se do primeiro Disco Rígido (Hard Disk Drive - HDD) do mundo. Ele pesava mais de uma tonelada e consistia em 50 discos magnéticos de alumínio (do tamanho de pizzas grandes) girando a 1.200 RPM.',
+          en: 'Invented and delivered in September 1956 the IBM 350 Disk Storage Unit (as part of the RAMAC system - Random Access Method of Accounting and Control). It was the world’s first Hard Disk Drive (HDD). It weighed more than a ton and consisted of 50 aluminum magnetic disks (the size of large pizzas) spinning at 1,200 RPM.',
+        },
+        role: {
+          pt: 'Criadores do primeiro disco rígido',
+          en: 'Creators of the first hard disk drive',
+        },
+        contribution: {
+          pt: 'Em 1956, a TI inventou o Acesso Aleatório Físico (Random Access). A agulha de leitura agora podia saltar diretamente para qualquer coordenada de dados em uma fração de segundo.',
+          en: 'In 1956, IT invented Physical Random Access. The read head could now jump directly to any data coordinate in a fraction of a second.',
+        },
+        detail: {
+          pt: 'A genialidade do RAMAC foi o mecanismo do braço de leitura/gravação. Em vez de percorrer um rolo linear de fita, o braço entrava entre os discos que estavam girando violentamente e lia o dado exato onde ele estava, não importando a ordem em que as informações haviam sido gravadas. A capacidade total dessa máquina gigantesca era de míseros 5 Megabytes (o equivalente a uma foto no seu celular hoje), mas na época representava uma densidade de arquivos assombrosa.\n\nPor que isso entra no Hall da Fama da TI?\n\nO IBM RAMAC é a certidão de nascimento do HD. Embora a capacidade tenha explodido e o tamanho tenha encolhido de uma geladeira para uma peça de poucos centímetros, a arquitetura de discos magnéticos giratórios e braços mecânicos inventada por Johnson em 1956 é exatamente a mesma que ditou os Discos Rígidos dos computadores e servidores pelos próximos 60 anos (até a ascensão comercial do SSD). Sem o acesso instantâneo aos dados proporcionado pelo disco rígido, bancos de dados relacionais e sistemas bancários modernos seriam impossíveis.',
+          en: 'RAMAC’s genius was the read/write arm mechanism. Instead of traveling through a linear tape reel, the arm entered between the violently spinning disks and read the exact data where it was, regardless of the order in which information had been recorded. The total capacity of this gigantic machine was a mere 5 megabytes (equivalent to one photo on your phone today), but at the time it represented astonishing file density.\n\nWhy does this belong in the IT Hall of Fame?\n\nIBM RAMAC is the birth certificate of the hard drive. Although capacity exploded and size shrank from a refrigerator to a part only a few centimeters wide, the architecture of spinning magnetic disks and mechanical arms invented by Johnson in 1956 is exactly the same architecture that dictated computer and server hard drives for the next 60 years (until the commercial rise of SSDs). Without the instant access to data provided by the hard disk, relational databases and modern banking systems would be impossible.',
+        },
+      },
+      {
+        name: 'John McCarthy, Marvin Minsky, Allen Newell e Herbert Simon',
+        imagePlaceholder: YEAR_1956_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Os titãs absolutos da matemática, lógica e ciência da computação. McCarthy havia escrito a proposta no ano anterior (1955), e no verão de 1956, ele reuniu essa "Liga da Justiça" da academia no Dartmouth College.',
+          en: 'The absolute titans of mathematics, logic and computer science. McCarthy had written the proposal the previous year (1955), and in the summer of 1956 he gathered this academic "Justice League" at Dartmouth College.',
+        },
+        summary: {
+          pt: 'Realizaram o Dartmouth Summer Research Project on Artificial Intelligence. Durante essa conferência épica de oito semanas, Newell e Simon apresentaram o Logic Theorist, considerado o primeiro programa de Inteligência Artificial em funcionamento da história.',
+          en: 'Held the Dartmouth Summer Research Project on Artificial Intelligence. During this epic eight-week conference, Newell and Simon presented the Logic Theorist, considered the first working Artificial Intelligence program in history.',
+        },
+        role: {
+          pt: 'Fundadores oficiais da IA como disciplina',
+          en: 'Official founders of AI as a discipline',
+        },
+        contribution: {
+          pt: 'Em 1956, a IA deixou de ser teoria e rodou em Software. O computador conseguiu provar teoremas matemáticos complexos usando árvores de busca heurística e lógica dedutiva, não apenas aritmética crua.',
+          en: 'In 1956, AI stopped being theory and ran in Software. The computer managed to prove complex mathematical theorems using heuristic search trees and deductive logic, not only raw arithmetic.',
+        },
+        detail: {
+          pt: 'A conferência de Dartmouth foi o "Big Bang" oficial do campo. Até aquele momento, as pessoas não sabiam se deveriam chamar o campo de "Cibernética", "Processamento Lógico" ou "Autômatos". A conferência consolidou o termo IA. Mas o destaque real foi o Logic Theorist. O programa conseguiu provar 38 dos 52 teoremas do famoso livro Principia Mathematica, e em um dos casos, encontrou uma prova matemática mais elegante e direta do que a que os próprios autores humanos haviam escrito décadas antes.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Conferência de Dartmouth fundou oficialmente a disciplina acadêmica e a indústria da Inteligência Artificial. Todos os participantes desta reunião se tornariam os pais fundadores dos maiores laboratórios de IA do mundo (no MIT, Stanford e Carnegie Mellon). A apresentação do Logic Theorist mudou o paradigma: provou fisicamente que a máquina poderia manipular símbolos lógicos complexos (verdadeiro/falso, causa/consequência) e gerar conhecimento matemático novo, lançando as bases para todo o Machine Learning e raciocínio algorítmico do futuro.',
+          en: 'The Dartmouth conference was the official "Big Bang" of the field. Until that moment, people did not know whether to call the field "Cybernetics", "Logical Processing" or "Automata". The conference consolidated the term AI. But the real highlight was Logic Theorist. The program managed to prove 38 of the 52 theorems in the famous book Principia Mathematica, and in one case found a more elegant and direct mathematical proof than the one the human authors had written decades before.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Dartmouth Conference officially founded the academic discipline and industry of Artificial Intelligence. All participants in this meeting would become the founding fathers of the world’s greatest AI laboratories (at MIT, Stanford and Carnegie Mellon). The presentation of Logic Theorist changed the paradigm: it physically proved that the machine could manipulate complex logical symbols (true/false, cause/consequence) and generate new mathematical knowledge, laying the foundations for all future Machine Learning and algorithmic reasoning.',
+        },
+      },
+      {
+        name: 'Ken Olsen e Wesley Clark (Lincoln Laboratory do MIT)',
+        imagePlaceholder: YEAR_1956_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Engenheiros de altíssimo nível que haviam trabalhado no Projeto Whirlwind (o computador de radar em tempo real de 1951). Eles queriam testar os limites dos novos transistores de silício e construir uma máquina que os humanos pudessem realmente usar sem a intermediação de burocratas de terno da IBM.',
+          en: 'High-level engineers who had worked on Project Whirlwind (the real-time radar computer of 1951). They wanted to test the limits of the new silicon transistors and build a machine humans could actually use without the mediation of IBM bureaucrats in suits.',
+        },
+        summary: {
+          pt: 'Terminaram de construir e ligaram em 1956 o TX-0 (Transistorized Experimental computer zero). Foi o primeiro computador de uso geral, programável e construído inteiramente com transistores de estado sólido (superando os protótipos de 1953) e memória de núcleo magnético rápida.',
+          en: 'Finished building and turned on in 1956 the TX-0 (Transistorized Experimental computer zero). It was the first general-purpose, programmable computer built entirely with solid-state transistors (surpassing the 1953 prototypes) and fast magnetic core memory.',
+        },
+        role: {
+          pt: 'Criadores do TX-0',
+          en: 'Creators of TX-0',
+        },
+        contribution: {
+          pt: 'Em 1956, a TI inventou a Máquina "Mão na Massa". O TX-0 introduziu a interface direta de usuário com teclado de máquina de escrever e tela de fósforo interativa.',
+          en: 'In 1956, IT invented the "Hands-On" Machine. TX-0 introduced direct user interface with a typewriter keyboard and interactive phosphor display.',
+        },
+        detail: {
+          pt: 'Enquanto um programador da IBM tinha que entregar um cartão perfurado para um operador de laboratório e esperar o resultado no dia seguinte, o TX-0 no MIT era revolucionário por seu design de interface. Ele tinha uma tela de raios catódicos acoplada e uma Flexowriter (uma máquina de escrever elétrica que servia como teclado de input direto e impressora). Um usuário podia sentar fisicamente de frente para o console, digitar o código em tempo real, rodar o programa e ver os gráficos se moverem na tela instantaneamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nO TX-0 é a máquina que gestou a cultura do desenvolvedor apaixonado. A liberdade de sentar no console da máquina permitiu que os estudantes do MIT fizessem coisas não corporativas: eles programaram os primeiros joguinhos gráficos interativos (como o "Mouse in a Maze", onde um rato virtual tentava achar queijo na tela) e sintetizadores sonoros avançados. O design eficiente e a acessibilidade do TX-0 inspiraram diretamente Ken Olsen a sair do MIT logo depois e fundar a Digital Equipment Corporation (DEC), a empresa que criaria a indústria dos minicomputadores e popularizaria o hardware departamental nos anos 60.',
+          en: 'While an IBM programmer had to hand a punched card to a laboratory operator and wait for the result the next day, TX-0 at MIT was revolutionary because of its interface design. It had an attached cathode-ray display and a Flexowriter (an electric typewriter that served as a direct input keyboard and printer). A user could physically sit in front of the console, type code in real time, run the program and see graphics move on the screen instantly.\n\nWhy does this belong in the IT Hall of Fame?\n\nTX-0 is the machine that gestated the culture of the passionate developer. The freedom to sit at the machine console allowed MIT students to do non-corporate things: they programmed the first interactive graphical games (such as "Mouse in a Maze", where a virtual mouse tried to find cheese on the screen) and advanced sound synthesizers. TX-0’s efficient design and accessibility directly inspired Ken Olsen to leave MIT soon after and found Digital Equipment Corporation (DEC), the company that would create the minicomputer industry and popularize departmental hardware in the 1960s.',
         },
       },
     ],
   },
   {
     year: 1957,
-    era: { pt: 'A Primeira Linguagem de Alto Nível', en: 'The First High-Level Language' },
-    context: {
-      pt: 'Programar em assembly era tedioso e sujeito a erros. Uma equipe da IBM apostou que era possível criar uma linguagem que se aproximasse da matemática e que fosse tão eficiente quanto o código manual.',
-      en: 'Programming in assembly was tedious and error-prone. An IBM team bet it was possible to create a language that approached mathematics and was as efficient as manual code.',
+    era: {
+      pt: 'O Compilador FORTRAN, a Primeira Rede Neural e a Fundação do Vale do Silício',
+      en: 'The FORTRAN Compiler, the First Neural Network and the Founding of Silicon Valley',
     },
+    context: {
+      pt: 'Em 1957, o mercado de software e hardware se profissionaliza de forma irreversível. Em Nova York, a IBM finalmente entrega o programa tradutor prometido três anos antes, provando que um código de máquina gerado por um compilador poderia ser tão eficiente quanto o escrito por um humano. Em Nova York, um psicólogo audacioso cria um algoritmo baseado no cérebro de uma mosca e ensina um computador a reconhecer imagens, construindo o ancestral absoluto de toda a Inteligência Artificial profunda atual. E na Califórnia, oito engenheiros geniais não aguentam mais o chefe abusivo, pedem demissão em massa e fundam a empresa de semicondutores que seria a verdadeira "mãe" da Intel e da AMD, inaugurando geograficamente o Vale do Silício. É o ano da Entrega do FORTRAN, da Invenção do Perceptron e da Rebelião dos "Oito Traidores".',
+      en: 'In 1957, the software and hardware market professionalizes irreversibly. In New York, IBM finally delivers the translator program promised three years earlier, proving that machine code generated by a compiler could be as efficient as code written by a human. In New York, a bold psychologist creates an algorithm based on the brain of a fly and teaches a computer to recognize images, building the absolute ancestor of all modern deep Artificial Intelligence. And in California, eight brilliant engineers can no longer tolerate their abusive boss, resign as a group and found the semiconductor company that would become the true "mother" of Intel and AMD, geographically inaugurating Silicon Valley. It is the year of FORTRAN’s Delivery, the Invention of the Perceptron and the Rebellion of the "Traitorous Eight".',
+    },
+    peopleCount: 3,
     people: [
       {
-        name: 'John Backus',
-        image: '/hall/1957/john-backus',
+        name: 'John Backus e a equipe da IBM',
+        imagePlaceholder: YEAR_1957_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A mesma equipe de engenheiros de software e matemáticos que havia escrito o "Whitepaper" da linguagem de alto nível em 1954. Passaram três anos exaustivos tentando fazer o compilador funcionar na prática dentro dos limites de memória da época.',
+          en: 'The same team of software engineers and mathematicians that had written the high-level language "Whitepaper" in 1954. They spent three exhausting years trying to make the compiler work in practice within the memory limits of the era.',
+        },
+        summary: {
+          pt: 'Em abril de 1957, entregaram a versão final e executável do Compilador FORTRAN (Formula Translation) para o supercomputador IBM 704. Eles distribuíram o software em uma caixa contendo cartões perfurados magnéticos.',
+          en: 'In April 1957, they delivered the final executable version of the FORTRAN Compiler (Formula Translation) for the IBM 704 supercomputer. They distributed the software in a box containing punched cards.',
+        },
+        role: {
+          pt: 'Criadores do compilador FORTRAN',
+          en: 'Creators of the FORTRAN compiler',
+        },
+        contribution: {
+          pt: 'Em 1957, o Software de Alto Nível entrou em "Deploy Oficial". A TI provou que tradutores automáticos podiam otimizar código de forma impecável.',
+          en: 'In 1957, High-Level Software entered "Official Deploy". IT proved that automatic translators could optimize code impeccably.',
+        },
+        detail: {
+          pt: 'A grande dúvida dos programadores da época (que codavam em Assembly) era: "Será que esse compilador que traduz inglês/matemática para binário não vai gerar um código inflado e lento?". A vitória de Backus em 1957 foi a otimização. O compilador FORTRAN não apenas traduzia, ele reescrevia e organizava a lógica da máquina tão bem que o código rodava praticamente na mesma velocidade que um código otimizado à mão por um humano. O número de linhas que um programador precisava escrever caiu em até 90%.\n\nPor que isso entra no Hall da Fama da TI?\n\nA entrega deste compilador foi a alforria da engenharia de software. Ele padronizou a ideia de que o código deveria ser portável e focado no problema de negócios/matemático, e não nos registradores da CPU. Essa exata dinâmica de "escrever um código legível e deixar a ferramenta compilar" é a base sobre a qual construímos sistemas massivos hoje em dia. Sem essa validação em 1957, o desenvolvimento de software continuaria sendo um artesanato lento em vez de uma indústria escalável.',
+          en: 'The great doubt of programmers at the time (who coded in Assembly) was: "Will this compiler that translates English/mathematics into binary generate bloated and slow code?". Backus’s victory in 1957 was optimization. The FORTRAN compiler did not merely translate; it rewrote and organized machine logic so well that the code ran at practically the same speed as code optimized by hand by a human. The number of lines a programmer needed to write fell by up to 90%.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe delivery of this compiler was the emancipation of software engineering. It standardized the idea that code should be portable and focused on the business/mathematical problem, not on CPU registers. This exact dynamic of "writing readable code and letting the tool compile it" is the basis on which we build massive systems today. Without this validation in 1957, software development would have remained slow craftsmanship instead of a scalable industry.',
+        },
+      },
+      {
+        name: 'Frank Rosenblatt',
+        imagePlaceholder: YEAR_1957_PLACEHOLDER,
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
-          pt: 'Matemática, Columbia University',
-          en: 'Mathematics, Columbia University',
+          pt: 'Psicólogo, neurobiólogo e pesquisador do Cornell Aeronautical Laboratory. Ele olhou para a teoria dos neurônios artificiais de McCulloch e Pitts (de 1943) e para o batismo da Inteligência Artificial em Dartmouth (1956) e decidiu que era hora de criar um modelo que não apenas provasse matemática, mas aprendesse com o mundo real.',
+          en: 'Psychologist, neurobiologist and researcher at the Cornell Aeronautical Laboratory. He looked at McCulloch and Pitts’s artificial neuron theory (from 1943) and at the naming of Artificial Intelligence at Dartmouth (1956) and decided it was time to create a model that did not merely prove mathematics, but learned from the real world.',
         },
-        summary: { pt: 'Criou o FORTRAN, a primeira linguagem de alto nível amplamente adotada', en: 'Created FORTRAN, the first widely adopted high-level programming language' },
-        role: { pt: 'Cientista da computação, criador do FORTRAN', en: 'Computer scientist, creator of FORTRAN' },
+        summary: {
+          pt: 'Inventou e simulou no computador IBM 704, em 1957, o Perceptron. Tratava-se do primeiro algoritmo de Rede Neural Artificial projetado para o reconhecimento de padrões baseados em percepção (especificamente, reconhecimento visual de formas geométricas e letras).',
+          en: 'Invented and simulated on the IBM 704 computer in 1957 the Perceptron. It was the first Artificial Neural Network algorithm designed for perception-based pattern recognition (specifically, visual recognition of geometric shapes and letters).',
+        },
+        role: {
+          pt: 'Criador do Perceptron',
+          en: 'Creator of the Perceptron',
+        },
         contribution: {
-          pt: 'Liderou o time da IBM que criou o FORTRAN — a primeira linguagem de programação de alto nível amplamente adotada, que provou que compiladores podiam gerar código eficiente.',
-          en: 'Led the IBM team that created FORTRAN — the first widely adopted high-level programming language, which proved compilers could generate efficient code.',
+          pt: 'Em 1957, o Machine Learning ganhou seu Design Pattern fundamental. A máquina parou de ser programada com regras fixas e começou a ajustar seus próprios "Pesos" a cada erro cometido.',
+          en: 'In 1957, Machine Learning gained its fundamental Design Pattern. The machine stopped being programmed with fixed rules and began adjusting its own "Weights" after each mistake.',
         },
         detail: {
-          pt: 'Antes do FORTRAN, os programadores escreviam instruções diretamente para a máquina. Backus e sua equipe levaram três anos para convencer a IBM de que uma linguagem próxima da matemática poderia gerar código tão rápido quanto o escrito manualmente. O FORTRAN (FORmula TRANslation) foi lançado em 1957 e revolucionou a computação científica. Backus também criou a notação BNF (Backus-Naur Form), usada até hoje para definir a gramática de linguagens de programação.',
-          en: 'Before FORTRAN, programmers wrote instructions directly for the machine. Backus and his team spent three years convincing IBM that a language close to mathematics could generate code as fast as hand-written code. FORTRAN (FORmula TRANslation) was released in 1957 and revolutionized scientific computing. Backus also created BNF notation (Backus-Naur Form), still used today to define the grammar of programming languages.',
+          pt: 'A arquitetura do Perceptron era revolucionária: Rosenblatt projetou uma camada de sensores de luz (como uma retina) que enviava sinais para os "neurônios" artificiais. Se a máquina tentasse adivinhar se a imagem era um triângulo ou um quadrado e errasse, o algoritmo voltava e reajustava matematicamente o peso das conexões elétricas. A cada tentativa, ela errava menos. O Perceptron aprendeu a reconhecer imagens sem que nenhum humano programasse explicitamente a regra "triângulos têm três pontas".\n\nPor que isso entra no Hall da Fama da TI?\n\nO Perceptron é o "Avô" absoluto de toda a Inteligência Artificial e da Ciência de Dados estruturada. Hoje, quando analisamos dados em pipelines complexos de Data Science ou orquestramos a comunicação de Large Language Models (LLMs), estamos lidando com arquiteturas de Deep Learning e Transformers que são, em sua essência matemática, pilhas massivas de Perceptrons aprimorados, ajustando bilhões de parâmetros simultaneamente. Tudo começou com o algoritmo deste psicólogo em 1957.',
+          en: 'The Perceptron architecture was revolutionary: Rosenblatt designed a layer of light sensors (like a retina) that sent signals to artificial "neurons". If the machine tried to guess whether an image was a triangle or a square and got it wrong, the algorithm went back and mathematically readjusted the weight of the electrical connections. With each attempt, it made fewer mistakes. The Perceptron learned to recognize images without any human explicitly programming the rule "triangles have three points".\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Perceptron is the absolute "Grandfather" of all Artificial Intelligence and structured Data Science. Today, when we analyze data in complex Data Science pipelines or orchestrate communication between Large Language Models (LLMs), we are dealing with Deep Learning and Transformer architectures that are, in their mathematical essence, massive stacks of improved Perceptrons adjusting billions of parameters simultaneously. It all began with this psychologist’s algorithm in 1957.',
+        },
+      },
+      {
+        name: 'Os "Oito Traidores" (Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce e Sheldon Roberts)',
+        imagePlaceholder: YEAR_1957_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Eles eram os oito físicos e engenheiros mais brilhantes trabalhando para William Shockley (o homem que co-inventou o transistor em 1947). Shockley tinha fundado a sua empresa na Califórnia, mas era um chefe paranoico, errático e impossível de se lidar.',
+          en: 'They were the eight brightest physicists and engineers working for William Shockley (the man who co-invented the transistor in 1947). Shockley had founded his company in California, but he was a paranoid, erratic boss who was impossible to deal with.',
+        },
+        summary: {
+          pt: 'No dia 18 de setembro de 1957, em um ato de rebelião corporativa histórica, os oito engenheiros pediram demissão em bloco da Shockley Semiconductor. Eles conseguiram financiamento de um empresário de Nova York (Arthur Rock) e fundaram a Fairchild Semiconductor, focada em fabricar transistores comerciais de silício de alta qualidade.',
+          en: 'On September 18, 1957, in an act of historic corporate rebellion, the eight engineers resigned as a group from Shockley Semiconductor. They secured funding from a New York businessman (Arthur Rock) and founded Fairchild Semiconductor, focused on manufacturing high-quality commercial silicon transistors.',
+        },
+        role: {
+          pt: 'Fundadores da Fairchild Semiconductor',
+          en: 'Founders of Fairchild Semiconductor',
+        },
+        contribution: {
+          pt: 'Em 1957, ocorreu o "Fork" Corporativo que criou o Ecossistema de Hardware moderno. O modelo de Startup do Vale do Silício nasceu de uma revolta contra a gestão tradicional.',
+          en: 'In 1957, the Corporate "Fork" that created the modern Hardware Ecosystem occurred. The Silicon Valley Startup model was born from a revolt against traditional management.',
+        },
+        detail: {
+          pt: 'A importância não está apenas nos transistores de silício que eles logo passaram a vender em massa para os militares e a IBM, mas na cultura que criaram. A Fairchild instituiu o modelo de negócios de tecnologia moderno: distribuição de ações (stock options) para funcionários-chave, hierarquia horizontal, alta rotatividade e inovação contínua brutal.\n\nPor que isso entra no Hall da Fama da TI?\n\nA Fairchild Semiconductor não foi apenas uma empresa; foi uma escola de fundadores. Poucos anos depois, Gordon Moore e Robert Noyce sairiam da Fairchild para fundar a Intel (1968). Outros funcionários sairiam para fundar a AMD (1969) e dezenas de outras empresas que ficaram conhecidas como as "Fairchildren" (Crianças da Fairchild). Se o polo global de tecnologia hoje fica localizado entre São Francisco e San Jose na Califórnia (o Vale do Silício), é exclusivamente porque esses oito homens decidiram assinar o documento de fundação desta nova empresa naquele dia de 1957.',
+          en: 'The importance is not only in the silicon transistors they soon sold in mass quantities to the military and IBM, but in the culture they created. Fairchild instituted the modern technology business model: distribution of stock options to key employees, horizontal hierarchy, high turnover and brutal continuous innovation.\n\nWhy does this belong in the IT Hall of Fame?\n\nFairchild Semiconductor was not only a company; it was a school of founders. A few years later, Gordon Moore and Robert Noyce would leave Fairchild to found Intel (1968). Other employees would leave to found AMD (1969) and dozens of other companies known as the "Fairchildren". If the global technology hub today is located between San Francisco and San Jose in California (Silicon Valley), it is exclusively because these eight men decided to sign the founding document of this new company on that day in 1957.',
         },
       },
     ],
   },
   {
     year: 1958,
-    era: { pt: 'Tudo num Só Chip', en: 'Everything on One Chip' },
-    context: {
-      pt: 'Computadores da época eram armários cheios de componentes ligados por fios. Um engenheiro recém-contratado, sem direito a férias ainda, ficou no laboratório enquanto todos saíam e teve uma ideia.',
-      en: 'Computers of the era were cabinets full of components connected by wires. A newly hired engineer, not yet entitled to vacation, stayed in the lab while everyone left and had an idea.',
+    era: {
+      pt: 'O Primeiro Circuito Integrado, a Linguagem Ancestral da IA e o Início do "Networking"',
+      en: 'The First Integrated Circuit, the Ancestral Language of AI and the Beginning of Networking',
     },
+    context: {
+      pt: 'Em 1958, a TI supera a "Tirania dos Números", abstrai a programação simbólica e inventa a telecomunicação de dados. No Texas, um engenheiro novato fica sem férias e usa o tempo sozinho no laboratório para colar múltiplos componentes eletrônicos em um único bloco contínuo de cristal, inventando o Circuito Integrado e garantindo que os computadores poderiam encolher para sempre. No MIT, o pai da Inteligência Artificial percebe que não dá para simular um cérebro apenas fazendo contas de multiplicação, e inventa uma linguagem que processa listas e estruturas em árvore, introduzindo o primeiro "lixeiro automático" (Garbage Collector) de memória da história. E nos laboratórios da AT&T, engenheiros resolvem o problema de conectar radares distantes a um supercomputador convertendo zeros e uns em sons de áudio, lançando o primeiro dispositivo comercial de conversão de dados do planeta. É o ano do Microchip de Kilby, do LISP e do Modem Bell 101.',
+      en: 'In 1958, IT overcomes the "Tyranny of Numbers", abstracts symbolic programming and invents data telecommunication. In Texas, a newly hired engineer gets no vacation and uses his time alone in the laboratory to glue multiple electronic components into a single continuous block of crystal, inventing the Integrated Circuit and ensuring that computers could shrink forever. At MIT, the father of Artificial Intelligence realizes that a brain cannot be simulated only by doing multiplication, and invents a language that processes lists and tree structures, introducing the first automatic memory "garbage collector" in history. And in AT&T laboratories, engineers solve the problem of connecting distant radars to a supercomputer by converting zeros and ones into audio sounds, launching the world’s first commercial data-conversion device. It is the year of Kilby’s Microchip, LISP and the Bell 101 Modem.',
+    },
+    peopleCount: 3,
     people: [
       {
-        name: 'Jack Kilby',
-        image: '/hall/1958/jack-kilby',
+        name: 'Jack Kilby (Texas Instruments) e Robert Noyce (Fairchild Semiconductor - co-inventor independente meses depois)',
+        imagePlaceholder: YEAR_1958_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Kilby era um engenheiro elétrico recém-contratado pela Texas Instruments. Na época, a TI sofria da "Tirania dos Números": para construir um computador mais potente, você precisava de mais transistores. Mas como cada transistor tinha que ser soldado à mão por um humano em uma placa, havia um limite físico de quantas soldas podiam ser feitas antes que o erro humano fizesse a placa inteira entrar em curto.',
+          en: 'Kilby was an electrical engineer newly hired by Texas Instruments. At the time, IT suffered from the "Tyranny of Numbers": to build a more powerful computer, you needed more transistors. But because each transistor had to be hand-soldered by a human onto a board, there was a physical limit to how many solder joints could be made before human error made the entire board short out.',
+        },
+        summary: {
+          pt: 'Como tinha acabado de ser contratado, Kilby não tinha direito às férias coletivas de verão da empresa. Sozinho no laboratório, em 12 de setembro de 1958, ele apresentou o primeiro protótipo funcional de um Circuito Integrado (Microchip). Em vez de fios soltos, ele esculpiu transistores, capacitores e resistores diretamente num único e fino pedaço contínuo de cristal de germânio.',
+          en: 'Because he had just been hired, Kilby was not entitled to the company’s collective summer vacation. Alone in the laboratory, on September 12, 1958, he presented the first functional prototype of an Integrated Circuit (Microchip). Instead of loose wires, he carved transistors, capacitors and resistors directly into a single thin continuous piece of germanium crystal.',
+        },
+        role: {
+          pt: 'Inventores do circuito integrado',
+          en: 'Inventors of the integrated circuit',
+        },
+        contribution: {
+          pt: 'Em 1958, o Hardware virou um Monolito impresso. A TI parou de soldar peças de lego avulsas e começou a fabricar o quarteirão inteiro em uma única pedra.',
+          en: 'In 1958, Hardware became a printed Monolith. IT stopped soldering loose building blocks and began manufacturing the entire city block in a single stone.',
+        },
+        detail: {
+          pt: 'A epifania de Kilby (e o subsequente refinamento no silício por Robert Noyce) foi perceber que se todos os componentes eletrônicos fossem feitos do mesmo material semicondutor, eles não precisariam de fios de cobre para conectá-los. O circuito inteiro poderia ser fabricado simultaneamente em um único bloco sólido.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Microchip é o coração pulsante do mundo moderno. Sem esta prova de conceito física em 1958, a "Lei de Moore" (a premissa de que o poder dos computadores dobra a cada dois anos) seria impossível, e os computadores nunca teriam saído das salas refrigeradas. O chip que executa a orquestração de rotinas em um backend de alta performance hoje em dia é apenas a evolução microscópica dessa laje de germânio montada em um laboratório vazio no Texas.',
+          en: 'Kilby’s epiphany (and Robert Noyce’s subsequent refinement in silicon) was realizing that if all electronic components were made of the same semiconductor material, they would not need copper wires to connect them. The entire circuit could be manufactured simultaneously in one solid block.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Microchip is the beating heart of the modern world. Without this physical proof of concept in 1958, "Moore’s Law" (the premise that computer power doubles every two years) would be impossible, and computers would never have left refrigerated rooms. The chip that orchestrates routines in a high-performance backend today is only the microscopic evolution of that germanium slab assembled in an empty laboratory in Texas.',
+        },
+      },
+      {
+        name: 'John McCarthy',
+        imagePlaceholder: YEAR_1958_PLACEHOLDER,
         flag: '🇺🇸',
         nationality: { pt: 'Americano', en: 'American' },
         formation: {
-          pt: 'Engenharia Elétrica, Univ. de Illinois · Mestrado, Univ. de Wisconsin',
-          en: 'Electrical Engineering, Univ. of Illinois · MS, Univ. of Wisconsin',
+          pt: 'O gênio do MIT que havia idealizado a conferência de Dartmouth (1956) e criado o termo Inteligência Artificial. Ele percebeu rapidamente que o recém-lançado FORTRAN era excelente para calcular equações de balística ou aerodinâmica, mas era horrível para simular dedução lógica e raciocínio estruturado.',
+          en: 'The MIT genius who had conceived the Dartmouth conference (1956) and created the term Artificial Intelligence. He quickly realized the newly launched FORTRAN was excellent for calculating ballistic or aerodynamic equations, but terrible for simulating logical deduction and structured reasoning.',
         },
-        summary: { pt: 'Inventou o circuito integrado, a base de todo chip moderno', en: 'Invented the integrated circuit, the foundation of every modern chip' },
-        role: { pt: 'Engenheiro elétrico, inventor do circuito integrado', en: 'Electrical engineer, inventor of the integrated circuit' },
+        summary: {
+          pt: 'Desenvolveu e publicou as especificações iniciais da linguagem LISP (LISt Processing). Diferente das linguagens imperativas da época, o LISP foi projetado para manipular cadeias de símbolos (listas aninhadas), tornando-se instantaneamente a linguagem padrão para a pesquisa em IA.',
+          en: 'Developed and published the initial specifications of the LISP language (LISt Processing). Unlike the imperative languages of the time, LISP was designed to manipulate chains of symbols (nested lists), instantly becoming the standard language for AI research.',
+        },
+        role: {
+          pt: 'Criador do LISP',
+          en: 'Creator of LISP',
+        },
         contribution: {
-          pt: 'Inventou o circuito integrado em 1958, colocando múltiplos componentes eletrônicos num único pedaço de semicondutor — o fundamento de todo chip moderno.',
-          en: 'Invented the integrated circuit in 1958, placing multiple electronic components on a single piece of semiconductor — the foundation of every modern chip.',
+          pt: 'Em 1958, o Software abraçou as "Estruturas de Dados Dinâmicas". A TI abstraiu o gerenciamento de memória com a invenção da Limpeza de Lixo (Garbage Collection).',
+          en: 'In 1958, Software embraced "Dynamic Data Structures". IT abstracted memory management with the invention of Garbage Collection.',
         },
         detail: {
-          pt: 'Kilby estava na Texas Instruments há apenas dois meses quando teve a ideia que mudaria o mundo: e se transistores, resistores e capacitores fossem todos fabricados no mesmo material, no mesmo chip? Em julho de 1958, com o laboratório quase vazio durante as férias de verão, ele construiu o primeiro circuito integrado funcional. A Intel, fundada dez anos depois pelos ex-colaboradores de Shockley, usaria esse princípio para criar o primeiro microprocessador. Kilby ganhou o Nobel de Física em 2000.',
-          en: 'Kilby had been at Texas Instruments for only two months when he had the idea that would change the world: what if transistors, resistors and capacitors were all manufactured from the same material, on the same chip? In July 1958, with the lab nearly empty during summer vacation, he built the first functional integrated circuit. Intel, founded ten years later by Shockley\'s former colleagues, would use this principle to create the first microprocessor. Kilby won the Nobel Prize in Physics in 2000.',
+          pt: 'O LISP tratava código e dados como a exata mesma coisa (ambos eram listas entre parênteses). Para que a máquina pudesse criar e destruir listas lógicas complexas sem o computador dar tela azul por falta de RAM, McCarthy inventou um algoritmo rodando em segundo plano: o Garbage Collector. Ele caçava os pedaços de memória que o programa não estava mais usando e os liberava automaticamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nO LISP é a segunda linguagem de programação de alto nível mais antiga do mundo ainda em uso (só perde para o FORTRAN). Sua influência na arquitetura de software é incalculável. Quando construímos fluxos para agentes autônomos de IA ou manipulamos estruturas dinâmicas complexas, estamos utilizando o paradigma de tratamento de dados que o LISP inaugurou. Linguagens contemporâneas essenciais, como Python e JavaScript, herdaram seu design de tipagem dinâmica, funções de primeira classe e o próprio Garbage Collector diretamente das ideias de McCarthy de 1958.',
+          en: 'LISP treated code and data as exactly the same thing (both were parenthesized lists). So the machine could create and destroy complex logical lists without crashing from lack of RAM, McCarthy invented an algorithm running in the background: the Garbage Collector. It hunted pieces of memory the program was no longer using and freed them automatically.\n\nWhy does this belong in the IT Hall of Fame?\n\nLISP is the second-oldest high-level programming language in the world still in use (behind only FORTRAN). Its influence on software architecture is incalculable. When we build flows for autonomous AI agents or manipulate complex dynamic structures, we are using the data-handling paradigm LISP inaugurated. Essential contemporary languages such as Python and JavaScript inherited dynamic typing, first-class functions and Garbage Collection itself directly from McCarthy’s 1958 ideas.',
+        },
+      },
+      {
+        name: 'O Sistema SAGE e a Bell Labs (AT&T)',
+        imagePlaceholder: YEAR_1958_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'O governo americano estava concluindo a construção do SAGE (Semi-Automatic Ground Environment), o mais colossal sistema de defesa e radar já construído, projetado para detectar bombardeiros soviéticos. O problema era enviar os dados das antenas de radar locais para os mainframes centrais: os militares não podiam levar as fitas magnéticas fisicamente e não podiam construir uma rede mundial de cabos de computador do zero.',
+          en: 'The American government was completing construction of SAGE (Semi-Automatic Ground Environment), the most colossal defense and radar system ever built, designed to detect Soviet bombers. The problem was sending data from local radar antennas to central mainframes: the military could not physically carry magnetic tapes and could not build a worldwide computer-cable network from scratch.',
+        },
+        summary: {
+          pt: 'O Bell Labs introduziu o Bell 101 dataset, o primeiro Modem (Modulator-Demodulator) comercial do mundo. Ele permitiu que o supercomputador e as estações de radar enviassem e recebessem dados binários pelas linhas de telefone analógicas comuns (de voz), a uma velocidade de 110 bits por segundo.',
+          en: 'Bell Labs introduced the Bell 101 dataset, the world’s first commercial Modem (Modulator-Demodulator). It allowed the supercomputer and radar stations to send and receive binary data over ordinary analog telephone lines (voice lines), at a speed of 110 bits per second.',
+        },
+        role: {
+          pt: 'Criadores do primeiro modem comercial',
+          en: 'Creators of the first commercial modem',
+        },
+        contribution: {
+          pt: 'Em 1958, a TI inventou a "Telemetria Digital". A máquina aprendeu a converter sinais binários frios em frequências de áudio, viajar pela rede telefônica e voltar a ser binário do outro lado.',
+          en: 'In 1958, IT invented "Digital Telemetry". The machine learned to convert cold binary signals into audio frequencies, travel through the telephone network and become binary again on the other side.',
+        },
+        detail: {
+          pt: 'Se a linha telefônica só transportava som, a genialidade do modem foi "cantar" a informação. O equipamento emitia um tom agudo para o bit "1" e um tom mais grave para o bit "0". As máquinas passaram a ser capazes de conversar entre si a centenas de quilômetros de distância em tempo real, sem a necessidade de intervenção humana ou novos cabos espaciais, aproveitando a rede de postes telefônicos que já cortava o país.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Bell 101 é o ancestral imediato da comunicação em rede. A ideia de encapsular pacotes digitais em frequências portadoras analógicas e transmiti-las a longa distância pavimentou a logística das telecomunicações modernas. Esta é a semente do Wide Area Network (WAN) que, uma década depois, possibilitaria o nascimento da ARPANET (a avó da internet). A capacidade que os servidores possuem hoje de trocar requisições através de continentes começou com os assobios estridentes deste equipamento modular em 1958.',
+          en: 'If the telephone line only carried sound, the modem’s genius was to "sing" information. The equipment emitted a high tone for bit "1" and a lower tone for bit "0". Machines became able to talk to each other hundreds of kilometers away in real time, without the need for human intervention or new special cables, taking advantage of the telephone pole network that already crossed the country.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe Bell 101 is the immediate ancestor of network communication. The idea of encapsulating digital packets in analog carrier frequencies and transmitting them over long distance paved the logistics of modern telecommunications. This is the seed of the Wide Area Network (WAN) that, a decade later, would make the birth of ARPANET (the grandmother of the internet) possible. The ability servers have today to exchange requests across continents began with the shrill whistles of this modular equipment in 1958.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1959,
+    era: {
+      pt: 'A Linguagem Universal dos Negócios, a Impressão 2D de Semicondutores e o Batismo do "Machine Learning"',
+      en: 'The Universal Business Language, 2D Semiconductor Printing and the Naming of "Machine Learning"',
+    },
+    context: {
+      pt: 'Em 1959, para encerrar a década de forma colossal, a tecnologia da informação entrega os três últimos pregos no caixão da computação antiga. Se o FORTRAN era para cientistas, os engravatados agora exigem um idioma só para eles, resultando na criação da linguagem de negócios mais longeva e indestrutível da história. Na Califórnia, um físico suíço resolve o pesadelo de fabricação do recém-inventado microchip, descobrindo como "imprimir" transistores de forma plana e protegida, criando a técnica de manufatura que dita a economia global até hoje. E nos laboratórios da IBM, um engenheiro fã de jogos de tabuleiro cria um programa de damas que joga contra si mesmo milhares de vezes até ficar invencível, cunhando oficialmente o termo que definiria o futuro da análise de dados e da Inteligência Artificial moderna. É o ano do COBOL, do Processo Planar e do Batismo do Aprendizado de Máquina.',
+      en: 'In 1959, to close the decade in colossal fashion, information technology drives the final nails into the coffin of old computing. If FORTRAN was for scientists, the business world now demands a language of its own, resulting in the creation of the longest-lived and most indestructible business language in history. In California, a Swiss physicist solves the manufacturing nightmare of the newly invented microchip, discovering how to "print" transistors flat and protected, creating the manufacturing technique that still dictates the global economy. And in IBM laboratories, an engineer who loves board games creates a checkers program that plays against itself thousands of times until it becomes formidable, officially coining the term that would define the future of data analysis and modern Artificial Intelligence. It is the year of COBOL, the Planar Process and the naming of Machine Learning.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Comitê CODASYL (fortemente guiado por Mary K. Hawes e Grace Hopper)',
+        imagePlaceholder: YEAR_1959_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'O Pentágono estava aterrorizado. Cada fabricante de computador (IBM, UNIVAC, Honeywell) usava uma linguagem proprietária diferente. Se o governo ou um banco comprasse uma máquina nova, tinha que reescrever todo o software do zero. Eles reuniram especialistas do governo e das indústrias no comitê CODASYL (Committee on Data Systems Languages) para forjar uma linguagem de negócios universal.',
+          en: 'The Pentagon was terrified. Each computer manufacturer (IBM, UNIVAC, Honeywell) used a different proprietary language. If the government or a bank bought a new machine, all software had to be rewritten from scratch. They brought together government and industry specialists in the CODASYL committee (Committee on Data Systems Languages) to forge a universal business language.',
+        },
+        summary: {
+          pt: 'Eles especificaram em 1959 as bases do COBOL (COmmon Business-Oriented Language). Inspirada na linguagem FLOW-MATIC criada por Grace Hopper anos antes, foi a primeira linguagem de programação projetada especificamente para o processamento de dados administrativos, financeiros e corporativos.',
+          en: 'They specified in 1959 the foundations of COBOL (COmmon Business-Oriented Language). Inspired by the FLOW-MATIC language created by Grace Hopper years earlier, it was the first programming language designed specifically for administrative, financial and corporate data processing.',
+        },
+        role: {
+          pt: 'Criadores do COBOL',
+          en: 'Creators of COBOL',
+        },
+        contribution: {
+          pt: 'Em 1959, o Software virou um Contrato Administrativo. A TI criou uma sintaxe que se lia exatamente como um texto em inglês, permitindo que gerentes entendessem o código dos programadores.',
+          en: 'In 1959, Software became an Administrative Contract. IT created a syntax that read almost like English prose, allowing managers to understand programmers’ code.',
+        },
+        detail: {
+          pt: 'O FORTRAN lidava lindamente com equações de física, mas era péssimo para ler arquivos de texto gigantescos, formatar relatórios ou calcular centavos de juros bancários. O COBOL foi desenhado para mastigar Big Data financeiro. A sua característica mais marcante (e criticada) era a verbosidade: em vez de símbolos complexos, o programador escrevia comandos explícitos como MULTIPLY SALARY BY TAX GIVING RESULT.\n\nPor que isso entra no Hall da Fama da TI?\n\nO COBOL é o "Zumbi Imortal" da tecnologia da informação. Ele foi tão bem-sucedido na sua missão de processar dinheiro e contratos que os bancos e governos nunca conseguiram se livrar dele. Estima-se que, ainda hoje, mais de 60% de todas as transações financeiras do planeta, saques em caixas eletrônicos (ATMs) e sistemas de previdência rodem no fundo em servidores Mainframe mastigando bilhões de linhas de código COBOL escritas nas décadas seguintes a este comitê de 1959.',
+          en: 'FORTRAN handled physics equations beautifully, but it was terrible at reading giant text files, formatting reports or calculating cents of bank interest. COBOL was designed to chew through financial Big Data. Its most striking (and criticized) characteristic was verbosity: instead of complex symbols, the programmer wrote explicit commands such as MULTIPLY SALARY BY TAX GIVING RESULT.\n\nWhy does this belong in the IT Hall of Fame?\n\nCOBOL is the "Immortal Zombie" of information technology. It was so successful in its mission of processing money and contracts that banks and governments never managed to get rid of it. It is estimated that, even today, more than 60% of all financial transactions on the planet, ATM withdrawals and pension systems run in the background on Mainframe servers chewing through billions of lines of COBOL code written in the decades after this 1959 committee.',
+        },
+      },
+      {
+        name: 'Jean Hoerni (Fairchild Semiconductor)',
+        imagePlaceholder: YEAR_1959_PLACEHOLDER,
+        flag: '🇨🇭',
+        nationality: { pt: 'Suíço (naturalizado Americano)', en: 'Swiss (naturalized American)' },
+        formation: {
+          pt: 'Um dos geniais "Oito Traidores" que haviam fundado a Fairchild em 1957. A invenção do Circuito Integrado no ano anterior (1958) era brilhante na teoria, mas os protótipos de laboratório eram montes de cristal 3D cheios de fios microscópicos frágeis e expostos, quase impossíveis de se fabricar em massa com confiabilidade.',
+          en: 'One of the brilliant "Traitorous Eight" who had founded Fairchild in 1957. The invention of the Integrated Circuit the previous year (1958) was brilliant in theory, but laboratory prototypes were 3D piles of crystal full of fragile exposed microscopic wires, almost impossible to mass-produce reliably.',
+        },
+        summary: {
+          pt: 'Inventou e patenteou em 1959 o Processo Planar (Planar Process). Hoerni descobriu que, em vez de construir os transistores "para cima" como pequenos morros na placa, ele poderia usar técnicas de fotografia e química para "imprimi-los" de forma totalmente plana (2D) diretamente na superfície do silício e, o mais importante, selar tudo com uma camada protetora de dióxido de silício (uma espécie de vidro).',
+          en: 'Invented and patented in 1959 the Planar Process. Hoerni discovered that, instead of building transistors "upward" like small hills on the board, he could use photographic and chemical techniques to "print" them completely flat (2D) directly on the silicon surface and, most importantly, seal everything with a protective layer of silicon dioxide (a kind of glass).',
+        },
+        role: {
+          pt: 'Inventor do processo planar',
+          en: 'Inventor of the planar process',
+        },
+        contribution: {
+          pt: 'Em 1959, a Engenharia resolveu o gargalo da Fabricação em Massa. A TI aprendeu a imprimir Hardware complexo como se fossem fotografias numa folha de papel.',
+          en: 'In 1959, Engineering solved the Mass Manufacturing bottleneck. IT learned to print complex Hardware as if it were photographs on a sheet of paper.',
+        },
+        detail: {
+          pt: 'O Processo Planar mudou tudo. Ao selar o chip com dióxido de silício, a poeira e a umidade não destruíam mais os componentes. E por ser um processo "plano", a indústria logo percebeu que poderia usar luz (Fotolitografia) para desenhar não apenas um, mas milhares de circuitos idênticos em uma única "fatia" (wafer) de silício simultaneamente, cortando o preço de cada processador a frações de centavo.\n\nPor que isso entra no Hall da Fama da TI?\n\nRobert Noyce (colega de Hoerni) usaria imediatamente este Processo Planar para transformar o Circuito Integrado numa peça comercial perfeita. O Processo Planar de 1959 é a inovação de manufatura mais crítica do século XX. O processador atual do seu computador não é soldado; ele é impresso microscopicamente usando variações químicas e ópticas desse exato processo inventado por Jean Hoerni.',
+          en: 'The Planar Process changed everything. By sealing the chip with silicon dioxide, dust and moisture no longer destroyed the components. And because it was a "flat" process, the industry soon realized it could use light (photolithography) to draw not just one, but thousands of identical circuits on a single silicon wafer simultaneously, cutting the price of each processor to fractions of a cent.\n\nWhy does this belong in the IT Hall of Fame?\n\nRobert Noyce (Hoerni’s colleague) would immediately use this Planar Process to turn the Integrated Circuit into a perfect commercial part. The 1959 Planar Process is the most critical manufacturing innovation of the 20th century. The processor inside your computer today is not soldered; it is microscopically printed using chemical and optical variations of this exact process invented by Jean Hoerni.',
+        },
+      },
+      {
+        name: 'Arthur Samuel',
+        imagePlaceholder: YEAR_1959_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Engenheiro brilhante e pesquisador da IBM. Ele não era da turma da inteligência artificial acadêmica pura (como McCarthy ou Minsky); ele queria resultados práticos. Ele vinha trabalhando desde os anos 50 em um programa de computador para jogar Damas, usando as máquinas no período da noite, quando estavam ociosas.',
+          en: 'A brilliant engineer and IBM researcher. He was not part of the pure academic artificial intelligence crowd (like McCarthy or Minsky); he wanted practical results. Since the 1950s he had been working on a computer program to play checkers, using the machines at night when they were idle.',
+        },
+        summary: {
+          pt: 'Em 1959, Samuel publicou o artigo histórico "Some Studies in Machine Learning Using the Game of Checkers", onde cunhou oficialmente o termo "Machine Learning" (Aprendizado de Máquina). Ele implementou rotinas onde o programa melhorava sua avaliação de tabuleiro a cada partida disputada.',
+          en: 'In 1959, Samuel published the historic paper "Some Studies in Machine Learning Using the Game of Checkers", where he officially coined the term "Machine Learning". He implemented routines in which the program improved its board evaluation after each game played.',
+        },
+        role: {
+          pt: 'Criador do termo Machine Learning',
+          en: 'Creator of the term Machine Learning',
+        },
+        contribution: {
+          pt: 'Em 1959, a TI abraçou o "Treinamento por Reforço". Um sistema foi programado para não ter as respostas, mas para descobri-las jogando contra si mesmo até se tornar um mestre.',
+          en: 'In 1959, IT embraced "Reinforcement Training". A system was programmed not to have the answers, but to discover them by playing against itself until it became a master.',
+        },
+        detail: {
+          pt: 'O programa de Samuel tinha algoritmos de "poda" avançados (ele olhava jogadas à frente). Mas a grande mágica descrita em 1959 foi a rotina de aprendizado. Samuel fez a máquina jogar contra ela mesma milhares e milhares de vezes. O computador guardava na memória quais configurações de tabuleiro levavam à vitória e quais levavam à derrota, alterando continuamente o "peso" matemático de suas próprias decisões. Logo, o computador de Samuel começou a vencer o próprio Arthur Samuel, e em poucos anos venceria campeões estaduais.\n\nPor que isso entra no Hall da Fama da TI?\n\nEnquanto o termo "Inteligência Artificial" (1955) representava a grande teoria de máquinas pensantes, o termo Machine Learning criado neste ano por Samuel definiu o mecanismo matemático para chegar lá. A premissa de criar um modelo genérico e alimentá-lo com dados de treinamento repetitivos para que ele encontre os próprios padrões é o pilar absoluto da Revolução da IA no século XXI. Todo sistema de recomendação moderno, gerador de texto ou motor de xadrez autônomo executa a filosofia pragmática estabelecida neste jogo de damas corporativo em 1959.',
+          en: 'Samuel’s program had advanced pruning algorithms (it looked ahead through possible moves). But the great magic described in 1959 was the learning routine. Samuel made the machine play against itself thousands and thousands of times. The computer stored in memory which board configurations led to victory and which led to defeat, continually changing the mathematical "weight" of its own decisions. Soon, Samuel’s computer began beating Arthur Samuel himself, and within a few years it would beat state champions.\n\nWhy does this belong in the IT Hall of Fame?\n\nWhile the term "Artificial Intelligence" (1955) represented the grand theory of thinking machines, the term Machine Learning created by Samuel this year defined the mathematical mechanism for getting there. The premise of creating a generic model and feeding it repetitive training data so it can find its own patterns is the absolute pillar of the 21st-century AI Revolution. Every modern recommendation system, text generator or autonomous chess engine executes the pragmatic philosophy established in this corporate checkers game in 1959.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1960,
+    era: {
+      pt: 'O Primeiro Minicomputador, a Matriarca do Código Moderno e o Manifesto da Simbiose',
+      en: 'The First Minicomputer, the Matriarch of Modern Code and the Symbiosis Manifesto',
+    },
+    context: {
+      pt: 'A década vira, e em 1960 a tecnologia da informação deixa de ser um "oráculo" distante em uma sala trancada para se tornar, pela primeira vez, uma extensão interativa da mente humana. Em Massachusetts, o homem que havia construído a máquina rebelde do MIT nos anos 50 lança sua própria empresa e entrega um computador do tamanho de uma geladeira (e não de uma casa), fundando a indústria de minicomputadores e a verdadeira cultura hacker. Na Europa, uma aliança global de gênios da computação senta para organizar a bagunça das linguagens e publica um manual de gramática tão perfeito que ditaria a estrutura de quase todo código escrito no século XXI. E em um ensaio revolucionário, um psicólogo prevê que o futuro não é o computador calcular sozinho, mas sim "pensar junto" com o humano em tempo real, desenhando o roteiro intelectual que financiaria a invenção da Internet e do mouse na década seguinte. É o ano do DEC PDP-1, da Especificação do ALGOL 60 e do ensaio Man-Computer Symbiosis.',
+      en: 'The decade turns, and in 1960 information technology stops being a distant "oracle" in a locked room and becomes, for the first time, an interactive extension of the human mind. In Massachusetts, the man who had built MIT’s rebellious machine in the 1950s launches his own company and delivers a computer the size of a refrigerator (not a house), founding the minicomputer industry and true hacker culture. In Europe, a global alliance of computing geniuses sits down to organize the chaos of programming languages and publishes a grammar manual so perfect that it would dictate the structure of almost all code written in the 21st century. And in a revolutionary essay, a psychologist predicts that the future is not the computer calculating alone, but "thinking together" with the human in real time, drawing the intellectual roadmap that would fund the invention of the Internet and the mouse in the following decade. It is the year of the DEC PDP-1, the ALGOL 60 specification and the essay Man-Computer Symbiosis.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Ken Olsen e a Digital Equipment Corporation (DEC)',
+        imagePlaceholder: YEAR_1960_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Olsen era o lendário engenheiro do MIT que havia ajudado a construir o computador interativo TX-0 (em 1956). Cansado da burocracia dos mainframes gigantes da IBM, ele fundou a DEC com a premissa de que os computadores deveriam ser máquinas acessíveis e divertidas para os engenheiros operarem com as próprias mãos.',
+          en: 'Olsen was the legendary MIT engineer who had helped build the interactive TX-0 computer (in 1956). Tired of the bureaucracy around IBM’s giant mainframes, he founded DEC on the premise that computers should be accessible and enjoyable machines for engineers to operate with their own hands.',
+        },
+        summary: {
+          pt: 'Lançou comercialmente no final de 1960 o PDP-1 (Programmed Data Processor-1). Custando "apenas" 120 mil dólares (uma pechincha comparada aos milhões cobrados pelos mainframes), ele vinha equipado de fábrica com um monitor de raios catódicos interativo, teclado de máquina de escrever e não precisava de ar-condicionado especial. Tratava-se do primeiro Minicomputador comercial de sucesso da história.',
+          en: 'Commercially launched in late 1960 the PDP-1 (Programmed Data Processor-1). Costing "only" 120 thousand dollars (a bargain compared to the millions charged for mainframes), it came from the factory with an interactive CRT monitor, typewriter keyboard and no need for special air conditioning. It was the first commercially successful Minicomputer in history.',
+        },
+        role: {
+          pt: 'Criadores do PDP-1',
+          en: 'Creators of the PDP-1',
+        },
+        contribution: {
+          pt: 'Em 1960, a TI encolheu o Monstro. O "Minicomputador" descentralizou o poder de processamento, tirando a máquina das mãos dos burocratas de terno e entregando-a aos laboratórios de pesquisa.',
+          en: 'In 1960, IT shrank the Monster. The "Minicomputer" decentralized processing power, taking the machine out of the hands of suited bureaucrats and delivering it to research laboratories.',
+        },
+        detail: {
+          pt: 'A IBM vendia máquinas que calculavam folhas de pagamento em lote (batch). O PDP-1 foi criado para a interação em tempo real. Ele ligava rápido, não precisava de uma equipe de 10 operadores para funcionar e permitia que o usuário visse o código rodando instantaneamente na tela luminosa. Ele era uma máquina feita por engenheiros para engenheiros.\n\nPor que isso entra no Hall da Fama da TI?\n\nO PDP-1 gestou a Cultura Hacker. Como a máquina era acessível e convidativa, os estudantes de universidades como o MIT finalmente podiam varar as madrugadas testando os limites do hardware. Foi exatamente no PDP-1 que, pouco tempo depois, um grupo de estudantes escreveria o lendário Spacewar! (o primeiro videogame digital interativo da história). A DEC dominaria as próximas duas décadas vendendo minicomputadores e preparando o mercado para a futura revolução dos Computadores Pessoais (PCs).',
+          en: 'IBM sold machines that calculated payroll in batch mode. The PDP-1 was created for real-time interaction. It booted quickly, did not need a team of 10 operators to function, and allowed the user to see code running instantly on the glowing screen. It was a machine made by engineers for engineers.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe PDP-1 gestated Hacker Culture. Because the machine was accessible and inviting, students at universities such as MIT could finally spend nights testing the limits of the hardware. It was exactly on the PDP-1 that, soon afterward, a group of students would write the legendary Spacewar! (the first interactive digital video game in history). DEC would dominate the next two decades selling minicomputers and preparing the market for the future Personal Computer (PC) revolution.',
+        },
+      },
+      {
+        name: 'Comitê Internacional (com John Backus, Peter Naur, Alan Perlis, entre outros)',
+        imagePlaceholder: YEAR_1960_PLACEHOLDER,
+        flag: '🌐',
+        nationality: { pt: 'Americanos e Europeus', en: 'Americans and Europeans' },
+        formation: {
+          pt: 'Uma aliança sem precedentes entre cientistas da computação dos EUA e da Europa. Eles perceberam que o FORTRAN (de 1957) era ótimo, mas muito amarrado à arquitetura específica da IBM. Eles queriam uma linguagem universal para pesquisa algorítmica pura, uma que pudesse ser lida como matemática perfeita e traduzida para qualquer máquina.',
+          en: 'An unprecedented alliance between computer scientists from the United States and Europe. They realized that FORTRAN (from 1957) was great, but too tied to IBM’s specific architecture. They wanted a universal language for pure algorithmic research, one that could be read like perfect mathematics and translated to any machine.',
+        },
+        summary: {
+          pt: 'Publicaram o "Report on the Algorithmic Language ALGOL 60". O ALGOL não foi a linguagem mais usada comercialmente, mas o documento que a definiu introduziu a Forma de Backus-Naur (BNF), uma notação matemática para definir a gramática de uma linguagem, e inventou o conceito de "Escopo Léxico" e "Blocos de Código".',
+          en: 'Published the "Report on the Algorithmic Language ALGOL 60". ALGOL was not the most commercially used language, but the document defining it introduced Backus-Naur Form (BNF), a mathematical notation for defining a language grammar, and invented the concepts of "Lexical Scope" and "Code Blocks".',
+        },
+        role: {
+          pt: 'Criadores do ALGOL 60',
+          en: 'Creators of ALGOL 60',
+        },
+        contribution: {
+          pt: 'Em 1960, a Engenharia de Software ganhou a sua "Árvore Genealógica". O código parou de ser uma linha infinita de comandos soltos e passou a ser organizado em "Blocos" que nascem e morrem.',
+          en: 'In 1960, Software Engineering gained its "Family Tree". Code stopped being an infinite line of loose commands and began to be organized into "Blocks" that are born and die.',
+        },
+        detail: {
+          pt: 'Antes do ALGOL 60, se você criasse a variável "X", ela existia para o programa inteiro, causando bugs terríveis. O ALGOL inventou a estrutura de aninhamento usando as palavras begin e end. Se você criasse o "X" dentro de um bloco, ele morria quando o bloco terminava. Além disso, a notação BNF criada por Backus e Naur permitia que um programador escrevesse as regras do compilador com rigor matemático absoluto.\n\nPor que isso entra no Hall da Fama da TI?\n\nO ALGOL 60 é o "Latim" das linguagens de programação. Embora o COBOL e o FORTRAN tenham dominado os anos 60 comercialmente, o ALGOL venceu a guerra da arquitetura a longo prazo. Toda a família de linguagens C, C++, Java, C#, JavaScript e incontáveis outras são descendentes estruturais diretas do ALGOL. Toda vez que você abre chaves { e fecha chaves } para isolar uma função em um projeto moderno, você está executando o protocolo de "bloco" inventado por esse comitê em 1960.',
+          en: 'Before ALGOL 60, if you created the variable "X", it existed for the entire program, causing terrible bugs. ALGOL invented the nesting structure using the words begin and end. If you created "X" inside a block, it died when the block ended. In addition, the BNF notation created by Backus and Naur allowed a programmer to write compiler rules with absolute mathematical rigor.\n\nWhy does this belong in the IT Hall of Fame?\n\nALGOL 60 is the "Latin" of programming languages. Although COBOL and FORTRAN dominated the 1960s commercially, ALGOL won the long-term architecture war. The entire family of languages C, C++, Java, C#, JavaScript and countless others are direct structural descendants of ALGOL. Every time you open braces { and close braces } to isolate a function in a modern project, you are executing the "block" protocol invented by this committee in 1960.',
+        },
+      },
+      {
+        name: 'J.C.R. Licklider',
+        imagePlaceholder: YEAR_1960_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Um caso raro: ele não era matemático ou engenheiro elétrico, mas sim um psicólogo e especialista em psicoacústica. Ao ter contato com os computadores militares do MIT, ele percebeu algo que os engenheiros ignoravam: a máquina não era apenas uma calculadora super-rápida, era um meio de comunicação formidável.',
+          en: 'A rare case: he was not a mathematician or electrical engineer, but a psychologist and psychoacoustics specialist. After contact with MIT’s military computers, he realized something engineers were ignoring: the machine was not only a super-fast calculator, it was a formidable communication medium.',
+        },
+        summary: {
+          pt: 'Publicou em março de 1960 o artigo seminal "Man-Computer Symbiosis" (Simbiose Homem-Computador). Neste ensaio teórico, ele mudou o foco da Inteligência Artificial (que tentava substituir o humano) para a "Ampliação da Inteligência", prevendo que mentes humanas e computadores formariam uma parceria inseparável.',
+          en: 'Published in March 1960 the seminal paper "Man-Computer Symbiosis". In this theoretical essay, he shifted the focus of Artificial Intelligence (which tried to replace the human) toward "Intelligence Amplification", predicting that human minds and computers would form an inseparable partnership.',
+        },
+        role: {
+          pt: 'Visionário da simbiose homem-computador',
+          en: 'Visionary of man-computer symbiosis',
+        },
+        contribution: {
+          pt: 'Em 1960, a TI desenhou o "Mapa do Futuro". Um psicólogo previu a Computação Pessoal e a Internet anos antes da tecnologia necessária sequer existir.',
+          en: 'In 1960, IT drew the "Map of the Future". A psychologist predicted Personal Computing and the Internet years before the necessary technology even existed.',
+        },
+        detail: {
+          pt: 'No ensaio, Licklider previu com precisão assustadora que em poucos anos estaríamos usando interfaces gráficas com telas, que os computadores formariam uma "rede intergaláctica" para compartilhar bancos de dados e que a máquina faria todo o processamento bruto, enquanto o humano faria as conexões criativas em tempo real. Ele propôs que deixar os computadores operando em lote (batch) era um desperdício; nós precisávamos de "Time-Sharing" (tempo compartilhado) para que milhares de usuários conversassem com as máquinas simultaneamente.\n\nPor que isso entra no Hall da Fama da TI?\n\nEste documento não é apenas teoria; ele é a planta-baixa da era digital. O poder de Licklider foi tão imenso que ele foi contratado para chefiar a recém-criada agência governamental ARPA (hoje DARPA). Lá dentro, ele usou a filosofia deste ensaio para financiar as pesquisas de Douglas Engelbart (que inventaria o mouse e a interface de janelas anos depois) e direcionou o orçamento militar pesado que acabaria construindo a ARPANET (a avó da Internet). A ideia de que você senta em frente a uma tela com o seu computador hoje não é um acidente; foi arquitetada por Licklider em 1960.',
+          en: 'In the essay, Licklider predicted with frightening accuracy that within a few years we would be using graphical interfaces with screens, that computers would form an "intergalactic network" to share databases, and that the machine would do all brute-force processing while the human made creative connections in real time. He proposed that leaving computers operating in batch mode was wasteful; we needed "Time-Sharing" so thousands of users could talk to machines simultaneously.\n\nWhy does this belong in the IT Hall of Fame?\n\nThis document is not only theory; it is the floor plan of the digital era. Licklider’s influence was so immense that he was hired to lead the newly created government agency ARPA (now DARPA). There, he used the philosophy of this essay to fund Douglas Engelbart’s research (which would invent the mouse and windowed interfaces years later) and directed the heavy military budget that would eventually build ARPANET (the grandmother of the Internet). The fact that you sit in front of a screen with your computer today is not an accident; it was architected by Licklider in 1960.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1961,
+    era: {
+      pt: 'A Invenção do Multitasking, o Primeiro Robô Operacional e o Nascimento dos Videogames',
+      en: 'The Invention of Multitasking, the First Operational Robot and the Birth of Video Games',
+    },
+    context: {
+      pt: 'A década avança, e em 1961 a tecnologia da informação quebra três barreiras intransponíveis: o gargalo de uso exclusivo, a restrição ao mundo digital e a seriedade corporativa. No MIT, um engenheiro cansado de esperar horas na fila para usar o computador cria um truque de software milagroso que "fatia" o tempo da CPU, permitindo que dezenas de usuários acessem a mesma máquina ao mesmo tempo, inventando o conceito de login e senha. Nas fábricas de Nova Jersey, a TI ganha corpo físico: o primeiro braço mecânico gigante programado por memória magnética é ligado em uma linha de montagem da Ford/GM, inaugurando a era da robótica industrial. E de volta ao laboratório do MIT, estudantes usam o recém-lançado minicomputador PDP-1 para algo impensável na Guerra Fria: escrever código puramente por diversão, criando a primeira simulação física interativa e fundando a bilionária indústria dos videogames digitais. É o ano do Sistema CTSS, do Robô Unimate e do Spacewar!.',
+      en: 'The decade advances, and in 1961 information technology breaks three seemingly impossible barriers: exclusive-use bottlenecks, confinement to the digital world and corporate seriousness. At MIT, an engineer tired of waiting hours in line to use the computer creates a miraculous software trick that "slices" CPU time, allowing dozens of users to access the same machine at the same time, inventing the concepts of login and password. In New Jersey factories, IT gains a physical body: the first giant mechanical arm programmed by magnetic memory is connected to a Ford/GM assembly line, inaugurating the era of industrial robotics. And back in the MIT laboratory, students use the newly launched PDP-1 minicomputer for something unthinkable in the Cold War: writing code purely for fun, creating the first interactive physics simulation and founding the billion-dollar digital video game industry. It is the year of CTSS, the Unimate Robot and Spacewar!.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Fernando Corbató e a equipe do MIT',
+        imagePlaceholder: YEAR_1961_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Um físico brilhante que administrava o colossal computador IBM 709 do MIT. O modelo da época era brutal: apenas uma pessoa rodava um programa por vez. Se o seu programa levasse 5 minutos para rodar, a universidade inteira tinha que esperar você terminar. Corbató decidiu usar a visão do ensaio de Licklider (de 1960) para destruir a fila de espera.',
+          en: 'A brilliant physicist who managed MIT’s colossal IBM 709 computer. The model of the time was brutal: only one person ran one program at a time. If your program took 5 minutes to run, the entire university had to wait for you to finish. Corbató decided to use the vision of Licklider’s 1960 essay to destroy the waiting line.',
+        },
+        summary: {
+          pt: 'Apresentou em novembro de 1961 a primeira demonstração bem-sucedida do CTSS (Compatible Time-Sharing System). Foi o primeiro sistema operacional de Tempo Compartilhado. Para que o sistema não misturasse os arquivos dos estudantes, Corbató inventou, pela primeira vez na história, o conceito da Senha de Usuário (User Password) digital.',
+          en: 'Presented in November 1961 the first successful demonstration of CTSS (Compatible Time-Sharing System). It was the first Time-Sharing operating system. So the system would not mix students’ files, Corbató invented, for the first time in history, the concept of the digital User Password.',
+        },
+        role: {
+          pt: 'Criadores do CTSS',
+          en: 'Creators of CTSS',
+        },
+        contribution: {
+          pt: 'Em 1961, a TI inventou a Ilusão da Computação Simultânea. A máquina tornou-se rápida o suficiente para "piscar" sua atenção entre múltiplos usuários em milissegundos.',
+          en: 'In 1961, IT invented the Illusion of Simultaneous Computing. The machine became fast enough to "blink" its attention among multiple users in milliseconds.',
+        },
+        detail: {
+          pt: 'A genialidade de Corbató foi perceber que a CPU era milhares de vezes mais rápida que o humano digitando. O CTSS atendia o Usuário A por 0,2 segundos, salvava o estado dele, mudava para o Usuário B por 0,2 segundos, e assim por diante. Para o humano sentado no terminal, parecia que ele tinha o supercomputador inteiro só para ele, mas na verdade a máquina estava jonglando dezenas de pessoas simultaneamente. E, para proteger a privacidade de cada fatia de tempo, Corbató exigiu que cada pesquisador tivesse uma chave secreta atrelada ao seu nome.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Time-Sharing mudou a economia da TI. Em vez de comprar dez computadores, uma universidade comprava um supercomputador e puxava dezenas de cabos para monitores "burros" nas salas dos professores. Esse compartilhamento de recursos é a base lógica do que viria a ser a Internet e a computação em Nuvem (Cloud Computing). E a invenção da senha de usuário feita por Corbató neste exato sistema fundou sozinho o campo prático da Segurança da Informação.',
+          en: 'Corbató’s genius was realizing that the CPU was thousands of times faster than the human typing. CTSS served User A for 0.2 seconds, saved that state, switched to User B for 0.2 seconds, and so on. To the human sitting at the terminal, it seemed like the whole supercomputer belonged to them, but in reality the machine was juggling dozens of people simultaneously. And to protect the privacy of each time slice, Corbató required every researcher to have a secret key tied to their name.\n\nWhy does this belong in the IT Hall of Fame?\n\nTime-Sharing changed the economics of IT. Instead of buying ten computers, a university bought one supercomputer and pulled dozens of cables to "dumb" terminals in professors’ rooms. This resource sharing is the logical basis of what would become the Internet and Cloud Computing. And the user password invented by Corbató in this exact system founded the practical field of Information Security on its own.',
+        },
+      },
+      {
+        name: 'George Devol e Joseph Engelberger (Unimation)',
+        imagePlaceholder: YEAR_1961_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Devol era um inventor focado em memórias magnéticas, e Engelberger era um físico fascinado pelas histórias de robôs do escritor Isaac Asimov. Juntos, eles decidiram que o mundo industrial não precisava apenas de computadores calculando juros em bancos, precisava de hardware comandando força bruta física.',
+          en: 'Devol was an inventor focused on magnetic memories, and Engelberger was a physicist fascinated by the robot stories of writer Isaac Asimov. Together, they decided the industrial world did not only need computers calculating interest in banks; it needed hardware commanding physical brute force.',
+        },
+        summary: {
+          pt: 'Construíram e instalaram em 1961 (na fábrica da General Motors em Trenton, Nova Jersey) o Unimate, o primeiro Robô Industrial autônomo do planeta. Era um imenso braço hidráulico de quase duas toneladas controlado por um cérebro digital de fitas magnéticas e tambores.',
+          en: 'Built and installed in 1961 (at the General Motors factory in Trenton, New Jersey) the Unimate, the planet’s first autonomous Industrial Robot. It was an immense hydraulic arm of nearly two tons controlled by a digital brain of magnetic tapes and drums.',
+        },
+        role: {
+          pt: 'Criadores do Unimate',
+          en: 'Creators of Unimate',
+        },
+        contribution: {
+          pt: 'Em 1961, a Engenharia de Software cruzou a ponte para o Mundo Físico. O algoritmo não cuspiu um resultado no papel; ele executou uma ação cinética no mundo real.',
+          en: 'In 1961, Software Engineering crossed the bridge into the Physical World. The algorithm did not spit out a result on paper; it executed a kinetic action in the real world.',
+        },
+        detail: {
+          pt: 'Até então, as máquinas de automação de fábricas eram controladas por "cames" físicos (peças de metal esculpidas que empurravam engrenagens). O Unimate foi revolucionário porque ele não precisava ser desmontado para trocar de tarefa. O braço do robô gravava seus movimentos como coordenadas digitais (Zeros e Uns) em um tambor magnético. O primeiro trabalho do Unimate na GM foi pegar peças de metal em brasa escaldante que saíam das fornalhas de fundição e mergulhá-las em tanques de resfriamento, um trabalho letal para os humanos.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Unimate marca o nascimento da Automação Robótica Programável. Engelberger ficou conhecido como o "Pai da Robótica Industrial". Ao comprovar que um sistema digital poderia ler inputs de posição e acionar servomotores hidráulicos com precisão milimétrica e repetição infinita sem se cansar, essa máquina iniciou a linha evolutiva que nos levou à revolução das montadoras no Japão nos anos 70, às fábricas automatizadas da Tesla e aos braços cirúrgicos de precisão controlados por IA hoje.',
+          en: 'Until then, factory automation machines were controlled by physical cams (sculpted metal pieces that pushed gears). Unimate was revolutionary because it did not need to be dismantled to change tasks. The robot arm recorded its movements as digital coordinates (zeros and ones) on a magnetic drum. Unimate’s first job at GM was to pick up red-hot metal parts coming out of foundry furnaces and plunge them into cooling tanks, a lethal job for humans.\n\nWhy does this belong in the IT Hall of Fame?\n\nUnimate marks the birth of Programmable Robotic Automation. Engelberger became known as the "Father of Industrial Robotics". By proving that a digital system could read position inputs and actuate hydraulic servomotors with millimeter precision and infinite repetition without getting tired, this machine began the evolutionary line that led to the revolution of Japanese automakers in the 1970s, Tesla’s automated factories and today’s AI-controlled precision surgical arms.',
+        },
+      },
+      {
+        name: 'Steve Russell e o Tech Model Railroad Club (TMRC) do MIT',
+        imagePlaceholder: YEAR_1961_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Um grupo de estudantes de engenharia brilhantes (os "hackers" originais) que tiveram acesso ilimitado ao recém-comprado minicomputador PDP-1 da DEC (lançado no ano anterior, 1960). O PDP-1 tinha uma tela CRT luminosa redonda (como um radar) e eles queriam escrever o código definitivo para testar a potência de processamento do hardware.',
+          en: 'A group of brilliant engineering students (the original "hackers") who had unlimited access to DEC’s newly purchased PDP-1 minicomputer (launched the previous year, 1960). The PDP-1 had a round glowing CRT screen (like radar), and they wanted to write the definitive code to test the processing power of the hardware.',
+        },
+        summary: {
+          pt: 'No final de 1961 (e finalizado em 1962), Steve "Slug" Russell e seus colegas escreveram o código para o Spacewar!. Foi o primeiro jogo de computador digital interativo de amplo alcance da história, rodando um combate de naves espaciais para dois jogadores.',
+          en: 'In late 1961 (and completed in 1962), Steve "Slug" Russell and his colleagues wrote the code for Spacewar!. It was the first widely influential interactive digital computer game in history, running a two-player spaceship battle.',
+        },
+        role: {
+          pt: 'Criadores do Spacewar!',
+          en: 'Creators of Spacewar!',
+        },
+        contribution: {
+          pt: 'Em 1961, a TI descobriu o Entretenimento Virtual. A tela do computador deixou de ser um painel de monitoramento cego para se tornar um espaço de simulação regido pela física.',
+          en: 'In 1961, IT discovered Virtual Entertainment. The computer screen stopped being a blind monitoring panel and became a simulation space governed by physics.',
+        },
+        detail: {
+          pt: 'Spacewar! não era um joguinho simples de ping-pong. Russell programou as leis de Isaac Newton. Havia uma estrela massiva no centro da tela puxando as naves com uma gravidade matematicamente calculada em tempo real. Os jogadores controlavam a rotação e o empuxo da nave de forma vetorizada, atirando torpedos balísticos limitados. O jogo foi tão perfeitamente bem programado que exigia que a CPU do PDP-1 calculasse constantemente a trajetória e as colisões a 30 quadros por segundo.\n\nPor que isso entra no Hall da Fama da TI?\n\nO impacto de Spacewar! foi astronômico. Ele se espalhou pelo país, com a DEC passando a usá-lo como o programa oficial de "teste de estresse" para provar para os clientes que seus novos computadores funcionavam. Ao provar que a computação interativa tinha apelo comercial, estético e lúdico, este código feito por estudantes em 1961 lançou as sementes que levariam Nolan Bushnell a tentar copiar o jogo uma década depois, levando à fundação da Atari e à criação da colossal indústria bilionária do Gaming e da placa de vídeo (GPU) que conhecemos hoje.',
+          en: 'Spacewar! was not a simple little ping-pong game. Russell programmed Isaac Newton’s laws. There was a massive star at the center of the screen pulling ships with mathematically calculated gravity in real time. Players controlled ship rotation and thrust vectorially, firing limited ballistic torpedoes. The game was so perfectly programmed that it required the PDP-1 CPU to constantly calculate trajectories and collisions at 30 frames per second.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe impact of Spacewar! was astronomical. It spread across the country, with DEC using it as the official "stress test" program to prove to customers that its new computers worked. By proving that interactive computing had commercial, aesthetic and playful appeal, this code written by students in 1961 planted the seeds that would lead Nolan Bushnell to try to copy the game a decade later, leading to Atari’s founding and the creation of the colossal billion-dollar Gaming and graphics card (GPU) industry we know today.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1962,
+    era: {
+      pt: 'O Truque da "Memória Infinita", a Rede Indestrutível e o Roteador Espacial',
+      en: 'The "Infinite Memory" Trick, the Indestructible Network and the Space Router',
+    },
+    context: {
+      pt: 'Em 1962, o ano em que o mundo quase acaba na Crise dos Mísseis de Cuba, a tecnologia da informação responde ao medo do apocalipse nuclear quebrando as fronteiras geográficas e os limites físicos do próprio hardware. Na Inglaterra, engenheiros geniais entregam o supercomputador mais poderoso do mundo e inventam um truque de mágica algorítmico genial que faz o computador acreditar que possui muito mais memória RAM do que realmente tem, fundando o conceito de Memória Virtual. Nos Estados Unidos, um pesquisador desenha uma teoria de telecomunicações baseada em fatiar informações em pequenos "pacotes" autônomos para garantir que uma rede de computadores continue funcionando mesmo que metade dela seja vaporizada por uma bomba atômica. E na órbita da Terra, o governo americano e a iniciativa privada lançam o primeiro satélite de comunicação ativo da história, retransmitindo dados e vídeo ao vivo através de continentes e provando que a profecia espacial de 1945 era real. É o ano do Computador Atlas, da Comutação de Pacotes e do Satélite Telstar 1.',
+      en: 'In 1962, the year the world nearly ends during the Cuban Missile Crisis, information technology responds to the fear of nuclear apocalypse by breaking geographic borders and the physical limits of hardware itself. In England, brilliant engineers deliver the world’s most powerful supercomputer and invent an ingenious algorithmic magic trick that makes the computer believe it has far more RAM than it really does, founding the concept of Virtual Memory. In the United States, a researcher designs a telecommunications theory based on slicing information into small autonomous "packets" to ensure a computer network keeps functioning even if half of it is vaporized by an atomic bomb. And in Earth orbit, the American government and private industry launch the first active communications satellite in history, relaying live data and video across continents and proving that the 1945 space prophecy was real. It is the year of the Atlas Computer, Packet Switching and the Telstar 1 satellite.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Tom Kilburn e a equipe da Universidade de Manchester (com a Ferranti e Plessey)',
+        imagePlaceholder: YEAR_1962_PLACEHOLDER,
+        flag: '🇬🇧',
+        nationality: { pt: 'Britânicos', en: 'British' },
+        formation: {
+          pt: 'A mesmíssima equipe lendária de engenheiros de hardware do Reino Unido que havia rodado o primeiro software na memória (o "Baby" em 1948) e construído o computador transistorizado (1953). Em 1962, eles entregaram a sua "Obra Prima" final patrocinada pelo governo.',
+          en: 'The very same legendary United Kingdom hardware engineering team that had run the first software in memory (the "Baby" in 1948) and built the transistorized computer (1953). In 1962, they delivered their final government-sponsored masterpiece.',
+        },
+        summary: {
+          pt: 'Inauguraram oficialmente em 1962 o Computador Atlas. Na época de sua ativação, era o computador mais rápido do mundo. No entanto, sua contribuição imortal para a ciência da computação foi a invenção e implementação da Memória Virtual (através de um processo chamado Paging ou Paginação).',
+          en: 'Officially inaugurated in 1962 the Atlas Computer. At the time of its activation, it was the fastest computer in the world. However, its immortal contribution to computer science was the invention and implementation of Virtual Memory (through a process called Paging).',
+        },
+        role: {
+          pt: 'Criadores do Atlas e da memória virtual',
+          en: 'Creators of Atlas and virtual memory',
+        },
+        contribution: {
+          pt: 'Em 1962, o Sistema Operacional aprendeu a "mentir" para o Software. A TI provou que programas colossais poderiam rodar mesmo se a memória RAM do computador fosse minúscula.',
+          en: 'In 1962, the Operating System learned to "lie" to Software. IT proved that colossal programs could run even if the computer’s RAM was tiny.',
+        },
+        detail: {
+          pt: 'Antes do Atlas, se um programador escrevesse um código que exigisse 10 MB de espaço, mas o computador só tivesse 2 MB de RAM cara (núcleo magnético), o programa travava e não rodava. A genialidade da equipe de Kilburn foi fazer o sistema operacional dividir a memória em pequenas "páginas". O Atlas mantinha na RAM super-rápida apenas a página que o processador estava usando no exato milissegundo; o resto do código ficava guardado no tambor magnético (disco) lento. Quando a CPU precisava do resto, o sistema trocava as páginas (swapping) invisivelmente. Para o programador, parecia que a máquina tinha espaço infinito.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem a Memória Virtual, a computação moderna entraria em colapso. Se o seu computador ou celular hoje não tem memória RAM suficiente para abrir 50 abas no Google Chrome ao mesmo tempo que roda o Docker ou um modelo pesado de IA, ele não explode; o sistema operacional usa silenciosamente uma parte do seu SSD/HD para simular mais RAM (o famoso arquivo de swap no Linux ou arquivo de paginação no Windows). A matemática e a arquitetura desse truque milagroso foram inventadas neste supercomputador britânico de 1962.',
+          en: 'Before Atlas, if a programmer wrote code requiring 10 MB of space, but the computer had only 2 MB of expensive RAM (magnetic core), the program crashed and would not run. The genius of Kilburn’s team was making the operating system divide memory into small "pages". Atlas kept in super-fast RAM only the page the processor was using at that exact millisecond; the rest of the code stayed stored on the slower magnetic drum (disk). When the CPU needed the rest, the system invisibly swapped pages. To the programmer, it seemed the machine had infinite space.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout Virtual Memory, modern computing would collapse. If your computer or phone today does not have enough RAM to open 50 Chrome tabs while running Docker or a heavy AI model, it does not explode; the operating system quietly uses part of your SSD/HD to simulate more RAM (the famous swap file on Linux or paging file on Windows). The mathematics and architecture of this miraculous trick were invented in this British supercomputer of 1962.',
+        },
+      },
+      {
+        name: 'Paul Baran (RAND Corporation)',
+        imagePlaceholder: YEAR_1962_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano (nascido na Polônia)', en: 'American (born in Poland)' },
+        formation: {
+          pt: 'Engenheiro elétrico focado em sistemas de comunicação para a corporação RAND (um laboratório de pesquisa estratégica das Forças Armadas dos EUA). No ápice da Guerra Fria, o Pentágono fez uma pergunta aterrorizante a Baran: "Se os soviéticos jogarem uma bomba atômica no nosso centro de telecomunicações telefônicas, como nossos computadores e bases de mísseis vão se comunicar para revidar?"',
+          en: 'An electrical engineer focused on communication systems for the RAND Corporation (a strategic research laboratory for the U.S. Armed Forces). At the height of the Cold War, the Pentagon asked Baran a terrifying question: "If the Soviets drop an atomic bomb on our telephone telecommunications center, how will our computers and missile bases communicate to retaliate?"',
+        },
+        summary: {
+          pt: 'Baran publicou em 1962 o trabalho pioneiro "On Distributed Communications Networks". Nele, ele inventou a arquitetura teórica de redes em malha distribuída e o conceito revolucionário de transmissão de dados em blocos independentes (que mais tarde seria batizado de Comutação de Pacotes - Packet Switching).',
+          en: 'Baran published in 1962 the pioneering work "On Distributed Communications Networks". In it, he invented the theoretical architecture of distributed mesh networks and the revolutionary concept of transmitting data in independent blocks (which would later be called Packet Switching).',
+        },
+        role: {
+          pt: 'Pioneiro da comutação de pacotes',
+          en: 'Pioneer of packet switching',
+        },
+        contribution: {
+          pt: 'Em 1962, a TI desenhou o protocolo de rede impossível de ser destruído. A informação parou de viajar inteira por um único cabo e passou a ser "fatiada e espalhada" por dezenas de rotas dinâmicas.',
+          en: 'In 1962, IT designed the network protocol that was impossible to destroy. Information stopped traveling whole through a single cable and began to be "sliced and scattered" across dozens of dynamic routes.',
+        },
+        detail: {
+          pt: 'A rede telefônica da época era centralizada: se o poste central caísse, a cidade ficava muda. A solução de Baran foi uma rede distribuída (como uma teia de aranha). A genialidade foi como enviar o dado: em vez de reservar um cabo fixo de Nova York a Washington, o computador de origem picota a mensagem em pequenos "blocos". Cada bloco é atirado na teia de forma autônoma. Se um nó da rede estiver destruído ou congestionado, o bloco simplesmente desvia e pega outra rota. Ao chegar no destino, o computador reagrupa os blocos na ordem certa.\n\nPor que isso entra no Hall da Fama da TI?\n\nA teoria da Comutação de Pacotes de Paul Baran é o sangue e o sistema nervoso da Internet. Anos depois, a ARPANET seria construída com base direta nessa arquitetura de blocos resilientes. Quando você assiste a um vídeo no YouTube ou baixa um pacote no Node.js, o arquivo não vem inteiro num "tubo" direto para você. Ele é triturado em milhares de pacotes TCP/IP microscópicos que viajam por cabos submarinos e satélites de forma caótica pelo mundo todo antes de serem remontados milissegundos depois na sua placa de rede, validando a genialidade desta teoria militar de 1962.',
+          en: 'The telephone network of the time was centralized: if the central pole fell, the city went silent. Baran’s solution was a distributed network (like a spiderweb). The genius was how to send data: instead of reserving a fixed cable from New York to Washington, the source computer chopped the message into small "blocks". Each block was thrown into the web autonomously. If a network node was destroyed or congested, the block simply detoured and took another route. On arrival, the destination computer regrouped the blocks in the right order.\n\nWhy does this belong in the IT Hall of Fame?\n\nPaul Baran’s Packet Switching theory is the blood and nervous system of the Internet. Years later, ARPANET would be built directly on this architecture of resilient blocks. When you watch a YouTube video or download a Node.js package, the file does not come whole through a direct "tube" to you. It is crushed into thousands of microscopic TCP/IP packets that travel chaotically across submarine cables and satellites around the world before being reassembled milliseconds later on your network card, validating the genius of this 1962 military theory.',
+        },
+      },
+      {
+        name: 'Bell Labs, NASA e AT&T',
+        imagePlaceholder: YEAR_1962_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Um esforço conjunto massivo da corporação de telecomunicações mais poderosa da Terra (AT&T) com a agência espacial do governo (NASA). Eles olharam para o artigo de Arthur C. Clarke escrito em 1945 e decidiram que a tecnologia de transistores de silício e foguetes finalmente permitia colocar um roteador no espaço.',
+          en: 'A massive joint effort by the most powerful telecommunications corporation on Earth (AT&T) and the government space agency (NASA). They looked at Arthur C. Clarke’s 1945 article and decided that silicon transistor and rocket technology finally made it possible to put a router in space.',
+        },
+        summary: {
+          pt: 'No dia 10 de julho de 1962, lançaram e ativaram o Telstar 1. Embora fosse uma esfera coberta de painéis solares medindo menos de um metro, foi o primeiro satélite de comunicações ativo e direto do mundo, capaz de amplificar e retransmitir sinais.',
+          en: 'On July 10, 1962, they launched and activated Telstar 1. Although it was a sphere covered in solar panels measuring less than a meter, it was the world’s first active direct communications satellite, capable of amplifying and retransmitting signals.',
+        },
+        role: {
+          pt: 'Criadores do Telstar 1',
+          en: 'Creators of Telstar 1',
+        },
+        contribution: {
+          pt: 'Em 1962, o Networking rompeu a atmosfera. A TI provou que transistores orbitais poderiam retransmitir pacotes massivos de dados digitais, telefone e vídeo através do Oceano Atlântico em tempo real.',
+          en: 'In 1962, Networking broke through the atmosphere. IT proved that orbital transistors could retransmit massive packets of digital data, telephone and video across the Atlantic Ocean in real time.',
+        },
+        detail: {
+          pt: 'Até o Telstar, a comunicação intercontinental exigia cabos submarinos extremamente lentos ou o uso instável de rádio refletido na ionosfera. O Telstar 1 mudou o paradigma: uma gigantesca antena na Terra disparava o sinal na direção do satélite; o satélite usava transistores para amplificar esse sinal eletronicamente no espaço e o disparava de volta como um "chuveiro" invisível sobre o continente europeu.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Telstar 1 é o avô de toda a infraestrutura global de dados sem fio. Algumas horas após o seu lançamento, ele transmitiu o primeiro sinal de televisão ao vivo entre os Estados Unidos e a Europa, além das primeiras transmissões de dados em alta velocidade entre mainframes através de um oceano. Este equipamento validou perante as empresas multinacionais e os governos que o espaço sideral seria o principal canal de logística para as comunicações globais da sociedade moderna.',
+          en: 'Until Telstar, intercontinental communication required extremely slow submarine cables or unstable radio reflected from the ionosphere. Telstar 1 changed the paradigm: a gigantic antenna on Earth fired the signal toward the satellite; the satellite used transistors to electronically amplify that signal in space and fired it back like an invisible "shower" over the European continent.\n\nWhy does this belong in the IT Hall of Fame?\n\nTelstar 1 is the grandfather of all global wireless data infrastructure. A few hours after launch, it transmitted the first live television signal between the United States and Europe, as well as the first high-speed data transmissions between mainframes across an ocean. This equipment proved to multinational companies and governments that outer space would become the main logistics channel for modern society’s global communications.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1963,
+    era: {
+      pt: 'O Primeiro Software Gráfico (CAD), o Alfabeto Universal e a Invenção do Mouse',
+      en: 'The First Graphic Software (CAD), the Universal Alphabet and the Invention of the Mouse',
+    },
+    context: {
+      pt: 'Em 1963, a TI abandona o teclado como via de regra única e abraça o espaço visual. No MIT, um estudante de doutorado brilhante escreve um programa que permite ao humano desenhar diretamente na tela luminosa com uma caneta de luz, inventando sozinho a interface gráfica e o desenho assistido por computador. Nos comitês industriais americanos, engenheiros exaustos de verem textos virarem lixo eletrônico quando enviados de um computador para outro entram em um acordo e publicam a primeira tabela padronizada que diz exatamente qual conjunto de zeros e uns representa a letra "A", forjando o código-base da internet. E na Califórnia, um pesquisador obcecado por acelerar o intelecto humano constrói um pequeno dispositivo de madeira com um único botão vermelho que traduz o movimento físico da mão humana em coordenadas no monitor, inventando o mouse. É o ano do Sketchpad, do Padrão ASCII e do Mouse de Engelbart.',
+      en: 'In 1963, IT abandons the keyboard as the only default path and embraces visual space. At MIT, a brilliant doctoral student writes a program that lets a human draw directly on the glowing screen with a light pen, single-handedly inventing the graphical interface and computer-aided design. In American industry committees, engineers exhausted by seeing text turn into electronic garbage when sent from one computer to another reach an agreement and publish the first standardized table saying exactly which set of zeros and ones represents the letter "A", forging the base code of the internet. And in California, a researcher obsessed with accelerating human intellect builds a small wooden device with a single red button that translates the physical movement of the human hand into coordinates on the monitor, inventing the mouse. It is the year of Sketchpad, the ASCII standard and Engelbart’s Mouse.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Ivan Sutherland',
+        imagePlaceholder: YEAR_1963_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Estudante de doutorado no MIT, trabalhando no computador TX-2 (o sucessor direto do TX-0, aquela máquina focada em interação humana de 1956). Sutherland não queria digitar equações matemáticas para criar gráficos; ele queria que o computador entendesse geometria de forma visual.',
+          en: 'A doctoral student at MIT, working on the TX-2 computer (the direct successor of TX-0, that 1956 machine focused on human interaction). Sutherland did not want to type mathematical equations to create graphics; he wanted the computer to understand geometry visually.',
+        },
+        summary: {
+          pt: 'Apresentou em 1963 a sua tese de doutorado contendo o Sketchpad. Utilizando um monitor CRT e uma "Caneta Óptica" (Light Pen), o usuário podia desenhar fisicamente linhas e círculos no vidro da tela. O computador entendia essas formas como objetos matemáticos com propriedades restritas (ex: "essas duas linhas devem ser sempre paralelas", e a máquina as ajustava perfeitamente).',
+          en: 'Presented in 1963 his doctoral thesis containing Sketchpad. Using a CRT monitor and a Light Pen, the user could physically draw lines and circles on the screen glass. The computer understood these shapes as mathematical objects with constrained properties (for example, "these two lines must always be parallel", and the machine adjusted them perfectly).',
+        },
+        role: {
+          pt: 'Criador do Sketchpad',
+          en: 'Creator of Sketchpad',
+        },
+        contribution: {
+          pt: 'Em 1963, o Software ganhou Geometria Interativa. A TI inventou o conceito da Interface Gráfica do Usuário (GUI) e do Desenho Assistido por Computador (CAD).',
+          en: 'In 1963, Software gained Interactive Geometry. IT invented the concept of the Graphical User Interface (GUI) and Computer-Aided Design (CAD).',
+        },
+        detail: {
+          pt: 'A genialidade espantosa do Sketchpad não era apenas desenhar (isso já havia sido feito precariamente antes). A revolução era a Orientação a Objetos primitiva. Se Sutherland desenhasse uma cadeira e a copiasse dez vezes na tela, as cópias não eram apenas desenhos mortos; eram instâncias do desenho mestre. Se ele mudasse a perna da cadeira original, as dez cópias atualizavam instantaneamente. O computador deixou de ser uma máquina de escrever luxuosa e tornou-se um parceiro ativo de design físico.\n\nPor que isso entra no Hall da Fama da TI?\n\nO Sketchpad é o "Santo Graal" ancestral da interface visual. Ele fundou a disciplina da Computação Gráfica. Todo software de engenharia (como o AutoCAD), ferramentas de design vetorial (como o Illustrator ou o Figma) e a própria ideia de manipular objetos visuais na tela baseiam-se nos algoritmos que Ivan Sutherland inventou para esta tese de doutorado. Ele provou que um computador poderia manipular conceitos espaciais tão bem quanto manipulava números.',
+          en: 'The astonishing genius of Sketchpad was not merely drawing (that had been done crudely before). The revolution was primitive Object Orientation. If Sutherland drew a chair and copied it ten times on screen, the copies were not dead drawings; they were instances of the master drawing. If he changed the leg of the original chair, the ten copies updated instantly. The computer stopped being a luxurious typewriter and became an active partner in physical design.\n\nWhy does this belong in the IT Hall of Fame?\n\nSketchpad is the ancestral "Holy Grail" of visual interfaces. It founded the discipline of Computer Graphics. Every engineering software tool (such as AutoCAD), vector design tools (such as Illustrator or Figma) and the very idea of manipulating visual objects on screen are based on the algorithms Ivan Sutherland invented for this doctoral thesis. He proved that a computer could manipulate spatial concepts as well as it manipulated numbers.',
+        },
+      },
+      {
+        name: 'Comitê X3.4 da American Standards Association (ASA) / Bob Bemer',
+        imagePlaceholder: YEAR_1963_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Um comitê de burocratas, engenheiros (como Bob Bemer da IBM) e especialistas em telégrafo de dezenas de empresas rivais. A indústria estava enfrentando a "Torre de Babel Digital": a IBM usava um código binário para a letra "C", a UNIVAC usava outro. Se você enviasse um arquivo de texto de uma máquina para outra, o resultado era um jargão incompreensível.',
+          en: 'A committee of bureaucrats, engineers (such as IBM’s Bob Bemer) and telegraph specialists from dozens of rival companies. The industry was facing the "Digital Tower of Babel": IBM used one binary code for the letter "C", UNIVAC used another. If you sent a text file from one machine to another, the result was incomprehensible jargon.',
+        },
+        summary: {
+          pt: 'Aprovaram e publicaram em 1963 a primeira edição do padrão ASCII (American Standard Code for Information Interchange). Era uma tabela rigorosa de 7 bits que mapeava 128 caracteres exatos: 95 caracteres imprimíveis (letras maiúsculas, minúsculas, números e pontuação) e 33 caracteres de controle invisíveis (como o "Enter" e o "Backspace").',
+          en: 'Approved and published in 1963 the first edition of the ASCII standard (American Standard Code for Information Interchange). It was a rigorous 7-bit table that mapped 128 exact characters: 95 printable characters (uppercase and lowercase letters, numbers and punctuation) and 33 invisible control characters (such as "Enter" and "Backspace").',
+        },
+        role: {
+          pt: 'Padronizadores do ASCII',
+          en: 'Standardizers of ASCII',
+        },
+        contribution: {
+          pt: 'Em 1963, a TI forjou o "Alfabeto da Era Digital". A máquina finalmente obteve um dicionário de tradução universal para transformar bytes na linguagem humana escrita.',
+          en: 'In 1963, IT forged the "Alphabet of the Digital Era". The machine finally obtained a universal translation dictionary to turn bytes into written human language.',
+        },
+        detail: {
+          pt: 'O comitê teve discussões viscerais sobre detalhes minuciosos (onde colocar o símbolo de cifrão $, ou como organizar a ordem alfabética para facilitar que os computadores ordenassem nomes rapidamente). A genialidade do ASCII foi a sua simplicidade matemática. Por exemplo, converter uma letra maiúscula em minúscula no ASCII exige apenas a alteração de um único bit específico na cadeia binária, facilitando drasticamente o trabalho dos processadores fracos da época.\n\nPor que isso entra no Hall da Fama da TI?\n\nSem o ASCII, a Internet seria impossível. Toda a comunicação de redes moderna baseia-se na premissa de que o computador remetente e o computador destinatário concordam sobre qual texto estão processando. O HTML, os e-mails, e os arquivos de configuração de servidores que você edita hoje ainda mantêm compatibilidade retroativa total com essa exata tabela publicada em 1963. O ASCII se tornou o código de intercâmbio de dados mais bem-sucedido e universal já criado pelo homem.',
+          en: 'The committee had intense arguments over tiny details (where to place the dollar sign $, or how to organize alphabetical order so computers could sort names quickly). ASCII’s genius was its mathematical simplicity. For example, converting an uppercase letter to lowercase in ASCII requires changing only one specific bit in the binary chain, drastically easing the work of weak processors of the time.\n\nWhy does this belong in the IT Hall of Fame?\n\nWithout ASCII, the Internet would be impossible. All modern network communication is based on the premise that the sending computer and the receiving computer agree on what text they are processing. HTML, emails and server configuration files you edit today still maintain full backward compatibility with this exact table published in 1963. ASCII became the most successful and universal data interchange code ever created by humans.',
+        },
+      },
+      {
+        name: 'Douglas Engelbart e Bill English',
+        imagePlaceholder: YEAR_1963_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Pesquisadores do Stanford Research Institute (SRI). Engelbart era um gênio obcecado pelo ensaio "Man-Computer Symbiosis" de Licklider (publicado em 1960). Ele queria descobrir a forma mais rápida, ergonômica e natural para um humano selecionar um texto ou um ponto numa tela de computador de forma interativa.',
+          en: 'Researchers at the Stanford Research Institute (SRI). Engelbart was a genius obsessed with Licklider’s essay "Man-Computer Symbiosis" (published in 1960). He wanted to discover the fastest, most ergonomic and most natural way for a human to select text or a point on a computer screen interactively.',
+        },
+        summary: {
+          pt: 'No final de 1963, com a ajuda de seu engenheiro-chefe Bill English, Engelbart desenhou e construiu o primeiro protótipo do Mouse (oficialmente chamado na época de "X-Y Position Indicator for a Display System"). O primeiro protótipo era uma caixinha de madeira grossa com um pequeno botão vermelho em cima e duas engrenagens/rodas de metal perpendiculares embaixo.',
+          en: 'In late 1963, with the help of his chief engineer Bill English, Engelbart designed and built the first prototype of the Mouse (officially called at the time the "X-Y Position Indicator for a Display System"). The first prototype was a thick wooden box with a small red button on top and two perpendicular metal wheels/gears underneath.',
+        },
+        role: {
+          pt: 'Inventores do mouse',
+          en: 'Inventors of the mouse',
+        },
+        contribution: {
+          pt: 'Em 1963, o Hardware ganhou Tato Analógico. O "Mouse" preencheu a lacuna biomecânica entre o movimento do pulso humano e o ponteiro virtual.',
+          en: 'In 1963, Hardware gained Analog Touch. The "Mouse" filled the biomechanical gap between human wrist movement and the virtual pointer.',
+        },
+        detail: {
+          pt: 'Canetas ópticas (como a do Sketchpad) cansavam os braços dos usuários, pois exigiam ficar segurando a caneta contra a tela verticalmente. Engelbart percebeu que um dispositivo de apontamento deveria ficar descansando na mesa ao lado do teclado. Conforme o usuário arrastava o bloco de madeira, as duas rodas de metal traduziam a fricção X (horizontal) e Y (vertical) em sinais elétricos instantâneos para o computador. Devido ao fio saindo da traseira do aparelho, que parecia uma cauda, eles o apelidaram carinhosamente de "rato" (mouse).\n\nPor que isso entra no Hall da Fama da TI?\n\nEmbora Engelbart só fosse demonstrar esse aparelho publicamente anos depois (na lendária "Mãe de Todas as Demonstrações" em 1968), o nascimento físico do mouse em 1963 ditou toda a interação humano-computador subsequente. A interface gráfica com janelas, os ícones arrastáveis e o cursor do sistema operacional que a Apple e a Microsoft popularizariam nos anos 80 dependem absolutamente deste hardware analógico que transformou a mão do usuário numa extensão direta do sistema operacional.',
+          en: 'Light pens (like Sketchpad’s) tired users’ arms, because they required holding the pen vertically against the screen. Engelbart realized a pointing device should rest on the desk beside the keyboard. As the user dragged the wooden block, the two metal wheels translated X (horizontal) and Y (vertical) friction into instant electrical signals for the computer. Because of the wire coming out of the back of the device, which looked like a tail, they affectionately nicknamed it the "mouse".\n\nWhy does this belong in the IT Hall of Fame?\n\nAlthough Engelbart would only demonstrate this device publicly years later (in the legendary "Mother of All Demos" in 1968), the physical birth of the mouse in 1963 dictated all subsequent human-computer interaction. The graphical interface with windows, draggable icons and the operating system cursor that Apple and Microsoft would popularize in the 1980s depend absolutely on this analog hardware that turned the user’s hand into a direct extension of the operating system.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1964,
+    era: {
+      pt: 'A Arquitetura Universal, a Linguagem para as Massas e o Primeiro Supercomputador',
+      en: 'The Universal Architecture, the Language for the Masses and the First Supercomputer',
+    },
+    context: {
+      pt: 'Em 1964, a tecnologia da informação realiza a maior aposta corporativa da história capitalista, democratiza a lógica para os estudantes e quebra a barreira da velocidade matemática. Em Nova York, a IBM gasta bilhões de dólares para matar todos os seus próprios produtos e lançar uma única família de computadores, inventando a retrocompatibilidade e padronizando o Byte de 8 bits para sempre. Em New Hampshire, dois professores percebem que a máquina não deve ser exclusividade de físicos, e inventam um idioma tão simples e intuitivo que qualquer aluno de humanas poderia escrever um software, plantando a semente que daria origem à Microsoft na década seguinte. E em Minnesota, um engenheiro recluso irrita a gigante IBM ao lançar uma máquina refrigerada a gás freon que era três vezes mais rápida do que qualquer outra coisa no planeta, coroando o primeiro "Supercomputador" da Terra. É o ano do IBM System/360, da linguagem BASIC e do poderoso CDC 6600.',
+      en: 'In 1964, information technology makes the biggest corporate bet in capitalist history, democratizes logic for students and breaks the barrier of mathematical speed. In New York, IBM spends billions of dollars to kill all of its own products and launch a single family of computers, inventing backward compatibility and standardizing the 8-bit Byte forever. In New Hampshire, two professors realize the machine should not be exclusive to physicists, and invent a language so simple and intuitive that any humanities student could write software, planting the seed that would give rise to Microsoft in the following decade. And in Minnesota, a reclusive engineer irritates giant IBM by launching a Freon-cooled machine that was three times faster than anything else on the planet, crowning Earth’s first "Supercomputer". It is the year of the IBM System/360, the BASIC language and the powerful CDC 6600.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Thomas J. Watson Jr., Gene Amdahl, Fred Brooks e equipe (IBM)',
+        imagePlaceholder: YEAR_1964_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'A diretoria executiva e a elite da engenharia de sistemas da IBM. Eles perceberam que tinham seis linhas de computadores diferentes e incompatíveis. Se um cliente crescesse e precisasse comprar uma máquina da IBM maior, tinha que jogar todo o software antigo no lixo e reescrever do zero.',
+          en: 'The executive leadership and systems-engineering elite of IBM. They realized they had six different and incompatible computer lines. If a customer grew and needed to buy a larger IBM machine, the customer had to throw all old software away and rewrite it from scratch.',
+        },
+        summary: {
+          pt: 'No dia 7 de abril de 1964, a IBM anunciou a família de computadores IBM System/360. Não era apenas um computador; era uma linha inteira de máquinas (das baratas e lentas às milionárias e ultrarrápidas) que usavam exatamente o mesmo conjunto de instruções. Foi o projeto corporativo mais caro da história até então (a famosa "aposta de 5 bilhões de dólares"). Além disso, o System/360 estabeleceu de vez que um "Byte" consistia exatamente em 8 bits.',
+          en: 'On April 7, 1964, IBM announced the IBM System/360 family of computers. It was not just one computer; it was an entire line of machines (from cheap and slow to million-dollar and ultra-fast) that used exactly the same instruction set. It was the most expensive corporate project in history up to that point (the famous "5 billion-dollar bet"). In addition, System/360 permanently established that one "Byte" consisted of exactly 8 bits.',
+        },
+        role: {
+          pt: 'Arquitetos do IBM System/360',
+          en: 'Architects of IBM System/360',
+        },
+        contribution: {
+          pt: 'Em 1964, a TI inventou a Escalabilidade e a "Retrocompatibilidade". O Hardware mudou, mas o Software sobreviveu intacto.',
+          en: 'In 1964, IT invented Scalability and "Backward Compatibility". The Hardware changed, but the Software survived intact.',
+        },
+        detail: {
+          pt: 'A introdução da arquitetura unificada destruiu a concorrência. O cliente agora podia comprar o modelo de entrada do System/360. Cinco anos depois, se a empresa dobrasse de tamanho, ela comprava o modelo de ponta do System/360, pegava a sua fita magnética com os programas antigos, colocava na máquina nova e ela simplesmente rodava, só que muito mais rápido. O computador deixou de ser uma peça de hardware isolada e virou um "Ecossistema".\n\nPor que isso entra no Hall da Fama da TI?\n\nO IBM System/360 é, possivelmente, o sistema de mainframe mais importante já desenhado. Ele ditou como a arquitetura de processadores deveria ser pensada. A padronização do Byte em 8 bits (e não 6 ou 9, como outras máquinas usavam) é o motivo pelo qual até hoje compramos memórias e HDs em Gigabytes, medimos redes em Megabytes e usamos o sistema Hexadecimal de forma casada com o tamanho da palavra da máquina. Tudo isso foi fixado no granito do mercado neste dia de 1964.',
+          en: 'The introduction of the unified architecture destroyed the competition. A customer could now buy the entry-level System/360 model. Five years later, if the company doubled in size, it bought the high-end System/360 model, took the magnetic tape with its old programs, placed it in the new machine and it simply ran, only much faster. The computer stopped being an isolated piece of hardware and became an "Ecosystem".\n\nWhy does this belong in the IT Hall of Fame?\n\nIBM System/360 is possibly the most important mainframe system ever designed. It dictated how processor architecture should be conceived. The standardization of the Byte at 8 bits (not 6 or 9, as other machines used) is why we still buy memory and hard drives in Gigabytes, measure networks in Megabytes and use the Hexadecimal system aligned with the machine word size. All of this was fixed in the granite of the market on this day in 1964.',
+        },
+      },
+      {
+        name: 'John Kemeny e Thomas Kurtz',
+        imagePlaceholder: YEAR_1964_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Húngaro-Americano e Americano', en: 'Hungarian-American and American' },
+        formation: {
+          pt: 'Matemáticos e professores no Dartmouth College. Eles haviam implementado o sistema de tempo compartilhado (Time-Sharing) na faculdade e queriam que os alunos de artes, letras e biologia também usassem o computador. Mas FORTRAN e Assembly eram alienígenas demais para quem não era de exatas.',
+          en: 'Mathematicians and professors at Dartmouth College. They had implemented a time-sharing system at the college and wanted students in arts, literature and biology to use the computer too. But FORTRAN and Assembly were far too alien for people outside the hard sciences.',
+        },
+        summary: {
+          pt: 'No dia 1º de maio de 1964, às quatro da manhã, os professores rodaram os dois primeiros programas na recém-criada linguagem BASIC (Beginner’s All-purpose Symbolic Instruction Code). Era uma linguagem desenhada com sintaxe óbvia em inglês (PRINT, GOTO, IF/THEN) para que um novato conseguisse aprender a programar em poucas horas.',
+          en: 'On May 1, 1964, at four in the morning, the professors ran the first two programs in the newly created BASIC language (Beginner’s All-purpose Symbolic Instruction Code). It was a language designed with obvious English syntax (PRINT, GOTO, IF/THEN) so a beginner could learn to program in a few hours.',
+        },
+        role: {
+          pt: 'Criadores do BASIC',
+          en: 'Creators of BASIC',
+        },
+        contribution: {
+          pt: 'Em 1964, a Programação foi Democratizada. A TI deixou de exigir um doutorado em matemática para que um humano pudesse comandar os elétrons.',
+          en: 'In 1964, Programming was Democratized. IT stopped requiring a doctorate in mathematics for a human to command electrons.',
+        },
+        detail: {
+          pt: 'O BASIC não foi feito para ser a linguagem mais rápida ou mais eficiente; foi feito para não punir o usuário. Quando um aluno de Dartmouth sentava no terminal e escrevia um código errado, o interpretador BASIC retornava mensagens de erro legíveis, em vez de um despejo de memória hexadecimal brutal. E, de forma genial, Kemeny e Kurtz colocaram a linguagem em domínio público imediatamente, recusando-se a patenteá-la.\n\nPor que isso entra no Hall da Fama da TI?\n\nO BASIC é a linguagem que pavimentou o surgimento dos Personal Computers (PCs). Dez anos depois desta invenção, dois jovens chamados Bill Gates e Paul Allen pegariam um manual do microcomputador Altair e escreveriam um interpretador de BASIC para ele, fundando uma pequena empresa chamada Micro-Soft. Durante as décadas de 70 e 80 inteiras, praticamente todo computador doméstico (como o Apple II e o MSX) vinha com o BASIC cravado na memória ROM. Foi a porta de entrada para uma geração inteira de desenvolvedores.',
+          en: 'BASIC was not made to be the fastest or most efficient language; it was made not to punish the user. When a Dartmouth student sat at the terminal and wrote incorrect code, the BASIC interpreter returned readable error messages instead of a brutal hexadecimal memory dump. And brilliantly, Kemeny and Kurtz placed the language in the public domain immediately, refusing to patent it.\n\nWhy does this belong in the IT Hall of Fame?\n\nBASIC is the language that paved the way for Personal Computers (PCs). Ten years after this invention, two young men named Bill Gates and Paul Allen would take a manual for the Altair microcomputer and write a BASIC interpreter for it, founding a small company called Micro-Soft. Throughout the 1970s and 1980s, practically every home computer (such as the Apple II and MSX) came with BASIC embedded in ROM memory. It was the gateway for an entire generation of developers.',
+        },
+      },
+      {
+        name: 'Seymour Cray e a Control Data Corporation (CDC)',
+        imagePlaceholder: YEAR_1964_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americanos', en: 'Americans' },
+        formation: {
+          pt: 'Seymour Cray era um engenheiro elétrico obsessivo, rebelde e um gênio do design de circuitos. Ele odiava a burocracia corporativa e exigia trabalhar isolado nas florestas de Wisconsin. Enquanto a IBM tentava construir máquinas que faziam de tudo um pouco, Cray queria apenas uma coisa: cálculos numéricos massivos o mais rápido que as leis da física permitissem.',
+          en: 'Seymour Cray was an obsessive, rebellious electrical engineer and a genius of circuit design. He hated corporate bureaucracy and demanded to work in isolation in the forests of Wisconsin. While IBM tried to build machines that did a little of everything, Cray wanted only one thing: massive numerical calculations as fast as the laws of physics allowed.',
+        },
+        summary: {
+          pt: 'A Control Data Corporation entregou em 1964 o monumental CDC 6600, universalmente considerado o primeiro Supercomputador da história. Com um custo de 8 milhões de dólares, ele operava a inacreditáveis 3 Megaflops (três milhões de operações de ponto flutuante por segundo).',
+          en: 'Control Data Corporation delivered in 1964 the monumental CDC 6600, universally considered the first Supercomputer in history. Costing 8 million dollars, it operated at an unbelievable 3 Megaflops (three million floating-point operations per second).',
+        },
+        role: {
+          pt: 'Criadores do CDC 6600',
+          en: 'Creators of the CDC 6600',
+        },
+        contribution: {
+          pt: 'Em 1964, o Hardware quebrou a barreira do som. A máquina abdicou das tarefas de escritório para se tornar uma fera de simulação física.',
+          en: 'In 1964, Hardware broke the sound barrier. The machine renounced office tasks to become a beast of physical simulation.',
+        },
+        detail: {
+          pt: 'Para que a CPU não perdesse tempo lendo fitas ou cartões, Cray desenhou dez pequenos computadores periféricos menores só para mastigar os inputs e outputs, deixando a CPU central livre apenas para a matemática de hipervelocidade (uma arquitetura genial que antecipou o modelo RISC). A máquina era tão densa e gerava tanto calor com seus 400.000 transistores que não podia ser resfriada a ar; Cray desenhou um sistema de refrigeração líquida com tubos de Freon (gás de geladeira) correndo pelas entranhas do computador.\n\nPor que isso entra no Hall da Fama da TI?\n\nO CDC 6600 deixou Thomas Watson Jr. (CEO da IBM) furioso. Ele mandou um memorando famoso questionando como um pequeno laboratório com 34 pessoas, incluindo o "zelador", havia derrotado a gigantesca IBM. A máquina foi o motor de simulação científica da Guerra Fria (usada para decifrar códigos e simular clima e armas nucleares). O CDC 6600 inaugurou a era do HPC (High-Performance Computing) e o conceito de que o limite da TI não é o software, mas a velocidade bruta que o silício pode entregar.',
+          en: 'So the CPU would not waste time reading tapes or cards, Cray designed ten smaller peripheral computers just to chew through inputs and outputs, leaving the central CPU free only for hyper-speed mathematics (a brilliant architecture that anticipated the RISC model). The machine was so dense and generated so much heat with its 400,000 transistors that it could not be air-cooled; Cray designed a liquid cooling system with Freon tubes running through the computer’s innards.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe CDC 6600 made Thomas Watson Jr. (IBM CEO) furious. He sent a famous memo questioning how a small laboratory with 34 people, including the "janitor", had defeated gigantic IBM. The machine was the scientific simulation engine of the Cold War (used to break codes and simulate weather and nuclear weapons). The CDC 6600 inaugurated the era of HPC (High-Performance Computing) and the concept that the limit of IT is not software, but the raw speed silicon can deliver.',
+        },
+      },
+    ],
+  },
+  {
+    year: 1965,
+    era: {
+      pt: 'A Profecia do Silício, o Ancestral da Web e o Nascimento dos Objetos',
+      en: 'The Silicon Prophecy, the Ancestor of the Web and the Birth of Objects',
+    },
+    context: {
+      pt: 'Em 1965, a TI define o seu destino econômico, a sua estrutura de informação e o seu paradigma de programação. Na Califórnia, um dos oito engenheiros rebeldes que fundaram a Fairchild escreve um artigo curto para uma revista de eletrônica, notando um padrão matemático na fabricação de chips e criando uma lei que ditaria os próximos 60 anos de avanço civilizatório humano. Em uma conferência acadêmica, um filósofo inconformado com a leitura linear dos livros inventa uma palavra mágica para descrever textos que se conectam eletronicamente a outros textos, plantando a semente intelectual da World Wide Web. E na Noruega, dois engenheiros tentando simular o caos logístico de navios e frotas percebem que separar dados soltos e funções matemáticas era loucura, e inventam a primeira linguagem a empacotar os dois em "Objetos" virtuais. É o ano da Lei de Moore, da Invenção do Hipertexto e da Linguagem SIMULA.',
+      en: 'In 1965, IT defines its economic destiny, its information structure and its programming paradigm. In California, one of the eight rebel engineers who founded Fairchild writes a short article for an electronics magazine, noticing a mathematical pattern in chip manufacturing and creating a law that would dictate the next 60 years of human civilizational progress. At an academic conference, a philosopher dissatisfied with the linear reading of books invents a magical word to describe texts that electronically connect to other texts, planting the intellectual seed of the World Wide Web. And in Norway, two engineers trying to simulate the logistical chaos of ships and fleets realize that separating loose data and mathematical functions was madness, and invent the first language to package both into virtual "Objects". It is the year of Moore’s Law, the invention of Hypertext and the SIMULA language.',
+    },
+    peopleCount: 3,
+    people: [
+      {
+        name: 'Gordon Moore (Fairchild Semiconductor)',
+        imagePlaceholder: YEAR_1965_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Químico, físico e um dos lendários "Oito Traidores" que fundaram a Fairchild em 1957. A revista Electronics Magazine pediu a ele que escrevesse um artigo prevendo o futuro da indústria de componentes de semicondutores para os próximos dez anos.',
+          en: 'A chemist, physicist and one of the legendary "Traitorous Eight" who founded Fairchild in 1957. Electronics Magazine asked him to write an article predicting the future of the semiconductor-component industry for the next ten years.',
+        },
+        summary: {
+          pt: 'No dia 19 de abril de 1965, Moore publicou o artigo "Cramming more components onto integrated circuits". Nele, ele observou que o número de transistores em um microchip vinha dobrando a cada ano, enquanto o custo caía pela metade, e previu que essa taxa exponencial continuaria. Esta observação empírica foi eternizada como a Lei de Moore.',
+          en: 'On April 19, 1965, Moore published the article "Cramming more components onto integrated circuits". In it, he observed that the number of transistors on a microchip had been doubling every year while cost fell by half, and predicted that this exponential rate would continue. This empirical observation was immortalized as Moore’s Law.',
+        },
+        role: {
+          pt: 'Autor da Lei de Moore',
+          en: 'Author of Moore’s Law',
+        },
+        contribution: {
+          pt: 'Em 1965, o Hardware ganhou o seu "Cronômetro Implacável". A TI transformou uma simples observação química de laboratório em uma profecia autorrealizável que moldou o capitalismo.',
+          en: 'In 1965, Hardware gained its "Relentless Stopwatch". IT turned a simple laboratory chemistry observation into a self-fulfilling prophecy that shaped capitalism.',
+        },
+        detail: {
+          pt: 'Moore argumentou que a engenharia planar (inventada em 1959) não tinha chegado nem perto de seus limites físicos. Ao prever que a densidade dobraria constantemente, ele acidentalmente estabeleceu o roteiro oficial para a indústria de tecnologia. A Lei de Moore (mais tarde ajustada para um ciclo de cerca de 18 a 24 meses) não era uma lei da física como a gravidade, mas sim um pacto econômico: se uma empresa como a Intel (que o próprio Moore fundaria três anos depois) não entregasse um chip com o dobro de transistores no prazo previsto, um concorrente entregaria, e a empresa morreria.\n\nPor que isso entra no Hall da Fama da TI?\n\nToda a nossa existência digital moderna é o resultado direto da Lei de Moore. O motivo pelo qual um smartphone no seu bolso é milhões de vezes mais rápido que os supercomputadores da IBM que custavam 5 milhões de dólares na década de 1960 é porque a indústria obedeceu a essa "lei" fanaticamente, encolhendo os transistores até o nível atômico e democratizando o poder computacional massivo.',
+          en: 'Moore argued that planar engineering (invented in 1959) had not come close to its physical limits. By predicting that density would keep doubling, he accidentally established the official roadmap for the technology industry. Moore’s Law (later adjusted to a cycle of about 18 to 24 months) was not a law of physics like gravity, but an economic pact: if a company such as Intel (which Moore himself would found three years later) failed to deliver a chip with twice as many transistors on schedule, a competitor would, and the company would die.\n\nWhy does this belong in the IT Hall of Fame?\n\nOur entire modern digital existence is the direct result of Moore’s Law. The reason a smartphone in your pocket is millions of times faster than IBM supercomputers that cost 5 million dollars in the 1960s is that the industry obeyed this "law" fanatically, shrinking transistors down to the atomic level and democratizing massive computational power.',
+        },
+      },
+      {
+        name: 'Ted Nelson',
+        imagePlaceholder: YEAR_1965_PLACEHOLDER,
+        flag: '🇺🇸',
+        nationality: { pt: 'Americano', en: 'American' },
+        formation: {
+          pt: 'Filósofo, sociólogo e pioneiro da tecnologia da informação. Ele achava um absurdo que os computadores fossem usados apenas como calculadoras matemáticas. Para ele, o intelecto humano não operava em linha reta (como as páginas de um livro encadernado), mas sim através de conexões caóticas e referências cruzadas contínuas.',
+          en: 'A philosopher, sociologist and information-technology pioneer. He thought it was absurd that computers were used only as mathematical calculators. To him, human intellect did not operate in a straight line (like the pages of a bound book), but through chaotic connections and continuous cross-references.',
+        },
+        summary: {
+          pt: 'Apresentou na conferência nacional da ACM em 1965 um artigo onde cunhou formalmente os termos Hipertexto (Hypertext) e Hipermídia (Hypermedia). Ele propôs conceitualmente uma arquitetura na qual o usuário poderia saltar de um documento digital diretamente para outro através de vínculos invisíveis embutidos nas palavras.',
+          en: 'Presented at the national ACM conference in 1965 a paper where he formally coined the terms Hypertext and Hypermedia. He conceptually proposed an architecture in which the user could jump from one digital document directly to another through invisible links embedded in words.',
+        },
+        role: {
+          pt: 'Criador dos termos hipertexto e hipermídia',
+          en: 'Creator of the terms hypertext and hypermedia',
+        },
+        contribution: {
+          pt: 'Em 1965, a TI teorizou a "Internet de Documentos". O conhecimento humano rompeu a margem da folha de papel e virou uma teia multidimensional.',
+          en: 'In 1965, IT theorized the "Internet of Documents". Human knowledge broke the margins of the paper page and became a multidimensional web.',
+        },
+        detail: {
+          pt: 'Nelson idealizou o ambicioso Projeto Xanadu, um sistema global de literatura eletrônica onde todos os documentos estariam conectados para sempre, sem links quebrados e preservando a autoria original de cada trecho de texto. Enquanto o paradigma da época era o processamento de planilhas de Big Data, Nelson visualizava a tela do computador como uma janela infinita de exploração literária e acadêmica.\n\nPor que isso entra no Hall da Fama da TI?\n\nO conceito de Hipertexto é a exata fundação estrutural da World Wide Web (WWW). Quando Tim Berners-Lee inventou a web nos anos 90, ele usou a ideia teórica de Ted Nelson de 1965 e a fundiu com a infraestrutura de rede da ARPANET. Toda vez que você clica em um link azul numa página para ser direcionado a outro servidor, ou utiliza tags HTML (HyperText Markup Language), você está navegando no conceito teórico imortalizado neste artigo.',
+          en: 'Nelson conceived the ambitious Project Xanadu, a global system of electronic literature where all documents would be connected forever, without broken links and while preserving the original authorship of every text fragment. While the paradigm of the time was Big Data spreadsheet processing, Nelson visualized the computer screen as an infinite window of literary and academic exploration.\n\nWhy does this belong in the IT Hall of Fame?\n\nThe concept of Hypertext is the exact structural foundation of the World Wide Web (WWW). When Tim Berners-Lee invented the web in the 1990s, he used Ted Nelson’s 1965 theoretical idea and fused it with ARPANET network infrastructure. Every time you click a blue link on a page to be directed to another server, or use HTML (HyperText Markup Language) tags, you are navigating the theoretical concept immortalized in this article.',
+        },
+      },
+      {
+        name: 'Ole-Johan Dahl e Kristen Nygaard',
+        imagePlaceholder: YEAR_1965_PLACEHOLDER,
+        flag: '🇳🇴',
+        nationality: { pt: 'Noruegueses', en: 'Norwegian' },
+        formation: {
+          pt: 'Cientistas da computação trabalhando no Centro de Computação Norueguês (NCC). Nygaard estava tentando escrever simulações complexas de operações nucleares e logística de frotas navais. Ele percebeu que as linguagens da época (como FORTRAN e ALGOL) eram terríveis para descrever entidades reais, porque tratavam as variáveis do navio em um canto da memória e as funções de velocidade do navio em outro.',
+          en: 'Computer scientists working at the Norwegian Computing Center (NCC). Nygaard was trying to write complex simulations of nuclear operations and naval-fleet logistics. He realized the languages of the time (such as FORTRAN and ALGOL) were terrible at describing real entities, because they treated ship variables in one corner of memory and ship-speed functions in another.',
+        },
+        summary: {
+          pt: 'Finalizaram e apresentaram o SIMULA I (o precursor imediato do SIMULA 67). Foi a primeira linguagem de programação projetada especificamente para simulações e, no processo, os criadores inventaram a Programação Orientada a Objetos (POO).',
+          en: 'Finalized and presented SIMULA I (the immediate precursor of SIMULA 67). It was the first programming language designed specifically for simulations and, in the process, its creators invented Object-Oriented Programming (OOP).',
+        },
+        role: {
+          pt: 'Criadores do SIMULA e da POO',
+          en: 'Creators of SIMULA and OOP',
+        },
+        contribution: {
+          pt: 'Em 1965, a Engenharia de Software inventou as "Classes". O código deixou de ser uma grande lista de comandos soltos e passou a modelar as interações físicas e virtuais da vida real.',
+          en: 'In 1965, Software Engineering invented "Classes". Code stopped being a long list of loose commands and began to model the physical and virtual interactions of real life.',
+        },
+        detail: {
+          pt: 'Dahl e Nygaard tiveram uma epifania: por que não "empacotar" as propriedades (dados) de um navio e as ações (métodos) que esse navio pode fazer dentro de um único bloco fechado de código? Eles inventaram o conceito de Classe (o molde) e de Objeto (a entidade viva instanciada). Agora, em vez de passar dezenas de variáveis por funções separadas, o programador podia simplesmente dizer ao sistema: "Pegue o navio número 3 e faça a função de ancorar".\n\nPor que isso entra no Hall da Fama da TI?\n\nO SIMULA revolucionou completamente como o cérebro do desenvolvedor aborda problemas. A Programação Orientada a Objetos estabelecida aqui é o paradigma mais dominante e escalável do mundo do software. A herança de classes, a abstração e o encapsulamento moldaram diretamente a criação de linguagens lendárias como Smalltalk, C++, Java e Python. Quando estruturamos aplicações complexas em ecossistemas de microsserviços modernos hoje, as raízes conceituais para manter o código limpo e modulado nasceram na gélida Noruega de 1965.',
+          en: 'Dahl and Nygaard had an epiphany: why not "package" the properties (data) of a ship and the actions (methods) that ship can perform inside one closed block of code? They invented the concept of Class (the mold) and Object (the living instantiated entity). Now, instead of passing dozens of variables through separate functions, the programmer could simply tell the system: "Take ship number 3 and perform the anchor function".\n\nWhy does this belong in the IT Hall of Fame?\n\nSIMULA completely revolutionized how the developer mind approaches problems. Object-Oriented Programming established here is the most dominant and scalable paradigm in the world of software. Class inheritance, abstraction and encapsulation directly shaped the creation of legendary languages such as Smalltalk, C++, Java and Python. When we structure complex applications in modern microservices ecosystems today, the conceptual roots for keeping code clean and modular were born in cold Norway in 1965.',
         },
       },
     ],
