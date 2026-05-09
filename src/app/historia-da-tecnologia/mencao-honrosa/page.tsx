@@ -4,9 +4,9 @@ function getReturnHref(value?: string | string[]) {
   const raw = Array.isArray(value) ? value[0] : value
   const pageNumber = Number(raw)
 
-  if (!Number.isInteger(pageNumber) || pageNumber <= 1) return '/hall-da-fama'
+  if (!Number.isInteger(pageNumber) || pageNumber <= 1) return '/historia-da-tecnologia'
 
-  return `/hall-da-fama?page=${pageNumber}`
+  return `/historia-da-tecnologia?page=${pageNumber}`
 }
 
 export default async function MencaoHonrosaPage({

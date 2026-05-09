@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useLang } from '@/context/LangContext'
 import { posts, Post } from '@/data/posts'
-import { HALL_END, HALL_START } from '@/data/hallOfFame'
+import { HISTORY_END, HISTORY_START } from '@/data/historiaTecnologia'
 
 const t = {
   pt: {
@@ -227,9 +227,9 @@ function PostCard({ post, lang }: { post: Post; lang: 'pt' | 'en' }) {
   )
 }
 
-function HallSideCard({ lang }: { lang: 'pt' | 'en' }) {
+function HistoriaSideCard({ lang }: { lang: 'pt' | 'en' }) {
   return (
-    <Link href="/hall-da-fama" className="hall-side-card" style={{
+    <Link href="/historia-da-tecnologia" className="side-card" style={{
       textDecoration: 'none',
       border: '0.5px solid rgba(255,216,77,0.42)',
       borderRadius: '8px',
@@ -273,23 +273,6 @@ function HallSideCard({ lang }: { lang: 'pt' | 'en' }) {
 
       <div style={{ position: 'relative', zIndex: 1 }}>
         <div style={{
-          width: '42px',
-          height: '42px',
-          borderRadius: '8px',
-          border: '0.5px solid var(--gold-border)',
-          background: 'var(--gold-dim)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          color: 'var(--gold)',
-          fontSize: '24px',
-          lineHeight: 1,
-          marginBottom: '22px',
-        }}>
-          ✦
-        </div>
-
-        <div style={{
           fontFamily: 'var(--font-mono)',
           fontSize: '12px',
           color: 'var(--gold)',
@@ -298,7 +281,7 @@ function HallSideCard({ lang }: { lang: 'pt' | 'en' }) {
           textTransform: 'uppercase',
           marginBottom: '10px',
         }}>
-          {HALL_START} - {HALL_END}
+          {HISTORY_START} - {HISTORY_END}
         </div>
 
         <div style={{
@@ -310,7 +293,7 @@ function HallSideCard({ lang }: { lang: 'pt' | 'en' }) {
           lineHeight: 1.12,
           marginBottom: '12px',
         }}>
-          {lang === 'pt' ? 'Hall da Fama' : 'Hall of Fame'}
+          {lang === 'pt' ? 'História da Tecnologia' : 'History of Technology'}
         </div>
 
         <p style={{
@@ -349,7 +332,7 @@ function HallSideCard({ lang }: { lang: 'pt' | 'en' }) {
 
 function StackMapSideCard({ lang }: { lang: 'pt' | 'en' }) {
   return (
-    <Link href="/stack" className="hall-side-card" style={{
+    <Link href="/stack" className="side-card" style={{
       textDecoration: 'none',
       border: '0.5px solid rgba(0,234,255,0.28)',
       borderRadius: '8px',
@@ -390,18 +373,6 @@ function StackMapSideCard({ lang }: { lang: 'pt' | 'en' }) {
       }} />
 
       <div style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{
-          width: '42px', height: '42px', borderRadius: '8px',
-          border: '0.5px solid rgba(0,234,255,0.28)',
-          background: 'var(--blue-dim)',
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          color: 'var(--blue)', fontSize: '18px', lineHeight: 1,
-          fontFamily: 'var(--font-mono)',
-          marginBottom: '22px',
-        }}>
-          ◈
-        </div>
-
         <div style={{
           fontFamily: 'var(--font-mono)', fontSize: '12px',
           color: 'var(--blue)', opacity: 0.72,
@@ -447,7 +418,7 @@ function StackMapSideCard({ lang }: { lang: 'pt' | 'en' }) {
 
 function AIArenaSideCard({ lang }: { lang: 'pt' | 'en' }) {
   return (
-    <Link href="/ai-arena" className="hall-side-card" style={{
+    <Link href="/ai-arena" className="side-card" style={{
       textDecoration: 'none',
       border: '0.5px solid color-mix(in srgb, var(--green) 35%, transparent)',
       borderRadius: '8px',
@@ -488,17 +459,6 @@ function AIArenaSideCard({ lang }: { lang: 'pt' | 'en' }) {
       }} />
 
       <div style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{
-          width: '42px', height: '42px', borderRadius: '8px',
-          border: '0.5px solid color-mix(in srgb, var(--green) 35%, transparent)',
-          background: 'var(--green-dim)',
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          color: 'var(--green)', fontSize: '20px', lineHeight: 1,
-          marginBottom: '22px',
-        }}>
-          ⚡
-        </div>
-
         <div style={{
           fontFamily: 'var(--font-mono)', fontSize: '12px',
           color: 'var(--green)', opacity: 0.72,
@@ -625,14 +585,14 @@ export default function BlogPage() {
           </div>
         </div>
 
-        {/* right aside — Hall da Fama */}
+        {/* right aside — História da Tecnologia */}
         <aside className="blog-aside" style={{
           position: 'absolute',
           top: '92px',
           left: 'calc(100% + 52px)',
           width: '280px',
         }}>
-          <HallSideCard lang={lang} />
+          <HistoriaSideCard lang={lang} />
         </aside>
 
         {/* left aside — AI Arena + Stack Map */}

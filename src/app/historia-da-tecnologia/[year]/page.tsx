@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
-import { hallByYear, yearsWithEntries, HALL_START, HALL_END } from '@/data/hallOfFame'
-import HallYearClient from './HallYearClient'
+import { historyByYear, yearsWithEntries, HISTORY_START, HISTORY_END } from '@/data/historiaTecnologia'
+import HistoriaYearClient from './HistoriaYearClient'
 
 export function generateStaticParams() {
   return yearsWithEntries.map(year => ({ year: String(year) }))
@@ -12,12 +12,12 @@ function getReturnHref(value?: string | string[]) {
   const raw = Array.isArray(value) ? value[0] : value
   const pageNumber = Number(raw)
 
-  if (!Number.isInteger(pageNumber) || pageNumber <= 1) return '/hall-da-fama'
+  if (!Number.isInteger(pageNumber) || pageNumber <= 1) return '/historia-da-tecnologia'
 
-  return `/hall-da-fama?page=${pageNumber}`
+  return `/historia-da-tecnologia?page=${pageNumber}`
 }
 
-export default async function HallYearPage({
+export default async function HistoriaYearPage({
   params,
   searchParams,
 }: {
@@ -28,13 +28,13 @@ export default async function HallYearPage({
   const query = await searchParams
   const year = parseInt(yearStr, 10)
 
-  if (isNaN(year) || year < HALL_START || year > HALL_END) notFound()
+  if (isNaN(year) || year < HISTORY_START || year > HISTORY_END) notFound()
 
-  const entry = hallByYear.get(year) ?? null
+  const entry = historyByYear.get(year) ?? null
 
   return (
     <main style={{ minHeight: '100vh', background: 'var(--bg)', paddingTop: '56px' }}>
-      <HallYearClient year={year} entry={entry} returnHref={getReturnHref(query?.from)} />
+      <HistoriaYearClient year={year} entry={entry} returnHref={getReturnHref(query?.from)} />
     </main>
   )
 }

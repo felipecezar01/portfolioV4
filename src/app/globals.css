@@ -18,6 +18,13 @@
   --gold: #ffd84d;
   --gold-border: rgba(255, 216, 77, 0.35);
   --gold-dim: rgba(255, 216, 77, 0.07);
+  /* era colors — dark theme (high contrast on #080808) */
+  --era-1: #ffd84d;  /* I — Mecânica e Teórica (bronze/âmbar) */
+  --era-2: #67e8f9;  /* II — Gigantes de Ferro (ciano/teal) */
+  --era-3: #86efac;  /* III — Rebelião do Silício (verde fósforo) */
+  --era-4: #60a5fa;  /* IV — Conexão (azul) */
+  --era-5: #c084fc;  /* V — Móvel e Nuvem (violeta) */
+  --era-6: #f472b6;  /* VI — Cognição Sintética (rosa/magenta) */
   --font-display: 'Syne', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 }
@@ -40,6 +47,13 @@
   --gold: #8B5E30;
   --gold-border: rgba(139, 94, 48, 0.35);
   --gold-dim: rgba(139, 94, 48, 0.07);
+  /* era colors — light theme (AA contrast on #f0f0ee) */
+  --era-1: #a07825;  /* I — bronze */
+  --era-2: #0e7490;  /* II — teal */
+  --era-3: #15803d;  /* III — verde escuro */
+  --era-4: #1d4ed8;  /* IV — azul real */
+  --era-5: #7c3aed;  /* V — violeta */
+  --era-6: #be185d;  /* VI — magenta */
 }
 
 * {
@@ -234,10 +248,19 @@ body {
     padding-top: 0 !important;
   }
 
-  .hall-side-card {
+  .side-card {
     min-height: 240px !important;
     min-width: 0 !important;
     width: 100% !important;
+  }
+}
+
+/* História da Tecnologia page aside */
+@media (max-width: 1280px) {
+  .historia-aside {
+    position: static !important;
+    width: 100% !important;
+    margin-bottom: 32px !important;
   }
 }
 

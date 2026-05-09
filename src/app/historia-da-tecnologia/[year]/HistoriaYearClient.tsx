@@ -2,11 +2,74 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { HallYear } from '@/data/hallOfFame'
+import { HistoryYear } from '@/data/historiaTecnologia'
+import { getEraForYear } from '@/data/erasDaTi'
 import { useLang } from '@/context/LangContext'
 
 function hasImageExtension(src: string) {
   return /\.(jpe?g|png|webp|avif)(\?.*)?$/i.test(src)
+}
+
+// renders inline `**bold**` markers as <strong>
+function renderInline(text: string) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g)
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i} style={{ color: 'var(--text)', fontWeight: 600 }}>{part.slice(2, -2)}</strong>
+    }
+    return <span key={i}>{part}</span>
+  })
+}
+
+// renders text with `**bold**` and `- bullet` markdown-lite
+function renderRich(text: string) {
+  const lines = text.split('\n')
+  const blocks: React.ReactNode[] = []
+  let listBuf: string[] = []
+  let paraBuf: string[] = []
+  let key = 0
+
+  const flushList = () => {
+    if (listBuf.length === 0) return
+    blocks.push(
+      <ul key={`ul-${key++}`} style={{ margin: '0 0 8px 0', paddingLeft: '18px', listStyle: 'disc' }}>
+        {listBuf.map((item, i) => (
+          <li key={i} style={{ marginBottom: '6px' }}>{renderInline(item)}</li>
+        ))}
+      </ul>
+    )
+    listBuf = []
+  }
+
+  const flushPara = () => {
+    if (paraBuf.length === 0) return
+    blocks.push(
+      <p key={`p-${key++}`} style={{ margin: '0 0 10px 0' }}>{renderInline(paraBuf.join(' '))}</p>
+    )
+    paraBuf = []
+  }
+
+  for (const line of lines) {
+    const trimmed = line.trim()
+    if (!trimmed) {
+      flushPara(); flushList()
+      continue
+    }
+    if (trimmed.startsWith('- ')) {
+      flushPara()
+      listBuf.push(trimmed.slice(2))
+    } else {
+      flushList()
+      paraBuf.push(trimmed)
+    }
+  }
+  flushPara(); flushList()
+
+  return <>{blocks}</>
+}
+
+function isList(text: string) {
+  return text.trim().startsWith('- ')
 }
 
 function PersonPhoto({ base, name }: { base: string; name: string }) {
@@ -118,30 +181,32 @@ const GOLD_DIM = 'var(--gold-dim)'
 
 const t = {
   pt: {
-    back: 'hall da fama',
+    back: 'história da tecnologia',
     expandAll: 'Expandir tudo',
     collapseAll: 'Colapsar tudo',
     noEntries: 'Nenhuma entrada para este ano ainda.',
-    noEntriesSub: 'Este ano ainda não tem registros no Hall da Fama. A lista cresce com o tempo.',
+    noEntriesSub: 'Este ano ainda não tem registros na História da Tecnologia. A lista cresce com o tempo.',
     labelName: 'Nome',
     labelNationality: 'Nacionalidade',
     labelFormation: 'Formação',
     labelWhatDid: 'O que fez',
     seeMore: 'Ver mais',
     collapse: 'Recolher',
+    eraLabel: 'Era',
   },
   en: {
-    back: 'hall of fame',
+    back: 'history of technology',
     expandAll: 'Expand all',
     collapseAll: 'Collapse all',
     noEntries: 'No entries for this year yet.',
-    noEntriesSub: 'This year has no Hall of Fame records yet. The list grows over time.',
+    noEntriesSub: 'This year has no History of Technology records yet. The list grows over time.',
     labelName: 'Name',
     labelNationality: 'Nationality',
     labelFormation: 'Formation',
     labelWhatDid: 'What they did',
     seeMore: 'See more',
     collapse: 'Collapse',
+    eraLabel: 'Era',
   },
 }
 
@@ -160,18 +225,20 @@ const valueStyle: React.CSSProperties = {
   lineHeight: 1.5,
 }
 
-export default function HallYearClient({
+export default function HistoriaYearClient({
   year,
   entry,
   returnHref,
 }: {
   year: number
-  entry: HallYear | null
+  entry: HistoryYear | null
   returnHref: string
 }) {
   const { lang } = useLang()
   const tx = t[lang]
   const [openItems, setOpenItems] = useState<Set<number>>(new Set())
+  const yearEra = getEraForYear(year)
+  const yearEraColor = yearEra ? `var(${yearEra.colorVar})` : GOLD
 
   const allOpen = entry ? openItems.size === entry.people.length : false
 
@@ -217,35 +284,58 @@ export default function HallYearClient({
           {tx.back}
         </Link>
         <span style={{ color: 'var(--border2)' }}>/</span>
-        <span style={{ color: GOLD }}>{year}</span>
+        <span style={{ color: yearEraColor }}>{year}</span>
       </div>
 
       <div style={{ maxWidth: '720px', margin: '0 auto', padding: '60px 40px 100px' }}>
 
         {/* year header */}
-        <div style={{ marginBottom: '48px' }}>
-          <div style={{
-            fontFamily: 'var(--font-mono)', fontSize: '12px',
-            color: GOLD, letterSpacing: '0.1em',
-            textTransform: 'uppercase', marginBottom: '10px',
-            display: 'flex', alignItems: 'center', gap: '8px',
-          }}>
-            <span>✦</span>
-            <span>{entry ? (lang === 'pt' ? entry.era.pt : entry.era.en) : String(year)}</span>
-          </div>
-          <div style={{
-            fontFamily: 'var(--font-cyber)', fontSize: '68px', fontWeight: 800,
-            color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.0,
-            marginBottom: '20px',
-          }}>
-            {year}
-          </div>
-          {entry && (
-            <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
-              {lang === 'pt' ? entry.context.pt : entry.context.en}
-            </p>
-          )}
-        </div>
+        {(() => {
+          const era = getEraForYear(year)
+          const eraColor = era ? `var(${era.colorVar})` : GOLD
+          const yearSubtitle = entry ? (lang === 'pt' ? entry.era.pt : entry.era.en).split('\n')[0] : null
+          return (
+            <div style={{ marginBottom: '48px' }}>
+              {era && (
+                <div style={{
+                  fontFamily: 'var(--font-mono)', fontSize: '12px',
+                  color: eraColor, letterSpacing: '0.1em',
+                  textTransform: 'uppercase', marginBottom: '14px',
+                  display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap',
+                }}>
+                  <span>{tx.eraLabel} {era.number}</span>
+                  <span style={{ opacity: 0.4 }}>·</span>
+                  <span>{era.title[lang]}</span>
+                  <span style={{ opacity: 0.4 }}>·</span>
+                  <span>{era.range}</span>
+                </div>
+              )}
+              <div style={{
+                fontFamily: 'var(--font-cyber)', fontSize: '68px', fontWeight: 800,
+                color: eraColor, letterSpacing: '0.01em', lineHeight: 1.0,
+                marginBottom: '14px',
+              }}>
+                {year}
+              </div>
+              {yearSubtitle && (
+                <div style={{
+                  fontFamily: 'var(--font-mono)', fontSize: '12px',
+                  color: 'var(--text3)', letterSpacing: '0.04em',
+                  marginBottom: '20px',
+                  display: 'flex', alignItems: 'center', gap: '8px',
+                }}>
+                  <span style={{ color: eraColor, opacity: 0.7 }}>✦</span>
+                  <span>{yearSubtitle}</span>
+                </div>
+              )}
+              {entry && (
+                <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
+                  {lang === 'pt' ? entry.context.pt : entry.context.en}
+                </p>
+              )}
+            </div>
+          )
+        })()}
 
         {/* no entries state */}
         {!entry && (
@@ -304,7 +394,14 @@ export default function HallYearClient({
                   }}>
 
                     {/* photo */}
-                    <div style={{
+                    <div style={person.imageWide ? {
+                      width: '100%',
+                      aspectRatio: '16 / 9',
+                      background: 'var(--bg)',
+                      borderBottom: '0.5px solid var(--border)',
+                      overflow: 'hidden',
+                      position: 'relative',
+                    } : {
                       width: '100%',
                       height: '280px',
                       background: 'var(--bg)',
@@ -318,7 +415,10 @@ export default function HallYearClient({
                       {person.images
                         ? <PersonPhotoGroup images={person.images} />
                         : person.image
-                        ? <PersonPhoto base={person.image} name={person.name} />
+                        ? (person.imageWide
+                          // eslint-disable-next-line @next/next/no-img-element
+                          ? <img src={person.image} alt={person.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                          : <PersonPhoto base={person.image} name={person.name} />)
                         : person.imagePlaceholder
                         ? <PersonPhotoPlaceholder text={lang === 'pt' ? person.imagePlaceholder.pt : person.imagePlaceholder.en} />
                         : <span style={{ fontSize: '48px', color: GOLD, opacity: 0.25 }}>✦</span>
@@ -346,17 +446,30 @@ export default function HallYearClient({
                       {/* Nacionalidade */}
                       <div style={{ marginBottom: '14px' }}>
                         <div style={labelStyle}>{tx.labelNationality}</div>
-                        <div style={valueStyle}>
-                          <span style={{ marginRight: '6px' }}>{person.flag}</span>
-                          {lang === 'pt' ? person.nationality.pt : person.nationality.en}
-                        </div>
+                        {(() => {
+                          const txt = lang === 'pt' ? person.nationality.pt : person.nationality.en
+                          if (isList(txt)) {
+                            return (
+                              <div style={valueStyle}>
+                                <div style={{ marginBottom: '6px' }}>{person.flag}</div>
+                                {renderRich(txt)}
+                              </div>
+                            )
+                          }
+                          return (
+                            <div style={valueStyle}>
+                              <span style={{ marginRight: '6px' }}>{person.flag}</span>
+                              {renderInline(txt)}
+                            </div>
+                          )
+                        })()}
                       </div>
 
                       {/* Formação */}
                       <div style={{ marginBottom: '20px' }}>
                         <div style={labelStyle}>{tx.labelFormation}</div>
                         <div style={valueStyle}>
-                          {lang === 'pt' ? person.formation.pt : person.formation.en}
+                          {renderRich(lang === 'pt' ? person.formation.pt : person.formation.en)}
                         </div>
                       </div>
 
@@ -367,7 +480,7 @@ export default function HallYearClient({
                       <div style={{ marginBottom: '20px' }}>
                         <div style={{ ...labelStyle, color: GOLD }}>{tx.labelWhatDid}</div>
                         <div style={{ ...valueStyle, color: 'var(--text)', fontSize: '15px', lineHeight: 1.6 }}>
-                          {lang === 'pt' ? person.summary.pt : person.summary.en}
+                          {renderRich(lang === 'pt' ? person.summary.pt : person.summary.en)}
                         </div>
                       </div>
 
@@ -446,7 +559,7 @@ export default function HallYearClient({
                                 lineHeight: 1.95,
                                 marginBottom: '16px',
                               }}>
-                                {paragraph}
+                                {renderInline(paragraph)}
                               </p>
                             ))
                           }

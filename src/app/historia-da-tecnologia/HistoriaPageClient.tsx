@@ -4,19 +4,19 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useLang } from '@/context/LangContext'
-import { hallByYear, HALL_START, HALL_END, HALL_SPAN } from '@/data/hallOfFame'
+import { historyByYear, HISTORY_START, HISTORY_END, HISTORY_SPAN } from '@/data/historiaTecnologia'
+import { getEraForYear } from '@/data/erasDaTi'
 
 const PAGE_SIZE = 20
-const ALL_YEARS = Array.from({ length: HALL_END - HALL_START + 1 }, (_, i) => HALL_END - i)
+const ALL_YEARS = Array.from({ length: HISTORY_END - HISTORY_START + 1 }, (_, i) => HISTORY_END - i)
 const TOTAL_PAGES = Math.ceil(ALL_YEARS.length / PAGE_SIZE)
 
 const t = {
   pt: {
-    label: 'hall da fama',
-    title: 'Hall da Fama',
-    span: (n: number) => `${n} anos de história da TI`,
-    subtitle: 'De 1843 até hoje, cada pessoa que entrou aqui deixou a área de TI diferente do que encontrou. Este é o meu registro pessoal — baseado no que estudei, no que li, no que aprendi. A lista será sempre imperfeita e sempre crescendo.',
-    note: 'Se você acha que esqueci alguém que merece estar aqui, me manda uma mensagem.',
+    label: 'história da tecnologia',
+    title: 'História da Tecnologia',
+    span: (n: number) => `${n} anos de história da tecnologia`,
+    subtitle: 'De 1843 até hoje, cada pessoa que entrou aqui deixou a área de tecnologia diferente do que encontrou. Este é o meu registro pessoal — baseado no que estudei, no que li, no que aprendi. A lista será sempre imperfeita e sempre crescendo.',
     entries: (n: number) => `${n} ${n === 1 ? 'pessoa' : 'pessoas'}`,
     page: 'Página',
     of: 'de',
@@ -25,13 +25,17 @@ const t = {
     honorTitle: 'A Fundação do Código',
     honorSub: 'Leibniz · Bouchon · Jacquard — antes de 1843',
     honorDesc: 'Três mentes que tornaram possível o que Ada Lovelace escreveu.',
+    erasLabel: 'linha do tempo',
+    erasCount: '6 eras · 1843 – 2025+',
+    erasTitle: 'As Eras da Tecnologia',
+    erasDesc: 'Da máquina analítica à IA agentiva — seis capítulos que dividem 180 anos de história da computação.',
+    erasCta: 'Ler agora',
   },
   en: {
-    label: 'hall of fame',
-    title: 'Hall of Fame',
-    span: (n: number) => `${n} years of IT history`,
-    subtitle: 'From 1843 to today, every person who made it here left the IT field different from how they found it. This is my personal record — based on what I\'ve studied, read, and learned. The list will always be imperfect and always growing.',
-    note: 'If you think I missed someone who deserves to be here, send me a message.',
+    label: 'history of technology',
+    title: 'History of Technology',
+    span: (n: number) => `${n} years of technology history`,
+    subtitle: 'From 1843 to today, every person who made it here left the technology field different from how they found it. This is my personal record — based on what I\'ve studied, read, and learned. The list will always be imperfect and always growing.',
     entries: (n: number) => `${n} ${n === 1 ? 'person' : 'people'}`,
     page: 'Page',
     of: 'of',
@@ -40,24 +44,33 @@ const t = {
     honorTitle: 'The Foundation of Code',
     honorSub: 'Leibniz · Bouchon · Jacquard — before 1843',
     honorDesc: 'Three minds that made what Ada Lovelace wrote possible.',
+    erasLabel: 'timeline',
+    erasCount: '6 eras · 1843 – 2025+',
+    erasTitle: 'The Eras of Technology',
+    erasDesc: 'From the analytical engine to agentic AI — six chapters that divide 180 years of computing history.',
+    erasCta: 'Read now',
   },
 }
 
 const GOLD = 'var(--gold)'
 
-function getHallHref(page: number) {
-  return page === 0 ? '/hall-da-fama' : `/hall-da-fama?page=${page + 1}`
+function getHistoryHref(page: number) {
+  return page === 0 ? '/historia-da-tecnologia' : `/historia-da-tecnologia?page=${page + 1}`
 }
 
 function getDetailHref(year: number, page: number) {
-  return page === 0 ? `/hall-da-fama/${year}` : `/hall-da-fama/${year}?from=${page + 1}`
+  return page === 0 ? `/historia-da-tecnologia/${year}` : `/historia-da-tecnologia/${year}?from=${page + 1}`
 }
 
 function getHonorableMentionHref(page: number) {
-  return page === 0 ? '/hall-da-fama/mencao-honrosa' : `/hall-da-fama/mencao-honrosa?from=${page + 1}`
+  return page === 0 ? '/historia-da-tecnologia/mencao-honrosa' : `/historia-da-tecnologia/mencao-honrosa?from=${page + 1}`
 }
 
-export default function HallPageClient({ initialPage }: { initialPage: number }) {
+function getErasHref(page: number) {
+  return page === 0 ? '/historia-da-tecnologia/eras-da-ti' : `/historia-da-tecnologia/eras-da-ti?from=${page + 1}`
+}
+
+export default function HistoriaPageClient({ initialPage }: { initialPage: number }) {
   const router = useRouter()
   const { lang } = useLang()
   const tx = t[lang]
@@ -68,7 +81,7 @@ export default function HallPageClient({ initialPage }: { initialPage: number })
   const goToPage = (nextPage: number) => {
     const clampedPage = Math.min(TOTAL_PAGES - 1, Math.max(0, nextPage))
     setPage(clampedPage)
-    router.replace(getHallHref(clampedPage), { scroll: false })
+    router.replace(getHistoryHref(clampedPage), { scroll: false })
   }
 
   return (
@@ -96,7 +109,112 @@ export default function HallPageClient({ initialPage }: { initialPage: number })
         <span style={{ color: GOLD }}>{tx.label}</span>
       </div>
 
-      <div style={{ maxWidth: '900px', margin: '0 auto', padding: '60px 60px 100px' }}>
+      <div className="historia-shell" style={{ maxWidth: '900px', margin: '0 auto', padding: '60px 60px 100px', position: 'relative' }}>
+
+        {/* right aside — Eras da Tecnologia */}
+        <aside className="historia-aside" style={{
+          position: 'absolute',
+          top: '92px',
+          left: 'calc(100% + 52px)',
+          width: '280px',
+        }}>
+          <Link href={getErasHref(page)} className="side-card" style={{
+            textDecoration: 'none',
+            border: '0.5px solid rgba(255,216,77,0.42)',
+            borderRadius: '8px',
+            background: 'var(--bg2)',
+            width: '100%',
+            minWidth: 0,
+            padding: '28px 24px',
+            minHeight: '280px',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            gap: '22px',
+            cursor: 'pointer',
+            transition: 'all 0.25s',
+            overflow: 'hidden',
+            position: 'relative',
+          }}
+            onMouseEnter={e => {
+              const el = e.currentTarget as HTMLAnchorElement
+              el.style.borderColor = 'rgba(255,216,77,0.78)'
+              el.style.background = 'var(--bg3)'
+              el.style.boxShadow = '0 8px 24px rgba(255,216,77,0.08), 0 2px 8px rgba(0,0,0,0.12)'
+              el.style.transform = 'translateY(-2px)'
+            }}
+            onMouseLeave={e => {
+              const el = e.currentTarget as HTMLAnchorElement
+              el.style.borderColor = 'rgba(255,216,77,0.42)'
+              el.style.background = 'var(--bg2)'
+              el.style.boxShadow = 'none'
+              el.style.transform = 'translateY(0)'
+            }}
+          >
+            <div style={{
+              position: 'absolute',
+              inset: 0,
+              backgroundImage: 'linear-gradient(rgba(255,216,77,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,216,77,0.06) 1px, transparent 1px)',
+              backgroundSize: '28px 28px',
+              maskImage: 'linear-gradient(180deg, rgba(0,0,0,0.55), transparent 62%)',
+              pointerEvents: 'none',
+            }} />
+
+            <div style={{ position: 'relative', zIndex: 1 }}>
+              <div style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '12px',
+                color: 'var(--gold)',
+                opacity: 0.72,
+                letterSpacing: '0.08em',
+                textTransform: 'uppercase',
+                marginBottom: '10px',
+              }}>
+                {tx.erasLabel}
+              </div>
+
+              <div style={{
+                fontFamily: 'var(--font-cyber)',
+                fontSize: '23px',
+                fontWeight: 800,
+                color: 'var(--gold)',
+                letterSpacing: '0.01em',
+                lineHeight: 1.12,
+                marginBottom: '12px',
+              }}>
+                {tx.erasTitle}
+              </div>
+
+              <p style={{
+                fontSize: '13px',
+                color: 'var(--text2)',
+                lineHeight: 1.75,
+                margin: 0,
+                overflowWrap: 'break-word',
+              }}>
+                {tx.erasDesc}
+              </p>
+            </div>
+
+            <div style={{ position: 'relative', zIndex: 1 }}>
+              <div style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '12px',
+                color: 'var(--gold)',
+                letterSpacing: '0.06em',
+                borderTop: '0.5px solid var(--gold-border)',
+                paddingTop: '14px',
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                gap: '10px',
+              }}>
+                <span>{tx.erasCta}</span>
+                <span aria-hidden="true" style={{ fontSize: '15px', lineHeight: 1 }}>→</span>
+              </div>
+            </div>
+          </Link>
+        </aside>
 
         {/* header */}
         <div style={{ marginBottom: '52px' }}>
@@ -106,7 +224,7 @@ export default function HallPageClient({ initialPage }: { initialPage: number })
             display: 'flex', alignItems: 'center', gap: '8px',
           }}>
             <span>✦</span>
-            <span>{tx.span(HALL_SPAN)}</span>
+            <span>{tx.span(HISTORY_SPAN)}</span>
           </div>
           <h1 style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
@@ -115,13 +233,8 @@ export default function HallPageClient({ initialPage }: { initialPage: number })
           }}>
             {tx.title}
           </h1>
-          <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85, marginBottom: '12px' }}>
+          <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
             {tx.subtitle}
-          </p>
-          <p style={{
-            fontFamily: 'var(--font-mono)', fontSize: '12px', color: 'var(--text3)', lineHeight: 1.7,
-          }}>
-            {tx.note}
           </p>
         </div>
 
@@ -133,16 +246,20 @@ export default function HallPageClient({ initialPage }: { initialPage: number })
           marginBottom: '32px',
         }}>
           {pageYears.map(year => {
-            const entry = hallByYear.get(year)
+            const entry = historyByYear.get(year)
             const peopleCount = entry?.peopleCount ?? entry?.people.length ?? 0
             const hasEntries = peopleCount > 0
+            const era = getEraForYear(year)
+            const eraColor = era ? `var(${era.colorVar})` : 'var(--text3)'
+            const eraBorder = era ? `color-mix(in srgb, ${eraColor} 35%, transparent)` : 'var(--border)'
+            const eraDim = era ? `color-mix(in srgb, ${eraColor} 9%, transparent)` : 'var(--bg2)'
             return (
               <Link key={year} href={getDetailHref(year, page)} style={{ textDecoration: 'none' }}>
                 <div style={{
-                  border: `0.5px solid ${hasEntries ? 'var(--gold-border)' : 'var(--border)'}`,
+                  border: `0.5px solid ${hasEntries ? eraBorder : 'var(--border)'}`,
                   borderRadius: '8px',
                   padding: '14px 16px',
-                  background: hasEntries ? 'var(--gold-dim)' : 'var(--bg2)',
+                  background: hasEntries ? eraDim : 'var(--bg2)',
                   transition: 'all 0.2s',
                   cursor: 'pointer',
                   minHeight: '80px',
@@ -150,27 +267,27 @@ export default function HallPageClient({ initialPage }: { initialPage: number })
                 }}
                   onMouseEnter={e => {
                     const el = e.currentTarget as HTMLDivElement
-                    el.style.borderColor = 'var(--gold)'
-                    el.style.background = 'var(--gold-dim)'
+                    el.style.borderColor = era ? eraColor : 'var(--border2)'
+                    el.style.background = hasEntries ? eraDim : 'var(--bg3)'
                     el.style.opacity = '0.85'
                   }}
                   onMouseLeave={e => {
                     const el = e.currentTarget as HTMLDivElement
-                    el.style.borderColor = hasEntries ? 'var(--gold-border)' : 'var(--border)'
-                    el.style.background = hasEntries ? 'var(--gold-dim)' : 'var(--bg2)'
+                    el.style.borderColor = hasEntries ? eraBorder : 'var(--border)'
+                    el.style.background = hasEntries ? eraDim : 'var(--bg2)'
                     el.style.opacity = '1'
                   }}
                 >
                   <div style={{
                     fontFamily: 'var(--font-cyber)', fontSize: '20px', fontWeight: 700,
-                    color: hasEntries ? GOLD : 'var(--text3)',
+                    color: hasEntries ? eraColor : 'var(--text3)',
                     letterSpacing: '0.02em',
                   }}>
                     {year}
                   </div>
                   <div style={{
                     fontFamily: 'var(--font-mono)', fontSize: '10px',
-                    color: hasEntries ? GOLD : 'var(--border2)',
+                    color: hasEntries ? eraColor : 'var(--border2)',
                     marginTop: '6px',
                     letterSpacing: '0.06em',
                     opacity: hasEntries ? 0.7 : 1,

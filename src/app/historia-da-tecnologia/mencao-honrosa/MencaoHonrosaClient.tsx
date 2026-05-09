@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { useLang } from '@/context/LangContext'
-import { HALL_IMAGES } from '@/data/hallImages'
+import { HISTORY_IMAGES } from '@/data/historiaImages'
 
 function hasImageExtension(src: string) {
   return /\.(jpe?g|png|webp|avif)(\?.*)?$/i.test(src)
@@ -72,7 +72,7 @@ type Person = {
 const people: Person[] = [
   {
     name: 'Gottfried Wilhelm Leibniz',
-    image: HALL_IMAGES.pre1843.gottfried,
+    image: HISTORY_IMAGES.pre1843.gottfried,
     year: 1703,
     flag: '🇩🇪',
     nationality: { pt: 'Alemão', en: 'German' },
@@ -92,7 +92,7 @@ const people: Person[] = [
   },
   {
     name: 'Basile Bouchon',
-    image: HALL_IMAGES.pre1843.basile,
+    image: HISTORY_IMAGES.pre1843.basile,
     year: 1725,
     flag: '🇫🇷',
     nationality: { pt: 'Francês', en: 'French' },
@@ -116,7 +116,7 @@ const people: Person[] = [
   },
   {
     name: 'Joseph Marie Jacquard',
-    image: HALL_IMAGES.pre1843.josephMarieJacquard,
+    image: HISTORY_IMAGES.pre1843.josephMarieJacquard,
     year: 1804,
     flag: '🇫🇷',
     nationality: { pt: 'Francês', en: 'French' },
@@ -138,7 +138,7 @@ const people: Person[] = [
 
 const content = {
   pt: {
-    back: 'hall da fama',
+    back: 'história da tecnologia',
     badge: 'Menção Honrosa',
     title: 'A Fundação do Código',
     subtitle: 'Como o 0 e o 1 ganharam forma',
@@ -157,7 +157,7 @@ const content = {
     legacyText: 'Foi exatamente observando os cartões de Jacquard trabalhando em sequência que Charles Babbage projetou sua Máquina Analítica. E foi para essa mesma máquina que Ada Lovelace escreveu o primeiro algoritmo do mundo.\n\nSem a matemática de Leibniz, o furo de Bouchon e a engenharia de Jacquard, a primeira programadora da história não teria onde rodar o seu código.',
   },
   en: {
-    back: 'hall of fame',
+    back: 'history of technology',
     badge: 'Honorable Mention',
     title: 'The Foundation of Code',
     subtitle: 'How the 0 and 1 took shape',

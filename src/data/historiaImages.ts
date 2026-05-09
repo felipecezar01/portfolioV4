@@ -1,4 +1,4 @@
-export const HALL_IMAGES = {
+export const HISTORY_IMAGES = {
   pre1843: {
     gottfried: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777248572/gottfried_xwknxk.jpg',
     basile: 'https://res.cloudinary.com/dzxlnefn4/image/upload/q_auto/f_auto/v1777248591/basile_dah2qy.jpg',

@@ -1,8 +1,8 @@
-import { HALL_END, HALL_START } from '@/data/hallOfFame'
-import HallPageClient from './HallPageClient'
+import { HISTORY_END, HISTORY_START } from '@/data/historiaTecnologia'
+import HistoriaPageClient from './HistoriaPageClient'
 
 const PAGE_SIZE = 20
-const TOTAL_PAGES = Math.ceil((HALL_END - HALL_START + 1) / PAGE_SIZE)
+const TOTAL_PAGES = Math.ceil((HISTORY_END - HISTORY_START + 1) / PAGE_SIZE)
 
 function getInitialPage(value?: string | string[]) {
   const raw = Array.isArray(value) ? value[0] : value
@@ -13,7 +13,7 @@ function getInitialPage(value?: string | string[]) {
   return Math.min(TOTAL_PAGES - 1, Math.max(0, pageNumber - 1))
 }
 
-export default async function HallPage({
+export default async function HistoriaPage({
   searchParams,
 }: {
   searchParams?: Promise<{ page?: string | string[] }>
@@ -22,5 +22,5 @@ export default async function HallPage({
 
   const initialPage = getInitialPage(params?.page)
 
-  return <HallPageClient key={initialPage} initialPage={initialPage} />
+  return <HistoriaPageClient key={initialPage} initialPage={initialPage} />
 }
