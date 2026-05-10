@@ -330,9 +330,9 @@ function HistoriaSideCard({ lang }: { lang: 'pt' | 'en' }) {
   )
 }
 
-function StackMapSideCard({ lang }: { lang: 'pt' | 'en' }) {
+function JobsSideCard({ lang }: { lang: 'pt' | 'en' }) {
   return (
-    <Link href="/stack" className="side-card" style={{
+    <Link href="/jobs" className="side-card" style={{
       textDecoration: 'none',
       border: '0.5px solid rgba(0,234,255,0.28)',
       borderRadius: '8px',
@@ -379,7 +379,7 @@ function StackMapSideCard({ lang }: { lang: 'pt' | 'en' }) {
           letterSpacing: '0.08em', textTransform: 'uppercase',
           marginBottom: '10px',
         }}>
-          {lang === 'pt' ? 'índice de tecnologias' : 'technology index'}
+          {lang === 'pt' ? 'carreira em tecnologia' : 'tech career'}
         </div>
 
         <div style={{
@@ -387,7 +387,7 @@ function StackMapSideCard({ lang }: { lang: 'pt' | 'en' }) {
           color: 'var(--blue)', letterSpacing: '0.01em', lineHeight: 1.12,
           marginBottom: '12px',
         }}>
-          Stack Map
+          Jobs
         </div>
 
         <p style={{
@@ -395,8 +395,8 @@ function StackMapSideCard({ lang }: { lang: 'pt' | 'en' }) {
           lineHeight: 1.75, margin: 0, overflowWrap: 'break-word',
         }}>
           {lang === 'pt'
-            ? 'Linguagens, bancos de dados, libs, frameworks, SOs e formatos de arquivos — tudo catalogado e em expansão.'
-            : 'Languages, databases, libraries, frameworks, OSes and file formats — all catalogued and expanding.'}
+            ? 'Três caminhos pra trabalhar com tecnologia: privado, público e empresa — cada um com seu próprio jogo e suas próprias regras.'
+            : 'Three paths to work with technology: private, public and business — each with its own game and its own rules.'}
         </p>
       </div>
 
@@ -408,7 +408,7 @@ function StackMapSideCard({ lang }: { lang: 'pt' | 'en' }) {
           paddingTop: '14px',
           display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px',
         }}>
-          <span>{lang === 'pt' ? 'Explorar' : 'Explore'}</span>
+          <span>{lang === 'pt' ? 'Ler agora' : 'Read now'}</span>
           <span aria-hidden="true" style={{ fontSize: '15px', lineHeight: 1 }}>→</span>
         </div>
       </div>
@@ -606,7 +606,7 @@ export default function BlogPage() {
           gap: '16px',
         }}>
           <AIArenaSideCard lang={lang} />
-          <StackMapSideCard lang={lang} />
+          <JobsSideCard lang={lang} />
         </aside>
 
         {/* posts list */}
