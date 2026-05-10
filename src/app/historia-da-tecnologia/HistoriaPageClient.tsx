@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation'
 import { useLang } from '@/context/LangContext'
 import { historyByYear, HISTORY_START, HISTORY_END, HISTORY_SPAN } from '@/data/historiaTecnologia'
 import { getEraForYear } from '@/data/erasDaTi'
+import { HISTORY_STATS } from '@/data/historyStats'
 
 const PAGE_SIZE = 20
 const ALL_YEARS = Array.from({ length: HISTORY_END - HISTORY_START + 1 }, (_, i) => HISTORY_END - i)
@@ -30,6 +31,11 @@ const t = {
     erasTitle: 'As Eras da Tecnologia',
     erasDesc: 'Da máquina analítica à IA agentiva — seis capítulos que dividem 180 anos de história da computação.',
     erasCta: 'Ler agora',
+    statsLabel: 'números do hall',
+    statsTitle: 'Quem entrou aqui',
+    statsPeople: 'Pessoas',
+    statsGroups: 'Grupos',
+    statsNationalities: 'Nacionalidades',
   },
   en: {
     label: 'history of technology',
@@ -49,6 +55,11 @@ const t = {
     erasTitle: 'The Eras of Technology',
     erasDesc: 'From the analytical engine to agentic AI — six chapters that divide 180 years of computing history.',
     erasCta: 'Read now',
+    statsLabel: 'hall numbers',
+    statsTitle: 'Who made it in',
+    statsPeople: 'People',
+    statsGroups: 'Groups',
+    statsNationalities: 'Nationalities',
   },
 }
 
@@ -111,12 +122,12 @@ export default function HistoriaPageClient({ initialPage }: { initialPage: numbe
 
       <div className="historia-shell" style={{ maxWidth: '900px', margin: '0 auto', padding: '60px 60px 100px', position: 'relative' }}>
 
-        {/* right aside — Eras da Tecnologia */}
-        <aside className="historia-aside" style={{
+        {/* left aside — Eras da Tecnologia */}
+        <aside className="historia-aside historia-aside-eras" style={{
           position: 'absolute',
           top: '92px',
-          left: 'calc(100% + 52px)',
-          width: '280px',
+          right: 'calc(100% + 36px)',
+          width: '260px',
         }}>
           <Link href={getErasHref(page)} className="side-card" style={{
             textDecoration: 'none',
@@ -214,6 +225,136 @@ export default function HistoriaPageClient({ initialPage }: { initialPage: numbe
               </div>
             </div>
           </Link>
+        </aside>
+
+        {/* right aside — Stats */}
+        <aside className="historia-aside historia-aside-stats" style={{
+          position: 'absolute',
+          top: '92px',
+          left: 'calc(100% + 36px)',
+          width: '260px',
+        }}>
+          <div className="stats-card" style={{
+            border: '0.5px solid var(--border)',
+            borderRadius: '8px',
+            background: 'var(--bg2)',
+            width: '100%',
+            minWidth: 0,
+            padding: '22px 22px 18px',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '18px',
+            overflow: 'hidden',
+            position: 'relative',
+          }}>
+            <div>
+              <div style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '11px',
+                color: 'var(--text3)',
+                opacity: 0.78,
+                letterSpacing: '0.1em',
+                textTransform: 'uppercase',
+                marginBottom: '10px',
+              }}>
+                {tx.statsLabel}
+              </div>
+              <div style={{
+                fontFamily: 'var(--font-cyber)',
+                fontSize: '20px',
+                fontWeight: 800,
+                color: 'var(--text)',
+                letterSpacing: '0.01em',
+                lineHeight: 1.15,
+              }}>
+                {tx.statsTitle}
+              </div>
+            </div>
+
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: '1fr 1fr',
+              gap: '12px',
+            }}>
+              <div style={{
+                border: '0.5px solid var(--border)',
+                borderRadius: '6px',
+                padding: '12px 10px',
+                background: 'var(--bg3)',
+                display: 'flex', flexDirection: 'column', gap: '4px',
+              }}>
+                <div style={{
+                  fontFamily: 'var(--font-mono)', fontSize: '10px',
+                  color: 'var(--text3)', letterSpacing: '0.08em',
+                  textTransform: 'uppercase',
+                }}>
+                  {tx.statsPeople}
+                </div>
+                <div style={{
+                  fontFamily: 'var(--font-cyber)', fontSize: '22px', fontWeight: 800,
+                  color: GOLD, lineHeight: 1, letterSpacing: '0.01em',
+                }}>
+                  {HISTORY_STATS.totalPeople}
+                </div>
+              </div>
+              <div style={{
+                border: '0.5px solid var(--border)',
+                borderRadius: '6px',
+                padding: '12px 10px',
+                background: 'var(--bg3)',
+                display: 'flex', flexDirection: 'column', gap: '4px',
+              }}>
+                <div style={{
+                  fontFamily: 'var(--font-mono)', fontSize: '10px',
+                  color: 'var(--text3)', letterSpacing: '0.08em',
+                  textTransform: 'uppercase',
+                }}>
+                  {tx.statsGroups}
+                </div>
+                <div style={{
+                  fontFamily: 'var(--font-cyber)', fontSize: '22px', fontWeight: 800,
+                  color: GOLD, lineHeight: 1, letterSpacing: '0.01em',
+                }}>
+                  {HISTORY_STATS.totalGroups}
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div style={{
+                fontFamily: 'var(--font-mono)', fontSize: '10px',
+                color: 'var(--text3)', letterSpacing: '0.1em',
+                textTransform: 'uppercase',
+                marginBottom: '10px',
+                borderTop: '0.5px solid var(--border)',
+                paddingTop: '14px',
+                display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+              }}>
+                <span>{tx.statsNationalities}</span>
+                <span style={{ color: 'var(--text2)' }}>{HISTORY_STATS.nationalities.length}</span>
+              </div>
+              <div className="stats-nationality-list" style={{
+                display: 'flex', flexDirection: 'column', gap: '4px',
+                maxHeight: '320px', overflowY: 'auto',
+                paddingRight: '4px',
+              }}>
+                {HISTORY_STATS.nationalities.map(nat => (
+                  <div key={nat.flag} style={{
+                    display: 'flex', alignItems: 'center', gap: '8px',
+                    fontFamily: 'var(--font-mono)', fontSize: '11px',
+                    color: 'var(--text2)',
+                    padding: '3px 0',
+                  }}>
+                    <span style={{ fontSize: '13px', lineHeight: 1, flexShrink: 0 }}>{nat.flag}</span>
+                    <span style={{ flex: 1, minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                      {lang === 'pt' ? nat.pt : nat.en}
+                    </span>
+                    <span style={{ color: 'var(--text3)', flexShrink: 0 }}>{nat.count}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </aside>
 
         {/* header */}

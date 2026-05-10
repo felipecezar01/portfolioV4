@@ -255,13 +255,33 @@ body {
   }
 }
 
-/* História da Tecnologia page aside */
-@media (max-width: 1280px) {
+/* História da Tecnologia page asides */
+@media (max-width: 1480px) {
   .historia-aside {
     position: static !important;
     width: 100% !important;
-    margin-bottom: 32px !important;
+    margin-bottom: 24px !important;
   }
+}
+
+/* Nationality list inside stats card — slim scrollbar */
+.stats-nationality-list,
+.jobs-table-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border2) transparent;
+}
+.stats-nationality-list::-webkit-scrollbar,
+.jobs-table-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.stats-nationality-list::-webkit-scrollbar-thumb,
+.jobs-table-scroll::-webkit-scrollbar-thumb {
+  background: var(--border2);
+  border-radius: 3px;
+}
+.stats-nationality-list::-webkit-scrollbar-track,
+.jobs-table-scroll::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 @media (max-width: 640px) {
