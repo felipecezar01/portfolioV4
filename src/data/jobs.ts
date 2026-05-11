@@ -49,8 +49,8 @@ export const jobTracks: JobTrack[] = [
       en: 'Working for companies',
     },
     shortDesc: {
-      pt: 'A carreira de quem trabalha para empresas privadas — foco em CLT, de startups a indústrias tradicionais.',
-      en: 'The career of those who work for private companies — focused on CLT, from startups to traditional industries.',
+      pt: 'Vaga CLT em empresa privada — tradicional ou de tecnologia. Salário fixo, plano de carreira e o caminho mais comum em TI.',
+      en: 'A CLT (full-time) role at a private company — traditional or tech. Fixed pay, career plan and the most common path in IT.',
     },
     intro: {
       pt: 'O setor privado é o caminho mais comum em tecnologia. É o mercado de quem trabalha para empresas privadas — startups, big techs, fintechs, indústrias tradicionais e qualquer organização que tenha um produto ou serviço pra entregar. O foco aqui é principalmente em empregos CLT. Muitas empresas hoje também contratam como PJ, mas a essência continua a tradicional: jornada de segunda a sexta, das oito às cinco, em modelo presencial, híbrido ou remoto.',
@@ -677,42 +677,240 @@ export const jobTracks: JobTrack[] = [
       en: 'Public service and exams',
     },
     shortDesc: {
-      pt: 'A carreira de quem estuda pra entrar no Estado — estabilidade, salário previsível e prova como porta de entrada.',
-      en: 'The career of those who study to enter the State — stability, predictable pay, and exams as the gateway.',
+      pt: 'Estudo longo, prova objetiva como única porta de entrada e estabilidade real em troca. Sem network, sem indicação — só pontos.',
+      en: 'Long study, an objective exam as the only gateway, and real stability in return. No networking, no referrals — only points.',
     },
     intro: {
-      pt: 'O setor público é o caminho de quem busca estabilidade, salário previsível e benefícios consolidados em órgãos do Estado — governos federal, estadual, municipal, tribunais, autarquias, bancos públicos e empresas estatais. A porta de entrada é o concurso público: uma prova objetiva e técnica que coloca todos os candidatos no mesmo recorte, sem precisar de network ou pitch de entrevista.',
-      en: 'The public sector is the path for those seeking stability, predictable pay and consolidated benefits in State organizations — federal, state and municipal governments, courts, agencies, public banks and state-owned enterprises. The entry point is the public exam: an objective, technical test that puts every candidate on equal footing, with no need for networking or interview pitch.',
+      pt: 'O setor público tem ganhado bastante força nos últimos anos, e cada vez aparecem mais concursos voltados pra área de TI. A porta de entrada é uma só: a prova. Sem network, sem indicação, sem entrevista — quem faz mais pontos passa. É uma carreira que troca a velocidade e a instabilidade do mercado privado por estabilidade real, reajustes previsíveis e uma rotina mais tranquila. Em compensação, a preparação costuma ser longa, solitária e difícil.',
+      en: 'The public sector has been gaining momentum, and more and more public exams (concursos) are showing up for IT roles. The way in is just one: the exam. No networking, no referrals, no interviews — whoever scores the most points gets in. It\'s a career that trades the speed and instability of the private market for real stability, predictable raises and a calmer routine. In exchange, preparation tends to be long, solitary and tough.',
     },
     sections: [
       {
         heading: { pt: 'Como funciona', en: 'How it works' },
         paragraphs: [
           {
-            pt: 'Carreiras públicas em tecnologia aparecem como analista de TI, analista de sistemas, analista de banco de dados, perito em informática, auditor de TI, técnico judiciário em tecnologia, entre outras. Cada órgão publica um edital com o conteúdo cobrado: lógica, redes, banco de dados, segurança, governança (COBIT, ITIL), legislação específica e, cada vez mais, ciência de dados e desenvolvimento web. A prova é o jogo — quem domina o edital passa.',
-            en: 'Public tech careers show up as IT analyst, systems analyst, database analyst, computer forensics expert, IT auditor, judicial technologist, among others. Each agency publishes a public notice with the required content: logic, networking, databases, security, governance (COBIT, ITIL), specific legislation and, increasingly, data science and web development. The exam is the game — whoever masters the notice gets in.',
+            pt: 'Dentro da TI, dois cargos costumam aparecer com mais frequência nos concursos: desenvolvimento de sistemas e infraestrutura. O foco aqui vai ser mais no de desenvolvimento, já que essa é a pegada deste site, mas o de infraestrutura é uma opção tão válida quanto, principalmente se você curte rede, sistemas operacionais e segurança.',
+            en: 'Inside IT, two roles show up most often in public exams: systems development and infrastructure. The focus here leans towards development, since that\'s the vibe of this site, but infrastructure is just as valid a path, especially if you enjoy networking, operating systems and security.',
           },
           {
-            pt: 'A preparação é uma maratona: estudo dirigido por edital, resolução de questões anteriores, revisões espaçadas, simulados. Muita gente concilia com trabalho privado durante anos até a aprovação. Cursinhos especializados, professores de banca específica (Cespe, FCC, FGV) e grupos de estudo são parte do ecossistema.',
-            en: 'Preparation is a marathon: notice-driven study, past-paper drills, spaced revision, mock tests. Many candidates juggle private-sector jobs for years until they pass. Specialized prep courses, board-specific instructors (Cespe, FCC, FGV) and study groups are part of the ecosystem.',
+            pt: 'Não tem muito segredo sobre como funciona: estudar pra concurso é praticamente isso. Só que tem uma armadilha clássica — pensar que estudar pra concurso de TI é só estudar TI. Não é. Dependendo do edital, você vai precisar mergulhar em Constituição Federal, direito administrativo, economia, português, matemática, inglês, redação e em várias outras matérias que entram como conhecimentos básicos. Algumas bancas ainda jogam dentro leis específicas que regem o órgão. A lista de conteúdo é praticamente infinita, e cada concurso escolhe o próprio recorte. Sempre confira o edital antes de montar o seu plano de estudos.',
+            en: 'There\'s no big secret about how it works: studying for the exam is pretty much it. But there\'s a classic trap — thinking that studying for an IT exam means only studying IT. It doesn\'t. Depending on the public notice, you\'ll have to dive into Brazil\'s Constitution, administrative law, economics, Portuguese, math, English, essay writing and several other subjects that show up as "basic knowledge". Some exam boards also throw in laws that govern the specific agency. The content list is practically endless, and each exam picks its own slice. Always check the notice before drafting your study plan.',
+          },
+        ],
+        content: [
+          {
+            kind: 'paragraph',
+            text: {
+              pt: 'Sobre como tocar essa jornada, existem dois caminhos clássicos: autodidata ou cursinho. Cursinhos têm versão presencial e versão remota — hoje em dia, a maioria opta pelo remoto, que costuma ser mais barato e tem aulas gravadas que encaixam em qualquer rotina.',
+              en: 'About how to walk this journey, there are two classic paths: self-taught or prep course (cursinho). Cursinhos come in on-site and remote versions — these days, most people go with the remote one, which is usually cheaper and has recorded classes that fit any routine.',
+            },
+          },
+          {
+            kind: 'paragraph',
+            text: {
+              pt: 'Entre os cursinhos remotos mais conhecidos, dois sempre aparecem: Estratégia Concursos e Gran Cursos Online. Os dois têm catálogo grande, professores conhecidos por banca específica e planos montados por edital.',
+              en: 'Among the best-known remote prep courses, two always show up: Estratégia Concursos and Gran Cursos Online. Both have a large catalog, instructors known for specific exam boards and study plans tailored to each public notice.',
+            },
+          },
+          {
+            kind: 'links',
+            items: [
+              { name: 'Estratégia Concursos', url: 'https://www.estrategiaconcursos.com.br/' },
+              { name: 'Gran Cursos Online', url: 'https://www.grancursosonline.com.br/' },
+            ],
+          },
+          {
+            kind: 'paragraph',
+            text: {
+              pt: 'Pra quem segue mais o caminho autodidata (ou pra quem quer complementar o cursinho), o QConcursos é praticamente obrigatório. É a plataforma mais conhecida entre concurseiros pra resolver questões: tem em torno de 2,2 milhões de questões, atualizadas constantemente, com filtros por banca, órgão, ano, matéria, tudo que você possa imaginar. Pra mim é um dos sites mais importantes da jornada — dá pra montar planejamento, treinar com prova de banca específica e identificar exatamente onde você está fraco. É um site que eu gosto muito.',
+              en: 'For those who follow the more self-taught path (or who want to complement the prep course), QConcursos is practically mandatory. It\'s the best-known platform among candidates for practicing questions: about 2.2 million questions, constantly updated, with filters by board, agency, year, subject, anything you can think of. For me it\'s one of the most important sites of the journey — you can plan, train with specific-board questions and pinpoint exactly where you\'re weak. It\'s a site I really love.',
+            },
+          },
+          {
+            kind: 'links',
+            items: [
+              { name: 'QConcursos', url: 'https://www.qconcursos.com/' },
+            ],
+          },
+          {
+            kind: 'paragraph',
+            text: {
+              pt: 'E deixo isso bem claro: você não precisa de cursinho pra passar. Tudo depende da sua personalidade e do nível de conhecimento que você já tem. Tem gente que rende muito mais com um cursinho estruturando o conteúdo, e tem gente que acha cursinho perda de tempo. Eu já assinei alguns cursinhos online e, sendo bem sincero, os que eu testei não me agradaram tanto — mas isso vai muito de cada um.',
+              en: 'And let me make this very clear: you don\'t need a cursinho to pass. It all comes down to your personality and the level of knowledge you already have. Some people perform much better with a course structuring the content for them, and some find courses a waste of time. I\'ve subscribed to a few online courses and, to be totally honest, the ones I tried didn\'t click with me — but that varies a lot from person to person.',
+            },
           },
         ],
       },
       {
-        heading: { pt: 'O que o concurso pede', en: 'What the exam asks for' },
+        heading: { pt: 'Privado vs Público — a linha divisória', en: 'Private vs Public — the dividing line' },
         paragraphs: [
           {
-            pt: 'O perfil técnico costuma ser amplo e padronizado: redes de computadores, segurança da informação, banco de dados relacional, arquitetura de software, engenharia de requisitos, gestão de projetos, governança de TI. A profundidade prática é menor do que no setor privado, mas a cobertura conceitual é maior. Português, raciocínio lógico, direito administrativo e legislação específica do órgão entram em peso quase igual.',
-            en: 'The technical profile tends to be broad and standardized: computer networks, information security, relational databases, software architecture, requirements engineering, project management, IT governance. Practical depth is lower than in the private sector, but conceptual coverage is broader. Portuguese, logic, administrative law and the agency\'s specific legislation carry almost equal weight.',
+            pt: 'Antes de mais nada: dá pra estar no privado e estudar pra público ao mesmo tempo. Muita gente faz isso, às vezes por escolha, às vezes por necessidade pura. Quem vem do privado e tem projetos práticos guardados no GitHub costuma ter uma vantagem inicial, principalmente em algumas matérias técnicas. Mas tem uma linha divisória bem clara entre os dois mundos.',
+            en: 'First things first: it\'s perfectly possible to be in the private sector and study for the public exam at the same time. Plenty of people do this, sometimes by choice, sometimes out of pure necessity. Someone coming from the private side with practical projects on GitHub usually has an initial advantage, especially in some technical subjects. But there\'s a clear dividing line between the two worlds.',
+          },
+          {
+            pt: 'No setor privado, você foca em soluções voltadas a negócio: entregar valor pra empresa, fazer o produto funcionar, resolver o problema do cliente. É um jogo prático, mão na massa. Hoje você assina um Claude Code, um Codex, tira dúvidas com o Gemini, monta o projeto, vê a arquitetura funcionando na prática — sem se preocupar tanto em decorar quais são os métodos exatos de cada lib. O recado pra esses tempos é claro: não tente bater de frente com a IA decorando o que ela faz melhor. Prove um valor que seja único seu, e não algo 100% replicável por ela.',
+            en: 'In the private sector, you focus on business-oriented solutions: deliver value to the company, make the product work, solve the customer\'s problem. It\'s a practical game, hands-on. Today you subscribe to a Claude Code, a Codex, bounce questions off Gemini, build the project, see the architecture working — without worrying too much about memorizing the exact methods of every library. The message for our time is clear: don\'t try to fight AI by memorizing what it does better. Prove a value that\'s uniquely yours, not something 100% replicable.',
+          },
+          {
+            pt: 'No setor público, o jogo vira do avesso. O que importa é o conceitual: dominar teoria, entender as nuances das ferramentas, reconhecer pegadinhas da banca. Tem muito mais decoreba do que aplicação prática, e por isso a maioria das pessoas considera o estudo mais chato. Você não vai entregar um produto — você vai marcar a alternativa correta numa prova objetiva. São disciplinas diferentes. Vale entender bem qual jogo você está jogando antes de começar a estudar.',
+            en: 'In the public sector, the game flips. What matters is the conceptual side: mastering theory, understanding the nuances of the tools, recognizing the exam board\'s tricks. There\'s much more memorization than practical application, which is why most people find the study process more boring. You\'re not going to deliver a product — you\'re going to tick the right answer on a multiple-choice exam. They\'re different disciplines. It pays to understand exactly which game you\'re playing before starting to study.',
           },
         ],
       },
       {
-        heading: { pt: 'Vantagens e armadilhas', en: 'Upsides and pitfalls' },
+        heading: { pt: 'A maratona dos concursos', en: 'The marathon' },
         paragraphs: [
           {
-            pt: 'Do lado positivo: estabilidade vitalícia após o estágio probatório, salário e progressão previsíveis, jornada definida, benefícios sólidos e ausência de pressão constante de mercado. Do lado oposto: estudo prolongado sem garantia de aprovação, vagas escassas e concorridas, ritmo de inovação tecnológica geralmente mais lento dentro do Estado, e o risco de cristalizar conhecimentos que envelhecem mais rápido do que o concurso renova.',
-            en: 'On the upside: lifetime stability after the probation period, predictable salary and progression, defined workload, solid benefits and no constant market pressure. On the downside: long study with no guaranteed approval, scarce and competitive positions, generally slower tech-innovation rhythm inside the State, and the risk of crystallizing knowledge that ages faster than the exam refreshes.',
+            pt: 'A primeira coisa a entender é que concurso público não é sprint, é maratona. Se o privado é uma corrida de 5 km, onde você dá tudo de si pra conseguir o emprego, fazer projeto, postar no LinkedIn, o concurso é a maratona clássica — longa, onde sair correndo no começo te quebra antes da metade do caminho.',
+            en: 'The first thing to understand: a public-sector exam isn\'t a sprint, it\'s a marathon. If the private sector is a 5K where you give it your all to land the job, build the project, post on LinkedIn, the public exam is the classic marathon — long, where bursting out the gate breaks you before the halfway mark.',
+          },
+          {
+            pt: 'O tempo médio até passar num concurso intermediário ou avançado (a partir de uns 6 mil reais) gira entre cinco e dez anos. Em alguns casos chega a quinze. Existem outliers que passam na primeira tentativa, especialmente em concursos pequenos ou intermediários — mas que fique bem claro, são outliers. A regra é levar tempo.',
+            en: 'The average time to pass a mid- or high-tier exam (starting around R$ 6,000 a month) sits between five and ten years. In some cases it stretches to fifteen. There are outliers who pass on the first try, especially in smaller or mid-tier exams — but let it be clear, they\'re outliers. The rule is time.',
+          },
+          {
+            pt: 'E por que demora tanto? Porque concurso não é igual o Enem que abre todo ano no mesmo período. Cada concurso pede um recorte de conteúdo diferente: um pede direito, outro pede matemática, outro pede inglês e redação. Mesmo dentro da TI os tópicos variam. Acumular conhecimento entre concursos é possível, mas não é tão direto: você não consegue dizer "vou estudar só pra esse, se não passar espero abrir de novo" — porque você não faz ideia de quando ele vai abrir de novo. Em média, um mesmo concurso reabre depois de uns quatro anos, e raramente em menos de dois.',
+            en: 'And why does it take so long? Because public exams aren\'t like the ENEM (Brazil\'s college-entrance exam) that opens every year on the same date. Each exam asks for a different slice of content: one demands law, another math, another English and writing. Even within IT, the topics vary. Stacking knowledge across exams is possible, but it\'s not straightforward: you can\'t really say "I\'ll study only for this one, if I fail I\'ll wait for it to reopen" — because you have no idea when it will. On average, the same exam reopens after about four years, and rarely in less than two.',
+          },
+          {
+            pt: 'Por cima de tudo isso vem a parte psicológica. É uma jornada solitária. Não tem network, não tem indicação, não tem entrevista pra ser carismático. É você, a prova, e quem tirar mais pontos. Enquanto isso, você vê familiares e amigos seguindo a vida — comprando carro, casa, viajando, formando família — e você ali, com aquela sensação de "porra, mano, isso aqui não vai dar". Tem que ter cabeça, motivação e um certo brilho pra atravessar essa fase.',
+            en: 'On top of all that comes the psychological side. It\'s a lonely journey. No network, no referral, no interview to be charismatic in. It\'s you, the exam, and whoever scored more points. Meanwhile, you watch family and friends moving forward — buying cars, houses, traveling, starting families — and you sit there with the feeling "damn, this is never going to work out". You need a steady head, motivation and a certain spark to make it through.',
+          },
+          {
+            pt: 'Vale lembrar também: muita gente concilia o concurso com o setor privado, às vezes nem por escolha, mas por necessidade. É realidade comum de qualquer brasileiro. A pessoa tá no caixa do supermercado, no balcão da loja, e usa o pouco tempo que sobra pra estudar — quase sempre cansada. Outros conseguem mais flexibilidade e focam 100% em casa. Cada caminho é o caminho. Mas, em qualquer cenário, a maratona é a mesma.',
+            en: 'Worth remembering too: many people juggle the public exam with the private sector, sometimes not even by choice but out of necessity. It\'s a common reality for any Brazilian. A person works the supermarket checkout, the shop counter, and uses what little time is left to study — almost always tired. Others manage more flexibility and focus 100% from home. Every path is the path. But in any scenario, the marathon is the same.',
+          },
+          {
+            pt: 'Pra dar uma ideia bem concreta do tamanho dessa caminhada: eu conheço dois ou três amigos que são concursados e demoraram em média uns dez anos pra passar. Um caso em particular fica claro na cabeça: um amigo trabalhou onze anos como caixa de supermercado enquanto estudava. Onze anos de rotina constante de estudo, bicos pra sobreviver, ajuda dos pais, vida muito difícil. Hoje, já com mais de 40 anos, ele ganha em torno de 12 mil reais por mês, estabilidade, benefícios e uma rotina tranquila. Os frutos chegaram — mas o preço foi onze anos de paciência.',
+            en: 'To give a very concrete sense of the size of this walk: I know two or three friends who are now public servants, and on average they took about ten years to pass. One case in particular sticks in my head: a friend worked eleven years as a supermarket cashier while studying. Eleven years of constant study, side jobs to survive, help from his parents, a very tough life. Today, already over 40, he earns around twelve thousand reais a month, stability, benefits and a calm routine. The fruit came — but the price was eleven years of patience.',
+          },
+          {
+            pt: 'Outro ângulo pra mensurar essa intensidade: analisando perfis no QConcursos de gente que passou em bons concursos, eu vejo, no mínimo, 20 mil questões resolvidas. Em alguns casos chega a 30 mil. E olhando o histórico, é praticamente uma década de questões resolvidas diariamente — todo dia, todo dia, todo dia. Pra você ter dimensão da disputa: não é que você precise estar no 1% melhor. Você precisa estar no 0,001%.',
+            en: 'Another angle to measure that intensity: looking at QConcursos profiles of people who passed solid exams, I see, at a minimum, 20 thousand questions solved. In some cases it reaches 30 thousand. And looking at the history, it\'s practically a decade of questions solved daily — every single day. To give you a sense of the competition: it\'s not that you need to be in the top 1%. You need to be in the top 0.001%.',
+          },
+        ],
+      },
+      {
+        heading: { pt: 'As bancas', en: 'The exam boards' },
+        paragraphs: [
+          {
+            pt: 'Uma camada que costuma pegar concurseiro novato de surpresa é a banca. Quem organiza o concurso não é só o órgão — quem prepara e aplica a prova é uma banca examinadora terceirizada. Os nomes mais conhecidos são FCC, FGV e Cebraspe, mas existe uma porção de outras espalhadas pelo país. Cada banca tem sua identidade própria, e isso muda muito mais coisa do que parece.',
+            en: 'A layer that often catches new candidates off guard is the exam board (banca). The exam isn\'t just organized by the agency — the entity that designs and applies the test is an outsourced exam board. The best-known names are FCC, FGV and Cebraspe, but there are plenty of others spread across the country. Each board has its own identity, and that changes a lot more than it might seem.',
+          },
+          {
+            pt: 'Pra começar, o formato muda. Tem concurso de um dia só, tem concurso dividido em dois dias. Tem prova só pela manhã, tem prova manhã e tarde. Tem concurso que cobra redação, tem concurso que não cobra. Tem prova só com questões objetivas e tem prova com questões subjetivas, onde você precisa, por exemplo, descrever como resolveria um problema dentro da área de TI. Tem prova de marcar item por item como verdadeiro ou falso, e tem prova de escolher entre quatro ou cinco alternativas. Tem prova em que errar não tem custo, e tem prova em que errar tira ponto — não é o estilo Enem, onde o pior que acontece é zerar a questão.',
+            en: 'Start with the format. There are one-day exams and two-day exams. There are morning-only exams and morning-plus-afternoon exams. Some demand an essay, some don\'t. There are exams with only objective questions, and there are exams with subjective questions where you have to, for example, describe how you\'d solve a problem inside IT. There are exams where you mark each item as true or false, and there are exams where you pick between four or five alternatives. Some exams have no cost for wrong answers, and others actually subtract points — it\'s not the ENEM style, where the worst that can happen is zeroing a question.',
+          },
+          {
+            pt: 'Depois vem o conteúdo e a abordagem. Bancas mais modernas tendem a focar em questões práticas, mais aplicadas. Bancas mais tradicionais focam em nuances teóricas, pegadinhas e armadilhas de interpretação, com o objetivo claro de confundir o candidato. Por isso, fazer questões antigas da banca específica do seu concurso é parte essencial da preparação: não é só saber o conteúdo, é entender como aquela banca pensa.',
+            en: 'Then come the content and the approach. More modern boards tend to focus on practical, applied questions. More traditional boards focus on theory nuances, tricky wording and interpretation traps, with the clear goal of confusing the candidate. That\'s why solving past questions from the specific board of your exam is an essential part of preparation: it\'s not only about knowing the content, it\'s about understanding how that board thinks.',
+          },
+          {
+            pt: 'Como cada órgão escolhe sua banca livremente, você como concurseiro vai precisar se adaptar a todas. Faz um concurso da FCC, depois um da FGV, depois um da Cebraspe — e cada vez é quase outra prova. Não dá pra dizer "eu só faço concurso da banca X".',
+            en: 'Since each agency picks its own board freely, you as a candidate will have to adapt to all of them. You take an FCC exam, then an FGV one, then a Cebraspe one — and each time it\'s almost a different test. You can\'t say "I\'ll only take exams from board X".',
+          },
+          {
+            pt: 'E isso reforça uma coisa que vale guardar pro resto da jornada: você não escolhe o concurso, o concurso te escolhe. Abriu uma janela, é nela que você joga. Pode ser que aquele concurso dos sonhos abra daqui a quinze anos, ou nunca mais — e, quando abrir, é bem possível que o cargo não exista mais, que o edital tenha mudado, que a banca tenha trocado. A única postura sustentável é ser imparcial: estudar amplo, dominar o que cair na sua frente e estar pronto pra qualquer porta que abrir.',
+            en: 'And that reinforces something worth keeping for the rest of the journey: you don\'t choose the exam, the exam chooses you. A window opens, that\'s where you play. The exam of your dreams might open in fifteen years, or never again — and when it does open, it\'s quite possible the role no longer exists, the notice has changed, the board has switched. The only sustainable stance is to be impartial: study broadly, master whatever shows up in front of you and be ready for whichever door opens.',
+          },
+        ],
+      },
+      {
+        heading: { pt: 'Faixas salariais e concorrência', en: 'Salary bands and competition' },
+        paragraphs: [
+          {
+            pt: 'Em geral, dá pra dividir os concursos em três faixas. Essa divisão é só uma referência minha — varia bastante por estado, banca e cargo.',
+            en: 'In general, you can split exams into three tiers. This division is just my own reference — it varies a lot by state, exam board and role.',
+          },
+          {
+            pt: 'Concursos de entrada são aqueles que pagam até uns 4 mil reais. Muitas prefeituras entram aqui. Não é o sonho de salário, mas a estabilidade já compensa muita coisa.',
+            en: 'Entry-level exams pay up to around R$ 4,000. Many city-hall exams fall here. It\'s not the dream salary, but the stability already makes up for a lot.',
+          },
+          {
+            pt: 'Concursos intermediários ficam entre 5 e 10 mil reais, somando salário e benefícios. É a faixa onde aparece a maior parte dos cargos de TI que vale a pena perseguir.',
+            en: 'Intermediate exams sit between R$ 5,000 and R$ 10,000, salary and benefits combined. This is the band where most worthwhile IT roles show up.',
+          },
+          {
+            pt: 'Concursos avançados pagam de 12 mil pra cima, normalmente até uns 15 mil. Aqui as vagas são pouquíssimas e a concorrência é absurda. Vem gente de outros estados pra fazer a prova, e não é raro aparecerem estrangeiros — naturalizados brasileiros, gente que vive entre o Brasil e o Japão, por exemplo, viajando especificamente pra prestar a prova. Bota uma coisa na cabeça: nesse nível, você não está concorrendo com o pessoal da sua cidade, você está concorrendo com o país inteiro, e às vezes com gente de fora.',
+            en: 'Advanced exams pay from R$ 12,000 upwards, usually up to around R$ 15,000. Here positions are very few and competition is absurd. People come from every state to sit the exam, and it\'s not rare to see foreigners — naturalized Brazilians, people living between Brazil and Japan, for instance, traveling in just to take the test. Put one thing in your head: at this level, you\'re not competing against people from your city — you\'re competing with the whole country, and sometimes beyond.',
+          },
+          {
+            pt: 'E quanto mais alto o nível, mais alta a qualidade média dos concorrentes. Cada degrau a mais reduz vagas e aumenta o sarrafo. Fica ciente disso desde o começo: o concurso avançado dos seus sonhos é também o concurso dos sonhos de muita gente preparadíssima.',
+            en: 'And the higher the tier, the higher the average quality of competitors. Each step up shrinks the openings and raises the bar. Be aware of that from the start: the advanced exam of your dreams is also the dream exam of a lot of very prepared people.',
+          },
+        ],
+      },
+      {
+        heading: { pt: 'As vantagens reais', en: 'The real upsides' },
+        paragraphs: [
+          {
+            pt: 'Apesar da jornada dura, a recompensa do setor público é real. A estabilidade é mil vezes maior que no privado. Se você entrega o trabalho, dificilmente é demitido — só por motivo de força maior. Não tem ciclo de layoff, não tem reorganização que te pega no meio do caminho.',
+            en: 'Despite the tough journey, the payoff of the public sector is real. Stability is a thousand times higher than in the private sector. If you deliver your work, you\'re rarely fired — only by major force. No layoff cycle, no reorganization that catches you mid-stride.',
+          },
+          {
+            pt: 'O salário vem com reajuste anual praticamente automático, e ainda pode pegar reajustes maiores quando alguma proposta política passa pra valorizar um setor específico. Não é fortuna, mas é previsível — e isso pesa muito quando o resto da economia balança.',
+            en: 'Salary comes with a practically automatic annual raise, and you can catch bigger bumps when some political proposal passes to raise pay for a specific sector. It\'s not a fortune, but it\'s predictable — and that weighs a lot when the rest of the economy is shaky.',
+          },
+          {
+            pt: 'A rotina costuma ser bem mais tranquila que a do privado. É burocrática, sim, e isso assusta muita gente — mas as responsabilidades são bem definidas, os processos são claros, e dificilmente você vai entrar naquela correria absurda de startup, com mil ferramentas mudando todo mês.',
+            en: 'The routine tends to be much calmer than the private one. It\'s bureaucratic, yes, and that scares some people off — but responsibilities are clearly defined, processes are clear, and you\'ll hardly fall into that absurd startup sprint, with a thousand tools changing every month.',
+          },
+          {
+            pt: 'Tem uma vantagem que ninguém comenta, mas que faz diferença real no dia a dia: você não precisa chegar todos os dias com um sorriso imenso na cara, demonstrando alta energia pro chefe achar que você é indispensável. Sobra mais energia pra sua vida, dá pra ser um pouco mais reservado, mais você.',
+            en: 'There\'s one advantage nobody talks about, but it makes a real daily difference: you don\'t need to show up every day with a huge smile, displaying high energy so the boss thinks you\'re indispensable. More energy is left for your own life, you can be a bit more reserved, a bit more yourself.',
+          },
+        ],
+      },
+      {
+        heading: { pt: 'O edital e os bônus de pontos', en: 'The notice and bonus points' },
+        paragraphs: [
+          {
+            pt: 'Sempre, sempre leia o edital. Cada concurso tem sua banca, suas regras e seus pesos — e quem ignora o edital perde pontos antes mesmo da prova começar.',
+            en: 'Always, always read the public notice (edital). Each exam has its own board, its own rules and its own weights — and whoever ignores the notice loses points before the test even starts.',
+          },
+          {
+            pt: 'Dois bônus comuns merecem atenção. Muitos concursos dão pontos por titulação: pós-graduação, mestrado e doutorado podem somar uma quantidade significativa de pontos na pontuação final, e em concursos disputados isso é o que decide a aprovação. Outros dão pontos por experiência profissional na área — ou seja, tempo no setor privado pode virar pontos no setor público. Não jogue isso fora.',
+            en: 'Two common bonuses deserve attention. Many exams award points for academic titles: a graduate certificate, master\'s or PhD can add a significant number of points to your final score, and in highly competitive exams that\'s often what decides approval. Others award points for professional experience in the area — meaning time in the private sector can turn into points in the public sector. Don\'t throw that away.',
+          },
+          {
+            pt: 'Mas isso é a regra geral. Cada concurso decide o quanto pesa o quê. Sempre confira no edital antes de contar com pontos extras na sua estratégia.',
+            en: 'But that\'s the general rule. Each exam decides how much each thing weighs. Always check the notice before counting on extra points in your strategy.',
+          },
+        ],
+      },
+      {
+        heading: { pt: 'Onde acompanhar concursos', en: 'Where to follow open exams' },
+        content: [
+          {
+            kind: 'paragraph',
+            text: {
+              pt: 'Concurso público acontece o tempo todo em algum canto do país. O segredo é ficar de olho. Eu recomendo bastante o Concursos no Brasil — site bem atualizado, com filtros por estado, órgão e nível, fácil de acompanhar. Vale o hábito de dar uma olhada toda semana.',
+              en: 'Public exams happen all the time, somewhere in the country. The trick is to stay tuned. I highly recommend Concursos no Brasil — well-updated site, with filters by state, agency and level, easy to follow. Worth the habit of checking once a week.',
+            },
+          },
+          {
+            kind: 'links',
+            items: [
+              { name: 'Concursos no Brasil', url: 'https://concursosnobrasil.com/' },
+            ],
+          },
+        ],
+      },
+      {
+        heading: { pt: 'Pra fechar', en: 'Closing thoughts' },
+        paragraphs: [
+          {
+            pt: 'Pra fechar: o setor público está crescendo justamente porque o privado está sendo engolido pela IA. Cada vez mais gente busca uma estabilidade que o mercado privado já não consegue oferecer — saber que, entregando o seu trabalho, você não vai ser demitido por uma reestruturação no próximo trimestre.',
+            en: 'To wrap up: the public sector is growing precisely because the private one is being eaten by AI. More and more people are looking for a stability the private market can no longer offer — knowing that, as long as you deliver your work, you won\'t be fired by a restructuring next quarter.',
+          },
+          {
+            pt: 'É uma vida com mais previsibilidade, mais espaço pra você e mais paz mental. Em troca, pede uma jornada longa, ingrata e solitária — mas com frutos sólidos lá na frente, pra quem aguenta a maratona.',
+            en: 'It\'s a life with more predictability, more space for yourself and more peace of mind. In exchange, it asks for a long, thankless and lonely journey — but with solid fruit down the line, for whoever can endure the marathon.',
+          },
+          {
+            pt: 'Se for trilhar esse caminho, vá ciente do tempo que ele exige. Não comece correndo. Comece com paciência, monte uma rotina sustentável e siga construindo. É uma maratona, não esqueça disso.',
+            en: 'If you go down this road, go aware of the time it demands. Don\'t start sprinting. Start with patience, build a sustainable routine and keep going. It\'s a marathon — don\'t forget that.',
           },
         ],
       },
@@ -729,42 +927,80 @@ export const jobTracks: JobTrack[] = [
       en: 'Working as a business',
     },
     shortDesc: {
-      pt: 'A carreira de quem opera com CNPJ — consultoria solo, agência ou montar a própria empresa de tecnologia.',
-      en: 'The career of those who operate under a business entity — solo consulting, agency, or building your own tech company.',
+      pt: 'Operar como CNPJ — consultoria autônoma, produto SaaS ou montar a própria empresa de tecnologia. Maior risco, maior teto.',
+      en: 'Operating as a business entity — solo consulting, SaaS product or building your own tech company. Higher risk, higher ceiling.',
     },
     intro: {
-      pt: 'O caminho empresarial é o de quem decide operar como pessoa jurídica — com CNPJ próprio — pra prestar serviços, vender produtos ou montar uma empresa de tecnologia. Vai desde o consultor solo que fatura como MEI até o sócio fundador que abre uma software house, contrata pessoas, capta clientes e constrói um negócio que cresce além das suas horas pessoais.',
-      en: 'The business path is for those who decide to operate as a legal entity — with their own business registration — to provide services, sell products or build a technology company. It ranges from the solo consultant invoicing as a sole proprietor to the founding partner opening a software house, hiring people, landing clients and building a business that grows beyond their personal hours.',
+      pt: 'O caminho empresarial é o de quem decide operar como pessoa jurídica — com CNPJ próprio — pra prestar serviços, vender produtos ou montar uma empresa de tecnologia. Antes de mais nada, um aviso de honestidade: esse é o setor mais distante da minha realidade atual, então essa parte vai ficar mais superficial do que as outras. Cobrir o panorama dá, mas com a humildade de quem ainda não trilhou esse caminho a fundo.',
+      en: 'The business path is for those who decide to operate as a legal entity — with their own CNPJ — to provide services, sell products or build a technology company. First, an honesty disclaimer: this is the sector furthest from my current reality, so this part will be more surface-level than the others. I can cover the landscape, but with the humility of someone who hasn\'t yet walked this path in depth.',
     },
     sections: [
       {
-        heading: { pt: 'Como funciona', en: 'How it works' },
+        heading: { pt: 'Os três ramos', en: 'The three branches' },
         paragraphs: [
           {
-            pt: 'Os formatos mais comuns são consultoria técnica solo (você é o produto), agência ou software house (vendendo entrega pra outras empresas), produto SaaS (você cria e cobra recorrente), e infoproduto/conteúdo (cursos, mentorias, comunidades). Cada um tem economia, ritmo e habilidade dominante diferente — o consultor vive de hora trabalhada, a agência vive de margem por projeto, o SaaS vive de retenção, o creator vive de audiência.',
-            en: 'The most common formats are solo technical consulting (you are the product), agency or software house (selling delivery to other companies), SaaS product (you build it and charge recurringly), and infoproducts or content (courses, mentorships, communities). Each has different economics, rhythm and dominant skill — the consultant lives off billable hours, the agency off project margins, the SaaS off retention, the creator off audience.',
-          },
-          {
-            pt: 'Pra operar bem, você precisa entender contabilidade básica, regimes tributários (Simples Nacional, Lucro Presumido), emissão de nota fiscal, contratos, prazos, precificação, fluxo de caixa e relação com cliente. A parte técnica é só metade do jogo; a outra metade é virar gestor da sua própria operação.',
-            en: 'To run things well, you need a working grasp of basic accounting, tax regimes (Simples Nacional, Lucro Presumido in Brazil), invoicing, contracts, deadlines, pricing, cash flow and client relationships. The technical side is only half the game; the other half is becoming the manager of your own operation.',
+            pt: 'Dentro do mundo "empresa", existem essencialmente três ramos. O primeiro é a consultoria autônoma pra pequenas e médias empresas — você como prestador solo, faturando como MEI ou PJ. O segundo é construir um produto tecnológico próprio, geralmente um SaaS com planos recorrentes ou compras únicas. O terceiro é montar uma empresa grande de consultoria de tecnologia, contratar gente e operar com contratos corporativos.',
+            en: 'Inside the "business" world, there are essentially three branches. The first is freelance consulting for small and mid-sized businesses — you as a solo provider, invoicing as a sole proprietor (MEI) or PJ. The second is building your own technology product, usually a SaaS with recurring plans or one-time purchases. The third is launching a large IT consulting company, hiring people and operating under corporate contracts.',
           },
         ],
       },
       {
-        heading: { pt: 'O que o mercado pede', en: 'What the market asks for' },
+        heading: { pt: 'Grande consultoria de tecnologia', en: 'Large IT consultancy' },
         paragraphs: [
           {
-            pt: 'Reputação importa mais do que diploma. Portfólio público — repositórios no GitHub, projetos entregues, depoimentos de clientes, conteúdo técnico — é o que abre porta. Especialização ajuda: virar referência em algo específico (dados, IA aplicada, infra, vertical X) facilita cobrar valor justo. Network ativo é parte do trabalho: indicação ainda é o principal canal de venda em consultoria.',
-            en: 'Reputation matters more than diplomas. Public portfolio — GitHub repos, delivered projects, client testimonials, technical content — is what opens doors. Specialization helps: becoming a reference in something specific (data, applied AI, infrastructure, vertical X) makes it easier to charge fair rates. Active networking is part of the job: referrals are still the main sales channel in consulting.',
+            pt: 'Começando pelo ramo mais pesado: a grande empresa de consultoria de tecnologia. Pra seguir esse caminho de cara, você precisa de um capital inicial considerável — e essa é a realidade de pouquíssimas pessoas. Por isso, não vou entrar a fundo aqui. É um caminho real e válido, mas exige uma posição de partida que a maior parte das pessoas simplesmente não tem.',
+            en: 'Starting with the heaviest branch: the large IT consultancy. To take this path from day one, you need significant starting capital — and that\'s the reality of very few people. That\'s why I won\'t go deep here. It\'s a real and valid path, but it requires a starting position most people simply don\'t have.',
           },
         ],
       },
       {
-        heading: { pt: 'Vantagens e armadilhas', en: 'Upsides and pitfalls' },
+        heading: { pt: 'Consultoria autônoma', en: 'Freelance consulting' },
         paragraphs: [
           {
-            pt: 'Do lado positivo: autonomia total sobre o que faz e como faz, teto de renda potencialmente alto, capacidade de construir patrimônio (clientes, marca, produto, equipe), e o aprendizado raro de quem vê o negócio inteiro de perto. Do lado oposto: renda irregular, especialmente no começo, ausência de benefícios automáticos (férias, 13º, INSS dependem de você), responsabilidade fiscal e jurídica direta, e o risco real de virar sócio do próprio cansaço se não houver disciplina de processos e limites.',
-            en: 'On the upside: full autonomy over what you do and how you do it, a potentially high income ceiling, the ability to build assets (clients, brand, product, team), and the rare learning of someone who sees the whole business up close. On the downside: irregular income, especially early on, no automatic benefits (vacation, bonuses, social security depend on you), direct tax and legal responsibility, and the real risk of becoming a partner to your own burnout if there\'s no process discipline and clear limits.',
+            pt: 'A consultoria pra pequenas e médias empresas é o ramo mais acessível pra quem está começando do zero. Eu conheço algumas pessoas que tocam dessa forma, então sei que funciona. Mas, assim como no privado — e até mais do que no privado —, você vai precisar de contatos, carisma e saber se vender. Sem isso, fica praticamente inviável. Querendo ou não, também vai precisar de um pouco de malícia e malandragem; é assim que toda empresa funciona em algum grau, e não tem por que se preocupar com isso.',
+            en: 'Consulting for small and mid-sized businesses is the most accessible branch for someone starting from scratch. I know a few people who run their own gigs this way, so I know it works. But, just like in the private sector — and even more than in the private sector — you\'ll need contacts, charisma and the ability to sell yourself. Without that, it\'s practically unviable. Like it or not, you\'ll also need a bit of street smarts; every business runs on that to some degree, so don\'t worry about it.',
+          },
+          {
+            pt: 'Existe sim possibilidade nesse caminho, mas tem um porém grande que vale a pena contar com um exemplo. Um amigo meu fez um aplicativo pra uma pequena empresa de salão de beleza. Não era um lugar jogado — tinha umas três ou quatro funcionárias, cara de marca, pegada de empresa. Ele chegou na dona, mostrou o produto, fechou o contrato. Construiu o app e entregou. Algum tempo depois, ela voltou com o feedback: gostou da ideia, achou bacana, mas os clientes não criavam vínculo com o app. Continuavam preferindo mandar mensagem pelo WhatsApp — mais direto, mais simples, falando diretamente com ela. Ficou nisso.',
+            en: 'There\'s real possibility on this path, but there\'s a big catch worth telling with an example. A friend of mine built an app for a small beauty-salon business. It wasn\'t a sketchy place — it had three or four employees, looked like a proper brand, had a business vibe. He pitched the owner, showed the product, closed the deal. Built the app and delivered. Some time later, she came back with feedback: she liked the idea, thought it was cool, but the clients weren\'t bonding with the app. They still preferred to message her on WhatsApp — more direct, simpler, talking directly to her. That was it.',
+          },
+          {
+            pt: 'Outra situação parecida aconteceu comigo: conversando com o meu barbeiro sobre tentar fazer umas consultorias, ele me disse exatamente a mesma coisa. "Cara, eu até te pediria pra fazer um aplicativo aqui — a gente conversa sobre isso —, mas o meu medo é que os clientes não usem. Eles continuam me mandando mensagem pelo WhatsApp." E eu já tinha comentado com ele que uma amiga minha fez exatamente isso em outro salão e teve o mesmo desfecho.',
+            en: 'A similar situation happened to me: talking with my barber about trying some consulting work, he told me exactly the same thing. "Man, I\'d even ask you to build me an app — we could talk about it —, but my fear is that the clients won\'t use it. They still message me on WhatsApp." And I had already told him about a friend who did exactly that in another salon and had the same outcome.',
+          },
+          {
+            pt: 'O ponto é: muita solução já está enraizada no dia a dia das pessoas, principalmente o WhatsApp Business, que tira a necessidade de uma porção de aplicativos extras. A pessoa precisaria baixar um app novo, entender a interface, criar conta — e, no fim, ela só quer mandar uma mensagem direta pra dona do salão, mandar um áudio, marcar e pronto. A interação humana ganha. É importante ter consciência disso antes de embarcar nesse ramo.',
+            en: 'The point is: a lot of solutions are already baked into people\'s daily lives, especially WhatsApp Business, which removes the need for a bunch of extra apps. A customer would have to download a new app, figure out the interface, create an account — and, in the end, they just want to send a direct message to the salon owner, drop a voice note, book and be done. Human interaction wins. It\'s important to be aware of that before getting into this branch.',
+          },
+        ],
+      },
+      {
+        heading: { pt: 'Produto próprio (SaaS)', en: 'Your own product (SaaS)' },
+        paragraphs: [
+          {
+            pt: 'Outra opção dentro do empresa é montar o seu próprio SaaS. Já adianto: a gente nunca esteve num momento tão ruim pra lançar um SaaS. Software perdeu muito do seu valor — perdeu mesmo. Com as IAs generalistas, ficou difícil; com a chegada dos agentes de IA, ficou muito mais difícil ainda.',
+            en: 'Another option inside the business path is building your own SaaS. Heads up: we\'ve never had a worse moment to launch a SaaS. Software has lost a lot of its value — really lost it. With general-purpose AIs, it got hard; with the arrival of AI agents, it got much harder.',
+          },
+          {
+            pt: 'Hoje, eu mesmo tenho vários programas e aplicativos feitos por mim, pra uso rotineiro. Por quê? Porque ficou simples construir software pra praticamente qualquer coisa. E qualquer SaaS atual — Gamma pra apresentações, sites de geração de imagem, ferramentas de automação X ou Y — em 99% dos casos pode ser substituído por um dos três grandes modelos de IA (ChatGPT, Claude, Gemini). E o resultado costuma ser mais assertivo, mais flexível e, às vezes, mais barato do que o SaaS está cobrando.',
+            en: 'Today, I myself have several programs and apps I built for my own daily use. Why? Because it became simple to build software for pretty much anything. And any current SaaS — Gamma for presentations, image-generation sites, automation tool X or Y — in 99% of cases can be replaced by one of the three major AI models (ChatGPT, Claude, Gemini). The result tends to be more accurate, more flexible and, sometimes, cheaper than what the SaaS is charging.',
+          },
+          {
+            pt: 'Não estou dizendo que SaaS morreu. Ainda existe espaço, principalmente em nichos onde regulação ou complexidade de domínio criam barreira. Mas, se a sua ideia for um SaaS genérico que faz X, fica o aviso: você vai estar competindo com modelos que fazem X, Y, Z e mais um monte de coisa que você nem pensou ainda.',
+            en: 'I\'m not saying SaaS is dead. There\'s still room, especially in niches where regulation or domain complexity create a barrier. But if your idea is a generic SaaS that does X, here\'s the warning: you\'ll be competing against models that do X, Y, Z and a bunch more you haven\'t even thought of yet.',
+          },
+        ],
+      },
+      {
+        heading: { pt: 'Pra fechar', en: 'Closing thoughts' },
+        paragraphs: [
+          {
+            pt: 'Pra fechar: não é impossível seguir o caminho empresa. Tudo depende muito da sua personalidade, do seu apetite por risco e da sua tolerância à incerteza. Entre os três setores, esse é o que carrega o risco mais alto — você pode investir muito dinheiro num produto ou numa operação e quebrar de vez. Em compensação, é também o que tem o maior teto de retorno.',
+            en: 'To wrap up: it\'s not impossible to walk the business path. It depends a lot on your personality, your appetite for risk and your tolerance for uncertainty. Among the three sectors, this is the one carrying the highest risk — you can pour a lot of money into a product or an operation and lose all of it. In return, it\'s also the one with the highest ceiling.',
+          },
+          {
+            pt: 'Enquanto o privado e o público te limitam, em média, a algo na casa de uns 15 mil reais por mês (com exceções no topo da escada, claro), o empresa pode te levar a números bem acima disso — 50 mil por mês ou mais, se a operação engrenar. É uma realidade. Mas, sendo bem honesto, esse não é o meu caminho atual, e por isso esse capítulo termina aqui — superficial de propósito, até a hora em que eu tiver autoridade prática pra falar com mais profundidade.',
+            en: 'While the private and public sectors generally cap you, on average, somewhere around R$ 15,000 a month (with exceptions at the top of the ladder, of course), the business path can take you to numbers well above that — R$ 50,000 a month or more, if the operation takes off. It\'s a real thing. But, being honest, this isn\'t my current path, and that\'s why this chapter ends here — surface-level on purpose, until I have practical authority to dive deeper.',
           },
         ],
       },
