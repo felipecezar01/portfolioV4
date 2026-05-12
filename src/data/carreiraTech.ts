@@ -1,10 +1,10 @@
-export type JobTrackId = 'privado' | 'publico' | 'empresa'
+export type CareerTrackId = 'privado' | 'publico' | 'empresa'
 
 export type BiText = { pt: string; en: string }
 
 export type TableCell = string | number | BiText
 
-export type JobTrackTable = {
+export type CareerTrackTable = {
   title: BiText
   note?: BiText
   columns: BiText[]
@@ -12,21 +12,21 @@ export type JobTrackTable = {
   scrollable?: boolean
 }
 
-export type JobLink = { name: string; url: string }
+export type CareerLink = { name: string; url: string }
 
 export type ContentBlock =
   | { kind: 'paragraph'; text: BiText }
-  | { kind: 'links'; items: JobLink[] }
+  | { kind: 'links'; items: CareerLink[] }
 
-export type JobTrackSection = {
+export type CareerTrackSection = {
   heading: BiText
   paragraphs?: BiText[]
   content?: ContentBlock[]
-  tables?: JobTrackTable[]
+  tables?: CareerTrackTable[]
 }
 
-export type JobTrack = {
-  id: JobTrackId
+export type CareerTrack = {
+  id: CareerTrackId
   slug: string
   icon: string
   colorVar: '--red' | '--green' | '--gold'
@@ -34,10 +34,10 @@ export type JobTrack = {
   tagline: BiText
   shortDesc: BiText
   intro: BiText
-  sections: JobTrackSection[]
+  sections: CareerTrackSection[]
 }
 
-export const jobTracks: JobTrack[] = [
+export const careerTracks: CareerTrack[] = [
   {
     id: 'privado',
     slug: 'privado',
@@ -1008,6 +1008,6 @@ export const jobTracks: JobTrack[] = [
   },
 ]
 
-export function getJobTrack(slug: string): JobTrack | undefined {
-  return jobTracks.find(t => t.slug === slug)
+export function getCareerTrack(slug: string): CareerTrack | undefined {
+  return careerTracks.find(t => t.slug === slug)
 }

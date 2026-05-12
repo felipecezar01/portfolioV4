@@ -56,7 +56,7 @@ export default function ErasDaTiClient({ returnHref }: { returnHref: string }) {
         <span style={{ color: GOLD }}>{tx.crumb}</span>
       </div>
 
-      <div style={{ maxWidth: '780px', margin: '0 auto', padding: '60px 40px 100px' }}>
+      <div className="eras-shell page-shell" style={{ maxWidth: '780px', margin: '0 auto', padding: '60px 40px 100px' }}>
 
         {/* header */}
         <div style={{ marginBottom: '64px' }}>
@@ -68,14 +68,14 @@ export default function ErasDaTiClient({ returnHref }: { returnHref: string }) {
             <span>✦</span>
             <span>{tx.span}</span>
           </div>
-          <h1 style={{
+          <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,
             marginBottom: '20px',
           }}>
             {tx.title}
           </h1>
-          <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
+          <p className="page-subtitle" style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
             {tx.subtitle}
           </p>
         </div>
@@ -106,7 +106,7 @@ export default function ErasDaTiClient({ returnHref }: { returnHref: string }) {
               }} />
 
               {/* era header */}
-              <header style={{
+              <header className="era-header" style={{
                 position: 'relative',
                 padding: '32px 32px 24px',
                 borderBottom: `0.5px solid ${eraBorder}`,
@@ -196,7 +196,7 @@ export default function ErasDaTiClient({ returnHref }: { returnHref: string }) {
               </div>
 
               {/* body */}
-              <div style={{ position: 'relative', padding: '28px 32px 32px' }}>
+              <div className="era-body" style={{ position: 'relative', padding: '28px 32px 32px' }}>
                 <p style={{
                   fontSize: '14.5px', color: 'var(--text2)', lineHeight: 1.85,
                   margin: 0, marginBottom: '28px',
@@ -209,7 +209,7 @@ export default function ErasDaTiClient({ returnHref }: { returnHref: string }) {
                   display: 'flex', flexDirection: 'column', gap: '14px',
                 }}>
                   {era.milestones.map((m, i) => (
-                    <div key={i} style={{
+                    <div key={i} className="era-milestone" style={{
                       display: 'grid',
                       gridTemplateColumns: '110px 1fr',
                       gap: '18px',

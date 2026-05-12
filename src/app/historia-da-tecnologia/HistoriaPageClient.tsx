@@ -120,7 +120,7 @@ export default function HistoriaPageClient({ initialPage }: { initialPage: numbe
         <span style={{ color: GOLD }}>{tx.label}</span>
       </div>
 
-      <div className="historia-shell" style={{ maxWidth: '900px', margin: '0 auto', padding: '60px 60px 100px', position: 'relative' }}>
+      <div className="historia-shell page-shell" style={{ maxWidth: '900px', margin: '0 auto', padding: '60px 60px 100px', position: 'relative' }}>
 
         {/* left aside — Eras da Tecnologia */}
         <aside className="historia-aside historia-aside-eras" style={{
@@ -367,20 +367,20 @@ export default function HistoriaPageClient({ initialPage }: { initialPage: numbe
             <span>✦</span>
             <span>{tx.span(HISTORY_SPAN)}</span>
           </div>
-          <h1 style={{
+          <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,
             marginBottom: '20px',
           }}>
             {tx.title}
           </h1>
-          <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
+          <p className="page-subtitle" style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
             {tx.subtitle}
           </p>
         </div>
 
         {/* year grid */}
-        <div style={{
+        <div className="historia-year-grid" style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 1fr)',
           gap: '10px',
@@ -497,9 +497,10 @@ export default function HistoriaPageClient({ initialPage }: { initialPage: numbe
         </div>
 
         {/* pagination */}
-        <div style={{
+        <div className="historia-pagination" style={{
           display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px',
           fontFamily: 'var(--font-mono)', fontSize: '11px',
+          flexWrap: 'wrap',
         }}>
           <button
             onClick={() => goToPage(page - 1)}

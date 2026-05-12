@@ -223,7 +223,7 @@ export default function MencaoHonrosaClient({ returnHref }: { returnHref: string
         <span style={{ color: SILVER }}>{tx.badge.toLowerCase()}</span>
       </div>
 
-      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '60px 40px 100px' }}>
+      <div className="honor-shell page-shell" style={{ maxWidth: '720px', margin: '0 auto', padding: '60px 40px 100px' }}>
 
         {/* header */}
         <div style={{ marginBottom: '48px' }}>
@@ -239,7 +239,7 @@ export default function MencaoHonrosaClient({ returnHref }: { returnHref: string
             ✧ {tx.badge}
           </div>
 
-          <h1 style={{
+          <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '42px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,
             marginBottom: '8px',
@@ -252,7 +252,7 @@ export default function MencaoHonrosaClient({ returnHref }: { returnHref: string
           }}>
             {tx.subtitle}
           </p>
-          <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
+          <p className="page-subtitle" style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
             {tx.intro}
           </p>
         </div>

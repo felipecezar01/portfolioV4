@@ -43,7 +43,7 @@ export default function ArquivoPage() {
         <span style={{ color: 'var(--blue)' }}>{tx.label}</span>
       </div>
 
-      <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '60px 60px 100px' }}>
+      <div className="arquivo-shell page-shell" style={{ maxWidth: '1100px', margin: '0 auto', padding: '60px 60px 100px' }}>
 
         {/* header */}
         <div style={{ marginBottom: '52px' }}>

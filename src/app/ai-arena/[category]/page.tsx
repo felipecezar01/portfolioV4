@@ -172,7 +172,7 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
       </div>
 
       {/* two-column layout */}
-      <div style={{
+      <div className="arena-cat-shell arena-grid page-shell" style={{
         maxWidth: '1180px',
         margin: '0 auto',
         padding: '60px 60px 100px',

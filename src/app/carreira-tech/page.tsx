@@ -2,20 +2,20 @@
 
 import Link from 'next/link'
 import { useLang } from '@/context/LangContext'
-import { jobTracks } from '@/data/jobs'
+import { careerTracks } from '@/data/carreiraTech'
 
 const t = {
   pt: {
-    label: 'jobs',
+    label: 'carreira tech',
     badge: '3 setores · 1 carreira',
-    title: 'Jobs',
+    title: 'Carreira Tech',
     subtitle: 'Essa página é focada em te explicar e te guiar pelos três caminhos que existem pra trabalhar e fazer seu dinheiro — e isso não é exclusivo da TI, vale pra grande maioria das profissões. Basicamente são os três setores onde a gente constrói carreira: privado, público e empresa. Cada um tem seu próprio jogo e suas próprias regras.',
     explore: 'Ler agora',
   },
   en: {
-    label: 'jobs',
+    label: 'carreira tech',
     badge: '3 sectors · 1 career',
-    title: 'Jobs',
+    title: 'Carreira Tech',
     subtitle: 'This page is focused on explaining and guiding you through the three paths that exist for working and making your money — and this is not exclusive to IT, it applies to most professions. These are basically the three sectors where people build a career: private, public and business. Each one has its own game and its own rules.',
     explore: 'Read now',
   },
@@ -23,7 +23,7 @@ const t = {
 
 const BLUE = 'var(--blue)'
 
-export default function JobsPage() {
+export default function CarreiraTechPage() {
   const { lang } = useLang()
   const tx = t[lang]
 
@@ -52,7 +52,7 @@ export default function JobsPage() {
         <span style={{ color: BLUE }}>{tx.label}</span>
       </div>
 
-      <div style={{ maxWidth: '860px', margin: '0 auto', padding: '60px 40px 100px' }}>
+      <div className="page-shell" style={{ maxWidth: '860px', margin: '0 auto', padding: '60px 40px 100px' }}>
 
         {/* header */}
         <div style={{ marginBottom: '56px' }}>
@@ -68,7 +68,7 @@ export default function JobsPage() {
             ◈ {tx.badge}
           </div>
 
-          <h1 style={{
+          <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,
             marginBottom: '20px',
@@ -76,14 +76,14 @@ export default function JobsPage() {
             {tx.title}
           </h1>
 
-          <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
+          <p className="page-subtitle" style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85 }}>
             {tx.subtitle}
           </p>
         </div>
 
         {/* track cards */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-          {jobTracks.map(track => {
+          {careerTracks.map(track => {
             const c = `var(${track.colorVar})`
             const cBorder = `color-mix(in srgb, ${c} 35%, transparent)`
             const cBorderHover = `color-mix(in srgb, ${c} 65%, transparent)`
@@ -92,7 +92,8 @@ export default function JobsPage() {
             return (
               <Link
                 key={track.id}
-                href={`/jobs/${track.slug}`}
+                href={`/carreira-tech/${track.slug}`}
+                className="career-track-card"
                 style={{
                   textDecoration: 'none',
                   border: `0.5px solid ${cBorder}`,
@@ -123,7 +124,7 @@ export default function JobsPage() {
                   el.style.transform = 'translateY(0)'
                 }}
               >
-                <span style={{
+                <span className="career-track-card-icon" style={{
                   width: '48px', height: '48px', borderRadius: '8px',
                   border: `0.5px solid ${cBorder}`,
                   background: cDim,
@@ -135,7 +136,7 @@ export default function JobsPage() {
                 </span>
 
                 <div style={{ minWidth: 0 }}>
-                  <div style={{
+                  <div className="career-track-tagline" style={{
                     fontFamily: 'var(--font-mono)', fontSize: '11px',
                     color: c, opacity: 0.72,
                     letterSpacing: '0.1em', textTransform: 'uppercase',
@@ -143,14 +144,14 @@ export default function JobsPage() {
                   }}>
                     {track.tagline[lang]}
                   </div>
-                  <div style={{
+                  <div className="career-track-name" style={{
                     fontFamily: 'var(--font-cyber)', fontSize: '24px', fontWeight: 800,
                     color: c, letterSpacing: '0.01em',
                     marginBottom: '8px',
                   }}>
                     {track.name[lang]}
                   </div>
-                  <p style={{
+                  <p className="career-track-shortdesc" style={{
                     fontSize: '13px', color: 'var(--text2)',
                     lineHeight: 1.65, margin: 0,
                   }}>
@@ -158,7 +159,7 @@ export default function JobsPage() {
                   </p>
                 </div>
 
-                <span style={{
+                <span className="career-track-card-arrow" style={{
                   color: c, opacity: 0.6,
                   fontSize: '20px', lineHeight: 1, flexShrink: 0,
                   transition: 'transform 0.22s, opacity 0.22s',

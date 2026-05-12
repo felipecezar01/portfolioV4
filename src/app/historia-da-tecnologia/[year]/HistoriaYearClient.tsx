@@ -287,7 +287,7 @@ export default function HistoriaYearClient({
         <span style={{ color: yearEraColor }}>{year}</span>
       </div>
 
-      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '60px 40px 100px' }}>
+      <div className="historia-year-shell page-shell" style={{ maxWidth: '720px', margin: '0 auto', padding: '60px 40px 100px' }}>
 
         {/* year header */}
         {(() => {
@@ -310,7 +310,7 @@ export default function HistoriaYearClient({
                   <span>{era.range}</span>
                 </div>
               )}
-              <div style={{
+              <div className="historia-year-number" style={{
                 fontFamily: 'var(--font-cyber)', fontSize: '68px', fontWeight: 800,
                 color: eraColor, letterSpacing: '0.01em', lineHeight: 1.0,
                 marginBottom: '14px',

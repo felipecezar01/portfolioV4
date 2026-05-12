@@ -1,26 +1,26 @@
 import { notFound } from 'next/navigation'
-import { getJobTrack, jobTracks } from '@/data/jobs'
-import JobsTrackClient from './JobsTrackClient'
+import { getCareerTrack, careerTracks } from '@/data/carreiraTech'
+import CarreiraTechTrackClient from './CarreiraTechTrackClient'
 
 export function generateStaticParams() {
-  return jobTracks.map(t => ({ track: t.slug }))
+  return careerTracks.map(t => ({ track: t.slug }))
 }
 
 export const dynamicParams = false
 
-export default async function JobsTrackPage({
+export default async function CarreiraTechTrackPage({
   params,
 }: {
   params: Promise<{ track: string }>
 }) {
   const { track: trackSlug } = await params
-  const track = getJobTrack(trackSlug)
+  const track = getCareerTrack(trackSlug)
 
   if (!track) notFound()
 
   return (
     <main style={{ minHeight: '100vh', background: 'var(--bg)', paddingTop: '56px' }}>
-      <JobsTrackClient track={track} />
+      <CarreiraTechTrackClient track={track} />
     </main>
   )
 }

@@ -56,7 +56,7 @@ export default function AIArenaPage() {
         <span style={{ color: 'var(--green)' }}>{tx.label}</span>
       </div>
 
-      <div style={{ maxWidth: '860px', margin: '0 auto', padding: '60px 40px 100px' }}>
+      <div className="arena-shell page-shell" style={{ maxWidth: '860px', margin: '0 auto', padding: '60px 40px 100px' }}>
 
         {/* header */}
         <div style={{ marginBottom: '56px' }}>
@@ -72,7 +72,7 @@ export default function AIArenaPage() {
             ⚡ {categories.length} categorias
           </div>
 
-          <h1 style={{
+          <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,
             marginBottom: '20px',
@@ -80,7 +80,7 @@ export default function AIArenaPage() {
             {tx.title}
           </h1>
 
-          <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85, marginBottom: '20px' }}>
+          <p className="page-subtitle" style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85, marginBottom: '20px' }}>
             {tx.subtitle}
           </p>
 

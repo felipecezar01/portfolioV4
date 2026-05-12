@@ -407,7 +407,7 @@ export default function ModelPage({ params }: { params: Promise<{ id: string }> 
         <span style={{ color: model.color }}>{model.name}</span>
       </div>
 
-      <div style={{ maxWidth: '860px', margin: '0 auto', padding: '60px 60px 100px' }}>
+      <div className="arena-shell page-shell" style={{ maxWidth: '860px', margin: '0 auto', padding: '60px 60px 100px' }}>
 
         {/* ── HEADER ── */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '22px', marginBottom: '36px' }}>
