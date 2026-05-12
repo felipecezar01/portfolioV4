@@ -4,13 +4,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useLang } from '@/context/LangContext'
 import { posts, Post } from '@/data/posts'
-import { HISTORY_END, HISTORY_START } from '@/data/historiaTecnologia'
 
 const t = {
   pt: {
     label: 'blog',
     title: 'Blog',
-    subtitle: 'Testes, benchmarks, epifanias e visualizações — tudo que vale documentar mas não chega a ser um projeto. Uma aventura solo de desbravamento pela TI: ferramentas, ambientes e territórios ainda inexplorados.',
+    subtitle: 'Experimentos, explicações e aventuras técnicas que valem ser registradas.',
     linksLabel: 'Também estou por aí em',
     newsletter: 'Newsletter · Tech News',
     count: (n: number) => `${n} ${n === 1 ? 'post' : 'posts'}`,
@@ -20,7 +19,7 @@ const t = {
   en: {
     label: 'blog',
     title: 'Blog',
-    subtitle: 'Tests, benchmarks, epiphanies and visualizations — everything worth documenting but not big enough for a repo. A solo voyage through uncharted IT territory: tools, environments and concepts waiting to be discovered.',
+    subtitle: 'Technical experiments, explanations and adventures worth documenting.',
     linksLabel: 'You can also find me at',
     newsletter: 'Newsletter · Tech News',
     count: (n: number) => `${n} ${n === 1 ? 'post' : 'posts'}`,
@@ -227,281 +226,6 @@ function PostCard({ post, lang }: { post: Post; lang: 'pt' | 'en' }) {
   )
 }
 
-function HistoriaSideCard({ lang }: { lang: 'pt' | 'en' }) {
-  return (
-    <Link href="/historia-da-tecnologia" className="side-card" style={{
-      textDecoration: 'none',
-      border: '0.5px solid rgba(255,216,77,0.42)',
-      borderRadius: '8px',
-      background: 'var(--bg2)',
-      width: '100%',
-      minWidth: 0,
-      padding: '28px 24px',
-      minHeight: '280px',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'space-between',
-      gap: '22px',
-      cursor: 'pointer',
-      transition: 'all 0.25s',
-      overflow: 'hidden',
-      position: 'relative',
-    }}
-      onMouseEnter={e => {
-        const el = e.currentTarget as HTMLAnchorElement
-        el.style.borderColor = 'rgba(255,216,77,0.78)'
-        el.style.background = 'var(--bg3)'
-        el.style.boxShadow = '0 8px 24px rgba(255,216,77,0.08), 0 2px 8px rgba(0,0,0,0.12)'
-        el.style.transform = 'translateY(-2px)'
-      }}
-      onMouseLeave={e => {
-        const el = e.currentTarget as HTMLAnchorElement
-        el.style.borderColor = 'rgba(255,216,77,0.42)'
-        el.style.background = 'var(--bg2)'
-        el.style.boxShadow = 'none'
-        el.style.transform = 'translateY(0)'
-      }}
-    >
-      <div style={{
-        position: 'absolute',
-        inset: 0,
-        backgroundImage: 'linear-gradient(rgba(255,216,77,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,216,77,0.06) 1px, transparent 1px)',
-        backgroundSize: '28px 28px',
-        maskImage: 'linear-gradient(180deg, rgba(0,0,0,0.55), transparent 62%)',
-        pointerEvents: 'none',
-      }} />
-
-      <div style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{
-          fontFamily: 'var(--font-mono)',
-          fontSize: '12px',
-          color: 'var(--gold)',
-          opacity: 0.72,
-          letterSpacing: '0.08em',
-          textTransform: 'uppercase',
-          marginBottom: '10px',
-        }}>
-          {HISTORY_START} - {HISTORY_END}
-        </div>
-
-        <div style={{
-          fontFamily: 'var(--font-cyber)',
-          fontSize: '23px',
-          fontWeight: 800,
-          color: 'var(--gold)',
-          letterSpacing: '0.01em',
-          lineHeight: 1.12,
-          marginBottom: '12px',
-        }}>
-          {lang === 'pt' ? 'História da Tecnologia' : 'History of Technology'}
-        </div>
-
-        <p style={{
-          fontSize: '13px',
-          color: 'var(--text2)',
-          lineHeight: 1.75,
-          margin: 0,
-          overflowWrap: 'break-word',
-        }}>
-          {lang === 'pt'
-            ? 'Nomes e marcos que moldaram a computação.'
-            : 'Names and milestones that shaped computing.'}
-        </p>
-      </div>
-
-      <div style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{
-          fontFamily: 'var(--font-mono)',
-          fontSize: '12px',
-          color: 'var(--gold)',
-          letterSpacing: '0.06em',
-          borderTop: '0.5px solid var(--gold-border)',
-          paddingTop: '14px',
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          gap: '10px',
-        }}>
-          <span>{lang === 'pt' ? 'Conhecer' : 'Explore'}</span>
-          <span aria-hidden="true" style={{ fontSize: '15px', lineHeight: 1 }}>→</span>
-        </div>
-      </div>
-    </Link>
-  )
-}
-
-function JobsSideCard({ lang }: { lang: 'pt' | 'en' }) {
-  return (
-    <Link href="/jobs" className="side-card" style={{
-      textDecoration: 'none',
-      border: '0.5px solid rgba(0,234,255,0.28)',
-      borderRadius: '8px',
-      background: 'var(--bg2)',
-      width: '100%',
-      minWidth: 0,
-      padding: '28px 24px',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'space-between',
-      gap: '22px',
-      cursor: 'pointer',
-      transition: 'all 0.25s',
-      overflow: 'hidden',
-      position: 'relative',
-    }}
-      onMouseEnter={e => {
-        const el = e.currentTarget as HTMLAnchorElement
-        el.style.borderColor = 'rgba(0,234,255,0.65)'
-        el.style.background = 'var(--bg3)'
-        el.style.boxShadow = '0 8px 24px rgba(0,234,255,0.08), 0 2px 8px rgba(0,0,0,0.12)'
-        el.style.transform = 'translateY(-2px)'
-      }}
-      onMouseLeave={e => {
-        const el = e.currentTarget as HTMLAnchorElement
-        el.style.borderColor = 'rgba(0,234,255,0.28)'
-        el.style.background = 'var(--bg2)'
-        el.style.boxShadow = 'none'
-        el.style.transform = 'translateY(0)'
-      }}
-    >
-      <div style={{
-        position: 'absolute', inset: 0,
-        backgroundImage: 'linear-gradient(rgba(0,234,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,234,255,0.04) 1px, transparent 1px)',
-        backgroundSize: '28px 28px',
-        maskImage: 'linear-gradient(180deg, rgba(0,0,0,0.4), transparent 58%)',
-        pointerEvents: 'none',
-      }} />
-
-      <div style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{
-          fontFamily: 'var(--font-mono)', fontSize: '12px',
-          color: 'var(--blue)', opacity: 0.72,
-          letterSpacing: '0.08em', textTransform: 'uppercase',
-          marginBottom: '10px',
-        }}>
-          {lang === 'pt' ? 'carreira em tecnologia' : 'tech career'}
-        </div>
-
-        <div style={{
-          fontFamily: 'var(--font-cyber)', fontSize: '23px', fontWeight: 800,
-          color: 'var(--blue)', letterSpacing: '0.01em', lineHeight: 1.12,
-          marginBottom: '12px',
-        }}>
-          Jobs
-        </div>
-
-        <p style={{
-          fontSize: '13px', color: 'var(--text2)',
-          lineHeight: 1.75, margin: 0, overflowWrap: 'break-word',
-        }}>
-          {lang === 'pt'
-            ? 'Três caminhos pra trabalhar com tecnologia: privado, público e empresa — cada um com seu próprio jogo e suas próprias regras.'
-            : 'Three paths to work with technology: private, public and business — each with its own game and its own rules.'}
-        </p>
-      </div>
-
-      <div style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{
-          fontFamily: 'var(--font-mono)', fontSize: '12px',
-          color: 'var(--blue)', letterSpacing: '0.06em',
-          borderTop: '0.5px solid rgba(0,234,255,0.2)',
-          paddingTop: '14px',
-          display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px',
-        }}>
-          <span>{lang === 'pt' ? 'Ler agora' : 'Read now'}</span>
-          <span aria-hidden="true" style={{ fontSize: '15px', lineHeight: 1 }}>→</span>
-        </div>
-      </div>
-    </Link>
-  )
-}
-
-function AIArenaSideCard({ lang }: { lang: 'pt' | 'en' }) {
-  return (
-    <Link href="/ai-arena" className="side-card" style={{
-      textDecoration: 'none',
-      border: '0.5px solid color-mix(in srgb, var(--green) 35%, transparent)',
-      borderRadius: '8px',
-      background: 'var(--bg2)',
-      width: '100%',
-      minWidth: 0,
-      padding: '28px 24px',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'space-between',
-      gap: '22px',
-      cursor: 'pointer',
-      transition: 'all 0.25s',
-      overflow: 'hidden',
-      position: 'relative',
-    }}
-      onMouseEnter={e => {
-        const el = e.currentTarget as HTMLAnchorElement
-        el.style.borderColor = 'color-mix(in srgb, var(--green) 70%, transparent)'
-        el.style.background = 'var(--bg3)'
-        el.style.boxShadow = '0 8px 24px color-mix(in srgb, var(--green) 8%, transparent), 0 2px 8px rgba(0,0,0,0.12)'
-        el.style.transform = 'translateY(-2px)'
-      }}
-      onMouseLeave={e => {
-        const el = e.currentTarget as HTMLAnchorElement
-        el.style.borderColor = 'color-mix(in srgb, var(--green) 35%, transparent)'
-        el.style.background = 'var(--bg2)'
-        el.style.boxShadow = 'none'
-        el.style.transform = 'translateY(0)'
-      }}
-    >
-      <div style={{
-        position: 'absolute', inset: 0,
-        backgroundImage: 'linear-gradient(color-mix(in srgb, var(--green) 6%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, var(--green) 5%, transparent) 1px, transparent 1px)',
-        backgroundSize: '28px 28px',
-        maskImage: 'linear-gradient(180deg, rgba(0,0,0,0.45), transparent 60%)',
-        pointerEvents: 'none',
-      }} />
-
-      <div style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{
-          fontFamily: 'var(--font-mono)', fontSize: '12px',
-          color: 'var(--green)', opacity: 0.72,
-          letterSpacing: '0.08em', textTransform: 'uppercase',
-          marginBottom: '10px',
-        }}>
-          {lang === 'pt' ? '5 modelos analisados' : '5 models reviewed'}
-        </div>
-
-        <div style={{
-          fontFamily: 'var(--font-cyber)', fontSize: '23px', fontWeight: 800,
-          color: 'var(--green)', letterSpacing: '0.01em', lineHeight: 1.12,
-          marginBottom: '12px',
-        }}>
-          AI Arena
-        </div>
-
-        <p style={{
-          fontSize: '13px', color: 'var(--text2)',
-          lineHeight: 1.75, margin: 0, overflowWrap: 'break-word',
-        }}>
-          {lang === 'pt'
-            ? 'Claude, ChatGPT, Gemini, DeepSeek e Grok — analisados com uso real.'
-            : 'Claude, ChatGPT, Gemini, DeepSeek and Grok — reviewed with real use.'}
-        </p>
-      </div>
-
-      <div style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{
-          fontFamily: 'var(--font-mono)', fontSize: '12px',
-          color: 'var(--green)', letterSpacing: '0.06em',
-          borderTop: '0.5px solid color-mix(in srgb, var(--green) 25%, transparent)',
-          paddingTop: '14px',
-          display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px',
-        }}>
-          <span>{lang === 'pt' ? 'Ver ranking' : 'See ranking'}</span>
-          <span aria-hidden="true" style={{ fontSize: '15px', lineHeight: 1 }}>→</span>
-        </div>
-      </div>
-    </Link>
-  )
-}
-
 export default function BlogPage() {
   const { lang } = useLang()
   const tx = t[lang]
@@ -525,14 +249,13 @@ export default function BlogPage() {
         <span style={{ color: 'var(--blue)' }}>{tx.label}</span>
       </div>
 
-      <div className="blog-shell" style={{
-        maxWidth: '900px',
+      <div className="blog-page-shell" style={{
+        maxWidth: '960px',
         margin: '0 auto',
         padding: '60px 60px 100px',
-        position: 'relative',
       }}>
 
-        <div className="blog-header" style={{ marginBottom: '48px' }}>
+        <div className="blog-header" style={{ marginBottom: '24px' }}>
           {/* header */}
           <div style={{
             fontFamily: 'var(--font-mono)', fontSize: '12px',
@@ -544,70 +267,43 @@ export default function BlogPage() {
           <h1 style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,
-            marginBottom: '16px',
+            marginBottom: '10px',
           }}>
             {tx.title}
           </h1>
           <p style={{
-            fontSize: '15px', color: 'var(--text2)', lineHeight: 1.85,
+            fontSize: '15px', color: 'var(--text2)', lineHeight: 1.65,
           }}>
             {tx.subtitle}
           </p>
 
           {/* external links */}
           <div style={{
-            marginTop: '20px', paddingTop: '16px',
-            borderTop: '0.5px solid var(--border)',
+            marginTop: '8px',
             fontFamily: 'var(--font-mono)', fontSize: '12px',
-            color: 'var(--text3)', lineHeight: 1.9,
+            color: 'var(--text3)', lineHeight: 1.65,
           }}>
             {lang === 'pt' ? (
               <>
-                Para notícias quentinhas diárias de TI, acompanha minha{' '}
+                Notícias rápidas na{' '}
                 <ExtLink href="https://www.linkedin.com/newsletters/tech-news-7446586347982757888/">Newsletter Tech News ↗</ExtLink>
-                {' '}no LinkedIn.
-                {' '}Para conteúdos mais conceituais e menos dopaminérgicos, uso o{' '}
+                {' '}; conceitos explicados no{' '}
                 <ExtLink href="https://medium.com/@felipecezar01">Medium ↗</ExtLink>
-                {' '}ou o{' '}
+                {' '}e no{' '}
                 <ExtLink href="https://dev.to/felipecezar01">Dev.to ↗</ExtLink>.
               </>
             ) : (
               <>
-                For daily hot tech news, follow my{' '}
+                Quick tech news in the{' '}
                 <ExtLink href="https://www.linkedin.com/newsletters/tech-news-7446586347982757888/">Tech News Newsletter ↗</ExtLink>
-                {' '}on LinkedIn.
-                {' '}For more conceptual and less dopamine-driven content, I use{' '}
+                {' '}; explained concepts on{' '}
                 <ExtLink href="https://medium.com/@felipecezar01">Medium ↗</ExtLink>
-                {' '}or{' '}
+                {' '}and{' '}
                 <ExtLink href="https://dev.to/felipecezar01">Dev.to ↗</ExtLink>.
               </>
             )}
           </div>
         </div>
-
-        {/* right aside — História da Tecnologia */}
-        <aside className="blog-aside" style={{
-          position: 'absolute',
-          top: '92px',
-          left: 'calc(100% + 52px)',
-          width: '280px',
-        }}>
-          <HistoriaSideCard lang={lang} />
-        </aside>
-
-        {/* left aside — AI Arena + Stack Map */}
-        <aside style={{
-          position: 'absolute',
-          top: '92px',
-          right: 'calc(100% + 52px)',
-          width: '280px',
-          display: 'flex',
-          flexDirection: 'column',
-          gap: '16px',
-        }}>
-          <AIArenaSideCard lang={lang} />
-          <JobsSideCard lang={lang} />
-        </aside>
 
         {/* posts list */}
         <div className="blog-posts" style={{
