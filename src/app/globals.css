@@ -156,13 +156,16 @@ body {
 
 /* ── RESPONSIVIDADE ── */
 
-/* Navbar mobile */
-@media (max-width: 768px) {
+/* Navbar compact */
+@media (max-width: 980px) {
   .nav-links-desktop { display: none !important; }
   .nav-mobile-menu {
     display: flex !important;
     align-items: center;
     gap: 8px;
+  }
+  .navbar-main {
+    padding: 0 18px !important;
   }
 }
 
@@ -224,32 +227,14 @@ body {
 }
 
 /* Blog page */
-@media (max-width: 1180px) {
-  .blog-shell {
-    grid-template-columns: minmax(0, 1fr) minmax(220px, 240px) !important;
-    grid-template-areas: "header aside" "posts aside" !important;
-    gap: 32px !important;
-  }
-
-  .blog-aside {
-    padding-top: 208px !important;
-  }
-}
-
 @media (max-width: 920px) {
-  .blog-shell {
-    grid-template-columns: 1fr !important;
-    grid-template-areas: "header" "aside" "posts" !important;
-    gap: 32px !important;
+  .blog-page-shell {
+    max-width: 100% !important;
     padding: 48px 32px 88px !important;
   }
 
-  .blog-aside {
-    padding-top: 0 !important;
-  }
-
   .side-card {
-    min-height: 240px !important;
+    min-height: 220px !important;
     min-width: 0 !important;
     width: 100% !important;
   }
@@ -264,28 +249,218 @@ body {
   }
 }
 
+/* ── Generic page shell + typography responsiveness ── */
+
+/* Tablet */
+@media (max-width: 900px) {
+  .page-shell {
+    padding: 48px 28px 80px !important;
+  }
+  .page-title {
+    font-size: 42px !important;
+  }
+  .page-subtitle {
+    font-size: 14px !important;
+  }
+  .page-section-title {
+    font-size: 20px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .page-shell {
+    padding: 36px 18px 64px !important;
+  }
+  .page-title {
+    font-size: 34px !important;
+    letter-spacing: 0 !important;
+  }
+  .page-subtitle {
+    font-size: 14px !important;
+    line-height: 1.7 !important;
+  }
+  .page-section-title {
+    font-size: 18px !important;
+  }
+  .page-paragraph {
+    font-size: 14px !important;
+    line-height: 1.75 !important;
+  }
+}
+
+/* ── Carreira Tech main page (card list) ── */
+@media (max-width: 640px) {
+  .career-track-card {
+    grid-template-columns: 40px 1fr !important;
+    padding: 20px 18px !important;
+    gap: 14px !important;
+  }
+  .career-track-card-arrow { display: none !important; }
+  .career-track-card-icon {
+    width: 40px !important; height: 40px !important;
+    font-size: 17px !important;
+  }
+  .career-track-name { font-size: 20px !important; }
+  .career-track-tagline { font-size: 10px !important; }
+  .career-track-shortdesc { font-size: 12px !important; }
+}
+
+/* ── Carreira Tech detail page (track) ── */
+@media (max-width: 640px) {
+  .career-detail-shell {
+    padding: 36px 18px 72px !important;
+  }
+  .career-detail-intro {
+    font-size: 15px !important;
+    line-height: 1.75 !important;
+  }
+  .career-table-head,
+  .career-table-row {
+    grid-template-columns: 30px minmax(0, 1fr) 52px 56px !important;
+    padding: 10px 12px !important;
+    gap: 8px !important;
+  }
+  .career-table-head {
+    font-size: 11px !important;
+  }
+  .career-table-row {
+    font-size: 13px !important;
+  }
+  .career-link-card {
+    padding: 12px 14px !important;
+    gap: 8px !important;
+  }
+  .career-link-card-name {
+    font-size: 15px !important;
+  }
+  .career-link-card-url {
+    font-size: 11px !important;
+  }
+}
+
+/* ── História year detail (people cards, year grid) ── */
+@media (max-width: 900px) {
+  .historia-people-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 640px) {
+  .historia-year-shell {
+    padding: 36px 18px 72px !important;
+  }
+  .historia-year-number {
+    font-size: 52px !important;
+  }
+  .historia-person-card {
+    padding: 24px 20px !important;
+  }
+}
+
+/* ── História year grid (the 4-col tile grid on main historia page) ── */
+@media (max-width: 768px) {
+  .historia-year-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (max-width: 420px) {
+  .historia-year-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Pagination wraps and shrinks on mobile */
+@media (max-width: 640px) {
+  .historia-pagination button {
+    width: 28px !important;
+    height: 28px !important;
+    font-size: 10px !important;
+    padding: 4px 9px !important;
+  }
+  .historia-pagination {
+    gap: 4px !important;
+  }
+}
+
+/* ── Eras da TI ── */
+@media (max-width: 640px) {
+  .eras-shell {
+    padding: 36px 18px 72px !important;
+  }
+  .era-header {
+    padding: 22px 20px 18px !important;
+    gap: 16px !important;
+  }
+  .era-body {
+    padding: 22px 20px 24px !important;
+  }
+  .era-milestone {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+    padding: 14px !important;
+  }
+}
+
+/* ── Menção Honrosa ── */
+@media (max-width: 640px) {
+  .honor-shell {
+    padding: 36px 18px 72px !important;
+  }
+}
+
+/* ── AI Arena ── */
+@media (max-width: 900px) {
+  .arena-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 640px) {
+  .arena-shell {
+    padding: 36px 18px 72px !important;
+  }
+}
+
+/* ── Projetos ── */
+@media (max-width: 768px) {
+  .projetos-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 640px) {
+  .projeto-detail-shell {
+    padding: 36px 18px 72px !important;
+  }
+}
+
+/* ── Arquivo ── */
+@media (max-width: 640px) {
+  .arquivo-shell {
+    padding: 36px 18px 72px !important;
+  }
+}
+
 /* Nationality list inside stats card — slim scrollbar */
 .stats-nationality-list,
-.jobs-table-scroll {
+.career-table-scroll {
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
 }
 .stats-nationality-list::-webkit-scrollbar,
-.jobs-table-scroll::-webkit-scrollbar {
+.career-table-scroll::-webkit-scrollbar {
   width: 6px;
 }
 .stats-nationality-list::-webkit-scrollbar-thumb,
-.jobs-table-scroll::-webkit-scrollbar-thumb {
+.career-table-scroll::-webkit-scrollbar-thumb {
   background: var(--border2);
   border-radius: 3px;
 }
 .stats-nationality-list::-webkit-scrollbar-track,
-.jobs-table-scroll::-webkit-scrollbar-track {
+.career-table-scroll::-webkit-scrollbar-track {
   background: transparent;
 }
 
 @media (max-width: 640px) {
-  .blog-shell {
+  .blog-page-shell {
     padding: 40px 20px 80px !important;
   }
 
