@@ -10,12 +10,12 @@ const t = {
   pt: {
     label: 'cultura tech',
     title: 'Cultura Tech',
-    subtitle: 'Um espaço para consumir cultura tech. Abaixo seguem algumas categorias que levam você a nomes de obras ou links de sites, canais e referências para explorar com calma.',
+    subtitle: 'Um espaço para consumir cultura tech. Abaixo seguem algumas categorias que levam você a nomes de obras ou links de sites, canais e referências para explorar.',
   },
   en: {
     label: 'tech culture',
     title: 'Tech Culture',
-    subtitle: 'A space to consume tech culture. Below are categories that lead to names of works or links to sites, channels and references to explore at your own pace.',
+    subtitle: 'A space to consume tech culture. Below are categories that lead to names of works or links to sites, channels and references to explore.',
   },
 }
 
