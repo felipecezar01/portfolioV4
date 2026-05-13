@@ -33,8 +33,20 @@ function DescriptionText({ text }: { text: string }) {
   ))
 }
 
-function EntryList({ items, lang, color }: { items: CulturaTechItem[]; lang: Lang; color: string }) {
-  function renderTitle(item: CulturaTechItem, size = '20px') {
+function EntryList({
+  items,
+  lang,
+  color,
+  showHrefAsTitle = false,
+}: {
+  items: CulturaTechItem[]
+  lang: Lang
+  color: string
+  showHrefAsTitle?: boolean
+}) {
+  function renderTitle(item: CulturaTechItem, size = showHrefAsTitle && item.href ? '14px' : '18px') {
+    const label = showHrefAsTitle && item.href ? item.href : item.title[lang]
+
     return item.href ? (
       <a
         href={item.href}
@@ -42,15 +54,17 @@ function EntryList({ items, lang, color }: { items: CulturaTechItem[]; lang: Lan
         rel="noreferrer"
         style={{
           color,
-          fontFamily: 'var(--font-cyber)',
+          fontFamily: showHrefAsTitle ? 'var(--font-mono)' : 'var(--font-cyber)',
           fontSize: size,
-          fontWeight: 800,
-          lineHeight: 1.25,
+          fontWeight: showHrefAsTitle ? 600 : 800,
+          lineHeight: 1.35,
           textDecoration: 'underline',
           textUnderlineOffset: '5px',
+          overflowWrap: 'anywhere',
+          wordBreak: 'break-word',
         }}
       >
-        {item.title[lang]} <span aria-hidden="true">↗</span>
+        {label} <span aria-hidden="true">↗</span>
       </a>
     ) : (
       <strong style={{
@@ -136,7 +150,7 @@ function EntryList({ items, lang, color }: { items: CulturaTechItem[]; lang: Lan
                       {index + 1}.{subIndex + 1}
                     </span>
                     <div>
-                      {renderTitle(subItem, '16px')}
+                      {renderTitle(subItem, showHrefAsTitle && subItem.href ? '12px' : '15px')}
                       <p style={{
                         fontFamily: 'var(--font-mono)',
                         fontSize: '12px',
@@ -229,7 +243,12 @@ export default function CulturaTechCategoryClient({ category }: { category: Cult
                 </summary>
 
                 <div style={{ marginTop: '22px' }}>
-                  <EntryList items={section.items} lang={lang} color={category.color} />
+                  <EntryList
+                    items={section.items}
+                    lang={lang}
+                    color={category.color}
+                    showHrefAsTitle={category.slug === 'sites'}
+                  />
                 </div>
               </details>
             ))}
