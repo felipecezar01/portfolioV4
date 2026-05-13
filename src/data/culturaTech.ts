@@ -186,6 +186,31 @@ const obviousSiteItems: CulturaTechItem[] = [
   siteItem('Asana', 'https://asana.com/', 'Organização de projetos, tarefas, responsabilidades e acompanhamento de entregas.'),
 ]
 
+const extraSiteItems: CulturaTechItem[] = [
+  siteItem('Bitbucket', 'https://bitbucket.org/', 'Hospedagem Git da Atlassian, comum em times que usam Jira e ecossistema corporativo.'),
+  siteItem('SourceForge', 'https://sourceforge.net/', 'Repositório histórico de software open source, ainda útil para achar projetos antigos.'),
+  siteItem('Codeberg', 'https://codeberg.org/', 'Forge Git sem fins lucrativos, focada em software livre e colaboração aberta.'),
+  siteItem('Gitea', 'https://about.gitea.com/', 'Forge Git leve e self-hosted para repositórios, issues, pull requests e colaboração.'),
+  siteItem('Forgejo', 'https://forgejo.org/', 'Forge Git livre e federável, nascida como alternativa comunitária ao Gitea.'),
+  siteItem('Sourcegraph', 'https://sourcegraph.com/search', 'Busca e navegação em código para explorar repositórios e encontrar padrões.'),
+  siteItem('grep.app', 'https://grep.app/', 'Busca rápida por código em repositórios públicos do GitHub usando texto ou regex.'),
+  siteItem('Lobsters', 'https://lobste.rs/', 'Comunidade curada de links e discussões sobre programação, segurança, sistemas e tecnologia.'),
+  siteGroup('Discord servers', 'Servidores úteis para conversar, tirar dúvidas, acompanhar comunidades e aprender com outros devs.', [
+    siteItem('The Programmer\'s Hangout', 'https://discord.com/servers/the-programmer-s-hangout-244230771232079873', 'Comunidade grande e generalista para programação, carreira, linguagens e ajuda técnica.'),
+    siteItem('Python Discord', 'https://www.pythondiscord.com/', 'Comunidade focada em Python, com canais de ajuda, eventos e contribuição open source.'),
+    siteItem('Reactiflux', 'https://www.reactiflux.com/', 'Comunidade de React, React Native, Redux, GraphQL e ecossistema JavaScript.'),
+    siteItem('The Coding Den', 'https://discord.gg/code', 'Servidor para tirar dúvidas de código, receber feedback e conviver com outros devs.'),
+    siteItem('devcord', 'https://discord.com/servers/devcord-174075418410876928', 'Comunidade para desenvolvimento web, front-end, back-end e conversas técnicas gerais.'),
+  ]),
+  siteGroup('Slack communities', 'Comunidades em Slack que ajudam a acompanhar projetos, segurança, cloud native e ecossistemas técnicos.', [
+    siteItem('Kubernetes Slack', 'https://slack.k8s.io/', 'Workspace enorme da comunidade Kubernetes, com canais por SIG, projeto e assunto.'),
+    siteItem('CNCF Slack', 'https://slack.cncf.io/', 'Comunidade cloud native para projetos como Argo, OpenTofu, OpenFGA, Prometheus e outros.'),
+    siteItem('OWASP Slack', 'https://owasp.org/slack/invite', 'Comunidade de segurança de aplicações, projetos OWASP e discussões de AppSec.'),
+    siteItem('OpenTofu Slack', 'https://opentofu.org/slack/', 'Canal da comunidade OpenTofu dentro do Slack da CNCF, focado em infraestrutura como código.'),
+    siteItem('Argo Slack', 'https://argoproj.github.io/community/join-slack/', 'Canais do Argo no Slack da CNCF para CD, workflows, rollouts e eventos.'),
+  ]),
+]
+
 const bookExamples: CulturaTechItem[] = [
   {
     title: { pt: 'YouTube', en: 'YouTube' },
@@ -287,17 +312,7 @@ export const culturaTechCategories: CulturaTechCategory[] = [
       pt: 'Sites que eu considero bacanas e que acho que quem é da área da TI deveria conhecer.',
       en: 'Sites I consider useful and that I think people in IT should know.',
     },
-    sections: [
-      {
-        title: { pt: 'Os óbvios', en: 'The obvious ones' },
-        defaultOpen: true,
-        items: obviousSiteItems,
-      },
-      {
-        title: { pt: 'Os não tão óbvios', en: 'The not so obvious ones' },
-        items: linkExamples,
-      },
-    ],
+    items: [...obviousSiteItems, ...extraSiteItems],
   },
   {
     slug: 'livros',

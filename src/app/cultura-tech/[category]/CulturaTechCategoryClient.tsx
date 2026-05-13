@@ -254,7 +254,12 @@ export default function CulturaTechCategoryClient({ category }: { category: Cult
             ))}
           </div>
         ) : (
-          <EntryList items={category.items ?? []} lang={lang} color={category.color} />
+          <EntryList
+            items={category.items ?? []}
+            lang={lang}
+            color={category.color}
+            showHrefAsTitle={category.slug === 'sites'}
+          />
         )}
       </div>
     </main>
