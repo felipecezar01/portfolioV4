@@ -7,14 +7,12 @@ import { careerTracks } from '@/data/carreiraTech'
 const t = {
   pt: {
     label: 'carreira tech',
-    badge: '3 setores · 1 carreira',
     title: 'Carreira Tech',
     subtitle: 'Essa página é focada em te explicar e te guiar pelos três caminhos que existem pra trabalhar e fazer seu dinheiro — e isso não é exclusivo da TI, vale pra grande maioria das profissões. Basicamente são os três setores onde a gente constrói carreira: privado, público e empresa. Cada um tem seu próprio jogo e suas próprias regras.',
     explore: 'Ler agora',
   },
   en: {
     label: 'carreira tech',
-    badge: '3 sectors · 1 career',
     title: 'Carreira Tech',
     subtitle: 'This page is focused on explaining and guiding you through the three paths that exist for working and making your money — and this is not exclusive to IT, it applies to most professions. These are basically the three sectors where people build a career: private, public and business. Each one has its own game and its own rules.',
     explore: 'Read now',
@@ -56,18 +54,6 @@ export default function CarreiraTechPage() {
 
         {/* header */}
         <div style={{ marginBottom: '56px' }}>
-          <div style={{
-            display: 'inline-flex', alignItems: 'center', gap: '8px',
-            fontFamily: 'var(--font-mono)', fontSize: '11px',
-            color: BLUE, letterSpacing: '0.1em', textTransform: 'uppercase',
-            border: '0.5px solid rgba(0,234,255,0.25)',
-            background: 'var(--blue-dim)',
-            padding: '4px 12px', borderRadius: '4px',
-            marginBottom: '20px',
-          }}>
-            ◈ {tx.badge}
-          </div>
-
           <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,
@@ -136,14 +122,6 @@ export default function CarreiraTechPage() {
                 </span>
 
                 <div style={{ minWidth: 0 }}>
-                  <div className="career-track-tagline" style={{
-                    fontFamily: 'var(--font-mono)', fontSize: '11px',
-                    color: c, opacity: 0.72,
-                    letterSpacing: '0.1em', textTransform: 'uppercase',
-                    marginBottom: '6px',
-                  }}>
-                    {track.tagline[lang]}
-                  </div>
                   <div className="career-track-name" style={{
                     fontFamily: 'var(--font-cyber)', fontSize: '24px', fontWeight: 800,
                     color: c, letterSpacing: '0.01em',

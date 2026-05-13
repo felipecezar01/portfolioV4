@@ -296,11 +296,18 @@ export default function HistoriaYearClient({
           const yearSubtitle = entry ? (lang === 'pt' ? entry.era.pt : entry.era.en).split('\n')[0] : null
           return (
             <div style={{ marginBottom: '48px' }}>
+              <div className="historia-year-number" style={{
+                fontFamily: 'var(--font-cyber)', fontSize: '68px', fontWeight: 800,
+                color: eraColor, letterSpacing: '0.01em', lineHeight: 1.0,
+                marginBottom: '14px',
+              }}>
+                {year}
+              </div>
               {era && (
                 <div style={{
                   fontFamily: 'var(--font-mono)', fontSize: '12px',
-                  color: eraColor, letterSpacing: '0.1em',
-                  textTransform: 'uppercase', marginBottom: '14px',
+                  color: eraColor, letterSpacing: '0.08em',
+                  marginBottom: '14px',
                   display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap',
                 }}>
                   <span>{tx.eraLabel} {era.number}</span>
@@ -310,13 +317,6 @@ export default function HistoriaYearClient({
                   <span>{era.range}</span>
                 </div>
               )}
-              <div className="historia-year-number" style={{
-                fontFamily: 'var(--font-cyber)', fontSize: '68px', fontWeight: 800,
-                color: eraColor, letterSpacing: '0.01em', lineHeight: 1.0,
-                marginBottom: '14px',
-              }}>
-                {year}
-              </div>
               {yearSubtitle && (
                 <div style={{
                   fontFamily: 'var(--font-mono)', fontSize: '12px',

@@ -61,15 +61,6 @@ export default function BlogPostClient({
 
         {/* header */}
         <div style={{ marginBottom: '48px' }}>
-          {/* meta row */}
-          <div style={{
-            display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap',
-            fontFamily: 'var(--font-mono)', fontSize: '12px', color: 'var(--text3)',
-            marginBottom: '20px',
-          }}>
-            <span>{formatDate(post.date, lang)}</span>
-          </div>
-
           {/* title */}
           <h1 style={{
             fontFamily: 'var(--font-cyber)',
@@ -82,6 +73,15 @@ export default function BlogPostClient({
           }}>
             {title}
           </h1>
+
+          {/* meta row */}
+          <div style={{
+            display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap',
+            fontFamily: 'var(--font-mono)', fontSize: '12px', color: 'var(--text3)',
+            marginBottom: '20px',
+          }}>
+            <span>{formatDate(post.date, lang)}</span>
+          </div>
 
           {/* tags */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginBottom: '32px' }}>

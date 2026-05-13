@@ -227,18 +227,6 @@ export default function MencaoHonrosaClient({ returnHref }: { returnHref: string
 
         {/* header */}
         <div style={{ marginBottom: '48px' }}>
-          <div style={{
-            display: 'inline-flex', alignItems: 'center', gap: '8px',
-            fontFamily: 'var(--font-mono)', fontSize: '11px',
-            color: SILVER, letterSpacing: '0.1em', textTransform: 'uppercase',
-            border: `0.5px solid ${SILVER_BORDER}`,
-            background: SILVER_DIM,
-            padding: '4px 12px', borderRadius: '4px',
-            marginBottom: '20px',
-          }}>
-            ✧ {tx.badge}
-          </div>
-
           <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '42px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,

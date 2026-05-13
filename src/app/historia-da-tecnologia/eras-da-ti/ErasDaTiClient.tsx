@@ -60,14 +60,6 @@ export default function ErasDaTiClient({ returnHref }: { returnHref: string }) {
 
         {/* header */}
         <div style={{ marginBottom: '64px' }}>
-          <div style={{
-            fontFamily: 'var(--font-mono)', fontSize: '12px', color: GOLD,
-            letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '12px',
-            display: 'flex', alignItems: 'center', gap: '8px',
-          }}>
-            <span>✦</span>
-            <span>{tx.span}</span>
-          </div>
           <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,

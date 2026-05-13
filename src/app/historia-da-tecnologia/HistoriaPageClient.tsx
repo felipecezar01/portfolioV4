@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { useLang } from '@/context/LangContext'
-import { historyByYear, HISTORY_START, HISTORY_END, HISTORY_SPAN } from '@/data/historiaTecnologia'
+import { historyByYear, HISTORY_START, HISTORY_END } from '@/data/historiaTecnologia'
 import { getEraForYear } from '@/data/erasDaTi'
 import { HISTORY_STATS } from '@/data/historyStats'
 
@@ -16,7 +16,6 @@ const t = {
   pt: {
     label: 'história da tecnologia',
     title: 'História da Tecnologia',
-    span: (n: number) => `${n} anos de história da tecnologia`,
     subtitle: 'De 1843 até hoje, cada pessoa que entrou aqui deixou a área de tecnologia diferente do que encontrou. Este é o meu registro pessoal — baseado no que estudei, no que li, no que aprendi. A lista será sempre imperfeita e sempre crescendo.',
     entries: (n: number) => `${n} ${n === 1 ? 'pessoa' : 'pessoas'}`,
     page: 'Página',
@@ -40,7 +39,6 @@ const t = {
   en: {
     label: 'history of technology',
     title: 'History of Technology',
-    span: (n: number) => `${n} years of technology history`,
     subtitle: 'From 1843 to today, every person who made it here left the technology field different from how they found it. This is my personal record — based on what I\'ve studied, read, and learned. The list will always be imperfect and always growing.',
     entries: (n: number) => `${n} ${n === 1 ? 'person' : 'people'}`,
     page: 'Page',
@@ -359,14 +357,6 @@ export default function HistoriaPageClient({ initialPage }: { initialPage: numbe
 
         {/* header */}
         <div style={{ marginBottom: '52px' }}>
-          <div style={{
-            fontFamily: 'var(--font-mono)', fontSize: '12px', color: GOLD,
-            letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '12px',
-            display: 'flex', alignItems: 'center', gap: '8px',
-          }}>
-            <span>✦</span>
-            <span>{tx.span(HISTORY_SPAN)}</span>
-          </div>
           <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,

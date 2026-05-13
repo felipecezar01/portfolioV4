@@ -60,18 +60,6 @@ export default function AIArenaPage() {
 
         {/* header */}
         <div style={{ marginBottom: '56px' }}>
-          <div style={{
-            display: 'inline-flex', alignItems: 'center', gap: '8px',
-            fontFamily: 'var(--font-mono)', fontSize: '11px',
-            color: 'var(--green)', letterSpacing: '0.1em', textTransform: 'uppercase',
-            border: '0.5px solid color-mix(in srgb, var(--green) 30%, transparent)',
-            background: 'var(--green-dim)',
-            padding: '4px 12px', borderRadius: '4px',
-            marginBottom: '20px',
-          }}>
-            ⚡ {categories.length} categorias
-          </div>
-
           <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,

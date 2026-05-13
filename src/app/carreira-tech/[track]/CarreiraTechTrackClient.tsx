@@ -210,19 +210,6 @@ export default function CarreiraTechTrackClient({ track }: { track: CareerTrack 
 
         {/* header */}
         <div style={{ marginBottom: '48px' }}>
-          <div style={{
-            display: 'inline-flex', alignItems: 'center', gap: '8px',
-            fontFamily: 'var(--font-mono)', fontSize: '11px',
-            color: c, letterSpacing: '0.1em', textTransform: 'uppercase',
-            border: `0.5px solid ${cBorder}`,
-            background: cDim,
-            padding: '4px 12px', borderRadius: '4px',
-            marginBottom: '20px',
-          }}>
-            <span>{track.icon}</span>
-            <span>{track.tagline[lang]}</span>
-          </div>
-
           <h1 className="page-title" style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: c, letterSpacing: '0.01em', lineHeight: 1.1,

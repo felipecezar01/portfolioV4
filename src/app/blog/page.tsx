@@ -150,18 +150,8 @@ function PostCard({ post, lang }: { post: Post; lang: 'pt' | 'en' }) {
           flex: 1,
           minWidth: 0,
         }}>
-          {/* top: meta + title + excerpt */}
+          {/* top: title + meta + excerpt */}
           <div>
-            {/* meta */}
-            <div style={{
-              display: 'flex', alignItems: 'center', gap: '10px',
-              fontFamily: 'var(--font-mono)', fontSize: '11px',
-              color: 'var(--text3)', letterSpacing: '0.06em',
-              marginBottom: '8px',
-            }}>
-              <span>{formatDate(post.date, lang)}</span>
-            </div>
-
             {/* title */}
             <div style={{
               fontFamily: 'var(--font-cyber)',
@@ -173,6 +163,16 @@ function PostCard({ post, lang }: { post: Post; lang: 'pt' | 'en' }) {
               marginBottom: '8px',
             }}>
               {title}
+            </div>
+
+            {/* meta */}
+            <div style={{
+              display: 'flex', alignItems: 'center', gap: '10px',
+              fontFamily: 'var(--font-mono)', fontSize: '11px',
+              color: 'var(--text3)', letterSpacing: '0.06em',
+              marginBottom: '8px',
+            }}>
+              <span>{formatDate(post.date, lang)}</span>
             </div>
 
             {/* excerpt — 3 lines max */}
@@ -257,13 +257,6 @@ export default function BlogPage() {
 
         <div className="blog-header" style={{ marginBottom: '24px' }}>
           {/* header */}
-          <div style={{
-            fontFamily: 'var(--font-mono)', fontSize: '12px',
-            color: 'var(--text3)', letterSpacing: '0.08em',
-            textTransform: 'uppercase', marginBottom: '12px',
-          }}>
-            {tx.count(posts.length)}
-          </div>
           <h1 style={{
             fontFamily: 'var(--font-cyber)', fontSize: '52px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,

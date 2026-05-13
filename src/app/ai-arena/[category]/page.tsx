@@ -31,7 +31,7 @@ const MEDAL: Record<number, { border: string; bg: string; glow: string; label: s
   3: { border: '#b45309', bg: 'color-mix(in srgb, #b45309 6%, var(--bg2))', glow: 'color-mix(in srgb, #b45309 16%, transparent)', label: '🥉', rankColor: '#b45309' },
 }
 
-function CompactCard({ entry, lang }: { entry: CategoryEntry; lang: 'pt' | 'en' }) {
+function CompactCard({ entry }: { entry: CategoryEntry }) {
   const [hovered, setHovered] = useState(false)
   const [imgFailed, setImgFailed] = useState(false)
   const medal = MEDAL[entry.rank]
@@ -184,20 +184,6 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
 
         {/* ── LEFT: info column ── */}
         <div>
-          {/* badge */}
-          <div style={{
-            display: 'inline-flex', alignItems: 'center', gap: '8px',
-            fontFamily: 'var(--font-mono)', fontSize: '11px',
-            color: cat.color, letterSpacing: '0.1em', textTransform: 'uppercase',
-            border: `0.5px solid color-mix(in srgb, ${cat.color} 30%, transparent)`,
-            background: `color-mix(in srgb, ${cat.color} 8%, transparent)`,
-            padding: '4px 12px', borderRadius: '4px',
-            marginBottom: '20px',
-          }}>
-            <span>{cat.icon}</span>
-            <span>AI Arena</span>
-          </div>
-
           <h1 style={{
             fontFamily: 'var(--font-cyber)', fontSize: '36px', fontWeight: 800,
             color: 'var(--text)', letterSpacing: '0.01em', lineHeight: 1.1,
@@ -257,7 +243,7 @@ export default function CategoryPage({ params }: { params: Promise<{ category: s
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
             {cat.entries.map(entry => (
-              <CompactCard key={entry.id} entry={entry} lang={lang} />
+              <CompactCard key={entry.id} entry={entry} />
             ))}
           </div>
         </div>
