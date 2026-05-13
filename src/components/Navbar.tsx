@@ -28,6 +28,12 @@ const EXPLORE_LINKS = [
     description: { pt: 'Posts técnicos e experimentos.', en: 'Technical posts and experiments.' },
   },
   {
+    href: '/cultura-tech',
+    color: PURPLE,
+    title: { pt: 'Cultura Tech', en: 'Tech Culture' },
+    description: { pt: 'Sites, livros, canais e referências.', en: 'Sites, books, channels and references.' },
+  },
+  {
     href: '/historia-da-tecnologia',
     color: 'var(--gold)',
     title: { pt: 'História da Tecnologia', en: 'History of Technology' },
@@ -81,7 +87,7 @@ export default function Navbar() {
   }, [])
 
   const isDark = !mounted || resolvedTheme === 'dark'
-  const editorialPrefixes = ['/blog', '/historia-da-tecnologia', '/ai-arena', '/carreira-tech']
+  const editorialPrefixes = ['/blog', '/cultura-tech', '/historia-da-tecnologia', '/ai-arena', '/carreira-tech']
   const isEditorialArea = editorialPrefixes.some(prefix => pathname === prefix || (pathname?.startsWith(`${prefix}/`) ?? false))
   const showPortfolioLinks = !isEditorialArea
   const showBlogShortcut = !isEditorialArea
