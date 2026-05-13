@@ -34,6 +34,37 @@ function DescriptionText({ text }: { text: string }) {
 }
 
 function EntryList({ items, lang, color }: { items: CulturaTechItem[]; lang: Lang; color: string }) {
+  function renderTitle(item: CulturaTechItem, size = '20px') {
+    return item.href ? (
+      <a
+        href={item.href}
+        target="_blank"
+        rel="noreferrer"
+        style={{
+          color,
+          fontFamily: 'var(--font-cyber)',
+          fontSize: size,
+          fontWeight: 800,
+          lineHeight: 1.25,
+          textDecoration: 'underline',
+          textUnderlineOffset: '5px',
+        }}
+      >
+        {item.title[lang]} <span aria-hidden="true">↗</span>
+      </a>
+    ) : (
+      <strong style={{
+        color,
+        fontFamily: 'var(--font-cyber)',
+        fontSize: size,
+        fontWeight: 800,
+        lineHeight: 1.25,
+      }}>
+        {item.title[lang]}
+      </strong>
+    )
+  }
+
   return (
     <ol style={{
       listStyle: 'none',
@@ -64,34 +95,7 @@ function EntryList({ items, lang, color }: { items: CulturaTechItem[]; lang: Lan
           </span>
 
           <div>
-            {item.href ? (
-              <a
-                href={item.href}
-                target="_blank"
-                rel="noreferrer"
-                style={{
-                  color,
-                  fontFamily: 'var(--font-cyber)',
-                  fontSize: '20px',
-                  fontWeight: 800,
-                  lineHeight: 1.25,
-                  textDecoration: 'underline',
-                  textUnderlineOffset: '5px',
-                }}
-              >
-                {item.title[lang]} <span aria-hidden="true">↗</span>
-              </a>
-            ) : (
-              <strong style={{
-                color,
-                fontFamily: 'var(--font-cyber)',
-                fontSize: '20px',
-                fontWeight: 800,
-                lineHeight: 1.25,
-              }}>
-                {item.title[lang]}
-              </strong>
-            )}
+            {renderTitle(item)}
 
             <p style={{
               fontFamily: 'var(--font-mono)',
@@ -102,6 +106,51 @@ function EntryList({ items, lang, color }: { items: CulturaTechItem[]; lang: Lan
             }}>
               {item.description[lang]}
             </p>
+
+            {item.subItems && (
+              <ol style={{
+                listStyle: 'none',
+                padding: 0,
+                margin: '18px 0 0',
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '16px',
+              }}>
+                {item.subItems.map((subItem, subIndex) => (
+                  <li
+                    key={`${subItem.title[lang]}-${subIndex}`}
+                    style={{
+                      display: 'grid',
+                      gridTemplateColumns: '48px 1fr',
+                      gap: '10px',
+                      paddingTop: '14px',
+                      borderTop: '0.5px solid var(--border)',
+                    }}
+                  >
+                    <span style={{
+                      fontFamily: 'var(--font-mono)',
+                      fontSize: '12px',
+                      color,
+                      lineHeight: 1.7,
+                    }}>
+                      {index + 1}.{subIndex + 1}
+                    </span>
+                    <div>
+                      {renderTitle(subItem, '16px')}
+                      <p style={{
+                        fontFamily: 'var(--font-mono)',
+                        fontSize: '12px',
+                        color: 'var(--text2)',
+                        lineHeight: 1.7,
+                        margin: '8px 0 0',
+                      }}>
+                        {subItem.description[lang]}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            )}
           </div>
         </li>
       ))}
