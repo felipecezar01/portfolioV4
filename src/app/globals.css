@@ -420,6 +420,13 @@ body {
   }
 }
 
+/* ── Cultura Tech ── */
+@media (max-width: 640px) {
+  .culture-shell {
+    padding: 36px 18px 72px !important;
+  }
+}
+
 /* ── Projetos ── */
 @media (max-width: 768px) {
   .projetos-grid {
