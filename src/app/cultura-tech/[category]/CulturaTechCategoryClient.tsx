@@ -38,16 +38,18 @@ function EntryList({
   lang,
   color,
   showHrefAsTitle = false,
+  showHrefBelowTitle = false,
 }: {
   items: CulturaTechItem[]
   lang: Lang
   color: string
   showHrefAsTitle?: boolean
+  showHrefBelowTitle?: boolean
 }) {
   function renderTitle(item: CulturaTechItem, size = showHrefAsTitle && item.href ? '14px' : '18px') {
     const label = showHrefAsTitle && item.href ? item.href : item.title[lang]
 
-    return item.href ? (
+    return item.href && !showHrefBelowTitle ? (
       <a
         href={item.href}
         target="_blank"
@@ -76,6 +78,33 @@ function EntryList({
       }}>
         {item.title[lang]}
       </strong>
+    )
+  }
+
+  function renderHref(item: CulturaTechItem, size = '13px') {
+    if (!showHrefBelowTitle || !item.href) return null
+
+    return (
+      <a
+        href={item.href}
+        target="_blank"
+        rel="noreferrer"
+        style={{
+          color,
+          display: 'block',
+          fontFamily: 'var(--font-mono)',
+          fontSize: size,
+          fontWeight: 600,
+          lineHeight: 1.5,
+          marginTop: '8px',
+          textDecoration: 'underline',
+          textUnderlineOffset: '5px',
+          overflowWrap: 'anywhere',
+          wordBreak: 'break-word',
+        }}
+      >
+        {item.href} <span aria-hidden="true">↗</span>
+      </a>
     )
   }
 
@@ -110,13 +139,14 @@ function EntryList({
 
           <div>
             {renderTitle(item)}
+            {renderHref(item)}
 
             <p style={{
               fontFamily: 'var(--font-mono)',
               fontSize: '13px',
               color: 'var(--text2)',
               lineHeight: 1.75,
-              margin: '10px 0 0',
+              margin: showHrefBelowTitle && item.href ? '8px 0 0' : '10px 0 0',
             }}>
               {item.description[lang]}
             </p>
@@ -151,12 +181,13 @@ function EntryList({
                     </span>
                     <div>
                       {renderTitle(subItem, showHrefAsTitle && subItem.href ? '12px' : '15px')}
+                      {renderHref(subItem, '12px')}
                       <p style={{
                         fontFamily: 'var(--font-mono)',
                         fontSize: '12px',
                         color: 'var(--text2)',
                         lineHeight: 1.7,
-                        margin: '8px 0 0',
+                        margin: showHrefBelowTitle && subItem.href ? '6px 0 0' : '8px 0 0',
                       }}>
                         {subItem.description[lang]}
                       </p>
@@ -175,6 +206,8 @@ function EntryList({
 export default function CulturaTechCategoryClient({ category }: { category: CulturaTechCategory }) {
   const { lang } = useLang()
   const tx = t[lang]
+  const showHrefAsTitle = category.slug === 'sites' || category.slug === 'canais-youtube'
+  const showHrefBelowTitle = category.slug === 'influencers'
 
   return (
     <main style={{ minHeight: '100vh', background: 'var(--bg)', paddingTop: '56px' }}>
@@ -247,7 +280,8 @@ export default function CulturaTechCategoryClient({ category }: { category: Cult
                     items={section.items}
                     lang={lang}
                     color={category.color}
-                    showHrefAsTitle={category.slug === 'sites'}
+                    showHrefAsTitle={showHrefAsTitle}
+                    showHrefBelowTitle={showHrefBelowTitle}
                   />
                 </div>
               </details>
@@ -258,7 +292,8 @@ export default function CulturaTechCategoryClient({ category }: { category: Cult
             items={category.items ?? []}
             lang={lang}
             color={category.color}
-            showHrefAsTitle={category.slug === 'sites'}
+            showHrefAsTitle={showHrefAsTitle}
+            showHrefBelowTitle={showHrefBelowTitle}
           />
         )}
       </div>
