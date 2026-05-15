@@ -185,15 +185,10 @@ const extraSiteItems: CulturaTechItem[] = [
 ]
 
 const youtubeChannelItems: CulturaTechItem[] = [
-  siteItem('https://www.youtube.com/@3blue1brown', 'https://www.youtube.com/@3blue1brown', 'Visualizações matemáticas muito boas para entender algoritmos, redes neurais e conceitos abstratos.'),
   siteItem('https://www.youtube.com/@a16z', 'https://www.youtube.com/@a16z', 'Startups, mercado, venture capital, IA e narrativas da indústria.'),
-  siteItem('https://www.youtube.com/@Acegikmo', 'https://www.youtube.com/@Acegikmo', 'Matemática para jogos, splines, shaders e visualização técnica.'),
-  siteItem('https://www.youtube.com/@Acerola_t', 'https://www.youtube.com/@Acerola_t', 'Computação gráfica, shaders, renderização e visualizações técnicas.'),
-  siteItem('https://www.youtube.com/@Alura', 'https://www.youtube.com/@Alura', 'Programação, carreira, dados, IA, tecnologia e mercado.'),
   siteItem('https://www.youtube.com/@AndrejKarpathy', 'https://www.youtube.com/@AndrejKarpathy', 'Redes neurais, LLMs, deep learning e fundamentos de IA.'),
   siteItem('https://www.youtube.com/@ArjanCodes', 'https://www.youtube.com/@ArjanCodes', 'Python moderno, arquitetura, refatoração, orientação a objetos e typing.'),
   siteItem('https://www.youtube.com/@Asianometry', 'https://www.youtube.com/@Asianometry', 'Semicondutores, chips, indústria, história da tecnologia e geopolítica tech.'),
-  siteItem('https://www.youtube.com/@attekitadev', 'https://www.youtube.com/@attekitadev', 'Mobile, iOS, Swift, carreira e desenvolvimento.'),
   siteItem('https://www.youtube.com/@awsdevelopers', 'https://www.youtube.com/@awsdevelopers', 'Conteúdo oficial da AWS para desenvolvimento e cloud.'),
   siteItem('https://www.youtube.com/@baltaio', 'https://www.youtube.com/@baltaio', 'C#, .NET, backend, carreira e desenvolvimento prático.'),
   siteItem('https://www.youtube.com/@BenEater', 'https://www.youtube.com/@BenEater', 'Constrói computadores, circuitos, CPU, memória e eletrônica na prática.'),
@@ -220,6 +215,7 @@ const youtubeChannelItems: CulturaTechItem[] = [
   siteItem('https://www.youtube.com/@FullCycle', 'https://www.youtube.com/@FullCycle', 'Arquitetura, microsserviços, Docker, Kubernetes, backend e DevOps.'),
   siteItem('https://www.youtube.com/@googlecloudtech', 'https://www.youtube.com/@googlecloudtech', 'Google Cloud, dados, IA, infraestrutura e desenvolvimento.'),
   siteItem('https://www.youtube.com/@GOTO-', 'https://www.youtube.com/@GOTO-', 'Palestras sobre engenharia de software, arquitetura, sistemas distribuídos e cultura técnica.'),
+  siteItem('https://www.youtube.com/@GutoGalego', 'https://www.youtube.com/@GutoGalego', 'Carreira em tecnologia, entrevistas, mercado, currículo, vagas e bastidores para devs.'),
   siteItem('https://www.youtube.com/@hnasr', 'https://www.youtube.com/@hnasr', 'Backend, redes, bancos, proxies, protocolos, performance e arquitetura.'),
   siteItem('https://www.youtube.com/@HuggingFace', 'https://www.youtube.com/@HuggingFace', 'Transformers, LLMs, datasets, modelos e ferramentas open source de IA.'),
   siteItem('https://www.youtube.com/@infoq', 'https://www.youtube.com/@infoq', 'Arquitetura, engenharia de software, liderança técnica, cloud e sistemas distribuídos.'),
